@@ -2,17 +2,17 @@
 
 return array(
 
-    "new_ticket"            => "New Ticket Opened",
-    "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
+    "new_ticket"            => "تیکت جدیدی باز شد",
+    "new_ticket_text"       => "تیکت جدید #:item توسط :name ایجاد شد",
 
-    "new_reply"             => "New Ticket Reply",
-    "new_reply_text"        => "A new reply has been posted by :name in ticket #:item.",
+    "new_reply"             => "یک پاسخ تیکت جدید",
+    "new_reply_text"        => "پاسخ جدیدی برای تیکت #:item توسط :name ارسال شده است.",
 
-    "operator_login"        => "Operator Logged In",
-    "operator_login_text"   => ":name has logged in to the operator panel.",
+    "operator_login"        => "ورود اوپراتور به سیستم",
+    "operator_login_text"   => ":name به پنل کاربری وارد شد.",
 
-    "failed_logins"         => "Failed Operator Logins",
-    "new_comments"          => "New Comments",
+    "failed_logins"         => "ورودهای ناموفق اوپراتورها",
+    "new_comments"          => "نظرات جدید",
 
     /*
      * 2.0.2

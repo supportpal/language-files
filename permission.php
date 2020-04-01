@@ -6,6 +6,7 @@ return array(
 
     // Core
     "apitoken"          => "Manage API Tokens",
+    "company"           => "Manage Companies",
     "emailtemplate"     => "Manage Email Templates",
     "ipban"             => "Manage IP Bans",
     "ipwhitelist"       => "Manage IP Whitelist",
@@ -36,6 +37,8 @@ return array(
     "cannedresponse"    => "Manage Canned Responses",
     "channel"           => "Manage Channels",
     "department"        => "Manage Departments",
+    "feedback"          => "Manage Feedback",
+    "feedbackform"      => "Manage Feedback Forms",
     "filter"            => "Manage Filters",
     "holiday"           => "Manage Holidays",
     "macro"             => "Manage Macros",
@@ -46,6 +49,7 @@ return array(
     "ticket_view"       => "View Tickets",
     "ticket_add"        => "Open Tickets",
     "ticket_edit"       => "Update Tickets",
+    "ticket_delete"     => "Delete Tickets",
     "ticketcustomfield" => "Manage Custom Fields",
 
     // Self-service
@@ -90,24 +94,5 @@ return array(
      */
     // Core
     "logfiles"          => "Manage Log Files",
-
-    /*
-     * 2.4.0
-     */
-    // User
-    "sociallogin"       => "Manage Social Login",
-
-    /*
-     * 2.5.0
-     */
-    // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
-
-    /*
-     * 3.0.0
-     */
-    "selfservicefeedbackform" => "Manage Feedback Forms",
-    "ticketfeedbackform"      => "Manage Feedback Forms",
 
 );
