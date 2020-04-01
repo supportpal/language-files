@@ -2,112 +2,97 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Mettre à jour les paramètres globaux",
 
     // Core
-    "apitoken"          => "Manage API Tokens",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+    "apitoken"          => "Gérer les jetons API",
+    "company"           => "Gérer compagnies",
+    "emailtemplate"     => "Gérer gabarits courriel",
+    "ipban"             => "Gérer blocages IP",
+    "ipwhitelist"       => "Gérer IP Whitelist",
+    "language"          => "Gérer langages",
+    "license"           => "Voir infos de licences",
+    "module"            => "Gérer modules",
+    "scheduledtask"     => "Gérer tâches cédulées",
+    "spamrule"          => "Gérer règles anti-spam",
+    "emaillog"          => "Voir log courriels",
+    "emailqueue"        => "Voir queue courriels",
+    "systemcleanup"     => "Vidange système",
 
     // User
-    "operatorgroup"     => "Manage Operator Groups",
-    "organisation"      => "Manage Organisations",
-    "role"              => "Manage Operator Roles",
-    "user_view"         => "View Users",
-    "user_add"          => "Add Users",
-    "user_edit"         => "Edit Users",
-    "user_delete"       => "Delete Users",
-    "usergroup"         => "Manage User Groups",
-    "massemail"         => "Send Mass Email",
-    "ldapaccount"       => "Manage LDAP Accounts",
-    "activitylog"       => "View System Activity Log",
-    "operatorlog"       => "View Operator Login Log",
+    "operatorgroup"     => "Gérer groupes d'opérateurs",
+    "organisation"      => "Gérer organisations",
+    "role"              => "Gérer rôles opérateurs",
+    "user_view"         => "Voir usagers",
+    "user_add"          => "Ajouter usagers",
+    "user_edit"         => "Éditer usagers",
+    "user_delete"       => "Effacer usagers",
+    "usergroup"         => "Gérer groupes d'usagers",
+    "massemail"         => "Envoyer campagne de courriels",
+    "ldapaccount"       => "Gérer comptes LDAP",
+    "activitylog"       => "Voir log des activités du système",
+    "operatorlog"       => "Afficher log des accès d'opérateurs",
 
     // Ticket
-    "cannedresponse"    => "Manage Canned Responses",
-    "channel"           => "Manage Channels",
-    "department"        => "Manage Departments",
-    "filter"            => "Manage Filters",
-    "holiday"           => "Manage Holidays",
-    "macro"             => "Manage Macros",
-    "priority"          => "Manage Priorities",
-    "schedule"          => "Manage Schedules",
-    "slaplan"           => "Manage SLA Plans",
-    "status"            => "Manage Statuses",
-    "ticket_view"       => "View Tickets",
-    "ticket_add"        => "Open Tickets",
-    "ticket_edit"       => "Update Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+    "cannedresponse"    => "Gérer réposnes pré-enregistrées",
+    "channel"           => "Gérer canaux",
+    "department"        => "Gérer départements",
+    "feedback"          => "Gérer feedback",
+    "feedbackform"      => "Gérer formulaires de feedback",
+    "filter"            => "Gérer filtres",
+    "holiday"           => "Gérer vacances",
+    "macro"             => "Gérer macros",
+    "priority"          => "Gérer priorités",
+    "schedule"          => "Gérer horaires",
+    "slaplan"           => "Gérer plans de service",
+    "status"            => "Gérer statuts",
+    "ticket_view"       => "Voir billets",
+    "ticket_add"        => "Ouvrir billets",
+    "ticket_edit"       => "Mettre à jour billets",
+    "ticket_delete"     => "Effacer billets",
+    "ticketcustomfield" => "Gérer champs sur mesure",
 
     // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+    "article"           => "Gérer articles",
+    "category"          => "Gérer catégories",
+    "comment"           => "Gérer commentaires",
+    "selfservicetype"   => "Gérer types",
 
     // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+    "report"            => "Voir rapports",
+    "reportdashboard"   => "Voir panneau de contrôle",
 
     // General
-    "tag"               => "Manage Tags",
+    "tag"               => "Gérer libellés",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "View Plugins",
+    "plugin"            => "Voir plugins",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Manage Operators",
-    
+    "operator"          => "Gérer opérateurs",
+
     /*
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "brand"             => "Gérer marques",
+    "phpinfo"           => "Voir info PHP",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield"   => "Gérer champs usagers sur mesure",
+    "organisationcustomfield" => "Gérer champ d'organisations sur mesure",
+    "operatorsignature" => "Gérer signatures opérateurs",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
-
-    /*
-     * 2.4.0
-     */
-    // User
-    "sociallogin"       => "Manage Social Login",
-
-    /*
-     * 2.5.0
-     */
-    // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
-
-    /*
-     * 3.0.0
-     */
-    "selfservicefeedbackform" => "Manage Feedback Forms",
-    "ticketfeedbackform"      => "Manage Feedback Forms",
+    "logfiles"          => "Gérer logs",
 
 );
