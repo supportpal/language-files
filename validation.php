@@ -13,74 +13,78 @@ return array(
     |
     */
 
-    "accepted"                  => "The :attribute must be accepted.",
-    "active_url"                => "The :attribute is not a valid URL.",
-    "after"                     => "The :attribute must be a date after :date.",
-    "alpha"                     => "The :attribute may only contain letters.",
-    "alpha_dash"                => "The :attribute may only contain letters, numbers, dashes and underscores.",
-    "alpha_num"                 => "The :attribute may only contain letters and numbers.",
-    "array"                     => "The :attribute must be an array.",
-    "before"                    => "The :attribute must be a date before :date.",
+    "accepted"                  => ":attribute muss akzeptiert werden.",
+    "active_url"                => ":attribute ist keine gültige URL.",
+    "after"                     => ":attribute muss ein Datum nach :date sein.",
+    "alpha"                     => ":attribute darf nur Buchstaben enthalten.",
+    "alpha_dash"                => ":attribute darf nur Buchstaben, Zahlen und Bindestriche enthalten.",
+    "alpha_num"                 => ":attribute darf nur Buchstaben und Zahlen enthalten.",
+    "array"                     => ":attribute muss ein Array sein.",
+    "before"                    => ":attribute muss ein Datum vor :date sein.",
     "between"                   => array(
-        "numeric" => "The :attribute must be between :min and :max.",
-        "file"    => "The :attribute must be between :min and :max kilobytes.",
-        "string"  => "The :attribute must be between :min and :max characters.",
-        "array"   => "The :attribute must have between :min and :max items.",
+        "numeric" => ":attribute muss zwischen :min und :max liegen.",
+        "file"    => ":attribute muss zwischen :min und :max kilobytes liegen.",
+        "string"  => ":attribute muss zwischen :min und :max characters liegen.",
+        "array"   => ":attribute muss zwischen :min und :max Elementen liegen.",
     ),
-    "boolean"                   => "The :attribute field must be true or false.",
-    "confirmed"                 => "The :attribute confirmation does not match.",
-    "date"                      => "The :attribute is not a valid date.",
-    "date_format"               => "The :attribute does not match the format :format.",
-    "different"                 => "The :attribute and :other must be different.",
-    "digits"                    => "The :attribute must be :digits digits.",
-    "digits_between"            => "The :attribute must be between :min and :max digits.",
-    "email"                     => "The :attribute must be a valid email address.",
-    "exists"                    => "The selected :attribute is invalid.",
-    "image"                     => "The :attribute must be an image.",
-    "in"                        => "The selected :attribute is invalid.",
-    "integer"                   => "The :attribute must be an integer.",
-    "ip"                        => "The :attribute must be a valid IP address.",
+    "boolean"                   => ":attribute muss \"true\" oder \"false\" sein.",
+    "confirmed"                 => ":attribute confirmation does not match.",
+    "date"                      => ":attribute ist kein gültiges Datum.",
+    "date_format"               => ":attribute stimmt nicht mit dem Format :format überein. ",
+    "different"                 => ":attribute und :other müssen unterschiedlich sein.",
+    "digits"                    => ":attribute muss :digits Zeichen enthalten.",
+    "digits_between"            => ":attribute muss zwischen :min und :max Zeichen liegen.",
+    "email"                     => ":attribute muss eine gültige E-Mail-Adresse enthalten.",
+    "exists"                    => "Das ausgewählte :attribute ist ungültig.",
+    "image"                     => ":attribute muss ein Bild sein.",
+    "in"                        => "Das ausgewählte :attribute ist ungültig.",
+    "integer"                   => ":attribute muss ein \"integer\" sein.",
+    "ip"                        => ":attribute must eine gültige IP sein.",
     "max"                       => array(
-        "numeric" => "The :attribute may not be greater than :max.",
-        "file"    => "The :attribute may not be greater than :max kilobytes.",
-        "string"  => "The :attribute may not be greater than :max characters.",
-        "array"   => "The :attribute may not have more than :max items.",
+        "numeric" => ":attribute darf nicht größer sein als :max.",
+        "file"    => ":attribute darf nicht größer sein als :max kilobytes.",
+        "string"  => ":attribute darf nicht größer sein als :max characters.",
+        "array"   => ":attribute darf nicht mehr als :max Elemente enthalten.",
     ),
-    "mimes"                     => "The :attribute must be a file of type: :values.",
+    "mimes"                     => ":attribute muss eine Datei folgendes Typs sein: :values.",
     "min"                       => array(
-        "numeric" => "The :attribute must be at least :min.",
-        "file"    => "The :attribute must be at least :min kilobytes.",
-        "string"  => "The :attribute must be at least :min characters.",
-        "array"   => "The :attribute must have at least :min items.",
+        "numeric" => ":attribute muss mindestens :min sein.",
+        "file"    => ":attribute muss mindestens :min kilobytes groß sein.",
+        "string"  => ":attribute muss mindestens :min Zeichen enthalten.",
+        "array"   => ":attribute muss mindestens :min Elemente enthalten.",
     ),
-    "not_in"                    => "The selected :attribute is invalid.",
-    "numeric"                   => "The :attribute must be a number.",
-    "regex"                     => "The :attribute format is invalid.",
-    "required"                  => "The :attribute field is required.",
-    "required_if"               => "The :attribute field is required when :other is :value.",
-    "required_with"             => "The :attribute field is required when :values is present.",
-    "required_with_all"         => "The :attribute field is required when :values is present.",
-    "required_without"          => "The :attribute field is required when :values is not present.",
-    "required_without_all"      => "The :attribute field is required when none of :values are present.",
-    "same"                      => "The :attribute and :other must match.",
+    "not_in"                    => ":attribute ist ungültig.",
+    "numeric"                   => ":attribute muss eine Zahl sein.",
+    "regex"                     => "Das Format von :attribute ist ungültig.",
+    "required"                  => ":attribute ist ein Pflichtfeld.",
+    "required_if"               => ":attribute ist ein Pflichtfeld wenn :other :value ist.",
+    "required_with"             => ":attribute ist ein Pflichtfeld wenn :values vorhanden ist.",
+    "required_with_all"         => ":attribute ist ein Pflichtfeld :values vorhanden ist.",
+    "required_without"          => ":attribute ist ein Pflichtfeld :values nicht vorhanden ist.",
+    "required_without_all"      => ":attribute ist ein Pflichtfeld wenn keines von :values vorhanden ist.",
+    "same"                      => ":attribute and :other must match.",
     "size"                      => array(
-        "numeric" => "The :attribute must be :size.",
-        "file"    => "The :attribute must be :size kilobytes.",
-        "string"  => "The :attribute must be :size characters.",
-        "array"   => "The :attribute must contain :size items.",
+        "numeric" => ":attribute muss :size groß sein.",
+        "file"    => ":attribute muss :size kilobytes groß sein.",
+        "string"  => ":attribute must :size Zeichen lang sein.",
+        "array"   => ":attribute must :size Elemente.",
     ),
-    "unique"                    => "The :attribute has already been taken.",
-    "url"                       => "The :attribute format is invalid.",
-    "template_exists"           => "The selected :attribute is invalid.",
-    "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_length"      => "The password must be equal to or longer than :user_password_length characters.",
-    "operator_password_length"  => "The password must be equal to or longer than :operator_password_length characters.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "unique"                    => ":attribute wurde schon benutzt.",
+    "url"                       => ":attribute hast ein ungültiges Format.",
+    "timezone"                  => ":attribute muss eine gültige Zone sein.",
+    "template_exists"           => ":attribute ist kein gültiges Template.",
+    "is_valid_captcha"          => "Der eingegebene Captcha ist ungültig oder Sie haben sich vertippt. Bitte probieren Sie es noch einmal.",
+    "user_password_length"      => "Das Passwort muss mindestens :user_password_length Zeichen enthalten.",
+    "operator_password_length"  => "Das Passwort muss mindestens :operator_password_length Zeichen enthalten.",
+    "json"                      => ":attribute muss gültiges JSON sein.",
+    "user_password_strength"    => ":attribute must contain: :user_password_strength.",
+    "operator_password_strength"=> ":attribute must contain: :operator_password_strength.",
+    "twig_lint"                 => "The :attribute must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
      */
+    "in_array"                  => "The :attribute field does not exist in :other.",
     "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
 
     /*
@@ -96,80 +100,6 @@ return array(
     "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
 
     /*
-     * 2.3.0
-     */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
-    "customfield_not_cyclic"    => "The field cannot depend on one of its children.",
-
-    /*
-     * 2.3.1
-     */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
-
-    /*
-     * 2.4.0
-     */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
-    "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
-    ),
-    "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
-    ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
-    "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
-    ),
-    "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
-    ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
-
-    /*
-     * 2.5.0
-     */
-    "domain"                    => "One or more of the domain names are not valid.",
-
-    /*
-     * 2.5.1
-     */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
-
-    /*
-     * 3.0.0
-     */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
-
-    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------
@@ -181,18 +111,43 @@ return array(
     */
 
     "custom" => array(
+        "data.*.subject" => array(
+            "required" => "Ein Betreff muss bei jeder angegebene E-Mail vorhanden sein."
+        ),
+        "data.*.contents" => array(
+            "required"  => "Ein Inhalt muss bei jeder angegebene E-Mail vorhanden sein.",
+            "twig_lint" => "Each email must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
+        ),
         "roles.*" => array(
-            "exists" => "The selected role is invalid.",
+            "exists" => "Die ausgewählte Rolle ist ungültig.",
         ),
         "category.*.type" => array(
             "required" => "One or more self-service types must be selected.",
         ),
         "category.*.categories" => array(
-            "required" => "One or more categories are required when a self-service type has been selected.",
+            'required' => "One or more categories are required when a self-service type has been selected.",
             "exists"   => "One or more of the selected categories is invalid.",
         ),
         "brand.*" => array(
             "exists" => "The selected brand is invalid.",
+        ),
+        "signature.Default.*.department" => array(
+            "exists" => "Each signature must belong to a valid department.",
+        ),
+        "signature.Default.*.contents" => array(
+            "twig_lint" => "Each signature must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
+        ),
+        "template.Default.*.language" => array(
+            "exists" => "Each template must belong to a valid language.",
+        ),
+        "template.Default.*.subject" => array(
+            "min" => "Each email template subject must be greater than 1 character.",
+            "max" => "Each email template subject must be less than 255 characters.",
+        ),
+        "template.Default.*.contents" => array(
+            "required_with" => "Each email template requires content when a subject is present.",
+            "min" => "Each email template must be greater than 1 character.",
+            "twig_lint" => "Each email template must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
         ),
     ),
 

@@ -2,75 +2,85 @@
 
 return array(
 
-    "feedback_question"         => "Question to be shown to the user.",
-    "open_new"                  => "Open New Ticket",
-    "select_department"         => "Select a Department",
-    "select_department_desc"    => "Please click on the relevant department for your issue below.",
-    "no_departments"            => "No departments found.",
-    "department_user_details"   => "Department and User Details",
-    "enter_your_details"        => "Enter your details",
-    "enter_ticket_details"      => "Enter Details",
-    "enter_subject_message"     => "Enter Subject and Message",
+    "feedback_question"         => "Frage, die dem Benutzer angezeigt wird.",
+    "open_new"                  => "Ticket erstellen",
+    "select_department"         => "Abteilung wählen",
+    "select_department_desc"    => "Bitte wählen Sie eine passende Abteilung für Ihr Anliegen aus.",
+    "no_departments"            => "Keine Abteilungen gefunden.",
+    "department_user_details"   => "Abteilungen und Kunde",
+    "enter_your_details"        => "Geben Sie Ihre Kontaktdaten ein",
+    "enter_ticket_details"      => "Details",
+    "enter_subject_message"     => "Betreff und Nachricht",
     "invalid_user"              => "Please ensure valid user details have been entered to continue.",
 
     "registered_users"          => "Registered Users Only",
+    "registered_users_desc"     => "Toggle to only import tickets from users with an account in the help desk.",
 
     "tickets"                   => "Ticket(s)",
     "ticket"                    => "Ticket|Tickets",
-    "subject"                   => "Subject",
-    "no_subject"                => "No Subject",
-    "last_action"               => "Last Action",
-    "due_time"                  => "Due Time",
-    "created_time"              => "Created Time",
-    "submitted"                 => "Submitted",
-    "ticket_reply"              => "Ticket Reply",
-    "ticket_note"               => "Ticket Note",
-    "ticket_type"               => "Ticket Type",
+    "subject"                   => "Betreff",
+    "no_subject"                => "Betreff fehlt",
+    "last_action"               => "letzte Aktivität",
+    "due_time"                  => "Fertigstellung",
+    "created_time"              => "Erstellungsdatum",
+    "submitted"                 => "Übertragen",
+    "add_reply"                 => "Antwort hinzufügen",
+    "ticket_reply"              => "Ticketanwort",
+    "ticket_note"               => "Ticketnotiz",
+    "ticket_type"               => "Ticketart",
 
-    "user_ticket"               => "User Ticket",
-    "user_ticket_desc"          => "Open new ticket on behalf of a new or existing user.",
-    "existing_user"             => "Existing User",
-    "new_user"                  => "New User",
-    "internal"                  => "Internal",
-    "internal_ticket_desc"      => "Open a ticket for internal use only. This ticket will be associated with you, rather than a user.",
-    "ticket_opened"             => "Your ticket has successfully been opened.",
-    "enter_user_details"        => "Please enter your details below, or login to your account if you have one.",
-    "already_have_account"      => "You already have an account, please login and then open the ticket. Please use the forgot password feature if you cannot remember your login.",
+    "user_ticket"               => "Benutzerticket",
+    "user_ticket_desc"          => "Ein neues Ticket im Namen eines neuen oder bestehenden Benutzer erstellen.",
+    "existing_user"             => "Bestehender Benutzer",
+    "new_user"                  => "Neuer Benutzer",
+    "internal"                  => "Intern",
+    "internal_ticket"           => "Internes Ticket",
+    "internal_ticket_desc"      => "Erstellt ein Ticket für den internen Gebrauch. Das Ticket wird Ihnen zugewiesen.",
+    "ticket_opened"             => "Ihr Ticket wurde erfolgreich erstellt.",
+    "enter_user_details"        => "Bitte geben Sie Ihre Informationen ein, oder melden sich mit Ihrem bestehenden Konto an.",
+    "already_have_account"      => "Sie haben bereits ein Benutzerkonto. Bitte melden Sie sich mit diesem an und eröffnen dann ein Ticket.",
 
-    "recent_tickets"            => "Recent Tickets",
-    "last_message_text"         => "Last Message Text",
+    "recent_tickets"            => "kürzlich eingereichte Tickets",
+    "last_message_text"         => "Letzte Nachricht",
 
-    "set_due_time"              => "Set a due time",
+    "set_due_time"              => "Fertigstellungsdatum eintragen",
 
-    "settings"                  => "Ticket Settings",
+    "settings"                  => "Ticketeinstellungen",
 
-    "priority"                  => "Priority|Priorities",
+    "priority"                  => "Priorität|Prioritäten",
 
-    "channel"                   => "Channel|Channels",
-    "account"                   => "Account|Accounts",
+    "channel"                   => "Kanal|Kanäle",
+    "account"                   => "Benutzerkonto|Benuterkonten",
 
-    "assign_operator"           => "Assign Operator",
-    "assigned_operator"         => "Assigned Operators",
-    "assigned_to"               => "Assigned To",
-    "assigned"                  => "Assigned",
+    "assign_operator"           => "Mitarbeiter zuweisen",
+    "assigned_operator"         => "zuständiger Mitarbeiter",
+    "assigned_to"               => "zugewiesen an",
+    "assigned"                  => "zugewiesen",
 
-    "department"                => "Department|Departments",
+    "department"                => "Abeiltung|Abteilungen",
     "change_department_order"   => "Drag the rows to change the order that departments are shown to users when opening a new ticket.",
-    "department_applicable"     => "Applicable Departments",
+    "department_order"          => "Reihenfolge der Abteilungen",
+    "department_applicable"     => "auswählbare Abteilungen",
     "department_applicable_desc" => "The departments in which the priority will be available for users to select. Only applies to the frontend, all priorities will be available to operators for all departments.",
 
-    "send_now"                  => "Send now",
+    "due_to_be_sent"            => "Due to be sent",
+    "send_now"                  => "Jetzt senden",
 
-    "tag"                       => "Tag|Tags",
+    "tag"                       => "Stichwort|Stichwörter",
 
-    "track_ticket"              => "Track Ticket",
-    "view_ticket"               => "View Ticket",
+    "track_ticket"              => "Ticket verfolgen",
+    "view_ticket"               => "Ticket anzeigen",
 
     // Recent activity
     "recent_activity"           => "Recent Activity",
+    "no_recent_activity"        => "No recent activity",
+
+    // Active operators
+    "active_operators"          => "Active Operators",
 
     "ticket_number"             => "Ticket Number",
     "ticket_format"             => "Ticket Number Format",
+    "ticket_format_desc"        => "The following variables may be used:<br />%S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     // Departments
     "department_public_desc"    => "If the department is visible to users on the web help desk.",
@@ -103,11 +113,16 @@ return array(
 
     // Department email options
     "email_options"             => "Email Options",
+    "email_auto_close"          => "Email Users on Ticket Auto-Close",
+    "email_auto_close_desc"     => "Select whether users should be emailed when tickets belonging to them are automatically closed by the system.",
+    "email_closed_by_operator"  => "Email Users when Ticket Closed by Operator",
+    "email_closed_by_op_desc"   => "Select whether users should be emailed when tickets belonging to them are closed by an operator.",
     "email_user_on_email"       => "Email Users on Tickets Opened by Email",
     "email_user_on_email_desc"  => "Select whether users should be notified by email when an email they send results in a new ticket being opened.",
     "email_operators"           => "Notify Operators",
     "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
     // Department email templates
+    "new_ticket_reply"          => "New Ticket Reply",
     "new_ticket_opened"         => "New Ticket Opened",
     "reply_to_locked"           => "Reply to Locked Ticket",
     "waiting_for_response"      => "Waiting for Response",
@@ -118,6 +133,7 @@ return array(
     "feedback"                  => "Feedback",
     "feedback_form"             => "Feedback Form|Feedback Forms",
     "feedback_form_desc"        => "Feedback forms are processed in the order they appear. Drag the rows to reorder and adjust the priority of the feedback forms.",
+    "view_feedback_report"      => "View Feedback Report",
     "view_feedback"             => "View Feedback",
     "ticket_feedback"           => "Ticket Feedback",
     "feedback_fields_error"     => "There was a problem fetching the feedback fields.",
@@ -128,10 +144,16 @@ return array(
     "form_conditions"           => "Form Conditions",
     "form_conditions_desc"      => "Define the ticket conditions for which newly resolved tickets are checked to see if they fall under this form. If a resolved ticket fits multiple forms, it will be selected on the form priority, which can be modified by going to the list of forms and reordering.",
     "form_fields"               => "Form Fields",
+    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here.",
+    "response_rate"             => "Response Rate",
+    "sent_forms"                => "Sent Feedback Forms",
     "rating"                    => "Rating",
+    "good_ratings"              => "Good Ratings",
+    "bad_ratings"               => "Bad Ratings",
+    "customer_satisfaction"     => "Customer Satisfaction",
     "feedback_desc"             => "Thank you for contacting us and we hope we have resolved your query. Please could you rate your experience below.",
-    "good_satisfied"            => "Good, I'm satisfied",
-    "bad_not_satisfied"         => "Bad, I'm unsatisfied",
+    "good_satisfied"            => "Good, I'm satisifed",
+    "bad_not_satisfied"         => "Bad, I'm unsatisifed",
     "feedback_not_found"        => "Your feedback could not be accepted, please open a ticket with us if you wish to share your feedback.",
     "feedback_malformed_token"  => "Your feedback could not be accepted due to a malformed token. Please open a ticket with us if you wish to share your feedback.",
     "feedback_already_done"     => "You have already provided your feedback for this ticket, thank you.",
@@ -147,21 +169,34 @@ return array(
 
     // Canned responses
     "cannedresponse"            => "Canned Response|Canned Responses",
+    "canned_response_category"  => "Canned Response Category|Canned Response Categories",
+    "response"                  => "Response",
+    "canned_public_desc"        => "Toggle to only let the canned response be accessible by yourself.",
+    "canned_group_desc"         => "If you wish to make the canned response visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Filters
     "filter"                    => "Filter|Filters",
     "filter_condition"          => "Filter Conditions",
-    "filter_condition_desc"     => "Define the conditions for which tickets are listed under this filter.",
+    "filter_condition_desc"     => "Define the ticket conditions for which tickets are listed under this filter.",
+    "filter_public_desc"        => "Toggle to only let the filter be accessible by yourself.",
+    "filter_group_desc"         => "If you wish to make the filter visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Macros
     "macro"                     => "Macro|Macros",
+    "macro_type"                => "Macro Type",
+    "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
+    "manual"                    => "Manual",
+    "macro_type_auto1"          => "Automatic - On new tickets only",
+    "macro_type_auto2"          => "Automatic - All tickets (scheduled task)",
     "macro_condition"           => "Macro Conditions",
+    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets.",
     "macro_action"              => "Macro Actions",
     "macro_action_desc"         => "Define actions that are performed out when a macro is carried out. Please ensure actions are valid for the department the ticket is in or else they will be ignored.",
 
     "from"                      => "From",
     "to"                        => "To",
     "cc"                        => "CC",
+    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses above.",
 
     "allowed_files"             => "Allowed Attachment File Types",
 
@@ -187,6 +222,8 @@ return array(
 
     // Holidays
     "holiday"                   => "Holiday|Holidays",
+    "all_holidays"              => "All Holidays",
+    "specific_holidays"         => "Specific Holidays",
     "holiday_or_on_the"         => "or, on the",
     "holiday_month_year_desc"   => "Year is optional if the holiday is recurring. Select a year only if the holiday happens on this date in a particular year.",
 
@@ -224,6 +261,7 @@ return array(
     "set_status"                => "Set Status",
     "add_selfservice_link"      => "Add Self-Service Link",
     "search_selfservice"        => "Search for a self-service article",
+    "add_canned_response"       => "Add Canned Response",
     "search_canned"             => "Search for a canned response",
 
     "mark_resolved"             => "Mark as Resolved",
@@ -233,19 +271,20 @@ return array(
     "default_open_status"       => "Default Open Status",
 
     "default_resolve_status"    => "Default Resolved Status",
-    "default_resolve_status_desc" => "Select the default status that is used for tickets that have been resolved.",
+    "default_resolve_status_desc"=> "Select the default status that is used for tickets that have been resolved.",
 
-    "waiting_response_time"      => "Waiting for Response Email",
-    "waiting_response_time_desc" => "The time after which users are sent an email on inactive tickets, asking if they consider the ticket to be resolved. Set to 0 to disable this email.",
+    "waiting_response_time"     => "Waiting for Response Email",
+    "waiting_response_time_desc"=> "The time after which users are sent an email on inactive tickets, asking if they consider the ticket to be resolved. Set to 0 to disable this email.",
 
     "close_inactive_tickets"    => "Close Inactive Tickets",
-    "close_inactive_tickets_desc" => "The time after which inactive tickets are automatically closed, set to 0 to never close tickets automatically.",
+    "close_inactive_tickets_desc"=> "The time after which inactive tickets are automatically closed, set to 0 to never close tickets automatically.",
+    "close_inactive_status_desc"=> "Automatically close tickets that have become inactive without a follow up from the user (defined by the number of days since the last reply by an operator in the ticket general settings).",
 
     "ticket_reply_order"        => "Ticket Reply Order",
     "ticket_reply_order_desc"   => "Select the order in which ticket messages are shown, ascending where the latest message is last or descending where the latest message is first.",
 
     "ticket_notes_position"     => "Ticket Notes Position",
-    "ticket_notes_position_desc" => "Select where in the ticket view that ticket notes are shown.",
+    "ticket_notes_position_desc"=> "Select where in the ticket view that ticket notes are shown.",
     "ticket_notes_top_messages" => "At top and in messages",
     "ticket_notes_top"          => "At top only",
     "ticket_notes_messages"     => "In messages only",
@@ -267,6 +306,7 @@ return array(
     "default_priority_desc"     => "The default priority set on all incoming tickets via this channel.",
     "verbose_email_log"         => "Verbose Email Log",
 
+    "adjust_columns"            => "Adjust Columns",
     "last_reply"                => "Last Reply",
     "opened_at"                 => "Opened At",
 
@@ -286,18 +326,25 @@ return array(
     "merged"                    => "Merged",
     "unmerge"                   => "Unmerge",
     "close_and_lock"            => "Close & Lock",
+    "delete_and_block"          => "Delete & Block",
+
+    "block_warning"             => "The user's email will also be blocked and no longer able to open tickets.",
 
     "mass_reply"                => "Mass Reply",
+
+    "delete_warning"            => "Once these tickets have been deleted, they cannot be recovered.",
 
     "due_today"                 => "Due Today",
     "overdue"                   => "Overdue",
     "unassigned"                => "Unassigned",
 
     "pause_duetime_desc"        => "If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
+    "delete_follow_up"          => "Delete Follow Up",
 
     "add_cc"                    => "Add CC",
     "reply_above_line"          => "Please reply above this line",
 
+    "oauth2_token"              => "OAuth2 Token",
     "email_settings"            => "Email Settings",
     "web_settings"              => "Web Settings",
     "split_selected_replies"    => "Split Selected Replies",
@@ -318,14 +365,15 @@ return array(
      */
     "no_operator_groups"        => "No operator groups found. Click <a href=':route'>here</a> to create one.",
     "no_user_groups"            => "No user groups found. Click <a href=':route'>here</a> to create one.",
-    "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='https://docs.supportpal.com/current/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
-
+    "opened_by"                 => "(Opened by :name)",
+    "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
+    "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
     /*
      * 2.0.3
      */
     "department_consume_all"    => "By default, SupportPal has email alias support and will check the TO address on incoming email to see which department the ticket should be opened in, a ticket is not opened if a matching department email address cannot be found. Enabling this setting will mean all emails without a matching department email address are imported as tickets in this department.",
     "default_reply_options"     => "Default Reply Options",
-    "default_reply_options_desc" => "Select the default reply options to be set when opening or replying to a ticket. The ':reply_option' option will be ticked based on the ':department_option' department setting.",
+    "default_reply_options_desc"=> "Select the default reply options to be set when opening or replying to a ticket. The ':reply_option' option will be ticked based on the ':department_option' department setting.",
     "associate_response_tag"    => "Associate canned response with a tag...",
     "canned_response_tags_desc" => "Add tags which may help finding a canned response when replying to a ticket.",
     "loading_tags"              => "Loading tags",
@@ -353,14 +401,17 @@ return array(
     "ticket_reply_order_default" => "System default will use the value that is currently selected in the ticket general settings.",
     "select_a_parent"           => "Select a parent department...",
     "select_a_department"       => "Select a department...",
+    "not_assigned_brand"        => "Sorry, you're not permitted to view tickets in this brand. If you think this has been shown in error, please contact your administrator.",
     "department_operator_desc"  => "You may also assign individual operators to the department. These operators will be in addition to any groups assigned above.",
     "department_group"          => "Department Groups",
     "department_group_desc"     => "You may assign whole operator groups to the department, recommended if your list of operators is large and/or changes frequently.",
     "ticket_other_brands"       => "Tickets in Other Brands",
     "add_for_department"        => "Add for department...",
     "record_order"              => "Drag the rows to change the order of records.",
+    "ticket_token"              => "Ticket Token",
     "reply_all"                 => "Reply All",
     "reply_without_cc"          => "Reply (without CC)",
+    "open_new_for_user"         => "Open New Ticket For User",
     "email_accounts"            => "Email Accounts",
     "add_another_email"         => "Add Another Email Address",
     "follow_up_date"            => "Follow Up Date",
@@ -406,6 +457,8 @@ return array(
     "new_ticket_note"           => "New Ticket Note",
     "email_template_desc"       => "You may select an email template other than the default to be sent to the user or operators for any of the actions below. This template will become the default for this department only.",
     "create_new_user"           => "Create new user",
+    "create_new_user_desc"      => "Create a new user and set them as the user of this ticket.",
+    "convert_user_ticket_desc"  => "The ticket will be converted from an internal to a user ticket.",
     "user_reply_internal_ticket" => "Not an operator. Only operators can reply to internal tickets.",
     "enter_email_address"       => "Enter email address...",
     "email_user_frontend"       => "Email Users on Tickets Opened at Frontend",
@@ -416,6 +469,7 @@ return array(
     /*
      * 2.2.0
      */
+    "macro_order"               => "Automatic macros are processed in the order they appear. Drag the rows to change the order of the macros.",
     "user_ticket_existing_desc" => "Open new ticket on behalf of an existing user.",
     "canned_response_tag"       => "Canned Response Tag|Canned Response Tags",
     "response"                  => "Response|Responses",
@@ -425,106 +479,5 @@ return array(
     "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
     "run_macro"                 => "Run Macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
-
-    /*
-     * 2.3.0
-     */
-    "registered_users_desc"     => "Toggle to only show the department to logged in users and only accept emails from users actively registered in the help desk. If enabled, a bounce back email will be sent to unregistered users who email this department, to change or disable the email please see the 'Registered Users Only' template option below.",
-    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here. The field type will be locked once the form has been completed by a user.",
-    "feedback_ratings"          => "Customer Satisfaction Ratings (affecting your Customer Satisfaction score)",
-    "email_and_other_accounts"  => "Email and other channel accounts",
-    "delete_message"            => "Delete message",
-    "linked_tickets"            => "Linked Tickets",
-    "add_linked_ticket"         => "Add Linked Ticket",
-    "create_linked_ticket"      => "Create linked ticket",
-    "copy_link"                 => "Copy link",
-    "forward_message"           => "Forward this message",
-    "forward_from_here"         => "Forward ticket from here",
-    "forward"                   => "Forward",
-    "forward_options"           => "Forward Options",
-    "forwarded_to"              => "Forwarded to",
-    "new_operator_reply"        => "New Operator Reply",
-    "new_user_reply"            => "New User Reply",
-    "add_bcc"                   => "Add BCC",
-    "at_least_one_recipient"    => "Please specify at least one recipient.",
-    "forwarded_message"         => "---------- Forwarded message ----------",
-
-    /*
-     * 2.3.1
-     */
-    "inactive_ticket_note"      => "Note: only affects tickets belonging to a status with 'Close Inactive Tickets' enabled.",
-    "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
-    "from_header_missing"       => "From: header missing from email.",
-    "move_ticket"               => "Move Ticket",
-    "move_ticket_step1"         => "Step 1: Choose a new brand to move ticket to",
-    "move_ticket_step2"         => "Step 2: Choose a department from new brand",
-    "current_record"            => "Current :record",
-    "new_record"                => "New :record",
-    "department_email"          => "Department Email",
-    "select_a_department_email" => "Select a department email...",
-    "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
-    "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
-    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
-
-    /*
-     * 2.4.0
-     */
-    "macro_enabled_desc"        => "Toggle to disable the macro and prevent it from running automatically or showing in the ticket interface.",
-    "macro_order_drag"          => "Drag the rows to change the order of the macros.",
-    "macro_order_processed"     => ":type macros are processed in the order they appear.",
-    "macro_type"                => "Macro Type",
-    "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on non-resolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
-    "macro_run_at_most"         => "Run At Most",
-    "macro_run_times"           => "times", // As in '5 times'
-    "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
-    "macro_events_desc"         => "Select one or more events that the macro should run on. The conditions set below will be checked before the macro runs.",
-    "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
-    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets. At least one condition must be defined for automatic macros.",
-    "add_remove_headers"        => "Add/Remove Headers",
-    "webhook_merge_fields"      => "Merge fields can be used in the URL and content field, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
-    "webhook_ticket_required"   => "A ticket must exist for this functionality to work.",
-    "not_permitted"             => "Sorry, you're not permitted to view the requested ticket(s). If you think this has been shown in error, please contact your administrator.",
-    "watch"                     => "Watch",
-    "unwatch"                   => "Unwatch",
-    "watching"                  => "Watching",
-    "internal_ticket"           => "Internal Ticket|Internal Tickets",
-
-    /*
-     * 2.4.1
-     */
-    "downloading"               => "Downloading...",
-    "downloading_desc"          => "If the download doesn't start automatically in a few seconds, please <a href=':href'>click here</a> to access the download URL directly.",
-
-    /*
-     * 2.5.0
-     */
-    "belonging_to"              => "(Belonging to :name)",
-    "block_user"                => "Block User",
-    "merge_tickets"             => "Merge Tickets",
-
-    /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
-
-    /*
-     * 2.6.0
-     */
-    "follow_ups"                => "Follow Ups",
-    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
-    "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
-    "status_after_running"      => "Status After Running",
-    "older_messages"            => ":count older messages",
-    "holiday_single_day"        => "Single Day",
-    "holiday_date_range"        => "Date Range",
-
-    /*
-     * 3.0.0
-     */
-    "merge_tickets_into"        => "Select ticket to merge into",
-    "search_number_or_subject"  => "Search by ticket number or subject",
-    "im_not_sure"               => "I'm not sure",
-    "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
-    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
 
 );

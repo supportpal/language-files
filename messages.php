@@ -2,98 +2,108 @@
 
 return array(
 
-    "deleted"               => "Deleted!",
-    "success"               => "Success",
-    "error"                 => "Error",
-    "in_progress"           => "In Progress",
+    "deleted"               => "Gelöscht!",
+    "success"               => "Erfolgreich",
+    "error"                 => "Fehler",
+    "in_progress"           => "In Arbeit",
 
     "save_order"            => "Attempting to save the updated order of the items",
 
     "show_all_results"      => "Show all results &raquo;",
 
-    "are_you_sure"          => "Are you sure?",
-    "yes_im_sure"           => "Yes, I'm sure",
+    "are_you_sure"          => "Sind Sie sicher?",
+    "yes_im_sure"           => "Ja, ich bin mir sicher!",
 
-    "success_created"       => "Successfully created new :item!",
-    "error_created"         => "Failed trying to create new :item.",
+    "success_created"       => ":item erfolgreich erstellt!",
+    "error_created"         => ":item konnte nicht erstellt werden.",
 
-    "success_deleted"       => "Successfully deleted the :item!",
-    "error_deleted"         => "Failed trying to delete the :item.",
+    "success_deleted"       => ":item erfolgreich gelöscht!",
+    "error_deleted"         => ":item konnte nicht gelöscht werden.",
 
-    "success_updated"       => "Successfully updated the :item!",
-    "error_updated"         => "Failed trying to update the :item.",
+    "success_updated"       => ":item erfolgreich aktualisiert!",
+    "error_updated"         => ":item konnte nicht aktualisiert werden.",
 
-    "error_notfound"        => "The :item with given ID was not found.",
-    "error_notfound_name"   => "The :item with given name was not found.",
-    "report_notfound"       => "The report with given category and name was not found.",
+    "error_notfound"        => ":item mit der angegebenen ID wurde nicht gefunden.",
+    "error_notfound_name"   => ":item mit dem angegebenen Namen wurde nicht gefunden.",
+    "report_notfound"       => "Der Bericht mit der angegebenen Kategorie und dem angegebenen Namen wurde nicht gefunden.",
 
-    "success_ordering"      => "Successfully updated the ordering!",
-    "error_ordering"        => "Failed trying to update the ordering.",
+    "success_ordering"      => "Reihenfolge erfolgreich aktualisiert!",
+    "error_ordering"        => "Reihenfolge konnte nicht aktualisiert werden.",
 
-    "error_login"           => "Login attempt failed.",
-    "success_logout"        => "Successfully logged out.",
+    "error_login"           => "Loginversuch fehlgeschlagen.",
+    "success_logout"        => "Login erfolgreich.",
 
-    "please_correct"        => "Please correct the following errors and try again.",
+    "please_correct"        => "Bitte beheben Sie die folgenden Fehler und versuchen Sie es noch einmal.",
 
-    "success_settings"      => "Successfully updated the settings!",
-    "error_settings"        => "Failed trying to update the settings.",
+    "success_settings"      => "Einstellungen erfolgreich aktualisiert!",
+    "error_settings"        => "Einstellungen konnten nicht aktualisiert werden.",
 
-    "success_action"        => "Successfully performed the action!",
-    "error_action"          => "Failed to perform the action.",
+    "success_action"        => "Aktion erfolgreich ausgeführt!",
+    "error_action"          => "Aktion konnte nicht ausgeführt werden.",
 
-    "error_embed_image"     => "Failed trying to upload the image.",
+    "success_sending"       => ":item erfolgreich verschickt!",
+    "error_sending"         => ":item konnte nicht verschickt werden.",
 
-    "unauthorised"          => "Unauthorised",
-    "not_authorised"        => "Not authorised to complete this action.",
-    "not_permitted"         => "You are not permitted to view this page. If you think this has been displayed in error, please speak to your application administrator.",
+    "error_embed_image"     => "Fehler beim Bildupload.",
 
-    "page_not_found"        => "Page Not Found",
-    "cant_find_page"        => "We can't find the page that you're looking for.",
+    "unauthorised"          => "Unbefugt",
+    "not_authorised"        => "Sie sind nicht berechtigt die Aktion durchzuführen.",
+    "not_permitted"         => "Sie sind nicht berechtigt diese Seite anzuzeigen. Wenn Sie denken, dass es sich um einen Fehler handelt, wenden Sie sich bitte an Ihren Administrator.",
 
-    "please_report"         => "Please report to an administrator if this was unexpected.",
+    "page_not_found"        => "Seite nicht gefunden",
+    "cant_find_page"        => "Sie gewünschte Seite konnte nicht gefunden werden.",
 
-    "return_to"             => "Return to the :page.",
+    "please_report"         => "Bitte setzen Sie sich mit einem Administrator in Verbindung, wenn Sie dieses Ergebnis nicht erwartet haben.",
 
-    "session_expired"       => "Your session expired, please login again.",
-    "session_refresh"       => "Your session expired, please refresh the page and then try again.",
+    "return_to"             => "Zu :page zurückkehren.",
 
-    "general_error"         => "An error occurred. Please try again.",
+    "session_expired"       => "Ihre Sitzung ist abgelaufen - Bitte loggen Sie sich neu ein.",
+    "session_refresh"       => "Ihre Sitzung ist abgelaufen - Bitte aktualisieren Sie diese Seite und versuchen es erneut.",
 
-    "no_results"            => "No results.",
+    "general_error"         => "Ein Fehler ist aufgetreten. Bitte versuchern Sie es erneut.",
 
-    "assign_incomplete"     => "The action could not be completed in full. :names could not be assigned to some tickets.",
+    "mailer_error"          => "Ein Fehler ist aufgetreten, währen die E-Mail mit dem Betreff ':subject' gesendet werden sollte.",
 
-    "maintenance_mode"      => "Maintenance mode is active. The help desk is currently inaccessible by users, please remember to turn maintenance mode off when finished.",
+    "no_results"            => "Keine Ergbenisse.",
 
-    "invalid_captcha"       => "The captcha code entered was invalid or incorrect, please try again.",
-    "blocked_as_spam"       => "Your request was detected as spam. Please contact an administrator if you feel this has been shown in error.",
-    "account_exists"        => "An active account already exists with this email address. Please login or use the forgotten password feature if you cannot remember your password.",
-    "error_loading_comments" => "There was a problem loading the comments.",
+    "assign_incomplete"     => "Die Aktion konnte nicht komplett ausgeführt werden. :names konnte einigen Tickets nicht zugewiesen werden.",
 
-    "invalid_auth"          => "Invalid authentication credentials.",
+    "maintenance_mode"      => "Der Wartungs-Modus ist aktiv. Der HelpDesk ist derzeit für Ihre Benutzer nicht errreichbar. Bitte denken Sie daran den Wartungs-Modus zu deaktivieren.",
 
-    "forbidden"             => "Forbidden",
+    "invalid_captcha"       => "Der eingegebene Sicherheitscode ist falsch oder ungültig. Bitte versuchen Sie es noch einmal.",
+    "blocked_as_spam"       => "Ihre Anfrage wurde als SPAM deklariert. Bitte melden Sie sich telefonisch, falsch Sie denken, dass es sich hierbei um einen Fehler handelt.",
+    "account_exists"        => "Es existiert bereits ein aktives Konto mit dieser E-Mail.",
+    "error_loading_comments"=> "Es gab ein Problem beim Laden der Kommentare.",
 
-    "not_logged_exception"  => "<strong>Whoops! Something went wrong.</strong><br />Please notify the system administrator if the error persists.",
+    "invalid_auth"          => "Falsche Zugangsdaten.",
 
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
+    "forbidden"             => "Verboten",
 
-    "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
+    "uncaught_exception"    => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Der Fehler wurde protokolliert. Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
+
+    "not_logged_exception"  => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
+
+    "too_many_ticket_reqs"  => "Zuviele Ticketanfragen von der Adresse :email. Es sind maximal :max Anfragen in :decay minutes erlaubt.",
+
+    "error_close_open"      => "Fehler. Bitte schließen und noch einmal probieren.",
+
+    "not_operator"          => "Etwas ist schiefgelaufen. Der ausgewählte Mitarbeiter ist nicht gültig. Bitte stellen Sie sicher, dass der Mitarbeiter einer gruppe zugewiesen und der Gruppe eine Rolle zugewiesen wurde.",
 
     // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
+    "datatable_error"       => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Ein Fehler ist beim Laden der Daten aufgetreten. Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
 
-    "missing_extension"     => "Missing Extension",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
+    "missing_extension"     => "Fehlende Erweiterung",
+    "php_ldap_missing"      => "Die php-ldap Erweiterung wird für LDAP-Authentifizierung benötigt.",
+    "php_imap_missing"      => "Die php-imap Erweiterung wird für den Download von E-Mailis benötigt.",
 
     /*
      * 2.0.3
      */
-    "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
-    "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
-    "error_loading_message" => "An error occurred while loading the message. Please try again.",
-    "please_refresh"        => "Please refresh the page.",
+    "warn_delete"           => "Sobald der Datensatz einmal gelöscht wurede, kann dieser nicht wiederhergestellt werden. Das Löschen dieses Datensatzes kann weitere Bereiche des Systems betreffen, wo dieser Datensatz benutzt wird.",
+    "only_ssl_connections"  => "Es sind ausschließlich SSL-Verbindung zugelassen.",
+    "queued_emails"         => "Erfolgreich - Die E-Mails wurden in die Warteschlange übertragen und in Kürze verschickt.",
+    "error_loading_message" => "Ein Fehler ist beim Laden der Nachricht aufgetreten. Bitte versuchen Sie es noch einmal.",
+    "please_refresh"        => "Bitte aktualisieren Sie diese Seite.",
 
     /*
      * 2.1.0
@@ -103,6 +113,8 @@ return array(
     "warning"               => "Warning",
     "note"                  => "Note",
     "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
+    "template_subject_req"  => "The default email template subject field is required.",
+    "template_contents_req" => "The default email template contents field is required.",
 
     /*
      * 2.1.1
@@ -112,45 +124,8 @@ return array(
     "upload_wrong_type"     => "File type is not allowed",
 
     /*
-     * 2.3.0
+     * 2.1.2
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
-
-    /*
-     * 2.3.1
-     */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
-
-    /*
-     * 2.4.0
-     */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
-
-    /*
-     * 2.5.0
-     */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
-
-    /*
-     * 3.0.0
-     */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "field_required"        => "Field is required.",
 
 );

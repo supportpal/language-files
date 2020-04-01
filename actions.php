@@ -1,31 +1,34 @@
 <?php
 
 return array(
+
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
-    "email_operators"           => "Send email to operators",
-    "email_operator_group"      => "Send email to an operator group",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
-    "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
+    "add_ticket_note"           => "Notiz hinzufügen",
+    "add_ticket_reply"          => "Antwort hinzufügen",
+    "add_tag"                   => "Stichwort hinzufügen",
+    "assign_operator"           => "Mitarbeiter zuweisen",
+    "remove_tag"                => "Stichwort entfernen",
+    "email_operators"           => "E-Mail an Mitarbeiter senden",
+    "email_operator_group"      => "E-Mail an Mitarbeitergruppe senden",
+    "email_user"                => "E-Mail an Benutzer senden",
+    "email_user_group"          => "E-Mail an Benutzergruppe senden",
+    "unassign_operator"         => "Mitarbeiter entfernen",
+    "update_department"         => "Abteilung aktualisieren",
+    "update_priority"           => "Priorität aktualisieren",
+    "update_status"             => "Status aktualisieren",
 
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Update ticket custom field value",
+    "update_custom_field"       => "Benutzerdefiniertes Ticketfeld aktualisieren",
 
     /*
      * 2.2.0
      */
+    "delete_ticket"             => "Delete ticket",
+    "delete_ticket_and_block"   => "Delete ticket and block user",
     "increase_due_time"         => "Increase due time",
     "close_and_lock_ticket"     => "Close and lock ticket",
     "pause_due_time"            => "Pause due time",
@@ -45,37 +48,5 @@ return array(
     "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
     "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
     "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
-
-    /*
-     * 2.3.0
-     */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
-
-    /*
-     * 2.3.1
-     */
-    "exclude_cc"                => "Exclude CC email addresses",
-
-    /*
-     * 2.4.0
-     */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
-
-    /*
-     * 2.5.0
-     */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
-
-    /*
-     * 2.6.0
-     */
-    "clear_due_time"            => "Clear due time",
 
 );

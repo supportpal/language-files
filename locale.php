@@ -1,6 +1,7 @@
 <?php
 
 return array(
+
     "country" => array(
         "AF" => "Afghanistan",
         "AL" => "Albania",
@@ -67,6 +68,7 @@ return array(
         "DM" => "Dominica",
         "DO" => "Dominican Republic",
         "NQ" => "Dronning Maud Land",
+        "DD" => "East Germany",
         "EC" => "Ecuador",
         "EG" => "Egypt",
         "SV" => "El Salvador",
@@ -325,7 +327,6 @@ return array(
         "Europe/Rome"                       => "(GMT+01:00) Rome",
         "Europe/Stockholm"                  => "(GMT+01:00) Stockholm",
         "Europe/Vienna"                     => "(GMT+01:00) Vienna",
-        "Europe/Zurich"                     => "(GMT+01:00) Zurich",
         "Europe/Minsk"                      => "(GMT+02:00) Minsk",
         "Africa/Cairo"                      => "(GMT+02:00) Cairo",
         "Europe/Helsinki"                   => "(GMT+02:00) Helsinki",
@@ -393,5 +394,6 @@ return array(
         "Asia/Kamchatka"                    => "(GMT+12:00) Kamchatka",
         "Pacific/Auckland"                  => "(GMT+12:00) Auckland",
         "Pacific/Tongatapu"                 => "(GMT+13:00) Nukualofa"
-    )
+    ),
+
 );
