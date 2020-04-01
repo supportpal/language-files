@@ -2,85 +2,110 @@
 
 return array(
 
-    "user"                          => "User|Users",
-    "user_details"                  => "User Details",
-    "add_user"                      => "Add User",
-    "account_active"                => "Account Active",
-    "account_active_desc"           => "Toggle to enable and disable access to authenticated sections.",
+    "user"                          => "Usuario|Usuarios",
+    "user_details"                  => "Datos de contacto",
+    "add_user"                      => "Añadir usuario",
+    "account_active"                => "Cuenta activa",
+    "account_active_desc"           => "Cambiar para habilitar y deshabilitar el acceso a las secciones autenticadas.",
 
-    "op_settings_dept_desc"         => "Select which departments the operator can view and reply to tickets in.",
+    "operator_settings"             => "Ajustes de agente",
+    "op_settings_dept_desc"         => "Selecciona que departamentos puede ver el agente para ver y responder tickets.",
 
-    "organisation"                  => "Organisation|Organisations",
-    "members"                       => "Member|Members",
-    "owner"                         => "Owner",
+    "organisation"                  => "Empresa|Empresas",
+    "members"                       => "Miembro|Miembros",
+    "owner"                         => "Administrador",
     "manager"                       => "Manager",
-    "access_level"                  => "Access Level",
-    "access_level_desc"             => "Define the access level for the user in the organisation, based on the following information:<br /><strong>Manager</strong> - Can view tickets opened by all users in the organisation and manage users in the organisation<br /><strong>User</strong> - Can view tickets only opened by self",
-    "manage_organisation"           => "Manage Organisation",
-    "leave_organisation"            => "Leave Organisation",
-    "user_membership"               => "User membership",
-    "transfer_ownership"            => "Transfer ownership",
-    "transfer_ownership_desc"       => "As the current owner of the organisation, you cannot be removed as a manager and only you can delete the organisation. You may transfer the ownership of the organisation to someone else, be aware that this action cannot be reversed.",
-    "transfer_ownership_operator"   => "Only the owner can delete the organisation and cannot be removed from it. Use this option to change the ownership to another user in the organisation.",
-    "start_typing_name"             => "Start typing a name...",
-    "organisation_add_user"         => "Add user to organisation",
-    "organisation_desc"             => "Each organisation can have <strong>managers</strong>, who can manage users and read and reply to other's tickets, and <strong>users</strong>, who can open tickets, but can't read or reply to other's tickets.",
-    "organisation_operator_desc"    => "Add existing users to this organisation by clicking \"Add User\" and searching for their name, note that adding a user will remove any links they have with another organisation.",
-    "organisation_user_desc"        => "<strong>Manager</strong> - Can manage other users and view &amp; reply to other user's tickets.<br /><strong>User</strong> - Can only open tickets on behalf of organisation and reply to own tickets.",
-    "send_password_reset"           => "Send Password Reset Link",
+    "access_level"                  => "Nivel de acceso",
+    "access_level_desc"             => "Define el nivel de acceso para el usuario en la empresa, basado en las siguientes reglas:<br /><strong>Manager</strong> - Puede ver los tickets abiertas por todos los usuarios de la organización y administrar a los usuarios de la organización<br /><strong>Usuario</strong> - Únicamente ve los tickets que el mismo abre",
+    "manage_organisation"           => "Gestionar empresa",
+    "leave_organisation"            => "Dejar la empresa",
+    "user_membership"               => "Membresía del usuario",
+    "organisation_no_longer"        => "Este usuario ya no forma parte de esta empresa.",
+    "transfer_ownership"            => "Transferir membresia",
+    "transfer_ownership_desc"       => "Como propietario actual de la organización, no se puede eliminar como administrador y sólo puede eliminar la organización. Puede transferir la propiedad de la empresa a otra persona, tenga en cuenta que esta acción no se puede revertir.",
+    "transfer_ownership_operator"   => "Sólo el Administrador puede eliminar la organización y no se puede eliminar de ella. Utilice esta opción para cambiar la propiedad a otro usuario de la organización.",
+    "start_typing_name"             => "Empieza escribiendo un nombre...",
+    "organisation_add_user"         => "Añade un usuario a la empresa",
+    "organisation_desc"             => "Cada empresa puede tener <strong>managers</strong>, que pueden gestionar otros usuarios y ver todos los tickets, y <strong>usuarios</strong>, que pueden abrir tickets, pero no pueden leer ni abrir tickets de otros.",
+    "organisation_operator_desc"    => "Añade usuarios existentes a esta organización haciendo click en \"Añadir usuario\" Y la búsqueda de su nombre, ten en cuenta que añadiendo un usuario se eliminan los vínculos que tienen con otra empresa.",
+    "organisation_user_desc"        => "<strong>Manager</strong> - Puede añadir y gestionar otros usaurios, también ver &amp; responder tickets de otros usuarios.<br /><strong>Usuario</strong> - Pueden abrir tickets, pero no pueden leer ni abrir tickets de otros.",
+    "send_confirmation_email"       => "Enviar email de confirmación al usuario",
+    "send_password_reset"           => "Enviar enlace de reseteo de contraseña al usuario",
 
-    "profile"                       => "Profile",
-    "phone"                         => "Phone Number",
+    "profile"                       => "Perfil",
+    "address"                       => "Dirección",
+    "city"                          => "Ciudad",
+    "state"                         => "Provincia",
+    "postcode"                      => "Código postal",
+    "phone"                         => "Teléfono",
+    "website"                       => "URL",
 
     "login"                         => "Login",
-    "remember_me"                   => "Remember me",
-    "logout"                        => "Logout",
-    "return_to_login"               => "Return to Login",
+    "remember_me"                   => "Recordarme",
+    "logout"                        => "Desconectarse",
+    "return_to_login"               => "Volver al login",
 
-    "user_register_disabled"        => "Sorry, public user registration is currently disabled.",
-    "success_register"              => "Account successfully registered!",
-    "register_now"                  => "Register now",
-    "register"                      => "Register",
-    "register_account"              => "Register Account",
-    "signed_up"                     => "Signed up",
-    "last_active"                   => "Last active",
+    "user_register_disabled"        => "Lo siento, el registro de usuarios directamente no está permitido.",
+    "success_register"              => "¡Cuenta correctamente creada!",
+    "success_register_desc"         => "Gracias por registrar tu cuenta, deberás confirmar el enlace que habrás recibido por email. En breve le enviaremos un correo electrónico con un enlace de confirmación para finalizar el proceso..",
+    "register_now"                  => "Registrate",
+    "register"                      => "Registrarse",
+    "register_account"              => "Registrar cuenta",
+    "register_confirm"              => "Confirmación de registro",
+    "register_confirm_desc"         => "Gracias por confirmar tu correo, por favor introduce la contraseña de la cuenta para finalizar el registro.",
+    "confirmation_success"          => "¡Confirmación completada con exito!",
+    "confirmation_unsuccessful"     => "Ha fallado la confirmación del correo.",
+    "thank_you_confirm"             => "Gracias por confirmar tu cuenta. Por favor ve a <a href=':route'>login</a>.",
+    "signed_up"                     => "Registrarse",
+    "last_active"                   => "Último activo",
 
-    "forgot_password"               => "Forgot password?",
-    "reset_password"                => "Reset Password",
-    "set_password"                  => "Set a password",
-    "please_set_password"           => "Please set your new password below.",
-    "missing_email_or_reset"        => "Missing email address or reset token.",
+    "reset_request"                 => "Recibida petición de reseteo de contraseña",
+    "reset_request_desc"            => "En breve le enviaremos un correo electrónico con un enlace de confirmación que le permitirá restablecer la contraseña.",
+    "forgot_password"               => "¿Contraseña perdida?",
+    "password_reset"                => "Contraseña reseteada",
+    "password_reset_confirm"        => "Confirmación de reseteo",
+    "reset_password"                => "Resetear contraseña",
+    "password_reset_complete"       => "Reseteo completado",
+    "set_password"                  => "Definir una contraseña",
+    "only_enter_to_change"          => "Solo introducir para cambiar",
+    "success_pass_reset"            => "Tu contraseña ha sido restablecida correctamente. Por favor continua a <a href=':route'>login</a>.",
+    "please_set_password"           => "Por favor, configura una nueva contraseña aquí.",
+    "emailed_pwd_reset_link"        => "Te hemos enviado un enlace de restablecimiento por correo electrónico.",
+    "operator_email_not_found"      => "No se encontró la dirección de correo electrónico del agente.",
+    "missing_email_or_reset"        => "Falta la dirección de correo electrónico o el token de reseteo.",
 
-    "firstname"                     => "First Name",
-    "lastname"                      => "Last Name",
-    "formatted_name"                => "Formatted Name",
-    "country"                       => "Country",
+    "firstname"                     => "Nombre",
+    "lastname"                      => "Apellidos",
+    "formatted_name"                => "Nombre abreviado",
+    "country"                       => "Pais",
     "avatar"                        => "Avatar",
-    "confirm_password"              => "Confirm Password",
+    "generate_password"             => "Generar contraseña aleatoria",
+    "confirm_password"              => "Confirmar contraseña",
 
-    "confirmed"                     => "Confirmed",
-    "unconfirmed"                   => "Unconfirmed",
+    "confirmed"                     => "Confirmado",
+    "confirmed_desc"                => "Cambiar para habilitar y deshabilitar el acceso a las secciones autenticadas.",
+    "unconfirmed"                   => "Sin confirmar",
 
-    "group"                         => "User Group|User Groups",
-    "group_members"                 => "Group Members",
-    "operator_group"                => "Operator Group|Operator Groups",
-    "add_group"                     => "Add to Group",
+    "group"                         => "Grupo de usuario|Grupos de usuario",
+    "group_members"                 => "Miembros del grupo",
+    "operator_group"                => "Grupo de agente|Grupos de agentes",
+    "add_group"                     => "Añadir un grupo",
 
-    "customfield"                   => "User Custom Field|User Custom Fields",
-    "customfield_order"             => "Drag the rows to change the order custom fields appear to users.",
+    "customfield"                   => "Utilizar campo personalizado|Usar campos personalizados",
+    "customfield_order"             => "Arrastre las filas para cambiar el orden que aparecen los campos personalizados para los usuarios.",
 
-    "role"                          => "Role|Roles",
+    "role"                          => "Rol|Roles",
 
     "operator_login_log"            => "Operator Login Log",
-    "system_activity_log"           => "System Activity Log",
-    "activity_log"                  => "Activity Log",
+    "system_activity_log"           => "Log de actividad del sistema",
+    "activity_log"                  => "Log de actividad",
 
-    "mass_email"                    => "Send Mass Email",
-    "send_email"                    => "Send Email",
-    "choose_template"               => "Choose template...",
+    "mass_email"                    => "Enviar email masivo",
+    "send_email"                    => "Enviar emails",
+    "choose_template"               => "Seleccionar plantilla...",
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
-    "ldap_operator_desc"            => "Search for an existing operator, or create a new one.",
+    "ldap_operator_desc"            => "Searching for an existing operator, or create a new one.",
     "ldap_server"                   => "LDAP Server",
     "ldap_server_desc"              => "The server hostname. Alternatively, you can specify the full LDAP URI. For example: ldaps://ldap.server:1234/ will connect via SSL to the port 1234.",
     "ldap_username"                 => "LDAP Username",
@@ -88,11 +113,12 @@ return array(
     "ldap_rdn"                      => "LDAP RDN or DN",
     "ldap_rdn_desc"                 => "The distinguished name for the LDAP username, for example: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP Details",
+    "ldap_extension_missing"        => "The php-ldap extension is not currently loaded. Users will not be able to login via LDAP.",
 
-    "operator_details"              => "Operator Details",
+    "operator_details"              => "Información del agente",
 
-    "email_notifications"           => "Email Notifications",
-    "email_notifications_desc"      => "The email notifications that will be received from the system.",
+    "email_notifications"           => "Notificaciones email",
+    "email_notifications_desc"      => "Las notificaciones por correo electrónico que se recibirán desde el sistema.",
 
     "enable_ldap"                   => "Enable LDAP Login",
     "enable_ldap_desc"              => "If you use LDAP, you can enable it for operator login. After enabling, go to the LDAP Accounts settings page to configure it.",
@@ -139,16 +165,24 @@ return array(
     "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
     "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "display_notifications"         => "Display Notifications",
-    "display_notifications_desc"    => "The system will notify you when new tickets or replies are created, or when other operators login. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
+    "display_notifications_desc"    => "The system will poll for new tickets, replies and other operators logging in while you have the operator panel open. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
     "desktop_notifications"         => "Desktop Notifications",
     "browser_notifications"         => "Browser Notifications",
+    "operator_template"             => "Operator Template",
 
     "search_for_user"               => "Search for user...",
     "select_operator"               => "Select an operator...",
     "select_group"                  => "Select a group...",
 
     "your_ip_has_been_banned"       => "Your IP has been banned.",
+    "password_reset_error"          => "User account or reset token not found, please verify details are correct or try to reset again.",
+    "password_reset_not_found"      => "User not found or password cannot be reset.",
+    "password_reset_expired"        => "Token has expired, please try to reset again.",
+    "password_reset_invalid"        => "Invalid token, please verify details are correct or try to reset again.",
     "password_reset_success"        => "Password reset successfully!",
+    "password_reset_already"        => "You have already confirmed your account, you may proceed to login.",
+    "password_not_valid"            => "Passwords not valid or not the same.",
+    "invalid_reset_request"         => "Invalid password reset request.",
 
     "simpleauth_token_expired"      => "The access token has expired.",
     "simpleauth_token_invalid"      => "The access token provided is invalid.",
@@ -172,16 +206,16 @@ return array(
     /*
      * 2.0.3
      */
-    "taking_a_break"                => "Taking a break...",
-    "operator_session_expired"      => "You were inactive for a while or logged in on another device so I took a quick nap. Please wake me up by logging back in.",
-    "log_back_in"                   => "Log Back In",
-    "all_users"                     => "All Users",
-    "all_operators"                 => "All Operators",
-    "email_per_batch"               => "Emails Per Batch",
+    "taking_a_break"                => "Tomando un descanso...",
+    "operator_session_expired"      => "Has estado inactivo un rato y tu sesión ha sido desconectada. Vuelve a conectarte, los clientes necesitan tu ayuda.",
+    "log_back_in"                   => "Volver a conectarse",
+    "all_users"                     => "Todos los usuarios",
+    "all_operators"                 => "Todos los operadores",
+    "email_per_batch"               => "Emails por lote",
     "email_per_batch_desc"          => "The number of emails that are sent together at a time.",
     "batch_interval"                => "Batch Interval",
-    "batch_interval_desc"           => "The gap between the email batches in minutes. 1 minute is the minimum.",
-    "select_user_groups"            => "Select user/operator groups or type in email addresses...",
+    "batch_interval_desc"           => "The gap between the email batches in minutes, 1 minute is the minimum.",
+    "select_user_groups"            => "Select user/operator groups or type in e-mail addresses...",
     "mass_email_sending_time"       => "It will take approximately :time to send all emails.",
     "organisations_enabled"         => "Organisations Enabled",
     "organisations_enabled_desc"    => "By default, users can add an organisation to their profile and add other users to that organisation. If you are only dealing with consumers, you can disable the organisation option and hide it from the interface.",
@@ -197,7 +231,7 @@ return array(
     "organisation_customfield"      => "Organisation Custom Field|Organisation Custom Fields",
     "recent_users"                  => "Recent Users",
     "recent_organisations"          => "Recent Organisations",
-    "group_brand_desc"              => "Select which brands the operators in this group have permission to access.",
+    "group_brand_desc"              => "Select which brands the operators in this group will be able to view, create and delete (depending on permissions) tickets and other content.",
     "select_operators"              => "Select operator(s)...",
     "select_groups"                 => "Select group(s)...",
     "group_department_desc"         => "Assign all members of this group to departments, operators can also be assigned individually in the department settings.",
@@ -230,101 +264,19 @@ return array(
     "current_password"              => "Current Password",
     "new_password"                  => "New Password",
     "personal_confirm_password"     => "Please confirm your current password to set a new password.",
+    "operator_confirm_password"     => "Please confirm your password to make changes to the operator account.",
+    "login_via_idp"                 => "Login via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Search for user/operator...",
+    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0
      */
     "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
     "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
-
-    /*
-     * 2.3.0
-     */
-    "remove_from"                   => "Remove From :record?",
-    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
-
-    /*
-     * 2.3.1
-     */
-    "social_login"                  => "Social Login",
-    "social_login_provider_desc"    => "Allow users to register and log in using their :provider account.",
-    "social_login_provider_docs"    => "Please check over our documentation for setting up <a href=':link'>:provider Login</a>.",
-    "facebook_app_id"               => "App ID",
-    "facebook_app_secret"           => "App Secret",
-    "facebook_redirect_url"         => "The following URL <strong>must</strong> be entered for the Facebook Login 'Valid OAuth redirect URIs':",
-    "google_client_id"              => "Client ID",
-    "google_client_secret"          => "Client Secret",
-    "google_redirect_url"           => "The following URL <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
-    "steam_api_key"                 => "API Key",
-    "twitter_consumer_key"          => "Consumer Key",
-    "twitter_consumer_secret"       => "Consumer Secret",
-    "twitter_redirect_url"          => "The following URL <strong>must</strong> be entered for the Twitter Application 'Callback URL':",
-    "login_via"                     => "Log in via :provider",
-    "idp"                           => "IdP",
-    "social_linking_login"          => "Please log in to complete linking of your social account.",
-    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
-    "already_registered"            => "Already registered?",
-    "linked_accounts"               => "Linked Accounts",
-    "unlink_account"                => "Unlink :record Account",
-    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
-    "failed_login"                  => "Failed Login|Failed Logins",
-    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
-
-    /*
-     * 2.4.0
-     */
-    "must_have_permission"          => "must have \":permission\" permission",
-    "deleted_user"                  => "Deleted User",
-    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
-
-    /*
-     * 2.4.1
-     */
-    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
-
-    /*
-     * 2.5.0
-     */
-    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
-    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
-    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
-    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
-    "send_confirmation_email"       => "Send Confirmation Email",
-    "mark_as_confirmed"             => "Mark as Confirmed",
-    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
-    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
-    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "reset_request_desc"            => "Please check your email to complete the password reset process.",
-    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
-    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
-    "use_gravatar"                  => "Use Gravatar",
-    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
-
-    /*
-     * 2.6.0
-     */
-    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
-    "confirmation"                  => "Confirmation",
-    "confirmation_email_in_use"     => "The email address is already in use by another account.",
-    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
-    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
-    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
-
-    /*
-     * 3.0.0
-     */
-    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
-    "operator_message"              => "Operator Messages",
-    "force_two_fa"                  => "Force 2FA",
-    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
-    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
-    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled, please complete your login again.",
-    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
 
 );
