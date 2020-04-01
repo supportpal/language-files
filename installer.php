@@ -7,13 +7,20 @@ return array(
 
     // Index
     "supportpal_installer"      => "SupportPal Installer",
-    "select_language"           => "Select Language",
+    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
+    "select_language"           => "Select Language:",
+    "begin_installation"        => "Begin Installation",
     "install_type"              => "Installation Type",
     "install"                   => "Fresh Install",
     "upgrade"                   => "Upgrade Existing Installation",
     "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
 
     // Upgrade
+    "upgrade_step_1"            => "Step 1 of 3: System Requirements",
+    "upgrade_step_2"            => "Step 2 of 3: Update Database",
+    "upgrade_step_3"            => "Step 3 of 3: Upgrade Complete",
+    "upgrade_step_3_support"    => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
+    "upgrade_step_3_continue"   => "To continue using SupportPal, log in to the operator panel here",
     "successfully_updated"      => "Congratulations, SupportPal has been successfully upgraded.",
 
     // Install
@@ -55,6 +62,7 @@ return array(
     "step_6"                    => "Step 6 of 7: Quick Set-Up",
     "step_6_desc"               => "Enter your company and website details below.",
     "locale_desc"               => "Set the locale settings for your system.",
+    "diagnostic_desc"           => "To help improve our products, we would like to receive diagnostic data from your installation when something goes wrong. You may disable this below if you do not wish to send us data.",
     "operator_success"          => "Your administrator account has been created.",
 
     // Step 7
@@ -68,7 +76,7 @@ return array(
      * 2.0.1
      */
 
-    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
+    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='http://docs.supportpal.com/display/DOCS/New+Installation#NewInstallation-PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
 
     /*
      * 2.0.2
@@ -87,11 +95,17 @@ return array(
     "writable"                  => "Writable",
     "help_php_version"          => "For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
     "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
-    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
+    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"http://docs.supportpal.com/display/DOCS/System+Requirements#SystemRequirements-PHPSettingsPHPSettings\">PHP Settings Help</a>.",
     "disabled_functions"        => "Disabled Functions",
+    "mysql_version_is"          => "Your MySQL Version is :version.",
     "help_mysql_version"        => "For assistance installing a new version of MySQL please contact your hosting provider or server administrator.",
     "mysql_version"             => "MySQL Version",
     "mysql_version_not_found"   => "Not available, found MySQL version: :version",
+
+    /*
+     * 2.0.3
+     */
+    "support_expired_error"     => "An error occurred while contacting the license server with message: ':error'.<br /> Please contact support quoting this message.",
 
     /*
      * 2.1.0
@@ -107,50 +121,12 @@ return array(
     /*
      * 2.3.0
      */
+    "mysql_server_version"      => "Server Version >= 5.5.3",
+    "mysql_server_version_desc" => "MySQL 5.5.3 or greater is required to run SupportPal. Found: ':version'.",
+    "mysql_client_version"      => "Client Version >= 5.5.3 (5.0.9 for MySQLnd)",
+    "mysql_client_version_desc" => "MySQL client version 5.5.3 or greater (5.0.9 for MySQLnd) is required to run SupportPal. Found: ':version'.",
     "png_jpg_support"           => "PNG & JPEG Support",
     "allow_url_fopen"           => "'allow_url_fopen' Enabled",
     "allow_url_fopen_failure"   => "Enable 'allow_url_fopen' in your php.ini file to use Gravatar and other features.",
-    "allowed_methods"           => "HTTP Allowed Methods",
-    "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
-
-    /*
-     * 2.4.0
-     */
-    "mysql_server_version"      => "Server Version >= :min",
-    "mysql_server_version_desc" => "MySQL :min or greater is required to run SupportPal. Found: ':version'.",
-    "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
-
-    "upgrade_step"              => "Step :num of :total: ",
-    "accept_eula"               => "Accept EULA",
-    "system_requirements"       => "System Requirements",
-    "update_database"           => "Update Database",
-    "upgrade_complete"          => "Upgrade Complete",
-
-    "upgrade_support"           => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
-
-    /*
-     * 2.5.0
-     */
-    "press_to_begin"            => "Please press the button below to start.",
-    "locked"                    => "Install/Upgrade In-Progress",
-    "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
-
-    "possible_permission_issue" => "[WARNING] It seems you are running this command as root or a different user to the owner of the files. The command must be ran by the right user so the web server can also read and write to the system afterwards.",
-    "wish_to_continue"          => "It is advised to change the user unless you are sure what you are doing. Do you wish to continue?",
-    "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
-    "login_with_details"        => "You can login using the details specified earlier.",
-    "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
-    "read_upgrade_guide"        => "Our Upgrade Guide contains useful information regarding breaking changes and best practices for upgrading:\nhttps://docs.supportpal.com/current/Upgrade+Guide",
-    "confirm_backup_taken"      => "[WARNING] Ensure you have taken a backup of your SupportPal database and application files before proceeding any further.\nPlease confirm you have taken a backup, verified it's not corrupt and are ready to proceed.",
-    "error_and_revert_database" => "There was an error. Please revert the database to your backup before starting again.",
-
-    /*
-     * 2.6.0
-     */
-    "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
-    "license_valid"             => "License Valid",
-    "registered_to"             => "Registered To",
 
 );

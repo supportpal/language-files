@@ -3,204 +3,183 @@
 return array(
 
     // Standard messages
-    "item_created"                      => "Created new :item :rel.",
-    "item_updated"                      => "Updated :item :rel.",
-    "item_deleted"                      => "Deleted :item :rel.",
+    "item_created"                      => "Skapade ny :item :rel.",
+    "item_updated"                      => "Uppdaterade :item :rel.",
+    "item_deleted"                      => "Tog bort :item :rel.",
 
     // Custom messages
-    "ip_ban_created"                    => "Created new ban on IP :rel.",
-    "ip_ban_updated"                    => "Updated ban on IP :rel.",
-    "ip_ban_deleted"                    => "Deleted ban on IP :rel.",
-    "banned_ip_on_login"                => "Banned IP :rel for 15 minutes.",
+    "ip_ban_created"                    => "Skapade ny bannlysning för IP :rel.",
+    "ip_ban_updated"                    => "Uppdaterade bannlysning för IP :rel.",
+    "ip_ban_deleted"                    => "Tog bort bannlysning för IP :rel.",
+    "banned_ip_on_login"                => "bannlyste IP :rel i 15 minuter.",
 
-    "ip_whitelist_created"              => "Added IP :rel to whitelist.",
-    "ip_whitelist_updated"              => "Updated IP :rel on whitelist.",
-    "ip_whitelist_deleted"              => "Deleted IP :rel from whitelist.",
+    "ip_whitelist_created"              => "La till IP :rel i vitlistan.",
+    "ip_whitelist_updated"              => "Uppdaterade IP :rel i vitlistan.",
+    "ip_whitelist_deleted"              => "Tog bort IP :rel från vitlistan.",
 
-    "system_cleanup"                    => "Ran system cleanup on :rel.",
+    "system_cleanup"                    => "Körde systemrensning för :rel.",
 
-    "api_failed_login"                  => "IP :rel failed to authenticate to API.",
+    "api_failed_login"                  => "IP :rel misslyckades med API-autentisering.",
 
-    "user_successful_login"             => "Logged in to help desk.",
-    "user_failed_login"                 => "Failed to authenticate.",
-    "user_successful_logout"            => "Logged out of help desk.",
+    "user_successful_login"             => "Loggade in i helpdesk.",
+    "user_failed_login"                 => "Misslyckades med autentisering.",
+    "user_successful_logout"            => "Loggade ut ur helpdesk.",
 
-    "user_registered"                   => "Registered an account.",
-    "user_confirmed"                    => "Confirmed their account.",
-    "user_password_set"                 => "Set a password for their account.",
-    "user_password_reset"               => "Reset the password for their account.",
+    "user_registered"                   => "Registrerade ett konto.",
+    "user_confirmed"                    => "Bekräftade sitt konto.",
+    "user_password_set"                 => "Lösenordsskyddade sitt konto.",
+    "user_password_reset"               => "Återställde sitt kontolösenord.",
 
-    "user_added_to_organisation"        => "User :rel added to organisation :new_value.",
-    "user_removed_from_organisation"    => "User :rel removed from organisation :old_value.",
-    "user_profile_updated"              => "Updated account profile.",
-    "user_left_organisation"            => "Left organisation :rel.",
-    "user_organisation_emptied"         => "Removed all users from organisation :rel.",
-    "user_organisation_updated"         => ":rel's organisation access level changed from :old_value to :new_value.",
-    "organisation_membership_updated"   => "Updated user membership of organisation :rel.",
-    "organisation_profile_updated"      => "Updated profile of organisation :rel.",
-    "organisation_owner_updated"        => "Transferred organisation :rel ownership to :new_value.",
+    "user_added_to_organisation"        => "Användare :rel tillagd i organisationen :new_value.",
+    "user_removed_from_organisation"    => "Användare :rel borttagen från organisationen :old_value.",
+    "user_profile_updated"              => "Uppdaterade sin kontoprofil.",
+    "user_left_organisation"            => "Lämnade organisationen :rel.",
+    "user_organisation_emptied"         => "Tog bort alla användare från organisationen :rel.",
+    "user_organisation_updated"         => ":rels organisation åtkomstnivå ändrades från :old_value till :new_value.",
+    "organisation_membership_updated"   => "Uppdaterade användarmedlemskapet för organisationen :rel.",
+    "organisation_profile_updated"      => "Uppdaterade profilen för organisationen :rel.",
+    "organisation_owner_updated"        => "Flyttade organisationens :rel ägarskap till :new_value.",
 
-    "mass_email_queued"                 => "Queued :new_value emails in batches to be sent.",
-    "mass_email_sent"                   => "Sent :new_value emails in queue.",
+    "user_emailed"                      => "Skickade ett mail till :rel.",
 
-    "email_queue_deleted"               => "Deleted queued email to :rel.",
+    "mass_email_queued"                 => "Köade :new_value e-post för att skicka i satser.",
+    "mass_email_sent"                   => "Skickade :new_value e-post i kö.",
 
-    "scheduled_task_run"                => "Scheduled task :rel has been run manually.",
+    "email_send_failed"                 => "Fel: misslyckades med att skicka e-post i kö 5 gånger, tar bort från kö.",
+    "email_queue_deleted"               => "Tog bort köat e-post till :rel.",
 
-    "selfservice_article_upvoted"       => "Positively rated article :rel.",
-    "selfservice_article_downvoted"     => "Negatively rated article :rel.",
-    "selfservice_comment_posted"        => "Posted a new :rel.",
-    "selfservice_comment_upvoted"       => "Up-voted :rel rating from :old_value to :new_value.",
-    "selfservice_comment_downvoted"     => "Down-voted :rel rating from :old_value to :new_value.",
+    "scheduled_task_run"                => "Schemalagda uppgiften :rel har körts manuellt.",
 
-    "ticket_opened"                     => "Opened new ticket #:rel.",
-    "ticket_opened_on_behalf"           => "Opened new ticket #:rel on behalf of :new_value.",
-    "ticket_opened_email"               => "Imported email as new ticket #:rel.",
+    "selfservice_article_upvoted"       => "Betysatte artikeln :rel positivt.",
+    "selfservice_article_downvoted"     => "Betygsatte artikeln :rel negativt.",
+    "selfservice_comment_posted"        => "Postade en ny :rel.",
+    "selfservice_comment_upvoted"       => "Röstade upp :rel betyget från :old_value till :new_value.",
+    "selfservice_comment_downvoted"     => "Röstade ner :rel betyget från :old_value till :new_value.",
 
-    "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
-    "ticket_message_note"               => "Posted a new note to ticket #:rel.",
-    "ticket_message_deleted"            => "Deleted a message in ticket #:rel.",
+    "ticket_opened"                     => "Öppnade nytt ärende #:rel.",
+    "ticket_opened_on_behalf"           => "Öppnade nytt ärende #:rel på uppdrag av :new_value.",
+    "ticket_opened_email"               => "Importade e-post som ett nytt ärende #:rel.",
+    "ticket_deleted"                    => "Tog bort ärende ':old_value' (#:rel).",
 
-    "ticket_user_updated"               => "Updated the user on ticket #:rel from :old_value to :new_value.",
-    "ticket_subject_updated"            => "Updated the subject on ticket #:rel.",
-    "ticket_department_updated"         => "Updated the department on ticket #:rel from :old_value to :new_value.",
-    "ticket_status_updated"             => "Updated the status on ticket #:rel from :old_value to :new_value.",
-    "ticket_priority_updated"           => "Updated the priority on ticket #:rel from :old_value to :new_value.",
-    "ticket_tag_added"                  => "Added tag :new_value to ticket #:rel.",
-    "ticket_tag_updated"                => "Updated tags on ticket #:rel.",
-    "ticket_tag_removed"                => "Removed tag :new_value from ticket #:rel.",
-    "ticket_slaplan_updated"            => "Updated the SLA plan on ticket #:rel from :old_value to :new_value.",
-    "ticket_duetime_updated"            => "Updated the due time on ticket #:rel to :new_value.",
-    "ticket_duetime_paused"             => "Paused the due time on ticket #:rel until next user reply.",
-    "ticket_customfield_updated"        => "Updated custom fields on ticket #:rel.",
-    "ticket_converted_user"             => "Converted internal ticket #:rel to user ticket.",
-    "ticket_converted_internal"         => "Converted user ticket #:rel to internal ticket.",
+    "ticket_followup_set"               => "En uppföljning har satts upp på ärendet #:rel.",
+    "ticket_followup_updated"           => "Uppföljningen på ärendet #:rel har uppdaterats.",
+    "ticket_followup_deleted"           => "Uppföljningen på ärendet #:rel har tagits bort.",
 
-    "ticket_assigned_operator"          => "Assigned :new_value to ticket #:rel.",
-    "ticket_unassigned_operator"        => "Unassigned :new_value from ticket #:rel.",
-    "ticket_assigned_self"              => "Assigned self to ticket #:rel.",
-    "ticket_assigned_updated"           => "Updated assigned operators on ticket #:rel.",
+    "ticket_message_reply"              => "Postade ett nytt svar till ärendet #:rel.",
+    "ticket_message_note"               => "Postade en ny notering till ärendet #:rel.",
+    "ticket_message_updated"            => "Uppdaterade ett meddelande i ärendet #:rel.",
+    "ticket_message_deleted"            => "Tog bort ett meddelande i ärendet #:rel.",
 
-    "ticket_locked"                     => "Locked ticket #:rel.",
-    "ticket_unlocked"                   => "Unlocked ticket #:rel.",
-    "ticket_locked_reply"               => "Reply could not be added to locked ticket #:rel.",
+    "ticket_user_updated"               => "Uppdaterade användaren på ärendet #:rel från :old_value till :new_value.",
+    "ticket_subject_updated"            => "Uppdaterade ämnet på ärendet #:rel.",
+    "ticket_department_updated"         => "Uppdaterade avdelningen på ärendet #:rel från :old_value till :new_value.",
+    "ticket_status_updated"             => "Uppdaterade statusen på ärendet #:rel från :old_value till :new_value.",
+    "ticket_priority_updated"           => "Uppdaterade prioriteringen på ärendet #:rel från :old_value till :new_value.",
+    "ticket_tag_added"                  => "La till etiketten :new_value till ticket #:rel.",
+    "ticket_tag_updated"                => "Uppdaterade etiketter på ärendet #:rel.",
+    "ticket_tag_removed"                => "Tog bort etiketten :new_value från ticket #:rel.",
+    "ticket_slaplan_updated"            => "Uppdaterade SLA-planen på ärendet #:rel från :old_value till :new_value.",
+    "ticket_duetime_updated"            => "Uppdaterade sluttiden på ärendet #:rel till :new_value.",
+    "ticket_duetime_paused"             => "Pausade sluttiden på ärendet #:rel till nästa användarsvar.",
+    "ticket_customfield_updated"        => "Uppdaterade skräddarsydda fält på ärendet #:rel.",
+    "ticket_converted_user"             => "Konverterade interna ärendet #:rel till användarärende.",
+    "ticket_converted_internal"         => "Konverterade användarärendet #:rel till internt ärende.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value merged into ticket #:rel.",
-    "ticket_unmerged"                   => "Ticket :rel has been unmerged.",
+    "ticket_assigned_operator"          => "Tilldelade :new_value till ärendet #:rel.",
+    "ticket_unassigned_operator"        => "Tog bort :new_value från ärendet #:rel.",
+    "ticket_assigned_self"              => "Tilldelade sig själv till ärendet #:rel.",
+    "ticket_assigned_updated"           => "Uppdaterade tilldelade operatörer på ärendet #:rel.",
 
-    "ticket_user_blocked"               => "Blocked email :new_value (from user on ticket #:rel).",
+    "ticket_locked"                     => "Låste ärendet #:rel.",
+    "ticket_unlocked"                   => "Låste upp ärendet #:rel.",
+    "ticket_locked_reply"               => "Svar kunde inte läggas till på låste ärendet #:rel.",
 
-    "ticket_closed"                     => "Ticket #:rel has been closed.",
-    "ticket_inactive_closed"            => "Closed inactive ticket #:rel from status :old_value.",
-    "ticket_awaiting_response"          => "Sent waiting for response email to user on ticket #:rel.",
+    "ticket_merged"                     => "Ärende :new_value sammanslaget med ärende #:rel.",
+    "ticket_unmerged"                   => "Ärendet :rel har blivit delad.",
 
-    "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
-    "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
+    "ticket_user_blocked"               => "Blockerade e-post :new_value (från användare på ärende #:rel).",
 
-    "ticket_attachment_saved"           => "Added attachment to ticket #:rel.",
-    "ticket_attachment_deleted"         => "Deleted attachment from ticket #:rel.",
+    "ticket_closed"                     => "Ärendet #:rel har stängts.",
+    "ticket_inactive_closed"            => "Stängt inaktiva ärendet #:rel från status :old_value.",
+    "ticket_awaiting_response"          => "Skickat 'väntar på svar'-e-post till användaren på ärendet #:rel.",
 
-    "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
+    "ticket_split_from"                 => "Meddelande delade från gamla ärendet #:rel till nya ärendet #:new_value.",
+    "ticket_split_to"                   => "Meddelande delade från gamla ärendet #:old_value till nya ärendet #:rel.",
+
+    "ticket_email_user"                 => "Skickade e-post till användare.",
+    "ticket_email_operators"            => "Skicakde e-post till operatörer.",
+
+    "ticket_feedback_dequeued"          => "Tog bort feedback från formulärbegäran för ärendet #:rel från kö.",
+    "ticket_feedback_form_sent"         => "Skickade feedbackformulärbegäran för ärendet #:rel.",
+
+    "ticket_attachment_saved"           => "La till bilaga till ärendet #:rel.",
+    "ticket_attachment_deleted"         => "Tog bort bilaga från ärendet #:rel.",
+
+    "ticket_throttled"                  => "Avvisade nytt ärende från :rel p.g.a. throttling.",
+
+    /*
+     * 2.0.2
+     */
+    "ticket_email_operator_group"       => "Skickade e-post till operatörgruppen :new_value.",
+    "ticket_email_user_group"           => "Skickade e-post till användargruppen :new_value.",
 
     /*
      * 2.0.3
      */
-    "selfservice_attachment_saved"      => "Added attachment ':new_value' to article ID :rel.",
-    "selfservice_attachment_deleted"    => "Deleted attachment ':new_value' from to article ID :rel.",
-    "ticket_unassigned_self"            => "Unassigned self from ticket #:rel.",
+    "selfservice_attachment_saved"      => "La till bilagan ':new_value' till artikeln med ID :rel.",
+    "selfservice_attachment_deleted"    => "Tog bort bilagan ':new_value' från artikeln med ID :rel.",
+    "ticket_unassigned_self"            => "Tog bort sig själv från ärendet #:rel.",
 
     /*
      * 2.1.0
      */
-    "ticket_brand_disabled_reply"       => "Reply could not be added due to ticket belonging to a disabled brand #:rel.",
-    "personal_signatures_updated"       => "Updated personal signatures.",
-    "operator_signatures_updated"       => "Updated :rel's signatures.",
-    "check_email_failed"                => "Error: Failed to download email from account :old_value: ':rel'.",
-    "ticket_added_cc"                   => "Email(s) :new_value added to CC address list for ticket #:rel.",
-    "ticket_removed_cc"                 => "Email(s) :old_value removed from CC address list for ticket #:rel.",
-    "invalid_department_brand"          => "Failed to set department to ':new_value' on ticket #:rel, department does not belong to ticket brand.",
+    "ticket_brand_disabled_reply"       => "Svar kunde inte läggas till på ärendet då det tillhör ett avaktiverat varumärke #:rel.",
+    "personal_signatures_updated"       => "Uppdaterade personliga signaturer.",
+    "operator_signatures_updated"       => "Uppdaterade :rels signaturer.",
+    "check_email_failed"                => "Fel: misslyckades med att ladda ner e-post från kontot :old_value: ':rel'.",
+    "ticket_added_cc"                   => "E-posten :new_value tillagd till CC-adresslistan för ärendet #:rel.",
+    "ticket_removed_cc"                 => "E-posten :old_value borttagen från CC-adresslistan för ärendet #:rel.",
+    "invalid_department_brand"          => "Misslyckades med att sätta avdelningen till ':new_value' på ärendet #:rel, avdelningen tillhör inte ärendevarumärket.",
+
+    /*
+     * 2.1.1
+     */
+    "ticket_message_updated"            => "Uppdaterade meddelandet :message_id i ärendet #:rel.",
 
     /*
      * 2.1.2
      */
-    "sent_email_to"                     => "Sent an email with subject ':extra_rel1' to :rel.",
-    "sent_template_email_to"            => "Sent ':extra_rel1' email to :rel.",
-    "sent_ticket_email_to_user"         => "Sent ':extra_rel1' email to user for ticket #:rel.",
-    "sent_email_to_operators"           => "Sent ':extra_rel1' email to operators.",
-    "sent_ticket_email_to_operators"    => "Sent ':extra_rel1' email to operators for ticket #:rel.",
-    "sent_email_to_operator_group"      => "Sent ':extra_rel1' email to operator group ':new_value' for ticket #:rel.",
-    "ticket_macro_applied"              => "The macro ':new_value' was ran on ticket #:rel.",
-    "ticket_macro_automatic"            => "The macro ':new_value' automatically ran on ticket #:rel.",
-    "email_template_not_found"          => "Email template ID ':new_value' not found, aborted sending email.",
-    "ticket_duetime_unset"              => "Unset the due time on ticket #:rel.",
-    "private_conversation_started"      => "Started a conversation with :rel.",
-    "private_message_sent"              => "Sent a message to :rel.",
-    "not_imported_replies_disabled"     => "An email :extra_rel1 was received for ticket #:rel, but was not imported as ticket email replies are disabled.",
-    "not_imported_ticket_locked"        => "An email :extra_rel1 was received for ticket #:rel, but was not imported as the ticket is locked.",
+    "sent_email_to"                     => "Skickade ett e-post med ämnet ':extra_rel1' till :rel.",
+    "sent_template_email_to"            => "Skickade ':extra_rel1' e-post till :rel.",
+    "sent_ticket_email_to_user"         => "Skickade ':extra_rel1' e-post till användaren för ärendet #:rel.",
+    "sent_email_to_operators"           => "Skickade ':extra_rel1' e-post till operatörer.",
+    "sent_ticket_email_to_operators"    => "Skickade ':extra_rel1' e-post till operatörerna för ärendet #:rel.",
+    "sent_email_to_operator_group"      => "Skickade ':extra_rel1' e-post till operatörgruppen ':new_value' för ärendet #:rel.",
+    "sent_email_to_user_group"          => "Skickade ':extra_rel1' e-post till användargruppen ':new_value' för ärendet #:rel.",
+    "ticket_macro_applied"              => "Makrot ':new_value' kördes på ärendet #:rel.",
+    "ticket_macro_automatic"            => "Makrot ':new_value' kördes automatiskt på ärendet #:rel.",
+    "email_template_not_found"          => "E-postmallen med ID ':new_value' hittades inte, avbröt e-postutskicket.",
+    "ticket_duetime_unset"              => "Tog bort förfallotiden från ärendet #:rel.",
+    "private_conversation_started"      => "Startade en konversation med :rel.",
+    "private_message_sent"              => "Skickade ett meddelande till :rel.",
+    "not_imported_replies_disabled"     => "E-post :extra_rel1 togs emot för ärendet #:rel men importerades inte då e-postsvar är avaktiverat.",
+    "not_imported_ticket_locked"        => "E-post :extra_rel1 togs emot för ärendet #:rel men importerades inte då ärendet är låst.",
 
     /*
      * 2.2.0
      */
-    "ticket_user_added_to_group"        => "Ticket user added to user group :new_value.",
-    "ticket_user_removed_from_group"    => "Ticket user removed from user group :old_value.",
-    "email_on_behalf"                   => "Forwarded :extra_rel2 on behalf of ':extra_rel1' in ticket #:rel.",
+    "ticket_user_added_to_group"        => "Ärendetsanvändare lagd till grupp :new_value.",
+    "ticket_user_removed_from_group"    => "Ärendetsanvändare bortagen från grupp :old_value.",
+    "email_on_behalf"                   => "Vidaresänt :extra_rel2 för ':extra_rel1' räkning, i ärednde #:rel.",
 
     /*
      * 2.3.0
      */
-    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
-    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
-    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
-    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
-    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
-    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
-
-    /*
-     * 2.3.1
-     */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
-    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
-
-    /*
-     * 2.4.0
-     */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
-
-    /*
-     * 2.5.0
-     */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
-
-    /*
-     * 2.6.0
-     */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
-
-    /*
-     * 3.0.0
-     */
-    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
+    "registered_users_only"             => "Skickat ':extra_rel1' epost till :new_value, avdelningen accepterar inte email från ej registrerade användare",
+    "deleted_user"                      => "Raderat :item ':rel' med epost ':email_address' (ID :user_id).",
+    "linked_ticket"                     => "Länkat ärende #:rel med ärende :extra_rel1.",
+    "unlinked_ticket"                   => "Avlänkat ärende #:rel från ärende :extra_rel1.",
+    "email_queue_attachment_deleted"    => "Raderat bilaga ':old_value' från köat epost ':rel'.",
+    "forward_ticket_email"              => "Vidatebefodrat ärende #:rel till extern part, visa ':extra_rel1' epost.",
 
 );

@@ -2,62 +2,58 @@
 
 return array(
 
-    "customfield"               => "Custom Field|Custom Fields",
+    "customfield"               => "Skräddarsytt fält|Skräddarsydda fält",
 
     // Options
-    "boolean"                   => "Boolean",
-    "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "password"                  => "Password",
-    "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
+    "boolean"                   => "Booleskt",
+    "checkbox"                  => "Kryssruta",
+    "checklist"                 => "Krysslista",
+    "date"                      => "Datum",
+    "multiple"                  => "Multipla inställningar",
+    "options"                   => "Inställningar",
+    "password"                  => "Lösenord",
+    "radio"                     => "Radioknappar",
+    "rating"                    => "Betygsättning (1 till 5)",
     "text"                      => "Text",
-    "textarea"                  => "Textarea",
+    "textarea"                  => "Textområde",
 
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
+    "required_desc"             => "Om det skräddarsydda fältet måste fyllas i.",
+    "public"                    => "Publik",
+    "public_desc"               => "Om det skräddarsydda fältet visas publikt på framsidan eller är enbart för personal.",
+    "encrypted"                 => "Krypterad",
+    "purge_desc"                => "Om det skräddarsydda fältet automatiskt ska rensas när ärendet är avslutat.",
+    "locked"                    => "Låst",
+    "locked_desc"               => "Om det skräddarsydda fältets värde inte ska kunna ändras i efterhand.",
+    "department_desc"           => "Välj vilka avdelningar fältet är tillgängligt för.",
 
     /*
      * 2.0.2
      */
-    "please_select"             => "Please select...",
+    "please_select"             => "Välj...",
 
     /*
      * 2.0.3
      */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
+    "description_desc"          => "Hjälptexten som hamnar under det skräddarsydda fältet och kan lämnas blankt.",
 
     /*
      * 2.1.0
      */
-    "brand_desc"                => "Choose which brands the field is available in.",
-    
+    "brand_desc"                => "Välj vilka varumärken fältet är tillgängligt för.",
+
     /*
      * 2.3.0
      */
-    "option_warning"            => "Deleting existing options will clear any saved fields that currently have those values selected.",
-    "regex_basic_desc"          => "Optionally specify a regular expression to validate the custom field value.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
-    "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
-
-    /*
-     * 2.3.1
-     */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+    "option_warning"            => "Vid radering av val kommer alla sparade fält med detta val att rensas.",
+    "regex_basic_desc"          => "Valfri regulärt yttryck för att validera värdet i fältet.",
+    "regex_desc"                => "Det regulära uttrycket är skiftesokänsligt, har ej behov av avskiljare och / teckan kommer att bli hanterade med automatik. Exempel: ^[a-z0-9_-]{6,18}$ kommer att tvinga värdet till 6-18 tecken långt och innehålla a till z samt siffror, _ och punkt.",
+    "regex_error_message"       => "Felmeddelande vid validering",
+    "regex_error_message_desc"  => "Valfritt felmeddelande som visas när värdet inte matchar det regulära uttrycket, saknas detta kommer ett standard meddelelande att visas. Meddelandet kommer att visa excakt som det är inskrivet, så vi rekomenderar att även inkludera namnet på fältet så att det blir enklare att förstå meddelandet",
+    "custom_field_values"       => "Eget fält värden",
+    "depends_on"                => "Beroenda av",
+    "depends_on_desc"           => "Om vald kommer etta fält endast att visas om användaren väljer det valda fältet. Varumärket och avdelningen kommer att ärvas från fältet det beror på.",
+    "select_option"             => "Välj ett val...",
+    "purge"                     => "Rensa",
+    "encrypted_desc"            => "Värdet på fältet innehåller känsliga uppgifter och ska krypteras innan det sparas. Detta kan inte ändras efter att fältet har skapats.",
 
 );

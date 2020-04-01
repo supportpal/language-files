@@ -2,112 +2,97 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Uppdatera allmänna inställningar",
 
     // Core
-    "apitoken"          => "Manage API Tokens",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+    "apitoken"          => "Hantera API-tokens",
+    "company"           => "Hantera företag",
+    "emailtemplate"     => "Hantera e-postmallar",
+    "ipban"             => "Hantera IP-bannlysningar",
+    "ipwhitelist"       => "Hantera IP-vitlistningar",
+    "language"          => "Hantera språk",
+    "license"           => "Visa licensinformation",
+    "module"            => "Hantera moduler",
+    "scheduledtask"     => "Hantera schemalagda uppgifter",
+    "spamrule"          => "Hantera spamregler",
+    "emaillog"          => "Visa e-postlog",
+    "emailqueue"        => "Visa e-postkö",
+    "systemcleanup"     => "Utför systemrensning",
 
     // User
-    "operatorgroup"     => "Manage Operator Groups",
-    "organisation"      => "Manage Organisations",
-    "role"              => "Manage Operator Roles",
-    "user_view"         => "View Users",
-    "user_add"          => "Add Users",
-    "user_edit"         => "Edit Users",
-    "user_delete"       => "Delete Users",
-    "usergroup"         => "Manage User Groups",
-    "massemail"         => "Send Mass Email",
-    "ldapaccount"       => "Manage LDAP Accounts",
-    "activitylog"       => "View System Activity Log",
-    "operatorlog"       => "View Operator Login Log",
+    "operatorgroup"     => "Hantera operatörsgrupper",
+    "organisation"      => "Hantera organisationer",
+    "role"              => "Hantera operatörroller",
+    "user_view"         => "Visa användare",
+    "user_add"          => "Lägg till användare",
+    "user_edit"         => "Ändra användare",
+    "user_delete"       => "Ta bort användare",
+    "usergroup"         => "Hantera användargrupper",
+    "massemail"         => "Skicka masse-post",
+    "ldapaccount"       => "Hantera LDAP-konton",
+    "activitylog"       => "Visa systemaktivitetslog",
+    "operatorlog"       => "Visa operatörloginlog",
 
     // Ticket
-    "cannedresponse"    => "Manage Canned Responses",
-    "channel"           => "Manage Channels",
-    "department"        => "Manage Departments",
-    "filter"            => "Manage Filters",
-    "holiday"           => "Manage Holidays",
-    "macro"             => "Manage Macros",
-    "priority"          => "Manage Priorities",
-    "schedule"          => "Manage Schedules",
-    "slaplan"           => "Manage SLA Plans",
-    "status"            => "Manage Statuses",
-    "ticket_view"       => "View Tickets",
-    "ticket_add"        => "Open Tickets",
-    "ticket_edit"       => "Update Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+    "cannedresponse"    => "Hantera konserverade svar",
+    "channel"           => "Hantera kanaler",
+    "department"        => "Hantera avdelningar",
+    "feedback"          => "Hantera feedback",
+    "feedbackform"      => "Hantera Feedbackformulär",
+    "filter"            => "Hantera filter",
+    "holiday"           => "Hantera semestrar",
+    "macro"             => "Hantera makron",
+    "priority"          => "Hantera prioriteringar",
+    "schedule"          => "Hantera scheman",
+    "slaplan"           => "Hantera SLA-planer",
+    "status"            => "Hantera statusar",
+    "ticket_view"       => "Visa ärenden",
+    "ticket_add"        => "Öppna ärenden",
+    "ticket_edit"       => "Uppdatera ärenden",
+    "ticket_delete"     => "Ta bort äreneden",
+    "ticketcustomfield" => "Hantera skräddarsydda fält",
 
     // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+    "article"           => "Hantera artiklar",
+    "category"          => "Hantera kategorier",
+    "comment"           => "Hantera kommentarer",
+    "selfservicetype"   => "Hantera typer",
 
     // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+    "report"            => "Visa rapporter",
+    "reportdashboard"   => "Visa instrumentbräda",
 
     // General
-    "tag"               => "Manage Tags",
+    "tag"               => "Hantera etiketter",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "View Plugins",
+    "plugin"            => "Visa plugins",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Manage Operators",
-    
+    "operator"          => "Hantera operatörer",
+
     /*
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "brand"             => "Hantera varumärken",
+    "phpinfo"           => "Visa PHP-information",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield"   => "Hantera användarskräddarsydda fält",
+    "organisationcustomfield" => "Hantera organisationskräddarsydda fält",
+    "operatorsignature" => "Hantera operatörssignaturer",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
-
-    /*
-     * 2.4.0
-     */
-    // User
-    "sociallogin"       => "Manage Social Login",
-
-    /*
-     * 2.5.0
-     */
-    // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
-
-    /*
-     * 3.0.0
-     */
-    "selfservicefeedbackform" => "Manage Feedback Forms",
-    "ticketfeedbackform"      => "Manage Feedback Forms",
+    "logfiles"          => "Hantera logfiler",
 
 );

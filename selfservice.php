@@ -2,155 +2,132 @@
 
 return array(
 
-    "popular_items"             => "Popular Items",
-    "latest_items"              => "Latest Items",
+    "popular_items"             => "Populära objekt",
+    "type_popular_items"        => ":type: Populära",
+    "latest_items"              => "Senaste objekt",
+    "type_latest_items"         => ":type: Senaste",
 
-    "selfservice"               => "Self-Service",
-    "article"                   => "Article|Articles",
-    "category"                  => "Category|Categories",
-    "comment"                   => "Comment|Comments",
-    "tag"                       => "Tag|Tags",
-    "type"                      => "Type|Types",
+    "selfservice"               => "Självbetjäning",
+    "article"                   => "Artikel|Artiklar",
+    "category"                  => "Kategori|Kategorier",
+    "comment"                   => "Kommentar|Kommentarer",
+    "tag"                       => "Etikett|Etiketter",
+    "type"                      => "Typ",
 
-    "frontend_icon"             => "Frontend Icon",
-    "frontend_icon_desc"        => "Select a default icon to display on the frontend. Alternatively, upload your own icon:",
+    "type_enabled_desc"         => "Avaktivera typen stoppar den från att visas på framsidan.",
+    "type_order"                => "Du kan ändra ordningen på de självbetjäningstyper som visas för användare på framsidan genom att dra och släppa de rader du vill flytta.",
 
-    "no_categories"             => ":type currently has no categories. Please create one before adding an article.",
-    "no_categories_frontend"    => "There are no categories to display.",
+    "type_view_desc"            => "Om ditt innehåll kommer innehålla många kategorier och vara informativ som en kunskapsdatabas rekommenderar vi en hierarkisk vy men om innehållet är tidsrelaterat som meddelanden eller en blog rekommenderar vi en listvy.",
+    "frontend_icon"             => "Framsidans ikon",
+    "frontend_icon_desc"        => "Välj en standardikon att visa på framsidan. Du kan också ladda upp en egen:",
 
-    "awaiting_moderation"       => "Awaiting Moderation",
-    "published"                 => "Published",
+    "no_categories"             => ":type har för närvarande ingen kategori. Välj en innan du lägger in artikeln.",
+    "no_categories_frontend"    => "Det finns inga kategorier att visa.",
+
+    "awaiting_moderation"       => "Inväntar moderering",
+    "published"                 => "Publicerad",
     "spam"                      => "Spam",
 
-    "hierarchical"              => "Hierarchical",
-    "list"                      => "List",
+    "show_text"                 => "Visa text",
+    "hide_text"                 => "Göm text",
 
-    "show_on_dashboard"         => "Show Articles on Frontend Home",
-    "show_on_dashboard_desc"    => "Shows some articles on the frontend dashboard. If view is set to <strong>hierarchical</strong>, it will show the 5 most viewed articles, else if <strong>list</strong>, it will show the 5 latest articles.",
+    "hierarchical"              => "Hierarkisk",
+    "list"                      => "Lista",
 
-    "title"                     => "Title",
-    "author"                    => "Author",
-    "keyword"                   => "Keyword|Keywords",
-    "excerpt"                   => "Excerpt",
-    "associate_tag"             => "Associate article with a tag...",
-    "associate_category"        => "Associate article with a category...",
-    "published_desc"            => "If the article can be viewed publicly. If it is not published, it can still be viewed by direct URL provided one of the categories is public.",
-    "registered_users_desc"     => "Toggle to show article only to logged in users.",
+    "show_on_dashboard"         => "Visa artiklar på framsidan",
+    "show_on_dashboard_desc"    => "Visar vissa artiklar på framsidans instrumentpanel. Om vy är satt till <strong>hierarkisk</strong> kommer de fem mest sedda artiklarna att visas. Om det är en <strong>lista</strong> kommer de fem senaste artiklarna att synas.",
 
-    "comment_by"                => "Comment By",
-    "replying_to"               => "Replying to",
-    "receive_notifications"     => "Receive notifications for future replies",
+    "title"                     => "Titel",
+    "author"                    => "Författare",
+    "keyword"                   => "Nyckelord",
+    "excerpt"                   => "Utdrag",
+    "associate_tag"             => "Associera artikeln med en etikett...",
+    "associate_category"        => "Associera artikeln med en kategori...",
+    "published_desc"            => "Om artikeln kan visas publikt. Om den inte är publicerad kan den fortfarande synas via direkt-URL så länge en av kategorierna är publika.",
+    "registered_users_desc"     => "Växla för att visa artiklar enbart för inloggade användare.",
 
-    "login_comment"             => "You must be logged in to submit a comment.",
-    "incorrect_captcha"         => "The captcha was incorrect.",
-    "comment_blocked"           => "The comment was blocked due to spam.",
-    "comment_success"           => "Your comment was submitted!",
-    "comment_success_moderated" => "Your comment has been submitted for moderation by a member of our team.",
+    "comment_by"                => "Kommentar av",
+    "replying_to"               => "Svara på",
+    "receive_notifications"     => "Ta emot notifikationer från framtida svar",
 
-    "comment_rated_success"     => "The comment was successfully rated.",
-    "comment_rated_error"       => "The comment could not be rated.",
+    "login_comment"             => "Du måste logga in för att skicka in en kommentar.",
+    "incorrect_captcha"         => "Captchan är inkorrekt.",
+    "comment_blocked"           => "Kommentaren blev blockerad p.g.a. spam.",
+    "comment_error"             => "Kunde inte skicka in kommentaren.",
+    "comment_success"           => "Din kommentar har skickats in!",
+    "comment_success_moderated" => "Din kommentar har skickats in för moderering av oss.",
 
-    "article_find_useful"       => "Did you find this article useful?",
-    "article_rated_success"     => "The article was successfully rated.",
-    "article_rated_error"       => "The article could not be rated.",
+    "comment_rated_success"     => "Kommentaren betygsattes.",
+    "comment_rated_error"       => "Kommentaren kunde inte betygsättas.",
 
-    "comment_below_threshold"   => "(Comment below score threshold, click to show)",
-    "view_all_replies"          => "View all replies",
-    "show_more_comments"        => "Show more comments",
-    "highest_rated"             => "Highest Rated",
-    "newest"                    => "Newest",
-    "oldest"                    => "Oldest",
+    "article_find_useful"       => "Tyckte du att artikeln hjälpte dig?",
+    "article_found_useful"      => "personer fann denna artikel hjälpsam.",
+    "article_rated_success"     => "Artiklen betygsattes.",
+    "article_rated_error"       => "Artikeln kunde inte betygsättas.",
 
-    "no_articles"               => "No articles.",
+    "comment_below_threshold"   => "(Kommentaren är under betygströskeln, klicka för att visa)",
+    "view_all_replies"          => "Visa alla svar",
+    "show_more_comments"        => "Visa fler kommentarer",
+    "highest_rated"             => "Högst betyg",
+    "newest"                    => "Yngsta",
+    "oldest"                    => "Äldsta",
 
-    "related_articles"          => "Related Articles",
+    "no_articles"               => "Inga artiklar.",
 
-    "rating"                    => "Rating|Ratings",
+    "related_articles"          => "Relaterade artiklar",
 
-    "rssfeed"                   => "RSS Feed",
+    "rating"                    => "Betyg",
+
+    "rssfeed"                   => "RSS-flöde",
 
     // General settings
-    "settings"                  => "Self-Service Settings",
-    "enable_comments"           => "Enable Comments",
-    "enable_comments_desc"      => "Allow users to comment on articles.",
-    "write_comments"            => "Write Comments",
-    "write_comments_desc"       => "If comments can be written by anyone or registered users only.",
-    "registered_users"          => "Registered Users Only",
-    "unregistered_users"        => "Unregistered Users Only",
-    "show_captcha"              => "Show Captcha",
-    "show_captcha_desc"         => "When the captcha should be shown to users writing comments.",
-    "comment_moderation"        => "Comment Moderation",
-    "comment_moderation_desc"   => "If comments must be moderated when they are submitted before they are publicly displayed, or if they are automatically publicly displayed.",
-    "moderated"                 => "Moderated",
-    "unmoderated"               => "Unmoderated",
-    "comment_threshold"         => "Comment Threshold",
-    "comment_threshold_desc"    => "Comment ratings which are less than (and not equal to) this value will have their visibility reduced and have to be clicked to be seen.",
+    "settings"                  => "Självbetjäningsinställningar",
+    "enable_comments"           => "Tillåt kommentarer",
+    "enable_comments_desc"      => "Tillåt användare att kommentera artiklar.",
+    "write_comments"            => "Skriva kommentarer",
+    "write_comments_desc"       => "Om kommentarer kan skrivas av alla eller enbart registrerade användare.",
+    "registered_users"          => "Endast registrerade användare",
+    "unregistered_users"        => "Endast oregistrerade användare",
+    "show_captcha"              => "Visa captcha",
+    "show_captcha_desc"         => "När captchan skall synas för användare som skriver kommentarer.",
+    "comment_moderation"        => "Kommentarmoderering",
+    "comment_moderation_desc"   => "Om kommentarer måste bli modererade när de skickats in innan de blir synliga för allmänheten eller om de blir automatiskt synliga för allmänheten.",
+    "moderated"                 => "Modererat",
+    "unmoderated"               => "Omodererat",
+    "comment_threshold"         => "Kommentartröskel",
+    "comment_threshold_desc"    => "Kommentarer med betyg som är mindre än (inte lika med) detta värde måste klickas på för att synas.",
 
-    "enable_ratings"            => "Enable Article Ratings",
-    "enable_ratings_desc"       => "Allow users to rate articles.",
-    "post_rating"               => "Rate Articles",
-    "post_rating_desc"          => "If articles can be rated by anyone or registered users only.",
+    "enable_ratings"            => "Aktivera artikelbetygsättning",
+    "enable_ratings_desc"       => "Tillåt användare att betygsätta artiklar.",
+    "post_rating"               => "Betygsätt artiklar",
+    "post_rating_desc"          => "Om artiklar kan bli betygsatta av vem som helst eller bara registrerade användare.",
+    "show_rating"               => "Visa betyg",
+    "show_rating_desc"          => "Visa artikelbetyg för alla (publikt) eller enbart registrerade användare.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Please login or register an account to view the article.",
+    "auth_required"             => "Logga in eller registrerar ett konto för att titta på artikeln.",
+    "download_auth_required"    => "Logga in eller registrerar ett konto för att ladda ner artikelbilagan",
+    "auth_required"             => "Logga in eller registrerar ett konto för att titta på artikeln.",
 
     /*
      * 2.1.0
      */
-    "view_articles"             => "View Articles",
-    "view_categories"           => "View Categories",
-    "add_to_another_type"       => "Add to Another Type",
-    "select_type"               => "Select Type...",
-    "visibility"                => "Visibility",
-    "reply_to_comment"          => "Reply To Comment",
-    "article_brand_warning"     => "This article exists in a brand that you are not assigned to, any changes you make will also be visible under that brand.",
-    "viewing_article"           => "Viewing Article",
-    "article_count"             => "Article Count",
+    "view_articles"             => "Titta på artiklar",
+    "view_categories"           => "Titta på kategorier",
+    "add_to_another_type"       => "Lägg till en annan typ",
+    "select_type"               => "Välj typ...",
+    "visibility"                => "Synlig",
+    "reply_to_comment"          => "Besvara kommentar",
+    "article_brand_warning"     => "Denna artikel existerar i ett varumärke som du inte tillhör. De ändringar du gör kommer också att bli synliga för det varumärket.",
+    "viewing_article"           => "Tittar på artikel",
+    "article_count"             => "Artikelantal",
 
     /*
      * 2.2.0
      */
-    "article_desc"              => "The article can be written in several languages. The appropriate article will be shown automatically based on the user's language preference.",
-    "no_author"                 => "No Author",
-
-    /*
-     * 2.3.1
-     */
-    "slug"                      => "Slug",
-    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
-    "change_slug"               => "Change Slug",
-    "published_date"            => "Published Date",
-    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
-    "content_options"           => "Content Options",
-    "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
-    "external_link"             => "External Link",
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
-    "pinned"                    => "Pinned",
-    "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
-    "article_ordering"          => "Article Ordering",
-    "article_ordering_desc"     => "The ordering of articles when viewing the type on the frontend.",
-    "most_popular"              => "Most Popular",
-    "most_recent"               => "Most Recent",
-    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
-    "type_enabled_desc"         => "Disabling the type will stop it displaying.",
-    "internal"                  => "Internal",
-    "internal_desc"             => "Toggle to set the type to only be visible internally to operators in the operator panel.",
-    "login_to_comment"          => "Please login to post a comment.",
-    "article_rating"            => "Article Rating|Article Ratings",
-    "comment_rating"            => "Comment Rating|Comment Ratings",
-
-    /*
-     * 2.5.0
-     */
-    "revision_history"          => "Revision History",
-
-    /*
-     * 3.0.0
-     */
-    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
-    "article_feedback"          => "Article Feedback",
-    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
+    "article_desc"              => "Artiklen kan skrivas i flera språk. Språket den visas i bestämms av användarens inställningar.",
+    "no_author"                 => "Ingen författare",
 
 );

@@ -325,7 +325,6 @@ return array(
         "Europe/Rome"                       => "(GMT+01:00) Rome",
         "Europe/Stockholm"                  => "(GMT+01:00) Stockholm",
         "Europe/Vienna"                     => "(GMT+01:00) Vienna",
-        "Europe/Zurich"                     => "(GMT+01:00) Zurich",
         "Europe/Minsk"                      => "(GMT+02:00) Minsk",
         "Africa/Cairo"                      => "(GMT+02:00) Cairo",
         "Europe/Helsinki"                   => "(GMT+02:00) Helsinki",
