@@ -1,6 +1,8 @@
-# SupportPal Language Files
+# SupportPal Language Files - English (en)
 
 The language files for the [SupportPal](https://www.supportpal.com) system, found at `/resources/lang` in a SupportPal installation. This repository will be used to track changes made to the language files between releases.
+
+To choose another language, change the branch. Contributions are very welcome.
 
 SupportPal is a [self-hosted, on-premise help desk software](https://www.supportpal.com).
 
