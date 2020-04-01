@@ -2,155 +2,130 @@
 
 return array(
 
-    "deleted"               => "Deleted!",
-    "success"               => "Success",
+    "deleted"               => "Verwijderd!",
+    "success"               => "Succes",
     "error"                 => "Error",
-    "in_progress"           => "In Progress",
+    "in_progress"           => "In behandeling",
 
-    "save_order"            => "Attempting to save the updated order of the items",
+    "save_order"            => "Proberen de nieuwe sortering van de items op te slaan",
 
-    "show_all_results"      => "Show all results &raquo;",
+    "show_all_results"      => "Toon alle resultaten &raquo;",
 
-    "are_you_sure"          => "Are you sure?",
-    "yes_im_sure"           => "Yes, I'm sure",
+    "are_you_sure"          => "Weet u het zeker?",
+    "yes_im_sure"           => "Ja, ik weet het zeker.",
 
-    "success_created"       => "Successfully created new :item!",
-    "error_created"         => "Failed trying to create new :item.",
+    "success_created"       => "Nieuw :item! aangemaakt.",
+    "error_created"         => "Nieuw :item kon niet worden aangemaakt.",
 
-    "success_deleted"       => "Successfully deleted the :item!",
-    "error_deleted"         => "Failed trying to delete the :item.",
+    "success_deleted"       => ":item is verwijderd.",
+    "error_deleted"         => ":item kon niet worden verwijderd.",
 
-    "success_updated"       => "Successfully updated the :item!",
-    "error_updated"         => "Failed trying to update the :item.",
+    "success_updated"       => ":item is bijgewerkt.",
+    "error_updated"         => ":item kon niet worden bijgewerkt.",
 
-    "error_notfound"        => "The :item with given ID was not found.",
-    "error_notfound_name"   => "The :item with given name was not found.",
-    "report_notfound"       => "The report with given category and name was not found.",
+    "error_notfound"        => "Het :item met opgegeven ID kon niet worden gevonden.",
+    "error_notfound_name"   => "Het :item met de opgegeven naam kon niet worden gevonden.",
+    "report_notfound"       => "Het rapport met de opgegeven catogery en naam kon niet worden gevonden.",
 
-    "success_ordering"      => "Successfully updated the ordering!",
-    "error_ordering"        => "Failed trying to update the ordering.",
+    "success_ordering"      => "Sortering is bijgewerkt!",
+    "error_ordering"        => "Sortering kon niet worden bijgewerkt.",
 
-    "error_login"           => "Login attempt failed.",
-    "success_logout"        => "Successfully logged out.",
+    "error_login"           => "Inloggen mislukt.",
+    "success_logout"        => "Uitgelogd.",
 
-    "please_correct"        => "Please correct the following errors and try again.",
+    "please_correct"        => "Verbeter onderstaande fouten en probeer opnieuw.",
 
-    "success_settings"      => "Successfully updated the settings!",
-    "error_settings"        => "Failed trying to update the settings.",
+    "success_settings"      => "Instellingen bijgewerkt!",
+    "error_settings"        => "Kon de instellingen niet bijwerken..",
 
-    "success_action"        => "Successfully performed the action!",
-    "error_action"          => "Failed to perform the action.",
+    "success_action"        => "De actie is uitgevoerd!",
+    "error_action"          => "Kon de actie niet uitvoeren.",
 
-    "error_embed_image"     => "Failed trying to upload the image.",
+    "success_sending"       => ":item is verstuurd!",
+    "error_sending"         => "Kon :item niet versturen.",
 
-    "unauthorised"          => "Unauthorised",
-    "not_authorised"        => "Not authorised to complete this action.",
-    "not_permitted"         => "You are not permitted to view this page. If you think this has been displayed in error, please speak to your application administrator.",
+    "error_embed_image"     => "Kon de afbeelding niet uploaden.",
 
-    "page_not_found"        => "Page Not Found",
-    "cant_find_page"        => "We can't find the page that you're looking for.",
+    "unauthorised"          => "Niet geautoriseerd",
+    "not_authorised"        => "Niet geautoriseerd om deze actie uit te voeren.",
+    "not_permitted"         => "U hebt geen rechten deze pagina te bekijken. Indien u van mening bent dat dit incorrect is neem dan contact up met uw applicatiebeheerdeer..",
 
-    "please_report"         => "Please report to an administrator if this was unexpected.",
+    "page_not_found"        => "Pagina niet gevonden",
+    "cant_find_page"        => "We kunnen de pagina die u opvroeg niet vinden.",
 
-    "return_to"             => "Return to the :page.",
+    "please_report"         => "Meldt dit aan een beheerder als dit onverwacht is.",
 
-    "session_expired"       => "Your session expired, please login again.",
-    "session_refresh"       => "Your session expired, please refresh the page and then try again.",
+    "return_to"             => "Keer terug naar :page.",
 
-    "general_error"         => "An error occurred. Please try again.",
+    "session_expired"       => "Uw sessie is verlopen, log opnieuw in.",
+    "session_refresh"       => "Uw sessie is verlopen. Ververs de pagina en probeer het nog eens.",
 
-    "no_results"            => "No results.",
+    "general_error"         => "Er is een fout opgetreden. Probeer nogmaals..",
 
-    "assign_incomplete"     => "The action could not be completed in full. :names could not be assigned to some tickets.",
+    "mailer_error"          => "Er is een fout opgetreden tijdens het versturen van de email met onderp ':subject'.",
 
-    "maintenance_mode"      => "Maintenance mode is active. The help desk is currently inaccessible by users, please remember to turn maintenance mode off when finished.",
+    "no_results"            => "Geen resultaat.",
 
-    "invalid_captcha"       => "The captcha code entered was invalid or incorrect, please try again.",
-    "blocked_as_spam"       => "Your request was detected as spam. Please contact an administrator if you feel this has been shown in error.",
-    "account_exists"        => "An active account already exists with this email address. Please login or use the forgotten password feature if you cannot remember your password.",
-    "error_loading_comments" => "There was a problem loading the comments.",
+    "assign_incomplete"     => "De actie kon niet volledig worden afgemaakt. :names kon niet worden toegewezen aan enkele tickets.",
 
-    "invalid_auth"          => "Invalid authentication credentials.",
+    "maintenance_mode"      => "Maintenance mode is ingesteld. The servicedesk momenteel niet bereikbaar voor gebruikers. Vergeet niet de maintenance mode uit te zetten.",
 
-    "forbidden"             => "Forbidden",
+    "invalid_captcha"       => "De ingevulde captcha code is niet correct. Probeer het nog eens.",
+    "blocked_as_spam"       => "Uw aanvraag is gemarkeerd als spam. Indien dit niet correct is neem contact op met een beheerder..",
+    "account_exists"        => "Een actief account bestaat al met dit emailadres. Login of gebruik de wachtwoord vergeten optie.",
+    "error_loading_comments" => "Er was een probleem met het laden van de reacties.",
 
-    "not_logged_exception"  => "<strong>Whoops! Something went wrong.</strong><br />Please notify the system administrator if the error persists.",
+    "invalid_auth"          => "Ongeldige inloggegevens.",
 
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
+    "forbidden"             => "Niet toegestaan",
 
-    "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
+    "uncaught_exception"    => "<strong>Oeps! Er ging iets fout.</strong><br />De foutmelding is gelogd. Wanneer het probleem aanhoudt waarschuw een beheerder.",
+
+    "not_logged_exception"  => "<strong>Oeps! Er ging iets fout.</strong><br />. Wanneer het probleem aanhoudt waarschuw een beheerder.",
+
+    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van emailadres :email. De limiet is :max in :decay minuten.",
+
+    "error_close_open"      => "Fout! Gelieve te sluiten en heropenen.",
+
+    "not_operator"          => "Er ging iets fout. De geselecteerde operator is niet geldig. Kijk of deze bij de verwachte operatorgroep hoort.",
 
     // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
+    "datatable_error"       => "<strong>Oeps. Er ging iets verkeerd.</strong><br />Er trad een fout op tijdens het laden van de tabel data. Waarschuw een beheerder wanner dit probleem aanhoudt.",
 
-    "missing_extension"     => "Missing Extension",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
-
+    "missing_extension"     => "Missende extensie",
+    "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
+    "php_imap_missing"      => "De php-imap extensie is nodig om email te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
+    
     /*
      * 2.0.3
      */
-    "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
-    "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
-    "error_loading_message" => "An error occurred while loading the message. Please try again.",
-    "please_refresh"        => "Please refresh the page.",
-
+    "warn_delete"           => "Wanneer dit record is verwijderd kan deze niet terug worgen gehaald. Indien het record elders nog gebruikt wordt heeft de verwijdering grotere gevolgen..",
+    "only_ssl_connections"  => "Alleen SSL verbindingen zijn toegestaan..",
+    "queued_emails"         => "Succes - De emails worden in de wachtrij geplaatst en zullen spoeding worden verzonden.",
+    "error_loading_message" => "Er trad een fout op tijdens het laden van het bericht. Probeer het opnieuw.",
+    "please_refresh"        => "Ververs de pagina.",
+    
     /*
      * 2.1.0
      */
-    "unable_to_connect_db"  => "<strong>Service currently unavailable.</strong><br />Unable to connect to the database.",
-    "category_required"     => "The article must belong to one or more categories.",
-    "warning"               => "Warning",
-    "note"                  => "Note",
-    "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
+    "unable_to_connect_db"  => "<strong>Service momenteel niet beschikbaar.</strong><br />Er is geen verbinding met de database.",
+    "category_required"     => "Het artikel moet tot een of meedere categorieen behoren..",
+    "warning"               => "Waarschuwing",
+    "note"                  => "Let op",
+    "brand_invalid_dept"    => "De actie kon niet volledig worden uitgevoerd. In sommige tickets kon de afdeling niet worden bijgewerkt vanwege hun merk.",
+    "template_subject_req"  => "Het onderwerpveld van de standaardemailtemplate is verplicht.",
+    "template_contents_req" => "Het inhoudveld van de standaardemailtemplate is verplicht.",
 
     /*
      * 2.1.1
      */
-    "upload_error"          => "Failed to upload attachment \":filename\", reason: \":reason\"",
-    "upload_max_size"       => "File must be smaller than :size",
-    "upload_wrong_type"     => "File type is not allowed",
+    "upload_error"          => "Kon bijlage niet uploaden \":filename\", reden: \":reason\"",
+    "upload_max_size"       => "Bestand moet kleiner zijn dan :size",
+    "upload_wrong_type"     => "Bestandstype is niet toegestaan",
 
     /*
-     * 2.3.0
+     * 2.1.2
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
-
-    /*
-     * 2.3.1
-     */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
-
-    /*
-     * 2.4.0
-     */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
-
-    /*
-     * 2.5.0
-     */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
-
-    /*
-     * 3.0.0
-     */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "field_required"        => "Veld is verplicht.",
 
 );

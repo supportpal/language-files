@@ -2,26 +2,26 @@
 
 return array(
 
-    "new_ticket"            => "New Ticket Opened",
-    "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
+    "new_ticket"            => "Nieuw ticket geopend",
+    "new_ticket_text"       => "Een nieuw ticket #:item is geopend door :name.",
 
-    "new_reply"             => "New Ticket Reply",
-    "new_reply_text"        => "A new reply has been posted by :name in ticket #:item.",
+    "new_reply"             => "Nieuw ticket antwoord",
+    "new_reply_text"        => "Een nieuw antwoord is geplaatst door :name op ticket #:item.",
 
     "operator_login"        => "Operator Logged In",
-    "operator_login_text"   => ":name has logged in to the operator panel.",
+    "operator_login_text"   => ":name is ingelogd op het operatorpanel.",
 
     "failed_logins"         => "Failed Operator Logins",
-    "new_comments"          => "New Comments",
+    "new_comments"          => "Nieuwe reacties",
 
     /*
      * 2.0.2
      */
-    "private_message"       => "New Private Message",
+    "private_message"       => "Nieuwe privebericht",
 
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name heeft een nieuwe privebericht gestuurd <a href=':route'>private message</a>.",
 
 );

@@ -2,155 +2,132 @@
 
 return array(
 
-    "popular_items"             => "Popular Items",
+    "popular_items"             => "Populaire items",
+    "type_popular_items"        => ":type: Populair",
     "latest_items"              => "Latest Items",
+    "type_latest_items"         => ":type: Laatste",
 
     "selfservice"               => "Self-Service",
-    "article"                   => "Article|Articles",
-    "category"                  => "Category|Categories",
-    "comment"                   => "Comment|Comments",
+    "article"                   => "Artikel|Artikelen",
+    "category"                  => "Categorie|Categorieen",
+    "comment"                   => "Reactie|Reacties",
     "tag"                       => "Tag|Tags",
-    "type"                      => "Type|Types",
+    "type"                      => "Type|Typen",
 
-    "frontend_icon"             => "Frontend Icon",
-    "frontend_icon_desc"        => "Select a default icon to display on the frontend. Alternatively, upload your own icon:",
+    "type_enabled_desc"         => "Uitschakelen van het type stopt het tonen ervan in defrontend.",
+    "type_order"                => "U kunt de volgorde waarin de self-service types worden getoond door deze te slepen.",
 
-    "no_categories"             => ":type currently has no categories. Please create one before adding an article.",
-    "no_categories_frontend"    => "There are no categories to display.",
+    "type_view_desc"            => "Indien uw content meerdere categorieen bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
+    "frontend_icon"             => "Frontend icoon",
+    "frontend_icon_desc"        => "Selecteer een standaard icoon om in de frontend te tonen. U kunt natuurlijk ook uw eigen icoon uploaden:",
 
-    "awaiting_moderation"       => "Awaiting Moderation",
-    "published"                 => "Published",
+    "no_categories"             => ":type heeft momenteel geen categorieen. Maak er eentje voor een artikel te plaatsen.",
+    "no_categories_frontend"    => "Er zijn geen categorieen om te tonen.",
+
+    "awaiting_moderation"       => "Wacht op goedkeuring",
+    "published"                 => "Gepubliceert op:",
     "spam"                      => "Spam",
 
-    "hierarchical"              => "Hierarchical",
-    "list"                      => "List",
+    "show_text"                 => "Toon text",
+    "hide_text"                 => "Verberg text",
 
-    "show_on_dashboard"         => "Show Articles on Frontend Home",
-    "show_on_dashboard_desc"    => "Shows some articles on the frontend dashboard. If view is set to <strong>hierarchical</strong>, it will show the 5 most viewed articles, else if <strong>list</strong>, it will show the 5 latest articles.",
+    "hierarchical"              => "Hierarchisch",
+    "list"                      => "Lijst",
 
-    "title"                     => "Title",
-    "author"                    => "Author",
+    "show_on_dashboard"         => "Toon artikelen op frontend",
+    "show_on_dashboard_desc"    => "Toont sommige artikelen op de frontend dashboard. Indien get overzicht <strong>hierarchisch</strong> is, worden de 5 meest getoonde artikelen getoond. Indien <strong>list</strong> gekozen is worden de 5 laatste artikelen getoond.",
+
+    "title"                     => "Titel",
+    "author"                    => "Auteur",
     "keyword"                   => "Keyword|Keywords",
-    "excerpt"                   => "Excerpt",
-    "associate_tag"             => "Associate article with a tag...",
-    "associate_category"        => "Associate article with a category...",
-    "published_desc"            => "If the article can be viewed publicly. If it is not published, it can still be viewed by direct URL provided one of the categories is public.",
-    "registered_users_desc"     => "Toggle to show article only to logged in users.",
+    "excerpt"                   => "Samenvatting",
+    "associate_tag"             => "Associeer een artikel met een tag...",
+    "associate_category"        => "Associeer een artikel met een categorie...",
+    "published_desc"            => "Indien het artikel openbaar gemaakt is. Als het niet gepubliceerd is kan het nog steeds worden bekeken via de directe URL mits de categorie openbaar is.",
+    "registered_users_desc"     => "Instellen dat artikel alleen door ingelogde gebruikers is te zien.",
 
-    "comment_by"                => "Comment By",
-    "replying_to"               => "Replying to",
-    "receive_notifications"     => "Receive notifications for future replies",
+    "comment_by"                => "Opmerking door",
+    "replying_to"               => "Beantwoorden aan",
+    "receive_notifications"     => "Ontvang melding bij toekomstige antwoorden",
 
-    "login_comment"             => "You must be logged in to submit a comment.",
-    "incorrect_captcha"         => "The captcha was incorrect.",
-    "comment_blocked"           => "The comment was blocked due to spam.",
-    "comment_success"           => "Your comment was submitted!",
-    "comment_success_moderated" => "Your comment has been submitted for moderation by a member of our team.",
+    "login_comment"             => "U moet ingelogd zijn om een reactie achter te laten.",
+    "incorrect_captcha"         => "De captcha was niet correct",
+    "comment_blocked"           => "De reactie is geblocked omdat deze als spam is aangemerkt.",
+    "comment_error"             => "De reactie kon niet geplaatst worden.",
+    "comment_success"           => "Uw reactie is ingediend!",
+    "comment_success_moderated" => "Uw reactie is ingediend en wacht nu op een moderator.",
 
-    "comment_rated_success"     => "The comment was successfully rated.",
-    "comment_rated_error"       => "The comment could not be rated.",
+    "comment_rated_success"     => "De reactie is voorzien van een waardering.",
+    "comment_rated_error"       => "De reactie kon niet worden voorzien van een waardering.",
 
-    "article_find_useful"       => "Did you find this article useful?",
-    "article_rated_success"     => "The article was successfully rated.",
-    "article_rated_error"       => "The article could not be rated.",
+    "article_find_useful"       => "Vond u dit artikel zinvol?",
+    "article_found_useful"      => "mensen vonden dit artikel zinvol.",
+    "article_rated_success"     => "Het artikel is voorzien van een waardering.",
+    "article_rated_error"       => "Het artikel kon niet worden voorzien van een waardering.",
 
-    "comment_below_threshold"   => "(Comment below score threshold, click to show)",
-    "view_all_replies"          => "View all replies",
-    "show_more_comments"        => "Show more comments",
-    "highest_rated"             => "Highest Rated",
-    "newest"                    => "Newest",
-    "oldest"                    => "Oldest",
+    "comment_below_threshold"   => "(Reactie heeft te lage reactie om direct te tonen, klik om toch te tonen)",
+    "view_all_replies"          => "Toon alle antwoorden",
+    "show_more_comments"        => "Toon meer reacties",
+    "highest_rated"             => "Hoogt gewaardeerd",
+    "newest"                    => "Nieuwste",
+    "oldest"                    => "Oudste",
 
-    "no_articles"               => "No articles.",
+    "no_articles"               => "Geen artikelen.",
 
-    "related_articles"          => "Related Articles",
+    "related_articles"          => "Verwante artikelen",
 
-    "rating"                    => "Rating|Ratings",
+    "rating"                    => "Waardering|Waarderingen",
 
     "rssfeed"                   => "RSS Feed",
 
     // General settings
-    "settings"                  => "Self-Service Settings",
-    "enable_comments"           => "Enable Comments",
-    "enable_comments_desc"      => "Allow users to comment on articles.",
-    "write_comments"            => "Write Comments",
-    "write_comments_desc"       => "If comments can be written by anyone or registered users only.",
-    "registered_users"          => "Registered Users Only",
-    "unregistered_users"        => "Unregistered Users Only",
-    "show_captcha"              => "Show Captcha",
-    "show_captcha_desc"         => "When the captcha should be shown to users writing comments.",
-    "comment_moderation"        => "Comment Moderation",
-    "comment_moderation_desc"   => "If comments must be moderated when they are submitted before they are publicly displayed, or if they are automatically publicly displayed.",
+    "settings"                  => "Self-Service instellingen",
+    "enable_comments"           => "Reacties toestaan",
+    "enable_comments_desc"      => "Sta gebruikers toe reacties te geven op artikelen.",
+    "write_comments"            => "Schrijf reactie",
+    "write_comments_desc"       => "Of reacties kunnen worden achtergelaten door iedereen of alleen door geregistreerde gebruikers.",
+    "registered_users"          => "Alleen voor geregistreerde gebruikers",
+    "unregistered_users"        => "Alleen voor niet geregistreerde gebruikers",
+    "show_captcha"              => "Toon Captcha",
+    "show_captcha_desc"         => "Wanneer de captcha getoont moet worden aan gebruikers die een reactie achterlaten.",
+    "comment_moderation"        => "Reactiemoderatie",
+    "comment_moderation_desc"   => "Wanneer reacties door een moderator bekeken moeten worden voordat ze openbaar zijn, of meteen automatisch openbaar te zien zijn.",
     "moderated"                 => "Moderated",
     "unmoderated"               => "Unmoderated",
-    "comment_threshold"         => "Comment Threshold",
-    "comment_threshold_desc"    => "Comment ratings which are less than (and not equal to) this value will have their visibility reduced and have to be clicked to be seen.",
+    "comment_threshold"         => "Minimale waardering",
+    "comment_threshold_desc"    => "Reacties met een waardering lager dan deze waarde worden niet automatisch getoond.",
 
-    "enable_ratings"            => "Enable Article Ratings",
-    "enable_ratings_desc"       => "Allow users to rate articles.",
-    "post_rating"               => "Rate Articles",
-    "post_rating_desc"          => "If articles can be rated by anyone or registered users only.",
+    "enable_ratings"            => "Schakel reactiewaarderingen in",
+    "enable_ratings_desc"       => "Schakel artikelwaarderingen in",
+    "post_rating"               => "Waardeer artikel",
+    "post_rating_desc"          => "Of artikelen door iedereen kunnen worden gewaardeerd of alleen door ingelogde gebruikers.",
+    "show_rating"               => "Toon waarderingen",
+    "show_rating_desc"          => "Toon artikelwaarderingen aan iedereen (openbaar) of alleen aan geregistreerde gebruikers.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Please login or register an account to view the article.",
+    "auth_required"             => "Om het artikel te zien moet u eerst ingelogd zijn.",
+    "download_auth_required"    => "Om een bijlage in het artikel te zien moet u eerst ingelogd zijn",
+    "auth_required"             => "Om een artikel te zien moet u eerst ingelogd zijn.",
 
     /*
      * 2.1.0
      */
-    "view_articles"             => "View Articles",
-    "view_categories"           => "View Categories",
-    "add_to_another_type"       => "Add to Another Type",
-    "select_type"               => "Select Type...",
-    "visibility"                => "Visibility",
-    "reply_to_comment"          => "Reply To Comment",
-    "article_brand_warning"     => "This article exists in a brand that you are not assigned to, any changes you make will also be visible under that brand.",
-    "viewing_article"           => "Viewing Article",
-    "article_count"             => "Article Count",
-
+    "view_articles"             => "Toon artikelen",
+    "view_categories"           => "Toon categorieen",
+    "add_to_another_type"       => "Voeg toe aan een ander type",
+    "select_type"               => "Selecteer type...",
+    "visibility"                => "Zichtbaarheid",
+    "reply_to_comment"          => "Beantwoord deze reactie",
+    "article_brand_warning"     => "Dit artikel bevind zich in een merk waarmee u niet geassocieerd bent. Elke aanpassinge die u maakt zal ook onder dit merk vallen.",
+    "viewing_article"           => "Bekijken van artikel",
+    "article_count"             => "Aantal artikelen",
+    
     /*
      * 2.2.0
      */
-    "article_desc"              => "The article can be written in several languages. The appropriate article will be shown automatically based on the user's language preference.",
-    "no_author"                 => "No Author",
-
-    /*
-     * 2.3.1
-     */
-    "slug"                      => "Slug",
-    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
-    "change_slug"               => "Change Slug",
-    "published_date"            => "Published Date",
-    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
-    "content_options"           => "Content Options",
-    "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
-    "external_link"             => "External Link",
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
-    "pinned"                    => "Pinned",
-    "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
-    "article_ordering"          => "Article Ordering",
-    "article_ordering_desc"     => "The ordering of articles when viewing the type on the frontend.",
-    "most_popular"              => "Most Popular",
-    "most_recent"               => "Most Recent",
-    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
-    "type_enabled_desc"         => "Disabling the type will stop it displaying.",
-    "internal"                  => "Internal",
-    "internal_desc"             => "Toggle to set the type to only be visible internally to operators in the operator panel.",
-    "login_to_comment"          => "Please login to post a comment.",
-    "article_rating"            => "Article Rating|Article Ratings",
-    "comment_rating"            => "Comment Rating|Comment Ratings",
-
-    /*
-     * 2.5.0
-     */
-    "revision_history"          => "Revision History",
-
-    /*
-     * 3.0.0
-     */
-    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
-    "article_feedback"          => "Article Feedback",
-    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
+    "article_desc"              => "Het artikel kan in verschillende talten worden geschreven. De passende vertaling zal automatisch worden getoond aan de hand van de taalinstelling van de gebruiker.",
+    "no_author"                 => "Geen auteur.",
 
 );

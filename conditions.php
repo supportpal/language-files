@@ -4,93 +4,56 @@ return array(
     /*
      * 2.0.2
      */
-    "assigned_operator"                 => "Assigned operator",
-    "assigned_operator_group"           => "Assigned operator group",
-    "hours_since_created"               => "Hours since created",
-    "hours_since_updated"               => "Hours since updated",
-    "internal_ticket"                   => "Internal ticket",
-    "involved_operator"                 => "Involved operator",
-    "last_ticket_replier"               => "Last ticket replier",
+    "assigned_operator"                 => "Toegewezen operator",
+    "assigned_operator_group"           => "Toegewezen operatorgroep",
+    "hours_since_created"               => "Uren sinds melding",
+    "hours_since_updated"               => "Uren sinds update",
+    "internal_ticket"                   => "Intern ticket",
+    "involved_operator"                 => "Betrokken operator",
+    "last_ticket_replier"               => "Laatste antwoord van",
     "ticket_channel"                    => "Ticket channel",
-    "ticket_channel_account"            => "Ticket channel account",
-    "ticket_created"                    => "Ticket created",
-    "ticket_department"                 => "Ticket department",
+    "ticket_channel_account"            => "Ticket channelaccount",
+    "ticket_created"                    => "Ticket gemaakt",
+    "ticket_department"                 => "Ticket afdeling",
     "ticket_due_time"                   => "Ticket due time",
-    "ticket_message_content"            => "Ticket message content",
-    "ticket_message_count"              => "Ticket message count",
-    "ticket_priority"                   => "Ticket priority",
-    "ticket_sla_plan"                   => "Ticket SLA plan",
+    "ticket_message_content"            => "Ticket inhoud",
+    "ticket_message_count"              => "Ticket bericht (aantal)",
+    "ticket_priority"                   => "Ticket prioriteit",
+    "ticket_sla_plan"                   => "Ticket SLA",
     "ticket_status"                     => "Ticket status",
-    "ticket_subject"                    => "Ticket subject",
+    "ticket_subject"                    => "Ticket onderwerp",
     "ticket_tag"                        => "Ticket tag",
-    "ticket_updated"                    => "Ticket updated",
-    "user_email"                        => "User email",
-    "user_full_name"                    => "User full name",
-    "user_group"                        => "User group",
+    "ticket_updated"                    => "Ticket bijgewerkt",
+    "user_email"                        => "Gebruiker email",
+    "user_full_name"                    => "Gebruiker volledige naam",
+    "user_group"                        => "Gebruikersgroep",
+    "user_organisation"                 => "Gebruiker van organisatie",
 
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Ticket brand",
-    "user_brand"                        => "User brand",
+    "ticket_brand"                      => "Ticket merk",
+    "user_brand"                        => "Gebruiker merk",
 
     /*
      * 2.2.0
      */
-    "hours_since_last_reply"            => "Hours since last reply",
-    "hours_since_last_reply_exc_notes"  => "Hours since last reply (excluding notes)",
-    "hours_until_due"                   => "Hours until due",
-    "last_ticket_replier_exc_notes"     => "Last ticket replier (excluding notes)",
-    "ticket_department_email"           => "Ticket department email",
-    "ticket_has_attachments"            => "Ticket has attachments",
-    "ticket_has_drafts"                 => "Ticket has drafts",
-    "ticket_locked"                     => "Ticket locked",
-    "ticket_merged"                     => "Ticket merged",
-    "ticket_message_count_exc_notes"    => "Ticket message count (excluding notes)",
-    "ticket_note_count"                 => "Ticket note count",
-    "ticket_number"                     => "Ticket number",
-    "ticket_reopened_time"              => "Ticket reopened time",
-    "ticket_resolved_time"              => "Ticket resolved time",
-    "user_account_active"               => "User account active",
-    "user_country"                      => "User country",
-    "user_language"                     => "User language",
-    "user_timezone"                     => "User timezone",
-
-    /*
-     * 2.3.0
-     */
-    "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Ticket custom field",
-    "user_custom_field"                 => "User custom field",
-    "user_organisation_custom_field"    => "User organisation custom field",
-    "user_organisation"                 => "User organisation name",
-    "user_organisation_brand"           => "User organisation brand",
-    "user_organisation_country"         => "User organisation country",
-    "user_organisation_language"        => "User organisation language",
-    "user_organisation_notes"           => "User organisation notes",
-    "user_organisation_timezone"        => "User organisation timezone",
-
-    /*
-     * 2.4.0
-     */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
-
-    /*
-     * 2.4.1
-     */
-    "last_message_content"              => "Last message content",
-
-    /*
-     * 2.5.0
-     */
-    "user_email_confirmed"              => "User email confirmed",
-
-    /*
-     * 3.0.0
-     */
-    "user_2fa_enabled"                  => "User 2FA enabled",
-    "article_type"                      => "Article type",
-    "article_brand"                     => "Article brand",
-
+    "hours_since_last_reply"            => "Uren sinds laatste antwoord",
+    "hours_since_last_reply_exc_notes"  => "Uren sinds laatste antwoord (exclusief aantekeningen)",
+    "hours_until_due"                   => "Uren nog over",
+    "last_ticket_replier_exc_notes"     => "Laatste beantwoorden (exclusief aantekeningen)",
+    "ticket_department_email"           => "Ticket afdeling email",
+    "ticket_has_attachments"            => "Ticket heeft bestanden",
+    "ticket_has_drafts"                 => "Ticket heeft concepten",
+    "ticket_locked"                     => "Ticket gelocked",
+    "ticket_merged"                     => "Ticket samengevoegd",
+    "ticket_message_count_exc_notes"    => "Ticket berichtenaantal (exclusief aantekeningen)",
+    "ticket_note_count"                 => "Ticket aantekenignen aantal",
+    "ticket_number"                     => "Ticket nummer",
+    "ticket_reopened_time"              => "Ticket heropend op",
+    "ticket_resolved_time"              => "Ticket opgelost",
+    "user_account_active"               => "Gebruikersaccount actief",
+    "user_country"                      => "Gebruiker land",
+    "user_language"                     => "Gebruiker taal",
+    "user_timezone"                     => "Gebruiker tijdzone",
 );
