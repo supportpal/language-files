@@ -5,19 +5,19 @@ return array(
     /*
      * 2.4.0
      */
-    "new_ticket"            => "New ticket opened",
-    "user_reply"            => "User reply posted",
-    "operator_reply"        => "Operator reply posted",
-    "operator_note"         => "Operator note posted",
-    "operator_forward"      => "Operator forward posted",
-    "update_department"     => "Department updated",
-    "update_status"         => "Status updated",
-    "update_priority"       => "Priority updated",
-    "update_tags"           => "Tags updated",
-    "update_assigned"       => "Assigned operators updated",
-    "update_user"           => "User updated",
-    "update_brand"          => "Brand updated",
-    "update_subject"        => "Subject updated",
-    "update_watching"       => "Watching operators updated",
+    "new_ticket"            => "Yeni talep açıldı",
+    "user_reply"            => "Kullanıcı yanıtı gönderildi",
+    "operator_reply"        => "Operatör yanıtı gönderildi",
+    "operator_note"         => "Operatör notu gönderildi",
+    "operator_forward"      => "Operatöre yönlendirildi",
+    "update_department"     => "Departman güncellendi",
+    "update_status"         => "Durum güncellendi",
+    "update_priority"       => "Öncelik güncellendi",
+    "update_tags"           => "Etiketler güncellendi",
+    "update_assigned"       => "Atanan operatörler güncellendi",
+    "update_user"           => "Kullanıcı güncellendi",
+    "update_brand"          => "Marka güncellendi",
+    "update_subject"        => "Konu güncellendi",
+    "update_watching"       => "İzleme operatörleri güncellendi",
 
 );

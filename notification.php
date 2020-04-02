@@ -2,26 +2,26 @@
 
 return array(
 
-    "new_ticket"            => "New Ticket Opened",
-    "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
+    "new_ticket"            => "Yeni Talep Açıldı",
+    "new_ticket_text"       => "Yenir Bir Talep #:item tarafından açıldı :name.",
 
-    "new_reply"             => "New Ticket Reply",
-    "new_reply_text"        => "A new reply has been posted by :name in ticket #:item.",
+    "new_reply"             => "Yeni Talep Cevabı",
+    "new_reply_text"        => "Tarafından yeni bir yanıt gönderildi :name talep için #:item.",
 
-    "operator_login"        => "Operator Logged In",
-    "operator_login_text"   => ":name has logged in to the operator panel.",
+    "operator_login"        => "Giriş Yapan Operatör",
+    "operator_login_text"   => ":name operatör panelinde oturum açtı.",
 
-    "failed_logins"         => "Failed Operator Logins",
-    "new_comments"          => "New Comments",
+    "failed_logins"         => "Operatör Girişi Başarısız Oldus",
+    "new_comments"          => "Yeni Yorumlar",
 
     /*
      * 2.0.2
      */
-    "private_message"       => "New Private Message",
+    "private_message"       => "Yeni Özel Mesaj",
 
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name sana yeni bir yol gönderdi <a href=':route'>private message</a>.",
 
 );

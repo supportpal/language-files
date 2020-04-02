@@ -2,21 +2,23 @@
 
 return array(
 
-    "popular_items"             => "Popular Items",
-    "latest_items"              => "Latest Items",
+    "popular_items"             => "Popüler Ürünler",
+    "type_popular_items"        => ":type: Popüler",
+    "latest_items"              => "Son Ürünler",
+    "type_latest_items"         => ":type: En Son",
 
-    "selfservice"               => "Self-Service",
-    "article"                   => "Article|Articles",
-    "category"                  => "Category|Categories",
-    "comment"                   => "Comment|Comments",
-    "tag"                       => "Tag|Tags",
-    "type"                      => "Type|Types",
+    "selfservice"               => "Self-Servis",
+    "article"                   => "Makaleler | Makaleler",
+    "category"                  => "Kategoriler | Kategoriler",
+    "comment"                   => "Yorumlar | Yorumlar",
+    "tag"                       => "Etiketler | Etiketler",
+    "type"                      => "Türler | Tipleri",
 
     "frontend_icon"             => "Frontend Icon",
     "frontend_icon_desc"        => "Select a default icon to display on the frontend. Alternatively, upload your own icon:",
 
-    "no_categories"             => ":type currently has no categories. Please create one before adding an article.",
-    "no_categories_frontend"    => "There are no categories to display.",
+    "no_categories"             => ":type şu anda kategori yok. Lütfen bir makale eklemeden önce bir tane oluşturun.",
+    "no_categories_frontend"    => "Görüntülenecek kategori yok.",
 
     "awaiting_moderation"       => "Awaiting Moderation",
     "published"                 => "Published",
@@ -51,6 +53,7 @@ return array(
     "comment_rated_error"       => "The comment could not be rated.",
 
     "article_find_useful"       => "Did you find this article useful?",
+    "article_found_useful"      => "people found this article useful.",
     "article_rated_success"     => "The article was successfully rated.",
     "article_rated_error"       => "The article could not be rated.",
 
@@ -61,7 +64,7 @@ return array(
     "newest"                    => "Newest",
     "oldest"                    => "Oldest",
 
-    "no_articles"               => "No articles.",
+    "no_articles"               => "Kayıt Bulunamadı.",
 
     "related_articles"          => "Related Articles",
 
@@ -90,6 +93,8 @@ return array(
     "enable_ratings_desc"       => "Allow users to rate articles.",
     "post_rating"               => "Rate Articles",
     "post_rating_desc"          => "If articles can be rated by anyone or registered users only.",
+    "show_rating"               => "Show Ratings",
+    "show_rating_desc"          => "Show article rating to anyone (public) or registered users only.",
 
     /*
      * 2.0.3
@@ -124,9 +129,9 @@ return array(
     "published_date"            => "Published Date",
     "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
     "content_options"           => "Content Options",
-    "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
+    "content_desc"              => "Bu türle sunulacak içerik.<br /><strong>Articles</strong> - Birlikte gruplandırılabilen (bilgi bankası gibi) veya ayrı ayrı tutulabilen (duyurular gibi) yayınlardan oluşan bir koleksiyon.<br /><strong>External Link</strong> -Belge portalı gibi harici bir siteye bağlantı sağlayın.",
     "external_link"             => "External Link",
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
+    "type_view_desc"            => "İçeriğiniz birçok kategori içerecekse ve bir bilgi tabanı gibi bilgilendirici olacaksa, hiyerarşik görünümü öneriyoruz, içeriğiniz duyurular veya blog gibi zamanla ilgiliyse liste görünümünü öneriyoruz. Harici bağlantı seçeneği, yardım masasının dışındaki bir bölüme bağlantı eklemeniz gerektiğinde kullanılabilir.",
     "pinned"                    => "Pinned",
     "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
     "article_ordering"          => "Article Ordering",
@@ -145,12 +150,5 @@ return array(
      * 2.5.0
      */
     "revision_history"          => "Revision History",
-
-    /*
-     * 3.0.0
-     */
-    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
-    "article_feedback"          => "Article Feedback",
-    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
 
 );

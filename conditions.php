@@ -4,93 +4,86 @@ return array(
     /*
      * 2.0.2
      */
-    "assigned_operator"                 => "Assigned operator",
-    "assigned_operator_group"           => "Assigned operator group",
-    "hours_since_created"               => "Hours since created",
-    "hours_since_updated"               => "Hours since updated",
-    "internal_ticket"                   => "Internal ticket",
-    "involved_operator"                 => "Involved operator",
-    "last_ticket_replier"               => "Last ticket replier",
-    "ticket_channel"                    => "Ticket channel",
-    "ticket_channel_account"            => "Ticket channel account",
-    "ticket_created"                    => "Ticket created",
-    "ticket_department"                 => "Ticket department",
-    "ticket_due_time"                   => "Ticket due time",
-    "ticket_message_content"            => "Ticket message content",
-    "ticket_message_count"              => "Ticket message count",
-    "ticket_priority"                   => "Ticket priority",
-    "ticket_sla_plan"                   => "Ticket SLA plan",
-    "ticket_status"                     => "Ticket status",
-    "ticket_subject"                    => "Ticket subject",
-    "ticket_tag"                        => "Ticket tag",
-    "ticket_updated"                    => "Ticket updated",
-    "user_email"                        => "User email",
-    "user_full_name"                    => "User full name",
-    "user_group"                        => "User group",
+    "assigned_operator"                 => "Atanan operatör",
+    "assigned_operator_group"           => "Atanan operatör grubu",
+    "hours_since_created"               => "Oluşturulmasından bu yana geçen saat",
+    "hours_since_updated"               => "Güncellenen saat",
+    "internal_ticket"                   => "Dahili talep",
+    "involved_operator"                 => "İlgili operatör",
+    "last_ticket_replier"               => "Son talebi geri al",
+    "ticket_channel"                    => "Talep kanalı",
+    "ticket_channel_account"            => "Talep kanal hesabı",
+    "ticket_created"                    => "Talep oluşturuldu",
+    "ticket_department"                 => "Talep departmanı",
+    "ticket_due_time"                   => "Talep zamanı",
+    "ticket_message_content"            => "Talep mesaj içeriği",
+    "ticket_message_count"              => "Talep mesajı sayısı",
+    "ticket_priority"                   => "Talep önceliği",
+    "ticket_sla_plan"                   => "Talep SLA planı",
+    "ticket_status"                     => "Talep Durumu",
+    "ticket_subject"                    => "Talep Konusu",
+    "ticket_tag"                        => "Talep Etiketi",
+    "ticket_updated"                    => "Talep Güncellendi",
+    "user_email"                        => "Kullanıcı email",
+    "user_full_name"                    => "Kullanıcı tam adı",
+    "user_group"                        => "Kullnıcı grup",
 
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Ticket brand",
-    "user_brand"                        => "User brand",
+    "ticket_brand"                      => "Talep Müşterisi",
+    "user_brand"                        => "Müşteri Kullanıcısı",
 
     /*
      * 2.2.0
      */
-    "hours_since_last_reply"            => "Hours since last reply",
-    "hours_since_last_reply_exc_notes"  => "Hours since last reply (excluding notes)",
-    "hours_until_due"                   => "Hours until due",
-    "last_ticket_replier_exc_notes"     => "Last ticket replier (excluding notes)",
-    "ticket_department_email"           => "Ticket department email",
-    "ticket_has_attachments"            => "Ticket has attachments",
-    "ticket_has_drafts"                 => "Ticket has drafts",
-    "ticket_locked"                     => "Ticket locked",
-    "ticket_merged"                     => "Ticket merged",
-    "ticket_message_count_exc_notes"    => "Ticket message count (excluding notes)",
-    "ticket_note_count"                 => "Ticket note count",
-    "ticket_number"                     => "Ticket number",
-    "ticket_reopened_time"              => "Ticket reopened time",
-    "ticket_resolved_time"              => "Ticket resolved time",
-    "user_account_active"               => "User account active",
-    "user_country"                      => "User country",
-    "user_language"                     => "User language",
-    "user_timezone"                     => "User timezone",
+    "hours_since_last_reply"            => "Son yanıttan bu yana geçen saat",
+    "hours_since_last_reply_exc_notes"  => "Son yanıttan bu yana geçen saat (notlar hariç)",
+    "hours_until_due"                   => "Bitiş saati",
+    "last_ticket_replier_exc_notes"     => "Son bilet geri al (notlar hariç)",
+    "ticket_department_email"           => "talep departman e-postası",
+    "ticket_has_attachments"            => "Talebin ekleri var",
+    "ticket_has_drafts"                 => "Talep taslakları var",
+    "ticket_locked"                     => "Talep kilitli",
+    "ticket_merged"                     => "Talep birleştirildi",
+    "ticket_message_count_exc_notes"    => "Talep mesaj sayısı (notlar hariç)",
+    "ticket_note_count"                 => "Talep notu sayısı",
+    "ticket_number"                     => "Talep numarası",
+    "ticket_reopened_time"              => "Talep yeniden açıldı",
+    "ticket_resolved_time"              => "Talep çözüm süresi",
+    "user_account_active"               => "Kullanıcı hesabı etkin",
+    "user_country"                      => "Kullanıcı ülke",
+    "user_language"                     => "Kullanıcı dili",
+    "user_timezone"                     => "Kullanıcı saat dilimi",
 
     /*
      * 2.3.0
      */
-    "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Ticket custom field",
-    "user_custom_field"                 => "User custom field",
-    "user_organisation_custom_field"    => "User organisation custom field",
-    "user_organisation"                 => "User organisation name",
-    "user_organisation_brand"           => "User organisation brand",
-    "user_organisation_country"         => "User organisation country",
-    "user_organisation_language"        => "User organisation language",
-    "user_organisation_notes"           => "User organisation notes",
-    "user_organisation_timezone"        => "User organisation timezone",
+    "ticket_cc"                         => "Talep CC",
+    "ticket_custom_field"               => "Talep özel alanı",
+    "user_custom_field"                 => "Kullanıcı özel alanı",
+    "user_organisation_custom_field"    => "Kullanıcı kuruluşu özel alanı",
+    "user_organisation"                 => "Kullanıcı kuruluş adı",
+    "user_organisation_brand"           => "Kullanıcı kuruluş markası",
+    "user_organisation_country"         => "Kullanıcı kuruluş ülkesi",
+    "user_organisation_language"        => "Kullanıcı kuruluş dili",
+    "user_organisation_notes"           => "Kullanıcı kuruluş notları",
+    "user_organisation_timezone"        => "Kullanıcı kuruluşunun saat dilimi",
 
     /*
      * 2.4.0
      */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+    "watching_operator"                 => "İzleme operatörü",
+    "exact_search_quotes"               => "İfadeyi tam olarak aramak için, ifadeyi aşağıdaki gibi tırnak içine alın \"benim ifadem\".",
 
     /*
      * 2.4.1
      */
-    "last_message_content"              => "Last message content",
+    "last_message_content"              => "Son mesaj içeriği",
 
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "User email confirmed",
-
-    /*
-     * 3.0.0
-     */
-    "user_2fa_enabled"                  => "User 2FA enabled",
-    "article_type"                      => "Article type",
-    "article_brand"                     => "Article brand",
+    "user_email_confirmed"              => "Kullanıcı e-postası onaylandı",
 
 );
