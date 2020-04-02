@@ -2,155 +2,153 @@
 
 return array(
 
-    "deleted"               => "Deleted!",
-    "success"               => "Success",
-    "error"                 => "Error",
-    "in_progress"           => "In Progress",
+    "deleted"               => "Удален!",
+    "success"               => "Успех",
+    "error"                 => "Ошибка",
+    "in_progress"           => "в процессе",
 
-    "save_order"            => "Attempting to save the updated order of the items",
+    "save_order"            => "Попытка сохранить обновленный порядок элементов",
 
-    "show_all_results"      => "Show all results &raquo;",
+    "show_all_results"      => "Показать все результаты &raquo;",
 
-    "are_you_sure"          => "Are you sure?",
-    "yes_im_sure"           => "Yes, I'm sure",
+    "are_you_sure"          => "Вы уверены?",
+    "yes_im_sure"           => "Да, я уверен",
 
-    "success_created"       => "Successfully created new :item!",
-    "error_created"         => "Failed trying to create new :item.",
+    "success_created"       => "Успешно создан новый :item!",
+    "error_created"         => "Не удалось создать новый :item.",
 
-    "success_deleted"       => "Successfully deleted the :item!",
-    "error_deleted"         => "Failed trying to delete the :item.",
+    "success_deleted"       => "Успешно удалили :item!",
+    "error_deleted"         => "Не удалось удалить :item.",
 
-    "success_updated"       => "Successfully updated the :item!",
-    "error_updated"         => "Failed trying to update the :item.",
+    "success_updated"       => "Успешно обновлено :item!",
+    "error_updated"         => "Не удалось обновить :item.",
 
-    "error_notfound"        => "The :item with given ID was not found.",
-    "error_notfound_name"   => "The :item with given name was not found.",
-    "report_notfound"       => "The report with given category and name was not found.",
+    "error_notfound"        => " :item с данным ID не было найдено.",
+    "error_notfound_name"   => " :item с указанным именем не был найден.",
+    "report_notfound"       => "Отчет с указанной категорией и названием не найден.",
 
-    "success_ordering"      => "Successfully updated the ordering!",
-    "error_ordering"        => "Failed trying to update the ordering.",
+    "success_ordering"      => "Отчет с указанием категорий и названий не найден.",
+    "error_ordering"        => "Не удалось обновить заказ.",
 
-    "error_login"           => "Login attempt failed.",
-    "success_logout"        => "Successfully logged out.",
+    "error_login"           => "Попытка входа не удалась.",
+    "success_logout"        => "Успешно вышел из системы.",
 
-    "please_correct"        => "Please correct the following errors and try again.",
+    "please_correct"        => "Пожалуйста, исправьте следующие ошибки и попробуйте снова.",
 
-    "success_settings"      => "Successfully updated the settings!",
-    "error_settings"        => "Failed trying to update the settings.",
+    "success_settings"      => "Успешно обновлены настройки!",
+    "error_settings"        => "Не удалось обновить настройки.",
 
-    "success_action"        => "Successfully performed the action!",
-    "error_action"          => "Failed to perform the action.",
+    "success_action"        => "Успешно выполнено действие!",
+    "error_action"          => "Не удалось выполнить действие.",
 
-    "error_embed_image"     => "Failed trying to upload the image.",
+    "success_sending"       => "Успешно отправлено :item!",
+    "error_sending"         => "Не удалось отправить :item.",
 
-    "unauthorised"          => "Unauthorised",
-    "not_authorised"        => "Not authorised to complete this action.",
-    "not_permitted"         => "You are not permitted to view this page. If you think this has been displayed in error, please speak to your application administrator.",
+    "error_embed_image"     => "Не удалось загрузить изображение.",
 
-    "page_not_found"        => "Page Not Found",
-    "cant_find_page"        => "We can't find the page that you're looking for.",
+    "unauthorised"          => "неразрешенный",
+    "not_authorised"        => "Не авторизован для выполнения этого действия.",
+    "not_permitted"         => "Вам не разрешено просматривать эту страницу. Если вы считаете, что это было отображено по ошибке, обратитесь к администратору вашего приложения.",
 
-    "please_report"         => "Please report to an administrator if this was unexpected.",
+    "page_not_found"        => "Страница не найдена",
+    "cant_find_page"        => "Мы не можем найти страницу, которую вы ищете.",
 
-    "return_to"             => "Return to the :page.",
+    "please_report"         => "Пожалуйста, сообщите администратору, если это было неожиданно.",
 
-    "session_expired"       => "Your session expired, please login again.",
-    "session_refresh"       => "Your session expired, please refresh the page and then try again.",
+    "return_to"             => "Вернуться к :page.",
 
-    "general_error"         => "An error occurred. Please try again.",
+    "session_expired"       => "Ваша сессия истекла, пожалуйста, войдите снова.",
+    "session_refresh"       => "Ваша сессия истекла, обновите страницу и повторите попытку.",
 
-    "no_results"            => "No results.",
+    "general_error"         => "Произошла ошибка. Пожалуйста, попробуйте еще раз.",
 
-    "assign_incomplete"     => "The action could not be completed in full. :names could not be assigned to some tickets.",
+    "no_results"            => "Никаких результатов.",
 
-    "maintenance_mode"      => "Maintenance mode is active. The help desk is currently inaccessible by users, please remember to turn maintenance mode off when finished.",
+    "assign_incomplete"     => "Действие не может быть завершено в полном объеме. :names не могут быть присвоены некоторым тикетам.",
 
-    "invalid_captcha"       => "The captcha code entered was invalid or incorrect, please try again.",
-    "blocked_as_spam"       => "Your request was detected as spam. Please contact an administrator if you feel this has been shown in error.",
-    "account_exists"        => "An active account already exists with this email address. Please login or use the forgotten password feature if you cannot remember your password.",
-    "error_loading_comments" => "There was a problem loading the comments.",
+    "maintenance_mode"      => "Режим обслуживания активен. Служба поддержки в настоящее время недоступна для пользователей, пожалуйста, не забудьте отключить режим обслуживания, когда закончите.",
 
-    "invalid_auth"          => "Invalid authentication credentials.",
+    "invalid_captcha"       => "Введенный код был неверен или неверен, пожалуйста, попробуйте еще раз.",
+    "blocked_as_spam"       => "Ваш запрос был обнаружен как спам. Пожалуйста, свяжитесь с администратором, если вы считаете, что это было показано по ошибке.",
+    "account_exists"        => "Активный аккаунт уже существует с этим адресом электронной почты. Пожалуйста, войдите или используйте функцию забытого пароля, если вы не можете вспомнить свой пароль.",
+    "error_loading_comments" => "При загрузке комментариев произошла ошибка.",
 
-    "forbidden"             => "Forbidden",
+    "invalid_auth"          => "Неверные учетные данные.",
 
-    "not_logged_exception"  => "<strong>Whoops! Something went wrong.</strong><br />Please notify the system administrator if the error persists.",
+    "forbidden"             => "запрещено",
 
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
+    "not_logged_exception"  => "<strong>Упс! Что-то пошло не так.</strong><br />Пожалуйста, сообщите системному администратору, если ошибка не устранена.",
 
-    "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
+    "too_many_ticket_reqs"  => "Слишком много запросов на тикеты сделано для :email. Предел :max в :decay минут.",
+
+    "not_operator"          => "Что-то пошло не так. Выбранный оператор недействителен, пожалуйста, убедитесь, что он принадлежит к группе операторов, и у этой группы есть связанная роль.",
 
     // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
+    "datatable_error"       => "<STRONG> Упс! Что-то пошло не так. </Strong> <br /> Произошла ошибка при загрузке данных таблицы. Пожалуйста, сообщите системному администратору, если ошибка не устранена.",
 
-    "missing_extension"     => "Missing Extension",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
+    "missing_extension"     => "Отсутствует расширение",
+    "php_ldap_missing"      => "Расширение php-ldap требуется для использования аутентификации LDAP. Пожалуйста, включите его и обновите страницу.",
+    "php_imap_missing"      => "Для использования Email Download требуется расширение php-imap. Если вы хотите использовать Email Download, включите расширение и обновите страницу.",
 
     /*
      * 2.0.3
      */
-    "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
-    "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
-    "error_loading_message" => "An error occurred while loading the message. Please try again.",
-    "please_refresh"        => "Please refresh the page.",
+    "only_ssl_connections"  => "Разрешены только SSL-соединения, вы должны обновить свой запрос до безопасного соединения.",
+    "queued_emails"         => "Успех - письма начнут ставиться в очередь и будут отправлены в ближайшее время.",
+    "error_loading_message" => "Произошла ошибка при загрузке сообщения. Пожалуйста, попробуйте еще раз.",
+    "please_refresh"        => "Пожалуйста, обновите страницу.",
 
     /*
      * 2.1.0
      */
-    "unable_to_connect_db"  => "<strong>Service currently unavailable.</strong><br />Unable to connect to the database.",
-    "category_required"     => "The article must belong to one or more categories.",
-    "warning"               => "Warning",
-    "note"                  => "Note",
-    "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
+    "unable_to_connect_db"  => "<strong> Служба в настоящее время недоступна. </ strong> <br /> Невозможно подключиться к базе данных.",
+    "category_required"     => "Статья должна принадлежать к одной или нескольким категориям.",
+    "warning"               => "Предупреждение",
+    "note"                  => "Заметка",
+    "brand_invalid_dept"    => "Действие не может быть завершено в полном объеме. Отдел не может быть обновлен на некоторых тикетах из-за их бренда.",
 
     /*
      * 2.1.1
      */
-    "upload_error"          => "Failed to upload attachment \":filename\", reason: \":reason\"",
-    "upload_max_size"       => "File must be smaller than :size",
-    "upload_wrong_type"     => "File type is not allowed",
+    "upload_error"          => "Не удалось загрузить вложение \":filename\", reason: \":reason\"",
+    "upload_max_size"       => "Не удалось загрузить вложение :size",
+    "upload_wrong_type"     => "Тип файла не допускается",
 
     /*
      * 2.3.0
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
+    "delete_record"         => "Удалить :record?",
+    "cannot_be_undone"      => "Это действие не может быть отменено.",
+    "warn_delete"           => "Это навсегда удалит <strong>:name</strong> :record из системы.",
+    "delete_confirm"        => "Да, удалить :record",
+    "keep_record"           => "Нет, оставить :record",
+    "delete_relations"      => "Удаление <strong>:name</strong> :record также навсегда удалит все следующие связанные данные:",
+    "please_check"          => "Вы должны установить все флажки выше, чтобы подтвердить, что вы понимаете результат этого необратимого действия.",
+    "failed_attachments"    => "Не удалось прикрепить некоторые файлы.",
 
     /*
      * 2.3.1
      */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+    "sent_email"            => "Успешно - письмо отправлено.",
+    "task_already_running"  => "Запланированное задание в настоящее время выполняется автоматически, повторите попытку в ближайшее время.",
+    "linked_account"        => "Социальный аккаунт успешно связан с вашим аккаунтом.",
+    "already_linked"        => "Социальный аккаунт уже связан с другим аккаунтом. Пожалуйста, войдите в другой аккаунт и отмените его связь.",
 
     /*
      * 2.4.0
      */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
+    "does_look_correct"     => "Это выглядит правильно?",
+    "no_revert"             => "Нет! Назад",
+    "attachment_not_found"  => "Вложение не найдено.",
 
     /*
      * 2.5.0
      */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
-
-    /*
-     * 3.0.0
-     */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "account_closed"        => "Ваш аккаунт был закрыт. Пожалуйста, свяжитесь с нами, если вы считаете, что это было сделано по ошибке.",
+    "leave_record"          => "Покидать :record?",
+    "leave_record_warn"     => "Это навсегда удалит вас из :record.",
+    "success_trashed"       => "Успешно :item удален!",
+    "error_trashed"         => "Ошибка :item удаления.",
+    "blocked_by_rule"       => "Запрос был заблокирован правилом спама ':text'.",
 
 );

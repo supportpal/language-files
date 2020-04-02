@@ -3,33 +3,34 @@
 return array(
 
     // Pre installation check
-    "requirements_failed"       => "System Requirements Failed",
+    "requirements_failed"       => "Системные требования не выполнены",
 
     // Index
     "supportpal_installer"      => "SupportPal Installer",
-    "select_language"           => "Select Language",
+    "index_desc"                => "Спасибо за выбор SupportPal. Пожалуйста, проверьте правильность приведенного ниже типа установки и продолжайте.",
+    "select_language"           => "Выберите язык:",
     "install_type"              => "Installation Type",
-    "install"                   => "Fresh Install",
-    "upgrade"                   => "Upgrade Existing Installation",
-    "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
+    "install"                   => "Свежая установка",
+    "upgrade"                   => "Обновить существующую установку",
+    "support"                   => "Код лицензии, используемый для этой установки, не имеет действительной подписки на обновления поддержки, и поэтому он не может устанавливать эту версию SupportPal.",
 
     // Upgrade
-    "successfully_updated"      => "Congratulations, SupportPal has been successfully upgraded.",
+    "successfully_updated"      => "Поздравляем, SupportPal успешно обновлен.",
 
     // Install
     // Step 1
-    "step_1"                    => "Step 1 of 7: Accept EULA",
-    "step_1_desc"               => "Please read our software license agreement below. By continuing, you are agreeing to the license.",
-    "i_accept_and_continue"     => "I Accept and Continue",
+    "step_1"                    => "Шаг 1 из 7: Принять лицензионное соглашение",
+    "step_1_desc"               => "Пожалуйста, прочитайте наше лицензионное соглашение ниже. Продолжая, вы соглашаетесь с лицензией.",
+    "i_accept_and_continue"     => "Я принимаю и продолжаю",
 
     // Step 2
-    "step_2"                    => "Step 2 of 7: System Requirements",
-    "not_available"             => "Not available",
+    "step_2"                    => "Шаг 2 из 7: Системные требования",
+    "not_available"             => "Недоступно",
     "php_version"               => "PHP Version",
-    "php_version_not_found"     => "Not available, found PHP version: :version",
+    "php_version_not_found"     => "Недоступно, PHP version: :version",
     "php_extensions"            => "PHP Extensions",
-    "file_writeable"            => "File Permissions",
-    "file_writeable_desc"       => "All of the below should be writable by the web server. We recommend using 755 file permissions, though some systems may require 777 if the files are not owned by the web server user. Directories should be recursively writable.",
+    "file_writeable"            => "Файловые права",
+    "file_writeable_desc"       => "Все перечисленное ниже должно быть доступно для записи веб-сервером. Мы рекомендуем использовать права доступа к файлу 755, хотя в некоторых системах может потребоваться 777, если файлы не принадлежат пользователю веб-сервера. Каталоги должны быть рекурсивно записываемыми.",
 
     // Step 3
     "step_3"                    => "Step 3 of 7: Database",
@@ -68,7 +69,7 @@ return array(
      * 2.0.1
      */
 
-    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
+    "post_install"              => "Для правильной работы системы необходимо настроить задание cron.",
 
     /*
      * 2.0.2
@@ -149,8 +150,5 @@ return array(
      * 2.6.0
      */
     "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
-    "license_valid"             => "License Valid",
-    "registered_to"             => "Registered To",
 
 );

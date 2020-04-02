@@ -3,22 +3,22 @@
 return array(
 
     // Merge fields
-    "merge_fields"              => "Merge Fields",
-    "strings"                   => "Strings",
-    "collections"               => "Collections",
+    "merge_fields"              => "Объединить поля",
+    "strings"                   => "Строки",
+    "collections"               => "Коллекции",
     "frontend_url"              => "Frontend URL",
-    "operator_url"              => "Operator URL",
+    "operator_url"              => "url оператора",
 
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Most commonly used email and response merge fields are found below. For more details on how to utilise the merge fields, please refer to the <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentation</a>.",
+    "merge_fields_desc"         => "Наиболее часто используемые поля слияния электронной почты и ответов приведены ниже. Для получения более подробной информации о том, как использовать поля слияния, пожалуйста, обратитесь к разделу <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>документация</a>.",
 
     /*
      * 2.4.0
      */
-    "merge_field"               => "Merge Field",
-    "merge_field_canned_desc"   => "The unique merge field to use can be found when editing a canned response (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Copy the above to use this canned response as a merge field.",
+    "merge_field"               => "Поле слияния",
+    "merge_field_canned_desc"   => "Уникальное поле слияния для использования можно найти при редактировании архивного ответа (настройки -> тикеты -> архивные ответы).",
+    "response_merge_field"      => "Скопируйте вышеизложенное, чтобы использовать этот архивный ответ в качестве поля слияния.",
 
 );

@@ -4,78 +4,78 @@ return array(
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
-    "email_operators"           => "Send email to operators",
-    "email_operator_group"      => "Send email to an operator group",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
-    "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
+    "add_ticket_note"           => "Добавить примечание к тикету",
+    "add_ticket_reply"          => "Добавить ответ на тикет",
+    "add_tag"                   => "Добавить тег",
+    "assign_operator"           => "Назначить оператора на тикет",
+    "remove_tag"                => "Удалить тег",
+    "email_operators"           => "Отправить письмо операторам",
+    "email_operator_group"      => "Отправить email в группу операторов",
+    "email_user"                => "Отправить письмо пользователю",
+    "email_user_group"          => "Отправка email в группу пользователей",
+    "unassign_operator"         => "Убрать оператора из тикета",
+    "update_department"         => "Обновить отдел",
+    "update_priority"           => "Обновить приоритет",
+    "update_status"             => "Обновить статус",
 
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Update ticket custom field value",
+    "update_custom_field"       => "Обновить значение настраиваемого поля тикета",
 
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Increase due time",
-    "close_and_lock_ticket"     => "Close and lock ticket",
-    "pause_due_time"            => "Pause due time",
-    "reduce_due_time"           => "Reduce due time",
-    "set_due_time"              => "Set due time",
-    "unlock_ticket"             => "Unlock ticket",
-    "update_sla_plan"           => "Update SLA plan",
-    "update_subject"            => "Update subject",
-    "add_user_to_group"         => "Add user to user group",
-    "remove_user_from_group"    => "Remove user from user group",
-    "authenticated_operator"    => "Authenticated operator",
-    "all_assigned_operators"    => "All assigned operators",
-    "all_tags"                  => "All tags",
-    "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
-    "hours_to_be_added"         => "hours to be added to the current due time.",
-    "hours_to_be_removed"       => "hours to be removed from the current due time.",
-    "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
-    "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
-    "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
+    "increase_due_time"         => "Увеличить время",
+    "close_and_lock_ticket"     => "Закрыть и заблокировать тикет",
+    "pause_due_time"            => "Пауза срока",
+    "reduce_due_time"           => "Сократить время",
+    "set_due_time"              => "Установить время",
+    "unlock_ticket"             => "Разблокировать тикет",
+    "update_sla_plan"           => "Обновить план SLA",
+    "update_subject"            => "Обновить тему",
+    "add_user_to_group"         => "Добавить пользователя в группу пользователей",
+    "remove_user_from_group"    => "Удалить пользователя из группы пользователей",
+    "authenticated_operator"    => "Аутентифицированный оператор",
+    "all_assigned_operators"    => "Все назначенные операторы",
+    "all_tags"                  => "Все теги",
+    "subject_placeholder"       => "{{ ticket.subject }} является заполнителем для существующей темы тикета, нажмите если вы хотите просто добавить или дополнить ее.",
+    "hours_to_be_added"         => "часы, которые будут добавлены к текущему времени выполнения.",
+    "hours_to_be_removed"       => "часов, которые будут удалены из текущего срока.",
+    "hours_to_be_set"           => "часы, которые будут добавлены к текущему времени и установлены в качестве нового срока исполнения тикета.",
+    "only_with_due_time"        => "Относится только к тикетам с установленным временем.",
+    "set_due_time_desc"         => "Очистите текущее время, оставив поле пустым. Можно также установить время в прошлом, используя отрицательное число.",
 
     /*
      * 2.3.0
      */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
+    "add_cc"                    => "Добавить адрес электронной почты дополнительного получателя (CC)",
+    "remove_cc"                 => "Удалить адрес электронной почты дополнительного получателя (CC)",
+    "remove_cc_desc"            => "Оставьте пустым, чтобы удалить все адреса дополнительных получателей в тикете.",
 
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Exclude CC email addresses",
+    "exclude_cc"                => "Исключить адреса дополнительных получателей (CC) ",
 
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
+    "trigger_webhook"           => "Триггер веб-перехватчик",
+    "forward_ticket"            => "Передать тикет",
+    "watch_ticket"              => "Установите оператора для тикета",
+    "unwatch_ticket"            => "Снять оператора тикета",
+    "all_watching_operators"    => "Все просмотревшие операторы",
 
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
+    "move_to_trash"             => "Переместить тикет в корзину",
+    "block_user"                => "Блокировать пользователя",
 
     /*
      * 2.6.0
      */
-    "clear_due_time"            => "Clear due time",
+    "clear_due_time"            => "Очистить время",
 
 );

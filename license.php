@@ -2,45 +2,45 @@
 
 return array(
 
-    "license"           => "License",
-    "license_key"       => "License Key",
-    "error"             => "Error!",
-    "submit"            => "Submit",
-    "update"            => "Update",
+    "license"           => "Лицензия",
+    "license_key"       => "Лицензионный ключ",
+    "error"             => "Ошибка!",
+    "submit"            => "Отправить",
+    "update"            => "Обновить",
 
-    "reasons"           => "Possible Reasons",
-    "new_key"           => "New License Key",
-    "enter_key"         => "If you have a new license key, please enter it below and press Submit to continue.",
-    "assistance"        => "Still Need Assistance?",
+    "reasons"           => "Возможные причины",
+    "new_key"           => "Новый лицензионный ключ",
+    "enter_key"         => "Если у вас есть новый лицензионный ключ, введите его ниже и нажмите # Отправить # для продолжения.",
+    "assistance"        => "Все еще нужна помощь?",
 
-    "no_license"        => "No license found.",
-    "license_invalid"   => "License Invalid",
-    "invalid"           => "Invalid",
+    "no_license"        => "Лицензия не найдена.",
+    "license_invalid"   => "Лицензия недействительна",
+    "invalid"           => "Недействительным",
 
-    "incorrect_license" => "An incorrect license key has been used.",
-    "ip_changed"        => "The IP address your system is using has changed.",
-    "domain_changed"    => "The domain you are using has changed.",
-    "reason_1_desc"     => "If your license key is correct please try re-issuing it from the client area before contacting support.",
+    "incorrect_license" => "Неверный лицензионный ключ, он был использован.",
+    "ip_changed"        => "IP-адрес вашей системы изменился.",
+    "domain_changed"    => "Используемый вами домен изменился.",
+    "reason_1_desc"     => "Если ваш лицензионный ключ правильный, попробуйте повторно выдать его из клиентской области, прежде чем обращаться в службу поддержки.",
 
     /*
      * 2.1.0
      */
-    "server_response"   => "Server Response",
-    "need_to_reissue"   => "You may need to <strong>reissue</strong> the license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a>.",
+    "server_response"   => "Ответ сервера",
+    "need_to_reissue"   => "Вам может понадобиться <strong>переиздание</strong> лицензии у нас <a href='http://www.supportpal.com/manage/' target='_blank'> по ссылке </a>.",
 
     /*
      * 2.2.0
      */
-    "enter_new_key"     => "Enter New License Key",
+    "enter_new_key"     => "Введите новый лицензионный ключ",
 
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Лицензия действительна!",
 
     /*
      * 2.4.1
      */
-    "multi_ip_support"  => "Consider enabling <a href=':href' target='_blank'>Multi-IP support</a> in the client area to define additional IP addresses.",
+    "multi_ip_support"  => "Рассмотреть возможность <a href=':href' target='_blank'>Поддержки нескольких IP</a> , в клиентской области определить дополнительные IP-адреса.",
 
 );

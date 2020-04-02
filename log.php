@@ -3,204 +3,218 @@
 return array(
 
     // Standard messages
-    "item_created"                      => "Created new :item :rel.",
-    "item_updated"                      => "Updated :item :rel.",
-    "item_deleted"                      => "Deleted :item :rel.",
+    "item_created"                      => "Создано новое :item :rel.",
+    "item_updated"                      => "Обновленный :item :rel.",
+    "item_deleted"                      => "Удаленный :item :rel.",
 
     // Custom messages
-    "ip_ban_created"                    => "Created new ban on IP :rel.",
-    "ip_ban_updated"                    => "Updated ban on IP :rel.",
-    "ip_ban_deleted"                    => "Deleted ban on IP :rel.",
-    "banned_ip_on_login"                => "Banned IP :rel for 15 minutes.",
+    "ip_ban_created"                    => "Создан новый запрет на IP :rel.",
+    "ip_ban_updated"                    => "Обновленный запрет на IP :rel.",
+    "ip_ban_deleted"                    => "Удален запрет на IP :rel.",
+    "banned_ip_on_login"                => "Запрещенный IP :rel в течение 15 минут.",
 
-    "ip_whitelist_created"              => "Added IP :rel to whitelist.",
-    "ip_whitelist_updated"              => "Updated IP :rel on whitelist.",
-    "ip_whitelist_deleted"              => "Deleted IP :rel from whitelist.",
+    "ip_whitelist_created"              => "Добавлен IP :rel в белый список.",
+    "ip_whitelist_updated"              => "Обновлен IP :rel включен белый список.",
+    "ip_whitelist_deleted"              => "Удаленный IP :rel из белого списка.",
 
-    "system_cleanup"                    => "Ran system cleanup on :rel.",
+    "system_cleanup"                    => "Запустил очистку системы на :rel.",
 
-    "api_failed_login"                  => "IP :rel failed to authenticate to API.",
+    "api_failed_login"                  => "IP :rel не удалось пройти проверку подлинности в API.",
 
-    "user_successful_login"             => "Logged in to help desk.",
-    "user_failed_login"                 => "Failed to authenticate.",
-    "user_successful_logout"            => "Logged out of help desk.",
+    "user_successful_login"             => "Вошел в службу.",
+    "user_failed_login"                 => "Не удалось пройти проверку подлинности.",
+    "user_successful_logout"            => "Вышел из службы поддержки.",
 
-    "user_registered"                   => "Registered an account.",
-    "user_confirmed"                    => "Confirmed their account.",
-    "user_password_set"                 => "Set a password for their account.",
-    "user_password_reset"               => "Reset the password for their account.",
+    "user_registered"                   => "Зарегистрировал учетную запись.",
+    "user_confirmed"                    => "Подтвердил аккаунт.",
+    "user_password_set"                 => "Установите пароль для своей учетной записи.",
+    "user_password_reset"               => "Сбросил пароль для своей учетной записи.",
 
-    "user_added_to_organisation"        => "User :rel added to organisation :new_value.",
-    "user_removed_from_organisation"    => "User :rel removed from organisation :old_value.",
-    "user_profile_updated"              => "Updated account profile.",
-    "user_left_organisation"            => "Left organisation :rel.",
-    "user_organisation_emptied"         => "Removed all users from organisation :rel.",
-    "user_organisation_updated"         => ":rel's organisation access level changed from :old_value to :new_value.",
-    "organisation_membership_updated"   => "Updated user membership of organisation :rel.",
-    "organisation_profile_updated"      => "Updated profile of organisation :rel.",
-    "organisation_owner_updated"        => "Transferred organisation :rel ownership to :new_value.",
+    "user_added_to_organisation"        => "Пользователь :rel добавлен в организацию :new_value.",
+    "user_removed_from_organisation"    => "Пользователь :rel удален из организации :old_value.",
+    "user_profile_updated"              => "Обновлен профиль учетной записи.",
+    "user_left_organisation"            => "Другие организации :rel.",
+    "user_organisation_emptied"         => "Удалены все пользователи из организации :rel.",
+    "user_organisation_updated"         => ":rel's уровень доступа организации изменился с :old_value до :new_value.",
+    "organisation_membership_updated"   => "Обновление членства в организации :rel.",
+    "organisation_profile_updated"      => "Обновленный профиль организации :rel.",
+    "organisation_owner_updated"        => "Переданных организацией :rel право собственности на :new_value.",
 
-    "mass_email_queued"                 => "Queued :new_value emails in batches to be sent.",
-    "mass_email_sent"                   => "Sent :new_value emails in queue.",
+    "user_emailed"                      => "Отправил письмо по адресу :rel.",
 
-    "email_queue_deleted"               => "Deleted queued email to :rel.",
+    "mass_email_queued"                 => "Поставленный в очередь :new_value электронные письма в пакетах для отправки.",
+    "mass_email_sent"                   => "Отправил :new_value emails в очередях.",
 
-    "scheduled_task_run"                => "Scheduled task :rel has been run manually.",
+    "email_queue_deleted"               => "Удаленное письмо из очереди на адрес :rel.",
 
-    "selfservice_article_upvoted"       => "Positively rated article :rel.",
-    "selfservice_article_downvoted"     => "Negatively rated article :rel.",
-    "selfservice_comment_posted"        => "Posted a new :rel.",
-    "selfservice_comment_upvoted"       => "Up-voted :rel rating from :old_value to :new_value.",
-    "selfservice_comment_downvoted"     => "Down-voted :rel rating from :old_value to :new_value.",
+    "scheduled_task_run"                => "Запланированное задание :rel был запущен вручную.",
 
-    "ticket_opened"                     => "Opened new ticket #:rel.",
-    "ticket_opened_on_behalf"           => "Opened new ticket #:rel on behalf of :new_value.",
-    "ticket_opened_email"               => "Imported email as new ticket #:rel.",
+    "selfservice_article_upvoted"       => "Положительную оценку статьи :rel.",
+    "selfservice_article_downvoted"     => "Статья с отрицательной оценкой :rel.",
+    "selfservice_comment_posted"        => "Выложил новый :rel.",
+    "selfservice_comment_upvoted"       => "Голосуют :rel рейтинг от :old_value к :new_value.",
+    "selfservice_comment_downvoted"     => "Голосовали против :rel рейтинг от :old_value к :new_value.",
 
-    "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
-    "ticket_message_note"               => "Posted a new note to ticket #:rel.",
-    "ticket_message_deleted"            => "Deleted a message in ticket #:rel.",
+    "ticket_opened"                     => "Открылся новый тикет #:rel.",
+    "ticket_opened_on_behalf"           => "Открылся новый тикет #:rel от имени :new_value.",
+    "ticket_opened_email"               => "Импортированная электронная почта как новый тикет #:rel.",
 
-    "ticket_user_updated"               => "Updated the user on ticket #:rel from :old_value to :new_value.",
-    "ticket_subject_updated"            => "Updated the subject on ticket #:rel.",
-    "ticket_department_updated"         => "Updated the department on ticket #:rel from :old_value to :new_value.",
-    "ticket_status_updated"             => "Updated the status on ticket #:rel from :old_value to :new_value.",
-    "ticket_priority_updated"           => "Updated the priority on ticket #:rel from :old_value to :new_value.",
-    "ticket_tag_added"                  => "Added tag :new_value to ticket #:rel.",
-    "ticket_tag_updated"                => "Updated tags on ticket #:rel.",
-    "ticket_tag_removed"                => "Removed tag :new_value from ticket #:rel.",
-    "ticket_slaplan_updated"            => "Updated the SLA plan on ticket #:rel from :old_value to :new_value.",
-    "ticket_duetime_updated"            => "Updated the due time on ticket #:rel to :new_value.",
-    "ticket_duetime_paused"             => "Paused the due time on ticket #:rel until next user reply.",
-    "ticket_customfield_updated"        => "Updated custom fields on ticket #:rel.",
-    "ticket_converted_user"             => "Converted internal ticket #:rel to user ticket.",
-    "ticket_converted_internal"         => "Converted user ticket #:rel to internal ticket.",
+    "ticket_message_reply"              => "Опубликовал новый ответ на тикет #:rel.",
+    "ticket_message_note"               => "Выложил новую заметку в тикет #:rel.",
+    "ticket_message_deleted"            => "Удалено сообщение в тикете #:rel.",
 
-    "ticket_assigned_operator"          => "Assigned :new_value to ticket #:rel.",
-    "ticket_unassigned_operator"        => "Unassigned :new_value from ticket #:rel.",
-    "ticket_assigned_self"              => "Assigned self to ticket #:rel.",
-    "ticket_assigned_updated"           => "Updated assigned operators on ticket #:rel.",
+    "ticket_user_updated"               => "Обновлено имя пользователя в тикете #:rel с :old_value на :new_value.",
+    "ticket_subject_updated"            => "Обновлена тема по тикету #:rel.",
+    "ticket_department_updated"         => "Обновлен отдел по продаже тикетов #:rel from :old_value to :new_value.",
+    "ticket_status_updated"             => "Обновил статус на тикет #:rel с :old_value на :new_value.",
+    "ticket_priority_updated"           => "Обновлен приоритет по тикету #:rel с :old_value на :new_value.",
+    "ticket_tag_added"                  => "Добавлен тег :new_value к #:rel.",
+    "ticket_tag_updated"                => "Обновленные теги на тикете #:rel.",
+    "ticket_tag_removed"                => "Удален тег :new_value из тикета #:rel.",
+    "ticket_slaplan_updated"            => "Обновлен план SLA по тикету #:rel с :old_value до :new_value.",
+    "ticket_duetime_updated"            => "Обновлено время по тикету #:rel до :new_value.",
+    "ticket_duetime_paused"             => "Остановил положенное время на тикете #:rel до следующего ответа пользователя.",
+    "ticket_customfield_updated"        => "Обновленные пользовательские поля в тикете #:rel.",
+    "ticket_converted_user"             => "Конвертированный внутренний тикет #:rel к пользовательскому тикету.",
+    "ticket_converted_internal"         => "Преобразованный пользовательский тикет #:rel к внутреннему тикету.",
 
-    "ticket_locked"                     => "Locked ticket #:rel.",
-    "ticket_unlocked"                   => "Unlocked ticket #:rel.",
-    "ticket_locked_reply"               => "Reply could not be added to locked ticket #:rel.",
+    "ticket_assigned_operator"          => "Назначенный :new_value к тикету #:rel.",
+    "ticket_unassigned_operator"        => "Неназначенный :new_value из тикета #:rel.",
+    "ticket_assigned_self"              => "Назначенный самостоятельно тикет #:rel.",
+    "ticket_assigned_updated"           => "Обновленные назначенные операторы по тикету #:rel.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value merged into ticket #:rel.",
-    "ticket_unmerged"                   => "Ticket :rel has been unmerged.",
+    "ticket_locked"                     => "Заблокированный тикет #:rel.",
+    "ticket_unlocked"                   => "Разблокированный тикет #:rel.",
+    "ticket_locked_reply"               => "Ответ не может быть добавлен к заблокированному тикету #:rel.",
 
-    "ticket_user_blocked"               => "Blocked email :new_value (from user on ticket #:rel).",
+    "ticket_merged"                     => "Тикет(ы) :new_value слились в тикет #:rel.",
+    "ticket_unmerged"                   => "Тикет :rel has been unmerged.",
 
-    "ticket_closed"                     => "Ticket #:rel has been closed.",
-    "ticket_inactive_closed"            => "Closed inactive ticket #:rel from status :old_value.",
-    "ticket_awaiting_response"          => "Sent waiting for response email to user on ticket #:rel.",
+    "ticket_user_blocked"               => "Заблокированный email :new_value (от пользователя по тикету #:rel).",
 
-    "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
-    "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
+    "ticket_closed"                     => "Тикет #:rel был закрытый.",
+    "ticket_inactive_closed"            => "Закрытый неактивный тикет #:rel от статуса :old_value.",
+    "ticket_awaiting_response"          => "Отправлено ожидание ответа по электронной почте пользователю на тикете #:rel.",
 
-    "ticket_attachment_saved"           => "Added attachment to ticket #:rel.",
-    "ticket_attachment_deleted"         => "Deleted attachment from ticket #:rel.",
+    "ticket_split_from"                 => "Сообщения отделились от старого тикета #:rel к новому тикету #:new_value.",
+    "ticket_split_to"                   => "Сообщения разделяются от старого тикета #:old_value к новому тикету #:rel.",
 
-    "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
+    "ticket_email_user"                 => "Отправлено письмо пользователю.",
+    "ticket_email_operators"            => "Отправлено письмо операторам.",
+
+    "ticket_feedback_dequeued"          => "Удалена форма обратной связи, запрос на тикет #:rel из очереди.",
+    "ticket_feedback_form_sent"         => "Отправлена форма обратной связи, запрос на тикет #:rel.",
+
+    "ticket_attachment_saved"           => "Добавлено приложение к тикету #:rel.",
+    "ticket_attachment_deleted"         => "Удаленное вложение из тикета #:rel.",
+
+    "ticket_throttled"                  => "Отклонен новый тикет от :rel из за спама. ",
+
+    /*
+     * 2.0.2
+     */
+    "ticket_email_operator_group"       => "Отправлено письмо в группу операторов :new_value.",
+    "ticket_email_user_group"           => "Отправлено письмо в группу пользователей :new_value.",
 
     /*
      * 2.0.3
      */
-    "selfservice_attachment_saved"      => "Added attachment ':new_value' to article ID :rel.",
-    "selfservice_attachment_deleted"    => "Deleted attachment ':new_value' from to article ID :rel.",
-    "ticket_unassigned_self"            => "Unassigned self from ticket #:rel.",
+    "selfservice_attachment_saved"      => "Добавлено приложение ':new_value' к тикету ID :rel.",
+    "selfservice_attachment_deleted"    => "Удалить вложение ':new_value' от тикета к тикету ID :rel.",
+    "ticket_unassigned_self"            => "Неназначенные от тикета #:rel.",
 
     /*
      * 2.1.0
      */
-    "ticket_brand_disabled_reply"       => "Reply could not be added due to ticket belonging to a disabled brand #:rel.",
-    "personal_signatures_updated"       => "Updated personal signatures.",
-    "operator_signatures_updated"       => "Updated :rel's signatures.",
-    "check_email_failed"                => "Error: Failed to download email from account :old_value: ':rel'.",
-    "ticket_added_cc"                   => "Email(s) :new_value added to CC address list for ticket #:rel.",
-    "ticket_removed_cc"                 => "Email(s) :old_value removed from CC address list for ticket #:rel.",
-    "invalid_department_brand"          => "Failed to set department to ':new_value' on ticket #:rel, department does not belong to ticket brand.",
+    "ticket_brand_disabled_reply"       => "Ответ не может быть добавлен из-за того, что тикет принадлежит бренду с ограниченными возможностями #:rel.",
+    "personal_signatures_updated"       => "Обновленные личные подписи.",
+    "operator_signatures_updated"       => "Обновленный :rel's подписывание.",
+    "check_email_failed"                => "Ошибка: не удалось загрузить электронную почту из учетной записи :old_value: ':rel'.",
+    "ticket_added_cc"                   => "Email(s) :new_value добавлено в список адресов CC для тикета #:rel.",
+    "ticket_removed_cc"                 => "Email(s) :old_value удален из списка CC обращаются за тикет #:rel.",
+    "invalid_department_brand"          => "Не удалось установить отдел на ':new_value' на тикет #:rel, отдел не принадлежит к марке тикетов.",
+
+    /*
+     * 2.1.1
+     */
+    "ticket_message_updated"            => "Обновленное сообщение :message_id в тикете #:rel.",
 
     /*
      * 2.1.2
      */
-    "sent_email_to"                     => "Sent an email with subject ':extra_rel1' to :rel.",
-    "sent_template_email_to"            => "Sent ':extra_rel1' email to :rel.",
-    "sent_ticket_email_to_user"         => "Sent ':extra_rel1' email to user for ticket #:rel.",
-    "sent_email_to_operators"           => "Sent ':extra_rel1' email to operators.",
-    "sent_ticket_email_to_operators"    => "Sent ':extra_rel1' email to operators for ticket #:rel.",
-    "sent_email_to_operator_group"      => "Sent ':extra_rel1' email to operator group ':new_value' for ticket #:rel.",
-    "ticket_macro_applied"              => "The macro ':new_value' was ran on ticket #:rel.",
-    "ticket_macro_automatic"            => "The macro ':new_value' automatically ran on ticket #:rel.",
-    "email_template_not_found"          => "Email template ID ':new_value' not found, aborted sending email.",
-    "ticket_duetime_unset"              => "Unset the due time on ticket #:rel.",
-    "private_conversation_started"      => "Started a conversation with :rel.",
-    "private_message_sent"              => "Sent a message to :rel.",
-    "not_imported_replies_disabled"     => "An email :extra_rel1 was received for ticket #:rel, but was not imported as ticket email replies are disabled.",
-    "not_imported_ticket_locked"        => "An email :extra_rel1 was received for ticket #:rel, but was not imported as the ticket is locked.",
+    "sent_email_to"                     => "Отправлено письмо с темой письма ':extra_rel1' на :rel.",
+    "sent_template_email_to"            => "Отправлено ':extra_rel1' email на :rel.",
+    "sent_ticket_email_to_user"         => "Отправлено ':extra_rel1' email пользователю для получения тикета #:rel.",
+    "sent_email_to_operators"           => "Отправлено ':extra_rel1' email для операторов.",
+    "sent_ticket_email_to_operators"    => "Отправлено ':extra_rel1' email для оператораторов по тикету #:rel.",
+    "sent_email_to_operator_group"      => "Отправлено ':extra_rel1' электронная почта в группу операторов ':new_value' для тикета #:rel.",
+    "ticket_macro_applied"              => "Макрос ':new_value' переведен на тикет #:rel.",
+    "ticket_macro_automatic"            => "Макрос ':new_value' автоматически запускается на тикете #:rel.",
+    "email_template_not_found"          => "Email шаблон ID ':new_value' не найден, Прервана отправка электронной почты.",
+    "ticket_duetime_unset"              => "Сбросить время в тикете #:rel.",
+    "private_conversation_started"      => "Начался разговор с :rel.",
+    "private_message_sent"              => "Отправил сообщение :rel.",
+    "not_imported_replies_disabled"     => "email :extra_rel1 был получен за тикет #:rel, но не был импортирован, так как ответы на электронную почту тикетов отключены.",
+    "not_imported_ticket_locked"        => "email :extra_rel1 был получен для тикета #:rel , но не был импортирован, так как тикет заблокирован.",
 
     /*
      * 2.2.0
      */
-    "ticket_user_added_to_group"        => "Ticket user added to user group :new_value.",
-    "ticket_user_removed_from_group"    => "Ticket user removed from user group :old_value.",
-    "email_on_behalf"                   => "Forwarded :extra_rel2 on behalf of ':extra_rel1' in ticket #:rel.",
+    "ticket_user_added_to_group"        => "Пользователь добавлен в группу пользователей  :new_value.",
+    "ticket_user_removed_from_group"    => "Пользователь удален из группы пользователей  :old_value.",
+    "email_on_behalf"                   => "Пересылаются :extra_rel2 от имени ':extra_rel1' в тикете #:rel.",
 
     /*
      * 2.3.0
      */
-    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
-    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
-    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
-    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
-    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
-    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
+    "registered_users_only"             => "Отправлено ':extra_rel1' email на :new_value, департамент не принимает электронные письма от незарегистрированных пользователей.",
+    "deleted_user"                      => "Удаленный :item ':rel' с email ':email_address' (ID :user_id).",
+    "linked_ticket"                     => "Связанный тикет #:rel с тикетами :extra_rel1.",
+    "unlinked_ticket"                   => "Несвязанный тикет #:rel из тикета :extra_rel1.",
+    "email_queue_attachment_deleted"    => "Удалено вложение ':old_value' из очереди email ':rel'.",
+    "forward_ticket_email"              => "Переадресованный тикет #:rel для третьих лиц, просмотр ':extra_rel1' email.",
 
     /*
      * 2.3.1
      */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
-    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+    "selfservice_comment_updated"       => "Обновленный :rel для :extra_rel1.",
+    "selfservice_comment_status"        => "Измененный статус объекта :rel для :extra_rel1 from :old_value to :new_value.",
+    "selfservice_comment_deleted"       => "Удалил комментарий :extra_rel1.",
+    "ticket_message_posted"             => "Выложил новый :extra_rel1 к #:rel.",
+    "ticket_message_edited"             => "Отредактировано :extra_rel1 в #:rel.",
+    "email_send_failed"                 => "Не удалось отправить электронное письмо.",
+    "ticket_brand_updated"              => "Обновленный бренд по продаже тикетов #:rel с :old_value на :new_value.",
+    "export_scheduled"                  => "Экспорт пользователя :rel был запланирован заранее.",
+    "export_generated"                  => "Экспорт :new_value от пользователя :rel был сгенерирован и сохранен в системе.",
+    "export_deleted"                    => "Экспорт :old_value от пользователя :rel был удален из системы.",
+    "deleted_inactive_records"          => "Автоматически удалять :old_value неактивный :rel.",
+    "deleted_old_records"               => "Автоматически удаляются старые :rel записи.",
+    "sent_email_to_user_group"          => "Электронная почта в очереди для группы пользователей ':new_value' на тикеты #:rel.",
 
     /*
      * 2.4.0
      */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+    "ticket_watching"                   => "Наблюдаю за тикетом #:rel.",
+    "ticket_unwatching"                 => "Больше не смотрю тикет #:rel.",
+    "ticket_watch_operator"             => "Установил :new_value чтобы посмотреть тикет #:rel.",
+    "ticket_unwatch_operator"           => "Убрал :new_value от просмотра тикета #:rel.",
 
     /*
      * 2.5.0
      */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+    "marked_user_as_confirmed"          => "Подтвержденное право собственности на адрес электронной почты от имени пользователя :rel.",
+    "ticket_department_email_updated"   => "Обновлена электронная почта отдела по тикетам #:rel с :old_value на :new_value.",
+    "ticket_watching_updated"           => "Обновлено наблюдение операторов за тикетом #:rel.",
+    "ticket_deleted"                    => "Безвозвратно удаленный тикет ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Тикет #:rel удален.",
+    "ticket_restored"                   => "Восстановленный #:rel из корзины.",
+    "emptied_ticket_trash"              => "Автоматически очищенный мусор тикета ':old_value' записи.",
 
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
-
-    /*
-     * 3.0.0
-     */
-    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
+    "ticket_followup_set"               => "На тикете было установлено новое наблюдение #:rel.",
+    "ticket_followup_updated"           => "Была обновлена последующая информация по тикету #:rel.",
+    "ticket_followup_deleted"           => "Последующая информация по тикету #:rel была удалена.",
 
 );

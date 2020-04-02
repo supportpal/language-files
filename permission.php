@@ -2,112 +2,109 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Обновить общие настройки",
 
     // Core
-    "apitoken"          => "Manage API Tokens",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+    "apitoken"          => "Управление токенами API",
+    "company"           => "Управлять компаниями",
+    "emailtemplate"     => "Управление шаблонами электронной почты",
+    "ipban"             => "Управление IP-банами",
+    "ipwhitelist"       => "Управление белым списком IP-адресов",
+    "language"          => "Управлять языками",
+    "license"           => "Просмотр информации о лицензии",
+    "module"            => "Управление модулями",
+    "scheduledtask"     => "Управление запланированными задачами",
+    "spamrule"          => "Управление спам-правилами",
+    "emaillog"          => "Просмотр журнала электронной почты",
+    "emailqueue"        => "Просмотр очереди электронной почты",
+    "systemcleanup"     => "Выполнить очистку системы",
 
     // User
-    "operatorgroup"     => "Manage Operator Groups",
-    "organisation"      => "Manage Organisations",
-    "role"              => "Manage Operator Roles",
-    "user_view"         => "View Users",
-    "user_add"          => "Add Users",
-    "user_edit"         => "Edit Users",
-    "user_delete"       => "Delete Users",
-    "usergroup"         => "Manage User Groups",
-    "massemail"         => "Send Mass Email",
-    "ldapaccount"       => "Manage LDAP Accounts",
-    "activitylog"       => "View System Activity Log",
-    "operatorlog"       => "View Operator Login Log",
+    "operatorgroup"     => "Управление группами операторов",
+    "organisation"      => "Управление организациями",
+    "role"              => "Управление ролями оператора",
+    "user_view"         => "Просмотр пользователей",
+    "user_add" => "Добавить пользователей",
+ "user_edit" => "Редактировать пользователей",
+ "user_delete" => "Удалить пользователей",
+ "usergroup" => "Управление группами пользователей",
+ "massemail" => "Отправить массовое электронное письмо",
+ "ldapaccount" => "Управление учетными записями LDAP",
+ "activitylog" => "Просмотр журнала активности системы",
+ "operatorlog" => "Просмотреть журнал входа оператора",
 
     // Ticket
-    "cannedresponse"    => "Manage Canned Responses",
-    "channel"           => "Manage Channels",
-    "department"        => "Manage Departments",
-    "filter"            => "Manage Filters",
-    "holiday"           => "Manage Holidays",
-    "macro"             => "Manage Macros",
-    "priority"          => "Manage Priorities",
-    "schedule"          => "Manage Schedules",
-    "slaplan"           => "Manage SLA Plans",
-    "status"            => "Manage Statuses",
-    "ticket_view"       => "View Tickets",
-    "ticket_add"        => "Open Tickets",
-    "ticket_edit"       => "Update Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+    "cannedresponse" => "Управление стандартными ответами",
+ "channel" => "Управление каналами",
+ "отдел" => "Управление отделами",
+ "feedback" => "Manage Feedback",
+ "feedbackform" => "Управление формами обратной связи",
+ "filter" => "Manage Filters",
+ "holiday" => "Управление праздниками",
+ "macro" => "Управление макросами",
+ "priority" => "Управление приоритетами",
+ "schedule" => "Управление расписаниями",
+ "slaplan" => "Управление планами SLA",
+ "status" => "Управление статусами",
+ "ticket_view" => "Просмотреть тикеты",
+ "ticket_add" => "Открыть тикеты",
+ "ticket_edit" => "Обновить тикеты",
+ "ticketcustomfield" => "Управление пользовательскими полями",
 
     // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+    "article" => "Управление статьями",
+ "category" => "Управление категориями",
+ "comment" => "Управление комментариями",
+ "selfservicetype" => "Управление типами",
 
     // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+    "report"            => "Просмотр отчетов",
+    "reportdashboard"   => "Посмотреть панель инструментов",
 
     // General
-    "tag"               => "Manage Tags",
+    "tag"               => "Управление тегами",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "View Plugins",
+    "plugin"            => "Посмотреть плагины",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Manage Operators",
+    "operator"          => "Управлять операторами",
     
     /*
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "brand"             => "Управление брендами",
+    "phpinfo"           => "Просмотр информации PHP",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield" => "Управление пользовательскими полями пользователя",
+ "organisationcustomfield" => "Управление пользовательскими полями организации",
+ "operatorignature" => "Управление подписями операторов",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
+    "logfiles"          => "Управление файлами журналов",
 
     /*
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Manage Social Login",
+    "sociallogin"       => "Управление входом через социальные сети",
 
     /*
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
-
-    /*
-     * 3.0.0
-     */
-    "selfservicefeedbackform" => "Manage Feedback Forms",
-    "ticketfeedbackform"      => "Manage Feedback Forms",
+    "ticket_delete"     => "Удалить тикеты навсегда",
+    "ticket_trash"      => "Переместить тикеты в корзину",
 
 );

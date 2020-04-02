@@ -4,93 +4,86 @@ return array(
     /*
      * 2.0.2
      */
-    "assigned_operator"                 => "Assigned operator",
-    "assigned_operator_group"           => "Assigned operator group",
-    "hours_since_created"               => "Hours since created",
-    "hours_since_updated"               => "Hours since updated",
-    "internal_ticket"                   => "Internal ticket",
-    "involved_operator"                 => "Involved operator",
-    "last_ticket_replier"               => "Last ticket replier",
-    "ticket_channel"                    => "Ticket channel",
-    "ticket_channel_account"            => "Ticket channel account",
-    "ticket_created"                    => "Ticket created",
-    "ticket_department"                 => "Ticket department",
-    "ticket_due_time"                   => "Ticket due time",
-    "ticket_message_content"            => "Ticket message content",
-    "ticket_message_count"              => "Ticket message count",
-    "ticket_priority"                   => "Ticket priority",
-    "ticket_sla_plan"                   => "Ticket SLA plan",
-    "ticket_status"                     => "Ticket status",
-    "ticket_subject"                    => "Ticket subject",
-    "ticket_tag"                        => "Ticket tag",
+    "assigned_operator"                 => "Назначенный оператор",
+    "assigned_operator_group"           => "Назначенный оператор группы",
+    "hours_since_created"               => "Часы с момента создания",
+    "hours_since_updated"               => "Часы с момента обновления",
+    "internal_ticket"                   => "Внутренний тикет",
+    "involved_operator"                 => "Участвующий оператор",
+    "last_ticket_replier"               => "Последний ответ в тикете",
+    "ticket_channel"                    => "Канал запросов",
+    "ticket_channel_account"            => "Аккаунт канала запросов",
+    "ticket_created"                    => "Запрос создан",
+    "ticket_department"                 => "Отдел тикетов",
+    "ticket_due_time"                   => "Срок исполнения тикетов",
+    "ticket_message_content"            => "Содержание сообщения тикета",
+    "ticket_message_count"              => "Количество сообщений в тикете",
+    "ticket_priority"                   => "Приоритет тикета",
+    "ticket_sla_plan"                   => "План тикета SLA",
+    "ticket_status"                     => "Статус тикета",
+    "ticket_subject"                    => "Тема тикета",
+    "ticket_tag"                        => "Тег тикета",
     "ticket_updated"                    => "Ticket updated",
-    "user_email"                        => "User email",
-    "user_full_name"                    => "User full name",
-    "user_group"                        => "User group",
+    "user_email"                        => "Электронная почта пользователя",
+    "user_full_name"                    => "Полное имя пользователя",
+    "user_group"                        => "Группа пользователей",
 
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Ticket brand",
-    "user_brand"                        => "User brand",
+    "ticket_brand"                      => "Марка тикета",
+    "user_brand"                        => "Марка пользователя",
 
     /*
      * 2.2.0
      */
-    "hours_since_last_reply"            => "Hours since last reply",
-    "hours_since_last_reply_exc_notes"  => "Hours since last reply (excluding notes)",
-    "hours_until_due"                   => "Hours until due",
-    "last_ticket_replier_exc_notes"     => "Last ticket replier (excluding notes)",
-    "ticket_department_email"           => "Ticket department email",
-    "ticket_has_attachments"            => "Ticket has attachments",
-    "ticket_has_drafts"                 => "Ticket has drafts",
-    "ticket_locked"                     => "Ticket locked",
-    "ticket_merged"                     => "Ticket merged",
-    "ticket_message_count_exc_notes"    => "Ticket message count (excluding notes)",
-    "ticket_note_count"                 => "Ticket note count",
-    "ticket_number"                     => "Ticket number",
-    "ticket_reopened_time"              => "Ticket reopened time",
-    "ticket_resolved_time"              => "Ticket resolved time",
-    "user_account_active"               => "User account active",
-    "user_country"                      => "User country",
-    "user_language"                     => "User language",
-    "user_timezone"                     => "User timezone",
+    "hours_since_last_reply"            => "Часов с последнего ответа",
+    "hours_since_last_reply_exc_notes"  => "Часы с момента последнего ответа (исключая заметки)",
+    "hours_until_due"                   => "Часов до",
+    "last_ticket_replier_exc_notes"     => "Последний ответчик тикета (исключая примечания)",
+    "ticket_department_email"           => "Электронная почта отдела тикетов",
+    "ticket_has_attachments"            => "Тикет имеет вложения",
+    "ticket_has_drafts"                 => "Тикет имеет черновики",
+    "ticket_locked"                     => "Тикет заблокирован",
+    "ticket_merged"                     => "тикет объединен",
+    "ticket_message_count_exc_notes"    => "Количество сообщений в тикете (за исключением заметок)",
+    "ticket_note_count"                 => "Количество заметок в тикете",
+    "ticket_number"                     => "Номер тикета",
+    "ticket_reopened_time"              => "Время открытия тикета",
+    "ticket_resolved_time"              => "Время решения тикета",
+    "user_account_active"               => "Аккаунт пользователя активен",
+    "user_country"                      => "Страна пользователя",
+    "user_language"                     => "Язык пользователя",
+    "user_timezone"                     => "Часовой пояс пользователя",
 
     /*
      * 2.3.0
      */
     "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Ticket custom field",
-    "user_custom_field"                 => "User custom field",
-    "user_organisation_custom_field"    => "User organisation custom field",
-    "user_organisation"                 => "User organisation name",
-    "user_organisation_brand"           => "User organisation brand",
-    "user_organisation_country"         => "User organisation country",
-    "user_organisation_language"        => "User organisation language",
-    "user_organisation_notes"           => "User organisation notes",
-    "user_organisation_timezone"        => "User organisation timezone",
+    "ticket_custom_field"               => "Пользовательское поле тикета",
+    "user_custom_field"                 => "Пользовательское поле пользователя",
+    "user_organisation_custom_field"    => "Пользовательское поле организации пользователя",
+    "user_organisation"                 => "Название организации пользователя",
+    "user_organisation_brand"           => "Пользовательская организация бренда",
+    "user_organisation_country"         => "Страна организации пользователя",
+    "user_organisation_language"        => "Язык организации пользователя",
+    "user_organisation_notes"           => "Замечания по организации пользователей",
+    "user_organisation_timezone"        => "Часовой пояс организации пользователя",
 
     /*
      * 2.4.0
      */
-    "watching_operator"                 => "Watching operator",
-    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+    "watching_operator"                 => "Ожидание оператора",
+    "exact_search_quotes"               => "Чтобы выполнить точный поиск фразы, заключите ее в кавычки, например \"моя фраза\".",
 
     /*
      * 2.4.1
      */
-    "last_message_content"              => "Last message content",
+    "last_message_content"              => "Содержание последнего сообщения",
 
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "User email confirmed",
-
-    /*
-     * 3.0.0
-     */
-    "user_2fa_enabled"                  => "User 2FA enabled",
-    "article_type"                      => "Article type",
-    "article_brand"                     => "Article brand",
+    "user_email_confirmed"              => "Электронный адрес пользователя подтвержден",
 
 );

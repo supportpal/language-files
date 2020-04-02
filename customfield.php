@@ -2,62 +2,62 @@
 
 return array(
 
-    "customfield"               => "Custom Field|Custom Fields",
+    "customfield"               => "Пользовательское поле | Пользовательские поля",
 
     // Options
-    "boolean"                   => "Boolean",
-    "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "password"                  => "Password",
-    "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
-    "text"                      => "Text",
-    "textarea"                  => "Textarea",
+    "boolean"                   => "Логический",
+    "checkbox"                  => "Чекбокс",
+    "checklist"                 => "Выпадающий список",
+    "date"                      => "Дата",
+    "multiple"                  => "Несколько вариантов",
+    "options"                   => "Параметры",
+    "password"                  => "Пароль",
+    "radio"                     => "Radio Кнопки",
+    "rating"                    => "Рейтинг (1 - 5)",
+    "text"                      => "Текст",
+    "textarea"                  => "Текстовое поле",
 
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
+    "public"                    => "Публичный",
+    "public_desc"               => "Если пользовательское поле открыто, то оно отображается на веб-интерфейсе или предназначено только для персонала.",
+    "encrypted"                 => "Зашифрованные",
+    "purge_desc"                => "Если значение настраиваемого поля должно быть очищено автоматически при разрешении заявки.",
+    "locked"                    => "Защищено",
+    "locked_desc"               => "Если значение настраиваемого поля не может быть изменено пользователем после его установки.",
+    "department_desc"           => "Выберите, в каких отделах доступно поле.",
 
     /*
      * 2.0.2
      */
-    "please_select"             => "Please select...",
+    "please_select"             => "Пожалуйста выберите...",
 
     /*
      * 2.0.3
      */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
+    "description_desc"          => "Текст справки, который появится под настраиваемым полем, при желании можно оставить пустым.",
 
     /*
      * 2.1.0
      */
-    "brand_desc"                => "Choose which brands the field is available in.",
+    "brand_desc"                => "Выберите, в каких брендах доступно поле.",
     
     /*
      * 2.3.0
      */
-    "option_warning"            => "Deleting existing options will clear any saved fields that currently have those values selected.",
-    "regex_basic_desc"          => "Optionally specify a regular expression to validate the custom field value.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
-    "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
+    "option_warning"            => "Удаление существующих параметров приведет к удалению всех сохраненных полей, в которых в данный момент выбраны эти значения.",
+    "regex_basic_desc"          => "При желании укажите регулярное выражение для проверки значения настраиваемого поля.",
+    "regex_desc"                => "В регулярном выражении учитывается регистр, нет необходимости указывать разделители в регулярном выражении, а использование прямой косой черты будет автоматически исключено. Пример: ^[a-z0-9 _-]{6,18}$ принудительно установит, что значение имеет длину 6-18 символов и содержит только комбинацию буквенно-цифровых символов, символов подчеркивания и тире.",
+    "regex_error_message"       => "Сообщение об ошибке проверки",
+    "regex_error_message_desc"  => "При необходимости укажите настраиваемое сообщение об ошибке, которое будет отображаться, если значение не соответствует проверке регулярного выражения, в противном случае будет отображаться общее сообщение. Сообщение будет отображаться точно в том виде, в котором оно было введено, поэтому мы рекомендуем включить имя настраиваемого поля, чтобы сделать сообщение об ошибке более очевидным",
+    "custom_field_values"       => "Значения настраиваемых полей",
+    "depends_on"                => "Зависит от",
+    "depends_on_desc"           => "Если выбрано, это поле будет показано пользователю, только когда выбрано указанное значение поля. Видимость бренда и отдела будет автоматически унаследована от области, от которой она зависит.",
+    "select_option"             => "Выберите опцию...",
+    "purge"                     => "Чистка",
+    "encrypted_desc"            => "Если значение настраиваемого поля является чувствительным и должно быть сохранено в базе данных в зашифрованном виде. Это нельзя изменить после создания настраиваемого поля.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+    "required_desc"             => "Если пользовательское поле должно быть заполнено. Для флажка, контрольного списка или нескольких типов параметров пользователю потребуется выбрать хотя бы один параметр.",
 
 );

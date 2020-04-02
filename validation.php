@@ -13,161 +13,156 @@ return array(
     |
     */
 
-    "accepted"                  => "The :attribute must be accepted.",
-    "active_url"                => "The :attribute is not a valid URL.",
-    "after"                     => "The :attribute must be a date after :date.",
-    "alpha"                     => "The :attribute may only contain letters.",
-    "alpha_dash"                => "The :attribute may only contain letters, numbers, dashes and underscores.",
-    "alpha_num"                 => "The :attribute may only contain letters and numbers.",
-    "array"                     => "The :attribute must be an array.",
-    "before"                    => "The :attribute must be a date before :date.",
+    "accepted"                  => " :attribute должен быть принят.",
+    "active_url"                => " :attribute не является допустимым URL.",
+    "after"                     => " :attribute должен быть датой после :date.",
+    "alpha"                     => " :attribute может содержать только буквы.",
+    "alpha_dash"                => " :attribute может содержать только буквы, цифры и тире.",
+    "alpha_num"                 => " :attribute может содержать только буквы и цифры.",
+    "array"                     => " :attribute должен быть массивом.",
+    "before"                    => " :attribute должен быть датой до :date.",
     "between"                   => array(
-        "numeric" => "The :attribute must be between :min and :max.",
-        "file"    => "The :attribute must be between :min and :max kilobytes.",
-        "string"  => "The :attribute must be between :min and :max characters.",
-        "array"   => "The :attribute must have between :min and :max items.",
+        "numeric" => " :attribute должно быть между :min и :max.",
+        "file"    => " :attribute должно быть между :min и :max килобайт.",
+        "string"  => " :attribute должно быть между :min и :max символы.",
+        "array"   => " :attribute должно быть между :min и :max значением. ",
     ),
-    "boolean"                   => "The :attribute field must be true or false.",
-    "confirmed"                 => "The :attribute confirmation does not match.",
-    "date"                      => "The :attribute is not a valid date.",
-    "date_format"               => "The :attribute does not match the format :format.",
-    "different"                 => "The :attribute and :other must be different.",
-    "digits"                    => "The :attribute must be :digits digits.",
-    "digits_between"            => "The :attribute must be between :min and :max digits.",
-    "email"                     => "The :attribute must be a valid email address.",
-    "exists"                    => "The selected :attribute is invalid.",
-    "image"                     => "The :attribute must be an image.",
-    "in"                        => "The selected :attribute is invalid.",
-    "integer"                   => "The :attribute must be an integer.",
-    "ip"                        => "The :attribute must be a valid IP address.",
+    "boolean"                   => " :attribute должно быть истинным или ложным.",
+    "confirmed"                 => " :attribute не совпадает.",
+    "date"                      => " :attribute не является допустимой датой.",
+    "date_format"               => " :attribute не соответствует формату :format.",
+    "different"                 => " :attribute и :other должен быть другим.",
+    "digits"                    => " :attribute должно быть :digits цифрой.",
+    "digits_between"            => " :attribute должно быть между :min и :max цифрой.",
+    "email"                     => " :attribute Адрес эл. почты должен быть действительным.",
+    "exists"                    => " :attribute является недействительным.",
+    "image"                     => " :attribute должен быть изображением. ",
+    "in"                        => " :attribute  является недействительным.",
+    "integer"                   => " :attribute должно быть целым числом",
+    "ip"                        => " :attribute должен быть действительный IP-адрес.",
     "max"                       => array(
-        "numeric" => "The :attribute may not be greater than :max.",
-        "file"    => "The :attribute may not be greater than :max kilobytes.",
-        "string"  => "The :attribute may not be greater than :max characters.",
-        "array"   => "The :attribute may not have more than :max items.",
+        "numeric" => " :attribute не может быть больше чем :max.",
+        "file"    => " :attribute не может быть больше чем :max килобайт.",
+        "string"  => " :attribute не может быть больше чем :max символы.",
+        "array"   => " :attribute не может быть больше чем :max обьекты.",
     ),
-    "mimes"                     => "The :attribute must be a file of type: :values.",
+    "mimes"                     => " :attribute должен быть файл типа: :values.",
     "min"                       => array(
-        "numeric" => "The :attribute must be at least :min.",
-        "file"    => "The :attribute must be at least :min kilobytes.",
-        "string"  => "The :attribute must be at least :min characters.",
-        "array"   => "The :attribute must have at least :min items.",
+        "numeric" => " :attribute должен быть не менее :min.",
+        "file"    => " :attribute должен быть не менее :min килобайт.",
+        "string"  => " :attribute должен быть не менее :min символов.",
+        "array"   => " :attribute должен быть не менее :min предметы.",
     ),
-    "not_in"                    => "The selected :attribute is invalid.",
-    "numeric"                   => "The :attribute must be a number.",
-    "regex"                     => "The :attribute format is invalid.",
-    "required"                  => "The :attribute field is required.",
-    "required_if"               => "The :attribute field is required when :other is :value.",
-    "required_with"             => "The :attribute field is required when :values is present.",
-    "required_with_all"         => "The :attribute field is required when :values is present.",
-    "required_without"          => "The :attribute field is required when :values is not present.",
-    "required_without_all"      => "The :attribute field is required when none of :values are present.",
-    "same"                      => "The :attribute and :other must match.",
+    "not_in"                    => "Выбранный :attribute недейтвителен.",
+    "numeric"                   => " :attribute должен быть числом.",
+    "regex"                     => " :attribute формат неверен.",
+    "required"                  => " :attribute поле, обязательное для заполнения.",
+    "required_if"               => " :attribute поле обязательно для заполнения, когда :other имеет значение :value.",
+    "required_with"             => " :attribute поле обязательно для заполнения, когда :values # true #.",
+    "required_with_all"         => " :attribute поле обязательно для заполнения, когда :values  # true #.",
+    "required_without"          => " :attribute поле обязательно для заполнения, когда :values # false #.",
+    "required_without_all"      => " :attribute поле обязательно для заполнения, когда ни один из :values не присутствует.",
+    "same"                      => " :attribute и :other должен совпадать.",
     "size"                      => array(
-        "numeric" => "The :attribute must be :size.",
-        "file"    => "The :attribute must be :size kilobytes.",
-        "string"  => "The :attribute must be :size characters.",
-        "array"   => "The :attribute must contain :size items.",
+        "numeric" => " :attribute должен быть :size.",
+        "file"    => " :attribute должен быть :size килобайт.",
+        "string"  => " :attribute должен быть :size символов.",
+        "array"   => " :attribute должен содержать :size.",
     ),
-    "unique"                    => "The :attribute has already been taken.",
-    "url"                       => "The :attribute format is invalid.",
-    "template_exists"           => "The selected :attribute is invalid.",
-    "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_length"      => "The password must be equal to or longer than :user_password_length characters.",
-    "operator_password_length"  => "The password must be equal to or longer than :operator_password_length characters.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "unique"                    => " :attribute уже принято.",
+    "url"                       => " :attribute формат неверен.",
+    "template_exists"           => " Выбранный :attribute является недействительным.",
+    "is_valid_captcha"          => " Введенный код был неверен или неверен, пожалуйста, попробуйте еще раз.",
+    "user_password_length"      => " пароль должен быть равен или длиннее :user_password_length символов.",
+    "operator_password_length"  => "Пароль должен быть равен или длиннее :operator_password_length символов.",
+    "user_password_strength"    => " :attribute должен содержать: :user_password_strength.",
+    "operator_password_strength" => " :attribute должен содержать: :operator_password_strength.",
 
     /*
      * 2.1.0
      */
-    "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
+    "logo"                      => "Логотип должен указывать на действительный файл изображения (прямой URL-адрес или относительный путь к базовому каталогу).",
 
     /*
      * 2.1.1
      */
-    "old_password"              => "The :attribute field is invalid.",
+    "old_password"              => " :attribute поле неверно. ",
 
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => " :translation перевод для поля: атрибут обязателен, когда присутствует :values ",
+    "max_translation"           => " :translation перевод для поля: атрибута не может быть больше, чем :max символов.",
+    "unique_translation"        => " :translation перевод для :attribute поле уже занят.",
 
     /*
      * 2.3.0
      */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
-    "customfield_not_cyclic"    => "The field cannot depend on one of its children.",
+    "required_translation"      => " :translation перевод для :attribute поле, обязательное для заполнения.",
+    "customfield_not_cyclic"    => "Поле не может зависеть от одного из своих дочерних полей.",
 
     /*
      * 2.3.1
      */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
+    "is_slug"                   => "Поле slug может содержать только буквенно-цифровые символы, пожалуйста, указывайте в процентах любые специальные символы.",
+    "article_slug_unique"       => " slug уже указан.",
+    "captcha_required"          => "Капча обязательна.",
+    "ticket_number_format"      => "Формат номера тикета является недопустимым.",
 
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
+    "after_or_equal"            => " :attribute должна быть дата после или равная :date.",
+    "before_or_equal"           => " :attribute должна быть дата, предшествующая или равная :date.",
+    "dimensions"                => " :attribute имеет недопустимые размеры изображения.",
+    "distinct"                  => ' :attribute поле имеет повторяющееся значение.',
+    "file"                      => " :attribute должно быть, это файл.",
+    "filled"                    => " :attribute поле должно иметь значение.",
     "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
+        "numeric" => " :attribute должно быть больше, чем :value.",
+        "file"    => " :attribute должно быть больше, чем :value килобайты.",
+        "string"  => " :attribute должно быть больше, чем :value символов.",
+        "array"   => " :attribute должно быть больше чем :value штук.",
     ),
     "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
+        "numeric" => " :attribute должно быть больше или равно :value.",
+        "file"    => " :attribute должно быть больше или равно :value килобайт.",
+        "string"  => " :attribute должно быть больше или равно :value символов.",
+        "array"   => " :attribute должно быть :value штук или больше.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => " :attribute поле не существует в :other.",
+    "ipv4"                      => " :attribute должен быть действительным IPv4-адресом.",
+    "ipv6"                      => " :attribute должен быть действительным адресом IPv6.",
+    "json"                      => " :attribute должна быть допустимой строкой JSON.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
+        "numeric" => " :attribute должно быть меньше чем :value.",
+        "file"    => " :attribute должно быть меньше чем :value килобайт.",
+        "string"  => " :attribute должно быть меньше чем :value символов.",
+        "array"   => " :attribute должно быть меньше чем :value штук.",
     ),
     "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
+        "numeric" => " :attribute должно быть меньше или равно :value.",
+        "file"    => " :attribute должно быть меньше или равно :value килобайт.",
+        "string"  => " :attribute должно быть меньше или равно :value символов.",
+        "array"   => " :attribute должно быть меньше или равно :value штук.",
     ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
+    "mimetypes"                 => " :attribute должен быть файл типа: :values.",
+    "not_regex"                 => " :attribute формат неверен.",
+    "present"                   => " :attribute поле должно присутствовать.",
+    "required_unless"           => " :attribute поле обязательно для заполнения, если :other в :values.",
+    "string"                    => " :attribute должен быть строкой.",
+    "timezone"                  => " :attribute должна быть действительной зоной.",
+    "uploaded"                  => " :attribute не удалось загрузить.",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Одно или несколько доменных имен недействительны.",
 
     /*
      * 2.5.1
      */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
-
-    /*
-     * 3.0.0
-     */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
+    "valid_twig"                => " :attribute является недействительным. Пожалуйста, используйте кнопку # Просмотр # для получения подробной информации об ошибке.",
 
     /*
     |--------------------------------------------------------------------------
@@ -182,17 +177,17 @@ return array(
 
     "custom" => array(
         "roles.*" => array(
-            "exists" => "The selected role is invalid.",
+            "exists" => "Выбранная роль является недопустимой.",
         ),
         "category.*.type" => array(
-            "required" => "One or more self-service types must be selected.",
+            "required" => "Необходимо выбрать один или несколько типов самообслуживания.",
         ),
         "category.*.categories" => array(
-            "required" => "One or more categories are required when a self-service type has been selected.",
-            "exists"   => "One or more of the selected categories is invalid.",
+            'required' => "При выборе типа самообслуживания требуется наличие одной или нескольких категорий.",
+            "exists"   => "Одна или несколько выбранных категорий являются недопустимыми.",
         ),
         "brand.*" => array(
-            "exists" => "The selected brand is invalid.",
+            "exists" => "Выбранный бренд является недействительным.",
         ),
     ),
 
