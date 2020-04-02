@@ -1,4 +1,4 @@
-# SupportPal Language Files - English (en)
+# SupportPal Language Files - Turkish (tr)
 
 The language files for the [SupportPal](https://www.supportpal.com) system, found at `/resources/lang` in a SupportPal installation. This repository will be used to track changes made to the language files between releases.
 
