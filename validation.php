@@ -77,27 +77,101 @@ return array(
     "user_password_length"      => "Das Passwort muss mindestens :user_password_length Zeichen enthalten.",
     "operator_password_length"  => "Das Passwort muss mindestens :operator_password_length Zeichen enthalten.",
     "json"                      => ":attribute muss gültiges JSON sein.",
-    "user_password_strength"    => ":attribute must contain: :user_password_strength.",
-    "operator_password_strength"=> ":attribute must contain: :operator_password_strength.",
+    "user_password_strength"    => ":attribute muss beinhalten: :user_password_strength.",
+    "operator_password_strength"=> ":attribute muss beinhalten: :operator_password_strength.",
     "twig_lint"                 => "The :attribute must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
      */
     "in_array"                  => "The :attribute field does not exist in :other.",
-    "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
+    "logo"                      => "Das Logo muss zu einer gültigen Bilddatei zeigen (Vollständige URL oder relative URL zum Basis Verzeichnis).",
 
     /*
      * 2.1.1
      */
-    "old_password"              => "The :attribute field is invalid.",
+    "old_password"              => "Das :attribute Feld ist ungültig.",
 
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => "Die Übersetzung :translation für das Feld :attribute ist zwingend erforderlich wenn :values gesetzt ist.",
+    "max_translation"           => "Die Übersetzung :translation für das Feld :attribute darf nich länger als  :max Zeichen sein.",
+    "unique_translation"        => "Die Übersetzung :translation für das Feld :attribute wurde bereits benutzt.",
+
+    /*
+     * 2.3.0
+     */
+    "required_translation"      => "ie Übersetzung :translation für das Feld :attribute ist erforderlich.",
+    "customfield_not_cyclic"    => "Das Feld darf nicht von seinen eigenen Kindern abhängig sein.",
+
+    /*
+     * 2.3.1
+     */
+    "is_slug"                   => "Das slug Feld darf nur alphanumerische Zeichen beinhalten. Benutzen sie %Syntax um andere Zeichen zu verwenden",
+    "article_slug_unique"       => "Das slug ist bereits in Verwendung.",
+    "captcha_required"          => "Das captcha ist erforderlich.",
+    "ticket_number_format"      => "Das Format der Ticketnummer ist ungültig.",
+
+    /*
+     * 2.4.0
+     */
+    "after_or_equal"            => "Das Datum :attribute muss nach oder gleich dem Datum :date sein.",
+    "before_or_equal"           => "Das Datum :attribute mus bevor oder gleich dem Datum :date sein.",
+    "dimensions"                => "Die Bilddatei :attribute hat ungültige Dimenionen .",
+    "distinct"                  => "Das Feld :attribute hat einen doppelten Wert.",
+    "file"                      => "Das Feld :attribute muss eine gültige Bilddatei sein.",
+    "filled"                    => "Das Feld :attribute muss einen Wert haben.",
+    "gt"                        => array(
+        "numeric" => "Die Zahl :attribute muss größer sein als :value.",
+        "file"    => "Die Datei :attribute muss größer sein als :value kilobytes.",
+        "string"  => "Der Text :attribute muss länger sein als :value characters.",
+        "array"   => "Das Array :attribute muss mehr als :value Einträge haben.",
+    ),
+    "gte"                       => array(
+        "numeric" => "Die Zahl :attribute muss gleich oder größer sein als :value.",
+        "file"    => "Die Datei :attribute muss gleich oder grlßer sein als :value kilobytes.",
+        "string"  => "Der Text :attribute mus gleichlang oder länger sein als :value Zeichen.",
+        "array"   => "Das Array :attribute muss :value Elemente oder mehr haben.",
+    ),
+    "in_array"                  => "Das Feld :attribute existiert nicht in :other.",
+    "ipv4"                      => "Das Feld :attribute muss eine gültige IP Adresse sein.",
+    "ipv6"                      => "Das Feld :attribute muss eine gültige IPv6 Adresse sein.",
+    "json"                      => "Das Feld :attribute muss ein gültiger JSON Text sein.",
+    "lt"                        => array(
+        "numeric" => "Die Zahl :attribute muss kleiner sein als :value.",
+        "file"    => "Die Datei :attribute muss kleiner sein als :value kilobytes.",
+        "string"  => "Der Text :attribute muss kürzer sein als :value characters.",
+        "array"   => "Das Array :attribute muss weniger als :value Einträge haben.",
+    ),
+    "lte"                       => array(
+        "numeric" => "Die Zahl :attribute muss gleich oder kleiner sein als :value.",
+        "file"    => "Die Datei :attribute muss gleich oder kleiner sein als :value kilobytes.",
+        "string"  => "Der Text :attribute mus gleichlang oder kürzer sein als :value Zeichen.",
+        "array"   => "Das Array :attribute muss :value Elemente oder weniger haben.",
+    ),
+    "mimetypes"                 => "Das Feld :attribute muss einen gültige Dateim vom MIME Typ: :values sein.",
+    "not_regex"                 => "Das Feld :attribute konnte nicht erfolgreich validiert werden.",
+    "present"                   => "Das Feld :attribute muss vorhanden sein.",
+    "required_unless"           => "Das Feld :attribute ist nötig außer :other hat eien Wert von :values.",
+    "string"                    => "Das Feld :attribute muss einen Text als Inhalt haben.",
+    "timezone"                  => "Das Feld :attribute muss eine gültige Zeitzone sein.",
+    "uploaded"                  => "Die Datei :attribute konnte nicht hochgeladen werden.",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Einer oder mehrere Domänen Namen sind nicht gültig.",
+
+    /*
+     * 2.5.1
+     */
+    "valid_twig"                => "Das Feld :attribute ist ungültig. Bitte benutzen sie die 'Vorschau' Funktion für weitere Fehler Details.",
+
+    /*
+     * 3.0.0
+     */
+    "embed_image"               => "Die Datei :attribute muss vom Typ: jpeg, png, or gif sein.",
 
     /*
     |--------------------------------------------------------------------------
@@ -111,43 +185,18 @@ return array(
     */
 
     "custom" => array(
-        "data.*.subject" => array(
-            "required" => "Ein Betreff muss bei jeder angegebene E-Mail vorhanden sein."
-        ),
-        "data.*.contents" => array(
-            "required"  => "Ein Inhalt muss bei jeder angegebene E-Mail vorhanden sein.",
-            "twig_lint" => "Each email must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
-        ),
         "roles.*" => array(
             "exists" => "Die ausgewählte Rolle ist ungültig.",
         ),
         "category.*.type" => array(
-            "required" => "One or more self-service types must be selected.",
+            "required" => "Ein oder mehrere Inhaltstypen müssen für das Self Service Frontend definiert werden.",
         ),
         "category.*.categories" => array(
-            'required' => "One or more categories are required when a self-service type has been selected.",
-            "exists"   => "One or more of the selected categories is invalid.",
+            "required" => "Eine oder mehrere Kategorien sind nötig wenn wenn ein Inhaltstyp ausgewählt ist.",
+            "exists"   => "eine oder mehrere der ausgwählten Kategorien sind ungültig.",
         ),
         "brand.*" => array(
-            "exists" => "The selected brand is invalid.",
-        ),
-        "signature.Default.*.department" => array(
-            "exists" => "Each signature must belong to a valid department.",
-        ),
-        "signature.Default.*.contents" => array(
-            "twig_lint" => "Each signature must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
-        ),
-        "template.Default.*.language" => array(
-            "exists" => "Each template must belong to a valid language.",
-        ),
-        "template.Default.*.subject" => array(
-            "min" => "Each email template subject must be greater than 1 character.",
-            "max" => "Each email template subject must be less than 255 characters.",
-        ),
-        "template.Default.*.contents" => array(
-            "required_with" => "Each email template requires content when a subject is present.",
-            "min" => "Each email template must be greater than 1 character.",
-            "twig_lint" => "Each email template must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html"
+            "exists" => "Die ausgewählte Marke ist ungültig.",
         ),
     ),
 

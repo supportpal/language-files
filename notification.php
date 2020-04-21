@@ -22,6 +22,6 @@ return array(
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name schickte ihnen eine neue <a href=':route'>private Nachricht</a>.",
 
 );

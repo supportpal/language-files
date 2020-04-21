@@ -40,12 +40,9 @@ return array(
     "organisation_profile_updated"      => "Updated profile of organisation :rel.",
     "organisation_owner_updated"        => "Transferred organisation :rel ownership to :new_value.",
 
-    "user_emailed"                      => "Sent an email to :rel.",
-
     "mass_email_queued"                 => "Queued :new_value emails in batches to be sent.",
     "mass_email_sent"                   => "Sent :new_value emails in queue.",
 
-    "email_send_failed"                 => "Error: Failed to send email in queue 5 times, removing from queue.",
     "email_queue_deleted"               => "Deleted queued email to :rel.",
 
     "scheduled_task_run"                => "Scheduled task :rel has been run manually.",
@@ -59,15 +56,9 @@ return array(
     "ticket_opened"                     => "Opened new ticket #:rel.",
     "ticket_opened_on_behalf"           => "Opened new ticket #:rel on behalf of :new_value.",
     "ticket_opened_email"               => "Imported email as new ticket #:rel.",
-    "ticket_deleted"                    => "Deleted ticket ':old_value' (#:rel).",
-
-    "ticket_followup_set"               => "A follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "The follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "The follow up on ticket #:rel has been deleted.",
 
     "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
     "ticket_message_note"               => "Posted a new note to ticket #:rel.",
-    "ticket_message_updated"            => "Updated a message in ticket #:rel.",
     "ticket_message_deleted"            => "Deleted a message in ticket #:rel.",
 
     "ticket_user_updated"               => "Updated the user on ticket #:rel from :old_value to :new_value.",
@@ -106,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
     "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
 
-    "ticket_email_user"                 => "Sent email to user.",
-    "ticket_email_operators"            => "Sent email to operators.",
-
-    "ticket_feedback_dequeued"          => "Removed feedback form request for ticket #:rel from queue.",
-    "ticket_feedback_form_sent"         => "Sent feedback form request for ticket #:rel.",
-
     "ticket_attachment_saved"           => "Added attachment to ticket #:rel.",
     "ticket_attachment_deleted"         => "Deleted attachment from ticket #:rel.",
 
     "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Sent email to operator group :new_value.",
-    "ticket_email_user_group"           => "Sent email to user group :new_value.",
 
     /*
      * 2.0.3
@@ -142,11 +121,6 @@ return array(
     "invalid_department_brand"          => "Failed to set department to ':new_value' on ticket #:rel, department does not belong to ticket brand.",
 
     /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Updated message :message_id in ticket #:rel.",
-
-    /*
      * 2.1.2
      */
     "sent_email_to"                     => "Sent an email with subject ':extra_rel1' to :rel.",
@@ -155,7 +129,6 @@ return array(
     "sent_email_to_operators"           => "Sent ':extra_rel1' email to operators.",
     "sent_ticket_email_to_operators"    => "Sent ':extra_rel1' email to operators for ticket #:rel.",
     "sent_email_to_operator_group"      => "Sent ':extra_rel1' email to operator group ':new_value' for ticket #:rel.",
-    "sent_email_to_user_group"          => "Sent ':extra_rel1' email to user group ':new_value' for ticket #:rel.",
     "ticket_macro_applied"              => "The macro ':new_value' was ran on ticket #:rel.",
     "ticket_macro_automatic"            => "The macro ':new_value' automatically ran on ticket #:rel.",
     "email_template_not_found"          => "Email template ID ':new_value' not found, aborted sending email.",
@@ -171,5 +144,63 @@ return array(
     "ticket_user_added_to_group"        => "Ticket user added to user group :new_value.",
     "ticket_user_removed_from_group"    => "Ticket user removed from user group :old_value.",
     "email_on_behalf"                   => "Forwarded :extra_rel2 on behalf of ':extra_rel1' in ticket #:rel.",
+
+    /*
+     * 2.3.0
+     */
+    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
+    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
+    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
+    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
+    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
+    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
+
+    /*
+     * 2.3.1
+     */
+    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
+    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
+    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
+    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
+    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
+    "email_send_failed"                 => "Failed to send email.",
+    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
+    "export_scheduled"                  => "An export of user :rel has been scheduled.",
+    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
+    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
+    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
+    "deleted_old_records"               => "Automatically deleted old :rel records.",
+    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+
+    /*
+     * 2.4.0
+     */
+    "ticket_watching"                   => "Watching ticket #:rel.",
+    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
+    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
+    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+
+    /*
+     * 2.5.0
+     */
+    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
+    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
+    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
+    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
+    "ticket_restored"                   => "Restored ticket #:rel from trash.",
+    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+
+    /*
+     * 2.6.0
+     */
+    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
+    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
+    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+
+    /*
+     * 3.0.0
+     */
+    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
 
 );

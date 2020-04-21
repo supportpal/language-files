@@ -127,5 +127,46 @@ return array(
      * 2.1.2
      */
     "field_required"        => "Field is required.",
+    /*
+     * 2.3.0
+     */
+    "delete_record"         => "Lösche :record?",
+    "cannot_be_undone"      => "Diese Aktion is unwiederruflich.",
+    "warn_delete"           => "Das wird  <strong>:name</strong> :record permanent löschen.",
+    "delete_confirm"        => "Ja, lösche :record",
+    "keep_record"           => "Nein, behalte :record",
+    "delete_relations"      => "Löschen von <strong>:name</strong> :record wird auch alle folgenden Daten löschen:",
+    "please_check"          => "Sie müssen alle checkboxen anwählen um ihr Verständnis der unwiederruflichkeit der Aktion zu bestätigen.",
+    "failed_attachments"    => "Konnte einige Dateien nicht anhängen.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Erfolg - Email wurde gesendet.",
+    "task_already_running"  => "Die geplante Aufgabe läuft bereits, bitte versuchen sie es später erneut.",
+    "linked_account"        => "Der 'social account' wurde erfolgreich mit Ihrem Konto verbunden.",
+    "already_linked"        => "Der 'social account' ist bereits mit einem anderen Konto verbunden. Bitte melden sie sich mit dem anderen Konto an und entfernen sie die Verbindung zum 'social account'.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Sieht das korrekt aus?",
+    "no_revert"             => "Nein! Stell die Änderung zurück",
+    "attachment_not_found"  => "Der Anhang wurde nicht gefunden.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Dein Konto wurde geschlossen. Bitte kontaktieren sie uns wenn das ein Irrtum ist.",
+    "leave_record"          => "Verlasse :record?",
+    "leave_record_warn"     => "Das wird sie permanent vom:record entfernen.",
+    "success_trashed"       => "Verschieben von :item in den Papierkorb war erfolgreich!",
+    "error_trashed"         => "Verschieben von :item in den Papierkorb ist fehlgeschlagen.",
+    "blocked_by_rule"       => "Die Anfrage wurde duchr die Spam Regel ':text' blockiert.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Den Browser blockiert Popups. Bitte erlauben sie Popups um das Vorschau Feature nutzen zu können.",
 
 );

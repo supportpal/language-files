@@ -81,18 +81,37 @@ return array(
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "brand"             => "Verwalte Marken",
+    "phpinfo"           => "Zeige PHP Informationen an",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield"   => "Verwalte benutzerdefinierte Felder",
+    "organisationcustomfield" => "Verwalte Organisatiionsbezogene benutzerdefinierte Felder",
+    "operatorsignature" => "Verwalte Operator Signaturen",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
+    "logfiles"          => "Verwalte Log Dateien",
+
+    /*
+     * 2.4.0
+     */
+    // User
+    "sociallogin"       => "Verwalte Social Login",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Lösche Tickets permanent",
+    "ticket_trash"      => "Verschiebe Tickets in den Papierkorb",
+
+    /*
+     * 3.0.0
+     */
+    "selfservicefeedbackform" => "Verwalte Frontend Feedback Forumlare",
+    "ticketfeedbackform"      => "Verwalte Ticket Feedback Forulare",
 
 );

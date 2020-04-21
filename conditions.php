@@ -33,29 +33,66 @@ return array(
     /*
      * 2.1.0
      */
-    "ticket_brand"              => "Ticket brand",
-    "user_brand"                => "User brand",
+    "ticket_brand"              => "Ticket Marke",
+    "user_brand"                => "Benutzer Marke",
 
     /*
      * 2.2.0
      */
-    "hours_since_last_reply"            => "Hours since last reply",
-    "hours_since_last_reply_exc_notes"  => "Hours since last reply (excluding notes)",
-    "hours_until_due"                   => "Hours until due",
-    "last_ticket_replier_exc_notes"     => "Last ticket replier (excluding notes)",
-    "ticket_department_email"           => "Ticket department email",
-    "ticket_has_attachments"            => "Ticket has attachments",
-    "ticket_has_drafts"                 => "Ticket has drafts",
-    "ticket_locked"                     => "Ticket locked",
-    "ticket_merged"                     => "Ticket merged",
-    "ticket_message_count_exc_notes"    => "Ticket message count (excluding notes)",
-    "ticket_note_count"                 => "Ticket note count",
-    "ticket_number"                     => "Ticket number",
-    "ticket_reopened_time"              => "Ticket reopened time",
-    "ticket_resolved_time"              => "Ticket resolved time",
-    "user_account_active"               => "User account active",
-    "user_country"                      => "User country",
-    "user_language"                     => "User language",
-    "user_timezone"                     => "User timezone",
+    "hours_since_last_reply"            => "Stunden seit der letzten Antwort",
+    "hours_since_last_reply_exc_notes"  => "Stunden seit der letzten Antwort (ohne Notizen)",
+    "hours_until_due"                   => "Stunden bis es abgelaufen ist",
+    "last_ticket_replier_exc_notes"     => "Letzter Beantworter des Tickets (ohne Notizen)",
+    "ticket_department_email"           => "Ticket Abteilungs Email",
+    "ticket_has_attachments"            => "Ticket hat Anhänge",
+    "ticket_has_drafts"                 => "Ticket hat Entwürfe",
+    "ticket_locked"                     => "Ticket ist gesperrt.",
+    "ticket_merged"                     => "Ticket wurde zusammengeführt",
+    "ticket_message_count_exc_notes"    => "Ticket Anzahl Nachrichten (ohne Notizen)",
+    "ticket_note_count"                 => "Ticket Anzahl Notizen",
+    "ticket_number"                     => "Ticket Nummer",
+    "ticket_reopened_time"              => "Ticket Wiedereröffnungszeit",
+    "ticket_resolved_time"              => "Ticket Lösungszeit",
+    "user_account_active"               => "Benutzerkonto aktiv",
+    "user_country"                      => "Benutzer Land",
+    "user_language"                     => "Benutzer Sprache",
+    "user_timezone"                     => "Benutzer Zeitzone",
+
+    /*
+     * 2.3.0
+     */
+    "ticket_cc"                         => "Ticket CC",
+    "ticket_custom_field"               => "Ticket Kundendefiniertes Feld",
+    "user_custom_field"                 => "Benutzer Kundendefiniertes",
+    "user_organisation_custom_field"    => "Benutzerorganisation Kundendefiniertes",
+    "user_organisation"                 => "Benutzerorganisation Name",
+    "user_organisation_brand"           => "Benutzerorganisation Marke",
+    "user_organisation_country"         => "Benutzerorganisation Land",
+    "user_organisation_language"        => "Benutzerorganisation Sprache",
+    "user_organisation_notes"           => "Benutzerorganisation Notiz",
+    "user_organisation_timezone"        => "Benutzerorganisation Zeitzone",
+
+    /*
+     * 2.4.0
+     */
+    "watching_operator"                 => "Watching operator",
+    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+
+    /*
+     * 2.4.1
+     */
+    "last_message_content"              => "Inhalt der letzten Nachricht",
+
+    /*
+     * 2.5.0
+     */
+    "user_email_confirmed"              => "Benutzeradresse bestätigt",
+
+    /*
+     * 3.0.0
+     */
+    "user_2fa_enabled"                  => "Benuzter 2FA aktiviert",
+    "article_type"                      => "Artikel Typ",
+    "article_brand"                     => "Artikel Marke",
 
 );
