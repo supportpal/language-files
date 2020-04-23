@@ -152,5 +152,6 @@ return array(
      * 3.0.0
      */
     "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

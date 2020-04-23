@@ -360,5 +360,6 @@ return array(
     "click_to_toggle"           => "Click to toggle",
     "am"                        => "AM",
     "pm"                        => "PM",
+    "viewing"                   => "Viewing",
 
 );

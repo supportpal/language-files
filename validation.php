@@ -168,6 +168,7 @@ return array(
      * 3.0.0
      */
     "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
+    "starts_with"               => "The :attribute must start with one of the following: :values.",
 
     /*
     |--------------------------------------------------------------------------

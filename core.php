@@ -466,5 +466,16 @@ return array(
     "template"                  => "Template",
     "how_can_we_help"           => "How can we help you today?",
     "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
+    "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
+    "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
+    "plugin_basic_info"         => "Please provide some basic information about your plugin.",
+    "plugin_author_name"        => "Author name",
+    "plugin_author_uri"         => "Author URI (link to your website)",
+    "plugin_vendor_name"        => "Vendor name (name of your company, can be same as author name)",
+    "plugin_name"               => "Plugin name",
+    "plugin_description"        => "Plugin description",
+    "plugin_already_exists"     => "Plugin already exists!",
+    "plugin_creating"           => "Creating plugin...",
+    "plugin_ready"              => "Plugin ready in :directory! Build something amazing.",
 
 );
