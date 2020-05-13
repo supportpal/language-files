@@ -15,7 +15,6 @@ return array(
     "type"                      => "Tipo|Tipos",
 
     "frontend_icon"             => "Icono del frontend",
-    "frontend_icon_desc"        => "Selecciona un icono por defecto para mostrar en el frontend. También puedes subir tu propio icono:",
 
     "no_categories"             => ":type actualmente no tiene categorías. Por favor, crea una antes de añadir un artículo.",
     "no_categories_frontend"    => "No hay categorías que mostrar.",
