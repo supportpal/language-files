@@ -2,97 +2,115 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Actualizar ajustes generales",
 
     // Core
-    "apitoken"          => "Manage API Tokens",
-    "company"           => "Manage Companies",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+    "apitoken"          => "Administrar API Tokens",
+    "company"           => "Administrar compañías",
+    "emailtemplate"     => "Administrar plantillas de correo",
+    "ipban"             => "Administrar baneos de IP",
+    "ipwhitelist"       => "Administrar lista blanca de IP",
+    "language"          => "Administrar lenguas",
+    "license"           => "Ver información sobre la licencia",
+    "module"            => "Administrar secciones",
+    "scheduledtask"     => "Administrar tareas programadas",
+    "spamrule"          => "Administrar reglas de spam",
+    "emaillog"          => "Ver registro de correos",
+    "emailqueue"        => "Ver cola de correos",
+    "systemcleanup"     => "Realizar limpieza del sistema",
 
     // User
-    "operatorgroup"     => "Manage Operator Groups",
-    "organisation"      => "Manage Organisations",
-    "role"              => "Manage Operator Roles",
-    "user_view"         => "View Users",
-    "user_add"          => "Add Users",
-    "user_edit"         => "Edit Users",
-    "user_delete"       => "Delete Users",
-    "usergroup"         => "Manage User Groups",
-    "massemail"         => "Send Mass Email",
-    "ldapaccount"       => "Manage LDAP Accounts",
-    "activitylog"       => "View System Activity Log",
-    "operatorlog"       => "View Operator Login Log",
+    "operatorgroup"     => "Administrar grupos del operador",
+    "organisation"      => "Administrar organizaciones",
+    "role"              => "Administrar funciones del operador",
+    "user_view"         => "Ver usuarios",
+    "user_add"          => "Añadir usuarios",
+    "user_edit"         => "Editar usuarios",
+    "user_delete"       => "Eliminar usuarios",
+    "usergroup"         => "Administrar grupos del usuario",
+    "massemail"         => "Enviar correo masivo",
+    "ldapaccount"       => "Administrar cuentas LDAP",
+    "activitylog"       => "Ver registro de la actividad del sistema",
+    "operatorlog"       => "Ver registro de inicio de sesiones del operador",
 
     // Ticket
-    "cannedresponse"    => "Manage Canned Responses",
-    "channel"           => "Manage Channels",
-    "department"        => "Manage Departments",
-    "feedback"          => "Manage Feedback",
-    "feedbackform"      => "Manage Feedback Forms",
-    "filter"            => "Manage Filters",
-    "holiday"           => "Manage Holidays",
-    "macro"             => "Manage Macros",
-    "priority"          => "Manage Priorities",
-    "schedule"          => "Manage Schedules",
-    "slaplan"           => "Manage SLA Plans",
-    "status"            => "Manage Statuses",
-    "ticket_view"       => "View Tickets",
-    "ticket_add"        => "Open Tickets",
-    "ticket_edit"       => "Update Tickets",
-    "ticket_delete"     => "Delete Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+    "cannedresponse"    => "Administrar respuestas predefinidas",
+    "channel"           => "Administrar canales",
+    "department"        => "Administrar departamentos",
+    "feedback"          => "Administrar valoración",
+    "feedbackform"      => "Administrar formularios de valoración",
+    "filter"            => "Administrar filtros",
+    "holiday"           => "Administrar vacaciones",
+    "macro"             => "Administrar macros",
+    "priority"          => "Administrar prioridades",
+    "schedule"          => "Administrar horarios",
+    "slaplan"           => "Administrar planes SLA",
+    "status"            => "Administrar estados",
+    "ticket_view"       => "Ver Tickets",
+    "ticket_add"        => "Abrir Tickets",
+    "ticket_edit"       => "Actualizar Tickets",
+    "ticketcustomfield" => "Administrar campos personalizados",
 
     // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+    "article"           => "Administrar artículos",
+    "category"          => "Administrar categorías",
+    "comment"           => "Administrar comentarios",
+    "selfservicetype"   => "Administrar tipos",
 
     // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+    "report"            => "Ver informes",
+    "reportdashboard"   => "Ver panel",
 
     // General
-    "tag"               => "Manage Tags",
+    "tag"               => "Administrar etiquetas",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "View Plugins",
+    "plugin"            => "Ver Plugins",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Manage Operators",
-    
+    "operator"          => "Administrar operadores",
+
     /*
      * 2.1.0
      */
     // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+    "brand"             => "Administrar marcas",
+    "phpinfo"           => "Ver información PHP",
 
     // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+    "usercustomfield"   => "Administrar campos personalizados del usuario",
+    "organisationcustomfield" => "Administrar campos personalizados de la organización",
+    "operatorsignature" => "Administrar firmas del operador",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Manage Log Files",
+    "logfiles"          => "Administrar archivos de registro",
+
+    /*
+     * 2.4.0
+     */
+    // User
+    "sociallogin"       => "Administrar inicio de sesión de redes sociales",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Eliminar tickets permanentemente",
+    "ticket_trash"      => "Mover tickets a la papelera",
+
+    /*
+     * 3.0.0
+     */
+    "selfservicefeedbackform" => "Administrar formularios de valoración",
+    "ticketfeedbackform"      => "Administrar formularios de valoración",
 
 );

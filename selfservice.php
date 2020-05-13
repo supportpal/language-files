@@ -2,132 +2,161 @@
 
 return array(
 
-    "popular_items"             => "Popular Items",
-    "type_popular_items"        => ":type: Popular",
-    "latest_items"              => "Latest Items",
-    "type_latest_items"         => ":type: Latest",
+    "popular_items"             => "Elementos populares",
+    "type_popular_items"        => ":type: Populares",
+    "latest_items"              => "Elementos más recientes",
+    "type_latest_items"         => ":type: Más recientes",
 
-    "selfservice"               => "Self-Service",
-    "article"                   => "Article|Articles",
-    "category"                  => "Category|Categories",
-    "comment"                   => "Comment|Comments",
-    "tag"                       => "Tag|Tags",
-    "type"                      => "Type|Types",
+    "selfservice"               => "Auto-servicio",
+    "article"                   => "Artículo|Artículos",
+    "category"                  => "Categoría|Categorías",
+    "comment"                   => "Comentario|Comentarios",
+    "tag"                       => "Etiqueta|Etiquetas",
+    "type"                      => "Tipo|Tipos",
 
-    "type_enabled_desc"         => "Disabling the type will stop it displaying in the frontend.",
-    "type_order"                => "You can change the order that the self-service types are displayed to users on the frontend by dragging and dropping the rows.",
+    "frontend_icon"             => "Icono del frontend",
+    "frontend_icon_desc"        => "Selecciona un icono por defecto para mostrar en el frontend. También puedes subir tu propio icono:",
 
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view.",
-    "frontend_icon"             => "Frontend Icon",
-    "frontend_icon_desc"        => "Select a default icon to display on the frontend. Alternatively, upload your own icon:",
+    "no_categories"             => ":type actualmente no tiene categorías. Por favor, crea una antes de añadir un artículo.",
+    "no_categories_frontend"    => "No hay categorías que mostrar.",
 
-    "no_categories"             => ":type currently has no categories. Please create one before adding an article.",
-    "no_categories_frontend"    => "There are no categories to display.",
-
-    "awaiting_moderation"       => "Awaiting Moderation",
-    "published"                 => "Published",
+    "awaiting_moderation"       => "Esperando moderación",
+    "published"                 => "Publicado",
     "spam"                      => "Spam",
 
-    "show_text"                 => "Show Text",
-    "hide_text"                 => "Hide Text",
+    "hierarchical"              => "Jerárquico",
+    "list"                      => "Lista",
 
-    "hierarchical"              => "Hierarchical",
-    "list"                      => "List",
+    "show_on_dashboard"         => "Mostrar artículos en el inicio del frontend.",
+    "show_on_dashboard_desc"    => "Muestra algunos artículos en el panel del frontend. Si estableces la vista como <strong>jerárquica</strong>, mostrará los 5 artículos más vistos, si la estableces como <strong>lista</strong>, mostrará los últimos 5 artículos.",
 
-    "show_on_dashboard"         => "Show Articles on Frontend Home",
-    "show_on_dashboard_desc"    => "Shows some articles on the frontend dashboard. If view is set to <strong>hierarchical</strong>, it will show the 5 most viewed articles, else if <strong>list</strong>, it will show the 5 latest articles.",
+    "title"                     => "Título",
+    "author"                    => "Autor",
+    "keyword"                   => "Palabra clave|Palabras claves",
+    "excerpt"                   => "Extracto",
+    "associate_tag"             => "Asociar artículo con una etiqueta...",
+    "associate_category"        => "Asociar artículo con una categoría...",
+    "published_desc"            => "Si el artículo puede verse públicamente. Si no está publicado, todavía podría verse a través de una URL directa siempre que una de las categorías sea pública.",
+    "registered_users_desc"     => "Alterna para mostrar el artículo solo a usuarios registrados.",
 
-    "title"                     => "Title",
-    "author"                    => "Author",
-    "keyword"                   => "Keyword|Keywords",
-    "excerpt"                   => "Excerpt",
-    "associate_tag"             => "Associate article with a tag...",
-    "associate_category"        => "Associate article with a category...",
-    "published_desc"            => "If the article can be viewed publicly. If it is not published, it can still be viewed by direct URL provided one of the categories is public.",
-    "registered_users_desc"     => "Toggle to show article only to logged in users.",
+    "comment_by"                => "Comentario de",
+    "replying_to"               => "Respondiendo a",
+    "receive_notifications"     => "Recibir notificaciones para futuras respuestas.",
 
-    "comment_by"                => "Comment By",
-    "replying_to"               => "Replying to",
-    "receive_notifications"     => "Receive notifications for future replies",
+    "login_comment"             => "Tienes que iniciar sesión para enviar un comentario.",
+    "incorrect_captcha"         => "El captcha es incorrecto.",
+    "comment_blocked"           => "El comentario ha sido bloqueado por spam.",
+    "comment_success"           => "¡Tu comentario se ha enviado!",
+    "comment_success_moderated" => "Tu comentario está pendiente de enviarse bajo la moderación de un miembro de nuestro equipo.",
 
-    "login_comment"             => "You must be logged in to submit a comment.",
-    "incorrect_captcha"         => "The captcha was incorrect.",
-    "comment_blocked"           => "The comment was blocked due to spam.",
-    "comment_error"             => "Could not post comment.",
-    "comment_success"           => "Your comment was submitted!",
-    "comment_success_moderated" => "Your comment has been submitted for moderation by a member of our team.",
+    "comment_rated_success"     => "El comentario ha sido valorado con éxito.",
+    "comment_rated_error"       => "El comentario no se ha podido valorar.",
 
-    "comment_rated_success"     => "The comment was successfully rated.",
-    "comment_rated_error"       => "The comment could not be rated.",
+    "article_find_useful"       => "¿Has encontrado útil este artículo?",
+    "article_found_useful"      => "La gente encuentra útil este artículo.",
+    "article_rated_success"     => "El artículo ha sido valorado con éxito.",
+    "article_rated_error"       => "El artículo no se ha podido valorar.",
 
-    "article_find_useful"       => "Did you find this article useful?",
-    "article_found_useful"      => "people found this article useful.",
-    "article_rated_success"     => "The article was successfully rated.",
-    "article_rated_error"       => "The article could not be rated.",
+    "comment_below_threshold"   => "(Este comentario se encuentra por debajo del umbral de puntuación, haz click para mostrar)",
+    "view_all_replies"          => "Ver todas las respuestas",
+    "show_more_comments"        => "Mostrar más comentarios",
+    "highest_rated"             => "Mejor valorados",
+    "newest"                    => "Más nuevos",
+    "oldest"                    => "Más antiguos",
 
-    "comment_below_threshold"   => "(Comment below score threshold, click to show)",
-    "view_all_replies"          => "View all replies",
-    "show_more_comments"        => "Show more comments",
-    "highest_rated"             => "Highest Rated",
-    "newest"                    => "Newest",
-    "oldest"                    => "Oldest",
+    "no_articles"               => "No hay artículos.",
 
-    "no_articles"               => "No articles.",
+    "related_articles"          => "Artículos relacionados",
 
-    "related_articles"          => "Related Articles",
+    "rating"                    => "Valoración|Valoraciones",
 
-    "rating"                    => "Rating|Ratings",
-
-    "rssfeed"                   => "RSS Feed",
+    "rssfeed"                   => "Fuente RSS",
 
     // General settings
-    "settings"                  => "Self-Service Settings",
-    "enable_comments"           => "Enable Comments",
-    "enable_comments_desc"      => "Allow users to comment on articles.",
-    "write_comments"            => "Write Comments",
-    "write_comments_desc"       => "If comments can be written by anyone or registered users only.",
-    "registered_users"          => "Registered Users Only",
-    "unregistered_users"        => "Unregistered Users Only",
-    "show_captcha"              => "Show Captcha",
-    "show_captcha_desc"         => "When the captcha should be shown to users writing comments.",
-    "comment_moderation"        => "Comment Moderation",
-    "comment_moderation_desc"   => "If comments must be moderated when they are submitted before they are publicly displayed, or if they are automatically publicly displayed.",
-    "moderated"                 => "Moderated",
-    "unmoderated"               => "Unmoderated",
-    "comment_threshold"         => "Comment Threshold",
-    "comment_threshold_desc"    => "Comment ratings which are less than (and not equal to) this value will have their visibility reduced and have to be clicked to be seen.",
+    "settings"                  => "Ajustes de auto-servicio",
+    "enable_comments"           => "Habilitar comentarios",
+    "enable_comments_desc"      => "Permitir a los usuarios comentar en artículos.",
+    "write_comments"            => "Escribir comentarios",
+    "write_comments_desc"       => "Si cualquiera puede escribir comentarios o solo usuarios registrados.",
+    "registered_users"          => "Solo usuarios registrados",
+    "unregistered_users"        => "Solo usuarios no registrados",
+    "show_captcha"              => "Mostrar Captcha",
+    "show_captcha_desc"         => "Cuando se debería mostrar captcha a los usuarios escribiendo comentarios.",
+    "comment_moderation"        => "Moderación de comentarios",
+    "comment_moderation_desc"   => "Si los comentarios deben ser moderados cuando se envían, antes de ser publicados, o si se publican automáticamente.",
+    "moderated"                 => "Moderado",
+    "unmoderated"               => "Sin moderar",
+    "comment_threshold"         => "Umbral de comentarios",
+    "comment_threshold_desc"    => "Se reducirá la visibilidad en los comentarios valorados en menos (y no igual) de este valor y se tendrá que hacer click para poder verlos.",
 
-    "enable_ratings"            => "Enable Article Ratings",
-    "enable_ratings_desc"       => "Allow users to rate articles.",
-    "post_rating"               => "Rate Articles",
-    "post_rating_desc"          => "If articles can be rated by anyone or registered users only.",
-    "show_rating"               => "Show Ratings",
-    "show_rating_desc"          => "Show article rating to everyone (public) or registered users only.",
+    "enable_ratings"            => "Habilitar valoración de artículos.",
+    "enable_ratings_desc"       => "Permitir a los usuarios valorar artículos.",
+    "post_rating"               => "Valorar artículos",
+    "post_rating_desc"          => "Si cualquiera puede valorar artículos o solo usuarios registrados.",
+    "show_rating"               => "Mostrar valoraciones",
+    "show_rating_desc"          => "Mostrar valoración del artículo a todo el mundo (público) o solo a usuarios registrados.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Please login or register an account to view the article.",
-    "download_auth_required"    => "Please login or register an account to download the article attachment",
-    "auth_required"             => "Please login or register an account to view the article.",
+    "auth_required"             => "Por favor, inicia sesión o regístrate para ver el artículo.",
 
     /*
      * 2.1.0
      */
-    "view_articles"             => "View Articles",
-    "view_categories"           => "View Categories",
-    "add_to_another_type"       => "Add to Another Type",
-    "select_type"               => "Select Type...",
-    "visibility"                => "Visibility",
-    "reply_to_comment"          => "Reply To Comment",
-    "article_brand_warning"     => "This article exists in a brand that you are not assigned to, any changes you make will also be visible under that brand.",
-    "viewing_article"           => "Viewing Article",
-    "article_count"             => "Article Count",
+    "view_articles"             => "Ver artículos",
+    "view_categories"           => "Ver categorías",
+    "add_to_another_type"       => "Añadir a otro tipo",
+    "select_type"               => "Selecciona tipo...",
+    "visibility"                => "Visibilidad",
+    "reply_to_comment"          => "Responder al comentario",
+    "article_brand_warning"     => "Este artículo existe en una marca en la que no estás asignado. Cualquier cambio que hagas también se verá en esa marca.",
+    "viewing_article"           => "Artículo en vista",
+    "article_count"             => "Recuento de artículos",
 
     /*
      * 2.2.0
      */
-    "article_desc"              => "The article can be written in several languages. The appropriate article will be shown automatically based on the user's language preference.",
-    "no_author"                 => "No Author",
+    "article_desc"              => "El artículo se puede escribir en varias lenguas. El artículo apropiado se mostrará automáticamente en base a las preferencias de lengua del usuario.",
+    "no_author"                 => "Sin autor",
+
+    /*
+     * 2.3.1
+     */
+    "slug"                      => "Slug",
+    "slug_desc"                 => "La versión URL amigable del nombre. Normalmente es toda en minúsculas y solo contiene letras, números y guiones.",
+    "change_slug"               => "Cambiar Slug",
+    "published_date"            => "Fecha de publicación",
+    "published_date_desc"       => "La fecha y hora en la que se publicó el artículo como visto para los usuarios del frontend.",
+    "content_options"           => "Opciones de contenido",
+    "content_desc"              => "El contenido que se mostrará con este tipo.<br /><strong>Artículos</strong> - Una colección de posts que se pueden agrupar (como knowledgebase) o mantenerse individualmente (como anuncios).<br /><strong>Link externo</strong> - Proporciona un link a un sitio externo, como un portal de documentación.",
+    "external_link"             => "Link Externo",
+    "type_view_desc"            => "Si tu contenido tendrá varias categorías y será informativo como una knowledgebase, recomendamos utilizar la vista jerárquica, mientras que si tu contenido está relacionado con el tiempo, como los anuncios o un blog, recomendamos la vista en lista. La opción del link externo se puede utilizar si necesitas añadir un link a una sección fuera del Help Desk.",
+    "pinned"                    => "Anclado",
+    "pinned_desc"               => "Anclar registro para que aparezca al princpio del frontend. Solo se aplica para tipos de vista en lista.",
+    "article_ordering"          => "Orden de los artículos",
+    "article_ordering_desc"     => "El orden de los artículos cuando se ve el tipo en el frontend.",
+    "most_popular"              => "Más popular",
+    "most_recent"               => "Más reciente",
+    "type_order"                => "Puedes cambiar el orden en el que se muestran a los usuarios los tipos de auto-servicio arrastrando y soltando las filas.",
+    "type_enabled_desc"         => "Al habilitar el tipo no se mostrará.",
+    "internal"                  => "Interna",
+    "internal_desc"             => "Alterna para establecer el tipo para ser solo visible internamente a operadores en el panel del operador.",
+    "login_to_comment"          => "Por favor, inicia sesión para enviar un comentario.",
+    "article_rating"            => "Valoración de artículos|Valoraciones de artículos",
+    "comment_rating"            => "Valoración de comentarios|Valoraciones de comentarios",
+
+    /*
+     * 2.5.0
+     */
+    "revision_history"          => "Historial de revisiones",
+
+    /*
+     * 3.0.0
+     */
+    "type_protected_desc"       => "Alterna para mostrar solo contenido de este tipo a usuarios registrados.",
+    "article_feedback"          => "Valoración del artículo",
+    "thank_you_for_feedback"    => "Gracias por valorar este artículo.",
+    "frontend_icon_desc"        => "Selecciona un icono regular <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> para mostrar en el front-end para tu tipo. También puedes buscar un icono personalizado que no esté incluido en la lista (empezando con 'fa-').",
 
 );

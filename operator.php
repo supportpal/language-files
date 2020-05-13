@@ -2,18 +2,23 @@
 
 return array(
 
-    "templates"                 => "Plantillas",
-
     // Merge fields
-    "merge_fields"              => "Combinar campos",
-    "strings"                   => "Strings",
+    "merge_fields"              => "Campos de combinación",
+    "strings"                   => "Cadenas",
     "collections"               => "Colecciones",
-    "frontend_url"              => "Frontend URL",
-    "operator_url"              => "Agente URL",
+    "frontend_url"              => "URL del frontend",
+    "operator_url"              => "URL del operador",
 
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Los campos de correo electrónico y de respuesta más comúnmente utilizados se encuentran a continuación. Para obtener más detalles sobre cómo utilizar los campos de fusión, consulte el <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>manual</a>.",
+    "merge_fields_desc"         => "Los campos de combinación de correos y respuestas más usados se encuentran más abajo. Para más detalles de cómo utilizar los campos de combinación, por favor, dirígete a <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentación</a>.",
+
+    /*
+     * 2.4.0
+     */
+    "merge_field"               => "Campo de combinación",
+    "merge_field_canned_desc"   => "Puedes encontrar el único campo de combinación que usar cuando edites una respuesta predefinida (Ajustes -> Tickets -> Respuestas predefinidas).",
+    "response_merge_field"      => "Copia lo de arriba para utilizar esta respuesta predefinida como campo de combinación.",
 
 );

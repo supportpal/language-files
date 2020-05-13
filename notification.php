@@ -2,16 +2,16 @@
 
 return array(
 
-    "new_ticket"            => "Nuevo ticket abierto",
-    "new_ticket_text"       => "Nuevo ticket #:item ha sido abierto por :name.",
+    "new_ticket"            => "Nuevo Ticket abierto",
+    "new_ticket_text"       => "Un nuevo Ticket #:item ha sido abierto por :name.",
 
-    "new_reply"             => "Nueva respuesta en un ticket",
-    "new_reply_text"        => "Una nueva respuesta ha sido escrita por :name en el ticket #:item.",
+    "new_reply"             => "Nueva respuesta del ticket",
+    "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
 
-    "operator_login"        => "Agente logueado",
-    "operator_login_text"   => ":name ha sido logueado.",
+    "operator_login"        => "Inicio de sesión del operador",
+    "operator_login_text"   => ":name ha iniciado sesión en el panel del operador.",
 
-    "failed_logins"         => "Fallo en el login de un Agente",
+    "failed_logins"         => "Error en el inicio de sesión del operador",
     "new_comments"          => "Nuevos comentarios",
 
     /*
@@ -22,6 +22,6 @@ return array(
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name te ha enviado un nuevo <a href=':route'>mensaje privado</a>.",
 
 );

@@ -67,6 +67,7 @@ return array(
         "DM" => "Dominica",
         "DO" => "Dominican Republic",
         "NQ" => "Dronning Maud Land",
+        "DD" => "East Germany",
         "EC" => "Ecuador",
         "EG" => "Egypt",
         "SV" => "El Salvador",
