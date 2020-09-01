@@ -1,63 +1,36 @@
 <?php
 
-return array(
-
-    "customfield"               => "Custom Field|Custom Fields",
-
-    // Options
-    "boolean"                   => "Boolean",
-    "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "password"                  => "Password",
-    "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
-    "text"                      => "Text",
-    "textarea"                  => "Textarea",
-
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
-
-    /*
-     * 2.0.2
-     */
-    "please_select"             => "Please select...",
-
-    /*
-     * 2.0.3
-     */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
-
-    /*
-     * 2.1.0
-     */
-    "brand_desc"                => "Choose which brands the field is available in.",
-    
-    /*
-     * 2.3.0
-     */
-    "option_warning"            => "Deleting existing options will clear any saved fields that currently have those values selected.",
-    "regex_basic_desc"          => "Optionally specify a regular expression to validate the custom field value.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
-    "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
-
-    /*
-     * 2.3.1
-     */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
-
+return array (
+  'customfield' => 'Campo customizado|Campos customizados',
+  'boolean' => 'Boleano',
+  'checkbox' => 'Checkbox',
+  'checklist' => 'Checklist',
+  'date' => 'Data',
+  'multiple' => 'Opções múltiplas',
+  'options' => 'Opções',
+  'password' => 'Senha',
+  'radio' => 'Botões de rádio',
+  'rating' => 'Avaliação (1 a 5)',
+  'text' => 'Texto',
+  'textarea' => 'Área de texto',
+  'public' => 'Público',
+  'public_desc' => 'Se o campo personalizado é mostrado publicamente no frontend ou for apenas para funcionários.',
+  'encrypted' => 'Encriptado',
+  'purge_desc' => 'Se o valor do campo personalizado for removido automaticamente quando o ticket for resolvido.',
+  'locked' => 'Bloqueado',
+  'locked_desc' => 'Se o valor do campo personalizado não puder ser alterado pelo usuário, uma vez definido.',
+  'please_select' => 'Por favor, selecione...',
+  'description_desc' => 'O texto de ajuda que aparecerá abaixo do campo personalizado e, opcionalmente, pode ser deixado em branco.',
+  'option_warning' => 'A exclusão de opções existentes limpará todos os campos salvos que atualmente têm esses valores selecionados.',
+  'regex_basic_desc' => 'Opcionalmente, especifique uma expressão regular para validar o valor do campo personalizado.',
+  'regex_desc' => 'A regex diferencia maiúsculas de minúsculas, não há necessidade de especificar delimitadores de regex e o uso de barras será automaticamente escapado. Exemplo: ^ [a-z0-9 _-] {6,18} $ aplicaria que o valor tenha de 6 a 18 caracteres e contenha apenas uma mistura de caracteres alfanuméricos, sublinhados e traços.',
+  'regex_error_message' => 'Mensagem de erro da validação',
+  'regex_error_message_desc' => 'Opcionalmente, especifique uma mensagem de erro personalizada que será mostrada se o valor não corresponder à validação de regex, caso contrário, uma mensagem genérica será mostrada. A mensagem será mostrada exatamente como inserida; portanto, recomendamos incluir o nome do campo personalizado para tornar a mensagem de erro mais óbvia.',
+  'custom_field_values' => 'Valores de campos customizados',
+  'depends_on' => 'Depende de',
+  'depends_on_desc' => 'Se selecionado, este campo será mostrado apenas ao usuário quando o valor do campo especificado for selecionado. A visibilidade da marca e do departamento será herdada automaticamente do campo em que depende.',
+  'select_option' => 'Selecione uma opção...',
+  'purge' => 'Limpar',
+  'encrypted_desc' => 'Se o valor do campo personalizado for sensível e precisar ser salvo no banco de dados criptografado. Isso não pode ser alterado depois que o campo personalizado tiver sido criado.',
+  'required_desc' => 'Se o campo personalizado precisar ser preenchido. Para a caixa de seleção, lista de verificação ou vários tipos de opções, será necessário que o usuário selecione pelo menos uma opção.',
 );

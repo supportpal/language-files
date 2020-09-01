@@ -1,81 +1,49 @@
 <?php
 
-return array(
-    /*
-     * 2.0.2
-     */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
-    "email_operators"           => "Send email to operators",
-    "email_operator_group"      => "Send email to an operator group",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
-    "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
-
-    /*
-     * 2.0.3
-     */
-    "update_custom_field"       => "Update ticket custom field value",
-
-    /*
-     * 2.2.0
-     */
-    "increase_due_time"         => "Increase due time",
-    "close_and_lock_ticket"     => "Close and lock ticket",
-    "pause_due_time"            => "Pause due time",
-    "reduce_due_time"           => "Reduce due time",
-    "set_due_time"              => "Set due time",
-    "unlock_ticket"             => "Unlock ticket",
-    "update_sla_plan"           => "Update SLA plan",
-    "update_subject"            => "Update subject",
-    "add_user_to_group"         => "Add user to user group",
-    "remove_user_from_group"    => "Remove user from user group",
-    "authenticated_operator"    => "Authenticated operator",
-    "all_assigned_operators"    => "All assigned operators",
-    "all_tags"                  => "All tags",
-    "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
-    "hours_to_be_added"         => "hours to be added to the current due time.",
-    "hours_to_be_removed"       => "hours to be removed from the current due time.",
-    "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
-    "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
-    "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
-
-    /*
-     * 2.3.0
-     */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
-
-    /*
-     * 2.3.1
-     */
-    "exclude_cc"                => "Exclude CC email addresses",
-
-    /*
-     * 2.4.0
-     */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
-
-    /*
-     * 2.5.0
-     */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
-
-    /*
-     * 2.6.0
-     */
-    "clear_due_time"            => "Clear due time",
-
+return array (
+  'add_ticket_note' => 'Adicione uma nota ao ticket',
+  'add_ticket_reply' => 'Adicionar resposta ao ticket',
+  'add_tag' => 'Adicionar tag',
+  'assign_operator' => 'Atribuir operador ao ticket',
+  'remove_tag' => 'Remover tag',
+  'email_operators' => 'Enviar e-mail aos operadores',
+  'email_operator_group' => 'Enviar e-mail ao um grupo de operadores',
+  'email_user' => 'Enviar e-mail ao usuário',
+  'email_user_group' => 'Enviar e-mail a um grupo de usuários',
+  'unassign_operator' => 'Remover operador do ticket',
+  'update_department' => 'Atualizar departamento',
+  'update_priority' => 'Atualizar prioridade',
+  'update_status' => 'Atualizar status',
+  'update_custom_field' => 'Atualizar valor de campo customizado do ticket',
+  'increase_due_time' => 'Aumentar prazo de entrega',
+  'close_and_lock_ticket' => 'Fechar e bloquear ticket',
+  'pause_due_time' => 'Pausar prazo de entrega',
+  'reduce_due_time' => 'Reduzir prazo de entrega',
+  'set_due_time' => 'Definir prazo de entrega',
+  'unlock_ticket' => 'Debloquear ticket',
+  'update_sla_plan' => 'Atualizar plano SLA',
+  'update_subject' => 'Atualizar assunto',
+  'add_user_to_group' => 'Adicionar usuário ao grupo',
+  'remove_user_from_group' => 'Remover usuário do grupo',
+  'authenticated_operator' => 'Operador autenticados',
+  'all_assigned_operators' => 'Todos os operadores atribuídos',
+  'all_tags' => 'Todas as tags',
+  'subject_placeholder' => '{{ ticket.subject }} é o formato padrão para todos os assuntos de tickets existentes, se você desejar pode acrescentar algo antes ou depois dele.',
+  'hours_to_be_added' => 'horas a serem adicionadas ao prazo de entrega atual.',
+  'hours_to_be_removed' => 'horas a serem removidas do prazo de entrega atual.',
+  'hours_to_be_set' => 'horas a serem adicionadas ao prazo de entrega atual e definir como o novo prazo de entrega do ticket.',
+  'only_with_due_time' => 'Só se aplica a tickets com prazo de entrega já definido.',
+  'set_due_time_desc' => 'Limpe o prazo de entrega atual ao deixá-lo em branco. Também é possível usar um prazo de entrega no passado usando um número negativo.',
+  'add_cc' => 'Adicionar cópia de e-mail',
+  'remove_cc' => 'Remover cópias de e-mail',
+  'remove_cc_desc' => 'Deixe em branco para remover todas as cópias de e-mail do ticket.',
+  'exclude_cc' => 'Excluir cópia de endereços de e-mail',
+  'trigger_webhook' => 'Chamar webhook',
+  'forward_ticket' => 'Encaminhar ticket',
+  'watch_ticket' => 'Definir operador para monitorar ticket',
+  'unwatch_ticket' => 'Remover operador de monitorar ticket',
+  'all_watching_operators' => 'Todos os operadores monitorando',
+  'move_to_trash' => 'Mover ticket para lixeira',
+  'block_user' => 'Bloquear usuário',
+  'clear_due_time' => 'Limpar prazo de entrega',
 );

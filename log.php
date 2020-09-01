@@ -1,206 +1,136 @@
 <?php
 
-return array(
-
-    // Standard messages
-    "item_created"                      => "Created new :item :rel.",
-    "item_updated"                      => "Updated :item :rel.",
-    "item_deleted"                      => "Deleted :item :rel.",
-
-    // Custom messages
-    "ip_ban_created"                    => "Created new ban on IP :rel.",
-    "ip_ban_updated"                    => "Updated ban on IP :rel.",
-    "ip_ban_deleted"                    => "Deleted ban on IP :rel.",
-    "banned_ip_on_login"                => "Banned IP :rel for 15 minutes.",
-
-    "ip_whitelist_created"              => "Added IP :rel to whitelist.",
-    "ip_whitelist_updated"              => "Updated IP :rel on whitelist.",
-    "ip_whitelist_deleted"              => "Deleted IP :rel from whitelist.",
-
-    "system_cleanup"                    => "Ran system cleanup on :rel.",
-
-    "api_failed_login"                  => "IP :rel failed to authenticate to API.",
-
-    "user_successful_login"             => "Logged in to help desk.",
-    "user_failed_login"                 => "Failed to authenticate.",
-    "user_successful_logout"            => "Logged out of help desk.",
-
-    "user_registered"                   => "Registered an account.",
-    "user_confirmed"                    => "Confirmed their account.",
-    "user_password_set"                 => "Set a password for their account.",
-    "user_password_reset"               => "Reset the password for their account.",
-
-    "user_added_to_organisation"        => "User :rel added to organisation :new_value.",
-    "user_removed_from_organisation"    => "User :rel removed from organisation :old_value.",
-    "user_profile_updated"              => "Updated account profile.",
-    "user_left_organisation"            => "Left organisation :rel.",
-    "user_organisation_emptied"         => "Removed all users from organisation :rel.",
-    "user_organisation_updated"         => ":rel's organisation access level changed from :old_value to :new_value.",
-    "organisation_membership_updated"   => "Updated user membership of organisation :rel.",
-    "organisation_profile_updated"      => "Updated profile of organisation :rel.",
-    "organisation_owner_updated"        => "Transferred organisation :rel ownership to :new_value.",
-
-    "mass_email_queued"                 => "Queued :new_value emails in batches to be sent.",
-    "mass_email_sent"                   => "Sent :new_value emails in queue.",
-
-    "email_queue_deleted"               => "Deleted queued email to :rel.",
-
-    "scheduled_task_run"                => "Scheduled task :rel has been run manually.",
-
-    "selfservice_article_upvoted"       => "Positively rated article :rel.",
-    "selfservice_article_downvoted"     => "Negatively rated article :rel.",
-    "selfservice_comment_posted"        => "Posted a new :rel.",
-    "selfservice_comment_upvoted"       => "Up-voted :rel rating from :old_value to :new_value.",
-    "selfservice_comment_downvoted"     => "Down-voted :rel rating from :old_value to :new_value.",
-
-    "ticket_opened"                     => "Opened new ticket #:rel.",
-    "ticket_opened_on_behalf"           => "Opened new ticket #:rel on behalf of :new_value.",
-    "ticket_opened_email"               => "Imported email as new ticket #:rel.",
-
-    "ticket_message_reply"              => "Posted a new reply to ticket #:rel.",
-    "ticket_message_note"               => "Posted a new note to ticket #:rel.",
-    "ticket_message_deleted"            => "Deleted a message in ticket #:rel.",
-
-    "ticket_user_updated"               => "Updated the user on ticket #:rel from :old_value to :new_value.",
-    "ticket_subject_updated"            => "Updated the subject on ticket #:rel.",
-    "ticket_department_updated"         => "Updated the department on ticket #:rel from :old_value to :new_value.",
-    "ticket_status_updated"             => "Updated the status on ticket #:rel from :old_value to :new_value.",
-    "ticket_priority_updated"           => "Updated the priority on ticket #:rel from :old_value to :new_value.",
-    "ticket_tag_added"                  => "Added tag :new_value to ticket #:rel.",
-    "ticket_tag_updated"                => "Updated tags on ticket #:rel.",
-    "ticket_tag_removed"                => "Removed tag :new_value from ticket #:rel.",
-    "ticket_slaplan_updated"            => "Updated the SLA plan on ticket #:rel from :old_value to :new_value.",
-    "ticket_duetime_updated"            => "Updated the due time on ticket #:rel to :new_value.",
-    "ticket_duetime_paused"             => "Paused the due time on ticket #:rel until next user reply.",
-    "ticket_customfield_updated"        => "Updated custom fields on ticket #:rel.",
-    "ticket_converted_user"             => "Converted internal ticket #:rel to user ticket.",
-    "ticket_converted_internal"         => "Converted user ticket #:rel to internal ticket.",
-
-    "ticket_assigned_operator"          => "Assigned :new_value to ticket #:rel.",
-    "ticket_unassigned_operator"        => "Unassigned :new_value from ticket #:rel.",
-    "ticket_assigned_self"              => "Assigned self to ticket #:rel.",
-    "ticket_assigned_updated"           => "Updated assigned operators on ticket #:rel.",
-
-    "ticket_locked"                     => "Locked ticket #:rel.",
-    "ticket_unlocked"                   => "Unlocked ticket #:rel.",
-    "ticket_locked_reply"               => "Reply could not be added to locked ticket #:rel.",
-
-    "ticket_merged"                     => "Ticket(s) :new_value merged into ticket #:rel.",
-    "ticket_unmerged"                   => "Ticket :rel has been unmerged.",
-
-    "ticket_user_blocked"               => "Blocked email :new_value (from user on ticket #:rel).",
-
-    "ticket_closed"                     => "Ticket #:rel has been closed.",
-    "ticket_inactive_closed"            => "Closed inactive ticket #:rel from status :old_value.",
-    "ticket_awaiting_response"          => "Sent waiting for response email to user on ticket #:rel.",
-
-    "ticket_split_from"                 => "Messages split from old ticket #:rel to new ticket #:new_value.",
-    "ticket_split_to"                   => "Messages split from old ticket #:old_value to new ticket #:rel.",
-
-    "ticket_attachment_saved"           => "Added attachment to ticket #:rel.",
-    "ticket_attachment_deleted"         => "Deleted attachment from ticket #:rel.",
-
-    "ticket_throttled"                  => "Rejected new ticket from :rel due to throttling.",
-
-    /*
-     * 2.0.3
-     */
-    "selfservice_attachment_saved"      => "Added attachment ':new_value' to article ID :rel.",
-    "selfservice_attachment_deleted"    => "Deleted attachment ':new_value' from to article ID :rel.",
-    "ticket_unassigned_self"            => "Unassigned self from ticket #:rel.",
-
-    /*
-     * 2.1.0
-     */
-    "ticket_brand_disabled_reply"       => "Reply could not be added due to ticket belonging to a disabled brand #:rel.",
-    "personal_signatures_updated"       => "Updated personal signatures.",
-    "operator_signatures_updated"       => "Updated :rel's signatures.",
-    "check_email_failed"                => "Error: Failed to download email from account :old_value: ':rel'.",
-    "ticket_added_cc"                   => "Email(s) :new_value added to CC address list for ticket #:rel.",
-    "ticket_removed_cc"                 => "Email(s) :old_value removed from CC address list for ticket #:rel.",
-    "invalid_department_brand"          => "Failed to set department to ':new_value' on ticket #:rel, department does not belong to ticket brand.",
-
-    /*
-     * 2.1.2
-     */
-    "sent_email_to"                     => "Sent an email with subject ':extra_rel1' to :rel.",
-    "sent_template_email_to"            => "Sent ':extra_rel1' email to :rel.",
-    "sent_ticket_email_to_user"         => "Sent ':extra_rel1' email to user for ticket #:rel.",
-    "sent_email_to_operators"           => "Sent ':extra_rel1' email to operators.",
-    "sent_ticket_email_to_operators"    => "Sent ':extra_rel1' email to operators for ticket #:rel.",
-    "sent_email_to_operator_group"      => "Sent ':extra_rel1' email to operator group ':new_value' for ticket #:rel.",
-    "ticket_macro_applied"              => "The macro ':new_value' was ran on ticket #:rel.",
-    "ticket_macro_automatic"            => "The macro ':new_value' automatically ran on ticket #:rel.",
-    "email_template_not_found"          => "Email template ID ':new_value' not found, aborted sending email.",
-    "ticket_duetime_unset"              => "Unset the due time on ticket #:rel.",
-    "private_conversation_started"      => "Started a conversation with :rel.",
-    "private_message_sent"              => "Sent a message to :rel.",
-    "not_imported_replies_disabled"     => "An email :extra_rel1 was received for ticket #:rel, but was not imported as ticket email replies are disabled.",
-    "not_imported_ticket_locked"        => "An email :extra_rel1 was received for ticket #:rel, but was not imported as the ticket is locked.",
-
-    /*
-     * 2.2.0
-     */
-    "ticket_user_added_to_group"        => "Ticket user added to user group :new_value.",
-    "ticket_user_removed_from_group"    => "Ticket user removed from user group :old_value.",
-    "email_on_behalf"                   => "Forwarded :extra_rel2 on behalf of ':extra_rel1' in ticket #:rel.",
-
-    /*
-     * 2.3.0
-     */
-    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
-    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
-    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
-    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
-    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
-    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
-
-    /*
-     * 2.3.1
-     */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
-    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
-
-    /*
-     * 2.4.0
-     */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
-
-    /*
-     * 2.5.0
-     */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
-
-    /*
-     * 2.6.0
-     */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
-
-    /*
-     * 3.0.0
-     */
-    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
-
+return array (
+  'item_created' => 'Criado novo :item :rel.',
+  'item_updated' => 'Atualizado :item :rel.',
+  'item_deleted' => 'Excluído :item :rel.',
+  'ip_ban_created' => 'Criada nova proibição de IP :rel.',
+  'ip_ban_updated' => 'Proibição atualizada do IP :rel.',
+  'ip_ban_deleted' => 'Proibição excluída do IP :rel.',
+  'banned_ip_on_login' => 'Proibido IP :rel durante 15 minutos.',
+  'ip_whitelist_created' => 'Adicionado o IP :rel à lista branca.',
+  'ip_whitelist_updated' => 'IP atualizado :rel na lista branca.',
+  'ip_whitelist_deleted' => 'IP excluído :rel da lista branca.',
+  'api_failed_login' => 'IP :rel falhou ao autenticar na API.',
+  'user_successful_login' => 'Logado no help desk.',
+  'user_failed_login' => 'Falha ao autenticar.',
+  'user_successful_logout' => 'Saiu do help desk.',
+  'user_registered' => 'Registrou uma conta.',
+  'user_confirmed' => 'Confirmou a conta.',
+  'user_password_set' => 'Definiu uma senha para a conta.',
+  'user_password_reset' => 'Redefiniu a senha para a conta deles.',
+  'user_added_to_organisation' => 'Usuário :rel adicionado à organização :new_value.',
+  'user_removed_from_organisation' => 'Usuário :rel removido da organização :old_value.',
+  'user_profile_updated' => 'Atualizou perfil da conta',
+  'user_left_organisation' => 'Saiu da organização :rel.',
+  'user_organisation_emptied' => 'Todos os usuários removidos da organização :rel.',
+  'user_organisation_updated' => 'O nível de acesso da organização de :rel mudou de :old_value para :new_value.',
+  'organisation_membership_updated' => 'Associação atualizada do usuário da organização :rel.',
+  'organisation_profile_updated' => 'Perfil atualizado da organização :rel.',
+  'organisation_owner_updated' => 'Organização transferida :rel propriedade para :new_value.',
+  'mass_email_queued' => 'Em fila: novos e-mails com valores em lotes a serem enviados.',
+  'mass_email_sent' => 'Enviado :new_value e-mails na fila.',
+  'email_queue_deleted' => 'Email na fila excluído para :rel.',
+  'scheduled_task_run' => 'Tarefa programada :rel foi executado manualmente.',
+  'selfservice_article_upvoted' => 'Artigo classificado positivamente :rel.',
+  'selfservice_article_downvoted' => 'Artigo avaliado negativamente :rel.',
+  'selfservice_comment_posted' => 'Lançado um novo :rel.',
+  'selfservice_comment_upvoted' => 'Classificação de "rel" de :old_value para :new_value.',
+  'selfservice_comment_downvoted' => 'Classificação de :old_value para :new_value.',
+  'ticket_opened' => 'Aberto um novo ticket #:rel.',
+  'ticket_opened_on_behalf' => 'Aberto novo ticket #:rel em nome de :new_value.',
+  'ticket_opened_email' => 'E-mail importado como novo ticket #:rel.',
+  'ticket_message_reply' => 'Postado uma nova resposta ao ticket #:rel.',
+  'ticket_message_note' => 'Postada uma nova nota para ticket #:rel.',
+  'ticket_message_deleted' => 'Apagada uma mensagem no ticket #:rel.',
+  'ticket_user_updated' => 'Atualizado o usuário no ticket #:rel de :old_value para :new_value.',
+  'ticket_subject_updated' => 'Atualizado o assunto no ticket #:rel.',
+  'ticket_department_updated' => 'Atualizado o departamento no ticket #:rel de :old_value para :new_value.',
+  'ticket_status_updated' => 'Atualizado o status no ticket #:rel de :old_value para :new_value.',
+  'ticket_priority_updated' => 'Atualizada a prioridade no ticket #:rel de :old_value para :new_value.',
+  'ticket_tag_added' => 'Adicionada tag: new_value ao ticket #:rel.',
+  'ticket_tag_updated' => 'Tags atualizadas no ticket #:rel.',
+  'ticket_tag_removed' => 'Tag :new_value removida do ticket #:rel.',
+  'ticket_slaplan_updated' => 'Atualizado o plano de SLA no ticket #:rel de :old_value para :new_value.',
+  'ticket_duetime_updated' => 'Atualizado o prazo de entrega no ticket #:rel para :new_value.',
+  'ticket_duetime_paused' => 'Pausado o prazo de entrega no ticket  #:rel até a próxima resposta do usuário.',
+  'ticket_customfield_updated' => 'Atualizado campos personalizados no ticket #:rel.',
+  'ticket_converted_user' => 'Convertido ticket interno #:rel para ticket de usuário.',
+  'ticket_converted_internal' => 'Número de ticket do usuário convertido #:rel para ticket interno.',
+  'ticket_assigned_operator' => 'Atribuído :new_value para ticket #:rel.',
+  'ticket_unassigned_operator' => 'Removido :new_value do ticket #:rel.',
+  'ticket_assigned_self' => 'Auto atribuído ao ticket #:rel.',
+  'ticket_assigned_updated' => 'Atualizado operadores atribuídos no ticket #:rel.',
+  'ticket_unlocked' => 'Ticket #:rel desbloqueado.',
+  'ticket_locked_reply' => 'A resposta não pôde ser adicionada ao ticket bloqueado #:rel.',
+  'ticket_unmerged' => 'Ticket :rel foi separado.',
+  'ticket_user_blocked' => 'E-mail bloqueado :new_value (do usuário no ticket #:rel).',
+  'ticket_closed' => 'O ticket #:rel foi fechado.',
+  'ticket_inactive_closed' => 'Fechado ticket inativo #:rel do status :old_value.',
+  'ticket_awaiting_response' => 'Enviado à espera de resposta por e-mail ao utilizador no ticket #:rel.',
+  'ticket_split_from' => 'Mensagens divididas do antigo ticket #:rel para o novo ticket #:new_value.',
+  'ticket_split_to' => 'Mensagens divididas do antigo ticket #:old_value para o novo ticket #:rel.',
+  'ticket_attachment_saved' => 'Anexo adicionado ao ticket #:rel.',
+  'ticket_attachment_deleted' => 'Anexo excluído do ticket #:rel.',
+  'ticket_throttled' => 'Ticket de :rel rejeitado devido a limitação.',
+  'selfservice_attachment_saved' => 'Adicionado o anexo \':new_value\' ao ID do artigo :rel.',
+  'selfservice_attachment_deleted' => 'Apagado o anexo \':new_value\' de à ID do artigo :rel.',
+  'ticket_unassigned_self' => 'Auto-removido do ticket #:rel.',
+  'ticket_brand_disabled_reply' => 'A resposta não pôde ser adicionada devido a um bilhete pertencente a uma marca deficiente #:rel.',
+  'personal_signatures_updated' => 'Assinaturas pessoais atualizadas.',
+  'operator_signatures_updated' => 'Atualizado assinaturas de :rel.',
+  'check_email_failed' => 'Erro: Falha no download do e-mail da conta :old_value: \':rel\'.',
+  'ticket_added_cc' => 'E-mail(s) :new_value adicionado à lista de endereços CC para bilhete #:rel.',
+  'ticket_removed_cc' => 'Email(s) :old_value removido da lista de endereços do CC para o ticket #:rel.',
+  'sent_email_to' => 'Enviou um e-mail com o assunto \':extra_rel1\' para :rel.',
+  'sent_template_email_to' => 'Enviado \':extra_rel1\' email para :rel.',
+  'sent_ticket_email_to_user' => 'Enviado \':extra_rel1\' email ao usuário para ticket #:rel.',
+  'sent_email_to_operators' => 'Enviado \':extra_rel1\' email aos operadores.',
+  'sent_ticket_email_to_operators' => 'Enviado \':extra_rel1\' email aos operadores para o bilhete #:rel.',
+  'sent_email_to_operator_group' => 'Enviado \':extra_rel1\' email para o grupo de operadores \':new_value\' para o ticket #:rel.',
+  'ticket_macro_applied' => 'A macro \':new_value\' foi veiculada no ticket #:rel.',
+  'ticket_macro_automatic' => 'A macro \':new_value\' foi automaticamente veiculada ao ticket #:rel.',
+  'email_template_not_found' => 'ID do modelo de email \':new_value\' não encontrado, cancelado o envio de email.',
+  'ticket_duetime_unset' => 'Redefinir o prazode entrega no ticket #:rel.',
+  'private_conversation_started' => 'Começou uma conversa com "rel".',
+  'private_message_sent' => 'Enviou uma mensagem para :rel.',
+  'not_imported_replies_disabled' => 'Um email :extra_rel1 foi recebido para o ticket #:rel, mas não foi importado, pois as respostas por email do ticket estão desativadas.',
+  'not_imported_ticket_locked' => 'Um email :extra_rel1 foi recebido para o ticket #:rel, mas não foi importado, pois o ticket está bloqueado.',
+  'ticket_user_added_to_group' => 'Usuário do ticket adicionado ao grupo de usuários :new_value.',
+  'ticket_user_removed_from_group' => 'Ticket user removed from user group :old_value.',
+  'email_on_behalf' => 'Encaminhado :extra_rel2 em nome de \':extra_rel1\' no ticket #:rel.',
+  'registered_users_only' => 'Enviado \':extra_rel1\' email para :new_value, o departamento não aceita emails de utilizadores não registrados.',
+  'deleted_user' => 'Usuário apagado',
+  'linked_ticket' => 'Ticket vinculado #:rel com ticket :extra_rel1.',
+  'unlinked_ticket' => 'Ticket #:rel desvinculado do ticket :extra_rel1.',
+  'email_queue_attachment_deleted' => 'Apagado o anexo \':old_value\' do e-mail enfileirado \':rel\'.',
+  'forward_ticket_email' => 'Ticket encaminhado #:rel a terceiros, visualize o email \':extra_rel1\'.',
+  'selfservice_comment_updated' => 'Atualizado :rel por :extra_rel1.',
+  'selfservice_comment_status' => 'Alterado o status de :rel por :extra_rel1 de :old_value para :new_value.',
+  'selfservice_comment_deleted' => 'Comentário apagado por :extra_rel1.',
+  'ticket_message_posted' => 'Postado um novo :extra_rel1 para ticket #:rel.',
+  'ticket_message_edited' => 'Editado um :extra_rel1 in ticket #:rel.',
+  'email_send_failed' => 'Falha ao enviar email.',
+  'ticket_brand_updated' => 'A marca foi atualizada no ticket #:rel de :old_value para :new_value.',
+  'export_scheduled' => 'Uma exportação de usuário :rel foi agendada.',
+  'export_generated' => 'Exportação :new_value do usuário :rel foi gerado e armazenado no sistema.',
+  'export_deleted' => 'Exportação :old_value do usuário :rel foi excluído do sistema.',
+  'deleted_inactive_records' => 'Excluído automaticamente :old_value inativa :rel.',
+  'deleted_old_records' => 'Registros antigos :rel excluídos automaticamente.',
+  'sent_email_to_user_group' => 'Email enfileirado para o grupo de utilizadores \':new_value\' para o bilhete #:rel.',
+  'ticket_watching' => 'Monitorando o ticket #:rel.',
+  'ticket_unwatching' => 'Não mais monitorando o ticket #:rel.',
+  'ticket_watch_operator' => 'Definir :new_value para monitorar o ticket #:rel.',
+  'ticket_unwatch_operator' => 'Redefinido :new_value de monitorar o ticket #:rel.',
+  'marked_user_as_confirmed' => 'Propriedade confirmada do endereço de e-mail em nome do usuário :rel.',
+  'ticket_department_email_updated' => 'Atualizado o e-mail do departamento no ticket #:rel de :old_value para :new_value.',
+  'ticket_watching_updated' => 'Atualizado operadores monitorando o ticket #:rel.',
+  'ticket_deleted' => 'Ticket permanentemente apagado \':old_value\' (#:rel).',
+  'ticket_trashed' => 'Ticket #:rel movido para a lixeira.',
+  'ticket_restored' => 'Ticket #:rel restaurado da lixeira.',
+  'emptied_ticket_trash' => 'Limpo automaticamente o lixo dos registros de \':old_value\'.',
+  'ticket_followup_set' => 'Um novo acompanhamento foi criado no ticket #:rel.',
+  'ticket_followup_updated' => 'Um acompanhamento do ticket #:rel foi atualizado.',
+  'ticket_followup_deleted' => 'Um acompanhamento no ticket #:rel foi excluído.',
+  'selfservice_article_neutral' => 'Artigo avaliado neutramente :rel.',
 );

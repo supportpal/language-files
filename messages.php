@@ -1,157 +1,89 @@
 <?php
 
-return array(
-
-    "deleted"               => "Deleted!",
-    "success"               => "Success",
-    "error"                 => "Error",
-    "in_progress"           => "In Progress",
-
-    "save_order"            => "Attempting to save the updated order of the items",
-
-    "show_all_results"      => "Show all results &raquo;",
-
-    "are_you_sure"          => "Are you sure?",
-    "yes_im_sure"           => "Yes, I'm sure",
-
-    "success_created"       => "Successfully created new :item!",
-    "error_created"         => "Failed trying to create new :item.",
-
-    "success_deleted"       => "Successfully deleted the :item!",
-    "error_deleted"         => "Failed trying to delete the :item.",
-
-    "success_updated"       => "Successfully updated the :item!",
-    "error_updated"         => "Failed trying to update the :item.",
-
-    "error_notfound"        => "The :item with given ID was not found.",
-    "error_notfound_name"   => "The :item with given name was not found.",
-    "report_notfound"       => "The report with given category and name was not found.",
-
-    "success_ordering"      => "Successfully updated the ordering!",
-    "error_ordering"        => "Failed trying to update the ordering.",
-
-    "error_login"           => "Login attempt failed.",
-    "success_logout"        => "Successfully logged out.",
-
-    "please_correct"        => "Please correct the following errors and try again.",
-
-    "success_settings"      => "Successfully updated the settings!",
-    "error_settings"        => "Failed trying to update the settings.",
-
-    "success_action"        => "Successfully performed the action!",
-    "error_action"          => "Failed to perform the action.",
-
-    "error_embed_image"     => "Failed trying to upload the image.",
-
-    "unauthorised"          => "Unauthorised",
-    "not_authorised"        => "Not authorised to complete this action.",
-    "not_permitted"         => "You are not permitted to view this page. If you think this has been displayed in error, please speak to your application administrator.",
-
-    "page_not_found"        => "Page Not Found",
-    "cant_find_page"        => "We can't find the page that you're looking for.",
-
-    "please_report"         => "Please report to an administrator if this was unexpected.",
-
-    "return_to"             => "Return to the :page.",
-
-    "session_expired"       => "Your session expired, please login again.",
-    "session_refresh"       => "Your session expired, please refresh the page and then try again.",
-
-    "general_error"         => "An error occurred. Please try again.",
-
-    "no_results"            => "No results.",
-
-    "assign_incomplete"     => "The action could not be completed in full. :names could not be assigned to some tickets.",
-
-    "maintenance_mode"      => "Maintenance mode is active. The help desk is currently inaccessible by users, please remember to turn maintenance mode off when finished.",
-
-    "invalid_captcha"       => "The captcha code entered was invalid or incorrect, please try again.",
-    "blocked_as_spam"       => "Your request was detected as spam. Please contact an administrator if you feel this has been shown in error.",
-    "account_exists"        => "An active account already exists with this email address. Please login or use the forgotten password feature if you cannot remember your password.",
-    "error_loading_comments" => "There was a problem loading the comments.",
-
-    "invalid_auth"          => "Invalid authentication credentials.",
-
-    "forbidden"             => "Forbidden",
-
-    "not_logged_exception"  => "<strong>Whoops! Something went wrong.</strong><br />Please notify the system administrator if the error persists.",
-
-    "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
-
-    "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
-
-    // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
-
-    "missing_extension"     => "Missing Extension",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
-
-    /*
-     * 2.0.3
-     */
-    "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
-    "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
-    "error_loading_message" => "An error occurred while loading the message. Please try again.",
-    "please_refresh"        => "Please refresh the page.",
-
-    /*
-     * 2.1.0
-     */
-    "unable_to_connect_db"  => "<strong>Service currently unavailable.</strong><br />Unable to connect to the database.",
-    "category_required"     => "The article must belong to one or more categories.",
-    "warning"               => "Warning",
-    "note"                  => "Note",
-    "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
-
-    /*
-     * 2.1.1
-     */
-    "upload_error"          => "Failed to upload attachment \":filename\", reason: \":reason\"",
-    "upload_max_size"       => "File must be smaller than :size",
-    "upload_wrong_type"     => "File type is not allowed",
-
-    /*
-     * 2.3.0
-     */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
-
-    /*
-     * 2.3.1
-     */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
-
-    /*
-     * 2.4.0
-     */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
-
-    /*
-     * 2.5.0
-     */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
-
-    /*
-     * 3.0.0
-     */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
-    "error_editing_message" => "There was an error while trying to edit this message.",
-
+return array (
+  'deleted' => 'Apagado!',
+  'success' => 'Sucesso',
+  'in_progress' => 'Em progresso',
+  'save_order' => 'Tentativa de gravar a ordem atualizada dos itens',
+  'show_all_results' => 'Mostrar todos os resultados »',
+  'are_you_sure' => 'Você tem certeza?',
+  'yes_im_sure' => 'Sim, tenho certeza.',
+  'success_created' => 'Criou com sucesso o novo item :item!',
+  'error_created' => 'Falhou ao tentar criar um novo item :item.',
+  'success_deleted' => 'Excluiu com sucesso o item :item!',
+  'error_deleted' => 'Falha ao tentar apagar o :item.',
+  'success_updated' => 'Atualizado com sucesso o :item!',
+  'error_updated' => 'Falhou ao tentar atualizar o :item.',
+  'error_notfound' => 'O :item com o ID fornecido não foi encontrado.',
+  'error_notfound_name' => 'O :item com o nome dado não foi encontrado.',
+  'report_notfound' => 'O relatório com categoria e nome dado não foi encontrado.',
+  'success_ordering' => 'O pedido foi atualizado com sucesso!',
+  'error_ordering' => 'Falha ao tentar atualizar o pedido.',
+  'error_login' => 'A tentativa de efetuar login falhou.',
+  'success_logout' => 'Desconectado com sucesso.',
+  'please_correct' => 'Por favor, corrija os seguintes erros e tente novamente.',
+  'success_settings' => 'Atualizou as configurações com sucesso!',
+  'error_settings' => 'Falha ao tentar atualizar as configurações.',
+  'success_action' => 'Realizou a ação com sucesso!',
+  'error_action' => 'Falhou na execução da acção.',
+  'error_embed_image' => 'Falha ao tentar fazer upload da imagem.',
+  'unauthorised' => 'Não autorizado',
+  'not_authorised' => 'Não autorizado a concluir esta ação.',
+  'not_permitted' => 'Você não tem permissão para visualizar esta página. Se você acha que isso foi exibido por engano, fale com o administrador do aplicativo.',
+  'page_not_found' => 'Página não encontrada',
+  'cant_find_page' => 'Não conseguimos encontrar a página que procura.',
+  'please_report' => 'Por favor, informe um administrador se isto foi inesperado.',
+  'return_to' => 'Volte para a :page.',
+  'session_expired' => 'Sua sessão expirou, faça o login novamente.',
+  'session_refresh' => 'Sua sessão expirou, atualize a página e tente novamente.',
+  'general_error' => 'Um erro ocorreu. Por favor, tente novamente.',
+  'no_results' => 'Sem resultados.',
+  'assign_incomplete' => 'A ação não pôde ser concluída por completo. :names não puderam ser atribuídos a alguns tickets.',
+  'invalid_captcha' => 'O código captcha inserido era inválido ou incorreto, por favor tente novamente.',
+  'blocked_as_spam' => 'Sua solicitação foi detectada como spam. Entre em contato com um administrador se achar que isso foi mostrado por engano.',
+  'account_exists' => 'Já existe uma conta ativa com este endereço de email. Faça o login ou use o recurso de senha esquecida se você não conseguir se lembrar da sua senha.',
+  'error_loading_comments' => 'Ocorreu um problema ao carregar os comentários.',
+  'invalid_auth' => 'Credenciais de autenticação inválidas.',
+  'forbidden' => 'Proibido',
+  'not_logged_exception' => '<strong>Whoops! Alguma coisa correu mal.</strong><br />Por favor notifique o administrador do sistema se o erro persistir.',
+  'too_many_ticket_reqs' => 'Muitas solicitações de tickets feitas para: email. O limite é :max em :decay minutos.',
+  'not_operator' => 'Algo deu errado. O operador selecionado não é válido, certifique-se de que pertençam a um grupo de operadores e que o grupo tenha uma função associada.',
+  'datatable_error' => '<strong> Opa! Algo deu errado. </strong> <br /> Ocorreu um erro ao carregar os dados da tabela. Notifique o administrador do sistema se o erro persistir.',
+  'missing_extension' => 'Extensão ausente',
+  'php_ldap_missing' => 'A extensão php-ldap é necessária para usar a autenticação LDAP. Por favor, habilite-o e atualize a página.',
+  'php_imap_missing' => 'A extensão php-imap é necessária para usar o download de e-mail. Se você deseja usar o download de e-mail, habilite a extensão e atualize a página.',
+  'only_ssl_connections' => 'Apenas conexões SSL são permitidas, você deve atualizar sua solicitação para uma conexão segura.',
+  'queued_emails' => 'Sucesso - Os e-mails começarão a ser enfileirados e enviados em breve.',
+  'error_loading_message' => 'Ocorreu um erro ao carregar a mensagem. Por favor, tente novamente.',
+  'please_refresh' => 'Por favor, atualize a página.',
+  'unable_to_connect_db' => '<strong>Serviço actualmente indisponível.</strong><br />Incapaz de se conectar à base de dados.',
+  'category_required' => 'O artigo deve pertencer a uma ou mais categorias.',
+  'warning' => 'Aviso',
+  'brand_invalid_dept' => 'A ação não pôde ser concluída na íntegra. O departamento não pôde ser atualizado em alguns tickets devido à sua marca.',
+  'upload_error' => 'Falha no upload do anexo ":filename", razão: ":reason".',
+  'upload_max_size' => 'O arquivo deve ser menor do que :size',
+  'upload_wrong_type' => 'O tipo de arquivo não é permitido',
+  'delete_record' => 'Apagar :record?',
+  'cannot_be_undone' => 'Esta ação não pode ser desfeita.',
+  'warn_delete' => 'Isso excluirá permanentemente a <strong>:name</strong> :record do sistema.',
+  'delete_confirm' => 'Sim, apagar :record',
+  'keep_record' => 'Não, mantenha :record',
+  'delete_relations' => 'A exclusão de <strong>:name</strong> :record irá permamentemente apagar os seguintes dados relacionados:',
+  'please_check' => 'Você deve marcar todas as caixas acima para confirmar que entendeu que o resultado desta ação é irreversível.',
+  'failed_attachments' => 'Falha ao anexar alguns arquivos.',
+  'sent_email' => 'Sucesso - o email foi enviado.',
+  'task_already_running' => 'A tarefa agendada está sendo executada automaticamente no momento, tente novamente em breve.',
+  'linked_account' => 'A conta social foi vinculada com sucesso à sua conta.',
+  'already_linked' => 'A conta social já está ligada a outra conta. Por favor, faça login na outra conta e desvincule-a.',
+  'does_look_correct' => 'Isso parece correto?',
+  'no_revert' => 'Não! Reverta',
+  'attachment_not_found' => 'O anexo não foi encontrado.',
+  'account_closed' => 'A sua conta foi encerrada. Entre em contato conosco se você acha que isso foi feito por engano.',
+  'leave_record' => 'Deixar :record?',
+  'leave_record_warn' => 'Isto irá removê-lo permanentemente do :record.',
+  'success_trashed' => 'Moveu com sucesso o item :item para o lixo!',
+  'error_trashed' => 'Falhou tentando mover o item para o lixo.',
+  'blocked_by_rule' => 'O pedido foi bloqueado pela regra de spam \':text\'.',
+  'popup_blocked' => 'Seu navegador está bloqueando as janelas pop-up. Habilite pop-ups e redirecionamentos neste site para usar o recurso de visualização.',
+  'error_editing_message' => 'Ocorreu um erro ao tentar editar esta mensagem.',
 );

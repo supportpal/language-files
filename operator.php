@@ -3,22 +3,22 @@
 return array(
 
     // Merge fields
-    "merge_fields"              => "Merge Fields",
+    "merge_fields"              => "Merge field",
     "strings"                   => "Strings",
-    "collections"               => "Collections",
-    "frontend_url"              => "Frontend URL",
-    "operator_url"              => "Operator URL",
+    "collections"               => "Coleções",
+    "frontend_url"              => "URL do Frontend",
+    "operator_url"              => "URL do painel do operador",
 
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Most commonly used email and response merge fields are found below. For more details on how to utilise the merge fields, please refer to the <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentation</a>.",
+    "merge_fields_desc"         => "As respostas e merge fields mais comuns estão listadas abaixo Para mais detalhes em como utilizar estes campos, por favor, verifique a nossa <a target='_blank' href='https://docs.supportpal.com/current/Merge+Fields'>documentação</a>.",
 
     /*
      * 2.4.0
      */
-    "merge_field"               => "Merge Field",
-    "merge_field_canned_desc"   => "The unique merge field to use can be found when editing a canned response (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Copy the above to use this canned response as a merge field.",
+    "merge_field"               => "Merge field",
+    "merge_field_canned_desc"   => "O campo único a ser usado para unir quando editando uma resposta pronta (Configurações -> Tickets -> Respostas prontas).",
+    "response_merge_field"      => "Copie o texto acima para usar esta resposta pronta como um campo a ser unido.",
 
 );
