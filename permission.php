@@ -110,4 +110,9 @@ return array(
     "selfservicefeedbackform" => "Manage Feedback Forms",
     "ticketfeedbackform"      => "Manage Feedback Forms",
 
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
+
 );

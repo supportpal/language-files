@@ -84,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Set up email addresses for the department, any incoming email to these email addresses will open tickets in this department. The first email address is used as the default sender email address for outgoing email.",
-    "department_password"       => "Only enter a password to replace existing saved password or to validate email account details.",
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Some email providers require SSL or TLS encryption in order to connect, if you are unsure leave this setting as None.",
     "department_delete_mail"    => "If using IMAP, you can choose to not delete emails on the server after they've been imported as tickets.",
     "protocol"                  => "Protocol",
     "server"                    => "Mail Server",
     "port"                      => "Port",
-    "username"                  => "Username",
-    "password"                  => "Password",
     "encryption"                => "Encryption",
     "delete_downloaded"         => "Delete Downloaded Email",
     "consume_all"               => "Consume All Email",
@@ -349,7 +346,6 @@ return array(
     "default_open_status_desc"  => "Select the default status that should be automatically set when a user opens a new ticket or replies to a ticket without an operator response yet.",
     "default_reply_status"      => "Default Reply Status",
     "default_reply_status_desc" => "Select the default status that should be automatically set when a user replies to a ticket, only applies after an operator has replied to the ticket.",
-    "drafting_reply"            => "<strong>:name</strong> started to draft a :type :time:",
     "ticket_reply_order_default" => "System default will use the value that is currently selected in the ticket general settings.",
     "select_a_parent"           => "Select a parent department...",
     "select_a_department"       => "Select a department...",
@@ -473,7 +469,7 @@ return array(
     "macro_order_drag"          => "Drag the rows to change the order of the macros.",
     "macro_order_processed"     => ":type macros are processed in the order they appear.",
     "macro_type"                => "Macro Type",
-    "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on non-resolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
+    "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on unresolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
     "macro_run_at_most"         => "Run At Most",
     "macro_run_times"           => "times", // As in '5 times'
     "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
@@ -526,5 +522,18 @@ return array(
     "im_not_sure"               => "I'm not sure",
     "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
     "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
 
 );

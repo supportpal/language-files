@@ -93,4 +93,9 @@ return array(
     "article_type"                      => "Article type",
     "article_brand"                     => "Article brand",
 
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
+
 );

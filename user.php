@@ -252,18 +252,6 @@ return array(
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "social_login_provider_desc"    => "Allow users to register and log in using their :provider account.",
-    "social_login_provider_docs"    => "Please check over our documentation for setting up <a href=':link'>:provider Login</a>.",
-    "facebook_app_id"               => "App ID",
-    "facebook_app_secret"           => "App Secret",
-    "facebook_redirect_url"         => "The following URL <strong>must</strong> be entered for the Facebook Login 'Valid OAuth redirect URIs':",
-    "google_client_id"              => "Client ID",
-    "google_client_secret"          => "Client Secret",
-    "google_redirect_url"           => "The following URL <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
-    "steam_api_key"                 => "API Key",
-    "twitter_consumer_key"          => "Consumer Key",
-    "twitter_consumer_secret"       => "Consumer Secret",
-    "twitter_redirect_url"          => "The following URL <strong>must</strong> be entered for the Twitter Application 'Callback URL':",
     "login_via"                     => "Log in via :provider",
     "idp"                           => "IdP",
     "social_linking_login"          => "Please log in to complete linking of your social account.",
@@ -326,5 +314,12 @@ return array(
     "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
     "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled, please complete your login again.",
     "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "remove_avatar"                 => "Remove Avatar",
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
 
 );

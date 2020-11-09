@@ -362,4 +362,11 @@ return array(
     "pm"                        => "PM",
     "viewing"                   => "Viewing",
 
+    /*
+     * 3.3.0
+     */
+    "oauth_data"                => "OAuth Data",
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
 );

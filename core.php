@@ -93,7 +93,6 @@ return array(
     "smtp_password"             => "SMTP Password",
     "ssl"                       => "SSL",
     "tls"                       => "TLS",
-    "validate_smtp"             => "Validate SMTP",
     "email_content"             => "Email Content",
     "email_content_desc"        => "Enter a default subject and email content for this template, you can also write the template in other languages. If a template is not set in another language, it will use the default data.",
     "outgoing"                  => "Outgoing",
@@ -477,5 +476,19 @@ return array(
     "plugin_already_exists"     => "Plugin already exists!",
     "plugin_creating"           => "Creating plugin...",
     "plugin_ready"              => "Plugin ready in :directory! Build something amazing.",
+
+    /*
+     * 3.3.0
+     */
+    "third_party_integrations"  => "Third-Party Integration|Third-Party Integrations",
+    "oauth"                     => "OAuth",
+    "oauth_data"                => "OAuth Data",
+    "client_id"                 => "Client ID",
+    "client_secret"             => "Client Secret",
+    "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
+    "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
+    "configure_after_brand_created" => "This may be configured after the brand has been created.",
+    'get_access_token'          => 'Get Access Token',
+    'reset_access_token'        => 'Reset Access Token',
 
 );

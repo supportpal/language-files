@@ -73,8 +73,6 @@ return array(
     "url"                       => "The :attribute format is invalid.",
     "template_exists"           => "The selected :attribute is invalid.",
     "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_length"      => "The password must be equal to or longer than :user_password_length characters.",
-    "operator_password_length"  => "The password must be equal to or longer than :operator_password_length characters.",
     "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
     "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
 

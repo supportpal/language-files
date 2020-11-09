@@ -11,7 +11,6 @@ return array(
     "date"                      => "Date",
     "multiple"                  => "Multiple Options",
     "options"                   => "Options",
-    "password"                  => "Password",
     "radio"                     => "Radio Buttons",
     "rating"                    => "Rating (1 to 5)",
     "text"                      => "Text",
@@ -60,4 +59,8 @@ return array(
      */
     "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
 
+    /*
+     * 3.3.0
+     */
+    "encrypted_value"           => "** ENCRYPTED **",
 );
