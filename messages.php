@@ -95,7 +95,7 @@ return array(
     "missing_extension"     => "Missende extensie",
     "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
     "php_imap_missing"      => "De php-imap extensie is nodig om email te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
-    
+
     /*
      * 2.0.3
      */
@@ -104,7 +104,7 @@ return array(
     "queued_emails"         => "Succes - De emails worden in de wachtrij geplaatst en zullen spoeding worden verzonden.",
     "error_loading_message" => "Er trad een fout op tijdens het laden van het bericht. Probeer het opnieuw.",
     "please_refresh"        => "Ververs de pagina.",
-    
+
     /*
      * 2.1.0
      */
@@ -126,6 +126,7 @@ return array(
     /*
      * 2.1.2
      */
-    "field_required"        => "Veld is verplicht.",
+    "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken. ",
+    "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
 );

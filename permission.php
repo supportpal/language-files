@@ -76,7 +76,7 @@ return array(
      */
     // User
     "operator"          => "Beheer operators",
-    
+
     /*
      * 2.1.0
      */
@@ -94,5 +94,10 @@ return array(
      */
     // Core
     "logfiles"          => "Beheer logbestanden",
+
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Beheer integraties van derden",
 
 );

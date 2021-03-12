@@ -191,7 +191,7 @@ return array(
     "month"                     => "Maand|Maanden",
     "year"                      => "Jaar|Jaren",
     "ago"                       => "geleden",
-    
+
     "editor"                    => "Editor",
 
     /*
@@ -206,7 +206,7 @@ return array(
     "show_details"              => "Toon details",
     "hide_details"              => "Verberg details",
     "welcome"                   => "Welkom",
-    
+
     /*
      * 2.0.3
      */
@@ -249,7 +249,7 @@ return array(
     "edited"                    => "bewerkt",
     "scheduled_for"             => "Gepland voor",
     "drag_and_drop"             => "Drag en drop uw bijlagen hier.",
-    
+
     /*
      * 2.1.2
      */
@@ -274,7 +274,7 @@ return array(
     "posted"                    => "Geplaatst",
     "locked"                    => "Gelocked",
     "draft"                     => "Concept",
-    
+
     /*
      * 2.2.0
      */
@@ -287,5 +287,111 @@ return array(
     "sunday"                    => "Zondag",
     "inactive"                  => "Inactief",
     "run"                       => "Uitvoeren",
+
+    /*
+     * 2.3.0
+     */
+    "regex"                     => "Regex Validatie",
+    "check_all"                 => "Selecteer Alles",
+    "uncheck_all"               => "Deselecteer Alles",
+    "after_and_including"       => "Na (en inclusief)",
+    "add_link"                  => "Koppeling toevoegen",
+    "unlink"                    => "Ontkoppelen",
+    "link"                      => "Koppelen",
+
+    /*
+     * 2.3.1
+     */
+    "clone"                     => "Kloon",
+    "created_date"              => "aangemaakt Op",
+    "alphabetical"              => "Alfabetisch",
+    "random"                    => "Willekeurig",
+    "blocked"                   => "Geblokkeerd",
+    "private_to"                => "Prive naar",
+    "refresh"                   => "Vernieuw",
+    "provider"                  => "Provider|Providers",
+    "export"                    => "Export|Exports",
+    "generate"                  => "Genereer",
+
+    /*
+     * 2.4.0
+     */
+    "show_count_more"           => "Toon :count meer...",
+    "manual"                    => "Handmatig",
+    "automatic"                 => "Automatisch",
+    "hook"                      => "Hook",
+    "event"                     => "Event|Events",
+    "test"                      => "Test",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Domein|Domeinen",
+    "move_to_trash"             => "Verplaats naar Prullenbak",
+    "trash"                     => "Prullenbak",
+    "trash_desc"                => "Records die langer dan :number dagen in de prullenbak staan worden automatisch verwijderd.",
+    "restore"                   => "Herstellen",
+    "delete_forever"            => "Definitief verwijderen",
+
+    /*
+     * 2.6.0
+     */
+    "remove_all"                => "Alles verwijderen",
+
+    /*
+     * 3.0.0
+     */
+    "previous"                  => "Vorige",
+    "neutral"                   => "Neutraal",
+    "and"                       => "en",            // Used in "A and B"
+    "optional"                  => "Optioneel",
+    "january"                   => "Januari",
+    "february"                  => "Februari",
+    "march"                     => "Maart",
+    "april"                     => "April",
+    "may"                       => "Mei",
+    "june"                      => "Juni",
+    "july"                      => "Juli",
+    "august"                    => "August",
+    "september"                 => "September",
+    "october"                   => "Oktober",
+    "november"                  => "November",
+    "december"                  => "December",
+    "jan"                       => "Jan",
+    "feb"                       => "Feb",
+    "mar"                       => "Mar",
+    "apr"                       => "Apr",
+    "jun"                       => "Jun",
+    "jul"                       => "Jul",
+    "aug"                       => "Aug",
+    "sep"                       => "Sep",
+    "oct"                       => "Okt",
+    "nov"                       => "Nov",
+    "dec"                       => "Dec",
+    "mon"                       => "Ma",
+    "tue"                       => "Di",
+    "wed"                       => "Woe",
+    "thu"                       => "Do",
+    "fri"                       => "Vrij",
+    "sat"                       => "Za",
+    "sun"                       => "Zo",
+    "ordinal_th"                => "de",
+    "ordinal_st"                => "ste",
+    "ordinal_nd"                => "de",
+    "ordinal_rd"                => "de",
+    "range_separator"           => " tot ",
+    "week_abbr"                 => "Wk",
+    "scroll_to_increment"       => "Scroll naar increment",
+    "click_to_toggle"           => "Klik om te schakelen",
+    "am"                        => "AM",
+    "pm"                        => "PM",
+    "viewing"                   => "Bekijk",
+
+    /*
+     * 3.3.0
+     */
+    "oauth_data"                => "OAuth Data",
+    "authentication"            => "Authenticatie",
+    "manage_credentials"        => "Beheer inloggegevens",
 
 );

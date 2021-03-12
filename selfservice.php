@@ -14,8 +14,7 @@ return array(
     "tag"                       => "Tag|Tags",
     "type"                      => "Type|Typen",
 
-    "type_enabled_desc"         => "Uitschakelen van het type stopt het tonen ervan in defrontend.",
-    "type_order"                => "U kunt de volgorde waarin de self-service types worden getoond door deze te slepen.",
+    "frontend_icon"             => "Frontend Icoon",
 
     "type_view_desc"            => "Indien uw content meerdere categorieen bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
     "frontend_icon"             => "Frontend icoon",
@@ -123,11 +122,50 @@ return array(
     "article_brand_warning"     => "Dit artikel bevind zich in een merk waarmee u niet geassocieerd bent. Elke aanpassinge die u maakt zal ook onder dit merk vallen.",
     "viewing_article"           => "Bekijken van artikel",
     "article_count"             => "Aantal artikelen",
-    
+
     /*
      * 2.2.0
      */
-    "article_desc"              => "Het artikel kan in verschillende talten worden geschreven. De passende vertaling zal automatisch worden getoond aan de hand van de taalinstelling van de gebruiker.",
+    "article_desc"              => "Het artikel kan in verschillende talen worden geschreven. De passende vertaling zal automatisch worden getoond aan de hand van de taalinstelling van de gebruiker.",
     "no_author"                 => "Geen auteur.",
+
+    /*
+     * 2.3.1
+     */
+    "slug"                      => "Slug",
+    "slug_desc"                 => "De URL-vriendelijke versie van de naam. Het is meestal allemaal kleine letters en bevat alleen letters, cijfers en koppeltekens.",
+    "change_slug"               => "Slug wijzigen",
+    "published_date"            => "Publicatie Datum",
+    "published_date_desc"       => "De datum en tijd waarop het artikel is gepubliceerd zoals weergegeven aan gebruikers op de frontend.",
+    "content_options"           => "Content Opties",
+    "content_desc"              => "De inhoud die met dit type wordt geserveerd. <br /><strong>Artikelen</strong> - Een verzameling berichten die kunnen worden gegroepeerd (zoals een kennisbank) of afzonderlijk kunnen worden bewaard (zoals aankondigingen).<br /><strong>Externe Link</strong> - Geef een link naar een externe site, zoals een documentatieportaal.",
+    "external_link"             => "Externe Link",
+    "type_view_desc"            => "Indien uw content meerdere categorieen bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
+    "pinned"                    => "Vastgezet",
+    "pinned_desc"               => "Zet het record vast zodat het bovenaan op de voorkant wordt weergegeven. Alleen van toepassing op typen lijstweergaven.",
+    "article_ordering"          => "Article Ordering",
+    "article_ordering_desc"     => "Het ordenen van artikelen bij het bekijken van het type op de frontend.",
+    "most_popular"              => "Meest Populair",
+    "most_recent"               => "Meest Recent",
+    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
+    "type_enabled_desc"         => "Als u het type uitschakelt, wordt het niet meer weergegeven.",
+    "internal"                  => "Intern",
+    "internal_desc"             => "Toggle om in te stellen dat het type alleen intern zichtbaar is voor operators op het operatorpaneel ",
+    "login_to_comment"          => "Log alsjeblieft in om een reactie te plaatsen.",
+    "article_rating"            => "Artikel Beoordeling|Artikel Beoordelingen",
+    "comment_rating"            => "Reactie Beoordeling|Reactie Beoordelingen",
+
+    /*
+     * 2.5.0
+     */
+    "revision_history"          => "Revisie Historie",
+
+    /*
+     * 3.0.0
+     */
+    "type_protected_desc"       => "Toggle om alleen te laten zien aan ingelogde gebruikers.",
+    "article_feedback"          => "Artikel Feedback",
+    "thank_you_for_feedback"    => "Bedankt voor je feedback op dit artikel.",
+    "frontend_icon_desc"        => "Selecteer een <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> icoon om op de frontend voor dit type weer te geven, u kunt ook zoeken naar een aangepast pictogram dat niet in de lijst staat (beginnend met 'fa-').",
 
 );

@@ -13,15 +13,15 @@ return array(
     "email_operator_group"      => "Stuur email aan operatorgroep",
     "email_user"                => "Stuur email aan gebruiker",
     "email_user_group"          => "Stuur email aan gebruikersgroep",
-    "unassign_operator"         => "Verwijder toewijzing van ticket",
+    "unassign_operator"         => "Verwijder operator van ticket",
     "update_department"         => "Update afdeling",
     "update_priority"           => "Update prioriteit",
     "update_status"             => "Update status",
-    
+
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Update custom field van ticket",
+    "update_custom_field"       => "Update aangepast veld van ticket",
 
     /*
      * 2.2.0
