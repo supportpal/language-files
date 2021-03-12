@@ -96,6 +96,25 @@ return array(
     "logfiles"          => "Beheer logbestanden",
 
     /*
+     * 2.4.0
+     */
+    // User
+    "sociallogin"       => "Beheer Sociale Login",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Verwijder Tickets Definitief",
+    "ticket_trash"      => "Verplaats Tickets naar Prullenbak ",
+
+    /*
+     * 3.0.0
+     */
+    "selfservicefeedbackform" => "Beheer Feedback Formulieren",
+    "ticketfeedbackform"      => "Beheer Feedback Formulieren",
+
+    /*
      * 3.3.0
      */
     "integration"       => "Beheer integraties van derden",

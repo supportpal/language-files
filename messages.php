@@ -129,4 +129,47 @@ return array(
     "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken. ",
     "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
+    /*
+     * 2.3.0
+     */
+    "delete_record"         => "Delete :record?",
+    "cannot_be_undone"      => "This action cannot be undone.",
+    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
+    "delete_confirm"        => "Yes, Delete :record",
+    "keep_record"           => "No, Keep :record",
+    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
+    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
+    "failed_attachments"    => "Failed to attach some files.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Success - the email has been sent.",
+    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
+    "linked_account"        => "The social account has successfully been linked with your account.",
+    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Does this look correct?",
+    "no_revert"             => "No! Revert",
+    "attachment_not_found"  => "The attachment was not found.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
+    "leave_record"          => "Leave :record?",
+    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "success_trashed"       => "Successfully moved the :item to trash!",
+    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
+
 );

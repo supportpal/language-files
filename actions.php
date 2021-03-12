@@ -47,4 +47,36 @@ return array(
     "hours_to_be_set"           => "uren om toe te voegen aan de huidige tijd en de nieuwe due time van het ticket in te stellen.",
     "only_with_due_time"        => "Kan alleen gebruikt worden bij tickets met een due time.",
     "set_due_time_desc"         => "Verwijder de due time door het veld leeg te maken. Met een nagatief getal kan een datum in het verleden worden aangegeven.",
+
+    /*
+    * 2.3.0
+    */
+    "add_cc"                    => "E-mail adres toevoegen aan CC",
+    "remove_cc"                 => "Verwijder E-mail adres uit CC",
+    "remove_cc_desc"            => "Laat dit veld leeg om alle CC-e-mailadressen ui het ticket te verwijderen.",
+
+    /*
+     * 2.3.1
+     */
+    "exclude_cc"                => "Sluit CC-e-mailadressen uit",
+
+    /*
+     * 2.4.0
+     */
+    "trigger_webhook"           => "Trigger webhook",
+    "forward_ticket"            => "Ticket doorsturen",
+    "watch_ticket"              => "Laat operator ticket monitoren ",
+    "unwatch_ticket"            => "Laat operator ticket niet meer monitoren",
+    "all_watching_operators"    => "Alle monitorende operators",
+
+    /*
+     * 2.5.0
+     */
+    "move_to_trash"             => "Verplaats Ticket naar Prullenbak",
+    "block_user"                => "Blokkeer gebruiker",
+
+    /*
+     * 2.6.0
+     */
+    "clear_due_time"            => "Clear due time",
 );
