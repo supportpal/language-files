@@ -132,44 +132,44 @@ return array(
     /*
      * 2.3.0
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
+    "delete_record"         => "Verwijder :record?",
+    "cannot_be_undone"      => "Deze actie kan niet ongedaan gemaakt worden.",
+    "warn_delete"           => "Hiermee wordt het <strong>:name</strong> :record permanent verwijderd.",
+    "delete_confirm"        => "Ja, :record verwijderen",
+    "keep_record"           => "Nee, :record behouden",
+    "delete_relations"      => "Als u het <strong>:name</strong> :record verwijdert worden ook alle volgende gerelateerde gegevens definitief verwijderd:",
+    "please_check"          => "U moet alle bovenstaande vakjes aanvinken om te bevestigen dat u het resultaat van deze onomkeerbare actie begrijpt.",
+    "failed_attachments"    => "Bijvoegen van sommige bestanden is mislukt.",
 
     /*
      * 2.3.1
      */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+    "sent_email"            => "Succes - de e-mail is verzonden.",
+    "task_already_running"  => "De geplande taak wordt momenteel automatisch uitgevoerd. Probeer het binnenkort opnieuw.",
+    "linked_account"        => "Het sociale account is succesvol gekoppeld aan uw account.",
+    "already_linked"        => "Het sociale account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
 
     /*
      * 2.4.0
      */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
+    "does_look_correct"     => "Ziet dit er correct uit?",
+    "no_revert"             => "Nee! Terugdraaien",
+    "attachment_not_found"  => "De bijlage is niet gevonden.",
 
     /*
      * 2.5.0
      */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+    "account_closed"        => "Uw account is gesloten. Neem contact met ons op als u denkt dat dit ten onrechte is gebeurd.",
+    "leave_record"          => ":record behouden?",
+    "leave_record_warn"     => "Hiermee wordt u definitief verwijderd uit het  :record.",
+    "success_trashed"       => "Het :item is verplaatst naar de prullenbak!",
+    "error_trashed"         => "Kan het :item niet naar de prullenbak verplaatsen.",
+    "blocked_by_rule"       => "Het verzoek is geblokkeerd door een spamregel ':text'.",
 
     /*
      * 3.0.0
      */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
-    "error_editing_message" => "There was an error while trying to edit this message.",
+    "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
+    "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
 );
