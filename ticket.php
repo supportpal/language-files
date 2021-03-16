@@ -364,6 +364,7 @@ return array(
     "opened_by"                 => "(Geopend door:name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
     "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
+
     /*
      * 2.0.3
      */
@@ -395,9 +396,9 @@ return array(
     "default_reply_status_desc" => "Selecteer de standaardstatus die automatisch moet worden ingesteld wanneer een gebruiker op een ticket antwoordt, is alleen van toepassing nadat een operator op het ticket heeft geantwoord.",
     "ticket_reply_order_default" => "Systeemstandaard gebruikt de waarde die momenteel is geselecteerd in de algemene ticketinstellingen.",
     "select_a_parent"           => "Selecteer een bovenliggende afdeling...",
-    "select_a_department"       => "Selecteer een afdeling..."
-    "department_operator_desc"  => "You may also assign individual operators to the department. These operators will be in addition to any groups assigned above.",
-    "department_group"          => "Afdeling Groepem",
+    "select_a_department"       => "Selecteer een afdeling...",
+    "department_operator_desc"  => "U kunt ook individuele operators aan de afdeling toewijzen. Deze operators komen bovenop de groepen die hierboven zijn toegewezen.",
+    "department_group"          => "Afdeling Groepen",
     "department_group_desc"     => "U kunt hele groepen operatoren toewijzen aan de afdeling, aanbevolen als uw lijst met operators groot is en / of regelmatig wordt gewijzigd.",
     "ticket_other_brands"       => "Tickets in Andere Merken",
     "add_for_department"        => "Toevoegen voor afdeling...",
@@ -476,14 +477,14 @@ return array(
      * 2.3.0
      */
     "registered_users_desc"     => "Toggle om de afdeling alleen te tonen aan ingelogde gebruikers en alleen e-mails te accepteren van gebruikers die actief zijn geregistreerd bij de helpdesk. Indien ingeschakeld, wordt een teruggestuurde e-mail verzonden naar niet-geregistreerde gebruikers die deze afdeling e-mailen. Om de e-mail te wijzigen of uit te schakelen, zie de sjabloonoptie 'Alleen geregistreerde gebruikers' hieronder.",
-    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here. The field type will be locked once the form has been completed by a user.",
+    "form_fields_desc"          => "Als u aanvullende informatie wilt verzamelen wanneer de gebruiker feedback geeft, kunt u aangepaste velden instellen om hier op het formulier weer te geven. Het veldtype wordt vergrendeld zodra het formulier is ingevuld door een gebruiker.",
     "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op uw klanttevredenheidsscore) ",
-    "email_and_other_accounts"  => "Email and other channel accounts",
+    "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
     "delete_message"            => "Verwijder bericht",
     "linked_tickets"            => "Linked Tickets",
     "add_linked_ticket"         => "Linked Ticket Toevoegen",
     "create_linked_ticket"      => "Linked ticket Aanmaken",
-    "copy_link"                 => "Copy link",
+    "copy_link"                 => "Kopieer link",
     "forward_message"           => "Bericht doorsturen",
     "forward_from_here"         => "Bericht doorsturen vanaf hier",
     "forward"                   => "Doorsturen",
@@ -498,19 +499,19 @@ return array(
     /*
      * 2.3.1
      */
-    "inactive_ticket_note"      => "Note: only affects tickets belonging to a status with 'Close Inactive Tickets' enabled.",
-    "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
-    "from_header_missing"       => "From: header missing from email.",
-    "move_ticket"               => "Move Ticket",
-    "move_ticket_step1"         => "Step 1: Choose a new brand to move ticket to",
-    "move_ticket_step2"         => "Step 2: Choose a department from new brand",
-    "current_record"            => "Current :record",
-    "new_record"                => "New :record",
-    "department_email"          => "Department Email",
-    "select_a_department_email" => "Select a department email...",
-    "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
-    "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
-    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+    "inactive_ticket_note"      => "Let op: heeft alleen betrekking op tickets die behoren tot een status waarvoor 'Inactieve tickets sluiten' is ingeschakeld.",
+    "close_inactive_status_desc" => "Schakelen om automatische sluiting van inactieve tickets en e-mailherinneringen voor inactiviteit in / uit te schakelen (sjablonen 'Waiting For Response' en 'Ticket Auto Closed'). Indien ingeschakeld, kan de tijd voordat herinneringen worden verzonden, worden geconfigureerd via de algemene instellingen van het ticket.",
+    "from_header_missing"       => "Van: koptekst ontbreekt in e-mail.",
+    "move_ticket"               => "Ticket verplaatsen",
+    "move_ticket_step1"         => "Stap 1: Kies een nieuw merk om het ticket naar te verplaatsen.",
+    "move_ticket_step2"         => "Stap 2: Kies een afdeling van een nieuw merk.",
+    "current_record"            => "Huidig :record",
+    "new_record"                => "Nieuw :record",
+    "department_email"          => "Afdeling E-mail",
+    "select_a_department_email" => "Selecteer een afdelings-e-mailadres...",
+    "record_public_desc"        => "Schakel in om deze :record alleen toegankelijk maken voor u zelf.",
+    "record_group_desc"         => "Als u het :record alleen zichtbaar wilt maken voor bepaalde gebruikersgroepen. Laat leeg om zichtbaar te maken voor alle operators.",
+    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
 
     /*
      * 2.4.0

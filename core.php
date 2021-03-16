@@ -370,7 +370,7 @@ return array(
     "go_to_dashboard"           => "Ga naar het dashboard",
     "brand_colour_desc"         => "Selecteer een kleur voor uw merk, deze wordt gebruikt voor het kleurenschema op zowel de frontend als de operatorpaneel. Laat leeg om het standaardkleurenschema te gebruiken.",
     "favicon"                   => "Favicon",
-    "favicon_desc"              => "De favicon-afbeelding verschijnt in de adresbalk en wordt gebruikt om uw website te identificeren. Voor de beste resultaten zorgt u ervoor dat het pictogram een reeks formaten bevat van 32x32px tot 310x310px, is vierkant en in een ICO / PNG-indeling.",
+    "favicon_desc"              => "De favicon-afbeelding verschijnt in de adresbalk en wordt gebruikt om uw website te identificeren. Voor de beste resultaten zorgt u ervoor dat het pictogram een reeks formaten bevat van 32x32px tot 310x310px, is vierkant en in een ICO of PNG-indeling.",
     "view_original"             => "Bekijk origineel",
     "download_original"         => "Download origineel",
     "consume_all"               => "Voer eventueel een afdelings-e-mailadres in met \"Consumeer alle e-mail \" actief.",
@@ -416,7 +416,7 @@ return array(
     "no_branding"               => "Geen Branding",
     "no_branding_desc"          => "Verwijdert de SupportPal-branding van de klantgerichte kant van de helpdesk .",
     "multi_ip"                  => "Multi-IP Support",
-    "multi_ip_desc"             => "Maakt het mogelijk om SupportPal te vergrendelen op meer dan één intern / extern IP-adres.",
+    "multi_ip_desc"             => "Maakt het mogelijk om SupportPal te vergrendelen op meer dan één intern of extern IP-adres.",
     "purchase"                  => "Kopen",
     "ticket_number_missing"     => "Voor ticketgerelateerde e-mails, zou het {{ ticket.number }} samenvoegveld aanwezig moet zijn in het E-mail onderwerp en moet verpakt zijn in een <em>[#{{ ticket.number }}]</em> of een <em>(#{{ ticket.number }})</em> om antwoorden naar het juiste ticket te leiden. Als u het ticketnummer wilt verwijderen, overweeg dan om <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a> in te schakelen.",
 

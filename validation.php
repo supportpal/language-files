@@ -69,12 +69,12 @@ return array(
         "string"  => "De :attribute moet :size tekens zijn.",
         "array"   => "De :attribute moet :size items bevatten.",
     ),
-    "unique"                    => "The :attribute has already been taken.",
-    "url"                       => "The :attribute format is invalid.",
-    "template_exists"           => "The selected :attribute is invalid.",
-    "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "unique"                    => "Het :attribute is al bezet.",
+    "url"                       => "Het :attribute formaat is onjuist.",
+    "template_exists"           => "Het geselecteerde :attribute is onjuist.",
+    "is_valid_captcha"          => "De ingevoerde captcha-code was ongeldig of onjuist, probeer het opnieuw.",
+    "user_password_strength"    => "Het :attribute moet :user_password_strength tekens bevaten.",
+    "operator_password_strength" => "Het :attribute moet :operator_password_strength tekens bevatten.",
 
     /*
      * 2.1.0
@@ -90,148 +90,123 @@ return array(
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => "De :translation vertaling voor het :attribute veld is verplicht als :values aanwezig zijn.",
+    "max_translation"           => "De :translation vertaling voor het :attribute veld mag niet groter zijn dan :max characters tekens.",
+    "unique_translation"        => "De :translation vertaling voor het :attribute veld is al bezet.",
 
     /*
      * 2.3.0
      */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
-    "customfield_not_cyclic"    => "The field cannot depend on one of its children.",
+    "required_translation"      => "De :translation vertaling fvoor het :attribute veld is verplicht.",
+    "customfield_not_cyclic"    => "Het veld kan niet afhankelijk zijn van een van zijn kinderen.",
 
     /*
      * 2.3.1
      */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
+    "is_slug"                   => "Het slug-veld mag alleen alfanumerieke tekens bevatten, codeer alstublieft procentuele speciale tekens. ",
+    "article_slug_unique"       => "De slug is al in gebruik.",
+    "captcha_required"          => "De captcha is vereist.",
+    "ticket_number_format"      => "Het formaat van het ticketnummer is ongeldig.",
 
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
+    "after_or_equal"            => "De :attribute moet een datum na of gelijk zijn aan :date.",
+    "before_or_equal"           => "De :attribute moet een datum voor of gelijk zijn aan :date.",
+    "dimensions"                => "De :attribute heeft ongeldige afbeeldingsafmetingen.",
+    "distinct"                  => "Het :attribute veld heeft een dubbele waarde.",
+    "file"                      => "Het :attribute moet een bestand zijn.",
+    "filled"                    => "Het :attribute veld moet een waarde hebben.",
     "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
+        "numeric" => "Het :attribute moet groter zijn dan :value.",
+        "file"    => "Het :attribute moet groter zijn dan :value kilobytes.",
+        "string"  => "De :attribute moet groter zijn dan :value characters.",
+        "array"   => "De :attribute moet groter zijn dan :value items.",
     ),
     "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
+        "numeric" => "Het :attribute moet groter zijn dan of gelijk zijn aan :value.",
+        "file"    => "Het :attribute moet groter zijn dan of gelijk zijn aan :value kilobytes.",
+        "string"  => "De :attribute moet groter zijn dan of gelijk zijn aan :value characters.",
+        "array"   => "De :attribute moet :value items bevatten of meer.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => "Het :attribute veld bestaat niet in :other.",
+    "ipv4"                      => "Het :attribute moet een geldig IPv4 adres zijn.",
+    "ipv6"                      => "Het :attribute moet een geldig IPv6 adres zijn.",
+    "json"                      => "Het :attribute moet een geldige JSON string zijn.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
+        "numeric" => "Het :attribute moet kleiner zijn dan :value.",
+        "file"    => "Het :attribute moet kleiner zijn dan :value kilobytes.",
+        "string"  => "De :attribute moet kleiner zijn dan :value characters.",
+        "array"   => "De :attribute moet kleiner zijn dan :value items.",
     ),
     "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
+        "numeric" => "Het :attribute moet kleiner zijn dan of gelijk zijn :value.",
+        "file"    => "Het :attribute moet kleiner zijn dan of gelijk zijn :value kilobytes.",
+        "string"  => "De :attribute moet kleiner zijn dan of gelijk zijn :value characters.",
+        "array"   => "De :attribute moet kleiner zijn dan of gelijk zijn :value items.",
     ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
+    "mimetypes"                 => "Het :attribute moet een bestand zijn van type: :values.",
+    "not_regex"                 => "Het :attribute formaat is onjuist.",
+    "present"                   => "Het :attribute veld moet aanwezig zijn.",
+    "required_unless"           => "Het :attribute veld is verplicht, tenzij :other aanwezig is in :values.",
+    "string"                    => "Het :attribute moet een string zijn.",
+    "timezone"                  => "Het :attribute moet een geldige zone zijn.",
+    "uploaded"                  => "Het uploaden van :attribute is mislukt.",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Een of meer van de domeinnamen zijn niet geldig.",
 
     /*
      * 2.5.1
      */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+    "valid_twig"                => "Het :attribute is ongeldig. Gebruik de 'Preview'-knop voor foutdetails. ",
 
     /*
      * 3.0.0
      */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
-    "starts_with"               => "The :attribute must start with one of the following: :values.",
+    "embed_image"               => "Het :attribute moet een jpeg, png, of gif zijn.",
+    "starts_with"               => "Het :attribute moet beginnen met een van de volgende: :values.",
 
     /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
-    |
-    */
+   |--------------------------------------------------------------------------
+   | Custom Validation Language Lines
+   |--------------------------------------------------------------------------
+   |
+   | Here you may specify custom validation messages for attributes using the
+   | convention "attribute.rule" to name the lines. This makes it quick to
+   | specify a specific custom language line for a given attribute rule.
+   |
+   */
 
-    "custom" => array(
-        "data.*.subject" => array(
-            "required" => "Een onderwerp is verplicht voor elke email."
-        ),
-        "data.*.contents" => array(
-            "required"  => "Berichtinhoud is verplicht voor elke email.",
-            "twig_lint" => "Elke email moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html",
-        ),
-        "roles.*" => array(
-            "exists" => "De geselecteerde rol is ongeldig.",
-        ),
-        "category.*.type" => array(
-            "required" => "Een of meer self-service types moeten zijn geselecteerd.",
-        ),
-        "category.*.categories" => array(
-            'required' => "Een of meerdere categorieen zijn verplicht wanneer een self-service type is geselecteerd.",
-            "exists"   => "Een of meerdere geselecteerde categorieen is ongeldig.",
-        ),
-        "brand.*" => array(
-            "exists" => "Het geselecteerde merk is ongeldig.",
-        ),
-        "signature.Default.*.department" => array(
-            "exists" => "Elke ondertekening moet bij een geldige afdeling horen.",
-        ),
-        "signature.Default.*.contents" => array(
-            "twig_lint" => "Elke ondertekening moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html"
-        ),
-        "template.Default.*.language" => array(
-            "exists" => "Elke template moet bij een geldige taal horen.",
-        ),
-        "template.Default.*.subject" => array(
-            "min" => "Elk emailtemplateonderwerp moet langer zijn dan 1 teken.",
-            "max" => "Elk emailtemplateonderwerp moet maximaal 255 tekens zijn.",
-        ),
-        "template.Default.*.contents" => array(
-            "required_with" => "Elke emailtemplate vereist content wanneer een onderwerp is ingesteld.",
-            "min" => "Elke emailtemplate moet langer zijn dan 1 teken.",
-            "twig_lint" => "Elk emailtemplate moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html"
-        ),
-    ),
+   "custom" => array(
+       "roles.*" => array(
+           "exists" => "De geselecteerde rol is ongeldig.",
+       ),
+       "category.*.type" => array(
+           "required" => "Er moeten een of meer zelfbedieningstypen worden geselecteerd.",
+       ),
+       "category.*.categories" => array(
+           "required" => "Een of meer categorieën zijn vereist wanneer een zelfbedieningstype is geselecteerd .",
+           "exists"   => "Een of meer van de geselecteerde categorieën is ongeldig.",
+       ),
+       "brand.*" => array(
+           "exists" => "Het geselecteerde merk is ongeldig.",
+       ),
+   ),
 
-    /*
-    |--------------------------------------------------------------------------
-    | Custom Validation Attributes
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as Email Address instead
-    | of "email". This simply helps us make messages a little cleaner.
-    |
-    */
+   /*
+   |--------------------------------------------------------------------------
+   | Custom Validation Attributes
+   |--------------------------------------------------------------------------
+   |
+   | The following language lines are used to swap attribute place-holders
+   | with something more reader friendly such as Email Address instead
+   | of "email". This simply helps us make messages a little cleaner.
+   |
+   */
 
-    "attributes" => array(),
+   "attributes" => array(),
 
 );
