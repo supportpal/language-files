@@ -79,4 +79,5 @@ return array(
      * 2.6.0
      */
     "clear_due_time"            => "Clear due time",
+
 );

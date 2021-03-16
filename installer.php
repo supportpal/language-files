@@ -121,4 +121,52 @@ return array(
      */
     "ioncube_version"           => "ionCube Loaders version :required or greater required. Found: ':version'.",
 
+    /*
+     * 2.3.0
+     */
+    "png_jpg_support"           => "PNG & JPEG Support",
+    "allow_url_fopen"           => "'allow_url_fopen' Enabled",
+    "allow_url_fopen_failure"   => "Enable 'allow_url_fopen' in your php.ini file to use Gravatar and other features.",
+    "allowed_methods"           => "HTTP Allowed Methods",
+    "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
+
+    /*
+     * 2.4.0
+     */
+    "mysql_server_version"      => "Server Version >= :min",
+    "mysql_server_version_desc" => "MySQL :min or greater is required to run SupportPal. Found: ':version'.",
+    "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
+    "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
+
+    "upgrade_step"              => "Step :num of :total: ",
+    "accept_eula"               => "Accept EULA",
+    "system_requirements"       => "System Requirements",
+    "update_database"           => "Update Database",
+    "upgrade_complete"          => "Upgrade Complete",
+
+    "upgrade_support"           => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
+
+    /*
+     * 2.5.0
+     */
+    "press_to_begin"            => "Please press the button below to start.",
+    "locked"                    => "Install/Upgrade In-Progress",
+    "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
+
+    "possible_permission_issue" => "[WARNING] It seems you are running this command as root or a different user to the owner of the files. The command must be ran by the right user so the web server can also read and write to the system afterwards.",
+    "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
+    "login_with_details"        => "You can login using the details specified earlier.",
+    "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
+    "read_upgrade_guide"        => "Our Upgrade Guide contains useful information regarding breaking changes and best practices for upgrading:\nhttps://docs.supportpal.com/current/Upgrade+Guide",
+    "confirm_backup_taken"      => "[WARNING] Ensure you have taken a backup of your SupportPal database and application files before proceeding any further.\nPlease confirm you have taken a backup, verified it's not corrupt and are ready to proceed.",
+    "error_and_revert_database" => "There was an error. Please revert the database to your backup before starting again.",
+
+    /*
+     * 2.6.0
+     */
+    "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
+    "license_valid"             => "License Valid",
+    "registered_to"             => "Registered To",
+
 );

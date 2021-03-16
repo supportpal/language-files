@@ -79,7 +79,6 @@ return array(
     /*
      * 2.1.0
      */
-    "in_array"                  => "De :attribute veld bestaat niet in :other.",
     "logo"                      => "Het logo moet wijzen naar een geldige afbeelding (direct URL of relatief pad vanaf base directory).",
 
     /*
@@ -170,17 +169,17 @@ return array(
     "starts_with"               => "Het :attribute moet beginnen met een van de volgende: :values.",
 
     /*
-   |--------------------------------------------------------------------------
-   | Custom Validation Language Lines
-   |--------------------------------------------------------------------------
-   |
-   | Here you may specify custom validation messages for attributes using the
-   | convention "attribute.rule" to name the lines. This makes it quick to
-   | specify a specific custom language line for a given attribute rule.
-   |
-   */
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
 
-   "custom" => array(
+    "custom" => array(
        "roles.*" => array(
            "exists" => "De geselecteerde rol is ongeldig.",
        ),
@@ -194,19 +193,19 @@ return array(
        "brand.*" => array(
            "exists" => "Het geselecteerde merk is ongeldig.",
        ),
-   ),
+    ),
 
-   /*
-   |--------------------------------------------------------------------------
-   | Custom Validation Attributes
-   |--------------------------------------------------------------------------
-   |
-   | The following language lines are used to swap attribute place-holders
-   | with something more reader friendly such as Email Address instead
-   | of "email". This simply helps us make messages a little cleaner.
-   |
-   */
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as Email Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
 
-   "attributes" => array(),
+    "attributes" => array(),
 
 );

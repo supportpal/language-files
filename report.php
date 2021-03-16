@@ -76,4 +76,36 @@ return array(
     "ticket_by_organisation"    => "Tickets per organisatie",
     "ticket_by_organisation_desc" => "Dit rapport toont het aantal tickets per organisatie (gebruikers in de organisatie) gedurende een bepaalde periode, gesorteerd op aantal tickets.",
 
+    /*
+     * 2.3.1
+     */
+    "canned_response_usage"     => "Canned Response Usage",
+    "canned_response_usage_desc" => "The number of times a given canned response has been used.",
+    "busiest_time_of_day"       => "Busiest Time Of Day",
+    "busiest_time_of_day_desc"  => "The number of messages received from users during each hour of the day.",
+    "busiest_day"               => "Busiest Day of the Month",
+    "busiest_day_desc"          => "The number of messages received from users across each day of the month.",
+    "busiest_month"             => "Busiest Month of the Year",
+    "busiest_month_desc"        => "The number of messages received from users across each month of the year.",
+    "busiest_department"        => "Busiest Department",
+    "busiest_department_desc"   => "The average number of operator messages per department, tallies all operator replies and divides by the number of assigned operators per department.",
+
+    /*
+     * 2.5.0
+     */
+    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
+
+    /*
+     * 3.0.0
+     */
+    "user_feedback"             => "Feedback",
+    "user_feedback_desc"        => "The written feedback provided by users when answering feedback forms.",
+    "user_feedback_ratings"     => "Feedback Ratings",
+    "user_feedback_ratings_desc" => "The total number of times each feedback rating has been given.",
+    "user_feedback_response_rate" => "Feedback Response Rate",
+    "user_feedback_response_rate_desc" => "The total number of times feedback requests have been responded to.",
+    "responses"                 => "Responses",
+    "answered"                  => "Answered",
+    "unanswered"                => "Unanswered",
+
 );
