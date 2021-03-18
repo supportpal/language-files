@@ -77,7 +77,7 @@ return array(
     "note"                      => "Aantekening|Aantekeningen",
     "show"                      => "Toon",
     "hide"                      => "Verberg",
-    "category"                  => "Categorie|Categorieen",
+    "category"                  => "Categorie|Categorieën",
     "parent"                    => "Parent",
     "none"                      => "Geen",
     "default"                   => "Standaard",

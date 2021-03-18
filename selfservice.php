@@ -4,24 +4,24 @@ return array(
 
     "popular_items"             => "Populaire items",
     "type_popular_items"        => ":type: Populair",
-    "latest_items"              => "Latest Items",
+    "latest_items"              => "Laatste Items",
     "type_latest_items"         => ":type: Laatste",
 
     "selfservice"               => "Self-Service",
     "article"                   => "Artikel|Artikelen",
-    "category"                  => "Categorie|Categorieen",
+    "category"                  => "Categorie|Categorieën",
     "comment"                   => "Reactie|Reacties",
     "tag"                       => "Tag|Tags",
     "type"                      => "Type|Typen",
 
     "frontend_icon"             => "Frontend Icoon",
 
-    "type_view_desc"            => "Indien uw content meerdere categorieen bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
+    "type_view_desc"            => "Indien uw content meerdere Categorieën bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
     "frontend_icon"             => "Frontend icoon",
     "frontend_icon_desc"        => "Selecteer een standaard icoon om in de frontend te tonen. U kunt natuurlijk ook uw eigen icoon uploaden:",
 
-    "no_categories"             => ":type heeft momenteel geen categorieen. Maak er eentje voor een artikel te plaatsen.",
-    "no_categories_frontend"    => "Er zijn geen categorieen om te tonen.",
+    "no_categories"             => ":type heeft momenteel geen Categorieën. Maak er eentje voor een artikel te plaatsen.",
+    "no_categories_frontend"    => "Er zijn geen Categorieën om te tonen.",
 
     "awaiting_moderation"       => "Wacht op goedkeuring",
     "published"                 => "Gepubliceert op:",
@@ -114,7 +114,7 @@ return array(
      * 2.1.0
      */
     "view_articles"             => "Toon artikelen",
-    "view_categories"           => "Toon categorieen",
+    "view_categories"           => "Toon categorieën",
     "add_to_another_type"       => "Voeg toe aan een ander type",
     "select_type"               => "Selecteer type...",
     "visibility"                => "Zichtbaarheid",
@@ -140,14 +140,14 @@ return array(
     "content_options"           => "Content Opties",
     "content_desc"              => "De inhoud die met dit type wordt geserveerd. <br /><strong>Artikelen</strong> - Een verzameling berichten die kunnen worden gegroepeerd (zoals een kennisbank) of afzonderlijk kunnen worden bewaard (zoals aankondigingen).<br /><strong>Externe Link</strong> - Geef een link naar een externe site, zoals een documentatieportaal.",
     "external_link"             => "Externe Link",
-    "type_view_desc"            => "Indien uw content meerdere categorieen bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
+    "type_view_desc"            => "Indien uw content meerdere Categorieën bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
     "pinned"                    => "Vastgezet",
     "pinned_desc"               => "Zet het record vast zodat het bovenaan op de voorkant wordt weergegeven. Alleen van toepassing op typen lijstweergaven.",
-    "article_ordering"          => "Article Ordering",
+    "article_ordering"          => "Artikel Ordering",
     "article_ordering_desc"     => "Het ordenen van artikelen bij het bekijken van het type op de frontend.",
     "most_popular"              => "Meest Populair",
     "most_recent"               => "Meest Recent",
-    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
+    "type_order"                => "U kunt de volgorde wijzigen waarin de zelfbedieningstypen aan gebruikers worden weergegeven door de rijen te slepen en neer te zetten.",
     "type_enabled_desc"         => "Als u het type uitschakelt, wordt het niet meer weergegeven.",
     "internal"                  => "Intern",
     "internal_desc"             => "Toggle om in te stellen dat het type alleen intern zichtbaar is voor operators op het operatorpaneel ",

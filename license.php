@@ -55,11 +55,11 @@ return array(
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Licentie geldig!",
 
     /*
      * 2.4.1
      */
-    "multi_ip_support"  => "Consider enabling <a href=':href' target='_blank'>Multi-IP support</a> in the client area to define additional IP addresses.",
+    "multi_ip_support"  => "Overweeg om <a href=':href' target='_blank'>Multi-IP ondersteuning</a> in het klantpaneel in te schakelen om extra IP-adressen te definiëren.",
 
 );

@@ -54,7 +54,7 @@ return array(
 
     // Self-service
     "article"           => "Beheer artikelen",
-    "category"          => "Beheer categorieen",
+    "category"          => "Beheer Categorieën",
     "comment"           => "Beheer reacties",
     "selfservicetype"   => "Beheer typen",
 

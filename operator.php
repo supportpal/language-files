@@ -19,8 +19,8 @@ return array(
     /*
      * 2.4.0
      */
-    "merge_field"               => "Merge Field",
-    "merge_field_canned_desc"   => "The unique merge field to use can be found when editing a canned response (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Copy the above to use this canned response as a merge field.",
+    "merge_field"               => "Samenvoegveld",
+    "merge_field_canned_desc"   => "Het unieke samenvoegveld dat moet worden gebruikt, is te vinden bij het bewerken van een standaardantwoord (Instellingen -> Tickets -> Standaardantwoorden). ",
+    "response_merge_field"      => "Kopieer het bovenstaande om dit standaardantwoord als samenvoegveld te gebruiken.",
 
 );

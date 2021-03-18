@@ -109,7 +109,7 @@ return array(
      * 2.1.0
      */
     "unable_to_connect_db"  => "<strong>Service momenteel niet beschikbaar.</strong><br />Er is geen verbinding met de database.",
-    "category_required"     => "Het artikel moet tot een of meedere categorieen behoren..",
+    "category_required"     => "Het artikel moet tot een of meedere Categorieën behoren..",
     "warning"               => "Waarschuwing",
     "note"                  => "Let op",
     "brand_invalid_dept"    => "De actie kon niet volledig worden uitgevoerd. In sommige tickets kon de afdeling niet worden bijgewerkt vanwege hun merk.",

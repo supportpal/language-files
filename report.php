@@ -79,33 +79,33 @@ return array(
     /*
      * 2.3.1
      */
-    "canned_response_usage"     => "Canned Response Usage",
-    "canned_response_usage_desc" => "The number of times a given canned response has been used.",
-    "busiest_time_of_day"       => "Busiest Time Of Day",
-    "busiest_time_of_day_desc"  => "The number of messages received from users during each hour of the day.",
-    "busiest_day"               => "Busiest Day of the Month",
-    "busiest_day_desc"          => "The number of messages received from users across each day of the month.",
-    "busiest_month"             => "Busiest Month of the Year",
-    "busiest_month_desc"        => "The number of messages received from users across each month of the year.",
-    "busiest_department"        => "Busiest Department",
-    "busiest_department_desc"   => "The average number of operator messages per department, tallies all operator replies and divides by the number of assigned operators per department.",
+    "canned_response_usage"     => "Gebruik van standaardantwoorden",
+    "canned_response_usage_desc" => "Het aantal keren dat een bepaald standaardantwoord is gebruikt. ",
+    "busiest_time_of_day"       => "Drukste tijd van de dag",
+    "busiest_time_of_day_desc"  => "Het aantal berichten dat van gebruikers is ontvangen gedurende elk uur van de dag. ",
+    "busiest_day"               => "Drukste dag van de maand",
+    "busiest_day_desc"          => "Het aantal berichten dat is ontvangen van gebruikers op elke dag van de maand.",
+    "busiest_month"             => "Drukste maand van het jaar ",
+    "busiest_month_desc"        => "Het aantal berichten dat van gebruikers is ontvangen gedurende elke maand van het jaar.",
+    "busiest_department"        => "Drukste afdeling",
+    "busiest_department_desc"   => "Het gemiddelde aantal operatorberichten per afdeling, telt alle operatorantwoorden op en wordt gedeeld door het aantal toegewezen operators per afdeling.",
 
     /*
      * 2.5.0
      */
-    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
+    "total_users_desc"          => "Dit rapport laat zien hoeveel gebruikers er in het systeem zijn, opgesplitst door hoeveel gebruikers het eigendom van hun e-mailadres hebben bevestigd.",
 
     /*
      * 3.0.0
      */
     "user_feedback"             => "Feedback",
-    "user_feedback_desc"        => "The written feedback provided by users when answering feedback forms.",
-    "user_feedback_ratings"     => "Feedback Ratings",
-    "user_feedback_ratings_desc" => "The total number of times each feedback rating has been given.",
-    "user_feedback_response_rate" => "Feedback Response Rate",
-    "user_feedback_response_rate_desc" => "The total number of times feedback requests have been responded to.",
-    "responses"                 => "Responses",
-    "answered"                  => "Answered",
-    "unanswered"                => "Unanswered",
+    "user_feedback_desc"        => "De schriftelijke feedback van gebruikers bij het beantwoorden van feedbackformulieren.",
+    "user_feedback_ratings"     => "Feedback Beoordelingen",
+    "user_feedback_ratings_desc" => "Het totaal aantal keren dat elke feedbackscore is gegeven.",
+    "user_feedback_response_rate" => "Reactiesnelheid op feedback ",
+    "user_feedback_response_rate_desc" => "Het totale aantal keren dat feedbackverzoeken zijn beantwoord .",
+    "responses"                 => "Antwoorden",
+    "answered"                  => "Beantwoord",
+    "unanswered"                => "Onbeantwoord",
 
 );
