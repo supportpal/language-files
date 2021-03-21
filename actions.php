@@ -9,10 +9,10 @@ return array(
     "add_tag"                   => "Voeg een tag toe",
     "assign_operator"           => "Wijs ticket toe aan operator",
     "remove_tag"                => "Verwijder tag",
-    "email_operators"           => "Stuur email aan operators",
-    "email_operator_group"      => "Stuur email aan operatorgroep",
-    "email_user"                => "Stuur email aan gebruiker",
-    "email_user_group"          => "Stuur email aan gebruikersgroep",
+    "email_operators"           => "Stuur e-mail aan operators",
+    "email_operator_group"      => "Stuur e-mail aan operatorgroep",
+    "email_user"                => "Stuur e-mail aan gebruiker",
+    "email_user_group"          => "Stuur e-mail aan gebruikersgroep",
     "unassign_operator"         => "Verwijder operator van ticket",
     "update_department"         => "Update afdeling",
     "update_priority"           => "Update prioriteit",
@@ -72,7 +72,7 @@ return array(
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Verplaats Ticket naar Prullenbak",
+    "move_to_trash"             => "Verplaats ticket naar Prullenbak",
     "block_user"                => "Blokkeer gebruiker",
 
     /*

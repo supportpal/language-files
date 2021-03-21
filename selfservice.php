@@ -73,7 +73,7 @@ return array(
 
     "no_articles"               => "Geen artikelen.",
 
-    "related_articles"          => "Verwante artikelen",
+    "related_articles"          => "Gerelateerde artikelen",
 
     "rating"                    => "Waardering|Waarderingen",
 

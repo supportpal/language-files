@@ -47,12 +47,12 @@ return array(
 
     "user_register_disabled"        => "Er kunnen momenteel geen nieuwe registraties plaatsvinden.",
     "success_register"              => "Uw account is geregistereerd!",
-    "success_register_desc"         => "Dank u voor het registreren van uw account, u moet deze nog verifieren voordat u in kunt loggen. Er is een email verstuurd met een link om de verificatie te doen.",
+    "success_register_desc"         => "Dank u voor het registreren van uw account, u moet deze nog verifieren voordat u in kunt loggen. Er is een e-mail verstuurd met een link om de verificatie te doen.",
     "register_now"                  => "Registreer nu",
     "register"                      => "Registreer",
     "register_account"              => "Registreer Account",
     "register_confirm"              => "Registratiebevestiging",
-    "register_confirm_desc"         => "Dank u voor het bevestigen van uw emailadres. Geef een wachtwoord op om het registratieproces te voltooien.",
+    "register_confirm_desc"         => "Dank u voor het bevestigen van uw e-mailadres. Geef een wachtwoord op om het registratieproces te voltooien.",
     "confirmation_success"          => "Verificatie is afgerond!",
     "confirmation_unsuccessful"     => "Verificatie is niet gelukt.",
     "thank_you_confirm"             => "Dank u voor het verifieren van uw account. Ga naar <a href=':route'>inloggen</a>.",
@@ -60,7 +60,7 @@ return array(
     "last_active"                   => "Laatst actief",
 
     "reset_request"                 => "Aanvraag van wachtwoordreset ontvangen",
-    "reset_request_desc"            => "We sturen u zometeen een email met een link ter verificatie zodat u uw wachtwoord opnieuw in kunt stellen.",
+    "reset_request_desc"            => "We sturen u zometeen een e-mail met een link ter verificatie zodat u uw wachtwoord opnieuw in kunt stellen.",
     "forgot_password"               => "Wachtwoord vergeten?",
     "password_reset"                => "Wachtword reset",
     "password_reset_confirm"        => "Resetbevestiging",
@@ -71,12 +71,12 @@ return array(
     "success_pass_reset"            => "Uw wachtwoord is opnieuw ingesteld.Ga naar <a href=':route'>login</a>.",
     "please_set_password"           => "Stel hier uw wachtwoord opnieuw in.",
     "emailed_pwd_reset_link"        => "Er is u een link toegestuurd om uw wachtwoord opnieuw in te stellen.",
-    "operator_email_not_found"      => "Operator emailadres is niet gevonden.",
-    "missing_email_or_reset"        => "Missing email address or reset token.",
+    "operator_email_not_found"      => "Operator e-mailadres is niet gevonden.",
+    "missing_email_or_reset"        => "Ontbrekend e-mailadres of reset-token.",
 
     "firstname"                     => "Voornaam",
     "lastname"                      => "Achternaam",
-    "formatted_name"                => "Formatted Name",
+    "formatted_name"                => "Opgemaakte Naam",
     "country"                       => "Land",
     "avatar"                        => "Avatar",
     "generate_password"             => "Genereer een willekeurig wachtwoord",
@@ -100,8 +100,8 @@ return array(
     "system_activity_log"           => "System Activity Log",
     "activity_log"                  => "Activity Log",
 
-    "mass_email"                    => "Stuur bulk-email",
-    "send_email"                    => "Stuur email",
+    "mass_email"                    => "Stuur bulk e-mail",
+    "send_email"                    => "Stuur E-mail",
     "choose_template"               => "Kies template...",
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
@@ -117,8 +117,8 @@ return array(
 
     "operator_details"              => "Operatordetails",
 
-    "email_notifications"           => "Emailmeldingen",
-    "email_notifications_desc"      => "De emailmeldingen die zijn ontvangen door het systeem.",
+    "email_notifications"           => "E-mailmeldingen",
+    "email_notifications_desc"      => "De e-mailmeldingen die zijn ontvangen door het systeem.",
 
     "enable_ldap"                   => "Schakel LDAP Login in",
     "enable_ldap_desc"              => "Indien u LDAP gebruikt, kunt u het gebruiken voor operators om in te loggen. Na het inschakelen, ga naar de LDAP Accounts instellingen om het in te stellen.",
@@ -193,8 +193,8 @@ return array(
      * 2.0.2
      */
 
-    "email_history"                 => "Emailhistorie",
-    "view_email"                    => "Bekijk Email",
+    "email_history"                 => "E-mail historie",
+    "view_email"                    => "Bekijk E-mail",
 
     "ban_after_count"               => "Blokkeer IP na mislukte inlogpogingen",
     "ban_after_count_user"          => "Het aantal mislukte inlogpogingen na welke het ipadres van de gebruiker wordt geblokkeerd en zij gedurende de ingestelde tijd niet meer in kunnen loggen op de frontend. Wanneer deze op 0 wordt ingesteld wordt er niet geblokkeerd.",
@@ -211,16 +211,16 @@ return array(
     "log_back_in"                   => "Opnieuw inloggen",
     "all_users"                     => "Alle gebruikers",
     "all_operators"                 => "Alle operators",
-    "email_per_batch"               => "Emails per batch",
-    "email_per_batch_desc"          => "Aantal emails dat tegelijkertijd kan worden verstuurd.",
+    "email_per_batch"               => "E-mails per batch",
+    "email_per_batch_desc"          => "Aantal e-mails dat tegelijkertijd kan worden verstuurd.",
     "batch_interval"                => "Batch Interval",
-    "batch_interval_desc"           => "De pauze tussen de emailbatches in minuten, 1 minuut is het minimum.",
-    "select_user_groups"            => "Selecteer gebruiker/operatorgroepen of type het emailadres in...",
-    "mass_email_sending_time"       => "Het zal ongeveer :time duren om alle emails te versturen.",
+    "batch_interval_desc"           => "De pauze tussen de e-mailbatches in minuten, 1 minuut is het minimum.",
+    "select_user_groups"            => "Selecteer gebruiker/operatorgroepen of type het e-mailadres in...",
+    "mass_email_sending_time"       => "Het zal ongeveer :time duren om alle e-mails te versturen.",
     "organisations_enabled"         => "Organisaties ingesteld",
     "organisations_enabled_desc"    => "Gebruikers kunnen een organisatie toevoegen aan hun profiel en andere gebruikers toevoegen aan deze organisatie. Wanneer u alleen met klaten te maken hebt kunt u de organisatieoptie uitschakelen en verbergen van de interface.",
     "manager_notifications"         => "Organisatie Manager meldingen",
-    "manager_notifications_desc"    => "Wanneer managers of organisaties emailupdates moeten ontvangen or tickets geopend kunnen worden door andere gebruikers in de organisatie. Elke manager heeft een eigen optie hiervoor in het profiel maar met deze instelling kan dat worden overschreven.",
+    "manager_notifications_desc"    => "Wanneer managers of organisaties e-mailupdates moeten ontvangen or tickets geopend kunnen worden door andere gebruikers in de organisatie. Elke manager heeft een eigen optie hiervoor in het profiel maar met deze instelling kan dat worden overschreven.",
     "manager_email_notifications_desc" => "Indien ze meldingen moeten krijgen van updates op tickets die geopend zijn door andere gebruikers in de organisatie.",
     "organisation_notifications_desc" => "Indien u meldingen wilt krijgen van updates op tickets die geopend zijn door andere gebruikers in uw organisatie.",
     "select_operator_group_desc"    => "Selecteer ten minste een operatorgroep voor deze operator.",

@@ -15,9 +15,9 @@ return array(
     "update_priority"       => "Prioriteit bijgewerkt",
     "update_tags"           => "Tags bijgewerkt",
     "update_assigned"       => "Toegewezen operators bijgewerkt",
-    "update_user"           => "User bijgewerkt",
+    "update_user"           => "Gebruiker bijgewerkt",
     "update_brand"          => "Merk bijgewerkt",
-    "update_subject"        => "Subject bijgewerkt",
+    "update_subject"        => "Onderwerp bijgewerkt",
     "update_watching"       => "Monitorende operators bijgewerkt",
 
 );
