@@ -76,4 +76,36 @@ return array(
     "ticket_by_organisation"    => "Tickets per organisatie",
     "ticket_by_organisation_desc" => "Dit rapport toont het aantal tickets per organisatie (gebruikers in de organisatie) gedurende een bepaalde periode, gesorteerd op aantal tickets.",
 
+    /*
+     * 2.3.1
+     */
+    "canned_response_usage"     => "Gebruik van standaardantwoorden",
+    "canned_response_usage_desc" => "Het aantal keren dat een bepaald standaardantwoord is gebruikt. ",
+    "busiest_time_of_day"       => "Drukste tijd van de dag",
+    "busiest_time_of_day_desc"  => "Het aantal berichten dat van gebruikers is ontvangen gedurende elk uur van de dag. ",
+    "busiest_day"               => "Drukste dag van de maand",
+    "busiest_day_desc"          => "Het aantal berichten dat is ontvangen van gebruikers op elke dag van de maand.",
+    "busiest_month"             => "Drukste maand van het jaar ",
+    "busiest_month_desc"        => "Het aantal berichten dat van gebruikers is ontvangen gedurende elke maand van het jaar.",
+    "busiest_department"        => "Drukste afdeling",
+    "busiest_department_desc"   => "Het gemiddelde aantal operatorberichten per afdeling, telt alle operatorantwoorden op en wordt gedeeld door het aantal toegewezen operators per afdeling.",
+
+    /*
+     * 2.5.0
+     */
+    "total_users_desc"          => "Dit rapport laat zien hoeveel gebruikers er in het systeem zijn, opgesplitst door hoeveel gebruikers het eigendom van hun e-mailadres hebben bevestigd.",
+
+    /*
+     * 3.0.0
+     */
+    "user_feedback"             => "Feedback",
+    "user_feedback_desc"        => "De schriftelijke feedback van gebruikers bij het beantwoorden van feedbackformulieren.",
+    "user_feedback_ratings"     => "Feedback Beoordelingen",
+    "user_feedback_ratings_desc" => "Het totaal aantal keren dat elke feedbackscore is gegeven.",
+    "user_feedback_response_rate" => "Reactiesnelheid op feedback ",
+    "user_feedback_response_rate_desc" => "Het totale aantal keren dat feedbackverzoeken zijn beantwoord .",
+    "responses"                 => "Antwoorden",
+    "answered"                  => "Beantwoord",
+    "unanswered"                => "Onbeantwoord",
+
 );

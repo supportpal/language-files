@@ -95,7 +95,7 @@ return array(
     "missing_extension"     => "Missende extensie",
     "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
     "php_imap_missing"      => "De php-imap extensie is nodig om email te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
-    
+
     /*
      * 2.0.3
      */
@@ -104,12 +104,12 @@ return array(
     "queued_emails"         => "Succes - De emails worden in de wachtrij geplaatst en zullen spoeding worden verzonden.",
     "error_loading_message" => "Er trad een fout op tijdens het laden van het bericht. Probeer het opnieuw.",
     "please_refresh"        => "Ververs de pagina.",
-    
+
     /*
      * 2.1.0
      */
     "unable_to_connect_db"  => "<strong>Service momenteel niet beschikbaar.</strong><br />Er is geen verbinding met de database.",
-    "category_required"     => "Het artikel moet tot een of meedere categorieen behoren..",
+    "category_required"     => "Het artikel moet tot een of meedere Categorieën behoren..",
     "warning"               => "Waarschuwing",
     "note"                  => "Let op",
     "brand_invalid_dept"    => "De actie kon niet volledig worden uitgevoerd. In sommige tickets kon de afdeling niet worden bijgewerkt vanwege hun merk.",
@@ -126,6 +126,50 @@ return array(
     /*
      * 2.1.2
      */
-    "field_required"        => "Veld is verplicht.",
+    "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken. ",
+    "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
+
+    /*
+     * 2.3.0
+     */
+    "delete_record"         => "Verwijder :record?",
+    "cannot_be_undone"      => "Deze actie kan niet ongedaan gemaakt worden.",
+    "warn_delete"           => "Hiermee wordt het <strong>:name</strong> :record permanent verwijderd.",
+    "delete_confirm"        => "Ja, :record verwijderen",
+    "keep_record"           => "Nee, :record behouden",
+    "delete_relations"      => "Als u het <strong>:name</strong> :record verwijdert worden ook alle volgende gerelateerde gegevens definitief verwijderd:",
+    "please_check"          => "U moet alle bovenstaande vakjes aanvinken om te bevestigen dat u het resultaat van deze onomkeerbare actie begrijpt.",
+    "failed_attachments"    => "Bijvoegen van sommige bestanden is mislukt.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Succes - de e-mail is verzonden.",
+    "task_already_running"  => "De geplande taak wordt momenteel automatisch uitgevoerd. Probeer het binnenkort opnieuw.",
+    "linked_account"        => "Het sociale account is succesvol gekoppeld aan uw account.",
+    "already_linked"        => "Het sociale account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Ziet dit er correct uit?",
+    "no_revert"             => "Nee! Terugdraaien",
+    "attachment_not_found"  => "De bijlage is niet gevonden.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Uw account is gesloten. Neem contact met ons op als u denkt dat dit ten onrechte is gebeurd.",
+    "leave_record"          => ":record behouden?",
+    "leave_record_warn"     => "Hiermee wordt u definitief verwijderd uit het  :record.",
+    "success_trashed"       => "Het :item is verplaatst naar de prullenbak!",
+    "error_trashed"         => "Kan het :item niet naar de prullenbak verplaatsen.",
+    "blocked_by_rule"       => "Het verzoek is geblokkeerd door een spamregel ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
+    "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
 );

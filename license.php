@@ -52,4 +52,14 @@ return array(
      */
     "enter_new_key"     => "Vul nieuwe licentiesleutel in",
 
+    /*
+     * 2.3.1
+     */
+    "license_valid"     => "Licentie geldig!",
+
+    /*
+     * 2.4.1
+     */
+    "multi_ip_support"  => "Overweeg om <a href=':href' target='_blank'>Multi-IP ondersteuning</a> in het klantpaneel in te schakelen om extra IP-adressen te definiëren.",
+
 );

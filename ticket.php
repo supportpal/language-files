@@ -93,31 +93,28 @@ return array(
     "dept_default_assign_desc"  => "Gebruik dit wanneer nieuwe tickets voor deze afdeling standaard moeten worden toegewezen aan een of meer operators.",
 
     // Department emails
-    "email_accounts_desc"       => "Stel een emailadres per afdeling in. Elke inkomende email hiet zal worden aangemaakt als ticket voor deze afdeling. Het eerste adres zal standaard worden gebruikt als verzendadres.",
-    "department_password"       => "Vul alleen een wachtwoord in wanneer deze is veranderd of wanneer het emailadres moet worden gecontroleerd.",
-    "department_port"           => "Standaard porten zijn:110 voor POP3, 995 voor beveiligde POP3, 143 voor IMAP, en 993 voor beveiligde IMAP. Laat leeg voor standaard port.",
-    "department_encryption"     => "Sommige emailproviders vereisen een SSL of TLS verbinding voor de email..",
+    "email_accounts_desc"       => "Stel een emailadres per afdeling in. Elke inkomende email hiet zal worden aangemaakt als ticket voor deze afdeling. Het eerste adres zal standaard worden gebruikt als verzendadres",
+    "department_port"           => "Standaard porten zijn:110 voor POP3, 995 voor beveiligde POP3, 143 voor IMAP, en 993 voor beveiligde IMAP. Laat leeg voor standaard poort.",
+    "department_encryption"     => "Sommige e-mailproviders hebben SSL- of TLS-codering nodig om verbinding te maken. Als u het niet zeker weet, laat u deze instelling op geen staan .",
     "department_delete_mail"    => "Wanneer IMAP gebruikt wordt is het mogelijk te kiezen om de email niet uit de mailbox te verwijderen wanneer ze zijn geimporteerd als tickets.",
     "protocol"                  => "Protocol",
     "server"                    => "Mail Server",
-    "port"                      => "Port",
-    "username"                  => "Gebruikersnaam",
-    "password"                  => "Wachtwoord",
-    "encryption"                => "Encryptie",
-    "delete_downloaded"         => "Verwijder gedownloade email",
-    "consume_all"               => "Haal alle email op",
-    "email_download"            => "Email download",
-    "email_piping"              => "Email piping",
-    "email_piping_desc"         => "Stel een emailforwarder in als hieronder. Het pad naar PHP kan verschillen in uw setup..",
+    "port"                      => "Poort",
+    "encryption"                => "Encryption",
+    "delete_downloaded"         => "Verwijder gedownloade e-mail",
+    "consume_all"               => "Consumeer alle e-mail",
+    "email_download"            => "Email Download",
+    "email_piping"              => "Email Piping",
+    "email_piping_desc"         => "Stel een e-mailforwarder in zoals hieronder, het PHP-uitvoerbare pad kan op uw server anders zijn. ",
     "remote_email_piping"       => "Remote Email Piping",
 
     // Department email options
-    "email_options"             => "Email Opties",
-    "email_auto_close"          => "Email gebruikers wanneer ticket automatisch wordt gesloten",
+    "email_options"             => "E-mail Opties",
+    "email_auto_close"          => "E-mail gebruikers wanneer ticket automatisch wordt gesloten",
     "email_auto_close_desc"     => "Selecteer wanneer gebruikers een email moeten krijgen dat er tickets van hen automatisch worden afgesloten.",
-    "email_closed_by_operator"  => "Email gebruikers wanneer ticket wordt gesloten door operator",
+    "email_closed_by_operator"  => "E-mail gebruikers wanneer ticket wordt gesloten door operator",
     "email_closed_by_op_desc"   => "Selecteer wanneer gebruikers een email moeten krijgen wanneer er een ticket van hen wordt afgesloten door een operator.",
-    "email_user_on_email"       => "Email gebruikers wanneer ze een ticket openen via email",
+    "email_user_on_email"       => "E-mail gebruikers wanneer ze een ticket openen via email",
     "email_user_on_email_desc"  => "Selecteer wanneer gebruikers een email moeten keijgen wanneer een email die ze sturen wordt opgenomen als ticket.",
     "email_operators"           => "Bericht operators",
     "email_operators_desc"      => "Selecteer wanneer antwoorden van operators moeten worden doorgestuurd naar andere operators. Standaard wordt de \"email operators\" optie in het operator panel gezet, en stuurt dan automatisch een email bij email replies van operators.",
@@ -312,7 +309,7 @@ return array(
     "change_department"         => "Verander afdeling",
     "change_status"             => "Verander status",
     "no_statuses"               => "Geen status gevonden. Klik <a href=':route'>hier</a> om aan te maken",
-    "no_priorities"             => "Geen prioriteiten gevonden. Klik <a href=':route'>hier</a> om aan te maken", 
+    "no_priorities"             => "Geen prioriteiten gevonden. Klik <a href=':route'>hier</a> om aan te maken",
     "no_templates"              => "Geen aangepaste e-mailsjablonen gevondend. Klik <a href=':route'>hier</a> om aan te maken",
     "no_tags"                   => "Geen ticket tags gevonden. Klik <a href=':route'>hier</a> om aan te maken",
     "no_departments_found"      => "Geen afdelingen gevonden. Klik <a href=':route'>hier</a> om aan te maken",
@@ -367,6 +364,7 @@ return array(
     "opened_by"                 => "(Geopend door:name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
     "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
+
     /*
      * 2.0.3
      */
@@ -396,22 +394,18 @@ return array(
     "default_open_status_desc"  => "Selecteer de standaardstatus die automatisch moet worden ingesteld wanneer een gebruiker een nieuw ticket opent of antwoordt op een ticket, wanneer een operator nog niet gereageeerd heeft.",
     "default_reply_status"      => "Standaard Antwoord Status",
     "default_reply_status_desc" => "Selecteer de standaardstatus die automatisch moet worden ingesteld wanneer een gebruiker op een ticket antwoordt, is alleen van toepassing nadat een operator op het ticket heeft geantwoord.",
-    "drafting_reply"            => "<strong>:name</strong> started to draft a :type :time:",
     "ticket_reply_order_default" => "Systeemstandaard gebruikt de waarde die momenteel is geselecteerd in de algemene ticketinstellingen.",
     "select_a_parent"           => "Selecteer een bovenliggende afdeling...",
     "select_a_department"       => "Selecteer een afdeling...",
-    "not_assigned_brand"        => "Sorry, het is niet toegestaan om tickets van deze soort te bekijken. Als u denkt dat dit ten onrechte is, neemt u dan contact op met uw beheerder.",
-    "department_operator_desc"  => "U kunt ook individuele operators aan de afdeling toewijzen. Deze operators komen bovenop de hierboven toegewezen groepen.",
+    "department_operator_desc"  => "U kunt ook individuele operators aan de afdeling toewijzen. Deze operators komen bovenop de groepen die hierboven zijn toegewezen.",
     "department_group"          => "Afdeling Groepen",
     "department_group_desc"     => "U kunt hele groepen operatoren toewijzen aan de afdeling, aanbevolen als uw lijst met operators groot is en / of regelmatig wordt gewijzigd.",
-    "ticket_other_brands"       => "Tickets van andere Soort",
-    "add_for_department"        => "Toevoegen voor Afdeling...",
+    "ticket_other_brands"       => "Tickets in Andere Merken",
+    "add_for_department"        => "Toevoegen voor afdeling...",
     "record_order"              => "Versleep de rijen om de volgorde van records te wijzigen.",
-    "ticket_token"              => "Ticket Token",
-    "reply_all"                 => "Allen Beantwoorden",
+    "reply_all"                 => "Alle Beantwoorden",
     "reply_without_cc"          => "Beantwoord (zonder CC)",
-    "open_new_for_user"         => "Open Nieuw Ticket Voor Gebruiker",
-    "email_accounts"            => "Email Accounts",
+    "email_accounts"            => "E-mail Accounts",
     "add_another_email"         => "Een ander e-mailadres toevoegen",
     "follow_up_date"            => "Opvolgende datum",
     "post_reply"                => "Reageer",
@@ -478,4 +472,119 @@ return array(
     "filter_performance_desc"   => "<li>Filters die meerdere tickets bestrijken zullen langzamer zijn. Probeer zoveel mogelijk opgeloste tickets uit te sluiten.</li><li>Filters met een 'is not'-voorwaarde zijn langzamer dan met een  'is'-voorwaarde.</li><li>Filters die checken voor NULL waardes (zoals ticket tag is None) zijn langzamer.</li><li>Beperk gebruik van meerdere voorwaardes die strings/woorden checken omdat dit meer complexiteit brengt.</li><li>Filters met 'begint met' of 'bevat' voorwaardes zijn langzamer dan 'is gelijk' of 'eindigt op'.</li><li>Opgelost tickets worden niet meegeteld in de sidebar.</li>",
     "run_macro"                 => "Voer macro uit",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
+
+    /*
+     * 2.3.0
+     */
+    "registered_users_desc"     => "Toggle om de afdeling alleen te tonen aan ingelogde gebruikers en alleen e-mails te accepteren van gebruikers die actief zijn geregistreerd bij de helpdesk. Indien ingeschakeld, wordt een teruggestuurde e-mail verzonden naar niet-geregistreerde gebruikers die deze afdeling e-mailen. Om de e-mail te wijzigen of uit te schakelen, zie de sjabloonoptie 'Alleen geregistreerde gebruikers' hieronder.",
+    "form_fields_desc"          => "Als u aanvullende informatie wilt verzamelen wanneer de gebruiker feedback geeft, kunt u aangepaste velden instellen om hier op het formulier weer te geven. Het veldtype wordt vergrendeld zodra het formulier is ingevuld door een gebruiker.",
+    "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op uw klanttevredenheidsscore) ",
+    "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
+    "delete_message"            => "Verwijder bericht",
+    "linked_tickets"            => "Linked Tickets",
+    "add_linked_ticket"         => "Linked Ticket Toevoegen",
+    "create_linked_ticket"      => "Linked ticket Aanmaken",
+    "copy_link"                 => "Kopieer link",
+    "forward_message"           => "Bericht doorsturen",
+    "forward_from_here"         => "Bericht doorsturen vanaf hier",
+    "forward"                   => "Doorsturen",
+    "forward_options"           => "Doorstuur opties",
+    "forwarded_to"              => "Doorsturen naar",
+    "new_operator_reply"        => "Nieuw Operator Antwoord",
+    "new_user_reply"            => "Nieuw Gebrukers Antwoord",
+    "add_bcc"                   => "BCC Toevoegen",
+    "at_least_one_recipient"    => "Geef ten minste één ontvanger op.",
+    "forwarded_message"         => "---------- Doorgestuurd bericht ----------",
+
+    /*
+     * 2.3.1
+     */
+    "inactive_ticket_note"      => "Let op: heeft alleen betrekking op tickets die behoren tot een status waarvoor 'Inactieve tickets sluiten' is ingeschakeld.",
+    "close_inactive_status_desc" => "Schakelen om automatische sluiting van inactieve tickets en e-mailherinneringen voor inactiviteit in / uit te schakelen (sjablonen 'Waiting For Response' en 'Ticket Auto Closed'). Indien ingeschakeld, kan de tijd voordat herinneringen worden verzonden, worden geconfigureerd via de algemene instellingen van het ticket.",
+    "from_header_missing"       => "Van: koptekst ontbreekt in e-mail.",
+    "move_ticket"               => "Ticket verplaatsen",
+    "move_ticket_step1"         => "Stap 1: Kies een nieuw merk om het ticket naar te verplaatsen.",
+    "move_ticket_step2"         => "Stap 2: Kies een afdeling van een nieuw merk.",
+    "current_record"            => "Huidig :record",
+    "new_record"                => "Nieuw :record",
+    "department_email"          => "Afdeling E-mail",
+    "select_a_department_email" => "Selecteer een afdelings-e-mailadres...",
+    "record_public_desc"        => "Schakel in om deze :record alleen toegankelijk maken voor u zelf.",
+    "record_group_desc"         => "Als u het :record alleen zichtbaar wilt maken voor bepaalde gebruikersgroepen. Laat leeg om zichtbaar te maken voor alle operators.",
+    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
+
+    /*
+     * 2.4.0
+     */
+    "macro_enabled_desc"        => "Toggle om de macro uit te schakelen en te voorkomen dat deze automatisch wordt uitgevoerd of wordt weergegeven in de ticketinterface.",
+    "macro_order_drag"          => "Versleep de rijen om de volgorde van de macro's te wijzigen.",
+    "macro_order_processed"     => ":type macro's worden verwerkt in de volgorde waarin ze verschijnen .",
+    "macro_type"                => "Macro Type",
+    "macro_type_desc"           => "Er zijn drie soorten macro's beschikbaar. Handmatige macro's kunnen alleen worden uitgevoerd vanuit de ticketweergave of het raster, automatische macro's worden elk uur uitgevoerd op onopgeloste tickets en hookmacro's kunnen worden uitgevoerd op specifieke ticketgebeurtenissen. Automatische macro's en hook-macro's kunnen ook worden ingesteld om alleen binnen specifieke schema's te worden uitgevoerd. Alle hook-macro-acties zullen geen andere hook-macro's activeren om het risico van lussen te vermijden .",
+    "macro_run_at_most"         => "Draai maximaal",
+    "macro_run_times"           => "keer", // As in '5 times'
+    "macro_run_at_most_desc"    => "Beperk het aantal keren dat een automatische macro op een enkel ticket kan worden uitgevoerd, laat leeg om het een onbeperkt aantal keren te laten draaien.",
+    "macro_events_desc"         => "Selecteer een of meer gebeurtenissen waarop de macro moet worden uitgevoerd. De onderstaande voorwaarden worden gecontroleerd voordat de macro wordt uitgevoerd.",
+    "macro_schedules_desc"      => "Standaard draait de macro 24/7, maar u kunt een of meer helpdeskschema's selecteren zodat de macro alleen op die tijden actief is.",
+    "macro_condition_desc"      => "Definieer de voorwaarden waarvoor tickets deze macro beschikbaar zal zijn. Standaard is het zonder voorwaarden van toepassing op alle tickets. Er moet ten minste één voorwaarde zijn gedefinieerd voor automatische macro's.",
+    "add_remove_headers"        => "Headers Toevoegen / Verwijderen",
+    "webhook_merge_fields"      => "Samenvoegvelden kunnen worden gebruikt in het URL- en inhoudveld, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">leer meer</a>.",
+    "webhook_ticket_required"   => "Er moet een ticket zijn om deze functionaliteit te laten werken.",
+    "not_permitted"             => "Sorry, het is niet toegestaan om de gevraagde ticket (s) te bekijken. Als u denkt dat dit ten onrechte is weergegeven, neem dan contact op met uw beheerder.",
+    "watch"                     => "Monitoren",
+    "unwatch"                   => "Unmonitor",
+    "watching"                  => "Gemonitord",
+    "internal_ticket"           => "Interne Ticket|Interne Tickets",
+
+    /*
+     * 2.4.1
+     */
+    "downloading"               => "Downloaden...",
+    "downloading_desc"          => "Als de download niet binnen een paar seconden automatisch start, gelieve <a href=':href'>hier te klikken</a> om rechtstreeks toegang te krijgen tot de download-URL.",
+
+    /*
+     * 2.5.0
+     */
+    "belonging_to"              => "(Behorend bij :name)",
+    "block_user"                => "Blokeer Gebruiker",
+    "merge_tickets"             => "Tickets Samenvoegen",
+
+    /*
+     * 2.5.1
+     */
+    "channel_account_removed"   => "Het ticketkanaalaccount is gedeactiveerd of verwijderd, er kan geen reactie worden geplaatst.",
+
+    /*
+     * 2.6.0
+     */
+    "follow_ups"                => "Follow-ups",
+    "follow_up_multiple_active" => "Meerdere <a class='view-followup' style='text-decoration: underline;'>follow-ups</a> zijn momenteel actief op dit ticket en de volgende geplande wordt uitgevoerd op <strong>:time</strong>.",
+    "follow_up_no_actions"      => "Er zijn geen acties ingesteld voor de follow-up. Bevestig of u wilt doorgaan.",
+    "status_after_running"      => "Status na uitvoering",
+    "older_messages"            => ":count oudere berichten ",
+    "holiday_single_day"        => "Enkele dag",
+    "holiday_date_range"        => "Datumbereik",
+
+    /*
+     * 3.0.0
+     */
+    "merge_tickets_into"        => "Selecteer ticket om mee samen te voegen",
+    "search_number_or_subject"  => "Zoek op ticketnummer of onderwerp",
+    "im_not_sure"               => "Ik weet het niet zeker",
+    "auto_reply_detected"       => "Automatisch antwoord gedetecteerd - er wordt geen melding naar de gebruiker (s) gestuurd.",
+    "cc_desc"                   => "Je kunt andere mensen naar dit ticket sturen door hier e-mailadressen in te voeren.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was een bericht aan het opstellen ",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Handmatig instellen",
+    "unresolved"                => "Niet opgelost",
+    "resolved"                  => "Opgelost",
+    "manage_oauth_options"      => "Om OAuth-opties toe te voegen of te beheren, gaat u naar de <a href=\":route\">Integraties van derden</a> pagina.",
+
 );

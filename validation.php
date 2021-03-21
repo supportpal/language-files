@@ -69,35 +69,104 @@ return array(
         "string"  => "De :attribute moet :size tekens zijn.",
         "array"   => "De :attribute moet :size items bevatten.",
     ),
-    "unique"                    => "De :attribute is reeds bezet.",
-    "url"                       => "Het :attribute formaat is ongeldig.",
-    "timezone"                  => "De :attribute moet een geldige zone zijn.",
-    "template_exists"           => "De geselecteerde :attribute is ongeldig.",
-    "is_valid_captcha"          => "De captcha code is niet correct ingevuld. Probeer opnieuw.",
-    "user_password_length"      => "Het wachtwoord moet minstens :user_password_length tekens lang zijn.",
-    "operator_password_length"  => "Het wachtwoord moet minstens:operator_password_length tekens lang zijn.",
-    "json"                      => "De :attribute moet een geldige JSON zijn.",
-    "user_password_strength"    => "De :attribute moet :user_password_strength zijn.",
-    "operator_password_strength" => "De :attribute moet contain: :operator_password_strength zijn.",
-    "twig_lint"                 => "De :attribute moet geldige twig syntax zijn, zie http://twig.sensiolabs.org/doc/templates.html",
+    "unique"                    => "Het :attribute is al bezet.",
+    "url"                       => "Het :attribute formaat is onjuist.",
+    "template_exists"           => "Het geselecteerde :attribute is onjuist.",
+    "is_valid_captcha"          => "De ingevoerde captcha-code was ongeldig of onjuist, probeer het opnieuw.",
+    "user_password_strength"    => "Het :attribute moet :user_password_strength tekens bevaten.",
+    "operator_password_strength" => "Het :attribute moet :operator_password_strength tekens bevatten.",
 
     /*
      * 2.1.0
      */
-    "in_array"                  => "De :attribute veld bestaat niet in :other.",
     "logo"                      => "Het logo moet wijzen naar een geldige afbeelding (direct URL of relatief pad vanaf base directory).",
 
     /*
      * 2.1.1
      */
     "old_password"              => "Het :attribute veld is ongeldig.",
-    
+
     /*
      * 2.2.0
      */
-    "required_with_translation" => "De :translation vertaling voor het :attribute veld is verplicht wanneer :values is ingesteld.",
-    "max_translation"           => "De :translation vertaling voor het :attribute veld mag niet langer dan :max tekens zijn.",
-    "unique_translation"        => "De :translation vertaling voor het :attribute veld is reeds ingebruik.",
+    "required_with_translation" => "De :translation vertaling voor het :attribute veld is verplicht als :values aanwezig zijn.",
+    "max_translation"           => "De :translation vertaling voor het :attribute veld mag niet groter zijn dan :max characters tekens.",
+    "unique_translation"        => "De :translation vertaling voor het :attribute veld is al bezet.",
+
+    /*
+     * 2.3.0
+     */
+    "required_translation"      => "De :translation vertaling fvoor het :attribute veld is verplicht.",
+    "customfield_not_cyclic"    => "Het veld kan niet afhankelijk zijn van een van zijn kinderen.",
+
+    /*
+     * 2.3.1
+     */
+    "is_slug"                   => "Het slug-veld mag alleen alfanumerieke tekens bevatten, codeer alstublieft procentuele speciale tekens. ",
+    "article_slug_unique"       => "De slug is al in gebruik.",
+    "captcha_required"          => "De captcha is vereist.",
+    "ticket_number_format"      => "Het formaat van het ticketnummer is ongeldig.",
+
+    /*
+     * 2.4.0
+     */
+    "after_or_equal"            => "De :attribute moet een datum na of gelijk zijn aan :date.",
+    "before_or_equal"           => "De :attribute moet een datum voor of gelijk zijn aan :date.",
+    "dimensions"                => "De :attribute heeft ongeldige afbeeldingsafmetingen.",
+    "distinct"                  => "Het :attribute veld heeft een dubbele waarde.",
+    "file"                      => "Het :attribute moet een bestand zijn.",
+    "filled"                    => "Het :attribute veld moet een waarde hebben.",
+    "gt"                        => array(
+        "numeric" => "Het :attribute moet groter zijn dan :value.",
+        "file"    => "Het :attribute moet groter zijn dan :value kilobytes.",
+        "string"  => "De :attribute moet groter zijn dan :value characters.",
+        "array"   => "De :attribute moet groter zijn dan :value items.",
+    ),
+    "gte"                       => array(
+        "numeric" => "Het :attribute moet groter zijn dan of gelijk zijn aan :value.",
+        "file"    => "Het :attribute moet groter zijn dan of gelijk zijn aan :value kilobytes.",
+        "string"  => "De :attribute moet groter zijn dan of gelijk zijn aan :value characters.",
+        "array"   => "De :attribute moet :value items bevatten of meer.",
+    ),
+    "in_array"                  => "Het :attribute veld bestaat niet in :other.",
+    "ipv4"                      => "Het :attribute moet een geldig IPv4 adres zijn.",
+    "ipv6"                      => "Het :attribute moet een geldig IPv6 adres zijn.",
+    "json"                      => "Het :attribute moet een geldige JSON string zijn.",
+    "lt"                        => array(
+        "numeric" => "Het :attribute moet kleiner zijn dan :value.",
+        "file"    => "Het :attribute moet kleiner zijn dan :value kilobytes.",
+        "string"  => "De :attribute moet kleiner zijn dan :value characters.",
+        "array"   => "De :attribute moet kleiner zijn dan :value items.",
+    ),
+    "lte"                       => array(
+        "numeric" => "Het :attribute moet kleiner zijn dan of gelijk zijn :value.",
+        "file"    => "Het :attribute moet kleiner zijn dan of gelijk zijn :value kilobytes.",
+        "string"  => "De :attribute moet kleiner zijn dan of gelijk zijn :value characters.",
+        "array"   => "De :attribute moet kleiner zijn dan of gelijk zijn :value items.",
+    ),
+    "mimetypes"                 => "Het :attribute moet een bestand zijn van type: :values.",
+    "not_regex"                 => "Het :attribute formaat is onjuist.",
+    "present"                   => "Het :attribute veld moet aanwezig zijn.",
+    "required_unless"           => "Het :attribute veld is verplicht, tenzij :other aanwezig is in :values.",
+    "string"                    => "Het :attribute moet een string zijn.",
+    "timezone"                  => "Het :attribute moet een geldige zone zijn.",
+    "uploaded"                  => "Het uploaden van :attribute is mislukt.",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Een of meer van de domeinnamen zijn niet geldig.",
+
+    /*
+     * 2.5.1
+     */
+    "valid_twig"                => "Het :attribute is ongeldig. Gebruik de 'Preview'-knop voor foutdetails. ",
+
+    /*
+     * 3.0.0
+     */
+    "embed_image"               => "Het :attribute moet een jpeg, png, of gif zijn.",
+    "starts_with"               => "Het :attribute moet beginnen met een van de volgende: :values.",
 
     /*
     |--------------------------------------------------------------------------
@@ -111,44 +180,19 @@ return array(
     */
 
     "custom" => array(
-        "data.*.subject" => array(
-            "required" => "Een onderwerp is verplicht voor elke email."
-        ),
-        "data.*.contents" => array(
-            "required"  => "Berichtinhoud is verplicht voor elke email.",
-            "twig_lint" => "Elke email moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html",
-        ),
-        "roles.*" => array(
-            "exists" => "De geselecteerde rol is ongeldig.",
-        ),
-        "category.*.type" => array(
-            "required" => "Een of meer self-service types moeten zijn geselecteerd.",
-        ),
-        "category.*.categories" => array(
-            'required' => "Een of meerdere categorieen zijn verplicht wanneer een self-service type is geselecteerd.",
-            "exists"   => "Een of meerdere geselecteerde categorieen is ongeldig.",
-        ),
-        "brand.*" => array(
-            "exists" => "Het geselecteerde merk is ongeldig.",
-        ),
-        "signature.Default.*.department" => array(
-            "exists" => "Elke ondertekening moet bij een geldige afdeling horen.",
-        ),
-        "signature.Default.*.contents" => array(
-            "twig_lint" => "Elke ondertekening moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html"
-        ),
-        "template.Default.*.language" => array(
-            "exists" => "Elke template moet bij een geldige taal horen.",
-        ),
-        "template.Default.*.subject" => array(
-            "min" => "Elk emailtemplateonderwerp moet langer zijn dan 1 teken.",
-            "max" => "Elk emailtemplateonderwerp moet maximaal 255 tekens zijn.",
-        ),
-        "template.Default.*.contents" => array(
-            "required_with" => "Elke emailtemplate vereist content wanneer een onderwerp is ingesteld.",
-            "min" => "Elke emailtemplate moet langer zijn dan 1 teken.",
-            "twig_lint" => "Elk emailtemplate moet een geldige twig syntax hebben, zie http://twig.sensiolabs.org/doc/templates.html"
-        ),
+       "roles.*" => array(
+           "exists" => "De geselecteerde rol is ongeldig.",
+       ),
+       "category.*.type" => array(
+           "required" => "Er moeten een of meer zelfbedieningstypen worden geselecteerd.",
+       ),
+       "category.*.categories" => array(
+           "required" => "Een of meer categorieën zijn vereist wanneer een zelfbedieningstype is geselecteerd .",
+           "exists"   => "Een of meer van de geselecteerde categorieën is ongeldig.",
+       ),
+       "brand.*" => array(
+           "exists" => "Het geselecteerde merk is ongeldig.",
+       ),
     ),
 
     /*

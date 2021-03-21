@@ -18,7 +18,7 @@ return array(
     "access_level"                  => "Toegangsniveau",
     "access_level_desc"             => "Definieer het toegangsniveau van de gebruiker in de organisatie gebaseerd op het volgende schema:<br /><strong>Manager</strong> - Kan tickets opened van alle gebruikers in de oranisatie inzien en gebruikers beheren<br /><strong>Gebruiker</strong> - Kan alleen eigen tickets inzien",
     "manage_organisation"           => "Beheer organisatie",
-    "leave_organisation"            => "Verlaat organisation",
+    "leave_organisation"            => "Verlaat organisatie",
     "user_membership"               => "Gebruikerlidmaatschap",
     "organisation_no_longer"        => "Deze gebruiker zal geen deel meer uitmaken van deze organisatie.",
     "transfer_ownership"            => "Draag ownership over",
@@ -188,11 +188,11 @@ return array(
     "simpleauth_token_invalid"      => "Toegangstoken is ongeldig.",
     "simpleauth_invalid_guard"      => "U kunt niet inloggen in een niet-geverifeerd account.",
     "simpleauth_not_allowed"        => "Operators kunnen niet inloggen met SimpleAuth.",
-    
+
     /*
      * 2.0.2
      */
-    
+
     "email_history"                 => "Emailhistorie",
     "view_email"                    => "Bekijk Email",
 
@@ -202,7 +202,7 @@ return array(
     "ban_length"                    => "Lengte van de IP blokkade",
     "ban_length_desc"               => "De lengte van de ip blokkade wanneer het ingestelde maximum aan inlogpogingen per dag wordt bereikt.",
     "n_failed_logins"               => ":count mislukte inlogpogingen in 24 uur",
-    
+
     /*
      * 2.0.3
      */
@@ -219,12 +219,12 @@ return array(
     "mass_email_sending_time"       => "Het zal ongeveer :time duren om alle emails te versturen.",
     "organisations_enabled"         => "Organisaties ingesteld",
     "organisations_enabled_desc"    => "Gebruikers kunnen een organisatie toevoegen aan hun profiel en andere gebruikers toevoegen aan deze organisatie. Wanneer u alleen met klaten te maken hebt kunt u de organisatieoptie uitschakelen en verbergen van de interface.",
-    "manager_notifications"         => "Organisation Manager meldingen",
+    "manager_notifications"         => "Organisatie Manager meldingen",
     "manager_notifications_desc"    => "Wanneer managers of organisaties emailupdates moeten ontvangen or tickets geopend kunnen worden door andere gebruikers in de organisatie. Elke manager heeft een eigen optie hiervoor in het profiel maar met deze instelling kan dat worden overschreven.",
     "manager_email_notifications_desc" => "Indien ze meldingen moeten krijgen van updates op tickets die geopend zijn door andere gebruikers in de organisatie.",
     "organisation_notifications_desc" => "Indien u meldingen wilt krijgen van updates op tickets die geopend zijn door andere gebruikers in uw organisatie.",
     "select_operator_group_desc"    => "Selecteer ten minste een operatorgroep voor deze operator.",
-    
+
     /*
      * 2.1.0
      */
@@ -276,7 +276,86 @@ return array(
     /*
      * 2.2.0
      */
-    "user_name_format_desc"         => "Het formaat dat wordt gebruikt om de gebruikersnamen te tonen binnen het systeem.",
-    "operator_name_format_desc"     => "Het formaat dat wordt gebruikt om de operatornamen te tonen binnen het systeem.",
+    "user_name_format_desc"         => "De indeling die wordt gebruikt om gebruikersnamen in het hele systeem weer te geven .",
+    "operator_name_format_desc"     => "De indeling die wordt gebruikt om namen van operators in het hele systeem weer te geven.",
 
+    /*
+     * 2.3.0
+     */
+    "remove_from"                   => "Verwijderen Van :record?",
+    "remove_from_warn"              => "<Hiermee wordt de gebruiker strong>:name</strong>  definitief verwijderd uit :record.",
+
+    /*
+     * 2.3.1
+     */
+    "social_login"                  => "Sociale Login",
+    "login_via"                     => "Log in via :provider",
+    "idp"                           => "IdP",
+    "social_linking_login"          => "Log in om het koppelen van uw sociale account te voltooien. ",
+    "social_linking_register"       => "Vul de onderstaande gegevens in om de registratie van uw account te voltooien. Uw sociale account wordt automatisch gekoppeld .",
+    "already_registered"            => "Al geregistreerd?",
+    "linked_accounts"               => "Gelinkte Accounts",
+    "unlink_account"                => "Unlink :record Account",
+    "unlink_account_warning"        => "Als u het sociale account ontkoppelt, kan deze niet langer worden gebruikt om rechtstreeks op het account in te loggen .",
+    "failed_login"                  => "Misluke Login|Misluke Logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Klik hier</a></strong> om een nieuwe bevestigingsmail te sturen.",
+
+    /*
+     * 2.4.0
+     */
+    "must_have_permission"          => "U moet de  \":permission\" permissie",
+    "deleted_user"                  => "Verwijderde gebruiker",
+    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+
+    /*
+     * 2.4.1
+     */
+    "select_or_new_organisation"    => "Selecteer een bestaande of voer een nieuwe organisatie in... ",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
+    "changing_email_desc"           => "Als u het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
+    "unconfirmed_user_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet bevestigd. ",
+    "unregistered_user_desc"        => "Dit account is automatisch gemaakt zonder wachtwoord. U kunt een bevestigingsmail sturen om hen een eigen account te laten aanmaken of hieronder een wachtwoord voor hen instellen.",
+    "send_confirmation_email"       => "Verstuur bevestigingsmail",
+    "mark_as_confirmed"             => "Markeren als opgelost",
+    "password_reset_already"        => "U heeft al bevestigd dat u eigenaar bent van dit e-mailadres. ",
+    "unconfirmed_account"           => "Controleer uw e-mail om te bevestigen dat u eigenaar bent van dit e-mailadres.",
+    "success_register_desc"         => "Bedankt voor het registreren van een account. Controleer uw e-mail om de accountconfiguratie te voltooien.",
+    "reset_request_desc"            => "Controleer uw e-mail om het proces voor het opnieuw instellen van het wachtwoord te voltooien.",
+    "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
+    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van uw e-mail. Voer hieronder een wachtwoord in om het instellen van uw account te voltooien.",
+    "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van uw e-mailadres.",
+    "use_gravatar"                  => "Gravatar gebruikersnaam",
+    "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als u deze functie inschakelt.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "Om de update van uw e-mailadres te voltooien, klikt u op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
+    "confirmation"                  => "Bevestiging",
+    "confirmation_email_in_use"     => "Het e-mailadres wordt al gebruikt door een andere account.",
+    "continue_to_login"             => "Ga verder naar <a href=':route'>login</a>.",
+    "reset_request_desc"            => "Als er een account is gevonden, ontvangt u binnenkort een e-mail waarmee u uw wachtwoord opnieuw kunt instellen.",
+    "password_reset_error"          => "De link is mogelijk verlopen. Als je link om wat voor reden dan ook niet werkt, vraag dan een nieuwe aan.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is gekoppeld aan een LDAP-service. Log in met uw LDAP-gebruikersnaam en wachtwoord.",
+    "operator_message"              => "Operator Berichten",
+    "force_two_fa"                  => "2FA Forceren",
+    "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen.",
+    "two_fa_required"               => "Tweefactorauthenticatie (2FA) is vereist. Volg de onderstaande informatie om door te gaan.",
+    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld, log opnieuw in om het instellen te voltooien",
+    "two_fa_user_enable"            => "De gebruiker kan 2FA inschakelen op zijn account in zijn instellingen.",
+
+    /*
+     * 3.3.0
+     */
+    "remove_avatar"                 => "Verwijder Avatar",
+    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account .",
+    "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren ",
 );
