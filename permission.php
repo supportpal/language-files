@@ -119,4 +119,9 @@ return array(
      */
     "integration"       => "Beheer integraties van derden",
 
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
+
 );

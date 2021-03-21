@@ -99,4 +99,9 @@ return array(
      */
     "user_has_organisation"             => "Gebruiker heeft een organisatie.",
 
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
+
 );

@@ -3,9 +3,7 @@
 return array(
 
     "popular_items"             => "Populaire items",
-    "type_popular_items"        => ":type: Populair",
     "latest_items"              => "Laatste Items",
-    "type_latest_items"         => ":type: Laatste",
 
     "selfservice"               => "Self-Service",
     "article"                   => "Artikel|Artikelen",
@@ -16,19 +14,12 @@ return array(
 
     "frontend_icon"             => "Frontend Icoon",
 
-    "type_view_desc"            => "Indien uw content meerdere Categorieën bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
-    "frontend_icon"             => "Frontend icoon",
-    "frontend_icon_desc"        => "Selecteer een standaard icoon om in de frontend te tonen. U kunt natuurlijk ook uw eigen icoon uploaden:",
-
     "no_categories"             => ":type heeft momenteel geen Categorieën. Maak er eentje voor een artikel te plaatsen.",
     "no_categories_frontend"    => "Er zijn geen Categorieën om te tonen.",
 
     "awaiting_moderation"       => "Wacht op goedkeuring",
     "published"                 => "Gepubliceert op:",
     "spam"                      => "Spam",
-
-    "show_text"                 => "Toon text",
-    "hide_text"                 => "Verberg text",
 
     "hierarchical"              => "Hierarchisch",
     "list"                      => "Lijst",
@@ -52,7 +43,6 @@ return array(
     "login_comment"             => "U moet ingelogd zijn om een reactie achter te laten.",
     "incorrect_captcha"         => "De captcha was niet correct",
     "comment_blocked"           => "De reactie is geblocked omdat deze als spam is aangemerkt.",
-    "comment_error"             => "De reactie kon niet geplaatst worden.",
     "comment_success"           => "Uw reactie is ingediend!",
     "comment_success_moderated" => "Uw reactie is ingediend en wacht nu op een moderator.",
 
@@ -60,7 +50,6 @@ return array(
     "comment_rated_error"       => "De reactie kon niet worden voorzien van een waardering.",
 
     "article_find_useful"       => "Vond u dit artikel zinvol?",
-    "article_found_useful"      => "mensen vonden dit artikel zinvol.",
     "article_rated_success"     => "Het artikel is voorzien van een waardering.",
     "article_rated_error"       => "Het artikel kon niet worden voorzien van een waardering.",
 
@@ -100,14 +89,10 @@ return array(
     "enable_ratings_desc"       => "Schakel artikelwaarderingen in",
     "post_rating"               => "Waardeer artikel",
     "post_rating_desc"          => "Of artikelen door iedereen kunnen worden gewaardeerd of alleen door ingelogde gebruikers.",
-    "show_rating"               => "Toon waarderingen",
-    "show_rating_desc"          => "Toon artikelwaarderingen aan iedereen (openbaar) of alleen aan geregistreerde gebruikers.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Om het artikel te zien moet u eerst ingelogd zijn.",
-    "download_auth_required"    => "Om een bijlage in het artikel te zien moet u eerst ingelogd zijn",
     "auth_required"             => "Om een artikel te zien moet u eerst ingelogd zijn.",
 
     /*
