@@ -6,7 +6,6 @@ return array(
 
     // Core
     "apitoken"          => "Administrar API Tokens",
-    "company"           => "Administrar compañías",
     "emailtemplate"     => "Administrar plantillas de correo",
     "ipban"             => "Administrar baneos de IP",
     "ipwhitelist"       => "Administrar lista blanca de IP",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "Administrar respuestas predefinidas",
     "channel"           => "Administrar canales",
     "department"        => "Administrar departamentos",
-    "feedback"          => "Administrar valoración",
-    "feedbackform"      => "Administrar formularios de valoración",
     "filter"            => "Administrar filtros",
     "holiday"           => "Administrar vacaciones",
     "macro"             => "Administrar macros",
@@ -116,6 +113,6 @@ return array(
     /*
      * 3.3.0
      */
-    "integration"       => "Manage Third-Party Integrations",
+    "integration"       => "Gestionar las integraciones de terceros",
 
 );

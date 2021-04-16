@@ -7,7 +7,6 @@ return array(
 
     // Index
     "supportpal_installer"      => "Instalador SupportPal",
-    "index_desc"                => "Gracias por escoger SupportPal. Por favor, verifica que el tipo de instalación más abajo es correcto y continúa.",
     "select_language"           => "Selecciona una lengua:",
     "install_type"              => "Tipo de instalación",
     "install"                   => "Instalado reciente",
@@ -138,7 +137,6 @@ return array(
     "locked_desc"               => "Detectado un archivo de bloqueo (:path).\nPor favor, comprueba que el instalador no se esté ejecutando todavía..\n\nPuedes eliminar este archivo cuando estés seguro de que no hay otra instalación o actualización en curso.",
 
     "possible_permission_issue" => "[ADVERTENCIA] Parece que estás ejecutando este comando como raíz o como un usuario diferente al propietario de los archivos. El comando debe ser ejecutado por el usuario correcto para que el servidor de web también pueda leer y escribir al sistema posteriormente.",
-    "wish_to_continue"          => "Se recomienda que cambies el usuario a no ser que estés seguro de lo que estás haciendo. ¿Deseas continuar?",
     "error_and_empty_database"  => "Ha habido un error. Puede que necesites vaciar la base de datos antes de volver a comenzar.",
     "login_with_details"        => "Puedes iniciar sesión utilizando los detalles especificados previamente.",
     "command_not_available"     => "Comando no disponible. Si consideras que esto es un error, por favor, ejecuta 'php artisan cache:clear' y luego vuelve a ejecutar este comando.",
@@ -154,17 +152,17 @@ return array(
     /*
      * 3.0.0
      */
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
+    "index_desc"                => "Gracias por elegir SupportPal. Por favor, comprueba que el tipo de instalación es correcto y haz clic en continuar.",
 
     /*
      * 3.4.0
      */
-    "seeding"                   => "Seeding",
-    "seeded"                    => "Seeded",
-    "migrating"                 => "Migrating",
-    "migrated"                  => "Migrated",
-    "database_setup_complete"   => "Database setup complete.",
-    "created_repository"        => "Created ':name' repository successfully.",
-    "wish_to_continue"          => "Cancel now if you don't understand the implications! The command will continue automatically otherwise...",
+    "seeding"                   => "Propagación",
+    "seeded"                    => "Propagado",
+    "migrating"                 => "Migrando",
+    "migrated"                  => "Migrado",
+    "database_setup_complete"   => "Configuración de la base de datos completa.",
+    "created_repository"        => "Se ha creado el repositorio ':name' con éxito.",
+    "wish_to_continue"          => "¡Cancela ahora si no comprendes las implicaciones! De lo contrario, el comando continuará automáticamente...",
 
 );

@@ -18,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Última ejecución",
     "unknown"                   => "Desconocido",
-    "optional"                  => "Opcional",
-    "received"                  => "Recibido",
-    "unanswered"                => "Sin respuesta",
-    "in_queue"                  => "En cola",
     "open"                      => "Abierto(s)",
     "pending"                   => "Pendiente(s)",
     "continue"                  => "Continuar",
@@ -79,7 +75,6 @@ return array(
     "disable"                   => "Deshabilitar",
     "home"                      => "Inicio",
     "navigation"                => "Navegación",
-    "column"                    => "Columna|Columnas",
     "action"                    => "Acción|Acciones",
     "value"                     => "Valor",
     "when"                      => "Cuándo",
@@ -97,10 +92,7 @@ return array(
     "active"                    => "Activo",
     "validate_auth"             => "Validar autenticación",
     "end"                       => "Fin",
-    "current"                   => "Actual",
     "loading"                   => "Cargando",
-    "processing"                => "Procesando",
-    "code"                      => "Código",
     "maintenance"               => "Mantenimiento",
     "status"                    => "Estado|Estados",
     "count"                     => "Recuento",
@@ -161,9 +153,7 @@ return array(
     "by"                        => "por",
     "record"                    => "registro",
     "views"                     => "vistas",
-    "if_exists"                 => "si existe",
     "of"                        => "de",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "de",
     "to"                        => "a",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -203,7 +193,6 @@ return array(
     "recently_used"             => "Usado recientemente",
     "recently_created"          => "Creado recientemente",
     "load_more"                 => "Cargar más",
-    "clear_selected"            => "Eliminar seleccionado",
     "expand_all"                => "Expandir todo",
     "collapse_all"              => "Contraer todo",
     "show_more"                 => "Mostrar más",
@@ -376,14 +365,14 @@ return array(
     /*
      * 3.3.0
      */
-    "authentication"            => "Authentication",
-    "manage_credentials"        => "Manage Credentials",
+    "authentication"            => "Autenticación",
+    "manage_credentials"        => "Gestionar las credenciales",
 
     /*
      * 3.4.0
      */
-    "select_a_date"             => "Select a date",
-    "select_values"             => "Select values",
-    "file"                      => "File",
+    "select_a_date"             => "Seleccionar una fecha",
+    "select_values"             => "Seleccionar valores",
+    "file"                      => "Archivo",
 
 );

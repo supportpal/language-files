@@ -41,9 +41,6 @@ return array(
     "success_action"        => "¡Acción llevada a cabo con éxito!",
     "error_action"          => "Error al llevar a cabo la acción.",
 
-    "success_sending"       => "Éxito al enviar :item!",
-    "error_sending"         => "Error al intentar enviar :item.",
-
     "error_embed_image"     => "Error al intentar subir la imagen.",
 
     "unauthorised"          => "Sin autorización",

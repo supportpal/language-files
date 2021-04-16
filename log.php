@@ -40,8 +40,6 @@ return array(
     "organisation_profile_updated"      => "Actualizó el perfil de la organización :rel.",
     "organisation_owner_updated"        => "Transfirió la propiedad de la organización :rel a :new_value.",
 
-    "user_emailed"                      => "Envió un correo a :rel.",
-
     "mass_email_queued"                 => "Puso en cola :new_value correos en lotes para ser enviados.",
     "mass_email_sent"                   => "Envió correos :new_value en cola.",
 
@@ -99,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Mensajes separados del ticket antiguo #:rel al ticket nuevo #:new_value.",
     "ticket_split_to"                   => "Mensajes separados del ticket antiguo #:old_value al ticket nuevo #:rel.",
 
-    "ticket_email_user"                 => "Envió un correo al usuario.",
-    "ticket_email_operators"            => "Envió un correo a los operadores.",
-
-    "ticket_feedback_dequeued"          => "Eliminó la petición del formulario de valoración del ticket #:rel de la cola.",
-    "ticket_feedback_form_sent"         => "Envió la petición del formulario de valoración para el ticket #:rel.",
-
     "ticket_attachment_saved"           => "Añadió archivo adjunto al ticket #:rel.",
     "ticket_attachment_deleted"         => "Eliminó archivo adjunto del ticket #:rel.",
 
     "ticket_throttled"                  => "Rechazó un ticket nuevo de :rel debido a la limitación.",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Envió correo al grupo de operadores :new_value.",
-    "ticket_email_user_group"           => "Envió correo al grupo de usuarios :new_value.",
 
     /*
      * 2.0.3
@@ -133,11 +119,6 @@ return array(
     "ticket_added_cc"                   => "Correo(s) :new_value añadidos a la lista de direcciones CC para el ticket #:rel.",
     "ticket_removed_cc"                 => "Correo(s) :old_value eliminados de la lista de direcciones CC para el ticket #:rel.",
     "invalid_department_brand"          => "Error al establecer el departamento a ':new_value' en el ticket #:rel, el departamento no pertenece a la marca del ticket.",
-
-    /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Actualizó el mensaje :message_id en el ticket #:rel.",
 
     /*
      * 2.1.2

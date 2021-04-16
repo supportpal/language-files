@@ -96,6 +96,6 @@ return array(
     /*
      * 3.3.0
      */
-    "user_has_organisation"             => "User has organisation",
+    "user_has_organisation"             => "El usuario tiene organización",
 
 );

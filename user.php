@@ -47,9 +47,7 @@ return array(
 
     "forgot_password"               => "¿Olvidaste tu contraseña?",
     "reset_password"                => "Restablecer contraseña",
-    "password_reset_complete"       => "Restablecimiento completado",
     "set_password"                  => "Establece una contraseña",
-    "only_enter_to_change"          => "Solo introduce para cambiar",
     "please_set_password"           => "Por favor, establece tu nueva contraseña más abajo.",
     "missing_email_or_reset"        => "Dirección de correo electrónica o reset token ausentes.",
 
@@ -90,7 +88,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN o DN",
     "ldap_rdn_desc"                 => "El nombre distintivo para el nombre de usuario LDAP, por ejemplo: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "Detalles LDAP",
-    "ldap_extension_missing"        => "La extensión php-ldap no se encuentra actualmente cargada. Los usuarios no podrán iniciar sesión a través del LDAP.",
 
     "operator_details"              => "Detalles del operador",
 
@@ -140,12 +137,10 @@ return array(
     "two_fa_code"                   => "Código 2FA",
     "two_fa_secret"                 => "Secreto 2FA",
     "two_fa_secret_desc"            => "Por favor, almacena esto en algún lugar seguro ya que lo necesitarás para re-añadir la cuenta autenticadora a tu teléfono si perdieras el acceso.",
-    "two_fa_verify_desc"            => "Descarga e instala una de las siguientes aplicaciones y escanea el código QR o introduce la clave secreta. Esto servirá para establecer tu cuenta en tu dispositivo. Una vez realizado, podrás ver la cuenta y se generará un código de 6 dígitos que debes introducir arriba para verificar y completar la configuración. Por favor, asegúrate de hacer click en verificar antes de que expire el código. La hora de tu servidor necesitará estar en sincronía con un servidor NTP para funcionar correctamente.",
     "display_notifications"         => "Mostrar notificaciones",
     "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
     "desktop_notifications"         => "Notificaciones del escritorio",
     "browser_notifications"         => "Notificaciones del navegador",
-    "operator_template"             => "Plantilla del operador",
 
     "search_for_user"               => "Buscar usuario...",
     "select_operator"               => "Seleccionar un operador...",
@@ -239,7 +234,6 @@ return array(
      * 2.1.2
      */
     "search_for_user_operator"      => "Buscar un usuario/operador...",
-    "two_fa_personal_settings"      => "El operador puede habilitar 2FA en sus ajustes personales.",
 
     /*
      * 2.2.0
@@ -257,20 +251,7 @@ return array(
      * 2.3.1
      */
     "social_login"                  => "Inicio de sesión de redes sociales",
-    "social_login_provider_desc"    => "Permitir a los usuarios registrarse e iniciar sesión usando su cuenta de :provider.",
-    "social_login_provider_docs"    => "Por favor, comprueba nuestra documentación para configurar un <a href=':link'>inicio de sesión de :provider</a>.",
-    "facebook_app_id"               => "ID de aplicación",
-    "facebook_app_secret"           => "Secreto de aplicación",
-    "facebook_redirect_url"         => "La siguiente URL <strong>debe</strong> introducirse para el inicio de sesión en Facebook 'URI de redireccionamiento de OAuth válidos':",
-    "google_client_id"              => "ID del cliente",
-    "google_client_secret"          => "Secreto del cliente",
-    "google_redirect_url"           => "La siguiente URL <strong>debe</strong> introducirse para Google 'URIs de redirección autorizados':",
-    "steam_api_key"                 => "Clave de API",
-    "twitter_consumer_key"          => "Clave de consumidor",
-    "twitter_consumer_secret"       => "Secreto de consumidor",
-    "twitter_redirect_url"          => "La siguiente URL <strong>debe</strong> introducirse para la aplicación de Twitter 'Callback URL':",
     "login_via"                     => "Iniciar sesión a través de :provider",
-    "register_with"                 => "Registrarse con :provider",
     "idp"                           => "IdP",
     "social_linking_login"          => "Por favor, inicia sesión para completar la vinculación con tu cuenta de redes sociales.",
     "social_linking_register"       => "Por favor, completa los detalles más abajo para completar el registro de tu cuenta. Tu cuenta de redes sociales se vinculará automáticamente.",
@@ -305,7 +286,6 @@ return array(
     "password_reset_already"        => "Ya has confirmado la propiedad de este correo electrónico, por lo que puedes proceder a inicar sesión.",
     "unconfirmed_account"           => "Por favor, comprueba tu correo para confirmar la propiedad de esta dirección de correo.",
     "success_register_desc"         => "Gracias por registrar una cuenta. Por favor, comprueba tu correo para completar la configuración.",
-    "reset_request_desc"            => "Por favor, comprueba tu correo para completar el proceso de restablecimiento de la contraseña.",
     "resend_confirmation_sent"      => "Se ha enviado un nuevo correo de confirmación y debería llegar en pocos minutos.",
     "register_confirm_desc"         => "Gracias por confirmar la propiedad de tu correo. Por favor, introduce una contraseña más abajo para terminar la configuración de tu cuenta.",
     "thank_you_confirm"             => "Gracias por confirmar la propiedad de tu dirección de correo electrónico.",
@@ -330,20 +310,19 @@ return array(
     "force_two_fa"                  => "Implantar 2FA",
     "force_two_fa_desc"             => "Implantar la autenticación de dos factores (2FA) para todas las cuentas. Cualquier cuenta sin la 2FA habilitada será guiada a través de los pasos para habilitarla cuando vuelvan a iniciar sesión.",
     "two_fa_required"               => "Se requiere la autenticación de dos factores (2FA). Por favor, sigue la información más abajo para proceder.",
-    "two_fa_successfully_enabled"   => "Se ha habilitado la autenticación de dos factores (2FA) con éxito. Por favor, vuelve a completar tu inicio de sesión.",
     "two_fa_user_enable"            => "El usuario puede habilitar la 2FA en los ajustes de su cuenta.",
 
     /*
      * 3.3.0
      */
-    "remove_avatar"                 => "Remove Avatar",
-    "social_login_desc"             => "Allow users to register and log in using their social account.",
-    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+    "remove_avatar"                 => "Eliminar avatar",
+    "social_login_desc"             => "Permitir que los usuarios se registren e inicien sesión con sus cuentas de redes sociales.",
+    "manage_social_login_options"   => "Para añadir o gestionar opciones de inicio de sesión, por favor visita la página de <a href=\":route\">Integraciones de terceros</a>.",
 
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
-    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+    "two_fa_verify_desc"            => "Descarga e instala una de las siguientes aplicaciones y escanea el código QR o introduce la clave secreta. Esto servirá para configurar tu cuenta en tu dispositivo. Una vez hecho, podrás ver la cuenta y se generará un código de 6 dígitos que debes introducir para verificar y completar la configuración. Por favor, asegúrate de hacer clic en verificar antes de que expire el código. La hora de tu servidor necesitará estar sincronizada con un servidor NTP para funcionar correctamente.",
+    "two_fa_successfully_enabled"   => "Se ha habilitado la autenticación de dos factores (2FA) con éxito.",
 
 );

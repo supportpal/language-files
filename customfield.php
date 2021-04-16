@@ -11,7 +11,6 @@ return array(
     "date"                      => "Fecha",
     "multiple"                  => "Múltiples opciones",
     "options"                   => "Opciones",
-    "password"                  => "Contraseña",
     "radio"                     => "Botones de opción",
     "rating"                    => "Valoración (de 1 a 5)",
     "text"                      => "Texto",
@@ -39,7 +38,7 @@ return array(
      * 2.1.0
      */
     "brand_desc"                => "Selecciona en qué marcas está disponible el campo.",
-    
+
     /*
      * 2.3.0
      */
@@ -63,5 +62,5 @@ return array(
     /*
      * 3.3.0
      */
-    "encrypted_value"           => "** ENCRYPTED **",
+    "encrypted_value"           => "** ENCRIPTADO **",
 );

@@ -3,15 +3,15 @@
 return array(
 
     /*
-	|--------------------------------------------------------------------------
-	| Validation Language Lines
-	|--------------------------------------------------------------------------
-	|
-	| The following language lines contain the default error messages used by
-	| the validator class. Some of these rules have multiple versions such
-	| as the size rules. Feel free to tweak each of these messages here.
-	|
-	*/
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
 
     "accepted"                  => "El campo de :attribute debe ser aceptado.",
     "active_url"                => "El campo de :attribute no es una URL válida.",
@@ -73,8 +73,6 @@ return array(
     "url"                       => "El formato del campo de :attribute es inválido..",
     "template_exists"           => "El/la :attribute seleccionado/a es inválido/a.",
     "is_valid_captcha"          => "El código captcha introducido es inválido o incorrecto. Por favor, inténtalo de nuevo.",
-    "user_password_length"      => "La contraseña debe ser igual o más larga que :user_password_length caracteres.",
-    "operator_password_length"  => "La contraseña debe ser igual o más larga que :operator_password_length caracteres.",
     "user_password_strength"    => "El campo de :attribute debe contener: :user_password_strength.",
     "operator_password_strength" => "El campo de :attribute debe contener: :operator_password_strength.",
 
@@ -173,7 +171,7 @@ return array(
     /*
      * 3.4.0
      */
-    "password"                  => "The password is incorrect.",
+    "password"                  => "La contraseña es incorrecta.",
 
     /*
     |--------------------------------------------------------------------------
@@ -203,15 +201,15 @@ return array(
     ),
 
     /*
-	|--------------------------------------------------------------------------
-	| Custom Validation Attributes
-	|--------------------------------------------------------------------------
-	|
-	| The following language lines are used to swap attribute place-holders
-	| with something more reader friendly such as Email Address instead
-	| of "email". This simply helps us make messages a little cleaner.
-	|
-	*/
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as Email Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
 
     "attributes" => array(),
 

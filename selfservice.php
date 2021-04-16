@@ -3,9 +3,7 @@
 return array(
 
     "popular_items"             => "Elementos populares",
-    "type_popular_items"        => ":type: Populares",
     "latest_items"              => "Elementos más recientes",
-    "type_latest_items"         => ":type: Más recientes",
 
     "selfservice"               => "Auto-servicio",
     "article"                   => "Artículo|Artículos",
@@ -52,7 +50,6 @@ return array(
     "comment_rated_error"       => "El comentario no se ha podido valorar.",
 
     "article_find_useful"       => "¿Has encontrado útil este artículo?",
-    "article_found_useful"      => "La gente encuentra útil este artículo.",
     "article_rated_success"     => "El artículo ha sido valorado con éxito.",
     "article_rated_error"       => "El artículo no se ha podido valorar.",
 
@@ -92,8 +89,6 @@ return array(
     "enable_ratings_desc"       => "Permitir a los usuarios valorar artículos.",
     "post_rating"               => "Valorar artículos",
     "post_rating_desc"          => "Si cualquiera puede valorar artículos o solo usuarios registrados.",
-    "show_rating"               => "Mostrar valoraciones",
-    "show_rating_desc"          => "Mostrar valoración del artículo a todo el mundo (público) o solo a usuarios registrados.",
 
     /*
      * 2.0.3

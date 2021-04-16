@@ -56,8 +56,6 @@ return array(
     "2-4_day"                   => "2-4 días",
     "4-7_day"                   => "4-7 días",
     "7_plus_day"                => "7+ días",
-    "user_feedback"             => "Valoración del usuario",
-    "user_feedback_desc"        => "La valoración que aportan los usuarios sobre los tickets durante un período de tiempo determinado.",
     "user_by_country"           => "Usuarios por país",
     "user_by_country_desc"      => "Este informe muestra el número de usuarios por país. Solo incluye usuarios que han establecido un país.",
     "user_count"                => "Recuento de usuarios",
@@ -111,7 +109,7 @@ return array(
     /*
      * 3.4.0
      */
-    "first_response_by_operator" => "First Response Time By Operator",
-    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
+    "first_response_by_operator" => "Tiempo de la primera respuesta del operador",
+    "first_response_by_operator_desc" => "El tiempo que tardó cada operador en contestar a un ticket por primera vez, en promedio con el período.",
 
 );

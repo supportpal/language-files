@@ -23,7 +23,6 @@ return array(
     "due_time"                  => "Hora de entrega",
     "created_time"              => "Hora de creación",
     "submitted"                 => "Enviado",
-    "add_reply"                 => "Añadir respuesta",
     "ticket_reply"              => "Respuesta del ticket",
     "ticket_note"               => "Nota del ticket",
     "ticket_type"               => "Tipo de ticket",
@@ -60,7 +59,6 @@ return array(
     "department_applicable"     => "Departamentos aplicables",
     "department_applicable_desc" => "Los departamentos en los que los usuarios podrán seleccionar la prioridad. Solo se aplica en el frontend. Todas las prioridades estarán disponbiles para los operadores de todos los departamentos.",
 
-    "due_to_be_sent"            => "Pendiente de ser enviado",
     "send_now"                  => "Enviar ahora",
 
     "tag"                       => "Etiqueta|Etiquetas",
@@ -70,10 +68,6 @@ return array(
 
     // Recent activity
     "recent_activity"           => "Actividad reciente",
-    "no_recent_activity"        => "No hay actividad reciente",
-
-    // Active operators
-    "active_operators"          => "Operadores activos",
 
     "ticket_number"             => "Número del ticket",
     "ticket_format"             => "Formato del número del ticket",
@@ -90,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Configura direcciones de correo electrónico para el departamento. Cualquier correo que reciba estas direcciones abrirá tickets en este departamento. La primera dirección de correo se utiliza como la dirección de remitente por defecto para correo saliente.",
-    "department_password"       => "Solo introduce una contraseña para reemplazar contraseñas guardadas existentes o para validar datos de las cuentas de correo.",
     "department_port"           => "Los valores por defecto son: 110 para el POP3, 995 para el POP3 seguro, 143 para el IMAP, y 993 para el IMAP seguro. Déjalo en blanco para utilizar el valor por defecto.",
     "department_encryption"     => "Algunos proveedores de correo electrónico requieren cifrado SSL o TLS para conectarse. Si no estás seguro, deja este ajuste como Ninguno/a.",
     "department_delete_mail"    => "Si utilizas IMAP, puedes elegir no eliminar correos en el servidor después de que hayan sido importados como tickets.",
     "protocol"                  => "Protocolo",
     "server"                    => "Servidor de correo",
     "port"                      => "Puerto",
-    "username"                  => "Nombre de usuario",
-    "password"                  => "Contraseña",
     "encryption"                => "Cifrado",
     "delete_downloaded"         => "Eliminar correos descargados",
     "consume_all"               => "Consumir todo",
@@ -115,7 +106,6 @@ return array(
     "email_operators_desc"      => "Selecciona si quieres reenviar las respuestas del operador a otros operadores. Por defecto, se marca la opción \"enviar correo a los operadores\" en el panel del operador, y se enviará automáticamente un correo de respuestas de los operadores.",
     // Department email templates
     "new_ticket_opened"         => "Nuevo ticket abierto",
-    "reply_to_locked"           => "Responder al ticket bloqueado",
     "waiting_for_response"      => "Esperando una respuesta",
     "ticket_auto_closed"        => "Ticket cerrado automáticamente",
     "closed_by_operator"        => "Cerrado por el operador",
@@ -134,21 +124,14 @@ return array(
     "form_conditions"           => "Condiciones del formulario",
     "form_conditions_desc"      => "Define las condiciones del ticket por las que los tickets nuevos resueltos se comprueban para ver si cumplen con este formulario. Si un ticket resuelto cumple con varios formularios se seleccionará en la prioridad del formulario, lo cual se puede modificar a través de la lista de formularios y reorganizándolo.",
     "form_fields"               => "Campos de formulario",
-    "response_rate"             => "Índice de respuesta",
-    "sent_forms"                => "Formularios de valoración enviados",
     "rating"                    => "Valoraciones",
-    "good_ratings"              => "Buenas valoraciones",
-    "bad_ratings"               => "Malas valoraciones",
-    "customer_satisfaction"     => "Satisfacción del cliente",
     "feedback_desc"             => "Gracias por contactar con nosotros y esperamos haber resuelto tu consulta. Por favor, ¿podrías valorar tu experiencia?.",
     "good_satisfied"            => "Buena, estoy satisfecho/a",
     "bad_not_satisfied"         => "Mala, no estoy satisfecho/a",
     "feedback_not_found"        => "Tu valoración no ha podido ser aceptada. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
     "feedback_malformed_token"  => "Tu valoración no ha podido ser aceptada por un problema con el formato del token. Por favor, abre un ticket con nosotros si quieres compartir tu valoración.",
-    "feedback_already_done"     => "Ya has ofrecido una valoración para este ticket. Gracias.",
     "feedback_expired"          => "El ticket lleva un tiempo resuelto y, por desgracia, ya no se puede valorar.",
     "feedback_questions"        => "Si tienes unos minutos, por favor, ¿te importaría contestar a las siguientes preguntas para ayudarnos a mejorar la asistencia que ofrecemos?.",
-    "feedback_thank_you"        => "Gracias por ofrecernos tu valoración de este ticket.",
     "feedback_for_ticket"       => "Valoración para el Ticket #:number",
     "feedback_rating_desc"      => "La asistencia recibida en este ticket se ha valorado como <strong>:rating</strong> por el usuario.",
 
@@ -166,8 +149,6 @@ return array(
 
     // Macros
     "macro"                     => "Macro|Macros",
-    "macro_type"                => "Tipo de macro",
-    "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
     "macro_condition"           => "Condiciones del macro",
     "macro_action"              => "Acciones del macro",
     "macro_action_desc"         => "Define las acciones que se llevarán a cabo cuando un macro se ejecute. Por favor, asegúrate de que las acciones son válidas para el departamento en el que se encuentra el ticket, ya que de lo contrario no tendrán ningún efecto.",
@@ -175,7 +156,6 @@ return array(
     "from"                      => "De",
     "to"                        => "Para",
     "cc"                        => "CC",
-    "cc_desc"                   => "Puedes añadir gente en CC en este ticket al introducir sus correos electrónicos arriba.",
 
     "allowed_files"             => "Tipos de archivos adjuntos permitidos",
 
@@ -281,7 +261,6 @@ return array(
     "default_priority_desc"     => "La prioridad por defecto establecida en todos los tickets entrantes a través de este canal.",
     "verbose_email_log"         => "Registro de correos detallado",
 
-    "adjust_columns"            => "Ajustar columnas",
     "last_reply"                => "Última respuesta",
     "opened_at"                 => "Abierto a las",
 
@@ -302,8 +281,6 @@ return array(
     "unmerge"                   => "Descombinar",
     "close_and_lock"            => "Cerrar & Bloquear",
 
-    "block_warning"             => "El correo del usuario también se bloqueará y no podrá abrir tickets.",
-
     "mass_reply"                => "Respuesta masiva",
 
     "due_today"                 => "Pendiente(s) para hoy",
@@ -311,7 +288,6 @@ return array(
     "unassigned"                => "Desasignado(s)",
 
     "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
-    "delete_follow_up"          => "Eliminar seguimiento",
 
     "add_cc"                    => "Añadir CC",
     "reply_above_line"          => "Por favor, responde por encima de esta línea",
@@ -367,7 +343,6 @@ return array(
     "default_open_status_desc"  => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario abre un ticket nuevo o responde a un ticket sin la respuesta de un operador.",
     "default_reply_status"      => "Estado de la respuesta por defecto",
     "default_reply_status_desc" => "Selecciona el estado por defecto que se debe establecer automáticamente cuando un usuario responde a un ticket. Solo se aplica si un operador ya ha respondido al ticket.",
-    "drafting_reply"            => "<strong>:name</strong> comenzó a hacer un borrador de :type :time:",
     "ticket_reply_order_default" => "El sistema por defecto utilizará el valor que esté actualmente seleccionado en los ajustes generales del ticket.",
     "select_a_parent"           => "Selecciona un departamento principal...",
     "select_a_department"       => "Selecciona un departamento...",
@@ -377,10 +352,8 @@ return array(
     "ticket_other_brands"       => "Tickets en otras marcas",
     "add_for_department"        => "Añadir para el departamento...",
     "record_order"              => "Arrastra las filas para cambiar el orden de los registros.",
-    "ticket_token"              => "Token del Ticket",
     "reply_all"                 => "Responder a todo",
     "reply_without_cc"          => "Responder (sin CC)",
-    "open_new_for_user"         => "Abrir nuevo ticket para el usuario",
     "email_accounts"            => "Cuentas de correo",
     "add_another_email"         => "Añadir otra dirección de correo",
     "follow_up_date"            => "Fecha de seguimiento",
@@ -456,7 +429,6 @@ return array(
     "delete_message"            => "Eliminar mensaje",
     "linked_tickets"            => "Tickets vinculados",
     "add_linked_ticket"         => "Añadir ticket vinculado",
-    "add_linked_ticket_desc"    => "Buscar por número de ticket o asunto:",
     "create_linked_ticket"      => "Crear ticket vinculado",
     "copy_link"                 => "Copiar link",
     "forward_message"           => "Reenviar este mensaje",
@@ -522,7 +494,6 @@ return array(
     "belonging_to"              => "(Pertenece a :name)",
     "block_user"                => "Bloquear usuario",
     "merge_tickets"             => "Combinar tickets",
-    "merge_tickets_confirm"     => "Por favor, confirma que te gustaría combinar los siguientes tickets:",
 
     /*
      * 2.5.1
@@ -552,28 +523,28 @@ return array(
     /*
      * 3.2.0
      */
-    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+    "drafting_message"          => "<strong>:name</strong> estaba redactando un mensaje",
 
     /*
      * 3.3.0
      */
-    "email_setup_manually"      => "Set Up Manually",
-    "unresolved"                => "Unresolved",
-    "resolved"                  => "Resolved",
-    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+    "email_setup_manually"      => "Configurar manualmente",
+    "unresolved"                => "Sin resolver",
+    "resolved"                  => "Resuelto",
+    "manage_oauth_options"      => "Para añadir o gestionar opciones OAuth, por favor visita la página de <a href=\":route\">Integraciones de terceros</a>.",
 
     /*
      * 3.4.0
      */
-    "feedback_saved"            => "We've saved your feedback.",
-    "how_was_the_help"          => "How was the help you received?",
-    "update_feedback"           => "Update Feedback",
-    "verify_user"               => "Please verify the authenticity of the user.",
+    "feedback_saved"            => "Se ha guardado tu valoración.",
+    "how_was_the_help"          => "¿Qué tal ha sido la ayuda que has recibido?",
+    "update_feedback"           => "Actualizar valoración",
+    "verify_user"               => "Por favor, verifica la autenticidad del usuario.",
     "web_channel_name"          => "Web",
-    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
-    "email_channel_name"        => "Email",
-    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "web_channel_desc"          => "Tickets abiertos a través de la interfaz del frontend para usuarios o el panel del operador para operadores.",
+    "email_channel_name"        => "Correo electrónico",
+    "email_channel_desc"        => "Tickets abiertos desde correo entrante.",
     "api_channel_name"          => "API",
-    "api_channel_desc"          => "Tickets and replies posted through the API.",
+    "api_channel_desc"          => "Tickets y respuestas publicadas a través de API.",
 
 );

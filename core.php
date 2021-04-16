@@ -4,14 +4,11 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "Atención al cliente, fácil y eficaz.",
     "operator_panel"            => "Panel del operador",
-    "carefully_crafted"         => "Cuidadosamente elaborado por",
     "welcome"                   => "Bienvenido a SupportPal",
     "welcome_desc"              => "¡Has tomado la mejor decisión! Pulsa comenzar para disfrutar de un recorrido a través de las prestaciones y características de nuestro producto.",
 
     // Dashboard
-    "search_placeholder"        => "Busca en nuestro Help Desk...",
     "submit_ticket"             => "Enviar ticket",
     "submit_ticket_desc"        => "Utiliza este formulario para enviar un ticket a nuestra plantilla de operadores especializados.",
     "track_ticket"              => "Comprobar el estado del ticket",
@@ -35,7 +32,6 @@ return array(
     "license_owner"             => "Propietario de la licencia",
     "license_created"           => "Licencia creada",
     "license_type"              => "Tipo de licencia",
-    "no_branding"               => "No mostrar marca",
     "branding"                  => "Mostrar marca",
     "license_expires"           => "La licencia expira",
     "license_valid_ip"          => "IP(s) válidas de la licencia",
@@ -68,7 +64,6 @@ return array(
 
     // Company
     "company"                   => "Compañía|Compañías",
-    "company_name"              => "Nombre de la compañía",
 
     // Email
     "default_email_addr"        => "Dirección de correo por defecto",
@@ -96,7 +91,6 @@ return array(
     "smtp_password"             => "Contraseña SMTP",
     "ssl"                       => "SSL",
     "tls"                       => "TLS",
-    "validate_smtp"             => "Validar SMTP",
     "email_content"             => "Contenido del correo",
     "email_content_desc"        => "Insertar un asunto y contenido del correo por defecto para esta plantilla. También puedes escribir la plantilla en otras lenguas. Si una plantilla no está establecida en otra lengua, se utilizará la información por defecto.",
     "outgoing"                  => "Enviados",
@@ -115,7 +109,6 @@ return array(
     "scheduled_task"            => "Tarea programada|Tareas programadas",
     "interval_desc"             => "Establecer la frecuencia con la que se ejecuta esta tarea, por ejemplo, al establecer 5 minutos significará que la tarea se ejecutará cada 5 minutos si el Cron está activo y funcionando.",
     "cron_settings"             => "Ajustes del Cron",
-    "cron_makesure"             => "Por favor, crea un Cron Job con la siguiente entrada: ",
     "cron_running"              => "Ejecutándose",
     "cron_not_running"          => "No ejecutándose",
     "task_ran"                  => "Tarea programada ejecutada con éxito manualmente.",
@@ -169,7 +162,6 @@ return array(
     "messages_desc"             => "Los mensajes privados son muy útiles para conversaciones privadas con otros operadores del Help Desk.",
     "configure"                 => "Configura tu Help Desk.",
     "configure_desc"            => "SupportPal ofrece una serie de ajustes que te permiten configurar el Help Desk de acuerdo con tus preferencias personales.",
-    "company_name_desc"         => "El nombre de tu compañía se usa para toda la correspondencia con los usuarios.",
     "default_email"             => "Dirección de correo electrónico por defecto",
     "default_email_desc"        => "La dirección de correo electrónico por defecto que se utiliza para toda la correspondencia saliente para los usuarios.",
     "dept_settings_desc"        => "A veces, puede que los departamentos dentro de tu organización funcionen de manera diferente. Los ajustes de departamento te permiten cancelar los ajustes globales.",
@@ -188,7 +180,6 @@ return array(
     "organisation_desc"         => "Los usuarios se pueden asignar a organizaciones, permitiéndoles acceder a los tickets abiertos por otros usuarios dentro de su misma organización.",
     "operator_desc"             => "Otros empleados pueden ser añadidos como operadores aquí, además de administrar a qué departamentos están asignados.",
     "ticket_desc"               => "La cuadrícula de los tickets contiene una colección de todos los tickets que son relevantes para ti.",
-    "ticket_desc2"              => "La cuadrícula de los tickets se puede ordenar y filtrar y también puedes ajustar la disposición de las columnas como tú prefieras.",
     "ticket_toolbar"            => "Barra de herramientas",
     "ticket_desc3"              => "La mayor parte de las acciones sobre los tickets se pueden llevar a cabo usando la barra de herramientas de los tickets.",
     "tour_complete"             => "¡Recorrido completado!",
@@ -211,8 +202,6 @@ return array(
     "admin_folder"              => "Carpeta del administrador",
     "admin_folder_desc"         => "Establece el nombre de la carpeta para el panel del operador. Por motivos de seguridad, se recomienda cambiarle el nombre \"admin\" por defecto.",
     "enable_ssl"                => "Habilitar SSL",
-    "frontend_template"         => "Plantilla de Front-end",
-    "operator_template"         => "Plantilla del operador",
     "maintenance_mode"          => "Modo de mantenimiento",
     "maintenance_mode_desc"     => "Inhabilita la función pública del Help Desk y muestra un aviso de mantenimiento. Edita resources/templates/frontend/[template]/core/maintenance.twig para cambiar el mensaje que se muestra a los usuarios.",
     "default_user_country"      => "País del usuario por defecto",
@@ -226,18 +215,12 @@ return array(
     "simpleauth_key"            => "Clave de SimpleAuth",
     "simpleauth_key_desc"       => "La clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
     "simpleauth_operators"      => "Permitir para operadores",
-    "frontend_logo"             => "Logo del Front-end",
     "base_url"                  => "URL del sistema",
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
     "debug"                     => "Depurar",
     "debug_mode"                => "Modo de depuración",
     "pretty_urls"               => "URLs amigables",
     "pretty_urls_desc"          => "La habilitación eliminará index.php de las URLs, habilítalo solo si puedes acceder al panel del operador sin index.php. Deshabilítalo si no tienes mod_rewrite instalado, si los archivos .htaccess no se permiten o no has convertido las reglas de reescritura de Apache .htaccess para funcionar con tu servidor de web alternativo.",
-
-    /*
-     * 2.0.1
-     */
-    "incoming_rejected"         => "Recibidos (Rechazados)",
 
     /*
      * 2.0.2
@@ -265,10 +248,8 @@ return array(
     "generalsetting_desc"       => "Edita los ajustes que se aplican a todo SupportPal. Si deseas editar ajustes para una sección específica, por ejemplo Tickets, abre la sección en la barra lateral para ver los ajustes disponibles para esa sección. Puedes encontrar los ajustes relacionados con tu(s) marca(s) al hacer click en Marcas en la barra lateral.",
     "brand"                     => "Marca|Marcas",
     "brand_desc"                => "Una marca es tu identidad de cara al cliente con Supportpal, permitiendo varios canales de comunicación. Varias marcas pueden funcionar a la perfección a través de un único y unificado panel de operador.",
-    "brand_name"                => "Nombre de la marca",
     "default_brand"             => "Marca por defecto",
     "default_brand_desc"        => "Selecciona la marca que se utilizará por defecto cuando los visitantes visiten el front-end y no se pueda encontrar una marca correspondiente.",
-    "brand_name_desc"           => "El nombre de la marca visto por los usuarios finales.",
     "brand_enabled_desc"        => "Alterna para habilitar o deshabilitar la marca. Las marcas deshabilitadas no se pueden utilizar y no formarán parte de las marcas permitidas en tu licencia. La opción de deshabilitar se puede utilizar para ocultar una marca temporalmente y/o retener información. Al eliminar una marca se borrará toda la información, incluyendo los usuarios y los tickets relacionados con ella.",
     "inherit_global_setting"    => "Heredar ajuste global",
     "brand_date_format_desc"    => "El formato de fecha utilizado para el front-end de esta marca.",
@@ -291,7 +272,6 @@ return array(
     "ip_ban"                    => "Baneo de IP|Baneos de IP",
     "ip_whitelist"              => "Lista blanca de IP",
     "whitelisted_ip"            => "IP de la lista blanca",
-    "frontend_logo_desc"        => "Cambia el logo por defecto de la interfaz del front-end para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes el logo en resources/assets/folder) o una URL directa a la imagen. Recomendamos un icono blanco que sea transaprente y que tenga un tamaño de 32x32px a 80x80px.",
     "license_path"              => "Ruta de instalación",
     "php_info"                  => "Información PHP",
     "log"                       => "Registro|Registros",
@@ -307,7 +287,6 @@ return array(
     "app_logs_desc"             => "Todas las advertencias y errores del uso general del Help Desk se registran aquí. Puede que se te pida que aportes uno o más de estos registros cuando requieras asistencia.",
     "email_logs"                => "Registros de correos",
     "email_logs_desc"           => "Los detalles sobre los correos recibidos se almacenan en estos archivos cuando son analizados e importados como tickets.",
-    "query_logs"                => "Registros de consulta SQL",
 
     /*
      * 2.1.2
@@ -323,9 +302,7 @@ return array(
     "attachment_size"           => "Límite de tamaño de archivos adjuntos",
     "attachment_size_desc"      => "El tamaño máximo de todos los archivos adjuntos que se envían en un solo correo. Las opciones disponibles son K (de Kilobytes) y M (de Megabytes). Otra opción diferente asume bytes. Por ejemplo: 5M de 5 Megabytes. Establécelo a 0 para no mandar ningún archivo adjunto por correo y solicítale a los usuarios que se descarguen los archivos a través del Help Desk.",
     "attachment_limit_reached"  => "Se ha alcanzado el límite de tamaño de archivos adjuntos (:size). Por favor, considera otros medios para enviar los archivos (como por ejemplo una URL para descargar).",
-    "upload_unknown_error"      => "El archivo \":file\" no se ha actualizado debido a un error del servidor.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renovar</a>",
-    "translations"              => "Traducciones",
     "no_existing_translations"  => "No existen traducciones",
     "add_translation"           => "Añadir traducción",
     "todo_list"                 => "Lista de tareas pendientes",
@@ -350,13 +327,8 @@ return array(
     "javascript_required"       => "Por favor, habilita JavaScript para poder utilizar esta página.",
     "go_to_dashboard"           => "Ir al panel",
     "brand_colour_desc"         => "Selecciona un color para tu marca que se utilizará en el esquema de colores tanto en el front-end como en la plantilla del operador. Deja el campo en blanco para utilizar el esquema de colores predeterminado.",
-    "new_brand_preview"         => "Para marcas nuevas, la opción de previsualización utilizará la información de marcas por defecto.",
-    "frontend_logo_url"         => "URL del logo del front-end",
-    "frontend_logo_url_desc"    => "Página web a donde se redireccionará al usuario al hacer click en el logo. Por defecto, redirige a la página de inicio del portal de asistencia.",
     "favicon"                   => "Favicon",
     "favicon_desc"              => "La imagen del favicon aparece en la barra de direcciones y se utiliza para identificar tu página web. Para conseguir los mejores resultados, asegúrate de que el icono tenga un tamaño de entre 32x32px a 310x310px, sea cuadrado y tenga un formato ICO/PNG.",
-    "operator_icon"             => "Icono del operador",
-    "operator_icon_desc"        => "Cambia el icono por defecto de la interfaz del operador para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes tu logo en resources/assets/folder) o una URL directa a la imagen. Recomendamos un icono blanco que sea transparente y que tenga un tamaño de 32x32px a 80x80px.",
     "view_original"             => "Ver original",
     "download_original"         => "Descargar original",
     "consume_all"               => "Opcionalmente, introduce una dirección de correo electrónico de departamento con \"Consumir todo\" habilitado.",
@@ -392,7 +364,6 @@ return array(
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
     "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente más abajo.",
-    "query_logs_desc"           => "Estos registros contienen todas las consultas de MySQL que se ejecutan cuando se utiliza el Help Desk. Los registros solo se almacenan cuando el modo de depuración se habilita manualmente en el archivo de la configuración de la aplicación.",
     "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
     /*
@@ -496,41 +467,41 @@ return array(
     /*
      * 3.3.0
      */
-    "third_party_integrations"  => "Third-Party Integration|Third-Party Integrations",
+    "third_party_integrations"  => "Integración de terceros|Integraciones de terceros",
     "oauth"                     => "OAuth",
-    "oauth_data"                => "OAuth Data",
-    "client_id"                 => "Client ID",
-    "client_secret"             => "Client Secret",
-    "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
-    "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
-    "configure_after_brand_created" => "This may be configured after the brand has been created.",
-    "get_access_token"          => "Get Access Token",
-    "reset_access_token"        => "Reset Access Token",
+    "oauth_data"                => "Datos de OAuth",
+    "client_id"                 => "ID del cliente",
+    "client_secret"             => "Secreto del cliente",
+    "create_credentials"        => "Por favor, crea las credenciales de autenticación a través de la página de <a href=\":route\">Integración de terceros</a>.",
+    "oauth_data_missing"        => "La ID del cliente y/o el secreto no se han configurado aún y son necesarios. Una vez que los hayas configurado siguiendo estas instrucciones, cierra la ventana emergente y vuelva a validar.",
+    "configure_after_brand_created" => "Esto puede configurarse después de que la marca haya sido creada.",
+    "get_access_token"          => "Obtener el token de acceso",
+    "reset_access_token"        => "Restablecer el token de acceso",
 
     /*
      * 3.4.0
      */
-    "brand_name"                => "Brand Name",
-    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
-    "supportpal_announcements"  => "SupportPal Announcements",
-    "add_selectize"             => "Add <strong>:item</strong>...",
-    "plugin_author_uri_short"   => "Author URI",
-    "plugin_vendor_name_short"  => "Vendor Name",
-    "open_link_in_new_tab"      => "Open link in new tab",
-    "general_settings"          => "Configure general settings",
-    "configure_brand"           => "Configure brand",
-    "configure_department"      => "Configure department",
-    "setup_cron"                => "Set-up cron job",
-    "channel_settings"          => "Update ticket channel settings",
-    "add_user"                  => "Add a new user",
-    "open_ticket"               => "Open a new ticket",
-    "reply_ticket"              => "Reply to ticket",
-    "new_version_available"     => "New Version Available",
-    "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
-    "download"                  => "Download",
-    "acknowledge"               => "Acknowledge",
-    "update_available"          => "The latest available version is :version.",
-    "running_latest_version"    => "You are running the latest version.",
-    "running_prerelease"        => "You are running a prerelease version.",
+    "brand_name"                => "Nombre de la marca",
+    "brand_name_desc"           => "Tu nombre de la marca se utiliza en toda la correspondencia con los usuarios.",
+    "supportpal_announcements"  => "Anuncios de SupportPal",
+    "add_selectize"             => "Añadir <strong>:item</strong>...",
+    "plugin_author_uri_short"   => "URI del autor",
+    "plugin_vendor_name_short"  => "Nombre del vendedor",
+    "open_link_in_new_tab"      => "Abrir enlace en una nueva pestaña",
+    "general_settings"          => "Configurar ajustes generales",
+    "configure_brand"           => "Configurar marca",
+    "configure_department"      => "Configurar departamento",
+    "setup_cron"                => "Establecer Cron Job",
+    "channel_settings"          => "Actualizar ajustes de canal del ticket",
+    "add_user"                  => "Añadir un nuevo usuario",
+    "open_ticket"               => "Abrir un nuevo ticket",
+    "reply_ticket"              => "Responder al ticket",
+    "new_version_available"     => "Nueva versión disponible",
+    "new_version_desc"          => "Existe una nueva versión de SupportPal. Recomendamos que siempre tengas la versión más reciente.<div class='description'>Al aceptar este aviso, no se volverá a mostrar hasta que haya otra nueva versión.</div>",
+    "download"                  => "Descargar",
+    "acknowledge"               => "Aceptar",
+    "update_available"          => "La versión más reciente disponible es :version.",
+    "running_latest_version"    => "Estás ejecutando la versión más reciente.",
+    "running_prerelease"        => "Estás ejecutando una versión preliminar.",
 
 );
