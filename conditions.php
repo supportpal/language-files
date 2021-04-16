@@ -92,4 +92,10 @@ return array(
     "user_2fa_enabled"                  => "2FA del usuario activada",
     "article_type"                      => "Tipo de artículo",
     "article_brand"                     => "Marca del artículo",
+
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
+
 );

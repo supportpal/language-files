@@ -373,4 +373,17 @@ return array(
     "pm"                        => "PM",
     "viewing"                   => "Visualizando",
 
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
 );

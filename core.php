@@ -493,4 +493,44 @@ return array(
     "plugin_creating"           => "Creando plugin...",
     "plugin_ready"              => "¡El Plugin ya está listo en :directory! Haz algo increíble.", // :directory is a file path
 
+    /*
+     * 3.3.0
+     */
+    "third_party_integrations"  => "Third-Party Integration|Third-Party Integrations",
+    "oauth"                     => "OAuth",
+    "oauth_data"                => "OAuth Data",
+    "client_id"                 => "Client ID",
+    "client_secret"             => "Client Secret",
+    "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
+    "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
+    "configure_after_brand_created" => "This may be configured after the brand has been created.",
+    "get_access_token"          => "Get Access Token",
+    "reset_access_token"        => "Reset Access Token",
+
+    /*
+     * 3.4.0
+     */
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
+    "supportpal_announcements"  => "SupportPal Announcements",
+    "add_selectize"             => "Add <strong>:item</strong>...",
+    "plugin_author_uri_short"   => "Author URI",
+    "plugin_vendor_name_short"  => "Vendor Name",
+    "open_link_in_new_tab"      => "Open link in new tab",
+    "general_settings"          => "Configure general settings",
+    "configure_brand"           => "Configure brand",
+    "configure_department"      => "Configure department",
+    "setup_cron"                => "Set-up cron job",
+    "channel_settings"          => "Update ticket channel settings",
+    "add_user"                  => "Add a new user",
+    "open_ticket"               => "Open a new ticket",
+    "reply_ticket"              => "Reply to ticket",
+    "new_version_available"     => "New Version Available",
+    "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
+    "download"                  => "Download",
+    "acknowledge"               => "Acknowledge",
+    "update_available"          => "The latest available version is :version.",
+    "running_latest_version"    => "You are running the latest version.",
+    "running_prerelease"        => "You are running a prerelease version.",
+
 );

@@ -113,4 +113,9 @@ return array(
     "selfservicefeedbackform" => "Administrar formularios de valoración",
     "ticketfeedbackform"      => "Administrar formularios de valoración",
 
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
+
 );
