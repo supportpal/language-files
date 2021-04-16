@@ -106,4 +106,10 @@ return array(
     "answered"                  => "Answered",
     "unanswered"                => "Unanswered",
 
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
+
 );

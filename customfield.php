@@ -38,7 +38,7 @@ return array(
      * 2.1.0
      */
     "brand_desc"                => "Choose which brands the field is available in.",
-    
+
     /*
      * 2.3.0
      */

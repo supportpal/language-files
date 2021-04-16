@@ -32,7 +32,6 @@ return array(
     "license_owner"             => "License Owner",
     "license_created"           => "License Created",
     "license_type"              => "License Type",
-    "no_branding"               => "No Branding",
     "branding"                  => "Branding",
     "license_expires"           => "License Expires",
     "license_valid_ip"          => "License Valid IP(s)",
@@ -65,7 +64,6 @@ return array(
 
     // Company
     "company"                   => "Company|Companies",
-    "company_name"              => "Company Name",
 
     // Email
     "default_email_addr"        => "Default Email Address",
@@ -111,7 +109,6 @@ return array(
     "scheduled_task"            => "Scheduled Task|Scheduled Tasks",
     "interval_desc"             => "Set how often this task runs, for example setting 5 minutes will mean that the task runs every 5 minutes if the cron is active and running.",
     "cron_settings"             => "Cron Settings",
-    "cron_makesure"             => "Please create a cron job with the following entry: ",
     "cron_running"              => "Running",
     "cron_not_running"          => "Not Running",
     "task_ran"                  => "Successfully ran scheduled task manually.",
@@ -165,7 +162,6 @@ return array(
     "messages_desc"             => "Private Messages serve as a useful way for 1:1 conversations with other help desk operators.",
     "configure"                 => "Configure Your Help Desk",
     "configure_desc"            => "SupportPal contains a number of settings enabling you to configure the help desk to your own preference.",
-    "company_name_desc"         => "Your company name is used for all correspondence with users.",
     "default_email"             => "Default Email Address",
     "default_email_desc"        => "The default email address to use for all outbound correspondence to users.",
     "dept_settings_desc"        => "We realise that departments within your organisation operate differently. Department settings enable you to override global settings.",
@@ -227,11 +223,6 @@ return array(
     "pretty_urls_desc"          => "Enabling will remove index.php from URLs, only enable if you are able to access the operator panel without index.php. Disable if you do not have mod_rewrite installed, .htaccess files are not allowed or haven't converted the Apache .htaccess rewrite rules to work with your alternative web server.",
 
     /*
-     * 2.0.1
-     */
-    "incoming_rejected"         => "Incoming (Rejected)",
-
-    /*
      * 2.0.2
      */
     "cron_makesure"             => "For assistance registering the cron job, please see <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Cron Job Help</a>.",
@@ -257,10 +248,8 @@ return array(
     "generalsetting_desc"       => "Edit the settings that apply to all of SupportPal. If you wish to edit settings for a specific section, e.g. Tickets, open the section in the sidebar to view available settings for that module. Settings related to your brand(s) can be found by clicking Brands in the sidebar.",
     "brand"                     => "Brand|Brands",
     "brand_desc"                => "A brand is your customer-facing identity within SupportPal, allowing several channels of communication. Several brands can be operated seamlessly under a single, unified operator panel.",
-    "brand_name"                => "Brand Name",
     "default_brand"             => "Default Brand",
     "default_brand_desc"        => "Select the brand that will be used by default when visitors visit the frontend and a matching brand cannot be found.",
-    "brand_name_desc"           => "The name of the brand as seen by end-users.",
     "brand_enabled_desc"        => "Toggle to enable or disable the brand. Disabled brands cannot be utilised and won't count as part of the brands allowed on your license, disabling can be used to temporarily hide a brand and/or retain information. Deleting a brand will remove all information including users and tickets that are related to it.",
     "inherit_global_setting"    => "Inherit Global Setting",
     "brand_date_format_desc"    => "The date format used for this brand's frontend.",
@@ -298,7 +287,6 @@ return array(
     "app_logs_desc"             => "All warnings and errors from general usage of the help desk are logged here. You may be asked to provide one or more of these logs when requesting support.",
     "email_logs"                => "Email Logs",
     "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
-    "query_logs"                => "SQL Query Logs",
 
     /*
      * 2.1.2
@@ -376,7 +364,6 @@ return array(
      */
     "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
     "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
-    "query_logs_desc"           => "These logs contain all MySQL queries that are run when utilising the help desk. The logs are only stored when debug mode is manually enabled in the app configuration file.",
     "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
@@ -488,7 +475,33 @@ return array(
     "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
     "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
     "configure_after_brand_created" => "This may be configured after the brand has been created.",
-    'get_access_token'          => 'Get Access Token',
-    'reset_access_token'        => 'Reset Access Token',
+    "get_access_token"          => "Get Access Token",
+    "reset_access_token"        => "Reset Access Token",
+
+    /*
+     * 3.4.0
+     */
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
+    "supportpal_announcements"  => "SupportPal Announcements",
+    "add_selectize"             => "Add <strong>:item</strong>...",
+    "plugin_author_uri_short"   => "Author URI",
+    "plugin_vendor_name_short"  => "Vendor Name",
+    "open_link_in_new_tab"      => "Open link in new tab",
+    "general_settings"          => "Configure general settings",
+    "configure_brand"           => "Configure brand",
+    "configure_department"      => "Configure department",
+    "setup_cron"                => "Set-up cron job",
+    "channel_settings"          => "Update ticket channel settings",
+    "add_user"                  => "Add a new user",
+    "open_ticket"               => "Open a new ticket",
+    "reply_ticket"              => "Reply to ticket",
+    "new_version_available"     => "New Version Available",
+    "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
+    "download"                  => "Download",
+    "acknowledge"               => "Acknowledge",
+    "update_available"          => "The latest available version is :version.",
+    "running_latest_version"    => "You are running the latest version.",
+    "running_prerelease"        => "You are running a prerelease version.",
 
 );

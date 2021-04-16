@@ -72,7 +72,7 @@ return array(
      */
     // User
     "operator"          => "Manage Operators",
-    
+
     /*
      * 2.1.0
      */

@@ -365,8 +365,14 @@ return array(
     /*
      * 3.3.0
      */
-    "oauth_data"                => "OAuth Data",
     "authentication"            => "Authentication",
     "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
 
 );

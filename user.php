@@ -137,7 +137,6 @@ return array(
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "display_notifications"         => "Display Notifications",
     "display_notifications_desc"    => "The system will notify you when new tickets or replies are created, or when other operators login. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
     "desktop_notifications"         => "Desktop Notifications",
@@ -287,7 +286,6 @@ return array(
     "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
     "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
     "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "reset_request_desc"            => "Please check your email to complete the password reset process.",
     "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
     "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
     "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
@@ -312,7 +310,6 @@ return array(
     "force_two_fa"                  => "Force 2FA",
     "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
     "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
-    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled, please complete your login again.",
     "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
 
     /*
@@ -321,5 +318,11 @@ return array(
     "remove_avatar"                 => "Remove Avatar",
     "social_login_desc"             => "Allow users to register and log in using their social account.",
     "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
 
 );

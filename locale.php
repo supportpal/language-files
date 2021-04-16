@@ -393,5 +393,5 @@ return array(
         "Asia/Kamchatka"                    => "(GMT+12:00) Kamchatka",
         "Pacific/Auckland"                  => "(GMT+12:00) Auckland",
         "Pacific/Tongatapu"                 => "(GMT+13:00) Nukualofa"
-    )
+    ),
 );

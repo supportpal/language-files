@@ -169,6 +169,11 @@ return array(
     "starts_with"               => "The :attribute must start with one of the following: :values.",
 
     /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------

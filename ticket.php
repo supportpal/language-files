@@ -106,7 +106,6 @@ return array(
     "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
     // Department email templates
     "new_ticket_opened"         => "New Ticket Opened",
-    "reply_to_locked"           => "Reply to Locked Ticket",
     "waiting_for_response"      => "Waiting for Response",
     "ticket_auto_closed"        => "Ticket Auto Closed",
     "closed_by_operator"        => "Closed By Operator",
@@ -131,10 +130,8 @@ return array(
     "bad_not_satisfied"         => "Bad, I'm unsatisfied",
     "feedback_not_found"        => "Your feedback could not be accepted, please open a ticket with us if you wish to share your feedback.",
     "feedback_malformed_token"  => "Your feedback could not be accepted due to a malformed token. Please open a ticket with us if you wish to share your feedback.",
-    "feedback_already_done"     => "You have already provided your feedback for this ticket, thank you.",
     "feedback_expired"          => "The ticket has been resolved for a while, and it can unfortunately no longer be rated.",
     "feedback_questions"        => "If you could spare a few moments, please answer the following questions to help us further improve the support that we offer.",
-    "feedback_thank_you"        => "Thank you for providing your feedback on this ticket.",
     "feedback_for_ticket"       => "Feedback for Ticket #:number",
     "feedback_rating_desc"      => "The support received on this ticket has been rated as <strong>:rating</strong> by the user.",
 
@@ -535,5 +532,19 @@ return array(
     "unresolved"                => "Unresolved",
     "resolved"                  => "Resolved",
     "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
 );
