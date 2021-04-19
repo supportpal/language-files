@@ -120,7 +120,7 @@ return array(
     "visibility"                => "Zichtbaarheid",
     "reply_to_comment"          => "Beantwoord deze reactie",
     "article_brand_warning"     => "Dit artikel bevind zich in een merk waarmee u niet geassocieerd bent. Elke aanpassinge die u maakt zal ook onder dit merk vallen.",
-    "viewing_article"           => "Bekijken van artikel",
+    "viewing_article"           => "Bekijkt artikel",
     "article_count"             => "Aantal artikelen",
 
     /*

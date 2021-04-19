@@ -22,7 +22,7 @@ return array(
     "my_tickets_desc"           => "Track uw tickets. U vindt hier zowel de open als gesloten tickets.",
     "no_modules"                => "Er zijn geen modules aangezet.",
     "search_results"            => "Zoekresultaten",
-    "found_results"             => ":total resultaten gevonden met deze zoekterm",
+    "found_results"             => ":total resultaten gevonden met de zoekterm",
 
     // Maintenance
     "maintenance"               => "We voeren momenteel onderhoud uit",
@@ -468,7 +468,7 @@ return array(
     "lists"                     => "Lijsten",
     "edit_html"                 => "Bewerk HTML",
     "sEmptyTable"               => "Geen data beschikbaar in de tabel",
-    "sInfo"                     => "Toont _START_ tor _END_ van de _TOTAL_ resultaten",
+    "sInfo"                     => "Toont _START_ - _END_ van de _TOTAL_ resultaten",
     "sInfoEmpty"                => "Toont 0 tot 0 van de 0 resultaten",
     "sInfoFiltered"             => "(gefilterd van _MAX_ totale resultaten)",
     "sInfoPostFix"              => "",

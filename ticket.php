@@ -20,8 +20,8 @@ return array(
     "ticket"                    => "Ticket|Tickets",
     "subject"                   => "Onderwerp",
     "no_subject"                => "Geen onderwerp",
-    "last_action"               => "Laatste action",
-    "due_time"                  => "Due Time",
+    "last_action"               => "Laatste actie",
+    "due_time"                  => "Deadline",
     "created_time"              => "Tijd aangemaakt:",
     "submitted"                 => "Ingediend",
     "add_reply"                 => "Voeg antwoord toe",
@@ -43,7 +43,7 @@ return array(
     "recent_tickets"            => "Recente tickets",
     "last_message_text"         => "Tekst laatste bericht",
 
-    "set_due_time"              => "Stel due time in",
+    "set_due_time"              => "Stel deadline in",
 
     "settings"                  => "Ticketinstellingen",
 
@@ -53,7 +53,7 @@ return array(
     "account"                   => "Account|Accounts",
 
     "assign_operator"           => "Operator toewijzen",
-    "assigned_operator"         => "Toegewezen perators",
+    "assigned_operator"         => "Toegewezen operator",
     "assigned_to"               => "Toegewezen aan",
     "assigned"                  => "Toegewezen",
 
@@ -214,7 +214,7 @@ return array(
     // Schedule
     "schedule"                  => "Planning|Planningen",
     "business_hour"             => "Kantoortijden",
-    "business_hour_desc"        => "Kantoortijden geven de tijd aan waarin servicedeskmedewerkers beschikbaar zijn. Deze tijden worden meegereked met de bepaling van de deadline (due time)..",
+    "business_hour_desc"        => "Kantoortijden geven de tijd aan waarin servicedeskmedewerkers beschikbaar zijn. Deze tijden worden meegereked met de bepaling van de deadline (deadline)..",
 
     // Holidays
     "holiday"                   => "Feestdag/Feestdagen",
@@ -481,9 +481,9 @@ return array(
     "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op uw klanttevredenheidsscore) ",
     "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
     "delete_message"            => "Verwijder bericht",
-    "linked_tickets"            => "Linked Tickets",
-    "add_linked_ticket"         => "Linked Ticket Toevoegen",
-    "create_linked_ticket"      => "Linked ticket Aanmaken",
+    "linked_tickets"            => "Gekoppelde Tickets",
+    "add_linked_ticket"         => "Gekoppelde ticket toevoegen",
+    "create_linked_ticket"      => "gekoppelde ticket aanmaken",
     "copy_link"                 => "Kopieer link",
     "forward_message"           => "Bericht doorsturen",
     "forward_from_here"         => "Bericht doorsturen vanaf hier",

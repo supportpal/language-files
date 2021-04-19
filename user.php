@@ -305,7 +305,7 @@ return array(
      */
     "must_have_permission"          => "U moet de  \":permission\" permissie",
     "deleted_user"                  => "Verwijderde gebruiker",
-    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+    "access_level_not_owner"        => "Het is niet mogelijk om het toegangsniveau van organisatie-eigenaren te wijzigen. Draag eerst het eigendom van de organisatie over aan een andere gebruiker door de organisatie te bekijken en op het tabblad 'Gebruikers' te klikken.",
 
     /*
      * 2.4.1
