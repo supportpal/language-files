@@ -390,8 +390,14 @@ return array(
     /*
      * 3.3.0
      */
-    "oauth_data"                => "OAuth Data",
     "authentication"            => "Authenticatie",
-    "manage_credentials"        => "Beheer inloggegevens",
+    "manage_credentials"        => "Beheer inloggegevens" ,
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Selecteer een datum",
+    "select_values"             => "Selecteer waarden",
+    "file"                      => "Bestand",
 
 );

@@ -30,16 +30,13 @@ return array(
     "maintenance_active"        => "Onderhoudsmodus is actief.",
 
     // About
-    "development_license"       => "Ontwikkelingslicentie!",
-    "development_license_desc"  => "Deze installatie gebruikt een ontwikkelingslicentie welke alleen geldig is op RFC1918 adressen. U bent niet gemachtigd deze licentie in productie te gebruiken.",
-    "license_status"            => "Licentiestatus",
-    "license_code"              => "Licentiecode",
-    "change_license"            => "Wijzig licentie",
-    "license_info"              => "Licentieinformatie",
-    "license_owner"             => "Licentie-eigenaar",
-    "license_created"           => "Licentie gemaakt",
-    "license_type"              => "Licentie type",
-    "no_branding"               => "Geen branding",
+    "license_status"            => "License Status",
+    "license_code"              => "License Code",
+    "change_license"            => "Change License",
+    "license_info"              => "License Information",
+    "license_owner"             => "License Owner",
+    "license_created"           => "License Created",
+    "license_type"              => "License Type",
     "branding"                  => "Branding",
     "license_expires"           => "Licentie verloopt",
     "license_valid_ip"          => "Licentie geldig IP(s)",
@@ -77,8 +74,6 @@ return array(
 
     // Company
     "company"                   => "Bedrijf|Bedrijven",
-    "company_name"              => "Bedrijfsnaam",
-    "your_company"              => "Uw bedrijf",
 
     // Email
     "default_email_addr"        => "Standaard e-mailadres",
@@ -124,11 +119,10 @@ return array(
     "scheduled_task"            => "Geplande taak|Geplande taken",
     "interval_desc"             => "Stel in hoe vaak deze taak wordt gestart, bijvoorbeeld instellen op 5 minutes betekent dat de taak elke 5 minuten wordt uitgevoerd.",
     "cron_settings"             => "Cron instellingen",
-    "cron_makesure"             => "Selecteer een cron job met de volgende met de volgende entry: ",
     "cron_running"              => "Actief",
     "cron_not_running"          => "Niet actief",
-    "task_ran"                  => "Handmatig gestart, goed uitgevoerd.",
-    "task_failed"               => "Handmatig gestart, niet goed uitgevoerd.",
+    "task_ran"                  => "De geplande taak handmatig uitgevoerd.",
+    "task_failed"               => "Het is mislukt om de geplande taak handmatig uit te voeren.",
 
     // Plugins
     "plugins"                   => "Plugin|Plugins",
@@ -175,35 +169,33 @@ return array(
     "enable_tour"               => "Inschakelen rondleiding",
 
     // Product Tour
-    "dashboard_desc"            => "Uw persoonlijke dashboard. Widgets kunnen worden verwijderd, geminimaliseerd en verplaatst!",
-    "private_messages"          => "Priveberichten",
-    "messages_desc"             => "Priveberichten kunnen gebruikt worden als directe communicate tussen servicedeskmedewerkers.",
-    "configure"                 => "Stel uw Servicedesk in",
-    "configure_desc"            => "SupportPal bevat een aantal instellingen waarmee u de servicedesk kunt aanpassen naar uw eigen wensen.",
-    "company_name_desc"         => "Uw bedrijfsnaam wordt gebruikt in alle correspondentie met gebruikers.",
-    "default_email"             => "Standaard e-mailadres",
-    "default_email_desc"        => "Het standaard e-mailadres wordt gebruikt in alle uitgaande communicatie met gebruikers.",
-    "dept_settings_desc"        => "We begrijpen dat afdelingen binnen uw organisatie niet allemaal hetzelfde werken. Bij afdelingsintellingen kunt u de standaard instellingen aanpassen.",
-    "department_desc"           => "Afdelingen zijn net als in uw organisatie. Handig om te zorgen dat klantvragen bij de correcte persoon aankomen.",
-    "department_email"          => "Afdelingse-mailadres",
-    "dept_email_desc"           => "Een afdeling kan meerdere e-mailadressen gebruiken. E-mailcollectie wordt gedaan met het ingestelde adres om e-mail het servicedesksysteem binnen te halen.",
-    "dept_tmpl"                 => "Afdelingse-mailtemplates",
-    "dept_tmpl_desc"            => "U kunt afdelingse-mailtemplates aanpassen en zelfs uitschakelen. Afdelingsspecieke e-mailtemplates kunnen hier worden gemaakt en ingeschakeld.",
-    "schedule_task_desc"        => "Ingeplande taken worden gebruikt voor automatische processen binnen SupportPal, inclusief ophalen van tickets uit email.",
-    "schedule_task_2"           => "Ingeplande taken hebben een cronjob nodig om te worden uitgevoerd. De interval voor elke taak kan worden aangepast via het bewerkingsformulier.",
-    "schedule_task_cron"        => "Cronjob",
-    "schedule_task_3"           => "Maak een cronjob op uw server zoals in onderstaand voorbeeld om de geplande taken automatisch te laten plaatsvinden.",
-    "ticket_channel_desc"       => "Ticketchannels zijn methodes voor het maken van tickets. Ze kunnen worden uitgebreid met eigen channels, bijvoorbeeld tickets geopend via Instagram.",
-    "ticket_channel_2"          => "We leveren een aantal standaard channels. U kunt de Facebook en Twitter channels activeren en configureren om via deze social media tickets aan te kunnen laten maken.",
-    "user_desc"                 => "Hier worden de gebruikers van het systeem getoond. U kunt toevoegen, bewerken en verwijderen.",
-    "organisation_desc"         => "Gebruikers kunnen worden toegewezen aan organisaties waarbij ze toegang hebben tot tickets van andere gebruikers binnen dezelfde organisatie.",
-    "operator_desc"             => "Andere medewerkers kunnen hier als operator worden toegevoegd, en er kan worden ingesteld voor welke afdeling(en) ze werk kunnen doen.",
-    "ticket_desc"               => "In het ticketoverzicht staan alle tickets die relevant zijn voor u.",
-    "ticket_desc2"              => "In het ticketoverzicht kan gebruik worden gemaakt van sortering en filtering en de layout van de kolommen kan worden aangepast.",
-    "ticket_toolbar"            => "Toolbar",
-    "ticket_desc3"              => "Bulkacties kunnen worden uitgevoerd middels de toolbar.",
-    "tour_complete"             => "Einde van de rondleiding!",
-    "tour_complete_desc"        => "Dank u voor het gebruik van SupportPal.<br /><br />We raden u aan dat u met onderstaande gids begint voor het configureren van uw servicedesk.",
+    "dashboard_desc"            => "Uw eigen persoonlijke dashboard. Widgets kunnen worden verwijderd, geminimaliseerd en verplaatst! ",
+    "private_messages"          => "Privéberichten",
+    "messages_desc"             => "Privéberichten zijn een handige manier voor 1: 1-gesprekken met andere helpdeskmedewerkers. ",
+    "configure"                 => "Configureer uw helpdesk",
+    "configure_desc"            => "SupportPal bevat een aantal instellingen waarmee u de helpdesk naar eigen voorkeur kunt configureren. ",
+    "default_email"             => "Standaard e-mail adres",
+    "default_email_desc"        => "Het standaard e-mailadres dat moet worden gebruikt voor alle uitgaande correspondentie met gebruikers.",
+    "dept_settings_desc"        => "We realiseren ons dat afdelingen binnen uw organisatie anders opereren. Met afdelingsinstellingen kunt u algemene instellingen negeren.",
+    "department_desc"           => "Afdelingen zijn net als die binnen uw organisatie. Handig om ervoor te zorgen dat vragen van klanten snel bij de juiste medewerker(s) terechtkomen.",
+    "department_email"          => "E-mailadres van de afdeling ",
+    "dept_email_desc"           => "Er kunnen meerdere e-mailadressen worden toegewezen aan een bepaalde afdeling. E-mailverzameling wordt uitgevoerd op basis van de geconfigureerde adressen om e-mails van uw klanten naar de helpdesk te halen.",
+    "dept_tmpl"                 => "E-mailsjablonen voor afdelingen",
+    "dept_tmpl_desc"            => "Soms wilt u misschien de e-mailsjablonen van een afdeling wijzigen of volledig uitschakelen. U kunt afdelingsspecifieke e-mailsjablonen definiëren en deze hier inschakelen.",
+    "schedule_task_desc"        => "Geplande taken worden gebruikt om verschillende processen binnen SupportPal te automatiseren, waaronder het verzamelen van tickets via e-mail.",
+    "schedule_task_2"           => "Voor geplande taken moet een cron-taak worden gemaakt om te kunnen werken. Het interval voor elke taak die door de cron-taak wordt uitgevoerd, kan worden aangepast via het bewerkingsformulier.",
+    "schedule_task_cron"        => "Cron Job",
+    "schedule_task_3"           => "Maak een cronjob aan die lijkt op het onderstaande voorbeeld op uw server zodat de geplande taken automatisch worden uitgevoerd. ",
+    "ticket_channel_desc"       => "Ticketkanalen zijn methoden om tickets te maken. Ze kunnen eenvoudig worden uitgebreid met uw eigen kanalen, bijvoorbeeld tickets die via Instagram worden geopend.",
+    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt u de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen. ",
+    "user_desc"                 => "Gebruikers die met uw systeem communiceren, worden hier weergegeven. U kunt desgewenst gebruikers toevoegen, bewerken en verwijderen.",
+    "organisation_desc"         => "Gebruikers kunnen worden toegewezen aan organisaties waardoor ze toegang hebben tot tickets die zijn geopend door andere gebruikers binnen hun organisatie.",
+    "operator_desc"             => "Andere personeelsleden kunnen hier als operator worden toegevoegd, samen met het beheer van de afdelingen waaraan ze zijn toegewezen. ",
+    "ticket_desc"               => "Het ticket rooster bevat een verzameling van alle voor u relevante tickets.",
+    "ticket_toolbar"            => "Werkbalk",
+    "ticket_desc3"              => "Bulkacties kunnen worden uitgevoerd op tickets met behulp van de ticketwerkbalk.",
+    "tour_complete"             => "Tour Voltooid!",
+    "tour_complete_desc"        => "Bedankt voor het gebruik van SupportPal.<br /><br />We raden u nu aan de onderstaande beknopte handleiding te volgen om uw helpdesk te configureren.",
 
     // IP Ban
     "ip_ban_time_desc"          => "Of de blokkade permanent is of tijdelijk.",
@@ -252,12 +244,6 @@ return array(
     "send_diagnostic_desc"      => "Om SupportPal te helpen het product nog beter te maken kan uw installatie diagnotische data versturen wanneer er iets fout gaat.",
 
     /*
-     * 2.0.1
-     */
-    "incoming_rejected"         => "Inkomend (geweigerd)",
-    "show_original"             => "Toon origineel",
-
-    /*
      * 2.0.2
      */
     "cron_makesure"             => "Voor hulp met instellen van de cron job, zie <a target='_blank' href='http://docs.supportpal.com/display/DOCS/New+Installation#NewInstallation-CronJob'>Cron Job Help</a>.",
@@ -280,37 +266,33 @@ return array(
     /*
      * 2.1.0
      */
-    "generalsetting_desc"       => "Bewerk de instellingen van SupportPal. Indien u specifieke instellingen wilt aanpassen, zoals tickets, in de side bar van die sectie kunt u de instellingen aanpassen. Instellingen die te maken hebben met uw merk(en) kunt u vinden in de Merken-sectie in de sidebar.",
+    "generalsetting_desc"       => "Bewerk de instellingen die van toepassing zijn op heel SupportPal. Als u instellingen voor een specifieke sectie wilt bewerken, bijv. Tickets, open het gedeelte in de zijbalk om de beschikbare instellingen voor die module te zien. Instellingen met betrekking tot uw merk(en) zijn te vinden door op Merken in de zijbalk te klikken.",
     "brand"                     => "Merk|Merken",
-    "brand_desc"                => "Een merk is een identiteit binnen SupportPal, wat u in staat stelt meerdere kanalen te gebruiken, Meerdere merken kunnen naadloos onder een operatorpanel gebruikt worden.",
-    "brand_name"                => "Merknaam",
+    "brand_desc"                => "Een merk is uw klantgerichte identiteit binnen SupportPal, waardoor meerdere communicatiekanalen mogelijk zijn. Meerdere merken kunnen naadloos worden bediend onder één enkel bedieningspaneel.",
     "default_brand"             => "Standaard merk",
-    "default_brand_desc"        => "Selecteer het merk dat u standaard gebruikt wanneer bezoekers de frontend gebruiken.",
-    "brand_name_desc"           => "De merknaam zoals deze wordt gezien door eindgebruikers.",
-    "brand_enabled_desc"        => "Schakel een merk in of uit. Uitgeschakelde merken kunnen niet worden gebruikt en tellen ook niet onder het totaal voor de licentie, met uitschakelen is het merk niet beschikbaar maar zijn de gegevens nog wel beschikbaar. Het verwijderen van een merk verwijderd ook alle gegevens van het merk en de tickets die eronder vielen.",
-    "inherit_global_setting"    => "Neem globale instellingen over",
-    "brand_date_format_desc"    => "Het datumformaat dat gebruikt wordt voor dit merk.",
-    "brand_time_format_desc"    => "Het tijdsformaat dat gebruikt wordt voor de frontend van dit merk.",
-    "brand_timezone"            => "Merk tijdzone",
-    "brand_timezone_desc"       => "De tijdzone die standaard wordt gebruikt op het frontend van dit merk, gebruikers krijgen de optie hun eigen tijdzone in te stellen.",
-    "brand_default_lang_desc"   => "De taal die standaard wordt gebruikt op het frontend van dit merk.",
-    "brand_lang_toggle_desc"    => "Of het taalpulldown-menu wordt getoond op de frontend van dit merk.",
-    "brand_groups_desc"         => "Operators in de geselecteerde groep kunnen tickets maken, bijwerken en verwijderen (mits ze daartoe rechten hebben)), geldt ook voor andere content van dit merk.",
+    "default_brand_desc"        => "Selecteer het merk dat standaard wordt gebruikt wanneer bezoekers de frontend bezoeken en er kan geen passend merk kan worden gevonden. ",
+    "brand_enabled_desc"        => "Schakel een merk in of uit. Uitgeschakelde merken kunnen niet worden gebruikt en tellen niet mee als onderdeel van de merken die zijn toegestaan op uw licentie. Uitschakelen kan worden gebruikt om tijdelijk een merk te verbergen en / of informatie vast te houden. Als u een merk verwijdert, wordt alle informatie verwijderd, inclusief gebruikers en tickets die daarmee verband houden.",
+    "inherit_global_setting"    => "Globale instelling overnemen",
+    "brand_date_format_desc"    => "De datumnotatie die wordt gebruikt voor de frontend van dit merk. ",
+    "brand_time_format_desc"    => "Het tijdformaat dat wordt gebruikt voor de frontend van dit merk. ",
+    "brand_timezone"            => "Tijdzone merk",
+    "brand_timezone_desc"       => "De tijdzone die standaard wordt gebruikt op de frontend van dit merk, gebruikers hebben de mogelijkheid om hun eigen tijdzone te selecteren.",
+    "brand_default_lang_desc"   => "De taal die standaard wordt gebruikt op de frontend van dit merk.",
+    "brand_lang_toggle_desc"    => "Als de vervolgkeuzelijst voor talen op de frontend van dit merk moet worden weergegeven.",
+    "brand_groups_desc"         => "Operators in de geselecteerde groepen kunnen tickets en andere inhoud van dit merk maken, bijwerken en verwijderen (afhankelijk van de rolrechten).",
     "select_brand"              => "Selecteer een merk...",
-    "add_another_language"      => "Voeg een andere taal toe...",
-    "mass_email_brand_desc"     => "Selecteer vanuit welk merk de e-mail verzonden zal worden. Dit adres wordt gebruikt voor het van-veld (naam en e-mailadres). Indien u naar een gebruikersgroep mailt krijgen alleen de leden van die merkgroep de email.",
-    "brand_limit_exceeded"      => "Uw licentie is slechts toegestaan :allowed merken tegelijkertijd te gebruiken. U kunt dit uitbreiden bij onze klantsectie.",
+    "add_another_language"      => "Nog een taal toevoegen...",
+    "mass_email_brand_desc"     => "Selecteer van welk merk de e-mail wordt verzonden. Het wordt gebruikt om het verzenden van naam en adres in te stellen, het juiste e-mailsjabloon te laden en in de samenvoegvelden. Als u naar een gebruikersgroep verzendt, worden alleen gebruikers die tot het geselecteerde merk behoren gemaild.",
+    "brand_limit_exceeded"      => "Uw licentie is momenteel toegestaan om :allowed merk(en) tegelijk te gebruiken. Bezoek ons klantengedeelte om meer merken aan te schaffen. ",
     "additional_brands"         => "Extra merken",
-    "purchase_more"             => "Breidt licentie uit",
-    "brand_limit_allowed"       => "Uw licentie kan slechts :allowed merken tegelijkertijd gebruiken.|Uw licentie kan slechts :allowed merken tegelijkertijd gebruiken.",
+    "purchase_more"             => "Koop meer",
+    "brand_limit_allowed"       => "Uw licentie is momenteel toegestaan om :allowed merk tegelijkertijd te gebruiken.|Uw licentie is momenteel toegestaan om :allowed merken tegelijkertijd te gebruiken",
     "brand_limit_purchase"      => "Indien dit niet correct is, laat uw licentie <strong>opnieuw uitgeven</strong> in onze <a href='http://www.supportpal.com/manage/' target='_blank'>klantsectie</a> en bezoek de <a href=':route'>Licentieinformatie</a> pagina om uw servicedesk te synchroniseren met onze licentieserver.<br />Om meer merken te gebruiken <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade uw licentie</a>.",
-    "support_no_expiry"         => "U hebt recht op support en updates.",
-    "support_expiry"            => "U hebt recht op support en updates tot :date.",
-    "support_status_desc"       => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Verleng uw supportcontract</a> om support en updates te krijgen van SupportPal.",
-    "ip_ban"                    => "IP blokkade|IP blokkades",
-    "ip_whitelist"              => "IP whitelist",
-    "whitelisted_ip"            => "Gewhiteliste IP",
-    "frontend_logo_desc"        => "Pas uw standaard logo aan voor de frontend van dit merk. Het veld kan een relatief pad vanaf de base directory zijn (we raden aan uw logo op te slaan in de /reources/assets/ directory) of een volledige URL naar de afbeelding.",
+    "support_expiry"            => "Uw abonnement op ondersteuning en updates is geldig tot :date.",
+    "support_status_desc"       => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>verleng uw ondersteuningsabonnement </a> om de laatste ondersteuning en updates van SupportPal te krijgen.",
+    "ip_ban"                    => "IP Ban|IP Bans",
+    "ip_whitelist"              => "IP Whitelist",
+    "whitelisted_ip"            => "Gewhitelist IP",
     "license_path"              => "Installatiepad",
     "php_info"                  => "PHP Informatie",
     "log"                       => "Log|Logs",
@@ -321,14 +303,12 @@ return array(
     /*
      * 2.1.1
      */
-    "file_manager"              => "Logbestandbeheer",
-    "file_manager_desc"         => "Onderstaand kunt u de logs downloaden of verwijderen die zijn opgeslagen door het systeem, ze kunnen worden gebruikt voor debuggings. De logbestanden worden automatisch gecycled, er staat maximaal 5 dagen aan data in.",
+    "file_manager"              => "Logboekbeheer",
+    "file_manager_desc"         => "Hieronder kunt u de logboeken downloaden of verwijderen die tijdens het gebruik door het systeem zijn opgeslagen, ze kunnen worden gebruikt voor foutopsporingsdoeleinden. De logboekbestanden worden automatisch doorlopen en worden slechts tot de laatste 5 dagen aan gegevens opgeslagen.",
     "app_logs"                  => "Applicatielogs",
-    "app_logs_desc"             => "Alle waarschuwingen en foutmeldingen opgetreden tijdens regulier gebruik van de servicedesk staan hierin. Wanneer u support aanvraagt kan naar deze bestanden worden gevraagd.",
+    "app_logs_desc"             => "Alle waarschuwingen en fouten van algemeen gebruik van de helpdesk worden hier gelogd. Mogelijk wordt u gevraagd om een of meer van deze logboeken te verstrekken wanneer u ondersteuning aanvraagt.",
     "email_logs"                => "E-maillogs",
-    "email_logs_desc"           => "Details over inkomende e-mails worden in deze bestanden opgeslagen wanneer de e-mails worden verwerkt en geimporteerd als nieuwe tickets.",
-    "query_logs"                => "SQL Query Logs",
-    "query_logs_desc"           => "Deze logs bevatten alle MySQL queries die worden uitgevoerd tijdens het gebruik van de servicedesk en worden alleen opgeslagen tijdens debugging modus.",
+    "email_logs_desc"           => "Details over inkomende e-mails worden in deze bestanden opgeslagen wanneer ze worden geparseerd en geïmporteerd als tickets.",
 
     /*
      * 2.1.2
@@ -404,10 +384,9 @@ return array(
     /*
      * 2.4.0
      */
-    "enable_ssl_warning"        => "Als u deze instelling inschakelt wanneer de pagina niet correct wordt geladen, wordt u mogelijk buitengesloten van SupportPal!",
+    "enable_ssl_warning"        => "Als u deze instelling inschakelt wanneer de pagina niet correct laadt, wordt u mogelijk uitgesloten van SupportPal! ",
     "verify_frontend_loads"     => "Controleer of de frontend hieronder correct wordt geladen.",
-    "query_logs_desc"           => "Deze logboeken bevatten alle MySQL-queries die worden uitgevoerd bij het gebruik van SupportPal. De logboeken worden alleen opgeslagen als de foutopsporingsmodus handmatig is ingeschakeld in het app-configuratiebestand.",
-    "twig_operator_signature"   => "Het {{ operator.signature|raw }} samenvoegveld wordt tijdens runtime verwerkt, waardoor het voorbeeld mogelijk onjuist is. ",
+    "twig_operator_signature"   => "Het {{ operator.signature|raw }} samenvoegveld wordt tijdens runtime verwerkt, waardoor het voorbeeld mogelijk onjuist is.",
 
     /*
      * 2.4.1
@@ -518,7 +497,33 @@ return array(
     "create_credentials"        => "Maak authenticatiegegevens aan via de <a href=\":route\">Integratie met derden</a> pagina.",
     "oauth_data_missing"        => "De client-ID en / of het Client Secret zijn niet ingesteld en zijn vereist. Zodra u deze heeft ingesteld volgens de onderstaande instructies, sluit u de pop-up en valideert u deze opnieuw.",
     "configure_after_brand_created" => "Dit kan worden geconfigureerd nadat het merk is gemaakt.",
-    'get_access_token'          => 'Get Access Token',
-    'reset_access_token'        => 'Reset Access Token',
+    "get_access_token"          => "Krijg toegangstoken",
+    "reset_access_token"        => "Reset toegangstoken",
+
+    /*
+     * 3.4.0
+     */
+    "brand_name"                => "Merknaam",
+    "brand_name_desc"           => "Uw merknaam wordt gebruikt voor alle correspondentie met gebruikers. ",
+    "supportpal_announcements"  => "SupportPal Aankondigingen",
+    "add_selectize"             => "<strong>:item</strong> toevoegen...",
+    "plugin_author_uri_short"   => "Auteur URI",
+    "plugin_vendor_name_short"  => "Naam leverancier",
+    "open_link_in_new_tab"      => "Open link in nieuw tabblad",
+    "general_settings"          => "Configureer algemene instellingen",
+    "configure_brand"           => "Configureer merk",
+    "configure_department"      => "Configureer afdeling",
+    "setup_cron"                => "Cron instellen",
+    "channel_settings"          => "Update ticketkanaalinstellingen ",
+    "add_user"                  => "Nieuwe gebruiker toevoegen",
+    "open_ticket"               => "Nieuw ticket openen",
+    "reply_ticket"              => "Reageer op ticket",
+    "new_version_available"     => "Nieuwe versie beschikbaar",
+    "new_version_desc"          => "Er is een nieuwe versie van SupportPal uitgebracht, we raden altijd aan om uw installatie up-to-date te houden. <div class='description'>Als u deze melding negeert, wordt deze verborgen totdat er een nieuwere versie wordt uitgebracht.</div>",
+    "download"                  => "Download",
+    "acknowledge"               => "Negeren",
+    "update_available"          => "De laatste beschikbare versie is :version.",
+    "running_latest_version"    => "U gebruikt de nieuwste versie.",
+    "running_prerelease"        => "U gebruikt een voorlopige versie.",
 
 );

@@ -17,7 +17,7 @@ return array(
     /*
      * 2.0.2
      */
-    "private_message"       => "Nieuwe privebericht",
+    "private_message"       => "Nieuwe privébericht",
 
     /*
      * 2.1.1

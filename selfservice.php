@@ -27,8 +27,8 @@ return array(
     "published"                 => "Gepubliceert op:",
     "spam"                      => "Spam",
 
-    "show_text"                 => "Toon text",
-    "hide_text"                 => "Verberg text",
+    "show_text"                 => "Toon tekst",
+    "hide_text"                 => "Verberg tekst",
 
     "hierarchical"              => "Hierarchisch",
     "list"                      => "Lijst",

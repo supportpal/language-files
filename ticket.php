@@ -119,12 +119,10 @@ return array(
     "email_operators"           => "Bericht operators",
     "email_operators_desc"      => "Selecteer wanneer antwoorden van operators moeten worden doorgestuurd naar andere operators. Standaard wordt de \"e-mail operators\" optie in het operator panel gezet, en stuurt dan automatisch een e-mail bij e-mail reacties van operators.",
     // Department email templates
-    "new_ticket_reply"          => "Nieuw ticket antwoord",
-    "new_ticket_opened"         => "Nieuw ticket geopend",
-    "reply_to_locked"           => "Antwoord op locked ticket",
-    "waiting_for_response"      => "Wacht op antwoord",
+    "new_ticket_opened"         => "Nieuw Ticket Geopend",
+    "waiting_for_response"      => "Wachtend op Antwoord",
     "ticket_auto_closed"        => "Ticket automatisch gesloten",
-    "closed_by_operator"        => "Gesloten door operator",
+    "closed_by_operator"        => "Gesloten door Operator",
 
     // Feedback
     "feedback"                  => "Feedback",
@@ -145,20 +143,15 @@ return array(
     "response_rate"             => "Response rate",
     "sent_forms"                => "Verstuurde feedbackformulieren",
     "rating"                    => "Rating",
-    "good_ratings"              => "Goede Ratings",
-    "bad_ratings"               => "Slechte Ratings",
-    "customer_satisfaction"     => "Klanttevredenheid",
-    "feedback_desc"             => "Dank u dat u contact met ons op hebt genomen en we hopen uw vraag te hebben beantwoord. U kunt uw ervaring beoordelen..",
+    "feedback_desc"             => "Bedankt! Dat u contact met ons op hebt genomen en we hopen uw vraag te hebben beantwoord. U kunt uw ervaring beoordelen...",
     "good_satisfied"            => "Goed, ik ben tevreden",
-    "bad_not_satisfied"         => "Slecht, ik ben ontevreden",
+    "bad_not_satisfied"         => "Slecht, ik ben niet tevreden",
     "feedback_not_found"        => "Uw feedback kon niet worden geaccepteerd, indien u de feedback alsnog wilt delen kunt u hier een ticket voor openen.",
     "feedback_malformed_token"  => "Uw feedback kon niet worden geaccepteerd vanwege een foutieve token. Indien u de feedback alsnog wilt delen kunt u hier een ticket voor openen.",
-    "feedback_already_done"     => "U hebt voor dit ticket reeds feedback gegeven, bedankt.",
-    "feedback_expired"          => "Dit ticket is al enige tijd geleden opgelost, de periode voor feedback is reeds verlopen.",
-    "feedback_questions"        => "We hopen dat we in de toekomst nog betere ondersteuning kunnen leveren. Om onshierbij te helpen kunt u de volgende vragen beantwoorden.",
-    "feedback_thank_you"        => "Dank u voor het geven van feedback op dit ticket",
-    "feedback_for_ticket"       => "Feedback voor ticket #:number",
-    "feedback_rating_desc"      => "De ondersteuning voor dit ticket is beoordeeld als <strong>:rating</strong> door de gebruiker.",
+    "feedback_expired"          => "Dit ticket is al enige tijd opgelost, de periode voor feedback is reeds verlopen.",
+    "feedback_questions"        => "Als u even de tijd heeft, beantwoord dan de volgende vragen om ons te helpen de ondersteuning die we bieden verder te verbeteren.",
+    "feedback_for_ticket"       => "Feedback voor Ticket #:number",
+    "feedback_rating_desc"      => "De ondersteuning die op dit ticket wordt ontvangen, is beoordeeld als <strong>:rating</strong> door de klant.",
 
     // Custom fields
     "customfield"               => "Ticket aangepast veld|Ticket aangepaste velden",
@@ -586,5 +579,19 @@ return array(
     "unresolved"                => "Niet opgelost",
     "resolved"                  => "Opgelost",
     "manage_oauth_options"      => "Om OAuth-opties toe te voegen of te beheren, gaat u naar de <a href=\":route\">Integraties van derden</a> pagina.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We hebben uw feedback opgeslagen.",
+    "how_was_the_help"          => "Hoe was de hulp die u heeft gekregen? ",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Controleer de authenticiteit van de gebruiker.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets die worden geopend via de frontend-interface voor gebruikers of het bedieningspaneel voor operators.",
+    "email_channel_name"        => "E-mail",
+    "email_channel_desc"        => "Tickets geopend na het verwerken van inkomende e-mail.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets en antwoorden gepost via de API.",
 
 );

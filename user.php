@@ -162,32 +162,23 @@ return array(
     "qr_code"                       => "QR Code",
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Secret",
-    "two_fa_secret_desc"            => "Sla dit ergens veilig op omdat u deze nodig hebt wanneer er aanpassingen moeten worden gedaan.",
-    "two_fa_verify_desc"            => "Download en installeer een van de volgende applicaties en scan de QR code of vul de secret key in. Deze stelt uw account in op uw apparaat en kunt u uw account bekijken. Tevens wordt er een 6-cijferige code gegenereerd met welke u de instellingen afrondt. U moet deze code invullen voordat deze verloopt. De  servertijd moet wel synchroon lopen met een NTP server om correct te functioneren.",
+    "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
     "display_notifications"         => "Toon meldingen",
-    "display_notifications_desc"    => "Het systeem kijkt automatisch voor nieuwe tickets, antwoorden en inloggen door andere operators terwijl u het operatorpanel open hebt. U kunt kiezen tussen meldingen op uw bureaublad of meldingen in de browser of deze geheel uitschakelen.",
+    "display_notifications_desc"    => "Het systeem zal u waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. U kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
     "desktop_notifications"         => "Desktopmeldingen",
     "browser_notifications"         => "Browsermeldingen",
-    "operator_template"             => "Operatortemplate",
 
     "search_for_user"               => "Zoek naar gebruiker...",
-    "select_operator"               => "Selecteer operator...",
-    "select_group"                  => "Selecteer een groep...",
+    "select_operator"               => "Zoek naar operator...",
+    "select_group"                  => "Zoek naar groep...",
 
-    "your_ip_has_been_banned"       => "Uw IPadres is geblokkeerd.",
-    "password_reset_error"          => "Gebruikersaccount or resettoken niet gevonden, controleer of de gevens correct zijn of reset nogmaals.",
-    "password_reset_not_found"      => "Gebruiker niet gevonden of niet mogeljk wachtwoord te resetten.",
-    "password_reset_expired"        => "Token is verlopen, probeer nogmaals te resetten.",
-    "password_reset_invalid"        => "Token ongeldig, controleer of de gevens correct zijn of reset nogmaals.",
-    "password_reset_success"        => "Wachtwoord gereset",
-    "password_reset_already"        => "Uw account is al geverifieerd, u kunt normaal inloggen.",
-    "password_not_valid"            => "Wachtwoorden niet geldig of niet hetzelfde.",
-    "invalid_reset_request"         => "Ongeldige aanvraag voor wachtwoordreset.",
+    "your_ip_has_been_banned"       => "Uw IP is geblokkeerd.",
+    "password_reset_success"        => "Wachtwoord succesvol gereset! ",
 
-    "simpleauth_token_expired"      => "Toegangstoken is verlopen.",
-    "simpleauth_token_invalid"      => "Toegangstoken is ongeldig.",
-    "simpleauth_invalid_guard"      => "U kunt niet inloggen in een niet-geverifeerd account.",
-    "simpleauth_not_allowed"        => "Operators kunnen niet inloggen met SimpleAuth.",
+    "simpleauth_token_expired"      => "Het toegangstoken is verlopen.",
+    "simpleauth_token_invalid"      => "Het opgegeven toegangstoken is ongeldig.",
+    "simpleauth_invalid_guard"      => "Kan niet inloggen omdat er geen geldige gebruiker is.",
+    "simpleauth_not_allowed"        => "Operators kunnen momenteel niet inloggen met SimpleAuth.",
 
     /*
      * 2.0.2
@@ -319,17 +310,16 @@ return array(
     "changing_email_desc"           => "Als u het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
     "unconfirmed_user_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet bevestigd. ",
     "unregistered_user_desc"        => "Dit account is automatisch gemaakt zonder wachtwoord. U kunt een bevestigingsmail sturen om hen een eigen account te laten aanmaken of hieronder een wachtwoord voor hen instellen.",
-    "send_confirmation_email"       => "Verstuur bevestigingsmail",
-    "mark_as_confirmed"             => "Markeren als opgelost",
-    "password_reset_already"        => "U heeft al bevestigd dat u eigenaar bent van dit e-mailadres. ",
+    "send_confirmation_email"       => "Stuur bevestigingsmail ",
+    "mark_as_confirmed"             => "Markeer als bevestigd",
+    "password_reset_already"        => "U heeft al bevestigd dat u eigenaar bent van dit e-mailadres, u kunt doorgaan met inloggen.",
     "unconfirmed_account"           => "Controleer uw e-mail om te bevestigen dat u eigenaar bent van dit e-mailadres.",
     "success_register_desc"         => "Bedankt voor het registreren van een account. Controleer uw e-mail om de accountconfiguratie te voltooien.",
-    "reset_request_desc"            => "Controleer uw e-mail om het proces voor het opnieuw instellen van het wachtwoord te voltooien.",
     "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
-    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van uw e-mail. Voer hieronder een wachtwoord in om het instellen van uw account te voltooien.",
-    "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van uw e-mailadres.",
-    "use_gravatar"                  => "Gravatar gebruikersnaam",
-    "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als u deze functie inschakelt.",
+    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van uw e-mail. Voer hieronder een wachtwoord in om het instellen van uw account te voltooien .",
+    "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van uw e-mailadres. ",
+    "use_gravatar"                  => "Gebruik Gravatar",
+    "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als u deze functie inschakelt. ",
 
     /*
      * 2.6.0
@@ -346,16 +336,22 @@ return array(
      */
     "ldap_linked_error"             => "Account is gekoppeld aan een LDAP-service. Log in met uw LDAP-gebruikersnaam en wachtwoord.",
     "operator_message"              => "Operator Berichten",
-    "force_two_fa"                  => "2FA Forceren",
-    "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen.",
+    "force_two_fa"                  => "Foceer 2FA",
+    "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen. ",
     "two_fa_required"               => "Tweefactorauthenticatie (2FA) is vereist. Volg de onderstaande informatie om door te gaan.",
-    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld, log opnieuw in om het instellen te voltooien",
     "two_fa_user_enable"            => "De gebruiker kan 2FA inschakelen op zijn account in zijn instellingen.",
 
     /*
      * 3.3.0
      */
     "remove_avatar"                 => "Verwijder Avatar",
-    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account .",
-    "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren ",
+    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account(s).",
+    "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download en installeer een van de volgende applicaties en scan de QR-code of voer de geheime sleutel in. Hiermee wordt uw account op uw apparaat ingesteld, kunt u het account bekijken en wordt een 6-cijferige code gegenereerd die u moet invoeren om de installatie te verifiëren en te voltooien. Zorg ervoor dat u op Verifiëren klikt voordat de code verloopt. Uw servertijd moet gesynchroniseerd zijn met een NTP-server om correct te functioneren.",
+    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld.",
+
 );

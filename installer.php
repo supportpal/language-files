@@ -165,8 +165,21 @@ return array(
      * 2.6.0
      */
     "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+
+    /*
+     * 3.0.0
+     */
     "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
-    "license_valid"             => "License Valid",
-    "registered_to"             => "Registered To",
+
+    /*
+     * 3.4.0
+     */
+    "seeding"                   => "Seeding",
+    "seeded"                    => "Seeded",
+    "migrating"                 => "Migrating",
+    "migrated"                  => "Migrated",
+    "database_setup_complete"   => "Database setup complete.",
+    "created_repository"        => "Created ':name' repository successfully.",
+    "wish_to_continue"          => "Cancel now if you don't understand the implications! The command will continue automatically otherwise...",
 
 );

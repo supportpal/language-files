@@ -75,7 +75,7 @@ return array(
      * 2.0.3
      */
     // User
-    "operator"          => "Beheer operators",
+    "operator"          => "Beheer Operators",
 
     /*
      * 2.1.0

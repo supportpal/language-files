@@ -78,6 +78,6 @@ return array(
     /*
      * 2.6.0
      */
-    "clear_due_time"            => "Clear deadline",
+    "clear_due_time"            => "Deadline wissen",
 
 );
