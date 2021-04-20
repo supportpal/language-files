@@ -41,6 +41,9 @@ return array(
     "success_action"        => "De actie is uitgevoerd!",
     "error_action"          => "Kon de actie niet uitvoeren.",
 
+    "success_sending"       => ":item is verstuurd!",
+    "error_sending"         => "Kon :item niet versturen.",
+
     "error_embed_image"     => "Kon de afbeelding niet uploaden.",
 
     "unauthorised"          => "Niet geautoriseerd",
@@ -59,6 +62,8 @@ return array(
 
     "general_error"         => "Er is een fout opgetreden. Probeer nogmaals..",
 
+    "mailer_error"          => "Er is een fout opgetreden tijdens het versturen van de e-mail met onderp ':subject'.",
+
     "no_results"            => "Geen resultaat.",
 
     "assign_incomplete"     => "De actie kon niet volledig worden afgemaakt. :names kon niet worden toegewezen aan enkele tickets.",
@@ -67,7 +72,7 @@ return array(
 
     "invalid_captcha"       => "De ingevulde captcha code is niet correct. Probeer het nog eens.",
     "blocked_as_spam"       => "Uw aanvraag is gemarkeerd als spam. Indien dit niet correct is neem contact op met een beheerder..",
-    "account_exists"        => "Een actief account bestaat al met dit emailadres. Login of gebruik de wachtwoord vergeten optie.",
+    "account_exists"        => "Een actief account bestaat al met dit e-mailadres. Login of gebruik de wachtwoord vergeten optie.",
     "error_loading_comments" => "Er was een probleem met het laden van de reacties.",
 
     "invalid_auth"          => "Ongeldige inloggegevens.",
@@ -78,7 +83,9 @@ return array(
 
     "not_logged_exception"  => "<strong>Oeps! Er ging iets fout.</strong><br />. Wanneer het probleem aanhoudt waarschuw een beheerder.",
 
-    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van emailadres :email. De limiet is :max in :decay minuten.",
+    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van e-mailadres :email. De limiet is :max in :decay minuten.",
+
+    "error_close_open"      => "Fout! Gelieve te sluiten en heropenen.",
 
     "not_operator"          => "Er ging iets fout. De geselecteerde operator is niet geldig. Kijk of deze bij de verwachte operatorgroep hoort.",
 
@@ -87,14 +94,15 @@ return array(
 
     "missing_extension"     => "Missende extensie",
     "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
-    "php_imap_missing"      => "De php-imap extensie is nodig om email te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
+    "php_imap_missing"      => "De php-imap extensie is nodig om e-mail te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
 
     /*
      * 2.0.3
      */
+    "warn_delete"           => "Wanneer dit record is verwijderd kan deze niet terug worgen gehaald. Indien het record elders nog gebruikt wordt heeft de verwijdering grotere gevolgen..",
     "only_ssl_connections"  => "Alleen SSL verbindingen zijn toegestaan..",
-    "queued_emails"         => "Succes - De emails worden in de wachtrij geplaatst en zullen spoeding worden verzonden.",
-    "error_loading_message" => "Er trad een fout op tijdens het laden van het bericht. Probeer het opnieuw.",
+    "queued_emails"         => "Succes - De e-mails zijn in de wachtrij geplaatst en zullen spoeding worden verzonden.",
+    "error_loading_message" => "Er is een fout opgetreden bij het laden van het berict. Probeer het opnieuw.",
     "please_refresh"        => "Ververs de pagina.",
 
     /*
@@ -105,6 +113,8 @@ return array(
     "warning"               => "Waarschuwing",
     "note"                  => "Let op",
     "brand_invalid_dept"    => "De actie kon niet volledig worden uitgevoerd. In sommige tickets kon de afdeling niet worden bijgewerkt vanwege hun merk.",
+    "template_subject_req"  => "Het onderwerpveld van de standaarde-mailtemplate is verplicht.",
+    "template_contents_req" => "Het inhoudveld van de standaarde-mailtemplate is verplicht.",
 
     /*
      * 2.1.1
@@ -112,6 +122,12 @@ return array(
     "upload_error"          => "Kon bijlage niet uploaden \":filename\", reden: \":reason\"",
     "upload_max_size"       => "Bestand moet kleiner zijn dan :size",
     "upload_wrong_type"     => "Bestandstype is niet toegestaan",
+
+    /*
+     * 2.1.2
+     */
+    "popup_blocked"         => "Uw browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken. ",
+    "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
     /*
      * 2.3.0

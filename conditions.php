@@ -15,7 +15,7 @@ return array(
     "ticket_channel_account"            => "Ticket kanaalaccount",
     "ticket_created"                    => "Ticket gemaakt",
     "ticket_department"                 => "Ticket afdeling",
-    "ticket_due_time"                   => "Ticket due time",
+    "ticket_due_time"                   => "Ticket deadline",
     "ticket_message_content"            => "Ticket inhoud",
     "ticket_message_count"              => "Ticket bericht (aantal)",
     "ticket_priority"                   => "Ticket prioriteit",
@@ -43,7 +43,7 @@ return array(
     "hours_until_due"                   => "Uren nog over",
     "last_ticket_replier_exc_notes"     => "Laatste beantwoorden (exclusief aantekeningen)",
     "ticket_department_email"           => "Ticket afdeling E-mail",
-    "ticket_has_attachments"            => "Ticket heeft bestanden",
+    "ticket_has_attachments"            => "Ticket heeft bijlagen",
     "ticket_has_drafts"                 => "Ticket heeft concepten",
     "ticket_locked"                     => "Ticket gelocked",
     "ticket_merged"                     => "Ticket samengevoegd",
@@ -98,10 +98,5 @@ return array(
      * 3.3.0
      */
     "user_has_organisation"             => "Gebruiker heeft een organisatie.",
-
-    /*
-     * 3.3.0
-     */
-    "user_has_organisation"             => "User has organisation",
 
 );

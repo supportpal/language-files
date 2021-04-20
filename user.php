@@ -8,6 +8,7 @@ return array(
     "account_active"                => "Account actief",
     "account_active_desc"           => "Schakel toegang tot geautenticeerde sectie in of uit.",
 
+    "operator_settings"             => "Operatorinstellingen",
     "op_settings_dept_desc"         => "Selecteer welke afdelingen de operator kan zien en tickets in kan behandelen.",
 
     "organisation"                  => "Organisatie|Organisaties",
@@ -19,6 +20,7 @@ return array(
     "manage_organisation"           => "Beheer organisatie",
     "leave_organisation"            => "Verlaat organisatie",
     "user_membership"               => "Gebruikerlidmaatschap",
+    "organisation_no_longer"        => "Deze gebruiker zal geen deel meer uitmaken van deze organisatie.",
     "transfer_ownership"            => "Draag ownership over",
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kunt u niet worden verwijderd als manager en alleen u kunt de organisatie verwijderen. U kunt ownership van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
@@ -27,10 +29,16 @@ return array(
     "organisation_desc"             => "Elke organisatie kan <strong>managers</strong>hebben welke gebruikers kunnen beheren en andermans tickets kunnen beheren en <strong>gebruikers</strong>, elke tickets kunnen openen maar geen toegang tot andermans tickets hebben.",
     "organisation_operator_desc"    => "Voeg bestaande gebruikers toe aan deze organisatie door op \"Voeg gebruiker toe\" te klikken en te zoeken op hun naam. Let wel op dat het toevoegen van een gebruiker hun link naar een andere organisatie zal verwijderen.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Kan andere gebruikersbeheren en andermans tickets inzien.<br /><strong>Gebruiker</strong> - Kan alleen tickets voor de organisatie inzien en op eigen tickets antwoorden",
+    "send_confirmation_email"       => "Stuur bevestiging naar gebruiker",
     "send_password_reset"           => "Stuur link om wachtwoord opnieuw in te stellen",
 
     "profile"                       => "Profiel",
+    "address"                       => "Adres",
+    "city"                          => "Stad",
+    "state"                         => "Provincie/Staat",
+    "postcode"                      => "Postcode",
     "phone"                         => "Telefoonnummer",
+    "website"                       => "Website",
 
     "login"                         => "Login",
     "remember_me"                   => "Onthoud mij",
@@ -39,26 +47,43 @@ return array(
 
     "user_register_disabled"        => "Er kunnen momenteel geen nieuwe registraties plaatsvinden.",
     "success_register"              => "Uw account is geregistereerd!",
+    "success_register_desc"         => "Dank u voor het registreren van uw account, u moet deze nog verifieren voordat u in kunt loggen. Er is een e-mail verstuurd met een link om de verificatie te doen.",
     "register_now"                  => "Registreer nu",
     "register"                      => "Registreer",
     "register_account"              => "Registreer Account",
+    "register_confirm"              => "Registratiebevestiging",
+    "register_confirm_desc"         => "Dank u voor het bevestigen van uw e-mailadres. Geef een wachtwoord op om het registratieproces te voltooien.",
+    "confirmation_success"          => "Verificatie is afgerond!",
+    "confirmation_unsuccessful"     => "Verificatie is niet gelukt.",
+    "thank_you_confirm"             => "Dank u voor het verifieren van uw account. Ga naar <a href=':route'>inloggen</a>.",
     "signed_up"                     => "Account gemaakt",
     "last_active"                   => "Laatst actief",
 
+    "reset_request"                 => "Aanvraag van wachtwoordreset ontvangen",
+    "reset_request_desc"            => "We sturen u zometeen een e-mail met een link ter verificatie zodat u uw wachtwoord opnieuw in kunt stellen.",
     "forgot_password"               => "Wachtwoord vergeten?",
+    "password_reset"                => "Wachtword reset",
+    "password_reset_confirm"        => "Resetbevestiging",
     "reset_password"                => "Reset wachtwoord",
+    "password_reset_complete"       => "Reset afgerond",
     "set_password"                  => "Stel wachtwoord in",
+    "only_enter_to_change"          => "Vul alleen in om aan te passen",
+    "success_pass_reset"            => "Uw wachtwoord is opnieuw ingesteld.Ga naar <a href=':route'>login</a>.",
     "please_set_password"           => "Stel hier uw wachtwoord opnieuw in.",
-    "missing_email_or_reset"        => "Missing email address or reset token.",
+    "emailed_pwd_reset_link"        => "Er is u een link toegestuurd om uw wachtwoord opnieuw in te stellen.",
+    "operator_email_not_found"      => "Operator e-mailadres is niet gevonden.",
+    "missing_email_or_reset"        => "Ontbrekend e-mailadres of reset-token.",
 
     "firstname"                     => "Voornaam",
     "lastname"                      => "Achternaam",
-    "formatted_name"                => "Formatted Name",
+    "formatted_name"                => "Opgemaakte Naam",
     "country"                       => "Land",
     "avatar"                        => "Avatar",
+    "generate_password"             => "Genereer een willekeurig wachtwoord",
     "confirm_password"              => "Bevestig wachtwoord",
 
     "confirmed"                     => "Bevestigd",
+    "confirmed_desc"                => "Toegang tot geautenticeerde secties.",
     "unconfirmed"                   => "Onbevestigd",
 
     "group"                         => "Gebruikersgroep|Gebruikersgroepen",
@@ -75,8 +100,8 @@ return array(
     "system_activity_log"           => "System Activity Log",
     "activity_log"                  => "Activity Log",
 
-    "mass_email"                    => "Stuur bulk-email",
-    "send_email"                    => "Stuur email",
+    "mass_email"                    => "Stuur bulk e-mail",
+    "send_email"                    => "Stuur E-mail",
     "choose_template"               => "Kies template...",
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
@@ -88,11 +113,12 @@ return array(
     "ldap_rdn"                      => "LDAP RDN of DN",
     "ldap_rdn_desc"                 => "De distinguished name voor de LDAP gebruikersnaam, zoals: cn=Sample Gebruiker,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP Details",
+    "ldap_extension_missing"        => "De php-ldap extension is momenteel niet geladen. Gebruikers kunnen niet inloggen via LDAP.",
 
     "operator_details"              => "Operatordetails",
 
-    "email_notifications"           => "Emailmeldingen",
-    "email_notifications_desc"      => "De emailmeldingen die zijn ontvangen door het systeem.",
+    "email_notifications"           => "E-mailmeldingen",
+    "email_notifications_desc"      => "De e-mailmeldingen die zijn ontvangen door het systeem.",
 
     "enable_ldap"                   => "Schakel LDAP Login in",
     "enable_ldap_desc"              => "Indien u LDAP gebruikt, kunt u het gebruiken voor operators om in te loggen. Na het inschakelen, ga naar de LDAP Accounts instellingen om het in te stellen.",
@@ -136,31 +162,30 @@ return array(
     "qr_code"                       => "QR Code",
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Secret",
-    "two_fa_secret_desc"            => "Sla dit ergens veilig op omdat u deze nodig hebt wanneer er aanpassingen moeten worden gedaan.",
-    "two_fa_verify_desc"            => "Download en installeer een van de volgende applicaties en scan de QR code of vul de secret key in. Deze stelt uw account in op uw apparaat en kunt u uw account bekijken. Tevens wordt er een 6-cijferige code gegenereerd met welke u de instellingen afrondt. U moet deze code invullen voordat deze verloopt. De  servertijd moet wel synchroon lopen met een NTP server om correct te functioneren.",
+    "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
     "display_notifications"         => "Toon meldingen",
-    "display_notifications_desc"    => "Het systeem kijkt automatisch voor nieuwe tickets, antwoorden en inloggen door andere operators terwijl u het operatorpanel open hebt. U kunt kiezen tussen meldingen op uw bureaublad of meldingen in de browser of deze geheel uitschakelen.",
+    "display_notifications_desc"    => "Het systeem zal u waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. U kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
     "desktop_notifications"         => "Desktopmeldingen",
     "browser_notifications"         => "Browsermeldingen",
 
     "search_for_user"               => "Zoek naar gebruiker...",
-    "select_operator"               => "Selecteer operator...",
-    "select_group"                  => "Selecteer een groep...",
+    "select_operator"               => "Zoek naar operator...",
+    "select_group"                  => "Zoek naar groep...",
 
-    "your_ip_has_been_banned"       => "Uw IPadres is geblokkeerd.",
-    "password_reset_error"          => "Gebruikersaccount or resettoken niet gevonden, controleer of de gevens correct zijn of reset nogmaals.",
+    "your_ip_has_been_banned"       => "Uw IP is geblokkeerd.",
+    "password_reset_success"        => "Wachtwoord succesvol gereset! ",
 
-    "simpleauth_token_expired"      => "Toegangstoken is verlopen.",
-    "simpleauth_token_invalid"      => "Toegangstoken is ongeldig.",
-    "simpleauth_invalid_guard"      => "U kunt niet inloggen in een niet-geverifeerd account.",
-    "simpleauth_not_allowed"        => "Operators kunnen niet inloggen met SimpleAuth.",
+    "simpleauth_token_expired"      => "Het toegangstoken is verlopen.",
+    "simpleauth_token_invalid"      => "Het opgegeven toegangstoken is ongeldig.",
+    "simpleauth_invalid_guard"      => "Kan niet inloggen omdat er geen geldige gebruiker is.",
+    "simpleauth_not_allowed"        => "Operators kunnen momenteel niet inloggen met SimpleAuth.",
 
     /*
      * 2.0.2
      */
 
-    "email_history"                 => "Emailhistorie",
-    "view_email"                    => "Bekijk Email",
+    "email_history"                 => "E-mail historie",
+    "view_email"                    => "Bekijk E-mail",
 
     "ban_after_count"               => "Blokkeer IP na mislukte inlogpogingen",
     "ban_after_count_user"          => "Het aantal mislukte inlogpogingen na welke het ipadres van de gebruiker wordt geblokkeerd en zij gedurende de ingestelde tijd niet meer in kunnen loggen op de frontend. Wanneer deze op 0 wordt ingesteld wordt er niet geblokkeerd.",
@@ -177,16 +202,16 @@ return array(
     "log_back_in"                   => "Opnieuw inloggen",
     "all_users"                     => "Alle gebruikers",
     "all_operators"                 => "Alle operators",
-    "email_per_batch"               => "Emails per batch",
-    "email_per_batch_desc"          => "Aantal emails dat tegelijkertijd kan worden verstuurd.",
+    "email_per_batch"               => "E-mails per batch",
+    "email_per_batch_desc"          => "Aantal e-mails dat tegelijkertijd kan worden verstuurd.",
     "batch_interval"                => "Batch Interval",
-    "batch_interval_desc"           => "De pauze tussen de emailbatches in minuten, 1 minuut is het minimum.",
-    "select_user_groups"            => "Selecteer gebruiker/operatorgroepen of type het emailadres in...",
-    "mass_email_sending_time"       => "Het zal ongeveer :time duren om alle emails te versturen.",
+    "batch_interval_desc"           => "De pauze tussen de e-mailbatches in minuten, 1 minuut is het minimum.",
+    "select_user_groups"            => "Selecteer gebruiker/operatorgroepen of type het e-mailadres in...",
+    "mass_email_sending_time"       => "Het zal ongeveer :time duren om alle e-mails te versturen.",
     "organisations_enabled"         => "Organisaties ingesteld",
     "organisations_enabled_desc"    => "Gebruikers kunnen een organisatie toevoegen aan hun profiel en andere gebruikers toevoegen aan deze organisatie. Wanneer u alleen met klaten te maken hebt kunt u de organisatieoptie uitschakelen en verbergen van de interface.",
     "manager_notifications"         => "Organisatie Manager meldingen",
-    "manager_notifications_desc"    => "Wanneer managers of organisaties emailupdates moeten ontvangen or tickets geopend kunnen worden door andere gebruikers in de organisatie. Elke manager heeft een eigen optie hiervoor in het profiel maar met deze instelling kan dat worden overschreven.",
+    "manager_notifications_desc"    => "Wanneer managers of organisaties e-mailupdates moeten ontvangen or tickets geopend kunnen worden door andere gebruikers in de organisatie. Elke manager heeft een eigen optie hiervoor in het profiel maar met deze instelling kan dat worden overschreven.",
     "manager_email_notifications_desc" => "Indien ze meldingen moeten krijgen van updates op tickets die geopend zijn door andere gebruikers in de organisatie.",
     "organisation_notifications_desc" => "Indien u meldingen wilt krijgen van updates op tickets die geopend zijn door andere gebruikers in uw organisatie.",
     "select_operator_group_desc"    => "Selecteer ten minste een operatorgroep voor deze operator.",
@@ -230,11 +255,14 @@ return array(
     "current_password"              => "Huidig wachtwoord",
     "new_password"                  => "Nieuw wachtwoord",
     "personal_confirm_password"     => "Bevestig uw nieuwe wachtwoord met uw oude wachtwoord.",
+    "operator_confirm_password"     => "Bevestig uw wachtwoord om de veranderingen te maken in het operator account.",
+    "login_via_idp"                 => "Login via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Zoek naar gebruiker/operator...",
+    "two_fa_personal_settings"      => "De operator kan 2FA inschakelen in de persoonlijke instellingen.",
 
     /*
      * 2.2.0
@@ -268,7 +296,7 @@ return array(
      */
     "must_have_permission"          => "U moet de  \":permission\" permissie",
     "deleted_user"                  => "Verwijderde gebruiker",
-    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+    "access_level_not_owner"        => "Het is niet mogelijk om het toegangsniveau van organisatie-eigenaren te wijzigen. Draag eerst het eigendom van de organisatie over aan een andere gebruiker door de organisatie te bekijken en op het tabblad 'Gebruikers' te klikken.",
 
     /*
      * 2.4.1
@@ -282,17 +310,16 @@ return array(
     "changing_email_desc"           => "Als u het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
     "unconfirmed_user_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet bevestigd. ",
     "unregistered_user_desc"        => "Dit account is automatisch gemaakt zonder wachtwoord. U kunt een bevestigingsmail sturen om hen een eigen account te laten aanmaken of hieronder een wachtwoord voor hen instellen.",
-    "send_confirmation_email"       => "Verstuur bevestigingsmail",
-    "mark_as_confirmed"             => "Markeren als opgelost",
-    "password_reset_already"        => "U heeft al bevestigd dat u eigenaar bent van dit e-mailadres. ",
+    "send_confirmation_email"       => "Stuur bevestigingsmail ",
+    "mark_as_confirmed"             => "Markeer als bevestigd",
+    "password_reset_already"        => "U heeft al bevestigd dat u eigenaar bent van dit e-mailadres, u kunt doorgaan met inloggen.",
     "unconfirmed_account"           => "Controleer uw e-mail om te bevestigen dat u eigenaar bent van dit e-mailadres.",
     "success_register_desc"         => "Bedankt voor het registreren van een account. Controleer uw e-mail om de accountconfiguratie te voltooien.",
-    "reset_request_desc"            => "Controleer uw e-mail om het proces voor het opnieuw instellen van het wachtwoord te voltooien.",
     "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
-    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van uw e-mail. Voer hieronder een wachtwoord in om het instellen van uw account te voltooien.",
-    "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van uw e-mailadres.",
-    "use_gravatar"                  => "Gravatar gebruikersnaam",
-    "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als u deze functie inschakelt.",
+    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van uw e-mail. Voer hieronder een wachtwoord in om het instellen van uw account te voltooien .",
+    "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van uw e-mailadres. ",
+    "use_gravatar"                  => "Gebruik Gravatar",
+    "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als u deze functie inschakelt. ",
 
     /*
      * 2.6.0
@@ -309,16 +336,22 @@ return array(
      */
     "ldap_linked_error"             => "Account is gekoppeld aan een LDAP-service. Log in met uw LDAP-gebruikersnaam en wachtwoord.",
     "operator_message"              => "Operator Berichten",
-    "force_two_fa"                  => "2FA Forceren",
-    "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen.",
+    "force_two_fa"                  => "Foceer 2FA",
+    "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen. ",
     "two_fa_required"               => "Tweefactorauthenticatie (2FA) is vereist. Volg de onderstaande informatie om door te gaan.",
-    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld, log opnieuw in om het instellen te voltooien",
     "two_fa_user_enable"            => "De gebruiker kan 2FA inschakelen op zijn account in zijn instellingen.",
 
     /*
      * 3.3.0
      */
     "remove_avatar"                 => "Verwijder Avatar",
-    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account .",
-    "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren ",
+    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account(s).",
+    "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download en installeer een van de volgende applicaties en scan de QR-code of voer de geheime sleutel in. Hiermee wordt uw account op uw apparaat ingesteld, kunt u het account bekijken en wordt een 6-cijferige code gegenereerd die u moet invoeren om de installatie te verifiëren en te voltooien. Zorg ervoor dat u op Verifiëren klikt voordat de code verloopt. Uw servertijd moet gesynchroniseerd zijn met een NTP-server om correct te functioneren.",
+    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld.",
+
 );
