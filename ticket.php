@@ -3,10 +3,10 @@
 return array(
 
     "feedback_question"         => "Question to be shown to the user.",
-    "open_new"                  => "Open New Ticket",
-    "select_department"         => "Select a Department",
+    "open_new"                  => "انشاء تذكرة جيدة",
+    "select_department"         => "اختر القسم",
     "select_department_desc"    => "Please click on the relevant department for your issue below.",
-    "no_departments"            => "No departments found.",
+    "no_departments"            => "لم يتم العثور على اقسام",
     "department_user_details"   => "Department and User Details",
     "enter_your_details"        => "Enter your details",
     "enter_ticket_details"      => "Enter Details",
@@ -15,17 +15,17 @@ return array(
 
     "registered_users"          => "Registered Users Only",
 
-    "tickets"                   => "Ticket(s)",
-    "ticket"                    => "Ticket|Tickets",
-    "subject"                   => "Subject",
-    "no_subject"                => "No Subject",
-    "last_action"               => "Last Action",
+    "tickets"                   => "التذاكر",
+    "ticket"                    => "تذكرة|تذاكر",
+    "subject"                   => "العنوان",
+    "no_subject"                => "لا يوجد عنوان",
+    "last_action"               => "اخر عملية",
     "due_time"                  => "Due Time",
-    "created_time"              => "Created Time",
+    "created_time"              => "تاريخ الاضافة",
     "submitted"                 => "Submitted",
     "ticket_reply"              => "Ticket Reply",
-    "ticket_note"               => "Ticket Note",
-    "ticket_type"               => "Ticket Type",
+    "ticket_note"               => "ملاحظات",
+    "ticket_type"               => "نوع التذكرة",
 
     "user_ticket"               => "User Ticket",
     "user_ticket_desc"          => "Open new ticket on behalf of a new or existing user.",
@@ -37,17 +37,17 @@ return array(
     "enter_user_details"        => "Please enter your details below, or login to your account if you have one.",
     "already_have_account"      => "You already have an account, please login and then open the ticket. Please use the forgot password feature if you cannot remember your login.",
 
-    "recent_tickets"            => "Recent Tickets",
+    "recent_tickets"            => "اخر التذاكر",
     "last_message_text"         => "Last Message Text",
 
     "set_due_time"              => "Set a due time",
 
-    "settings"                  => "Ticket Settings",
+    "settings"                  => "أعدادات التذاكر",
 
-    "priority"                  => "Priority|Priorities",
+    "priority"                  => "الاولوية|الاولويات",
 
-    "channel"                   => "Channel|Channels",
-    "account"                   => "Account|Accounts",
+    "channel"                   => "قناه|قنوات",
+    "account"                   => "حساب|حسابات",
 
     "assign_operator"           => "Assign Operator",
     "assigned_operator"         => "Assigned Operators",
@@ -59,7 +59,7 @@ return array(
     "department_applicable"     => "Applicable Departments",
     "department_applicable_desc" => "The departments in which the priority will be available for users to select. Only applies to the frontend, all priorities will be available to operators for all departments.",
 
-    "send_now"                  => "Send now",
+    "send_now"                  => "ارسال الان",
 
     "tag"                       => "Tag|Tags",
 
@@ -67,7 +67,7 @@ return array(
     "view_ticket"               => "View Ticket",
 
     // Recent activity
-    "recent_activity"           => "Recent Activity",
+    "recent_activity"           => "اخر العمليات",
 
     "ticket_number"             => "Ticket Number",
     "ticket_format"             => "Ticket Number Format",
