@@ -5,21 +5,21 @@ return array(
     "feedback_question"         => "Question to be shown to the user.",
     "open_new"                  => "انشاء تذكرة جيدة",
     "select_department"         => "اختر القسم",
-    "select_department_desc"    => "Please click on the relevant department for your issue below.",
+    "select_department_desc"    => "الرجاء النقر فوق القسم المعني بمشكلتك أدناه.",
     "no_departments"            => "لم يتم العثور على اقسام",
-    "department_user_details"   => "Department and User Details",
-    "enter_your_details"        => "Enter your details",
-    "enter_ticket_details"      => "Enter Details",
-    "enter_subject_message"     => "Enter Subject and Message",
-    "invalid_user"              => "Please ensure valid user details have been entered to continue.",
+    "department_user_details"   => "تفاصيل القسم والمستخدم",
+    "enter_your_details"        => "أدخل التفاصيل الخاصة بك",
+    "enter_ticket_details"      => "أدخل التفاصيل",
+    "enter_subject_message"     => "أدخل عنوان الموضوع والرسالة",
+    "invalid_user"              => "يرجى التأكد من إدخال تفاصيل مستخدم صالحة للمتابعة.",
 
-    "registered_users"          => "Registered Users Only",
+    "registered_users"          => "المستخدمين المسجلين فقط",
 
     "tickets"                   => "التذاكر",
     "ticket"                    => "تذكرة|تذاكر",
     "subject"                   => "العنوان",
     "no_subject"                => "لا يوجد عنوان",
-    "last_action"               => "اخر عملية",
+    "last_action"               => "اخر نشاط",
     "due_time"                  => "Due Time",
     "created_time"              => "تاريخ الاضافة",
     "submitted"                 => "Submitted",
@@ -29,9 +29,9 @@ return array(
 
     "user_ticket"               => "User Ticket",
     "user_ticket_desc"          => "Open new ticket on behalf of a new or existing user.",
-    "existing_user"             => "Existing User",
-    "new_user"                  => "New User",
-    "internal"                  => "Internal",
+    "existing_user"             => "مستخدم حالي",
+    "new_user"                  => "مستخدم جديد",
+    "internal"                  => "داخلي",
     "internal_ticket_desc"      => "Open a ticket for internal use only. This ticket will be associated with you, rather than a user.",
     "ticket_opened"             => "Your ticket has successfully been opened.",
     "enter_user_details"        => "Please enter your details below, or login to your account if you have one.",
@@ -63,14 +63,14 @@ return array(
 
     "tag"                       => "Tag|Tags",
 
-    "track_ticket"              => "Track Ticket",
-    "view_ticket"               => "View Ticket",
+    "track_ticket"              => "تتبع التذكرة",
+    "view_ticket"               => "عرض التذكرة",
 
     // Recent activity
-    "recent_activity"           => "اخر العمليات",
+    "recent_activity"           => "اخر الانشطة",
 
-    "ticket_number"             => "Ticket Number",
-    "ticket_format"             => "Ticket Number Format",
+    "ticket_number"             => "رقم التذكرة",
+    "ticket_format"             => "صيغة رقم التذكرة",
 
     // Departments
     "department_public_desc"    => "If the department is visible to users on the web help desk.",
@@ -87,7 +87,7 @@ return array(
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Some email providers require SSL or TLS encryption in order to connect, if you are unsure leave this setting as None.",
     "department_delete_mail"    => "If using IMAP, you can choose to not delete emails on the server after they've been imported as tickets.",
-    "protocol"                  => "Protocol",
+    "protocol"                  => "بروتوكول",
     "server"                    => "Mail Server",
     "port"                      => "Port",
     "encryption"                => "Encryption",
