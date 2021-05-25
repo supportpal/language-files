@@ -6,7 +6,6 @@ return array(
 
     // Core
     "apitoken"          => "Beheer API tokens",
-    "company"           => "Beheer bedrijven",
     "emailtemplate"     => "Beheer e-mailtemplates",
     "ipban"             => "Beheer IP blokkades",
     "ipwhitelist"       => "Beheer IP whitelist",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "Beheer standaard antwoorden",
     "channel"           => "Beheer channels",
     "department"        => "Beheer afdelingen",
-    "feedback"          => "Beheer feedback",
-    "feedbackform"      => "Beheer feedbackformulieren",
     "filter"            => "Beheer filters",
     "holiday"           => "Beheer vakantiedagen",
     "macro"             => "Beheer macros",
@@ -49,7 +46,6 @@ return array(
     "ticket_view"       => "Tickets bekijken",
     "ticket_add"        => "Tickets openen",
     "ticket_edit"       => "Tickets bijwerken",
-    "ticket_delete"     => "Tickets bekijken",
     "ticketcustomfield" => "Beheer aangepaste velden",
 
     // Self-service

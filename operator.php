@@ -2,8 +2,6 @@
 
 return array(
 
-    "templates"                 => "Templates",
-
     // Merge fields
     "merge_fields"              => "Velden samenvoegen",
     "strings"                   => "Strings",

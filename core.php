@@ -4,16 +4,11 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "Customer support, smart and simple.",
     "operator_panel"            => "Operator Paneel",
-    "helpdesk_software"         => "Help Desk Software by",
-    "carefully_crafted"         => "Carefully crafted by",
     "welcome"                   => "Welcome bij SupportPal",
     "welcome_desc"              => "U hebt een goede beslissing genomen. Klik om te starten met een snelle rondleiding van onze instellingen en features.",
 
     // Dashboard
-    "welcome_back"              => "Welkom terug",
-    "search_placeholder"        => "Doorzoek onze servicedesk...",
     "submit_ticket"             => "Ticket aanmaken",
     "submit_ticket_desc"        => "Gebruik dit formulier om een ticket aan te maken.",
     "track_ticket"              => "Ticket tracken",
@@ -40,7 +35,6 @@ return array(
     "branding"                  => "Branding",
     "license_expires"           => "Licentie verloopt",
     "license_valid_ip"          => "Licentie geldig IP(s)",
-    "license_valid_domain"      => "Licentie geldig domein",
     "support_status"            => "Support status",
     "support_expires"           => "Support verloopt",
     "version_info"              => "Versieinformatie",
@@ -59,10 +53,6 @@ return array(
     // Spam Rules & Filtering
     "spam_rule"                 => "Spamregel|Spamregels",
     "containing_text"           => "Bevat de text",
-    "containing_text_desc"      => "Vul een zoekterm in (specifiek woord of een e-mailadres), hoofd- en kleine letters maakt niet uit. <br />U kunt ook <a href='http://www.regular-expressions.info/'>regular expressions</a> gebruiken, een voorbeeld is: 's.{1,}p.{1,}a.{1,}m'. U hoeft zich geen zorgen te maken over de scheidingstekens.",
-    "ip_filtering"              => "IP filtering",
-    "content_filtering"         => "Inhoudsfiltering",
-    "filter_description"        => "Selecteer een passend inhoudsfilter",
     "filter_new_message"        => "Nieuw ticketbericht (van gebruiker)",
     "filter_new_comment"        => "Nieuw self-service reactie (van gebruiker)",
     "filter_user_login"         => "Gebruikerlogin",
@@ -128,7 +118,6 @@ return array(
     "plugins"                   => "Plugin|Plugins",
     "installed_plugins"         => "Geinstaleerde plugins",
     "visit_plugin"              => "Bezoek pluginsite",
-    "uninstall_plugin_warning"  => "Verwijderen van de plugin verwijderd ook alle geassocieerde data. Wellicht is het beter de plugin op inactief te zetten.",
 
     // Messages
     "last_activity"             => "Laatste activiteit",
@@ -165,7 +154,6 @@ return array(
     // Widgets
     "dashboard"                 => "Dashboard",
     "add_remove_widget"         => "Widgets toevoegen/verwijderen",
-    "todo_record"               => "to do record",
     "enable_tour"               => "Inschakelen rondleiding",
 
     // Product Tour
@@ -209,16 +197,11 @@ return array(
     "no_enabled_languages"      => "Kon :item niet bijwerken. Er moet minimaal een beschikbare taal zijn.",
 
     // General Settings
-    "website"                   => "Website",
     "locale"                    => "Locale",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Admin Folder",
     "admin_folder_desc"         => "Stel de foldernaam in voor het operatorpanel. Het is aanbevolen deze aan te passen ipv het standaard \"admin\" te gebruiken vanwege veiligsheidsredenen.",
     "enable_ssl"                => "Schakel SSL in",
-    "force_ssl"                 => "Forceer SSL voor Operators",
-    "force_ssl_desc"            => "Forceer alle operators de veilige versie van uw website te gebruiken voor het operator panel.",
-    "frontend_template"         => "Frontend template",
-    "operator_template"         => "Operator template",
     "maintenance_mode"          => "Onderhoudsmodus",
     "maintenance_mode_desc"     => "Schakelt de openbaare servicedeskfunctionaliteit uit en toont een onderhoudsmelding. Bewerk resources/templates/frontend/[template]/core/maintenance.twig om het bericht dat wordt getoond aan de bezoekers te wijzingen.",
     "default_user_country"      => "Standaard gebruikersland",
@@ -232,16 +215,12 @@ return array(
     "simpleauth_key"            => "SimpleAuth Key",
     "simpleauth_key_desc"       => "Deze key is voor onze single sign on optie, minimaal 16 tekens.",
     "simpleauth_operators"      => "Toestaan voor operators",
-    "frontend_logo"             => "Frontend Logo",
     "base_url"                  => "Systeem URL",
     "base_url_desc"             => "Vul het volledige webadres van uw installatie in, deze wordt gebruikt om de URLs te maken die de gebruikers toegemailed krijgen.",
     "debug"                     => "Debug",
     "debug_mode"                => "Debug modus",
-    "debug_mode_desc"           => "Schakel debug modus in om foutmeldingen te tonen. Gebruik dit alleen voor debugging of wanneer support het vraagt. Foutmeldingen worden zowiezo opgeslagen in /storage/logs.",
     "pretty_urls"               => "Schone URLs",
     "pretty_urls_desc"          => "Deze optie inschakelen verwijderd index.php uit de URLs. Zet dit alleen uit wanneer je ook zonder /index.php bij het operator panel kunt komen. Schakel uit wanneer je niet over mod_rewrite beschikt, .htaccess bestanden niet zijn toegestaan of wanneer de .htaccess bestanden niet nog zijn aangepast aan uw php server.",
-    "send_diagnostic"           => "Stuur diagnostische data",
-    "send_diagnostic_desc"      => "Om SupportPal te helpen het product nog beter te maken kan uw installatie diagnotische data versturen wanneer er iets fout gaat.",
 
     /*
      * 2.0.2
@@ -298,7 +277,6 @@ return array(
     "log"                       => "Log|Logs",
     "invalid_department_brand"  => "Afdeling is niet toegewezen aan het merk van dit ticket.",
     "incoming_rejected"         => "Inkomend (geweigerd)",
-    "twig_operator_signature"   => "Het {{ operator.signature }} merge field zal tijdens de uitvoer worden verwerkt, daarom kan de preview niet correct zijn.",
 
     /*
      * 2.1.1

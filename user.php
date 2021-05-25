@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Account actief",
     "account_active_desc"           => "Schakel toegang tot geautenticeerde sectie in of uit.",
 
-    "operator_settings"             => "Operatorinstellingen",
     "op_settings_dept_desc"         => "Selecteer welke afdelingen de operator kan zien en tickets in kan behandelen.",
 
     "organisation"                  => "Organisatie|Organisaties",
@@ -20,7 +19,6 @@ return array(
     "manage_organisation"           => "Beheer organisatie",
     "leave_organisation"            => "Verlaat organisatie",
     "user_membership"               => "Gebruikerlidmaatschap",
-    "organisation_no_longer"        => "Deze gebruiker zal geen deel meer uitmaken van deze organisatie.",
     "transfer_ownership"            => "Draag ownership over",
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kunt u niet worden verwijderd als manager en alleen u kunt de organisatie verwijderen. U kunt ownership van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
@@ -29,16 +27,10 @@ return array(
     "organisation_desc"             => "Elke organisatie kan <strong>managers</strong>hebben welke gebruikers kunnen beheren en andermans tickets kunnen beheren en <strong>gebruikers</strong>, elke tickets kunnen openen maar geen toegang tot andermans tickets hebben.",
     "organisation_operator_desc"    => "Voeg bestaande gebruikers toe aan deze organisatie door op \"Voeg gebruiker toe\" te klikken en te zoeken op hun naam. Let wel op dat het toevoegen van een gebruiker hun link naar een andere organisatie zal verwijderen.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Kan andere gebruikersbeheren en andermans tickets inzien.<br /><strong>Gebruiker</strong> - Kan alleen tickets voor de organisatie inzien en op eigen tickets antwoorden",
-    "send_confirmation_email"       => "Stuur bevestiging naar gebruiker",
     "send_password_reset"           => "Stuur link om wachtwoord opnieuw in te stellen",
 
     "profile"                       => "Profiel",
-    "address"                       => "Adres",
-    "city"                          => "Stad",
-    "state"                         => "Provincie/Staat",
-    "postcode"                      => "Postcode",
     "phone"                         => "Telefoonnummer",
-    "website"                       => "Website",
 
     "login"                         => "Login",
     "remember_me"                   => "Onthoud mij",
@@ -47,31 +39,16 @@ return array(
 
     "user_register_disabled"        => "Er kunnen momenteel geen nieuwe registraties plaatsvinden.",
     "success_register"              => "Uw account is geregistereerd!",
-    "success_register_desc"         => "Dank u voor het registreren van uw account, u moet deze nog verifieren voordat u in kunt loggen. Er is een e-mail verstuurd met een link om de verificatie te doen.",
     "register_now"                  => "Registreer nu",
     "register"                      => "Registreer",
     "register_account"              => "Registreer Account",
-    "register_confirm"              => "Registratiebevestiging",
-    "register_confirm_desc"         => "Dank u voor het bevestigen van uw e-mailadres. Geef een wachtwoord op om het registratieproces te voltooien.",
-    "confirmation_success"          => "Verificatie is afgerond!",
-    "confirmation_unsuccessful"     => "Verificatie is niet gelukt.",
-    "thank_you_confirm"             => "Dank u voor het verifieren van uw account. Ga naar <a href=':route'>inloggen</a>.",
     "signed_up"                     => "Account gemaakt",
     "last_active"                   => "Laatst actief",
 
-    "reset_request"                 => "Aanvraag van wachtwoordreset ontvangen",
-    "reset_request_desc"            => "We sturen u zometeen een e-mail met een link ter verificatie zodat u uw wachtwoord opnieuw in kunt stellen.",
     "forgot_password"               => "Wachtwoord vergeten?",
-    "password_reset"                => "Wachtword reset",
-    "password_reset_confirm"        => "Resetbevestiging",
     "reset_password"                => "Reset wachtwoord",
-    "password_reset_complete"       => "Reset afgerond",
     "set_password"                  => "Stel wachtwoord in",
-    "only_enter_to_change"          => "Vul alleen in om aan te passen",
-    "success_pass_reset"            => "Uw wachtwoord is opnieuw ingesteld.Ga naar <a href=':route'>login</a>.",
     "please_set_password"           => "Stel hier uw wachtwoord opnieuw in.",
-    "emailed_pwd_reset_link"        => "Er is u een link toegestuurd om uw wachtwoord opnieuw in te stellen.",
-    "operator_email_not_found"      => "Operator e-mailadres is niet gevonden.",
     "missing_email_or_reset"        => "Ontbrekend e-mailadres of reset-token.",
 
     "firstname"                     => "Voornaam",
@@ -79,11 +56,9 @@ return array(
     "formatted_name"                => "Opgemaakte Naam",
     "country"                       => "Land",
     "avatar"                        => "Avatar",
-    "generate_password"             => "Genereer een willekeurig wachtwoord",
     "confirm_password"              => "Bevestig wachtwoord",
 
     "confirmed"                     => "Bevestigd",
-    "confirmed_desc"                => "Toegang tot geautenticeerde secties.",
     "unconfirmed"                   => "Onbevestigd",
 
     "group"                         => "Gebruikersgroep|Gebruikersgroepen",
@@ -113,7 +88,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN of DN",
     "ldap_rdn_desc"                 => "De distinguished name voor de LDAP gebruikersnaam, zoals: cn=Sample Gebruiker,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP Details",
-    "ldap_extension_missing"        => "De php-ldap extension is momenteel niet geladen. Gebruikers kunnen niet inloggen via LDAP.",
 
     "operator_details"              => "Operatordetails",
 
@@ -255,14 +229,11 @@ return array(
     "current_password"              => "Huidig wachtwoord",
     "new_password"                  => "Nieuw wachtwoord",
     "personal_confirm_password"     => "Bevestig uw nieuwe wachtwoord met uw oude wachtwoord.",
-    "operator_confirm_password"     => "Bevestig uw wachtwoord om de veranderingen te maken in het operator account.",
-    "login_via_idp"                 => "Login via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Zoek naar gebruiker/operator...",
-    "two_fa_personal_settings"      => "De operator kan 2FA inschakelen in de persoonlijke instellingen.",
 
     /*
      * 2.2.0
@@ -344,7 +315,6 @@ return array(
     /*
      * 3.3.0
      */
-    "remove_avatar"                 => "Verwijder Avatar",
     "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account(s).",
     "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren.",
 

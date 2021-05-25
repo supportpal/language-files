@@ -40,12 +40,9 @@ return array(
     "organisation_profile_updated"      => "Bijgewerkt profiel voor organisatie :rel.",
     "organisation_owner_updated"        => "Eigendom organisatie :rel overgezet naar :new_value.",
 
-    "user_emailed"                      => "Stuur een e-mail naar :rel.",
-
     "mass_email_queued"                 => ":new_value e-mails in wachtrij.",
     "mass_email_sent"                   => ":new_value e-mails verstuurd.",
 
-    "email_send_failed"                 => "Fout: Kon e-mail 5 maal niet versturen, uit wachtrij verwijderd.",
     "email_queue_deleted"               => "Mail voor :rel. verwijderd",
 
     "scheduled_task_run"                => "Geplande taak :rel is handmatig uitgevoerd.",
@@ -59,15 +56,9 @@ return array(
     "ticket_opened"                     => "Nieuw ticket geopend #:rel.",
     "ticket_opened_on_behalf"           => "Nieuw ticket geopend #:rel uit naam van :new_value.",
     "ticket_opened_email"               => "E-mail geïmporteerd als nieuw ticket #:rel.",
-    "ticket_deleted"                    => "Verwijderd ticket ':old_value' (#:rel).",
-
-    "ticket_followup_set"               => "Een follow up is ingesteld op ticket #:rel.",
-    "ticket_followup_updated"           => "De follow up op ticket #:rel is bijgewerkt.",
-    "ticket_followup_deleted"           => "De follow up op ticket #:rel is verwijderd.",
 
     "ticket_message_reply"              => "Nieuw antwoord op ticket #:rel.",
     "ticket_message_note"               => "Nieuwe aantekening op ticket #:rel.",
-    "ticket_message_updated"            => "Bijgewerkt ticket in ticket #:rel.",
     "ticket_message_deleted"            => "Verwijderd bericht in ticket #:rel.",
 
     "ticket_user_updated"               => "Gebruiker bijgewerkte op ticket #:rel van :old_value naar :new_value.",
@@ -106,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Berichten gesplitst van oud ticket #:rel naar nieuw ticket #:new_value.",
     "ticket_split_to"                   => "Berichten gesplitst van oud ticket #:old_value naar nieuw ticket #:rel.",
 
-    "ticket_email_user"                 => "Stuur e-mail naar gebruiker.",
-    "ticket_email_operators"            => "Stuur e-mail naar operators.",
-
-    "ticket_feedback_dequeued"          => "Feedbackformulieraanvraag verwijderd van ticket #:rel uit wachtrij.",
-    "ticket_feedback_form_sent"         => "Feedbackformulieraanvraag verstuurd voor ticket #:rel.",
-
     "ticket_attachment_saved"           => "Bijlage toegevoegd aan ticket #:rel.",
     "ticket_attachment_deleted"         => "bijlage verwijderd van ticket #:rel.",
 
     "ticket_throttled"                  => "Nieuw ticket van :rel gewijgerd ivm throttling.",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Stuur e-mail naar operatorgroep :new_value.",
-    "ticket_email_user_group"           => "Stuur e-mail naar gebruikersgroep :new_value.",
 
     /*
      * 2.0.3
@@ -142,11 +121,6 @@ return array(
     "invalid_department_brand"          => "Kon voor ticket #:rel de afdeling niet instellen op ':new_value' omdat deze afdeling niet bij dit merk hoort.",
 
     /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Bericht :message_id in ticket #:rel. bijgewerkt",
-
-    /*
      * 2.1.2
      */
     "sent_email_to"                     => "E-mail met onderwerp ':extra_rel1' verstuurd naar :rel.",
@@ -155,7 +129,6 @@ return array(
     "sent_email_to_operators"           => "':extra_rel1' e-mail verstuurd naar operators.",
     "sent_ticket_email_to_operators"    => "':extra_rel1' e-mail verstuurd naar operators voor ticket #:rel.",
     "sent_email_to_operator_group"      => "':extra_rel1' e-mail verstuurd naar operatorgroep ':new_value' voor ticket #:rel.",
-    "sent_email_to_user_group"          => "':extra_rel1' e-mail verstuurd naar gebruikersgroep ':new_value' voor ticket #:rel.",
     "ticket_macro_applied"              => "De macro ':new_value' is uitgevoerd op ticket #:rel.",
     "ticket_macro_automatic"            => "De macro ':new_value' is automatisch uitgevoerd op ticket #:rel.",
     "email_template_not_found"          => "E-mail template ID ':new_value' niet gevonden, mail wordt niet verstuurd.",
@@ -171,5 +144,63 @@ return array(
     "ticket_user_added_to_group"        => "Ticket gebruiker is toegevoegd aan gebruikersgroep :new_value.",
     "ticket_user_removed_from_group"    => "Ticket gebruiker is verwijderd uit gebruikersgroep :old_value.",
     "email_on_behalf"                   => ":extra_rel2 doorgestuurd in naam van  ':extra_rel1' in ticket #:rel.",
+
+    /*
+     * 2.3.0
+     */
+    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
+    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
+    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
+    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
+    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
+    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
+
+    /*
+     * 2.3.1
+     */
+    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
+    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
+    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
+    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
+    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
+    "email_send_failed"                 => "Failed to send email.",
+    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
+    "export_scheduled"                  => "An export of user :rel has been scheduled.",
+    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
+    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
+    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
+    "deleted_old_records"               => "Automatically deleted old :rel records.",
+    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+
+    /*
+     * 2.4.0
+     */
+    "ticket_watching"                   => "Watching ticket #:rel.",
+    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
+    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
+    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+
+    /*
+     * 2.5.0
+     */
+    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
+    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
+    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
+    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
+    "ticket_restored"                   => "Restored ticket #:rel from trash.",
+    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+
+    /*
+     * 2.6.0
+     */
+    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
+    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
+    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+
+    /*
+     * 3.0.0
+     */
+    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
 
 );

@@ -5,7 +5,6 @@ return array(
     "clear"                     => "Schoon",
     "begin"                     => "Begin",
     "documentation"             => "Documentatie",
-    "forums"                    => "Community Forums",
     "good"                      => "Goed",
     "bad"                       => "Slecht",
     "expire"                    => "Verloopt",
@@ -19,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Laatste uitvoer",
     "unknown"                   => "Ongekend",
-    "optional"                  => "optioneel",
-    "received"                  => "Ontvangen",
-    "unanswered"                => "Onbeantwoord",
-    "in_queue"                  => "In wachtrij",
     "open"                      => "Open",
     "pending"                   => "Wachtend",
     "continue"                  => "Doorgaan",
@@ -42,7 +37,6 @@ return array(
     "time"                      => "Tijd",
     "id"                        => "ID",
     "log"                       => "Log",
-    "event"                     => "Event",
     "filter"                    => "Filter",
     "ip_address"                => "IPadres",
     "ip"                        => "IP",
@@ -65,9 +59,6 @@ return array(
     "remove"                    => "Verwijder",
     "required"                  => "Verplicht",
     "enabled"                   => "Ingeschakeld",
-    "modified"                  => "Aangepast",
-    "change"                    => "Aanpassing",
-    "no_change"                 => "Geen aanpassing",
     "registered"                => "Geregistreerd",
     "username"                  => "Gebruikersnaam",
     "password"                  => "Wachtwoord",
@@ -84,7 +75,6 @@ return array(
     "disable"                   => "Uitschakelen",
     "home"                      => "Home",
     "navigation"                => "Navigatie",
-    "column"                    => "Kolom|Kolommen",
     "action"                    => "Actie|Acties",
     "value"                     => "Waarde",
     "when"                      => "Wanneer",
@@ -102,10 +92,7 @@ return array(
     "active"                    => "Actief",
     "validate_auth"             => "Valideer Autenticatie",
     "end"                       => "Einde",
-    "current"                   => "Huidig",
     "loading"                   => "Laden",
-    "processing"                => "Verwerken",
-    "code"                      => "Code",
     "maintenance"               => "Onderhoud",
     "status"                    => "Status|Statussen",
     "count"                     => "Aantal",
@@ -115,7 +102,6 @@ return array(
     "reply"                     => "Beantwoord",
     "filter_results"            => "Filterresultaten",
     "anyone"                    => "Wie dan ook",
-    "everyone"                  => "Iedereen",
     "text"                      => "Tekst",
     "attachment"                => "Bijlage|Bijlages",
     "add_attachment"            => "Bijlage toevoegen",
@@ -132,7 +118,6 @@ return array(
     "content_sender"            => "Content &amp; zender",
     "permissions"               => "Permissies",
     "no_permissions_found"      => "Geen permissies gevonden",
-    "check_uncheck_all"         => "Selecteer / Deselecteer alles",
     "first"                     => "Eerste",
     "second"                    => "Tweede",
     "third"                     => "Derde",
@@ -156,8 +141,6 @@ return array(
     "due"                       => "Klaar op",
     "overdue"                   => "Over tijd",
     "hours_before_overdue"      => "Uren tot over tijd",
-    "add_rule"                  => "Regel toevoegen",
-    "new"                       => "Nieuw",
     "transfer"                  => "Transfer",
     "view_all"                  => "Bekijk Alle",
     "manage"                    => "Beheer",
@@ -167,13 +150,10 @@ return array(
     "uninstall"                 => "Deinstalleren",
     "version"                   => "Versie",
 
-    "and"                       => "en",
     "by"                        => "bij",
     "record"                    => "record",
     "views"                     => "views",
-    "if_exists"                 => "wanneer bestaat",
     "of"                        => "van",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "van de",
     "to"                        => "tot",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -190,7 +170,6 @@ return array(
     "day"                       => "Dag|Dagen",
     "month"                     => "Maand|Maanden",
     "year"                      => "Jaar|Jaren",
-    "ago"                       => "geleden",
 
     "editor"                    => "Editor",
 
@@ -198,7 +177,6 @@ return array(
      * 2.0.1
      */
     "download"                  => "Download",
-    "acknowledge"               => "Erkennen",
 
     /*
      * 2.0.2
@@ -215,7 +193,6 @@ return array(
     "recently_used"             => "Recentelijk gebruikt",
     "recently_created"          => "Recentelijk aangemaakt",
     "load_more"                 => "Laad meer",
-    "clear_selected"            => "schoon geselecteerde",
     "expand_all"                => "Alles uitklappen",
     "collapse_all"              => "Alles inklappen",
     "show_more"                 => "Toon meer",
@@ -224,7 +201,6 @@ return array(
     /*
      * 2.1.0
      */
-    "recently_viewed"           => "Recentelijk bekeken tickets",
     "na"                        => "n.v.t.",
     "total"                     => "Totaal",
     "disabled"                  => "Uitgeschakeld",
@@ -239,7 +215,6 @@ return array(
     "end_date"                  => "Eind Date",
     "submitted_by"              => "Ingediend door",
     "every_minutes"             => "Elke :minutes",
-    "at_time"                   => "op :time",
 
     /*
      * 2.1.1

@@ -27,7 +27,6 @@ return array(
     "user_email"                        => "E-mail adres gebruiker",
     "user_full_name"                    => "Volledige naam gebruikers",
     "user_group"                        => "Gebruikersgroep",
-    "user_organisation"                 => "Gebruiker van organisatie",
 
     /*
      * 2.1.0

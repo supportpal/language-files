@@ -26,8 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Verwijder ticket",
-    "delete_ticket_and_block"   => "Verwijder ticket en blokkeer gebruiker",
     "increase_due_time"         => "Verhoog deadline",
     "close_and_lock_ticket"     => "Sluit en lock ticket",
     "pause_due_time"            => "Pauzeer deadline",

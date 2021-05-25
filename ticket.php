@@ -14,7 +14,6 @@ return array(
     "invalid_user"              => "Controleer of ingevulde gegevens correct zijn.",
 
     "registered_users"          => "Alleen voor geregistreerde gebruikers",
-    "registered_users_desc"     => "Schakelaar om alleen tickets te importeren van gebruikers met een servicedeskaccount.",
 
     "tickets"                   => "Ticket(s)",
     "ticket"                    => "Ticket|Tickets",
@@ -24,7 +23,6 @@ return array(
     "due_time"                  => "Deadline",
     "created_time"              => "Tijd aangemaakt:",
     "submitted"                 => "Ingediend",
-    "add_reply"                 => "Voeg antwoord toe",
     "ticket_reply"              => "Ticket antwoord",
     "ticket_note"               => "Ticket aantekening",
     "ticket_type"               => "Ticket type",
@@ -34,7 +32,6 @@ return array(
     "existing_user"             => "Bestaande gebruiker",
     "new_user"                  => "Nieuwe gebruiker",
     "internal"                  => "Intern",
-    "internal_ticket"           => "Intern ticket",
     "internal_ticket_desc"      => "Open een ticket alleen voor intern gebruik. Dit ticket wordt aangemaakt op jouw naam, niet van een gebruiker.",
     "ticket_opened"             => "Uw ticket is geopend.",
     "enter_user_details"        => "Vul uw gegevens in of login op uw account.",
@@ -59,11 +56,9 @@ return array(
 
     "department"                => "Afdeling|Afdelingen",
     "change_department_order"   => "Sleep de regels om de volgorde van de afdelingen te veranderen die gebruikers te zien krijgen wanneer een nieuw ticket wordt geopend.",
-    "department_order"          => "Afdelingsvolgore",
     "department_applicable"     => "Toepasselijke afdelingen",
     "department_applicable_desc" => "De afdelingen in de volgorde waarop deze voor de gebruikers beschikaar zijn om te selecteren. Alleen van toepassing op frontend, alle prioriteiten zijn beschikbaar voor alle operators van alle afdelingen.",
 
-    "due_to_be_sent"            => "Te versturen voor",
     "send_now"                  => "Verstuur nu",
 
     "tag"                       => "Tag|Tags",
@@ -73,14 +68,9 @@ return array(
 
     // Recent activity
     "recent_activity"           => "Recente activiteit",
-    "no_recent_activity"        => "Geen recente activiteit",
-
-    // Active operators
-    "active_operators"          => "Actieve operators",
 
     "ticket_number"             => "Ticketnummers",
     "ticket_format"             => "Ticketnumberformaat",
-    "ticket_format_desc"        => "De volgende variabelen kunnen worden gebruikt:<br />%S voor volgnummer | %N voor een willekeurig nummer | %L voor een willekeurige letter<br />Gebruik {number} <strong>alleen</strong> voor herhaling na %N of %L, bijv. %N{4} resulteert in 4 willkeurige nummers, %L{3} resulteert in 3 willekeurige letters<br />De volgende <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Datum</a> Parameters prefixed met % Y,y,m,d,j,g,G,h,H,i,s",
 
     // Departments
     "department_public_desc"    => "Wanneer de afdeling zichtbaat is voor gebruikers op de servicedesksite.",
@@ -110,10 +100,6 @@ return array(
 
     // Department email options
     "email_options"             => "E-mail Opties",
-    "email_auto_close"          => "E-mail gebruikers wanneer ticket automatisch wordt gesloten",
-    "email_auto_close_desc"     => "Selecteer wanneer gebruikers een e-mail moeten krijgen dat er tickets van hen automatisch worden afgesloten.",
-    "email_closed_by_operator"  => "E-mail gebruikers wanneer ticket wordt gesloten door operator",
-    "email_closed_by_op_desc"   => "Selecteer wanneer gebruikers een e-mail moeten krijgen wanneer er een ticket van hen wordt afgesloten door een operator.",
     "email_user_on_email"       => "E-mail gebruikers wanneer ze een ticket openen via e-mail",
     "email_user_on_email_desc"  => "Selecteer wanneer gebruikers een e-mail moeten krijgen wanneer een e-mail die ze sturen wordt opgenomen als ticket.",
     "email_operators"           => "Bericht operators",
@@ -128,7 +114,6 @@ return array(
     "feedback"                  => "Feedback",
     "feedback_form"             => "Feedbackformulier|Feedbackformulieren",
     "feedback_form_desc"        => "Feedbackformulieren worden verwerkt in de volgorde waarin ze verschijnen. Door te slepen kan de volgorde worden veranderd.",
-    "view_feedback_report"      => "Bekijk Feedbackrapport",
     "view_feedback"             => "Bekijk feedback",
     "ticket_feedback"           => "Ticket feedback",
     "feedback_fields_error"     => "Er was een probleem bij ophalen van de feedbackvelden.",
@@ -139,9 +124,6 @@ return array(
     "form_conditions"           => "Formuliervoorwaarden",
     "form_conditions_desc"      => "Definieer de voorwaarden voor zojuist opgeloste tickets om vast te stellen of ze onder dit formulier vallen. Wanneer een ticket onder meerder formulieren valt wordt er gekeken naar prioriteit welke kan worden aangepast door de volgorde van de formulieren te veranderen.",
     "form_fields"               => "Formuliervelden",
-    "form_fields_desc"          => "Wilt u extra informatie wanneer de gebruiker feedback geeft kunt u deze extra velden toevoegen.",
-    "response_rate"             => "Response rate",
-    "sent_forms"                => "Verstuurde feedbackformulieren",
     "rating"                    => "Rating",
     "feedback_desc"             => "Bedankt! Dat u contact met ons op hebt genomen en we hopen uw vraag te hebben beantwoord. U kunt uw ervaring beoordelen...",
     "good_satisfied"            => "Goed, ik ben tevreden",
@@ -159,33 +141,21 @@ return array(
 
     // Canned responses
     "cannedresponse"            => "Standaard antwoord|Standaard antwoorden",
-    "canned_response_category"  => "Standaard antwoord cetegorie|Standaard antwoord cetegorieen",
-    "canned_public_desc"        => "Stel in om de standaard antwoorden alleen voor uzelf bereikbaar te maken.",
-    "canned_group_desc"         => "Wanneer u het standaard antwoord beschikbaar wilt maken voor andere operators laat dan dit veld leeg.",
 
     // Filters
     "filter"                    => "Filter|Filters",
     "filter_condition"          => "Filtervoorwaarden",
     "filter_condition_desc"     => "Definieer de voorwaarden waaronder tickets onder dit filter worden getoond.",
-    "filter_public_desc"        => "Stel in om dit filter alleen voor uzelf bereikbaar te maken.",
-    "filter_group_desc"         => "Wanneer u het filter beschikbaar wilt maken voor andere operators laat dan dit veld leeg.",
 
     // Macros
     "macro"                     => "Macro|Macros",
-    "macro_type"                => "Macro type",
-    "macro_type_desc"           => "Standaard moet een macro worden opgeroepen in ticketview. Een automatische macro kan worden ingesteld and geactiveerd wanneer nieuwe tickets binnenkomen of voor alle tickets middels een ingeplande taak, hoe dan ook, voorwaarden worden gecontroleerd en wanneer deze passen worden de acties automatisch uitgevoerd. Een macro kan slechts eenmalig automatisch op een ticket worden uitgevoerd, maar handmatig heeft geen limiet.",
-    "manual"                    => "Handmatig",
-    "macro_type_auto1"          => "Automatisch - Alleen op nieuwe tickets",
-    "macro_type_auto2"          => "Automatisch - Alle tickets (ingeplande taak",
     "macro_condition"           => "Macro voorwaarden",
-    "macro_condition_desc"      => "Definieer de voorwaarden voor welke tickets deze macro beschikbaar zal zijn. Standaard zal het voor alle tickets gelden.",
     "macro_action"              => "Macro Acties",
     "macro_action_desc"         => "Definieer de acties welke worden uitgvoerd wanneer een macro word tt uitgevoerd. Zorg wel dat de acties geldig zijn voor de afdeling waar het ticket is anders worden ze genegeerd.",
 
     "from"                      => "Van",
     "to"                        => "Aan",
     "cc"                        => "CC",
-    "cc_desc"                   => "U kunt meerdere ontvangers CCen door de e-mailadressen in te voeren.",
 
     "allowed_files"             => "Toegestande bijlagen",
 
@@ -211,8 +181,6 @@ return array(
 
     // Holidays
     "holiday"                   => "Feestdag/Feestdagen",
-    "all_holidays"              => "Alle feestdagen",
-    "specific_holidays"         => "Specifieke feestdagen",
     "holiday_or_on_the"         => "of, op de",
     "holiday_month_year_desc"   => "Jaar is optioneel wanneer een feestdag herhaald wordt. Selecteer alleen eenjaar wanneer de feestdag slechts op deze specifieke datum plaatsvindt.",
 
@@ -250,7 +218,6 @@ return array(
     "set_status"                => "Zet Status",
     "add_selfservice_link"      => "Voeg Self-Service Link toe",
     "search_selfservice"        => "Zoek naar een self-service artikel",
-    "add_canned_response"       => "Voeg standaardantwoord toe",
     "search_canned"             => "Zoek voor een autoantwoord",
 
     "mark_resolved"             => "Markeer als opgelost",
@@ -267,7 +234,6 @@ return array(
 
     "close_inactive_tickets"    => "Sluit inactieve tickets",
     "close_inactive_tickets_desc" => "De tijd waarin inactive tickets automatisch gesloten worden, zet op 0 om ze nooit automatisch te laten sluiten",
-    "close_inactive_status_desc" => "Automatisch sluit tickets die inactief zijn geworden door geen opvolging van de gebruiker zijn kant(gedefineerd door het aantal dagen van de laatste reactie van een gebruiker in generale instellingen van een ticket).",
 
     "ticket_reply_order"        => "Ticket beantwoord volgorde",
     "ticket_reply_order_desc"   => "Selecteer de volgorde waarin tickets lopen, oplopend waarin het laatste bericht als laatste staat of aflopend waarin het laatste bericht bovenaan staat",
@@ -295,7 +261,6 @@ return array(
     "default_priority_desc"     => "De standaard prioriteit op alle inkomende tickets via dit kanaal.",
     "verbose_email_log"         => "Uitgebreid e-maillogboek",
 
-    "adjust_columns"            => "Kolommen aanpassen",
     "last_reply"                => "Laatste antwoord",
     "opened_at"                 => "Geopend om",
 
@@ -315,25 +280,18 @@ return array(
     "merged"                    => "Samengevoegd",
     "unmerge"                   => "Samenvoegen opheffen",
     "close_and_lock"            => "Sluiten en op slot doen",
-    "delete_and_block"          => "Verwijder en blokkeer",
-
-    "block_warning"             => "De e-mail van de gebruiker wordt ook geblokkeerd en kan geen tickets meer openen.",
 
     "mass_reply"                => "Massa beantwoorden",
-
-    "delete_warning"            => "Verwijderen van deze tickets is permanent.",
 
     "due_today"                 => "Uiterlijk vandaag",
     "overdue"                   => "Achterstallig",
     "unassigned"                => "Niet-toegewezen",
 
     "pause_duetime_desc"        => "Als er een actieve SLA op dit ticket is, pauzeert u dan de resterende tijd tot na de opvolgende datum. De uiterlijke datum begint pas weer als een antwoord of notitie aan het ticket is toegevoegd (inclusief de opvolgende)",
-    "delete_follow_up"          => "Verwijder opvolgende",
 
     "add_cc"                    => "Voeg CC toe",
     "reply_above_line"          => "Antwoord u boven deze lijn alstublieft",
 
-    "oauth2_token"              => "OAuth2 Token",
     "email_settings"            => "E-mail Instellingen",
     "web_settings"              => "Web Instellingen",
     "split_selected_replies"    => "Splits Selecteerde antwoorden",
@@ -354,9 +312,7 @@ return array(
      */
     "no_operator_groups"        => "Geen operator groupen gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
     "no_user_groups"            => "Geen gebruiker groepen gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
-    "opened_by"                 => "(Geopend door:name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
-    "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
 
     /*
      * 2.0.3
@@ -443,8 +399,6 @@ return array(
     "new_ticket_note"           => "Nieuwe notitie voor ticket",
     "email_template_desc"       => "U kunt een e-mailtemplate selecteren welke gebruikt zal worden ipv de standaard om verzonden te worden naar de gebruiker of operators voor elke van de onderstaande acties. Deze template zal alleen voor deze afdeling standaard worden.",
     "create_new_user"           => "Maak nieuwe gebruiker",
-    "create_new_user_desc"      => "Maak een nieuwe gebruiker en stel deze in als gebruiker van dit ticket.",
-    "convert_user_ticket_desc"  => "Dit ticket zal worden omgezet van intern naar gebruikersticket.",
     "user_reply_internal_ticket" => "Geen operator. Alleen operators kunnen een intern ticket beantwoorden.",
     "enter_email_address"       => "Vul het e-mailadress in...",
     "email_user_frontend"       => "E-mail gebruikers bij tickets die worden geopend op de frontend",
@@ -455,7 +409,6 @@ return array(
     /*
      * 2.2.0
      */
-    "macro_order"               => "Automatische macros worden verwerkt in de volgorde waarin ze worden getoond. Verplaats de regels om de prioteit aan te passen.",
     "user_ticket_existing_desc" => "Open een ticket in naam van een bestaande gebruiker.",
     "canned_response_tag"       => "Standaard antwoord tag|Standaard antwoorden tags",
     "response"                  => "Antwoord|Antwoorden",
