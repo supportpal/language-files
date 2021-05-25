@@ -73,8 +73,6 @@ return array(
     "url"                       => " :attribute формат неверен.",
     "template_exists"           => " Выбранный :attribute является недействительным.",
     "is_valid_captcha"          => " Введенный код был неверен или неверен, пожалуйста, попробуйте еще раз.",
-    "user_password_length"      => " пароль должен быть равен или длиннее :user_password_length символов.",
-    "operator_password_length"  => "Пароль должен быть равен или длиннее :operator_password_length символов.",
     "user_password_strength"    => " :attribute должен содержать: :user_password_strength.",
     "operator_password_strength" => " :attribute должен содержать: :operator_password_strength.",
 
@@ -115,7 +113,7 @@ return array(
     "after_or_equal"            => " :attribute должна быть дата после или равная :date.",
     "before_or_equal"           => " :attribute должна быть дата, предшествующая или равная :date.",
     "dimensions"                => " :attribute имеет недопустимые размеры изображения.",
-    "distinct"                  => ' :attribute поле имеет повторяющееся значение.',
+    "distinct"                  => " :attribute поле имеет повторяющееся значение.",
     "file"                      => " :attribute должно быть, это файл.",
     "filled"                    => " :attribute поле должно иметь значение.",
     "gt"                        => array(
@@ -165,6 +163,17 @@ return array(
     "valid_twig"                => " :attribute является недействительным. Пожалуйста, используйте кнопку # Просмотр # для получения подробной информации об ошибке.",
 
     /*
+     * 3.0.0
+     */
+    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
+    "starts_with"               => "The :attribute must start with one of the following: :values.",
+
+    /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------
@@ -183,7 +192,7 @@ return array(
             "required" => "Необходимо выбрать один или несколько типов самообслуживания.",
         ),
         "category.*.categories" => array(
-            'required' => "При выборе типа самообслуживания требуется наличие одной или нескольких категорий.",
+            "required" => "При выборе типа самообслуживания требуется наличие одной или нескольких категорий.",
             "exists"   => "Одна или несколько выбранных категорий являются недопустимыми.",
         ),
         "brand.*" => array(

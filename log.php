@@ -40,8 +40,6 @@ return array(
     "organisation_profile_updated"      => "Обновленный профиль организации :rel.",
     "organisation_owner_updated"        => "Переданных организацией :rel право собственности на :new_value.",
 
-    "user_emailed"                      => "Отправил письмо по адресу :rel.",
-
     "mass_email_queued"                 => "Поставленный в очередь :new_value электронные письма в пакетах для отправки.",
     "mass_email_sent"                   => "Отправил :new_value emails в очередях.",
 
@@ -99,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Сообщения отделились от старого тикета #:rel к новому тикету #:new_value.",
     "ticket_split_to"                   => "Сообщения разделяются от старого тикета #:old_value к новому тикету #:rel.",
 
-    "ticket_email_user"                 => "Отправлено письмо пользователю.",
-    "ticket_email_operators"            => "Отправлено письмо операторам.",
-
-    "ticket_feedback_dequeued"          => "Удалена форма обратной связи, запрос на тикет #:rel из очереди.",
-    "ticket_feedback_form_sent"         => "Отправлена форма обратной связи, запрос на тикет #:rel.",
-
     "ticket_attachment_saved"           => "Добавлено приложение к тикету #:rel.",
     "ticket_attachment_deleted"         => "Удаленное вложение из тикета #:rel.",
 
     "ticket_throttled"                  => "Отклонен новый тикет от :rel из за спама. ",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Отправлено письмо в группу операторов :new_value.",
-    "ticket_email_user_group"           => "Отправлено письмо в группу пользователей :new_value.",
 
     /*
      * 2.0.3
@@ -133,11 +119,6 @@ return array(
     "ticket_added_cc"                   => "Email(s) :new_value добавлено в список адресов CC для тикета #:rel.",
     "ticket_removed_cc"                 => "Email(s) :old_value удален из списка CC обращаются за тикет #:rel.",
     "invalid_department_brand"          => "Не удалось установить отдел на ':new_value' на тикет #:rel, отдел не принадлежит к марке тикетов.",
-
-    /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Обновленное сообщение :message_id в тикете #:rel.",
 
     /*
      * 2.1.2
@@ -216,5 +197,10 @@ return array(
     "ticket_followup_set"               => "На тикете было установлено новое наблюдение #:rel.",
     "ticket_followup_updated"           => "Была обновлена последующая информация по тикету #:rel.",
     "ticket_followup_deleted"           => "Последующая информация по тикету #:rel была удалена.",
+
+    /*
+     * 3.0.0
+     */
+    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
 
 );

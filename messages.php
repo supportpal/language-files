@@ -20,7 +20,7 @@ return array(
     "success_deleted"       => "Успешно удалили :item!",
     "error_deleted"         => "Не удалось удалить :item.",
 
-    "success_updated"       => "Успешно обновлено :item!",
+    "success_updated"       => ":item успешно обновлен!",
     "error_updated"         => "Не удалось обновить :item.",
 
     "error_notfound"        => " :item с данным ID не было найдено.",
@@ -40,9 +40,6 @@ return array(
 
     "success_action"        => "Успешно выполнено действие!",
     "error_action"          => "Не удалось выполнить действие.",
-
-    "success_sending"       => "Успешно отправлено :item!",
-    "error_sending"         => "Не удалось отправить :item.",
 
     "error_embed_image"     => "Не удалось загрузить изображение.",
 
@@ -144,11 +141,17 @@ return array(
     /*
      * 2.5.0
      */
-    "account_closed"        => "Ваш аккаунт был закрыт. Пожалуйста, свяжитесь с нами, если вы считаете, что это было сделано по ошибке.",
+    "account_closed"        => "Ваш аккаунт был заблокирован. Пожалуйста, свяжитесь с нами, если вы считаете, что это было сделано по ошибке.",
     "leave_record"          => "Покидать :record?",
     "leave_record_warn"     => "Это навсегда удалит вас из :record.",
     "success_trashed"       => "Успешно :item удален!",
     "error_trashed"         => "Ошибка :item удаления.",
     "blocked_by_rule"       => "Запрос был заблокирован правилом спама ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

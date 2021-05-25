@@ -7,7 +7,7 @@ return array(
     "strings"                   => "Строки",
     "collections"               => "Коллекции",
     "frontend_url"              => "Frontend URL",
-    "operator_url"              => "url оператора",
+    "operator_url"              => "URL оператора",
 
     /*
      * 2.1.0

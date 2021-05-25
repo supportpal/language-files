@@ -23,7 +23,7 @@ return array(
     "ticket_status"                     => "Статус тикета",
     "ticket_subject"                    => "Тема тикета",
     "ticket_tag"                        => "Тег тикета",
-    "ticket_updated"                    => "Ticket updated",
+    "ticket_updated"                    => "Тикет обновлен",
     "user_email"                        => "Электронная почта пользователя",
     "user_full_name"                    => "Полное имя пользователя",
     "user_group"                        => "Группа пользователей",
@@ -45,7 +45,7 @@ return array(
     "ticket_has_attachments"            => "Тикет имеет вложения",
     "ticket_has_drafts"                 => "Тикет имеет черновики",
     "ticket_locked"                     => "Тикет заблокирован",
-    "ticket_merged"                     => "тикет объединен",
+    "ticket_merged"                     => "Тикет объединен",
     "ticket_message_count_exc_notes"    => "Количество сообщений в тикете (за исключением заметок)",
     "ticket_note_count"                 => "Количество заметок в тикете",
     "ticket_number"                     => "Номер тикета",
@@ -59,7 +59,7 @@ return array(
     /*
      * 2.3.0
      */
-    "ticket_cc"                         => "Ticket CC",
+    "ticket_cc"                         => "Тикет CC",
     "ticket_custom_field"               => "Пользовательское поле тикета",
     "user_custom_field"                 => "Пользовательское поле пользователя",
     "user_organisation_custom_field"    => "Пользовательское поле организации пользователя",
@@ -85,5 +85,17 @@ return array(
      * 2.5.0
      */
     "user_email_confirmed"              => "Электронный адрес пользователя подтвержден",
+
+    /*
+     * 3.0.0
+     */
+    "user_2fa_enabled"                  => "2FA активирована",
+    "article_type"                      => "Article type",
+    "article_brand"                     => "Article brand",
+
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
 
 );
