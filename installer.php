@@ -7,20 +7,13 @@ return array(
 
     // Index
     "supportpal_installer"      => "SupportPal Installer",
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
-    "select_language"           => "Select Language:",
-    "begin_installation"        => "Begin Installation",
+    "select_language"           => "Select Language",
     "install_type"              => "Installation Type",
     "install"                   => "Fresh Install",
     "upgrade"                   => "Upgrade Existing Installation",
     "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
 
     // Upgrade
-    "upgrade_step_1"            => "Step 1 of 3: System Requirements",
-    "upgrade_step_2"            => "Step 2 of 3: Update Database",
-    "upgrade_step_3"            => "Step 3 of 3: Upgrade Complete",
-    "upgrade_step_3_support"    => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
-    "upgrade_step_3_continue"   => "To continue using SupportPal, log in to the operator panel here",
     "successfully_updated"      => "Congratulations, SupportPal has been successfully upgraded.",
 
     // Install
@@ -62,21 +55,20 @@ return array(
     "step_6"                    => "Step 6 of 7: Quick Set-Up",
     "step_6_desc"               => "Enter your company and website details below.",
     "locale_desc"               => "Set the locale settings for your system.",
-    "diagnostic_desc"           => "To help improve our products, we would like to receive diagnostic data from your installation when something goes wrong. You may disable this below if you do not wish to send us data.",
     "operator_success"          => "Your administrator account has been created.",
 
     // Step 7
     "step_7"                    => "Step 7 of 7: Installed!",
     "successfully_installed"    => "Congratulations, SupportPal has been successfully installed.",
     "operator_panel"            => "Operator Panel",
-    "help_desc"                 => "Should you need any help in configuring or using SupportPal, we have three main sources of information:",
+    "help_desc"                 => "Should you need any help in configuring or using SupportPal, we have two main sources of information:",
     "submit_a_ticket"           => "Submit a Ticket",
 
     /*
      * 2.0.1
      */
 
-    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='http://docs.supportpal.com/display/DOCS/New+Installation#NewInstallation-PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
+    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
 
     /*
      * 2.0.2
@@ -89,26 +81,17 @@ return array(
     "disabled"                  => "Disabled",
     "php_settings"              => "PHP Settings",
     "ipv6_support"              => "IPv6 Support",
-    "png_jpg_support"           => "PNG & JEPG support",
     "memory_limit"              => ">= 128MB Memory",
     "memory_limit_error"        => "Your memory limit is ':limit'.",
     "permission_denied"         => "Permission Denied",
     "writable"                  => "Writable",
     "help_php_version"          => "For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
     "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
-    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"http://docs.supportpal.com/display/DOCS/System+Requirements#SystemRequirements-PHPSettingsPHPSettings\">PHP Settings Help</a>.",
+    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
     "disabled_functions"        => "Disabled Functions",
-    "mysql_version_is"          => "Your MySQL Version is :version.",
     "help_mysql_version"        => "For assistance installing a new version of MySQL please contact your hosting provider or server administrator.",
     "mysql_version"             => "MySQL Version",
     "mysql_version_not_found"   => "Not available, found MySQL version: :version",
-    "mysql_server_version"      => "MySQL 5.5.3 or greater (10.x for MariaDB) is required to run SupportPal. Found: ':version'.",
-    "mysql_client_version"      => "MySQL client version 5.5.3 or greater (5.0.9 for MySQLnd) is required to run SupportPal. Found: ':version'.",
-
-    /*
-     * 2.0.3
-     */
-    "support_expired_error"     => "An error occurred while contacting the license server with message: ':error'.<br /> Please contact support quoting this message.",
 
     /*
      * 2.1.0
@@ -165,8 +148,21 @@ return array(
      * 2.6.0
      */
     "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+
+    /*
+     * 3.0.0
+     */
     "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
-    "license_valid"             => "License Valid",
-    "registered_to"             => "Registered To",
+
+    /*
+     * 3.4.0
+     */
+    "seeding"                   => "Seeding",
+    "seeded"                    => "Seeded",
+    "migrating"                 => "Migrating",
+    "migrated"                  => "Migrated",
+    "database_setup_complete"   => "Database setup complete.",
+    "created_repository"        => "Created ':name' repository successfully.",
+    "wish_to_continue"          => "Cancel now if you don't understand the implications! The command will continue automatically otherwise...",
 
 );

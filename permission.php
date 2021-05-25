@@ -6,17 +6,16 @@ return array(
 
     // Core
     "apitoken"          => "Beheer API tokens",
-    "company"           => "Beheer bedrijven",
-    "emailtemplate"     => "Beheer emailtemplates",
-    "ipban"             => "Beheer IPblokkades",
-    "ipwhitelist"       => "Beheer IPWhitelist",
+    "emailtemplate"     => "Beheer e-mailtemplates",
+    "ipban"             => "Beheer IP blokkades",
+    "ipwhitelist"       => "Beheer IP whitelist",
     "language"          => "Beheer talen",
     "license"           => "Bekijk licentieinformatie",
     "module"            => "Beheer Modules",
     "scheduledtask"     => "Beheer geplande taken",
     "spamrule"          => "Beheer spamregels",
-    "emaillog"          => "Bekijk emaillog",
-    "emailqueue"        => "Bekijk emailwachtrij",
+    "emaillog"          => "Bekijk e-maillog",
+    "emailqueue"        => "Bekijk e-mailwachtrij",
     "systemcleanup"     => "Systeem opschonen",
 
     // User
@@ -28,7 +27,7 @@ return array(
     "user_edit"         => "Gebruikers bewerken",
     "user_delete"       => "Gebruikers verwijderen",
     "usergroup"         => "Beheer gebruikersgroepen",
-    "massemail"         => "Verstuur massaemail",
+    "massemail"         => "Verstuur bulk e-mail",
     "ldapaccount"       => "Beheer LDAP accounts",
     "activitylog"       => "Bekijk systeemlog",
     "operatorlog"       => "Bekijk operator login log",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "Beheer standaard antwoorden",
     "channel"           => "Beheer channels",
     "department"        => "Beheer afdelingen",
-    "feedback"          => "Beheer feedback",
-    "feedbackform"      => "Beheer feedbackformulieren",
     "filter"            => "Beheer filters",
     "holiday"           => "Beheer vakantiedagen",
     "macro"             => "Beheer macros",
@@ -49,7 +46,6 @@ return array(
     "ticket_view"       => "Tickets bekijken",
     "ticket_add"        => "Tickets openen",
     "ticket_edit"       => "Tickets bijwerken",
-    "ticket_delete"     => "Tickets bekijken",
     "ticketcustomfield" => "Beheer aangepaste velden",
 
     // Self-service
@@ -75,7 +71,7 @@ return array(
      * 2.0.3
      */
     // User
-    "operator"          => "Beheer operators",
+    "operator"          => "Beheer Operators",
 
     /*
      * 2.1.0
@@ -118,10 +114,5 @@ return array(
      * 3.3.0
      */
     "integration"       => "Beheer integraties van derden",
-
-    /*
-     * 3.3.0
-     */
-    "integration"       => "Manage Third-Party Integrations",
 
 );

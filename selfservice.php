@@ -62,7 +62,7 @@ return array(
 
     "no_articles"               => "Geen artikelen.",
 
-    "related_articles"          => "Verwante artikelen",
+    "related_articles"          => "Gerelateerde artikelen",
 
     "rating"                    => "Waardering|Waarderingen",
 
@@ -93,7 +93,7 @@ return array(
     /*
      * 2.0.3
      */
-    "auth_required"             => "Om een artikel te zien moet u eerst ingelogd zijn.",
+    "auth_required"             => "Om het artikel te zien moet u eerst ingelogd zijn.",
 
     /*
      * 2.1.0
@@ -105,7 +105,7 @@ return array(
     "visibility"                => "Zichtbaarheid",
     "reply_to_comment"          => "Beantwoord deze reactie",
     "article_brand_warning"     => "Dit artikel bevind zich in een merk waarmee u niet geassocieerd bent. Elke aanpassinge die u maakt zal ook onder dit merk vallen.",
-    "viewing_article"           => "Bekijken van artikel",
+    "viewing_article"           => "Bekijkt artikel",
     "article_count"             => "Aantal artikelen",
 
     /*

@@ -19,8 +19,8 @@ return array(
     "ticket"                    => "Ticket|Tickets",
     "subject"                   => "Onderwerp",
     "no_subject"                => "Geen onderwerp",
-    "last_action"               => "Laatste action",
-    "due_time"                  => "Due Time",
+    "last_action"               => "Laatste actie",
+    "due_time"                  => "Deadline",
     "created_time"              => "Tijd aangemaakt:",
     "submitted"                 => "Ingediend",
     "ticket_reply"              => "Ticket antwoord",
@@ -40,7 +40,7 @@ return array(
     "recent_tickets"            => "Recente tickets",
     "last_message_text"         => "Tekst laatste bericht",
 
-    "set_due_time"              => "Stel due time in",
+    "set_due_time"              => "Stel deadline in",
 
     "settings"                  => "Ticketinstellingen",
 
@@ -50,7 +50,7 @@ return array(
     "account"                   => "Account|Accounts",
 
     "assign_operator"           => "Operator toewijzen",
-    "assigned_operator"         => "Toegewezen perators",
+    "assigned_operator"         => "Toegewezen operator",
     "assigned_to"               => "Toegewezen aan",
     "assigned"                  => "Toegewezen",
 
@@ -83,33 +83,32 @@ return array(
     "dept_default_assign_desc"  => "Gebruik dit wanneer nieuwe tickets voor deze afdeling standaard moeten worden toegewezen aan een of meer operators.",
 
     // Department emails
-    "email_accounts_desc"       => "Stel een emailadres per afdeling in. Elke inkomende email hiet zal worden aangemaakt als ticket voor deze afdeling. Het eerste adres zal standaard worden gebruikt als verzendadres",
+    "email_accounts_desc"       => "Stel een e-mailadres per afdeling in. Elke inkomende e-mail zal worden aangemaakt als ticket voor deze afdeling. Het eerste adres zal standaard worden gebruikt als verzendadres",
     "department_port"           => "Standaard porten zijn:110 voor POP3, 995 voor beveiligde POP3, 143 voor IMAP, en 993 voor beveiligde IMAP. Laat leeg voor standaard poort.",
     "department_encryption"     => "Sommige e-mailproviders hebben SSL- of TLS-codering nodig om verbinding te maken. Als u het niet zeker weet, laat u deze instelling op geen staan .",
-    "department_delete_mail"    => "Wanneer IMAP gebruikt wordt is het mogelijk te kiezen om de email niet uit de mailbox te verwijderen wanneer ze zijn geimporteerd als tickets.",
+    "department_delete_mail"    => "Wanneer IMAP gebruikt wordt is het mogelijk te kiezen om de e-mail niet uit de mailbox te verwijderen wanneer ze zijn geimporteerd als tickets.",
     "protocol"                  => "Protocol",
     "server"                    => "Mail Server",
     "port"                      => "Poort",
     "encryption"                => "Encryption",
     "delete_downloaded"         => "Verwijder gedownloade e-mail",
     "consume_all"               => "Consumeer alle e-mail",
-    "email_download"            => "Email Download",
-    "email_piping"              => "Email Piping",
+    "email_download"            => "E-mail Download",
+    "email_piping"              => "E-mail Piping",
     "email_piping_desc"         => "Stel een e-mailforwarder in zoals hieronder, het PHP-uitvoerbare pad kan op uw server anders zijn. ",
-    "remote_email_piping"       => "Remote Email Piping",
+    "remote_email_piping"       => "Remote E-mail Piping",
 
     // Department email options
     "email_options"             => "E-mail Opties",
-    "email_user_on_email"       => "E-mail gebruikers wanneer ze een ticket openen via email",
-    "email_user_on_email_desc"  => "Selecteer wanneer gebruikers een email moeten keijgen wanneer een email die ze sturen wordt opgenomen als ticket.",
+    "email_user_on_email"       => "E-mail gebruikers wanneer ze een ticket openen via e-mail",
+    "email_user_on_email_desc"  => "Selecteer wanneer gebruikers een e-mail moeten krijgen wanneer een e-mail die ze sturen wordt opgenomen als ticket.",
     "email_operators"           => "Bericht operators",
-    "email_operators_desc"      => "Selecteer wanneer antwoorden van operators moeten worden doorgestuurd naar andere operators. Standaard wordt de \"email operators\" optie in het operator panel gezet, en stuurt dan automatisch een email bij email replies van operators.",
+    "email_operators_desc"      => "Selecteer wanneer antwoorden van operators moeten worden doorgestuurd naar andere operators. Standaard wordt de \"e-mail operators\" optie in het operator panel gezet, en stuurt dan automatisch een e-mail bij e-mail reacties van operators.",
     // Department email templates
-    "new_ticket_opened"         => "Nieuw ticket geopend",
-    "reply_to_locked"           => "Antwoord op locked ticket",
-    "waiting_for_response"      => "Wacht op antwoord",
+    "new_ticket_opened"         => "Nieuw Ticket Geopend",
+    "waiting_for_response"      => "Wachtend op Antwoord",
     "ticket_auto_closed"        => "Ticket automatisch gesloten",
-    "closed_by_operator"        => "Gesloten door operator",
+    "closed_by_operator"        => "Gesloten door Operator",
 
     // Feedback
     "feedback"                  => "Feedback",
@@ -126,17 +125,15 @@ return array(
     "form_conditions_desc"      => "Definieer de voorwaarden voor zojuist opgeloste tickets om vast te stellen of ze onder dit formulier vallen. Wanneer een ticket onder meerder formulieren valt wordt er gekeken naar prioriteit welke kan worden aangepast door de volgorde van de formulieren te veranderen.",
     "form_fields"               => "Formuliervelden",
     "rating"                    => "Rating",
-    "feedback_desc"             => "Dank u dat u contact met ons op hebt genomen en we hopen uw vraag te hebben beantwoord. U kunt uw ervaring beoordelen..",
+    "feedback_desc"             => "Bedankt! Dat u contact met ons op hebt genomen en we hopen uw vraag te hebben beantwoord. U kunt uw ervaring beoordelen...",
     "good_satisfied"            => "Goed, ik ben tevreden",
-    "bad_not_satisfied"         => "Slecht, ik ben ontevreden",
+    "bad_not_satisfied"         => "Slecht, ik ben niet tevreden",
     "feedback_not_found"        => "Uw feedback kon niet worden geaccepteerd, indien u de feedback alsnog wilt delen kunt u hier een ticket voor openen.",
     "feedback_malformed_token"  => "Uw feedback kon niet worden geaccepteerd vanwege een foutieve token. Indien u de feedback alsnog wilt delen kunt u hier een ticket voor openen.",
-    "feedback_already_done"     => "U hebt voor dit ticket reeds feedback gegeven, bedankt.",
-    "feedback_expired"          => "Dit ticket is al enige tijd geleden opgelost, de periode voor feedback is reeds verlopen.",
-    "feedback_questions"        => "We hopen dat we in de toekomst nog betere ondersteuning kunnen leveren. Om onshierbij te helpen kunt u de volgende vragen beantwoorden.",
-    "feedback_thank_you"        => "Dank u voor het geven van feedback op dit ticket",
-    "feedback_for_ticket"       => "Feedback voor ticket #:number",
-    "feedback_rating_desc"      => "De ondersteuning voor dit ticket is beoordeeld als <strong>:rating</strong> door de gebruiker.",
+    "feedback_expired"          => "Dit ticket is al enige tijd opgelost, de periode voor feedback is reeds verlopen.",
+    "feedback_questions"        => "Als u even de tijd heeft, beantwoord dan de volgende vragen om ons te helpen de ondersteuning die we bieden verder te verbeteren.",
+    "feedback_for_ticket"       => "Feedback voor Ticket #:number",
+    "feedback_rating_desc"      => "De ondersteuning die op dit ticket wordt ontvangen, is beoordeeld als <strong>:rating</strong> door de klant.",
 
     // Custom fields
     "customfield"               => "Ticket aangepast veld|Ticket aangepaste velden",
@@ -180,7 +177,7 @@ return array(
     // Schedule
     "schedule"                  => "Planning|Planningen",
     "business_hour"             => "Kantoortijden",
-    "business_hour_desc"        => "Kantoortijden geven de tijd aan waarin servicedeskmedewerkers beschikbaar zijn. Deze tijden worden meegereked met de bepaling van de deadline (due time)..",
+    "business_hour_desc"        => "Kantoortijden geven de tijd aan waarin servicedeskmedewerkers beschikbaar zijn. Deze tijden worden meegereked met de bepaling van de deadline (deadline)..",
 
     // Holidays
     "holiday"                   => "Feestdag/Feestdagen",
@@ -210,8 +207,8 @@ return array(
 
     // Reply options
     "reply_options"             => "Antwoord opties",
-    "send_email_to_users"       => "Stuur Email naar gebruiker(s)",
-    "send_email_to_operators"   => "Stuur Email naar operator(s)",
+    "send_email_to_users"       => "Stuur E-mail naar gebruiker(s)",
+    "send_email_to_operators"   => "Stuur E-mail naar operator(s)",
     "back_to_grid"              => "Ga terug naar ticket veld",
     "take"                      => "Neem",
     "take_ownership"            => "Neem eigendom",
@@ -295,7 +292,7 @@ return array(
     "add_cc"                    => "Voeg CC toe",
     "reply_above_line"          => "Antwoord u boven deze lijn alstublieft",
 
-    "email_settings"            => "Email Instellingen",
+    "email_settings"            => "E-mail Instellingen",
     "web_settings"              => "Web Instellingen",
     "split_selected_replies"    => "Splits Selecteerde antwoorden",
 
@@ -334,7 +331,7 @@ return array(
     "view_entire_message"       => "Volledige Bericht Inlezen",
     "no_custom_fields"          => "Geen aangepaste velden gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
     "follow_up_active"          => "A <a class='view-followup' style='text-decoration: underline;'>follow up</a> is currently active on this ticket and will run <strong>:time</strong>.",
-    "disable_user_email_replies" => "Verwijder Gebruiker Email Antwoorden",
+    "disable_user_email_replies" => "Verwijder Gebruiker E-mail Antwoorden",
 
     /*
      * 2.1.0
@@ -368,7 +365,7 @@ return array(
     "via_channel"               => "via :channel",
     "department_parent"         => "Bovenliggende Afdeling",
     "department_brands"         => "Afdeling Soorten",
-    "email_item"                => "Email :item",
+    "email_item"                => "E-mail :item",
     "from_name"                 => "Van Naam",
     "from_address"              => "Van Adres",
 
@@ -384,15 +381,15 @@ return array(
     /*
      * 2.1.2
      */
-    "not_registered_user"       => "Geen geregistreerde gebruiker. Dit kanaal accepteerd alleen emails van geregistreerde gebruikers.",
-    "display_name"              => "Stuur email aan getoonde naam",
-    "display_name_desc"         => "Optioneel, gebruik alleen wanneer de getoonde naam in uitgaande email moet worden aangepast, anders laat blank.",
+    "not_registered_user"       => "Geen geregistreerde gebruiker. Dit kanaal accepteerd alleen e-mails van geregistreerde gebruikers.",
+    "display_name"              => "Stuur e-mail aan getoonde naam",
+    "display_name_desc"         => "Optioneel, gebruik alleen wanneer de getoonde naam in uitgaande e-mail moet worden aangepast, anders laat blank.",
     "display_name_options"      => "De volgende Twig variabelen kunnen worden gebruikt:<br >{{ brand.name }} - Merknaam<br />{{ department.name }} - Afdelingsnaam<br />{{ department.frontend_name }} - Toont naam van de gehele afdeling mits het ticket toebehoort aan een subafdeling.<br />{{ operator.formatted_name }} - Operatornaam<br /><em>De operatornaam zal niet altijd beschikbaar zijn, gebruik dus een 'not empty' voorwaarde zoals {% if operator is not empty %}{{ operator.formatted_name }}{% endif %}</em>",
     "attachment_rejected"       => "Bijlage geweigerd",
     "enable_subaddresses"       => "Sta Sub-adressen toe",
-    "enable_subaddresses_desc"  => "Schakelt het gebruik van sub-adressen in voor alle afdelingen. Dit creeert een uniek sub-adress voor elk ticket welke als Reply-To adress wordt gebruikt op uitgaande email. De gebruikte mailserver moet natuurlijk wel het gebruik van sub-adressen ondersteunen. Er kunnen extra stappen nodig zijn wanneer u gebruik maakt van email piping om ervoor te zorgen dat deze adressen correct worden doorgestuurd. Het inschakelen van deze functie stelt u in staat het ticketnummer uit de onderwerpregel te verwijderen.",
-    "email_replies_disabled"    => "Email Replies uitgeschakeld",
-    "disable_user_email_replies_desc" => "Schakel dit in om antwoorden per email van gebruikers niet te accepteren, en verwijderd ook de reply clipping regel in uitgaande emails. Standaard worden de antwoorden stilletjes genegeerd, maar u kunt ook een email laten sturen naar de gebruiker dat antwoorden per email niet worden gebruikt middels de 'Email Replies Disabled'-teplate.",
+    "enable_subaddresses_desc"  => "Schakelt het gebruik van sub-adressen in voor alle afdelingen. Dit creeert een uniek sub-adress voor elk ticket welke als Reply-To adress wordt gebruikt op uitgaande e-mail. De gebruikte mailserver moet natuurlijk wel het gebruik van sub-adressen ondersteunen. Er kunnen extra stappen nodig zijn wanneer u gebruik maakt van email piping om ervoor te zorgen dat deze adressen correct worden doorgestuurd. Het inschakelen van deze functie stelt u in staat het ticketnummer uit de onderwerpregel te verwijderen.",
+    "email_replies_disabled"    => "E-mail Reacties uitgeschakeld",
+    "disable_user_email_replies_desc" => "Schakel dit in om antwoorden per e-mail van gebruikers niet te accepteren, en verwijderd ook de reply clipping regel in uitgaande e-mails. Standaard worden de antwoorden stilletjes genegeerd, maar u kunt ook een e-mail laten sturen naar de gebruiker dat antwoorden per email niet worden gebruikt middels de 'Email Replies Disabled'-teplate.",
     "bcc"                       => "BCC",
     "assigned_to_ticket"        => "Toegewezen aan ticket",
     "user_ticket_reply"         => "Antwoord op ticket van gebruiker",
@@ -400,14 +397,14 @@ return array(
     "department_changed"        => "Afdeling veranderd",
     "operator_ticket_reply"     => "Antwoord op operator ticket",
     "new_ticket_note"           => "Nieuwe notitie voor ticket",
-    "email_template_desc"       => "U kunt een emailtemplate selecteren welke gebruikt zal worden ipv de standaard om verzonden te worden naar de gebruiker of operators voor elke van de onderstaande acties. Deze template zal alleen voor deze afdeling standaard worden.",
+    "email_template_desc"       => "U kunt een e-mailtemplate selecteren welke gebruikt zal worden ipv de standaard om verzonden te worden naar de gebruiker of operators voor elke van de onderstaande acties. Deze template zal alleen voor deze afdeling standaard worden.",
     "create_new_user"           => "Maak nieuwe gebruiker",
     "user_reply_internal_ticket" => "Geen operator. Alleen operators kunnen een intern ticket beantwoorden.",
-    "enter_email_address"       => "Vul het emailadress in...",
-    "email_user_frontend"       => "Email gebruikers bij tickets die worden geopend op de frontend",
-    "email_user_frontend_desc"  => "Selecteer of gebruikers een email moeten krijgen wanneer ze op de frontend een ticket aanmaken.",
-    "department_template_disabled" => "De afdelingstemplate in kwestie is uitgeschakeld, deze email kan niet worden verstuurd.",
-    "verbose_email_log_desc"    => "Indien emailcollectie wordt gelogd is het aanbevolen dit alleen te gebruiken indien support dit nodig heeft voor debugging. Vijf dagen aan logs worden bewaard, oudere logs worden automatisch verwijderd.",
+    "enter_email_address"       => "Vul het e-mailadress in...",
+    "email_user_frontend"       => "E-mail gebruikers bij tickets die worden geopend op de frontend",
+    "email_user_frontend_desc"  => "Selecteer of gebruikers een e-mail moeten krijgen wanneer ze op de frontend een ticket aanmaken.",
+    "department_template_disabled" => "De afdelingstemplate in kwestie is uitgeschakeld, deze e-mail kan niet worden verstuurd.",
+    "verbose_email_log_desc"    => "Indien e-mailcollectie wordt gelogd is het aanbevolen dit alleen te gebruiken indien support dit nodig heeft voor debugging. Vijf dagen aan logs worden bewaard, oudere logs worden automatisch verwijderd.",
 
     /*
      * 2.2.0
@@ -430,9 +427,9 @@ return array(
     "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op uw klanttevredenheidsscore) ",
     "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
     "delete_message"            => "Verwijder bericht",
-    "linked_tickets"            => "Linked Tickets",
-    "add_linked_ticket"         => "Linked Ticket Toevoegen",
-    "create_linked_ticket"      => "Linked ticket Aanmaken",
+    "linked_tickets"            => "Gekoppelde Tickets",
+    "add_linked_ticket"         => "Gekoppelde ticket toevoegen",
+    "create_linked_ticket"      => "gekoppelde ticket aanmaken",
     "copy_link"                 => "Kopieer link",
     "forward_message"           => "Bericht doorsturen",
     "forward_from_here"         => "Bericht doorsturen vanaf hier",
@@ -535,5 +532,19 @@ return array(
     "unresolved"                => "Niet opgelost",
     "resolved"                  => "Opgelost",
     "manage_oauth_options"      => "Om OAuth-opties toe te voegen of te beheren, gaat u naar de <a href=\":route\">Integraties van derden</a> pagina.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We hebben uw feedback opgeslagen.",
+    "how_was_the_help"          => "Hoe was de hulp die u heeft gekregen? ",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Controleer de authenticiteit van de gebruiker.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets die worden geopend via de frontend-interface voor gebruikers of het bedieningspaneel voor operators.",
+    "email_channel_name"        => "E-mail",
+    "email_channel_desc"        => "Tickets geopend na het verwerken van inkomende e-mail.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets en antwoorden gepost via de API.",
 
 );

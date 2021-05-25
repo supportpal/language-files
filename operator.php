@@ -2,8 +2,6 @@
 
 return array(
 
-    "templates"                 => "Templates",
-
     // Merge fields
     "merge_fields"              => "Velden samenvoegen",
     "strings"                   => "Strings",
@@ -14,7 +12,7 @@ return array(
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Meest gebruikte email en response velden staan onderop. Voor meer informatie hoe de samenvoegvelden te gebruiken kijk in de <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentatie</a>.",
+    "merge_fields_desc"         => "Meest gebruikte e-mail en response velden staan onderop. Voor meer informatie hoe de samenvoegvelden te gebruiken kijk in de <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentatie</a>.",
 
     /*
      * 2.4.0

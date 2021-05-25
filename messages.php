@@ -67,18 +67,16 @@ return array(
 
     "invalid_captcha"       => "De ingevulde captcha code is niet correct. Probeer het nog eens.",
     "blocked_as_spam"       => "Uw aanvraag is gemarkeerd als spam. Indien dit niet correct is neem contact op met een beheerder..",
-    "account_exists"        => "Een actief account bestaat al met dit emailadres. Login of gebruik de wachtwoord vergeten optie.",
+    "account_exists"        => "Een actief account bestaat al met dit e-mailadres. Login of gebruik de wachtwoord vergeten optie.",
     "error_loading_comments" => "Er was een probleem met het laden van de reacties.",
 
     "invalid_auth"          => "Ongeldige inloggegevens.",
 
     "forbidden"             => "Niet toegestaan",
 
-    "uncaught_exception"    => "<strong>Oeps! Er ging iets fout.</strong><br />De foutmelding is gelogd. Wanneer het probleem aanhoudt waarschuw een beheerder.",
-
     "not_logged_exception"  => "<strong>Oeps! Er ging iets fout.</strong><br />. Wanneer het probleem aanhoudt waarschuw een beheerder.",
 
-    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van emailadres :email. De limiet is :max in :decay minuten.",
+    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van e-mailadres :email. De limiet is :max in :decay minuten.",
 
     "not_operator"          => "Er ging iets fout. De geselecteerde operator is niet geldig. Kijk of deze bij de verwachte operatorgroep hoort.",
 
@@ -87,14 +85,14 @@ return array(
 
     "missing_extension"     => "Missende extensie",
     "php_ldap_missing"      => "De php-ldap extensie is nodig om LDAP autenticatie te gebruiken. Zet deze aan en ververs de pagina.",
-    "php_imap_missing"      => "De php-imap extensie is nodig om email te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
+    "php_imap_missing"      => "De php-imap extensie is nodig om e-mail te downloaden. Indien u dit wilt gebruiken zet de extensie aan en ververs de pagina.",
 
     /*
      * 2.0.3
      */
     "only_ssl_connections"  => "Alleen SSL verbindingen zijn toegestaan..",
-    "queued_emails"         => "Succes - De emails worden in de wachtrij geplaatst en zullen spoeding worden verzonden.",
-    "error_loading_message" => "Er trad een fout op tijdens het laden van het bericht. Probeer het opnieuw.",
+    "queued_emails"         => "Succes - De e-mails zijn in de wachtrij geplaatst en zullen spoeding worden verzonden.",
+    "error_loading_message" => "Er is een fout opgetreden bij het laden van het berict. Probeer het opnieuw.",
     "please_refresh"        => "Ververs de pagina.",
 
     /*

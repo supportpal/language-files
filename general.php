@@ -50,10 +50,10 @@ return array(
     "frontend"                  => "Frontend",
     "message"                   => "Bericht|Berichten",
     "post"                      => "Post|Posts",
-    "email"                     => "Email",
+    "email"                     => "E-mail",
     "account"                   => "Account|Accounts",
     "address"                   => "Adres",
-    "email_address"             => "Emailadres",
+    "email_address"             => "E-mailadres",
     "type"                      => "Type",
     "option"                    => "Optie",
     "remove"                    => "Verwijder",
@@ -87,7 +87,7 @@ return array(
     "unchanged"                 => "Niet aangepast",
     "ascending"                 => "Oplopend",
     "descending"                => "Aflopend",
-    "number"                    => "Aantal",
+    "number"                    => "Nummer",
     "order_by"                  => "Sorteer op",
     "active"                    => "Actief",
     "validate_auth"             => "Valideer Autenticatie",
@@ -96,15 +96,15 @@ return array(
     "maintenance"               => "Onderhoud",
     "status"                    => "Status|Statussen",
     "count"                     => "Aantal",
-    "view"                      => "View|Views",
+    "view"                      => "Bekijk|Bekjken",
     "share_via"                 => "Deel via",
-    "print"                     => "Print",
+    "print"                     => "Printen",
     "reply"                     => "Beantwoord",
     "filter_results"            => "Filterresultaten",
     "anyone"                    => "Wie dan ook",
     "text"                      => "Tekst",
-    "attachment"                => "Attachment|Attachments",
-    "add_attachment"            => "Attachment toevoegen",
+    "attachment"                => "Bijlage|Bijlages",
+    "add_attachment"            => "Bijlage toevoegen",
     "select_value"              => "Selecteer waarde",
     "type_to_filter"            => "Type om te filteren",
     "enter_exact_ip"            => "Vul het exacte IPadres in",
@@ -270,7 +270,7 @@ return array(
     "check_all"                 => "Selecteer Alles",
     "uncheck_all"               => "Deselecteer Alles",
     "after_and_including"       => "Na (en inclusief)",
-    "add_link"                  => "Koppeling toevoegen",
+    "add_link"                  => "Toevoegen",
     "unlink"                    => "Ontkoppelen",
     "link"                      => "Koppelen",
 
@@ -360,13 +360,19 @@ return array(
     "click_to_toggle"           => "Klik om te schakelen",
     "am"                        => "AM",
     "pm"                        => "PM",
-    "viewing"                   => "Bekijk",
+    "viewing"                   => "Bekijkt",
 
     /*
      * 3.3.0
      */
-    "oauth_data"                => "OAuth Data",
     "authentication"            => "Authenticatie",
-    "manage_credentials"        => "Beheer inloggegevens",
+    "manage_credentials"        => "Beheer inloggegevens" ,
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Selecteer een datum",
+    "select_values"             => "Selecteer waarden",
+    "file"                      => "Bestand",
 
 );

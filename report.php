@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "Het aantal ticketantworoden dat door de opgegeven operator over een tijdspanne is gegeven.",
     "first_response_time"       => "Eerste Response Tijd",
     "first_response_time_desc"  => "De tijd die het duurde voordat de eerste reactie is gegeven.",
-    "first_reply_time"          => "Eerste antwoord tijd",
     "ticket_count"              => "Aantal tickets",
     "lt_1_hour"                 => "<1 uur",
     "1-3_hour"                  => "1-3 uren",
@@ -57,9 +56,6 @@ return array(
     "2-4_day"                   => "2-4 dagen",
     "4-7_day"                   => "4-7 dagen",
     "7_plus_day"                => "7+ dagen",
-    "user_feedback"             => "Gebruikersfeedback",
-    "user_feedback_desc"        => "De feedback gegeven door gebruikers over tickets gedurende een bepaalde periode.",
-    "total_users_desc"          => "Dit rapport toont heoveel gebruikers er in het systeem aanwezig zijn, gescheiden in bevestigde en onbevestigde gebruikers.",
     "user_by_country"           => "Gebruikers per land",
     "user_by_country_desc"      => "Dit rapport toont het aantal gebruikers per land, maar toont alleen gebruikers die daadwerkelijk een land hebben opgegeven.",
     "user_count"                => "Aantal gebruikers",
@@ -75,6 +71,8 @@ return array(
     "ticket_by_user_desc"       => "Dit rapport toont het aantal tickets dat elke gebruiker heeft geopend gedurende een bepaalde periode, gesorteerd op aantal tickets.",
     "ticket_by_organisation"    => "Tickets per organisatie",
     "ticket_by_organisation_desc" => "Dit rapport toont het aantal tickets per organisatie (gebruikers in de organisatie) gedurende een bepaalde periode, gesorteerd op aantal tickets.",
+    "ticket_by_tag"             => "Tickets by Tag",
+    "ticket_by_tag_desc"        => "The total number of tickets per tag over a given time period, only shows tags which are set on at least one ticket in the time period.",
 
     /*
      * 2.3.1
@@ -107,5 +105,11 @@ return array(
     "responses"                 => "Antwoorden",
     "answered"                  => "Beantwoord",
     "unanswered"                => "Onbeantwoord",
+
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "Eerste reactietijd per operator ",
+    "first_response_by_operator_desc" => "De hoeveelheid tijd die elke operator nodig had om voor het eerst op een ticket te antwoorden, gemiddeld over de periode.",
 
 );
