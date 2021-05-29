@@ -1,0 +1,39 @@
+name: test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  linux_tests:
+    runs-on: ubuntu-latest
+
+    name: PHP 8.0
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          tools: composer:v2
+          coverage: xdebug
+
+      - name: Install dependencies
+        run: composer update --prefer-stable --prefer-dist --no-interaction --no-progress
+
+      - name: Code Quality
+        run: |
+          php vendor/bin/language-tools compare en de
+          php vendor/bin/language-tools compare en es
+          php vendor/bin/language-tools compare en fa
+          php vendor/bin/language-tools compare en fr
+          php vendor/bin/language-tools compare en nl
+          php vendor/bin/language-tools compare en pt_BR
+          php vendor/bin/language-tools compare en ru
+          php vendor/bin/language-tools compare en sv
+          php vendor/bin/language-tools compare en tr
