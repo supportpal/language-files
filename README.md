@@ -1,10 +1,19 @@
-# SupportPal Language Files
+<p align="center">
+    <a href="https://www.supportpal.com" target="_blank"><img src="https://www.supportpal.com/assets/img/logo_blue_small.png" /></a>
+    <br>
+    Language files for the <a href="https://www.supportpal.com">SupportPal</a> help desk system.
+</p>
 
-The language files for the [SupportPal](https://www.supportpal.com) system, found at `/resources/lang` in a SupportPal installation.
+## Available Translations
 
-Contributions are very welcome.
+This repository contains a mix of SupportPal maintained and community maintained translations.
+For more information, please read https://docs.supportpal.com/current/Language+Files#LanguagePacks
 
-SupportPal is a [self-hosted, on-premise help desk software](https://www.supportpal.com).
+## Contributing
+
+We rely on the community to maintain unofficial translations and are incredibly grateful
+for your efforts. For more information on how to contribute, please read
+https://docs.supportpal.com/current/Language+Files#ContributingLanguages
 
 ## Related Repositories
 
