@@ -1,0 +1,36 @@
+name: test
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    name: QA Checks
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          tools: composer:v2
+          coverage: xdebug
+
+      - name: Check out English branch
+        uses: actions/checkout@v2
+        with:
+          repository: supportpal/language-files
+          path: en/
+          ref: master
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Install dependencies
+        run: composer require --dev supportpal/language-tools
+
+      - name: Code Quality
+        run: |
+          php vendor/bin/language-tools compare en .
