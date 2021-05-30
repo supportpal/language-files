@@ -1,9 +1,6 @@
 name: test
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
 
 jobs:
@@ -23,17 +20,17 @@ jobs:
           tools: composer:v2
           coverage: xdebug
 
+      - name: Check out English branch
+        uses: actions/checkout@v2
+        with:
+          repository: supportpal/language-files
+          path: en/
+          ref: master
+          token: ${{ secrets.GH_TOKEN }}
+
       - name: Install dependencies
-        run: composer update --prefer-stable --prefer-dist --no-interaction --no-progress
+        run: composer require --dev supportpal/language-tools
 
       - name: Code Quality
         run: |
-          php vendor/bin/language-tools compare en de
-          php vendor/bin/language-tools compare en es
-          php vendor/bin/language-tools compare en fa
-          php vendor/bin/language-tools compare en fr
-          php vendor/bin/language-tools compare en nl
-          php vendor/bin/language-tools compare en pt_BR
-          php vendor/bin/language-tools compare en ru
-          php vendor/bin/language-tools compare en sv
-          php vendor/bin/language-tools compare en tr
+          php vendor/bin/language-tools compare en .
