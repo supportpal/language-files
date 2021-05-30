@@ -4,10 +4,10 @@ on:
   pull_request:
 
 jobs:
-  linux_tests:
+  test:
     runs-on: ubuntu-latest
 
-    name: PHP 8.0
+    name: QA Checks
 
     steps:
       - name: Checkout code
