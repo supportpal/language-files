@@ -1,0 +1,14 @@
+group:
+  repos: |
+    supportpal/language-files@de
+    supportpal/language-files@es
+    supportpal/language-files@fa
+    supportpal/language-files@fr
+    supportpal/language-files@nl
+    supportpal/language-files@pt_BR
+    supportpal/language-files@ru
+    supportpal/language-files@sv
+    supportpal/language-files@tr
+  files:
+    - source: .github/workflows/test.yml
+      dest: .github/workflows/test.yml
