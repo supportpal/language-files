@@ -6,7 +6,6 @@ return array(
 
     // Core
     "apitoken"          => "Gérer les jetons API",
-    "company"           => "Gérer compagnies",
     "emailtemplate"     => "Gérer gabarits courriel",
     "ipban"             => "Gérer blocages IP",
     "ipwhitelist"       => "Gérer IP Whitelist",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "Gérer réposnes pré-enregistrées",
     "channel"           => "Gérer canaux",
     "department"        => "Gérer départements",
-    "feedback"          => "Gérer feedback",
-    "feedbackform"      => "Gérer formulaires de feedback",
     "filter"            => "Gérer filtres",
     "holiday"           => "Gérer vacances",
     "macro"             => "Gérer macros",
@@ -49,7 +46,6 @@ return array(
     "ticket_view"       => "Voir billets",
     "ticket_add"        => "Ouvrir billets",
     "ticket_edit"       => "Mettre à jour billets",
-    "ticket_delete"     => "Effacer billets",
     "ticketcustomfield" => "Gérer champs sur mesure",
 
     // Self-service
@@ -94,6 +90,25 @@ return array(
      */
     // Core
     "logfiles"          => "Gérer logs",
+
+    /*
+    * 2.4.0
+    */
+    // User
+    "sociallogin"       => "Manage Social Login",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Delete Tickets Permanently",
+    "ticket_trash"      => "Move Tickets to Trash",
+
+    /*
+     * 3.0.0
+     */
+    "selfservicefeedbackform" => "Manage Feedback Forms",
+    "ticketfeedbackform"      => "Manage Feedback Forms",
 
     /*
      * 3.3.0

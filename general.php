@@ -5,7 +5,6 @@ return array(
     "clear"                     => "Effacer",
     "begin"                     => "Débuter",
     "documentation"             => "Documentation",
-    "forums"                    => "Forums de la communauté",
     "good"                      => "Bien",
     "bad"                       => "Mauvais",
     "expire"                    => "Expire",
@@ -19,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Dernière exécution",
     "unknown"                   => "Inconnu",
-    "optional"                  => "optionnel",
-    "received"                  => "Reçu",
-    "unanswered"                => "Non répondu",
-    "in_queue"                  => "En attente",
     "open"                      => "Ouvert",
     "pending"                   => "En attente",
     "continue"                  => "Continuer",
@@ -42,7 +37,6 @@ return array(
     "time"                      => "Heure",
     "id"                        => "ID",
     "log"                       => "Log",
-    "event"                     => "Événement",
     "filter"                    => "Filtrer",
     "ip_address"                => "Adresse IP",
     "ip"                        => "IP",
@@ -65,9 +59,6 @@ return array(
     "remove"                    => "Retirer",
     "required"                  => "Requis",
     "enabled"                   => "Activé",
-    "modified"                  => "Modifié",
-    "change"                    => "Changer",
-    "no_change"                 => "Pas de changement",
     "registered"                => "Enregistré",
     "username"                  => "Nom d'usager",
     "password"                  => "Mot de passe",
@@ -84,7 +75,6 @@ return array(
     "disable"                   => "Désactiver",
     "home"                      => "Accueil",
     "navigation"                => "Navigation",
-    "column"                    => "Colonne|Colonnes",
     "action"                    => "Action|Actions",
     "value"                     => "Valeur",
     "when"                      => "Quand",
@@ -102,10 +92,7 @@ return array(
     "active"                    => "Actif",
     "validate_auth"             => "Valider authentification",
     "end"                       => "Fin",
-    "current"                   => "Courant",
     "loading"                   => "En chargement",
-    "processing"                => "En traitement",
-    "code"                      => "Code",
     "maintenance"               => "Maintenance",
     "status"                    => "Statut|Statuts",
     "count"                     => "Compte",
@@ -115,7 +102,6 @@ return array(
     "reply"                     => "Répondre",
     "filter_results"            => "Filtrer résultats",
     "anyone"                    => "N'importe qui",
-    "everyone"                  => "Tous",
     "text"                      => "Texte",
     "attachment"                => "Fichier joint|Fichiers joints",
     "add_attachment"            => "Ajouter fichier",
@@ -132,7 +118,6 @@ return array(
     "content_sender"            => "Contenu &amp; Envoyeur",
     "permissions"               => "Permissions",
     "no_permissions_found"      => "Aucune permission trouvée",
-    "check_uncheck_all"         => "Sélectionner / Désélectionner tout",
     "first"                     => "Premier",
     "second"                    => "Deuxième",
     "third"                     => "Troisième",
@@ -156,8 +141,6 @@ return array(
     "due"                       => "Dû",
     "overdue"                   => "En retard",
     "hours_before_overdue"      => "Heures avant retard",
-    "add_rule"                  => "Ajouter règle",
-    "new"                       => "Nouveau",
     "transfer"                  => "Transférer",
     "view_all"                  => "Voir tous",
     "manage"                    => "Gérer",
@@ -167,13 +150,10 @@ return array(
     "uninstall"                 => "Désinstaller",
     "version"                   => "Version",
 
-    "and"                       => "et",
     "by"                        => "par",
     "record"                    => "enregistrer",
     "views"                     => "vues",
-    "if_exists"                 => "si existe",
     "of"                        => "de",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "de",
     "to"                        => "à",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -190,7 +170,6 @@ return array(
     "day"                       => "Jour|Jours",
     "month"                     => "Mois|Mois",
     "year"                      => "Année|Années",
-    "ago"                       => "de cela",
 
     "editor"                    => "Éditeur",
 
@@ -198,7 +177,6 @@ return array(
      * 2.0.1
      */
     "download"                  => "Télécharger",
-    "acknowledge"               => "Accepter",
 
     /*
      * 2.0.2
@@ -215,7 +193,6 @@ return array(
     "recently_used"             => "Utilisé récemment",
     "recently_created"          => "Créé récemment",
     "load_more"                 => "Charger autres",
-    "clear_selected"            => "effacer sélection",
     "expand_all"                => "Étendre tous",
     "collapse_all"              => "Refermer tous",
     "show_more"                 => "Afficher plus",
@@ -224,7 +201,6 @@ return array(
     /*
      * 2.1.0
      */
-    "recently_viewed"           => "Questions vues récemment",
     "na"                        => 'N/D',
     "total"                     => "Total",
     "disabled"                  => "Désactivé",
@@ -239,7 +215,6 @@ return array(
     "end_date"                  => "Date fin",
     "submitted_by"              => "Soumis par",
     "every_minutes"             => "Chaque :minutes",
-    "at_time"                   => "à :time",
 
     /*
      * 2.1.1

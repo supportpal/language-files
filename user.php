@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Compte inactif",
     "account_active_desc"           => "Activer pour autoriser/empêcher l'accès aux sections qui nécessitent une authentification.",
 
-    "operator_settings"             => "Paramètres opérateurs",
     "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des questions.",
 
     "organisation"                  => "Organisation|Organisations",
@@ -20,7 +19,6 @@ return array(
     "manage_organisation"           => "Gérer organisation",
     "leave_organisation"            => "Quitter organisation",
     "user_membership"               => "Membership de l'usager",
-    "organisation_no_longer"        => "Cet Client ne sera plus une partie de ce Projet.",
     "transfer_ownership"            => "Transférer propriété",
     "transfer_ownership_desc"       => "Comme le propriétaire actuel du Projet, vous ne pouvez pas être supprimé en tant que gestionnaire et vous seul pouvez supprimer le Projet. Vous pouvez transférer la propriété du Projet à quelqu'un d'autre, sachez que cette action ne peut pas être inversée.",
     "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer le Projet et ne peut pas être retiré de celui-ci. Utilisez cette option pour modifier la propriété à un autre Client dans le Projet.",
@@ -29,7 +27,6 @@ return array(
     "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux tickets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des tickets, mais ne peut pas lire ou répondre à des tickets d'autres.",
     "organisation_operator_desc"    => "Ajouter les utilisateurs existants à cette organisation en cliquant sur - Ajouter clients - et la recherche de leur nom, noter que l'ajout d'un Clients supprime tous les liens qu'ils ont avec une autre Projet.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres Clients et répondre aux tickets d'un autre Clients <br /><strong>Clients</strong> - Puis tickets seulement ouverts au nom du Projet et de réponse à posséder des tickets",
-    "send_confirmation_email"       => "Envoyer courriel de confirmation à l'usager",
     "send_password_reset"           => "Envoyer lien de réinitialisation du mot de passe",
 
     "profile"                       => "Profil",
@@ -41,31 +38,16 @@ return array(
 
     "user_register_disabled"        => "Nous sommes désolés, l'enregistrement public des usagers est désactivé.",
     "success_register"              => "Compte enregistré avec succès !",
-    "success_register_desc"         => "Merci de vous êtes enregistré. Vous devrez confirmer votre adresse courriel avant de vous connecter. Nous vous enverrons sous peu un courriel avec un lien de confirmation.",
     "register_now"                  => "M'enregistrer",
     "register"                      => "M'enregistrer",
     "register_account"              => "Enregistrer compte",
-    "register_confirm"              => "Confirmation d'enregistrement",
-    "register_confirm_desc"         => "Merci d'avoir validé votre courriel, veuillez entrer un mot de passe ci-dessous pour finaliser l'enregistrement.",
-    "confirmation_success"          => "Confirmation complétée !",
-    "confirmation_unsuccessful"     => "Échec de la confirmation.",
-    "thank_you_confirm"             => "Merci d'avoir confirmé votre compte. Veuillez poursuivre sur <a href=':route'>login</a>.",
     "signed_up"                     => "Enregistré",
     "last_active"                   => "Dernière activité",
 
-    "reset_request"                 => "Demande de réinitialisation du mot de passe reçue",
-    "reset_request_desc"            => "Nous vous enverrons sous peu un courriel contenant un lien de validation qui vous permettra ensuite de réinitialiser votre mot de passe.",
     "forgot_password"               => "Mot de passe oublié ?",
-    "password_reset"                => "Mot de passe réinitialisé",
-    "password_reset_confirm"        => "Confirmation de réinitialisation",
     "reset_password"                => "Réinitialiser mot de passe",
-    "password_reset_complete"       => "Réinitialisation complétée",
     "set_password"                  => "Définir un mot de passe",
-    "only_enter_to_change"          => "Entrez pour modifier",
-    "success_pass_reset"            => "Votre mot de passe a été réinitialisé. Veuillez poursuivre sur <a href=':route'>login</a>.",
     "please_set_password"           => "Veuillez entrer votre nouveau mot de passe ci-dessous.",
-    "emailed_pwd_reset_link"        => "Nous vous avons envoyé un lien pour réinitialiser votre mot de passe.",
-    "operator_email_not_found"      => "Courriel de l'opérateur introuvable.",
     "missing_email_or_reset"        => "Courriel ou jeton de réinitialisation manquants.",
 
     "firstname"                     => "Prénom",
@@ -73,11 +55,9 @@ return array(
     "formatted_name"                => "Formatted Name",
     "country"                       => "Pays",
     "avatar"                        => "Avatar",
-    "generate_password"             => "Générer mot de passe automatiquement",
     "confirm_password"              => "Confirmer mot de passe",
 
     "confirmed"                     => "Confirmé",
-    "confirmed_desc"                => "Toggle to enable and disable access to authenticated sections.",
     "unconfirmed"                   => "Non confirmé",
 
     "group"                         => "Groupe d'usager|Groupes d'usagers",
@@ -107,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN ou DN",
     "ldap_rdn_desc"                 => "Le nom unique pour le nom d'Client LDAP, par exemple: cn=Sample Client,ou=personnes,dc=example,dc=com",
     "ldap_details"                  => "LDAP Détails",
-    "ldap_extension_missing"        => "L'extension php-ldap est pas chargé. Les Clients ne pourront pas se connecter via LDAP.",
 
     "operator_details"              => "Détails opérateur",
 
@@ -161,21 +140,13 @@ return array(
     "display_notifications_desc"    => "Le système interroge pour les nouveaux tickets, les réponses et les autres Collaborateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur notifications, ou le désactiver complètement.",
     "desktop_notifications"         => "Desktop Notifications",
     "browser_notifications"         => "Navigateur Notifications",
-    "operator_template"             => "Modèle de Collaborateur",
 
     "search_for_user"               => "Rechercher usager...",
     "select_operator"               => "Sélectionner un opérateur...",
     "select_group"                  => "Sélectionner un groupe...",
 
     "your_ip_has_been_banned"       => "Votre adresse IP a été bannie.",
-    "password_reset_error"          => "Compte d'Client ou de jeton de réinitialisation introuvable, s'il vous plaît vérifier les détails sont corrects ou essayer de réinitialiser à nouveau.",
-    "password_reset_not_found"      => "Client introuvable ou mot de passe ne peut pas être remis à zéro.",
-    "password_reset_expired"        => "Jéton (Token) a expiré, s'il vous plaît essayer de réinitialiser à nouveau.",
-    "password_reset_invalid"        => "Jéton (Token) non valide, s'il vous plaît vérifier les détails sont corrects ou essayer de réinitialiser à nouveau.",
     "password_reset_success"        => "Mot de passe réinitialisé avec succès!",
-    "password_reset_already"        => "Vous avez déjà confirmé votre compte, vous pouvez continuer à vous connecter.",
-    "password_not_valid"            => "Les mots de passe non valides ou non la même chose.",
-    "invalid_reset_request"         => "Invalid demande de réinitialisation de mot.",
 
     "simpleauth_token_expired"      => "Le jeton d'accès a expiré.",
     "simpleauth_token_invalid"      => "Le jeton d'accès fourni est invalide.",
@@ -257,14 +228,11 @@ return array(
     "current_password"              => "Mot de passe actuel",
     "new_password"                  => "Nouveau mot de passe",
     "personal_confirm_password"     => "Veuillez confirmer votre mot de passe actuel.",
-    "operator_confirm_password"     => "Veuillez confirmer votre mot de passe opérateur.",
-    "login_via_idp"                 => "Connexion via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Search for user/operator...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0

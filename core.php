@@ -4,16 +4,11 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "Conseils juridiques assurances et produits d'investissements",
     "operator_panel"            => "Panneau de contrôle de l'opérateur",
-    "helpdesk_software"         => "Application de support par",
-    "carefully_crafted"         => "Créé avec soin par",
     "welcome"                   => "Bienvenue à l'Accès Client Le Droit Chemin",
     "welcome_desc"              => "Cliquez pour démarrer un tour guidé des fonctionnalités du système.",
 
     // Dashboard
-    "welcome_back"              => "Bienvenue",
-    "search_placeholder"        => "Recherche...",
     "submit_ticket"             => "Poser une question",
     "submit_ticket_desc"        => "Utilisez ce formulaire pour soumettre une question.",
     "track_ticket"              => "Faire le suivi d'une question",
@@ -58,10 +53,6 @@ return array(
     // Spam Rules & Filtering
     "spam_rule"                 => "Règle anti-spam|Règles anti-spam",
     "containing_text"           => "Contient texte",
-    "containing_text_desc"      => "Please enter a string (particular word to ban or e-mail address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
-    "ip_filtering"              => "Filtrage par IP",
-    "content_filtering"         => "Filtrage par contenu",
-    "filter_description"        => "Please select an appropriate content filter",
     "filter_new_message"        => "Nouvelle question (d'un usager)",
     "filter_new_comment"        => "Nouveau commentaire libre-service (d'un usager)",
     "filter_user_login"         => "Login usager",
@@ -127,7 +118,6 @@ return array(
     "plugins"                   => "Plugin|Plugins",
     "installed_plugins"         => "Plugins installés",
     "visit_plugin"              => "Accéder sites du plugin",
-    "uninstall_plugin_warning"  => "Désinstaller le plugin va supprimer tous les fichiers et les données associées. Nous vous recommandons de désactiver le plug-in à la place.",
 
     // Messages
     "last_activity"             => "Dernière activité",
@@ -164,7 +154,6 @@ return array(
     // Widgets
     "dashboard"                 => "Panneau de contrôle",
     "add_remove_widget"         => "Ajouter / Retirer Widgets",
-    "todo_record"               => "to do record",
     "enable_tour"               => "Activer le tour guidé",
 
     // Product Tour
@@ -191,7 +180,6 @@ return array(
     "organisation_desc"         => "Les utilisateurs peuvent être affectés à des organisations leur permettant l'accès aux tickets ouverts par d'autres utilisateurs au sein de leur organisation.",
     "operator_desc"             => "D'autres membres du personnel peuvent être ajoutés en tant qu'opérateurs ici.",
     "ticket_desc"               => "Le tableau de tickets contient tous les tickets pertinents pour vous.",
-    "ticket_desc2"              => "Le tableau de tickets peut être configuré, filtré et ajusté à vos préférences.",
     "ticket_toolbar"            => "Barre d'outils",
     "ticket_desc3"              => "Actions en vrac peuvent être effectuées sur des tickets en utilisant la barre d'outils de tickets.",
     "tour_complete"             => "Tour de visite complète!",
@@ -209,16 +197,11 @@ return array(
     "no_enabled_languages"      => "Échec de mise à jour le :item. Au moins une langue doit être activé à tout moment.",
 
     // General Settings
-    "website"                   => "Site web",
     "locale"                    => "Langue",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Dossier Admin",
     "admin_folder_desc"         => "Définissez le nom du dossier à visiter pour le panneau de commande. Il est recommandé de changer la valeur par défaut \admin\ d'un point de vue de la sécurité. ",
     "enable_ssl"                => "Activer SSL",
-    "force_ssl"                 => "Forcer SSL pour les opérateurs ",
-    "force_ssl_desc"            => "Forcer tous les opérateurs d'utiliser la version sécurisée de votre site Web pour le panneau de commande. ",
-    "frontend_template"         => "Frontend Modèle ",
-    "operator_template"         => "Modèle de l'opérateur ",
     "maintenance_mode"          => "Mode de Maintenance",
     "maintenance_mode_desc"     => "Désactive la fonctionnalité du help desk publique et montre un message de maintenance. Modifier les ressources / templates / frontend / [modèle] /core/maintenance.twig changer le message qui est affiché aux utilisateurs.",
     "default_user_country"      => "Pays par défaut du client",
@@ -232,16 +215,12 @@ return array(
     "simpleauth_key"            => "SimpleAuth Key",
     "simpleauth_key_desc"       => "La clé pour notre authentification (single sign on option), minimum de 16 caractères.",
     "simpleauth_operators"      => "Autoriser pour les opérateurs",
-    "frontend_logo"             => "Frontend Logo",
     "base_url"                  => "Système URL",
     "base_url_desc"             => "Entrez l'adresse Web complète de votre installation, utilisé pour générer les URL qui sont envoyés aux utilisateurs.",
     "debug"                     => "Déboguer",
     "debug_mode"                => "Mode débogage",
-    "debug_mode_desc"           => "Activer le mode de débogage pour afficher les erreurs, utilisez uniquement pour le débogage ou si les instructions de support. Les erreurs sont autrement stockées dans les journaux à / stockage / logs.",
     "pretty_urls"               => "Pretty URLs",
     "pretty_urls_desc"          => "Activation va supprimer index.php des URL. Activez seulement si vous êtes en mesure d'accéder au panneau de commande sans index.php. Désactivez si vous n'avez pas mod_rewrite installé, les fichiers .htaccess ne sont pas autorisés ou ne sont pas converties aux Apache .htaccess règles de réécriture pour travailler avec votre serveur web alternative.",
-    "send_diagnostic"           => "Envoyer des données de diagnostic",
-    "send_diagnostic_desc"      => "Pour aider SupportPal améliorer ses produits, votre installation peut envoyer des données de diagnostic quand quelque chose va mal.",
 
     /*
      * 2.0.2
@@ -288,19 +267,16 @@ return array(
     "purchase_more"             => "Acheter autre",
     "brand_limit_allowed"       => "Your license is currently permitted to use :allowed brand simultaneously.|Your license is currently permitted to use :allowed brands simultaneously.",
     "brand_limit_purchase"      => "If this is incorrect, please <strong>reissue</strong> your license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> and visit the <a href=':route'>License Information</a> page to synchronise your help desk with our license server.<br />To purchase additional brands, please <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
-    "support_no_expiry"         => "Your support and updates are valid.",
     "support_expiry"            => "Your support and updates subscription is valid until :date.",
     "support_status_desc"       => "Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> in order to get the latest support and updates from SupportPal.",
     "ip_ban"                    => "Blocage IP|Blocages IP",
     "ip_whitelist"              => "Liste blanche d'IP",
     "whitelisted_ip"            => "IP autorisés",
-    "frontend_logo_desc"        => "Change the default logo on the frontend interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
     "license_path"              => "Chemin d'installation",
     "php_info"                  => "Information PHP",
     "log"                       => "Log|Logs",
     "invalid_department_brand"  => "Département non assigné à une marque.",
     "incoming_rejected"         => "Entrant(Rejeté)",
-    "twig_operator_signature"   => "The {{ operator.signature }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.1.1
@@ -326,9 +302,7 @@ return array(
     "attachment_size"           => "Cumulative Attachment Size Limit",
     "attachment_size_desc"      => "The maximum cumulative size of all attachments that are sent in a single email. Available options are K (for Kilobytes) and M (for Megabytes), anything else assumes bytes. Example value: 5M for 5 Megabytes. Set to 0 to not send any attachments by email and require users to download attachments via the help desk.",
     "attachment_limit_reached"  => "Cumulative file limit reached (:size). Please consider sending files via another medium (such as a download URL).",
-    "upload_unknown_error"      => "The file \":file\" was not uploaded due to a server-side error.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
-    "translations"              => "Translations",
     "no_existing_translations"  => "No existing translations.",
     "add_translation"           => "Add Translation",
     "todo_list"                 => "To Do List",

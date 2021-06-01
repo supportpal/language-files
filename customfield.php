@@ -16,12 +16,9 @@ return array(
     "text"                      => "Texte",
     "textarea"                  => "Zone texte",
 
-    "required_desc"             => "Si le champ sur mesure doit être rempli.",
     "public"                    => "Public",
     "public_desc"               => "Si le champ sur mesure est visible au public ou si c'est seulement pour le staff.",
     "encrypted"                 => "Encrypté",
-    "encrypted_desc"            => "Si l'info du champ sur mesure doit être encryptée.",
-    "purge"                     => "Effacer sur fermeture",
     "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
     "locked"                    => "Bloqué",
     "locked_desc"               => "If the custom field value cannot be changed by the user once set.",

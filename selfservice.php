@@ -3,9 +3,7 @@
 return array(
 
     "popular_items"             => "Items populaires",
-    "type_popular_items"        => ":type: populaire",
     "latest_items"              => "Derniers items",
-    "type_latest_items"         => ":type:",
 
     "selfservice"               => "Libre-service",
     "article"                   => "Article|Articles",
@@ -22,9 +20,6 @@ return array(
     "awaiting_moderation"       => "En attente de modération",
     "published"                 => "Publié",
     "spam"                      => "Pourriel",
-
-    "show_text"                 => "Afficher texte",
-    "hide_text"                 => "Cache texte",
 
     "hierarchical"              => "Hiérarchique",
     "list"                      => "Liste",
@@ -48,7 +43,6 @@ return array(
     "login_comment"             => "Vous devez être connecté pour soumettre un commentaire.",
     "incorrect_captcha"         => "Le captcha est incorrect.",
     "comment_blocked"           => "Le commentaire a été détecté comme spam et bloqué.",
-    "comment_error"             => "Impossible de poster votre commentaire.",
     "comment_success"           => "Votre commentaire a été soumis !",
     "comment_success_moderated" => "Votre commentaire a été soumis pour modération à un membre de notre équipe.",
 
@@ -56,7 +50,6 @@ return array(
     "comment_rated_error"       => "Le commentaire n'a pas pu être évalué",
 
     "article_find_useful"       => "Avez-vous trouvé cet article utile ?",
-    "article_found_useful"      => "personnes ont trouvé cet article utile.",
     "article_rated_success"     => "L'article a été évalué avec succès.",
     "article_rated_error"       => "L'article n'a pas pu être évalué.",
 
@@ -96,14 +89,10 @@ return array(
     "enable_ratings_desc"       => "Autoriser les utilisateurs à donner des notes aux articles.",
     "post_rating"               => "Évaluer articles",
     "post_rating_desc"          => "Si les articles peuvent être notés par quelqu'un ou utilisateurs enregistrés seulement.",
-    "show_rating"               => "Afficher évaluations",
-    "show_rating_desc"          => "Voir l'article notes à tout le monde (public) ou aux utilisateurs enregistrés.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "S'il vous plaît vous connecter ou vous inscrire pour afficher l'article.",
-    "download_auth_required"    => "S'il vous plaît vous connecter ou vous inscrire pour télécharger l'article attachement.",
     "auth_required"             => "S'il vous plaît vous connecter ou vous inscrire pour afficher l'article.",
 
     /*
