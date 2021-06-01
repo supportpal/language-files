@@ -30,7 +30,6 @@ return array(
     "send_password_reset"           => "Enviar enlace para restablecer la contraseña",
 
     "profile"                       => "Perfil",
-    "phone"                         => "Número de teléfono",
 
     "login"                         => "Iniciar sesión",
     "remember_me"                   => "Recordarme",
@@ -315,7 +314,6 @@ return array(
     /*
      * 3.3.0
      */
-    "remove_avatar"                 => "Eliminar avatar",
     "social_login_desc"             => "Permitir que los usuarios se registren e inicien sesión con sus cuentas de redes sociales.",
     "manage_social_login_options"   => "Para añadir o gestionar opciones de inicio de sesión, por favor visita la página de <a href=\":route\">Integraciones de terceros</a>.",
 
@@ -324,5 +322,10 @@ return array(
      */
     "two_fa_verify_desc"            => "Descarga e instala una de las siguientes aplicaciones y escanea el código QR o introduce la clave secreta. Esto servirá para configurar tu cuenta en tu dispositivo. Una vez hecho, podrás ver la cuenta y se generará un código de 6 dígitos que debes introducir para verificar y completar la configuración. Por favor, asegúrate de hacer clic en verificar antes de que expire el código. La hora de tu servidor necesitará estar sincronizada con un servidor NTP para funcionar correctamente.",
     "two_fa_successfully_enabled"   => "Se ha habilitado la autenticación de dos factores (2FA) con éxito.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );

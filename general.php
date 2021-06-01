@@ -375,4 +375,14 @@ return array(
     "select_values"             => "Seleccionar valores",
     "file"                      => "Archivo",
 
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
+
 );
