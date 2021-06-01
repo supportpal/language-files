@@ -154,7 +154,7 @@ return array(
     "record"                    => "запись",
     "views"                     => "просмотры",
     "of"                        => "из",            // Used in group e.g. Last Thursday of November
-    "to"                        => "в",             // Used in a range e.g. 2 to 5
+    "to"                        => "в",            // Used in a range e.g. 2 to 5
 
     // Languages
     "language"                  => "Язык | Языки",
@@ -374,5 +374,15 @@ return array(
     "select_a_date"             => "Select a date",
     "select_values"             => "Select values",
     "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );

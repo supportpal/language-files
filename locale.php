@@ -392,6 +392,6 @@ return array(
         "Pacific/Fiji"                      => "(GMT+12:00) Фиджи",
         "Asia/Kamchatka"                    => "(GMT+12:00) Камчатка",
         "Pacific/Auckland"                  => "(GMT+12:00) Окленд",
-        "Pacific/Tongatapu"                 => "(GMT+13:00) Нукуалофа",
+        "Pacific/Tongatapu"                 => "(GMT+13:00) Нукуалофа"
     ),
 );
