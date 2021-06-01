@@ -101,5 +101,5 @@ return array(
     /*
      * 3.5.0
      */
-    "user_phone_number"                 => "User phone number",
+    "user_phone_number"                 => "Número de teléfono del usuario",
 );

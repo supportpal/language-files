@@ -326,6 +326,6 @@ return array(
     /*
      * 3.5.0
      */
-    "phone_number"                  => "Phone Number|Phone Numbers",
+    "phone_number"                  => "Número de teléfono|Números de teléfono",
 
 );

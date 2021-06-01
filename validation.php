@@ -113,7 +113,7 @@ return array(
     "after_or_equal"            => "El campo de :attribute debe ser una fecha posterior o igual a :date.",
     "before_or_equal"           => "El campo de :attribute debe ser una fecha anterior o igual a :date.",
     "dimensions"                => "El campo de :attribute tiene dimensiones de imagen inválidas.",
-    "distinct"                  => 'El campo de :attribute tiene un valor duplicado.',
+    "distinct"                  => "El campo de :attribute tiene un valor duplicado.",
     "file"                      => "El campo de :attribute debe ser un archivo.",
     "filled"                    => "El campo de :attribute debe tener un valor.",
     "gt"                        => array(
@@ -176,7 +176,7 @@ return array(
     /*
      * 3.5.0
      */
-    'phone'                     => "The supplied phone number is invalid.",
+    'phone'                     => "El número de teléfono proporcionado no es válido.",
 
     /*
     |--------------------------------------------------------------------------
@@ -197,7 +197,7 @@ return array(
             "required" => "Se deben seleccionar uno o más tipos de auto-servicio.",
         ),
         "category.*.categories" => array(
-            'required' => "Se requieren una o más categorías cuando se ha seleccionado un tipo de auto-servicio.",
+            "required" => "Se requieren una o más categorías cuando se ha seleccionado un tipo de auto-servicio.",
             "exists"   => "Una o más de las categorías seleccionadas son inválidas.",
         ),
         "brand.*" => array(

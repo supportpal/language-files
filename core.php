@@ -71,7 +71,7 @@ return array(
     "include_operator_name"     => "Incluir nombre del operador",
     "include_operator_name_desc" => "Incluir el nombre de los operadores en el campo 'De' del correo para correos de respuesta al ticket. Por ejemplo: De: Joe Bloggs (Nombre de la compañía + nombre del departamento)",
     "include_dept_name"         => "Incluir nombre del departamento",
-    "include_dept_name_desc"    => "Incluir el nombre del departamento en el campo 'De' de cualquier correo relacionado con el ticket. Ten en cuenta que esto normalmente creará un nuevo hilo de correos si un determinado ticket cambia de departamento." ,
+    "include_dept_name_desc"    => "Incluir el nombre del departamento en el campo 'De' de cualquier correo relacionado con el ticket. Ten en cuenta que esto normalmente creará un nuevo hilo de correos si un determinado ticket cambia de departamento.",
     "global_email_header"       => "Cabecera del correo electrónico",
     "global_email_header_desc"  => "Añadir una cabecera a todos los correos electrónicos enviados por el sistema. Se acepta HTML.",
     "global_email_footer"       => "Pie de página",
@@ -462,7 +462,7 @@ return array(
     "plugin_description"        => "Descripción del Plugin",
     "plugin_already_exists"     => "¡El Plugin ya existe!",
     "plugin_creating"           => "Creando plugin...",
-    "plugin_ready"              => "¡El Plugin ya está listo en :directory! Haz algo increíble.", // :directory is a file path
+    "plugin_ready"              => "¡El Plugin ya está listo en :directory! Haz algo increíble.",
 
     /*
      * 3.3.0

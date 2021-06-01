@@ -201,6 +201,6 @@ return array(
     /*
      * 3.0.0
      */
-    "selfservice_article_neutral"       => "Valorado neutral el artículo :rel.", // :rel is the title of the article (anything)
+    "selfservice_article_neutral"       => "Valorado neutral el artículo :rel.",
 
 );
