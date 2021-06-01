@@ -174,11 +174,6 @@ return array(
     "password"                  => "Het wachtwoord is onjuist.",
 
     /*
-     * 3.4.0
-     */
-    "password"                  => "The password is incorrect.",
-
-    /*
      * 3.5.0
      */
     'phone'                     => "The supplied phone number is invalid.",
@@ -195,19 +190,19 @@ return array(
     */
 
     "custom" => array(
-       "roles.*" => array(
+        "roles.*" => array(
            "exists" => "De geselecteerde rol is ongeldig.",
-       ),
-       "category.*.type" => array(
+        ),
+        "category.*.type" => array(
            "required" => "Er moeten een of meer zelfbedieningstypen worden geselecteerd.",
-       ),
-       "category.*.categories" => array(
+        ),
+        "category.*.categories" => array(
            "required" => "Een of meer categorieën zijn vereist wanneer een zelfbedieningstype is geselecteerd .",
            "exists"   => "Een of meer van de geselecteerde categorieën is ongeldig.",
-       ),
-       "brand.*" => array(
+        ),
+        "brand.*" => array(
            "exists" => "Het geselecteerde merk is ongeldig.",
-       ),
+        ),
     ),
 
     /*

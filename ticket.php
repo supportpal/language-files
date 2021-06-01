@@ -547,18 +547,4 @@ return array(
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets en antwoorden gepost via de API.",
 
-    /*
-     * 3.4.0
-     */
-    "feedback_saved"            => "We've saved your feedback.",
-    "how_was_the_help"          => "How was the help you received?",
-    "update_feedback"           => "Update Feedback",
-    "verify_user"               => "Please verify the authenticity of the user.",
-    "web_channel_name"          => "Web",
-    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
-    "email_channel_name"        => "Email",
-    "email_channel_desc"        => "Tickets opened from processing incoming email.",
-    "api_channel_name"          => "API",
-    "api_channel_desc"          => "Tickets and replies posted through the API.",
-
 );

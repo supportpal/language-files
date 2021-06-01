@@ -201,7 +201,7 @@ return array(
     /*
      * 2.1.0
      */
-    "na"                        => "n.v.t.",
+    "na"                        => 'n.v.t.',
     "total"                     => "Totaal",
     "disabled"                  => "Uitgeschakeld",
     "not_set"                   => "niet ingesteld",
@@ -366,7 +366,7 @@ return array(
      * 3.3.0
      */
     "authentication"            => "Authenticatie",
-    "manage_credentials"        => "Beheer inloggegevens" ,
+    "manage_credentials"        => "Beheer inloggegevens",
 
     /*
      * 3.4.0
