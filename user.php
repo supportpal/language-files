@@ -30,7 +30,6 @@ return array(
     "send_password_reset"           => "Send Password Reset Link",
 
     "profile"                       => "Profile",
-    "phone"                         => "Phone Number",
 
     "login"                         => "Login",
     "remember_me"                   => "Remember me",
@@ -315,7 +314,6 @@ return array(
     /*
      * 3.3.0
      */
-    "remove_avatar"                 => "Remove Avatar",
     "social_login_desc"             => "Allow users to register and log in using their social account.",
     "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
 
@@ -324,5 +322,10 @@ return array(
      */
     "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );
