@@ -92,8 +92,8 @@ return array(
     "logfiles"          => "Gérer logs",
 
     /*
-    * 2.4.0
-    */
+     * 2.4.0
+     */
     // User
     "sociallogin"       => "Manage Social Login",
 
