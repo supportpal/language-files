@@ -10,5 +10,5 @@ group:
     supportpal/language-files@sv
     supportpal/language-files@tr
   files:
-    - source: .github/workflows/test.yml
-      dest: .github/workflows/test.yml
+    - source: .github/workflows/
+      dest: .github/workflows/
