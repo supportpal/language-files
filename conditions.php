@@ -98,4 +98,8 @@ return array(
      */
     "user_has_organisation"             => "User has organisation",
 
+    /*
+     * 3.5.0
+     */
+    "user_phone_number"                 => "User phone number",
 );

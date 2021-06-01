@@ -106,7 +106,6 @@ return array(
     "email_operators_desc"      => "Выберите, следует ли пересылать ответы оператора другим операторам. По умолчанию проверяет параметр \"email operators\" на панели оператора и автоматически отправляет электронную почту для ответов на электронные письма операторов.",
     // Department email templates
     "new_ticket_opened"         => "Новый тикет открыт",
-    "reply_to_locked"           => "Ответить на заблокированный тикет",
     "waiting_for_response"      => "Ожидание ответа",
     "ticket_auto_closed"        => "Тикет закрыт автоматически",
     "closed_by_operator"        => "Закрыт оператором",
@@ -131,10 +130,8 @@ return array(
     "bad_not_satisfied"         => "Плохо, я недоволен",
     "feedback_not_found"        => "Ваш отзыв не может быть принят, пожалуйста, откройте тикет с нами, если вы хотите поделиться своим отзывом.",
     "feedback_malformed_token"  => "Ваш отзыв не может быть принят из-за неправильно сформированного токена. Пожалуйста, откройте тикет с нами, если вы хотите поделиться своим мнением.",
-    "feedback_already_done"     => "Вы уже предоставили свой отзыв на этот тикет, спасибо.",
     "feedback_expired"          => "тикет был открыт на некоторое время, и, к сожалению, он больше не может быть оценен.",
     "feedback_questions"        => "Если бы вы могли уделить немного времени, пожалуйста, ответьте на следующие вопросы, чтобы помочь нам еще больше улучшить поддержку, которую мы предлагаем.",
-    "feedback_thank_you"        => "Благодарим Вас за отзыв об этом тикете.",
     "feedback_for_ticket"       => "Отзыв для тикета #:number",
     "feedback_rating_desc"      => "Поддержка, полученная по этому тикету, была оценена пользователем как <strong> :rating </ strong>.",
 
@@ -522,6 +519,33 @@ return array(
     "im_not_sure"               => "I'm not sure",
     "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
     "cc_desc"                   => "Вы можете добавить других пользователей в тикет введя их адрес электронной почты здесь",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
     /*
      * 3.2.0
