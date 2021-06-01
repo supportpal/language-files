@@ -154,7 +154,7 @@ return array(
     "record"                    => "запись",
     "views"                     => "просмотры",
     "of"                        => "из",            // Used in group e.g. Last Thursday of November
-    "to"                        => "в",             // Used in a range e.g. 2 to 5
+    "to"                        => "в",            // Used in a range e.g. 2 to 5
 
     // Languages
     "language"                  => "Язык | Языки",

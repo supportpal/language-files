@@ -547,31 +547,4 @@ return array(
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets and replies posted through the API.",
 
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> was drafting a message",
-
-    /*
-     * 3.3.0
-     */
-    "email_setup_manually"      => "Set Up Manually",
-    "unresolved"                => "Unresolved",
-    "resolved"                  => "Resolved",
-    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
-
-    /*
-     * 3.4.0
-     */
-    "feedback_saved"            => "We've saved your feedback.",
-    "how_was_the_help"          => "How was the help you received?",
-    "update_feedback"           => "Update Feedback",
-    "verify_user"               => "Please verify the authenticity of the user.",
-    "web_channel_name"          => "Web",
-    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
-    "email_channel_name"        => "Email",
-    "email_channel_desc"        => "Tickets opened from processing incoming email.",
-    "api_channel_name"          => "API",
-    "api_channel_desc"          => "Tickets and replies posted through the API.",
-
 );
