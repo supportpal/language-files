@@ -4,16 +4,11 @@ return array(
 
     // SupportPal
     "product_name"              => "SupportPal",
-    "slogan"                    => "Conseils juridiques assurances et produits d'investissements",
     "operator_panel"            => "Panneau de contrôle de l'opérateur",
-    "helpdesk_software"         => "Application de support par",
-    "carefully_crafted"         => "Créé avec soin par",
     "welcome"                   => "Bienvenue à l'Accès Client Le Droit Chemin",
     "welcome_desc"              => "Cliquez pour démarrer un tour guidé des fonctionnalités du système.",
 
     // Dashboard
-    "welcome_back"              => "Bienvenue",
-    "search_placeholder"        => "Recherche...",
     "submit_ticket"             => "Poser une question",
     "submit_ticket_desc"        => "Utilisez ce formulaire pour soumettre une question.",
     "track_ticket"              => "Faire le suivi d'une question",
@@ -30,8 +25,6 @@ return array(
     "maintenance_active"        => "Le mode de maintenance est actif.",
 
     // About
-    "development_license"       => "Licence de développement !",
-    "development_license_desc"  => "This installation is using a development license which is only valid on RFC1918 addresses. You are not permitted to use this license in production.",
     "license_status"            => "Statut licence",
     "license_code"              => "Code licence",
     "change_license"            => "Changer licence",
@@ -39,11 +32,9 @@ return array(
     "license_owner"             => "Propriétaire licence",
     "license_created"           => "Licence créée",
     "license_type"              => "Type licence",
-    "no_branding"               => "Aucune marque",
     "branding"                  => "Marque",
     "license_expires"           => "Expiration licence",
     "license_valid_ip"          => "Licence valide pour IP(s)",
-    "license_valid_domain"      => "Licence valide pour domaine(s)",
     "support_status"            => "Statut du support",
     "support_expires"           => "Support expire",
     "version_info"              => "Version",
@@ -62,10 +53,6 @@ return array(
     // Spam Rules & Filtering
     "spam_rule"                 => "Règle anti-spam|Règles anti-spam",
     "containing_text"           => "Contient texte",
-    "containing_text_desc"      => "Please enter a string (particular word to ban or e-mail address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
-    "ip_filtering"              => "Filtrage par IP",
-    "content_filtering"         => "Filtrage par contenu",
-    "filter_description"        => "Please select an appropriate content filter",
     "filter_new_message"        => "Nouvelle question (d'un usager)",
     "filter_new_comment"        => "Nouveau commentaire libre-service (d'un usager)",
     "filter_user_login"         => "Login usager",
@@ -77,8 +64,6 @@ return array(
 
     // Company
     "company"                   => "Compagnie|Compagnies",
-    "company_name"              => "Nom de l'entreprise",
-    "your_company"              => "Votre entreprise",
 
     // Email
     "default_email_addr"        => "Adresse courriel par défaut",
@@ -106,7 +91,6 @@ return array(
     "smtp_password"             => "Mot de passe SMTP",
     "ssl"                       => "SSL",
     "tls"                       => "TLS",
-    "validate_smtp"             => "Validate SMTP",
     "email_content"             => "Contenu courriel",
     "email_content_desc"        => "Entrez un sujet par défaut et le contenu des emails pour ce modèle, vous pouvez aussi écrire le modèle dans d'autres langues. Si un modèle ne soit pas dans une autre langue, il utilisera les données par défaut.",
     "outgoing"                  => "Sortant",
@@ -125,7 +109,6 @@ return array(
     "scheduled_task"            => "Tâches prévue|Tâches prévues",
     "interval_desc"             => "Définissez la fréquence d'exécution pour une tâche. p.ex. 5 minutes signifie que la tâche est exécutée toutes les 5 minutes si le cron est actif.",
     "cron_settings"             => "Paramètres CRON",
-    "cron_makesure"             => "S'il vous plaît créer une tâche cron avec l'entrée suivante: ",
     "cron_running"              => "En exécution",
     "cron_not_running"          => "Pas en exécution",
     "task_ran"                  => "Succès d'éxecution de la tâche planifiée manuellement.",
@@ -135,7 +118,6 @@ return array(
     "plugins"                   => "Plugin|Plugins",
     "installed_plugins"         => "Plugins installés",
     "visit_plugin"              => "Accéder sites du plugin",
-    "uninstall_plugin_warning"  => "Désinstaller le plugin va supprimer tous les fichiers et les données associées. Nous vous recommandons de désactiver le plug-in à la place.",
 
     // Messages
     "last_activity"             => "Dernière activité",
@@ -172,7 +154,6 @@ return array(
     // Widgets
     "dashboard"                 => "Panneau de contrôle",
     "add_remove_widget"         => "Ajouter / Retirer Widgets",
-    "todo_record"               => "to do record",
     "enable_tour"               => "Activer le tour guidé",
 
     // Product Tour
@@ -181,7 +162,6 @@ return array(
     "messages_desc"             => "Les messages privés permettent une conversation 1:1 avec d'autres opérateurs.",
     "configure"                 => "Configurer votre Accès Client",
     "configure_desc"            => "Notre plateforme contient plusieurs paramètres qui vous permettent de configurer le système selon vos préférences.",
-    "company_name_desc"         => "Le nom de votre entreprise est utilisé pour toutes les correspondances avec les usagers.",
     "default_email"             => "Adresse de courriel par défaut",
     "default_email_desc"        => "L'adresse courriel par défaut à utiliser pour toute correspondance avec les usagers.",
     "dept_settings_desc"        => "Les départements de votre organisation fonctionnent différemment. Les paramètres départementaux vous permettent d'outre-passer les paramètres globaux.",
@@ -200,7 +180,6 @@ return array(
     "organisation_desc"         => "Les utilisateurs peuvent être affectés à des organisations leur permettant l'accès aux tickets ouverts par d'autres utilisateurs au sein de leur organisation.",
     "operator_desc"             => "D'autres membres du personnel peuvent être ajoutés en tant qu'opérateurs ici.",
     "ticket_desc"               => "Le tableau de tickets contient tous les tickets pertinents pour vous.",
-    "ticket_desc2"              => "Le tableau de tickets peut être configuré, filtré et ajusté à vos préférences.",
     "ticket_toolbar"            => "Barre d'outils",
     "ticket_desc3"              => "Actions en vrac peuvent être effectuées sur des tickets en utilisant la barre d'outils de tickets.",
     "tour_complete"             => "Tour de visite complète!",
@@ -218,16 +197,11 @@ return array(
     "no_enabled_languages"      => "Échec de mise à jour le :item. Au moins une langue doit être activé à tout moment.",
 
     // General Settings
-    "website"                   => "Site web",
     "locale"                    => "Langue",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Dossier Admin",
     "admin_folder_desc"         => "Définissez le nom du dossier à visiter pour le panneau de commande. Il est recommandé de changer la valeur par défaut \admin\ d'un point de vue de la sécurité. ",
     "enable_ssl"                => "Activer SSL",
-    "force_ssl"                 => "Forcer SSL pour les opérateurs ",
-    "force_ssl_desc"            => "Forcer tous les opérateurs d'utiliser la version sécurisée de votre site Web pour le panneau de commande. ",
-    "frontend_template"         => "Frontend Modèle ",
-    "operator_template"         => "Modèle de l'opérateur ",
     "maintenance_mode"          => "Mode de Maintenance",
     "maintenance_mode_desc"     => "Désactive la fonctionnalité du help desk publique et montre un message de maintenance. Modifier les ressources / templates / frontend / [modèle] /core/maintenance.twig changer le message qui est affiché aux utilisateurs.",
     "default_user_country"      => "Pays par défaut du client",
@@ -241,22 +215,12 @@ return array(
     "simpleauth_key"            => "SimpleAuth Key",
     "simpleauth_key_desc"       => "La clé pour notre authentification (single sign on option), minimum de 16 caractères.",
     "simpleauth_operators"      => "Autoriser pour les opérateurs",
-    "frontend_logo"             => "Frontend Logo",
     "base_url"                  => "Système URL",
     "base_url_desc"             => "Entrez l'adresse Web complète de votre installation, utilisé pour générer les URL qui sont envoyés aux utilisateurs.",
     "debug"                     => "Déboguer",
     "debug_mode"                => "Mode débogage",
-    "debug_mode_desc"           => "Activer le mode de débogage pour afficher les erreurs, utilisez uniquement pour le débogage ou si les instructions de support. Les erreurs sont autrement stockées dans les journaux à / stockage / logs.",
     "pretty_urls"               => "Pretty URLs",
     "pretty_urls_desc"          => "Activation va supprimer index.php des URL. Activez seulement si vous êtes en mesure d'accéder au panneau de commande sans index.php. Désactivez si vous n'avez pas mod_rewrite installé, les fichiers .htaccess ne sont pas autorisés ou ne sont pas converties aux Apache .htaccess règles de réécriture pour travailler avec votre serveur web alternative.",
-    "send_diagnostic"           => "Envoyer des données de diagnostic",
-    "send_diagnostic_desc"      => "Pour aider SupportPal améliorer ses produits, votre installation peut envoyer des données de diagnostic quand quelque chose va mal.",
-
-    /*
-     * 2.0.1
-     */
-    "incoming_rejected"         => "Entrant (rejeté)",
-    "show_original"             => "Afficher original",
 
     /*
      * 2.0.2
@@ -284,10 +248,8 @@ return array(
     "generalsetting_desc"       => "Edit the settings that apply to all of SupportPal. If you wish to edit settings for a specific section, e.g. Tickets, open the section in the sidebar to view available settings for that module. Settings related to your brand(s) can be found by clicking Brands in the sidebar.",
     "brand"                     => "Marque|Marques",
     "brand_desc"                => "A brand is your customer-facing identity within SupportPal, allowing several channels of communication. Several brands can be operated seamlessly under a single, unified operator panel.",
-    "brand_name"                => "Nom de la marque",
     "default_brand"             => "Marque par défaut",
     "default_brand_desc"        => "Select the brand that will be used by default when visitors visit the frontend and a matching brand cannot be found.",
-    "brand_name_desc"           => "The name of the brand as seen by end-users.",
     "brand_enabled_desc"        => "Toggle to enable or disable the brand. Disabled brands cannot be utilised and won't count as part of the brands allowed on your license, disabling can be used to temporarily hide a brand and/or retain information. Deleting a brand will remove all information including users and tickets that are related to it.",
     "inherit_global_setting"    => "Hériter paramètres globaux",
     "brand_date_format_desc"    => "The date format used for this brand's frontend.",
@@ -305,19 +267,16 @@ return array(
     "purchase_more"             => "Acheter autre",
     "brand_limit_allowed"       => "Your license is currently permitted to use :allowed brand simultaneously.|Your license is currently permitted to use :allowed brands simultaneously.",
     "brand_limit_purchase"      => "If this is incorrect, please <strong>reissue</strong> your license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> and visit the <a href=':route'>License Information</a> page to synchronise your help desk with our license server.<br />To purchase additional brands, please <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
-    "support_no_expiry"         => "Your support and updates are valid.",
     "support_expiry"            => "Your support and updates subscription is valid until :date.",
     "support_status_desc"       => "Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew your support subscription</a> in order to get the latest support and updates from SupportPal.",
     "ip_ban"                    => "Blocage IP|Blocages IP",
     "ip_whitelist"              => "Liste blanche d'IP",
     "whitelisted_ip"            => "IP autorisés",
-    "frontend_logo_desc"        => "Change the default logo on the frontend interface for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
     "license_path"              => "Chemin d'installation",
     "php_info"                  => "Information PHP",
     "log"                       => "Log|Logs",
     "invalid_department_brand"  => "Département non assigné à une marque.",
     "incoming_rejected"         => "Entrant(Rejeté)",
-    "twig_operator_signature"   => "The {{ operator.signature }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.1.1
@@ -328,8 +287,6 @@ return array(
     "app_logs_desc"             => "All warnings and errors from general usage of the help desk are logged here. You may be asked to provide one or more of these logs when requesting support.",
     "email_logs"                => "Journal des courriels",
     "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
-    "query_logs"                => "Journal des requêtes SQL",
-    "query_logs_desc"           => "These logs contain all MySQL queries that are run when utilising the help desk and are only stored when debug mode is enabled.",
 
     /*
      * 2.1.2
@@ -338,16 +295,14 @@ return array(
     "and_number_others"         => "and :number other|and :number others",
     "user_templates"            => "User Templates",
     "operator_templates"        => "Operator Templates",
-    
+
     /*
      * 2.2.0
      */
     "attachment_size"           => "Cumulative Attachment Size Limit",
     "attachment_size_desc"      => "The maximum cumulative size of all attachments that are sent in a single email. Available options are K (for Kilobytes) and M (for Megabytes), anything else assumes bytes. Example value: 5M for 5 Megabytes. Set to 0 to not send any attachments by email and require users to download attachments via the help desk.",
     "attachment_limit_reached"  => "Cumulative file limit reached (:size). Please consider sending files via another medium (such as a download URL).",
-    "upload_unknown_error"      => "The file \":file\" was not uploaded due to a server-side error.",
     "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
-    "translations"              => "Translations",
     "no_existing_translations"  => "No existing translations.",
     "add_translation"           => "Add Translation",
     "todo_list"                 => "To Do List",
@@ -360,5 +315,193 @@ return array(
     "upgrade_pending"           => "Upgrade Pending",
     "locale_in_uri"             => "Include Locale in URI",
     "locale_in_uri_desc"        => "Disable to remove the locale from the URI, for example: http://support.mycompany.com/en/announcements becomes http://support.mycompany.com/announcements. Can only be disabled when there's one enabled language in the system.",
+
+    /*
+     * 2.3.0
+     */
+    "disabling_default_language" => "This is currently set as a default language. Disabling the language will set another enabled language as the default language instead.",
+
+    /*
+     * 2.3.1
+     */
+    "javascript_required"       => "Please enable JavaScript in order to use this page.",
+    "go_to_dashboard"           => "Go to dashboard",
+    "brand_colour_desc"         => "Select a colour for your brand, it will be used for the colour scheme on both the frontend and operator template. Leave blank to use the default colour scheme.",
+    "favicon"                   => "Favicon",
+    "favicon_desc"              => "The favicon image appears in the address bar and is used to identify your website. For the best results, ensure the icon contains a range of sizes from 32x32px to 310x310px, is square and ICO/PNG format.",
+    "view_original"             => "View Original",
+    "download_original"         => "Download Original",
+    "consume_all"               => "Optionally enter a department email address  with \"Consume All\" enabled.",
+    "reprocess_email"           => "Reprocess Email",
+    "reprocess_email_desc"      => "We recommend to review what originally blocked the email and make any necessary changes before attempting to reprocess.",
+    "email_blocked_desc"        => "The email failed to send several times, it must now be manually sent.",
+    "captcha_type"              => "Captcha Type",
+    "captcha_type_desc"         => "Select the Captcha to be used throughout the system. We recommend switching to Google reCAPTCHA, which requires additional configuration.",
+    "default_captcha"           => "Default Captcha",
+    "recaptcha_site_key"        => "Site Key",
+    "recaptcha_secret_key"      => "Secret Key",
+    "recaptcha_desc"            => "Please register a new site at <a target='_blank' href=\"https://www.google.com/recaptcha/admin\">https://www.google.com/recaptcha/admin</a>, select the correct type of reCAPTCHA and ensure to add each brand domain. Copy the site and secret key above.",
+    "enter_code"                => "Enter code",
+    "export_data"               => "Export Data",
+    "export_data_desc"          => "Generate a downloadable export of data belonging to this user.",
+    "export_data_select"        => "Please select what data you would like to export.",
+    "export_data_scheduled"     => "The export is currently being generated, this may take some time. We will e-mail you when it's available to download.",
+    "database"                  => "Database",
+    "database_desc"             => "The following items are stored in the database.",
+    "prune_users"               => "Inactive user records can be automatically pruned. A user is considered inactive if they have not logged in or have any other activity for a given amount of time.",
+    "prune_tickets"             => "Inactive tickets can be automatically pruned. A ticket is considered inactive if it is resolved and has not had any activity for a given amount of time.",
+    "prune_organisations"       => "Inactive organisations can be automatically pruned. An organisation is considered inactive if it has no users linked with it and has not had any activity for a given amount of time.",
+    "prune_export"              => "User data exports are stored on the file system but may take up room, you can prune export files generated before a certain date.",
+    "automatically_prune"       => "Automatically delete",
+    "days_after_saved"          => "Records after",
+    "days_after_last_activity"  => "Inactive records after",
+    "record_permanent_delete"   => "The records will be permanently deleted. This will impact reports.",
+    "record_delete_relations"   => "The records will be permanently deleted along with the following related data: :relations. This will impact reports.",
+    "manually_prune"            => "Manually delete records created before",
+
+    /*
+     * 2.4.0
+     */
+    "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
+    "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
+    "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+
+    /*
+     * 2.4.1
+     */
+    "additional_brands_desc"    => "Allows running other brands on your SupportPal installation.",
+    "no_branding"               => "No Branding",
+    "no_branding_desc"          => "Removes SupportPal branding from the client-facing end of the help desk.",
+    "multi_ip"                  => "Multi-IP Support",
+    "multi_ip_desc"             => "Allows locking SupportPal to more than one internal/external IP.",
+    "purchase"                  => "Purchase",
+    "ticket_number_missing"     => "For ticket related emails, the {{ ticket.number }} merge field should be present in the email subject and must be wrapped in either <em>[#{{ ticket.number }}]</em> or <em>(#{{ ticket.number }})</em> in order to route replies to the correct ticket. If you would like to remove the ticket number, please consider enabling <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a>.",
+
+    /*
+     * 2.5.0
+     */
+    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
+    "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
+    "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
+    "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
+
+    /*
+     * 2.6.0
+     */
+    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insensitive.",
+    "spam_is_regex_desc"        => "Rules can take advantage of regular expressions; if you intend to do so please enable this setting. You do not need to include delimiters.",
+
+    /*
+     * 3.0.0
+     */
+    "upload_unknown_error"      => "The file(s) could not uploaded due to a server-side error.",
+    "insert_image"              => "Insert Image",
+    "quote"                     => "Quote",
+    "code"                      => "Code",
+    "format"                    => "Format",
+    "paragraph"                 => "Paragraph",
+    "heading1"                  => "Heading 1",
+    "heading2"                  => "Heading 2",
+    "heading3"                  => "Heading 3",
+    "heading4"                  => "Heading 4",
+    "heading5"                  => "Heading 5",
+    "heading6"                  => "Heading 6",
+    "upload"                    => "Upload",
+    "upload_label"              => "Drop files here or click to upload",
+    "more_formatting"           => "More Formatting",
+    "clearformat"               => "Clear Formatting",
+    "bold"                      => "Bold",
+    "underline"                 => "Underline",
+    "italic"                    => "Italic",
+    "strikethrough"             => "Strikethrough",
+    "font_color"                => "Font Colour",
+    "insert_link"               => "Insert Link",
+    "edit_link"                 => "Edit Link",
+    "unlink"                    => "Unlink",
+    "orderedlist"               => "Ordered List",
+    "unorderedlist"             => "Unordered List",
+    "outdent"                   => "Outdent",
+    "indent"                    => "Indent",
+    "lists"                     => "Lists",
+    "edit_html"                 => "Edit HTML",
+    "sEmptyTable"               => "No data available in table",
+    "sInfo"                     => "Showing _START_ to _END_ of _TOTAL_ entries",
+    "sInfoEmpty"                => "Showing 0 to 0 of 0 entries",
+    "sInfoFiltered"             => "(filtered from _MAX_ total entries)",
+    "sInfoPostFix"              => "",
+    "sInfoThousands"            => ",",
+    "sLengthMenu"               => "Show _MENU_ entries",
+    "sLoadingRecords"           => "Loading...",
+    "sProcessing"               => "Processing...",
+    "sSearchPlaceholder"        => "Search...",
+    "sZeroRecords"              => "No matching records found",
+    "sSortAscending"            => ": activate to sort column ascending",
+    "sSortDescending"           => ": activate to sort column descending",
+    "incoming_auto_reply"       => "Incoming (Auto-Reply)",
+    "logo_dark_mode"            => "Dark Mode Logo",
+    "logo_dark_mode_desc"       => "If your logo was designed to only work on a light background, set a different logo for dark mode. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
+    "template_mode"             => "Template Mode",
+    "template_mode_desc"        => "Set a default light or dark theme for the interface. Users will be able to select their own preference in their profile.",
+    "light_mode"                => "Light Mode",
+    "dark_mode"                 => "Dark Mode",
+    "logo"                      => "Logo",
+    "logo_desc"                 => "Change the default logo for this brand. The field can either be a path relative to the base directory (we recommend to store your logo in the resources/assets/ folder) or a direct URL to the image.",
+    "website_url"               => "Website URL",
+    "website_url_desc"          => "Add a link back to your main website in the support portal header.",
+    "back_to_website"           => "Back to website",
+    "template"                  => "Template",
+    "how_can_we_help"           => "How can we help you today?",
+    "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
+    "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
+    "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
+    "plugin_basic_info"         => "Please provide some basic information about your plugin.",
+    "plugin_author_name"        => "Author name",
+    "plugin_author_uri"         => "Author URI (link to your website)",
+    "plugin_vendor_name"        => "Vendor name (name of your company, can be same as author name)",
+    "plugin_name"               => "Plugin name",
+    "plugin_description"        => "Plugin description",
+    "plugin_already_exists"     => "Plugin already exists!",
+    "plugin_creating"           => "Creating plugin...",
+    "plugin_ready"              => "Plugin ready in :directory! Build something amazing.",
+
+    /*
+     * 3.3.0
+     */
+    "third_party_integrations"  => "Third-Party Integration|Third-Party Integrations",
+    "oauth"                     => "OAuth",
+    "oauth_data"                => "OAuth Data",
+    "client_id"                 => "Client ID",
+    "client_secret"             => "Client Secret",
+    "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
+    "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
+    "configure_after_brand_created" => "This may be configured after the brand has been created.",
+    "get_access_token"          => "Get Access Token",
+    "reset_access_token"        => "Reset Access Token",
+
+    /*
+     * 3.4.0
+     */
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
+    "supportpal_announcements"  => "SupportPal Announcements",
+    "add_selectize"             => "Add <strong>:item</strong>...",
+    "plugin_author_uri_short"   => "Author URI",
+    "plugin_vendor_name_short"  => "Vendor Name",
+    "open_link_in_new_tab"      => "Open link in new tab",
+    "general_settings"          => "Configure general settings",
+    "configure_brand"           => "Configure brand",
+    "configure_department"      => "Configure department",
+    "setup_cron"                => "Set-up cron job",
+    "channel_settings"          => "Update ticket channel settings",
+    "add_user"                  => "Add a new user",
+    "open_ticket"               => "Open a new ticket",
+    "reply_ticket"              => "Reply to ticket",
+    "new_version_available"     => "New Version Available",
+    "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
+    "download"                  => "Download",
+    "acknowledge"               => "Acknowledge",
+    "update_available"          => "The latest available version is :version.",
+    "running_latest_version"    => "You are running the latest version.",
+    "running_prerelease"        => "You are running a prerelease version.",
 
 );

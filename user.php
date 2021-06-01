@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Compte inactif",
     "account_active_desc"           => "Activer pour autoriser/empêcher l'accès aux sections qui nécessitent une authentification.",
 
-    "operator_settings"             => "Paramètres opérateurs",
     "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des questions.",
 
     "organisation"                  => "Organisation|Organisations",
@@ -20,7 +19,6 @@ return array(
     "manage_organisation"           => "Gérer organisation",
     "leave_organisation"            => "Quitter organisation",
     "user_membership"               => "Membership de l'usager",
-    "organisation_no_longer"        => "Cet Client ne sera plus une partie de ce Projet.",
     "transfer_ownership"            => "Transférer propriété",
     "transfer_ownership_desc"       => "Comme le propriétaire actuel du Projet, vous ne pouvez pas être supprimé en tant que gestionnaire et vous seul pouvez supprimer le Projet. Vous pouvez transférer la propriété du Projet à quelqu'un d'autre, sachez que cette action ne peut pas être inversée.",
     "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer le Projet et ne peut pas être retiré de celui-ci. Utilisez cette option pour modifier la propriété à un autre Client dans le Projet.",
@@ -29,16 +27,9 @@ return array(
     "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux tickets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des tickets, mais ne peut pas lire ou répondre à des tickets d'autres.",
     "organisation_operator_desc"    => "Ajouter les utilisateurs existants à cette organisation en cliquant sur - Ajouter clients - et la recherche de leur nom, noter que l'ajout d'un Clients supprime tous les liens qu'ils ont avec une autre Projet.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres Clients et répondre aux tickets d'un autre Clients <br /><strong>Clients</strong> - Puis tickets seulement ouverts au nom du Projet et de réponse à posséder des tickets",
-    "send_confirmation_email"       => "Envoyer courriel de confirmation à l'usager",
     "send_password_reset"           => "Envoyer lien de réinitialisation du mot de passe",
 
     "profile"                       => "Profil",
-    "address"                       => "Adresse",
-    "city"                          => "Ville",
-    "state"                         => "Province",
-    "postcode"                      => "Code postal",
-    "phone"                         => "No de téléphone",
-    "website"                       => "URL site web",
 
     "login"                         => "Connexion",
     "remember_me"                   => "Se rappeler de moi",
@@ -47,31 +38,16 @@ return array(
 
     "user_register_disabled"        => "Nous sommes désolés, l'enregistrement public des usagers est désactivé.",
     "success_register"              => "Compte enregistré avec succès !",
-    "success_register_desc"         => "Merci de vous êtes enregistré. Vous devrez confirmer votre adresse courriel avant de vous connecter. Nous vous enverrons sous peu un courriel avec un lien de confirmation.",
     "register_now"                  => "M'enregistrer",
     "register"                      => "M'enregistrer",
     "register_account"              => "Enregistrer compte",
-    "register_confirm"              => "Confirmation d'enregistrement",
-    "register_confirm_desc"         => "Merci d'avoir validé votre courriel, veuillez entrer un mot de passe ci-dessous pour finaliser l'enregistrement.",
-    "confirmation_success"          => "Confirmation complétée !",
-    "confirmation_unsuccessful"     => "Échec de la confirmation.",
-    "thank_you_confirm"             => "Merci d'avoir confirmé votre compte. Veuillez poursuivre sur <a href=':route'>login</a>.",
     "signed_up"                     => "Enregistré",
     "last_active"                   => "Dernière activité",
 
-    "reset_request"                 => "Demande de réinitialisation du mot de passe reçue",
-    "reset_request_desc"            => "Nous vous enverrons sous peu un courriel contenant un lien de validation qui vous permettra ensuite de réinitialiser votre mot de passe.",
     "forgot_password"               => "Mot de passe oublié ?",
-    "password_reset"                => "Mot de passe réinitialisé",
-    "password_reset_confirm"        => "Confirmation de réinitialisation",
     "reset_password"                => "Réinitialiser mot de passe",
-    "password_reset_complete"       => "Réinitialisation complétée",
     "set_password"                  => "Définir un mot de passe",
-    "only_enter_to_change"          => "Entrez pour modifier",
-    "success_pass_reset"            => "Votre mot de passe a été réinitialisé. Veuillez poursuivre sur <a href=':route'>login</a>.",
     "please_set_password"           => "Veuillez entrer votre nouveau mot de passe ci-dessous.",
-    "emailed_pwd_reset_link"        => "Nous vous avons envoyé un lien pour réinitialiser votre mot de passe.",
-    "operator_email_not_found"      => "Courriel de l'opérateur introuvable.",
     "missing_email_or_reset"        => "Courriel ou jeton de réinitialisation manquants.",
 
     "firstname"                     => "Prénom",
@@ -79,11 +55,9 @@ return array(
     "formatted_name"                => "Formatted Name",
     "country"                       => "Pays",
     "avatar"                        => "Avatar",
-    "generate_password"             => "Générer mot de passe automatiquement",
     "confirm_password"              => "Confirmer mot de passe",
 
     "confirmed"                     => "Confirmé",
-    "confirmed_desc"                => "Toggle to enable and disable access to authenticated sections.",
     "unconfirmed"                   => "Non confirmé",
 
     "group"                         => "Groupe d'usager|Groupes d'usagers",
@@ -113,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN ou DN",
     "ldap_rdn_desc"                 => "Le nom unique pour le nom d'Client LDAP, par exemple: cn=Sample Client,ou=personnes,dc=example,dc=com",
     "ldap_details"                  => "LDAP Détails",
-    "ldap_extension_missing"        => "L'extension php-ldap est pas chargé. Les Clients ne pourront pas se connecter via LDAP.",
 
     "operator_details"              => "Détails opérateur",
 
@@ -163,26 +136,17 @@ return array(
     "two_fa_code"                   => "Code de 2FA",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "S'il vous plaît stocker ce un endroit sûr que vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone devrait vous perdre l'accès.",
-    "two_fa_verify_desc"            => "Téléchargez et installez l'une des applications suivantes et scanner le code QR ou entrez la clé secrète. Cela a créé votre compte sur votre appareil, vous serez alors en mesure d'afficher le compte et il va générer un code à 6 chiffres que vous devez entrer ci-dessus pour vérifier et compléter la mise en place. S'il vous plaît assurez-vous de cliquer vérifier avant l'expiration du code. Votre temps de serveur devra être en synchronisation avec un serveur NTP pour fonctionner correctement.",
     "display_notifications"         => "Afficher Notifications",
     "display_notifications_desc"    => "Le système interroge pour les nouveaux tickets, les réponses et les autres Collaborateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur notifications, ou le désactiver complètement.",
     "desktop_notifications"         => "Desktop Notifications",
     "browser_notifications"         => "Navigateur Notifications",
-    "operator_template"             => "Modèle de Collaborateur",
 
     "search_for_user"               => "Rechercher usager...",
     "select_operator"               => "Sélectionner un opérateur...",
     "select_group"                  => "Sélectionner un groupe...",
 
     "your_ip_has_been_banned"       => "Votre adresse IP a été bannie.",
-    "password_reset_error"          => "Compte d'Client ou de jeton de réinitialisation introuvable, s'il vous plaît vérifier les détails sont corrects ou essayer de réinitialiser à nouveau.",
-    "password_reset_not_found"      => "Client introuvable ou mot de passe ne peut pas être remis à zéro.",
-    "password_reset_expired"        => "Jéton (Token) a expiré, s'il vous plaît essayer de réinitialiser à nouveau.",
-    "password_reset_invalid"        => "Jéton (Token) non valide, s'il vous plaît vérifier les détails sont corrects ou essayer de réinitialiser à nouveau.",
     "password_reset_success"        => "Mot de passe réinitialisé avec succès!",
-    "password_reset_already"        => "Vous avez déjà confirmé votre compte, vous pouvez continuer à vous connecter.",
-    "password_not_valid"            => "Les mots de passe non valides ou non la même chose.",
-    "invalid_reset_request"         => "Invalid demande de réinitialisation de mot.",
 
     "simpleauth_token_expired"      => "Le jeton d'accès a expiré.",
     "simpleauth_token_invalid"      => "Le jeton d'accès fourni est invalide.",
@@ -264,19 +228,104 @@ return array(
     "current_password"              => "Mot de passe actuel",
     "new_password"                  => "Nouveau mot de passe",
     "personal_confirm_password"     => "Veuillez confirmer votre mot de passe actuel.",
-    "operator_confirm_password"     => "Veuillez confirmer votre mot de passe opérateur.",
-    "login_via_idp"                 => "Connexion via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Search for user/operator...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0
      */
     "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
     "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
+
+    /*
+     * 2.3.0
+     */
+    "remove_from"                   => "Remove From :record?",
+    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
+
+    /*
+     * 2.3.1
+     */
+    "social_login"                  => "Social Login",
+    "login_via"                     => "Log in via :provider",
+    "idp"                           => "IdP",
+    "social_linking_login"          => "Please log in to complete linking of your social account.",
+    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
+    "already_registered"            => "Already registered?",
+    "linked_accounts"               => "Linked Accounts",
+    "unlink_account"                => "Unlink :record Account",
+    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
+    "failed_login"                  => "Failed Login|Failed Logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+
+    /*
+     * 2.4.0
+     */
+    "must_have_permission"          => "must have \":permission\" permission",
+    "deleted_user"                  => "Deleted User",
+    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+
+    /*
+     * 2.4.1
+     */
+    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
+    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
+    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
+    "send_confirmation_email"       => "Send Confirmation Email",
+    "mark_as_confirmed"             => "Mark as Confirmed",
+    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
+    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
+    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
+    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
+    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
+    "use_gravatar"                  => "Use Gravatar",
+    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "confirmation"                  => "Confirmation",
+    "confirmation_email_in_use"     => "The email address is already in use by another account.",
+    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
+    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
+    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
+    "operator_message"              => "Operator Messages",
+    "force_two_fa"                  => "Force 2FA",
+    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
+    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
+    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );

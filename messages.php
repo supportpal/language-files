@@ -41,9 +41,6 @@ return array(
     "success_action"        => "Succès !",
     "error_action"          => "Erreur, action non complétée.",
 
-    "success_sending"       => "Envoyé avec succès : :item!",
-    "error_sending"         => "Erreur lors de l'envoi de :item.",
-
     "error_embed_image"     => "Erreur lors du téléchargement de l'image.",
 
     "unauthorised"          => "Non autorisé",
@@ -62,8 +59,6 @@ return array(
 
     "general_error"         => "Une erreur s'est produite. Veuillez tenter à nouveau.",
 
-    "mailer_error"          => "Une erreur s'est produite en envoyant le courriel avec le sujet : ':subject'.",
-
     "no_results"            => "Aucun résultat.",
 
     "assign_incomplete"     => "Cette action ne peut pas être complétée. :names ne peut pas être assigné à certains billets.",
@@ -79,13 +74,9 @@ return array(
 
     "forbidden"             => "Interdit",
 
-    "uncaught_exception"    => "<strong>Oops! Une erreur s'est produite.</strong><br />L'erreur a été enregistrée. Veuillez notifier l'administrateur système si cette erreur persiste.",
-
     "not_logged_exception"  => "<strong>Oops! Une erreur s'est produite.</strong><br />Veuillez notifier l'administrateur système si cette erreur persiste.",
 
     "too_many_ticket_reqs"  => "Trop de billets soumis à :email. La limite est de :max dans un délai de :decay minutes.",
-
-    "error_close_open"      => "Erreur, veuillez fermer et ouvrir à nouveau.",
 
     "not_operator"          => "Une erreur s'est produite. L'opérateur sélectionné est invalide, veuillez vous assurer qu'ils appartiennent à un groupe d'opérateurs et que ce groupe est associé à un rôle.",
 
@@ -99,7 +90,6 @@ return array(
     /*
      * 2.0.3
      */
-    "warn_delete"           => "Une fois cet enregistrement effacé, il ne peut pas être récupéré. Effacer cet enregistrement peut aussi affecter d'autres zones du système où cet enregistrement est présentement utilisé.",
     "only_ssl_connections"  => "Seules les connexions SSL sont autorisées.",
     "queued_emails"         => "Succès - Les courriels commenceront à être envoyés sous peu.",
     "error_loading_message" => "Une erreur s'est produite en chargeant ce message. Merci d'essayer à nouveau.",
@@ -113,8 +103,6 @@ return array(
     "warning"               => "Avertissement",
     "note"                  => "Note",
     "brand_invalid_dept"    => "Cette action n'a pas pu être complétée. The department could not be updated on some tickets due to their brand.",
-    "template_subject_req"  => "Le sujet par défaut du courriel est requis.",
-    "template_contents_req" => "Le contenu par défaut du courriel est requis.",
 
     /*
      * 2.1.1
@@ -124,8 +112,46 @@ return array(
     "upload_wrong_type"     => "Ce type de fichier n'est pas accepté",
 
     /*
-     * 2.1.2
+     * 2.3.0
      */
-    "field_required"        => "Field is required.",
+    "delete_record"         => "Delete :record?",
+    "cannot_be_undone"      => "This action cannot be undone.",
+    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
+    "delete_confirm"        => "Yes, Delete :record",
+    "keep_record"           => "No, Keep :record",
+    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
+    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
+    "failed_attachments"    => "Failed to attach some files.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Success - the email has been sent.",
+    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
+    "linked_account"        => "The social account has successfully been linked with your account.",
+    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Does this look correct?",
+    "no_revert"             => "No! Revert",
+    "attachment_not_found"  => "The attachment was not found.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
+    "leave_record"          => "Leave :record?",
+    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "success_trashed"       => "Successfully moved the :item to trash!",
+    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "La quantité de réponses à des questions par opérateur sur une période de temps.",
     "first_response_time"       => "Temps de première réponse",
     "first_response_time_desc"  => "Le temps qu'il a fallu aux opérateurs pour la première réponse à une question posée par un client.",
-    "first_reply_time"          => "Temps de première réponse",
     "ticket_count"              => "Décompte des questions",
     "lt_1_hour"                 => "<1 heure",
     "1-3_hour"                  => "1-3 heures",
@@ -57,9 +56,6 @@ return array(
     "2-4_day"                   => "2-4 jours",
     "4-7_day"                   => "4-7 jours",
     "7_plus_day"                => "7+ jours",
-    "user_feedback"             => "Feedback des usagers",
-    "user_feedback_desc"        => "Les commentaires fournis par les utilisateurs sur les tickets dans une période de temps donnée.",
-    "total_users_desc"          => "Ce rapport montre combien clients il y a dans le système, divisé par le nombre confirmés et non-confirmés.",
     "user_by_country"           => "Clients par pays",
     "user_by_country_desc"      => "Ce rapport indique le nombre clients par pays, ne comprend que les clients qui ont créé un pays.",
     "user_count"                => "Nombre des clients",
@@ -75,5 +71,45 @@ return array(
     "ticket_by_user_desc"       => "This report shows the number of tickets each user has submitted over a given time period, ordered by most tickets.",
     "ticket_by_organisation"    => "Questions par organisations",
     "ticket_by_organisation_desc" => "This report shows the number of tickets each organisation (users within the organisation) has submitted over a given time period, ordered by most tickets.",
+    "ticket_by_tag"             => "Tickets by Tag",
+    "ticket_by_tag_desc"        => "The total number of tickets per tag over a given time period, only shows tags which are set on at least one ticket in the time period.",
+
+    /*
+     * 2.3.1
+     */
+    "canned_response_usage"     => "Canned Response Usage",
+    "canned_response_usage_desc" => "The number of times a given canned response has been used.",
+    "busiest_time_of_day"       => "Busiest Time Of Day",
+    "busiest_time_of_day_desc"  => "The number of messages received from users during each hour of the day.",
+    "busiest_day"               => "Busiest Day of the Month",
+    "busiest_day_desc"          => "The number of messages received from users across each day of the month.",
+    "busiest_month"             => "Busiest Month of the Year",
+    "busiest_month_desc"        => "The number of messages received from users across each month of the year.",
+    "busiest_department"        => "Busiest Department",
+    "busiest_department_desc"   => "The average number of operator messages per department, tallies all operator replies and divides by the number of assigned operators per department.",
+
+    /*
+     * 2.5.0
+     */
+    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
+
+    /*
+     * 3.0.0
+     */
+    "user_feedback"             => "Feedback",
+    "user_feedback_desc"        => "The written feedback provided by users when answering feedback forms.",
+    "user_feedback_ratings"     => "Feedback Ratings",
+    "user_feedback_ratings_desc" => "The total number of times each feedback rating has been given.",
+    "user_feedback_response_rate" => "Feedback Response Rate",
+    "user_feedback_response_rate_desc" => "The total number of times feedback requests have been responded to.",
+    "responses"                 => "Responses",
+    "answered"                  => "Answered",
+    "unanswered"                => "Unanswered",
+
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
 
 );
