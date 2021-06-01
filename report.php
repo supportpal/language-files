@@ -76,4 +76,10 @@ return array(
     "ticket_by_organisation"    => "Questions par organisations",
     "ticket_by_organisation_desc" => "This report shows the number of tickets each organisation (users within the organisation) has submitted over a given time period, ordered by most tickets.",
 
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
+
 );

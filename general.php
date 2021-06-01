@@ -274,7 +274,7 @@ return array(
     "posted"                    => "Posted",
     "locked"                    => "Locked",
     "draft"                     => "Draft",
-    
+
     /*
      * 2.2.0
      */
@@ -287,5 +287,127 @@ return array(
     "sunday"                    => "Sunday",
     "inactive"                  => "Inactive",
     "run"                       => "Run",
+
+    /*
+     * 2.3.0
+     */
+    "regex"                     => "Regex Validation",
+    "check_all"                 => "Check All",
+    "uncheck_all"               => "Uncheck All",
+    "after_and_including"       => "After (and including)",
+    "add_link"                  => "Add Link",
+    "unlink"                    => "Unlink",
+    "link"                      => "Link",
+
+    /*
+     * 2.3.1
+     */
+    "clone"                     => "Clone",
+    "created_date"              => "Created Date",
+    "alphabetical"              => "Alphabetical",
+    "random"                    => "Random",
+    "blocked"                   => "Blocked",
+    "private_to"                => "Private to",
+    "refresh"                   => "Refresh",
+    "provider"                  => "Provider|Providers",
+    "export"                    => "Export|Exports",
+    "generate"                  => "Generate",
+
+    /*
+     * 2.4.0
+     */
+    "show_count_more"           => "Show :count more...",
+    "manual"                    => "Manual",
+    "automatic"                 => "Automatic",
+    "hook"                      => "Hook",
+    "event"                     => "Event|Events",
+    "test"                      => "Test",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Domain|Domains",
+    "move_to_trash"             => "Move to Trash",
+    "trash"                     => "Trash",
+    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
+    "restore"                   => "Restore",
+    "delete_forever"            => "Delete Forever",
+
+    /*
+     * 2.6.0
+     */
+    "remove_all"                => "Remove All",
+
+    /*
+     * 3.0.0
+     */
+    "previous"                  => "Previous",
+    "neutral"                   => "Neutral",
+    "and"                       => "and",            // Used in "A and B"
+    "optional"                  => "Optional",
+    "january"                   => "January",
+    "february"                  => "February",
+    "march"                     => "March",
+    "april"                     => "April",
+    "may"                       => "May",
+    "june"                      => "June",
+    "july"                      => "July",
+    "august"                    => "August",
+    "september"                 => "September",
+    "october"                   => "October",
+    "november"                  => "November",
+    "december"                  => "December",
+    "jan"                       => "Jan",
+    "feb"                       => "Feb",
+    "mar"                       => "Mar",
+    "apr"                       => "Apr",
+    "jun"                       => "Jun",
+    "jul"                       => "Jul",
+    "aug"                       => "Aug",
+    "sep"                       => "Sep",
+    "oct"                       => "Oct",
+    "nov"                       => "Nov",
+    "dec"                       => "Dec",
+    "mon"                       => "Mon",
+    "tue"                       => "Tue",
+    "wed"                       => "Wed",
+    "thu"                       => "Thu",
+    "fri"                       => "Fri",
+    "sat"                       => "Sat",
+    "sun"                       => "Sun",
+    "ordinal_th"                => "th",
+    "ordinal_st"                => "st",
+    "ordinal_nd"                => "nd",
+    "ordinal_rd"                => "rd",
+    "range_separator"           => " to ",
+    "week_abbr"                 => "Wk",
+    "scroll_to_increment"       => "Scroll to increment",
+    "click_to_toggle"           => "Click to toggle",
+    "am"                        => "AM",
+    "pm"                        => "PM",
+    "viewing"                   => "Viewing",
+
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );

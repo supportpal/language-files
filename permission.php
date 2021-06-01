@@ -95,4 +95,9 @@ return array(
     // Core
     "logfiles"          => "Gérer logs",
 
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
+
 );

@@ -33,12 +33,6 @@ return array(
     "send_password_reset"           => "Envoyer lien de réinitialisation du mot de passe",
 
     "profile"                       => "Profil",
-    "address"                       => "Adresse",
-    "city"                          => "Ville",
-    "state"                         => "Province",
-    "postcode"                      => "Code postal",
-    "phone"                         => "No de téléphone",
-    "website"                       => "URL site web",
 
     "login"                         => "Connexion",
     "remember_me"                   => "Se rappeler de moi",
@@ -163,7 +157,6 @@ return array(
     "two_fa_code"                   => "Code de 2FA",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "S'il vous plaît stocker ce un endroit sûr que vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone devrait vous perdre l'accès.",
-    "two_fa_verify_desc"            => "Téléchargez et installez l'une des applications suivantes et scanner le code QR ou entrez la clé secrète. Cela a créé votre compte sur votre appareil, vous serez alors en mesure d'afficher le compte et il va générer un code à 6 chiffres que vous devez entrer ci-dessus pour vérifier et compléter la mise en place. S'il vous plaît assurez-vous de cliquer vérifier avant l'expiration du code. Votre temps de serveur devra être en synchronisation avec un serveur NTP pour fonctionner correctement.",
     "display_notifications"         => "Afficher Notifications",
     "display_notifications_desc"    => "Le système interroge pour les nouveaux tickets, les réponses et les autres Collaborateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur notifications, ou le désactiver complètement.",
     "desktop_notifications"         => "Desktop Notifications",
@@ -278,5 +271,93 @@ return array(
      */
     "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
     "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
+
+    /*
+     * 2.3.0
+     */
+    "remove_from"                   => "Remove From :record?",
+    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
+
+    /*
+     * 2.3.1
+     */
+    "social_login"                  => "Social Login",
+    "login_via"                     => "Log in via :provider",
+    "idp"                           => "IdP",
+    "social_linking_login"          => "Please log in to complete linking of your social account.",
+    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
+    "already_registered"            => "Already registered?",
+    "linked_accounts"               => "Linked Accounts",
+    "unlink_account"                => "Unlink :record Account",
+    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
+    "failed_login"                  => "Failed Login|Failed Logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+
+    /*
+     * 2.4.0
+     */
+    "must_have_permission"          => "must have \":permission\" permission",
+    "deleted_user"                  => "Deleted User",
+    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+
+    /*
+     * 2.4.1
+     */
+    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
+    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
+    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
+    "send_confirmation_email"       => "Send Confirmation Email",
+    "mark_as_confirmed"             => "Mark as Confirmed",
+    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
+    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
+    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
+    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
+    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
+    "use_gravatar"                  => "Use Gravatar",
+    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "confirmation"                  => "Confirmation",
+    "confirmation_email_in_use"     => "The email address is already in use by another account.",
+    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
+    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
+    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
+    "operator_message"              => "Operator Messages",
+    "force_two_fa"                  => "Force 2FA",
+    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
+    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
+    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );
