@@ -112,4 +112,10 @@ return array(
     "first_response_by_operator" => "Eerste reactietijd per operator ",
     "first_response_by_operator_desc" => "De hoeveelheid tijd die elke operator nodig had om voor het eerst op een ticket te antwoorden, gemiddeld over de periode.",
 
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
+
 );

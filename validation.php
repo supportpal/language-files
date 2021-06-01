@@ -174,6 +174,16 @@ return array(
     "password"                  => "Het wachtwoord is onjuist.",
 
     /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
+     * 3.5.0
+     */
+    'phone'                     => "The supplied phone number is invalid.",
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------

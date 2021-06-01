@@ -30,7 +30,6 @@ return array(
     "send_password_reset"           => "Stuur link om wachtwoord opnieuw in te stellen",
 
     "profile"                       => "Profiel",
-    "phone"                         => "Telefoonnummer",
 
     "login"                         => "Login",
     "remember_me"                   => "Onthoud mij",
@@ -321,7 +320,12 @@ return array(
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Download en installeer een van de volgende applicaties en scan de QR-code of voer de geheime sleutel in. Hiermee wordt uw account op uw apparaat ingesteld, kunt u het account bekijken en wordt een 6-cijferige code gegenereerd die u moet invoeren om de installatie te verifiëren en te voltooien. Zorg ervoor dat u op Verifiëren klikt voordat de code verloopt. Uw servertijd moet gesynchroniseerd zijn met een NTP-server om correct te functioneren.",
-    "two_fa_successfully_enabled"   => "Tweefactorauthenticatie (2FA) is succesvol ingeschakeld.",
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );
