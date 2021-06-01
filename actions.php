@@ -47,8 +47,8 @@ return array(
     "set_due_time_desc"         => "Verwijder de deadline door het veld leeg te maken. Met een nagatief getal kan een datum in het verleden worden aangegeven.",
 
     /*
-    * 2.3.0
-    */
+     * 2.3.0
+     */
     "add_cc"                    => "E-mail adres toevoegen aan CC",
     "remove_cc"                 => "Verwijder E-mail adres uit CC",
     "remove_cc_desc"            => "Laat dit veld leeg om alle CC-e-mailadressen ui het ticket te verwijderen.",

@@ -201,7 +201,7 @@ return array(
     /*
      * 2.1.0
      */
-    "na"                        => "n.v.t.",
+    "na"                        => 'n.v.t.',
     "total"                     => "Totaal",
     "disabled"                  => "Uitgeschakeld",
     "not_set"                   => "niet ingesteld",
@@ -366,7 +366,7 @@ return array(
      * 3.3.0
      */
     "authentication"            => "Authenticatie",
-    "manage_credentials"        => "Beheer inloggegevens" ,
+    "manage_credentials"        => "Beheer inloggegevens",
 
     /*
      * 3.4.0
@@ -374,5 +374,15 @@ return array(
     "select_a_date"             => "Selecteer een datum",
     "select_values"             => "Selecteer waarden",
     "file"                      => "Bestand",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );
