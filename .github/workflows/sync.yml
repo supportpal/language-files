@@ -58,6 +58,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           base: ${{ matrix.branch }}
           delete-branch: true
+          branch: sync/${{ matrix.branch }}
           title: '[${{ matrix.branch }}] 🔄 Synchronised with master'
           body: ${{ steps.template.outputs.result }}
           commit-message: '🔄 Synchronised with master'
