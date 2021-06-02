@@ -1,35 +1,19 @@
-name: sync
+name: Sync Files
 
 on:
   push:
     branches:
       - master
-    paths:
-      - '.github/workflows/test.yml'
 
 jobs:
   sync:
     runs-on: ubuntu-latest
 
-    name: Synchronise Workflows
-
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Synchronise
-        uses: adrianjost/files-sync-action@v1
+      - name: Sync files
+        uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          FILE_PATTERNS: |
-            ^.github/workflows/test.yml$
-          TARGET_REPOS: |
-            supportpal/language-files:de
-            supportpal/language-files:es
-            supportpal/language-files:fa
-            supportpal/language-files:fr
-            supportpal/language-files:nl
-            supportpal/language-files:pt_BR
-            supportpal/language-files:ru
-            supportpal/language-files:sv
-            supportpal/language-files:tr
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_TOKEN }}
