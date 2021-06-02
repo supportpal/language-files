@@ -34,7 +34,7 @@ jobs:
 
       - name: Sync translation files
         run: |
-          php vendor/bin/language-tools sync ${{ matrix.path }} .
+          language-tools sync ${{ matrix.path }} .
 
       - name: Sync workflow files
         run: |
