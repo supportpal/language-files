@@ -2,7 +2,7 @@
 
 return array(
 
-    "customfield"               => "Özel Alan | Özel Alanlar",
+    "customfield"               => "Özel Alan|Özel Alanlar",
 
     // Options
     "boolean"                   => "Boolean",

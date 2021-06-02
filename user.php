@@ -65,7 +65,7 @@ return array(
     "operator_group"                => "Operatör Grup|Operatör Grupları",
     "add_group"                     => "Gruba Ekle",
 
-    "customfield"                   => "Kullanıcı Özel Alanı | Kullanıcı Özel Alanları",
+    "customfield"                   => "Kullanıcı Özel Alanı|Kullanıcı Özel Alanları",
     "customfield_order"             => "Özel alanların kullanıcılara görünme sırasını değiştirmek için satırları sürükleyin.",
 
     "role"                          => "Rol|Roller",
@@ -211,7 +211,7 @@ return array(
     "operator_signature_desc"       => "Further signatures for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Signatures</a> section.",
     "view_organisation"             => "Kullanıcıları Görüntüle",
     "new_owner"                     => "Yeni sahibi",
-    "operator_role"                 => "Operatör Rolü | Operatör Rolleri",
+    "operator_role"                 => "Operatör Rolü|Operatör Rolleri",
     "manage_users"                  => "Kullanıcıları Yönet",
     "manage_organisations"          => "Organizasyonu Yönet",
     "manage_operators"              => "Operatörleri Yönet",

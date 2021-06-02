@@ -6,11 +6,11 @@ return array(
     "latest_items"              => "Son Ürünler",
 
     "selfservice"               => "Self-Servis",
-    "article"                   => "Makaleler | Makaleler",
-    "category"                  => "Kategoriler | Kategoriler",
-    "comment"                   => "Yorumlar | Yorumlar",
-    "tag"                       => "Etiketler | Etiketler",
-    "type"                      => "Türler | Tipleri",
+    "article"                   => "Makaleler|Makaleler",
+    "category"                  => "Kategoriler|Kategoriler",
+    "comment"                   => "Yorumlar|Yorumlar",
+    "tag"                       => "Etiketler|Etiketler",
+    "type"                      => "Türler|Tipleri",
 
     "frontend_icon"             => "Frontend Icon",
 

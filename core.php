@@ -51,7 +51,7 @@ return array(
     "read_only"                 => "Read Only",
 
     // Spam Rules & Filtering
-    "spam_rule"                 => "Spam Kuralı | Spam Kuralları",
+    "spam_rule"                 => "Spam Kuralı|Spam Kuralları",
     "containing_text"           => "İçeren Metin",
     "filter_new_message"        => "Yeni Talep Mesajı (Kullanıcıdan)",
     "filter_new_comment"        => "Yeni Self Servis Yorumu (Kullanıcıdan)",
@@ -76,7 +76,7 @@ return array(
     "global_email_header_desc"  => "Sistem tarafından gönderilen tüm e-postalara bir başlık ekleyin. HTML kabul edildi.",
     "global_email_footer"       => "Global E-posta Altbilgisi",
     "global_email_footer_desc"  => "Sistem tarafından gönderilen tüm e-postalara bir altbilgi ekleyin. HTML kabul edildi.",
-    "email_template"            => "E-posta Şablonu | E-posta Şablonları",
+    "email_template"            => "E-posta Şablonu|E-posta Şablonları",
     "email_log"                 => "E-posta Günlüğü",
     "email_queue"               => "E-posta Sırası",
     "email_queue_desc"          => "Aşağıda cron tarafından yakında gönderilmek üzere sıraya alınan e-postalar.",
@@ -101,12 +101,12 @@ return array(
     "twig_html_warning"         => "HTML etiketlerinin / niteliklerinin içinde dallara izin verilmez ve kaydedildiğinde otomatik olarak kaldırılır.",
 
     // Modules
-    "modules"                   => "Modül | Modüller",
+    "modules"                   => "Modül|Modüller",
     "modules_desc"              => "Aşağıda mevcut tüm modüllerin bir listesi bulunmaktadır, ilgili modülün ayarlarını güncellemek için düzenle simgesini tıklayın.",
     "module_disable"            => "Devre dışı bırakılan modüller, ön uç ve operatör arayüzünden kaldırılacaktır.",
 
     // Scheduled tasks
-    "scheduled_task"            => "Zamanlanmış Görev | Zamanlanmış Görevler",
+    "scheduled_task"            => "Zamanlanmış Görev|Zamanlanmış Görevler",
     "interval_desc"             => "Bu görevin ne sıklıkta çalışacağını ayarlayın; örneğin 5 dakika ayarlamak, cron etkin ve çalışıyorsa görevin her 5 dakikada bir çalışacağı anlamına gelir.",
     "cron_settings"             => "Cron Ayarları",
     "cron_running"              => "Çalıştır",
@@ -115,7 +115,7 @@ return array(
     "task_failed"               => "Zamanlanan görev manuel olarak çalışılamadı.",
 
     // Plugins
-    "plugins"                   => "Eklenti | Eklentiler",
+    "plugins"                   => "Eklenti|Eklentiler",
     "installed_plugins"         => "Yüklü Eklentiler",
     "visit_plugin"              => "Eklenti Sitesini Ziyaret Edin",
 
@@ -246,7 +246,7 @@ return array(
      * 2.1.0
      */
     "generalsetting_desc"       => "Tüm Lojisoft Destek için geçerli ayarları düzenleyin. Belirli bir bölümün ayarlarını düzenlemek istiyorsanız, ör. TAlepler için, o modülün kullanılabilir ayarlarını görüntülemek için kenar çubuğundaki bölümü açın. Markalarınızla ilgili ayarları, kenar çubuğundaki Markalar'ı tıklayarak bulabilirsiniz.",
-    "brand"                     => "Marka | Markalar",
+    "brand"                     => "Marka|Markalar",
     "brand_desc"                => "Marka, Lojisoft Destek içinde müşteriye dönük kimliğinizdir ve birkaç iletişim kanalına izin verir. Birçok marka tek bir birleşik operatör paneli altında sorunsuz bir şekilde çalıştırılabilir.",
     "default_brand"             => "Varsayılan Marka",
     "default_brand_desc"        => "Ziyaretçiler ana sayfayı ziyaret ettiğinde ve eşleşen bir marka bulunamadığında varsayılan olarak kullanılacak markayı seçin.",
@@ -265,16 +265,16 @@ return array(
     "brand_limit_exceeded"      => "Lisansınızın yalnızca izin verilir: izin verilen markalar) aynı anda kullanılmasına izin verilir. Ek marka satın almak için lütfen müşteri alanımızı ziyaret edin.",
     "additional_brands"         => "Ek Markalar",
     "purchase_more"             => "Daha fazla satın al",
-    "brand_limit_allowed"       => "Lisansınızın şu anda kullanılmasına izin verilmektedir: izin verilen marka aynı anda. | Lisansınızın şu anda kullanmasına izin verildi: izin verilen markalar aynı anda.",
+    "brand_limit_allowed"       => "Lisansınızın şu anda kullanılmasına izin verilmektedir: izin verilen marka aynı anda.|Lisansınızın şu anda kullanmasına izin verildi: izin verilen markalar aynı anda.",
     "brand_limit_purchase"      => "Bu yanlışsa, lütfen lisansınızı <a href='http://www.supportpal.com/manage/' target='_blank'> müşteri alanımızda </a> <strong> yeniden yayınlayın </strong> ve ziyaret edin yardım masanızı lisans sunucumuzla senkronize etmek için <a href=':route'> Lisans Bilgileri </a> sayfasını seçin. <br /> Ek markalar satın almak için lütfen <a href = 'https: //www.supportpal. com.tr / manage / upgrade.php? type = configoptions & id =: id 'target =' _ blank '> lisansınızı yükseltin </a>.",
     "support_expiry"            => "Destek ve güncelleme aboneliğiniz şu tarihe kadar geçerlidir:",
     "support_status_desc"       => "En son destek ve güncellemeleri almak için lütfen <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'> destek aboneliğinizi yenileyin </a> Lojisoft Destek.",
-    "ip_ban"                    => "IP Yasağı | IP Yasakları",
+    "ip_ban"                    => "IP Yasağı|IP Yasakları",
     "ip_whitelist"              => "Güvenli IP Listesi",
     "whitelisted_ip"            => "Güvenli IP Listesine Eklenen IP'ler",
     "license_path"              => "Kurulum Yolu",
     "php_info"                  => "PHP Bilgileri",
-    "log"                       => "Giriş | Günlükleri",
+    "log"                       => "Giriş|Günlükleri",
     "invalid_department_brand"  => "Departman bilet markasına atanmamıştır.",
     "incoming_rejected"         => "Gelen (Reddedildi)",
 
@@ -292,7 +292,7 @@ return array(
      * 2.1.2
      */
     "reply_to"                  => "Yanıtla",
-    "and_number_others"         => "ve: diğer numaralar | ve: diğer numaralar",
+    "and_number_others"         => "ve: diğer numaralar|ve: diğer numaralar",
     "user_templates"            => "Kullanıcı Şablonları",
     "operator_templates"        => "Operatör Şablonları",
 
@@ -364,7 +364,7 @@ return array(
      */
     "enable_ssl_warning"        => "Sayfa doğru yüklenmediğinde bu ayarı etkinleştirin, Lojisoft Destek!",
     "verify_frontend_loads"     => "Lütfen ana sayfa aşağıya doğru yüklendiğinden emin olun.",
-    "twig_operator_signature"   => "{{Operator.signature | raw}} birleştirme alanı çalışma zamanında işleneceğinden önizleme yanlış olabilir.",
+    "twig_operator_signature"   => "{{ operator.signature|raw }} birleştirme alanı çalışma zamanında işleneceğinden önizleme yanlış olabilir.",
 
     /*
      * 2.4.1

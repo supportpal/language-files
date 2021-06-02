@@ -44,10 +44,10 @@ return array(
 
     "settings"                  => "Talep Ayarları",
 
-    "priority"                  => "Öncelik | Öncelikleri",
+    "priority"                  => "Öncelik|Öncelikleri",
 
-    "channel"                   => "Kanal | Kanallar",
-    "account"                   => "Hesap | Hesaplar",
+    "channel"                   => "Kanal|Kanallar",
+    "account"                   => "Hesap|Hesaplar",
 
     "assign_operator"           => "Operatör Ata",
     "assigned_operator"         => "Atanan Operatörler",
@@ -61,7 +61,7 @@ return array(
 
     "send_now"                  => "Şimdi gönder",
 
-    "tag"                       => "Etiket | Etiketler",
+    "tag"                       => "Etiket|Etiketler",
 
     "track_ticket"              => "Talep Takibi",
     "view_ticket"               => "Talep Görüntüle",
@@ -143,7 +143,7 @@ return array(
     "cannedresponse"            => "Canned Response|Canned Responses",
 
     // Filters
-    "filter"                    => "Filtre | Filtreler",
+    "filter"                    => "Filtre|Filtreler",
     "filter_condition"          => "Filtre Koşulları",
     "filter_condition_desc"     => "Bu filtre altında taleplerin listelendiği talep koşullarını tanımlayın.",
 
@@ -180,7 +180,7 @@ return array(
     "business_hour_desc"        => "Çalışma Saatleri, personelin programa ilişkin sorguları yanıtlamak için uygun olduğu süreleri gösterir. Talep teslim süreleri hesaplanırken saatler dikkate alınır.",
 
     // Holidays
-    "holiday"                   => "Tatiller | Tatiller",
+    "holiday"                   => "Tatiller|Tatiller",
     "holiday_or_on_the"         => "veya",
     "holiday_month_year_desc"   => "Tatil tekrarlanıyorsa yıl isteğe bağlıdır. Yalnızca tatil belirli bir yılda bu tarihte gerçekleşiyorsa bir yıl seçin.",
 
@@ -305,7 +305,7 @@ return array(
     /*
      * 2.0.1
      */
-    "allowed_files_desc"        => "Boru ile ayrılmış dosya uzantılarının listesi | ek olarak izin verilen karakter. Örneğin: txt | png | jpg. Tüm eklere izin vermek için şunu girin:?. *",
+    "allowed_files_desc"        => "Boru ile ayrılmış dosya uzantılarının listesi | ek olarak izin verilen karakter. Örneğin: txt|png|jpg. Tüm eklere izin vermek için şunu girin: ?.*",
 
     /*
      * 2.0.2
