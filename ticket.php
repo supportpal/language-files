@@ -14,7 +14,6 @@ return array(
     "invalid_user"              => "جهت دامه از درست بودن جزئیات کاربر اطمینان حاصل شود.",
 
     "registered_users"          => "فقط کاربران ثبت نام",
-    "registered_users_desc"     => "Toggle to only import tickets from users with an account in the help desk.",
 
     "tickets"                   => "تیکت(ها)",
     "ticket"                    => "تیکت|تیکت ها",
@@ -24,7 +23,6 @@ return array(
     "due_time"                  => "با توجه به زمان",
     "created_time"              => "زمان ایجاد",
     "submitted"                 => "ارسال",
-    "add_reply"                 => "پاسخ خودکار",
     "ticket_reply"              => "پاسخ تیکت",
     "ticket_note"               => "یادداشت تیکت",
     "ticket_type"               => "نوع تیکت",
@@ -34,7 +32,6 @@ return array(
     "existing_user"             => "کاربر موجود است",
     "new_user"                  => "کاربر جدید",
     "internal"                  => "داخلی",
-    "internal_ticket"           => "تیکت داخلی",
     "internal_ticket_desc"      => "Open a ticket for internal use only. This ticket will be associated with you, rather than a user.",
     "ticket_opened"             => "تیکت با موفقیت باز شد.",
     "enter_user_details"        => "Please enter your details below, or login to your account if you have one.",
@@ -59,11 +56,9 @@ return array(
 
     "department"                => "دپارتمان|دپارتمان ها",
     "change_department_order"   => "Drag the rows to change the order that departments are shown to users when opening a new ticket.",
-    "department_order"          => "سفارش دپارتمان",
     "department_applicable"     => "دپارتمان های قابل اجرا",
     "department_applicable_desc" => "The departments in which the priority will be available for users to select. Only applies to the frontend, all priorities will be available to operators for all departments.",
 
-    "due_to_be_sent"            => "با توجه به آن ارسال شود",
     "send_now"                  => "ارسال درحال حاضر",
 
     "tag"                       => "برچسب|برچسب ها",
@@ -73,14 +68,9 @@ return array(
 
     // Recent activity
     "recent_activity"           => "آخرین فعالیت",
-    "no_recent_activity"        => "بدون آخرین فعالیت",
-
-    // Active operators
-    "active_operators"          => "اپراتورهای فعال",
 
     "ticket_number"             => "شماره تیکت",
     "ticket_format"             => "فرمت شماره تیکت",
-    "ticket_format_desc"        => "The following variables may be used:<br />%S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     // Departments
     "department_public_desc"    => "If the department is visible to users on the web help desk.",
@@ -94,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Set up email addresses for the department, any incoming email to these email addresses will open tickets in this department. The first email address is used as the default sender email address for outgoing email.",
-    "department_password"       => "Only enter a password to replace existing saved password or to validate email account details.",
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Some email providers require SSL or TLS encryption in order to connect, if you are unsure leave this setting as None.",
     "department_delete_mail"    => "If using IMAP, you can choose to not delete emails on the server after they've been imported as tickets.",
     "protocol"                  => "پروتکل",
     "server"                    => "سرور ایمیل",
     "port"                      => "پورت",
-    "username"                  => "نام کاربری",
-    "password"                  => "پسورد",
     "encryption"                => "مد گذاری",
     "delete_downloaded"         => "حذف ایمیل دانلود شده",
     "consume_all"               => "مصرف تمام ایمیل",
@@ -113,18 +100,12 @@ return array(
 
     // Department email options
     "email_options"             => "تنظیمات ایمیل",
-    "email_auto_close"          => "Email Users on Ticket Auto-Close",
-    "email_auto_close_desc"     => "Select whether users should be emailed when tickets belonging to them are automatically closed by the system.",
-    "email_closed_by_operator"  => "ارسال ایمیل به کاربر در زمان بسته شدن تیکت",
-    "email_closed_by_op_desc"   => "Select whether users should be emailed when tickets belonging to them are closed by an operator.",
     "email_user_on_email"       => "ارسال ایمیل به کاربر در زمان باز شدن تیکت",
     "email_user_on_email_desc"  => "Select whether users should be notified by email when an email they send results in a new ticket being opened.",
     "email_operators"           => "اعلانات اپراتورها",
     "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
-    // Department e-mail templates
-    "new_ticket_reply"          => "پاسخ جدید به تیکت",
+    // Department email templates
     "new_ticket_opened"         => "باز نمودن تیکت جدید",
-    "reply_to_locked"           => "پاسخ به درخواست قفل شده",
     "waiting_for_response"      => "در انتظار پاسخ",
     "ticket_auto_closed"        => "بسته شدن خودکار تیکت",
     "closed_by_operator"        => "بسته شده توسط اپراتور",
@@ -133,7 +114,6 @@ return array(
     "feedback"                  => "بازخورد",
     "feedback_form"             => "فرم بازخورد|فرم های بازخورد",
     "feedback_form_desc"        => "Feedback forms are processed in the order they appear. Drag the rows to reorder and adjust the priority of the feedback forms.",
-    "view_feedback_report"      => "نمایش گزارش بازخورد",
     "view_feedback"             => "نمایش بازخورد",
     "ticket_feedback"           => "بازخورد تیکت",
     "feedback_fields_error"     => "There was a problem fetching the feedback fields.",
@@ -144,22 +124,14 @@ return array(
     "form_conditions"           => "شرایط فرم",
     "form_conditions_desc"      => "Define the ticket conditions for which newly resolved tickets are checked to see if they fall under this form. If a resolved ticket fits multiple forms, it will be selected on the form priority, which can be modified by going to the list of forms and reordering.",
     "form_fields"               => "فیلدهای فرم",
-    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here.",
-    "response_rate"             => "نرخ پاسخ",
-    "sent_forms"                => "ارسال فرم های بازخورد",
     "rating"                    => "رتبه",
-    "good_ratings"              => "رتبه های خوب",
-    "bad_ratings"               => "رتبه های بد",
-    "customer_satisfaction"     => "رضایت مشتری",
     "feedback_desc"             => "Thank you for contacting us and we hope we have resolved your query. Please could you rate your experience below.",
     "good_satisfied"            => "خوب، من راضی ام",
     "bad_not_satisfied"         => "بد, اصلا راضی نیستم",
     "feedback_not_found"        => "Your feedback could not be accepted, please open a ticket with us if you wish to share your feedback.",
     "feedback_malformed_token"  => "Your feedback could not be accepted due to a malformed token. Please open a ticket with us if you wish to share your feedback.",
-    "feedback_already_done"     => "You have already provided your feedback for this ticket, thank you.",
     "feedback_expired"          => "The ticket has been resolved for a while, and it can unfortunately no longer be rated.",
     "feedback_questions"        => "If you could spare a few moments, please answer the following questions to help us further improve the support that we offer.",
-    "feedback_thank_you"        => "تشکر از شما برای ارائه بازخورد خود در این تیکت.",
     "feedback_for_ticket"       => "بازخورد تیکت #:شماره",
     "feedback_rating_desc"      => "The support received on this ticket has been rated as <strong>:rating</strong> by the user.",
 
@@ -169,33 +141,21 @@ return array(
 
     // Canned responses
     "cannedresponse"            => "پاسخ از پیش تعریف شده|پاسخ های از پیش تعریف شده",
-    "canned_response_category"  => "دسته پاسخ های از پیش تعریف شده|دسته های پاسخ های از پیش تعریف شده",
-    "canned_public_desc"        => "Toggle to only let the canned response be accessible by yourself.",
-    "canned_group_desc"         => "If you wish to make the canned response visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Filters
     "filter"                    => "فیلتر|فیلترها",
     "filter_condition"          => "شرایط فیلتر",
     "filter_condition_desc"     => "Define the ticket conditions for which tickets are listed under this filter.",
-    "filter_public_desc"        => "Toggle to only let the filter be accessible by yourself.",
-    "filter_group_desc"         => "If you wish to make the filter visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Macros
     "macro"                     => "ماکرو|ماکروها",
-    "macro_type"                => "نوع ماکرو",
-    "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
-    "manual"                    => "دستی",
-    "macro_type_auto1"          => "به صورت خودکار - تنها در تیکت های جدید",
-    "macro_type_auto2"          => "به صورت خودکار - تمامی تیکت ها(برنامه ریزی شده)",
     "macro_condition"           => "شرایط ماکرو",
-    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets.",
     "macro_action"              => "عملیات های ماکرو",
     "macro_action_desc"         => "Define actions that are performed out when a macro is carried out. Please ensure actions are valid for the department the ticket is in or else they will be ignored.",
 
     "from"                      => "از",
     "to"                        => "به",
     "cc"                        => "CC",
-    "cc_desc"                   => "شما با وارد کردن cc می توانید افراد دیگری را برای دریافت ایمیل تیکت انتخاب کنید.",
 
     "allowed_files"             => "اجازه پیوست فایل",
 
@@ -221,8 +181,6 @@ return array(
 
     // Holidays
     "holiday"                   => "Holiday|Holidays",
-    "all_holidays"              => "All Holidays",
-    "specific_holidays"         => "Specific Holidays",
     "holiday_or_on_the"         => "or, on the",
     "holiday_month_year_desc"   => "Year is optional if the holiday is recurring. Select a year only if the holiday happens on this date in a particular year.",
 
@@ -260,7 +218,6 @@ return array(
     "set_status"                => "Set Status",
     "add_selfservice_link"      => "Add Self-Service Link",
     "search_selfservice"        => "Search for a self-service article",
-    "add_canned_response"       => "Add Canned Response",
     "search_canned"             => "Search for a canned response",
 
     "mark_resolved"             => "Mark as Resolved",
@@ -270,20 +227,19 @@ return array(
     "default_open_status"       => "Default Open Status",
 
     "default_resolve_status"    => "Default Resolved Status",
-    "default_resolve_status_desc"=> "Select the default status that is used for tickets that have been resolved.",
+    "default_resolve_status_desc" => "Select the default status that is used for tickets that have been resolved.",
 
-    "waiting_response_time"     => "Waiting for Response Email",
-    "waiting_response_time_desc"=> "The time after which users are sent an email on inactive tickets, asking if they consider the ticket to be resolved. Set to 0 to disable this email.",
+    "waiting_response_time"      => "Waiting for Response Email",
+    "waiting_response_time_desc" => "The time after which users are sent an email on inactive tickets, asking if they consider the ticket to be resolved. Set to 0 to disable this email.",
 
     "close_inactive_tickets"    => "Close Inactive Tickets",
-    "close_inactive_tickets_desc"=> "The time after which inactive tickets are automatically closed, set to 0 to never close tickets automatically.",
-    "close_inactive_status_desc"=> "Automatically close tickets that have become inactive without a follow up from the user (defined by the number of days since the last reply by an operator in the ticket general settings).",
+    "close_inactive_tickets_desc" => "The time after which inactive tickets are automatically closed, set to 0 to never close tickets automatically.",
 
     "ticket_reply_order"        => "Ticket Reply Order",
     "ticket_reply_order_desc"   => "Select the order in which ticket messages are shown, ascending where the latest message is last or descending where the latest message is first.",
 
     "ticket_notes_position"     => "Ticket Notes Position",
-    "ticket_notes_position_desc"=> "Select where in the ticket view that ticket notes are shown.",
+    "ticket_notes_position_desc" => "Select where in the ticket view that ticket notes are shown.",
     "ticket_notes_top_messages" => "At top and in messages",
     "ticket_notes_top"          => "At top only",
     "ticket_notes_messages"     => "In messages only",
@@ -305,7 +261,6 @@ return array(
     "default_priority_desc"     => "The default priority set on all incoming tickets via this channel.",
     "verbose_email_log"         => "Verbose Email Log",
 
-    "adjust_columns"            => "Adjust Columns",
     "last_reply"                => "Last Reply",
     "opened_at"                 => "Opened At",
 
@@ -325,25 +280,18 @@ return array(
     "merged"                    => "Merged",
     "unmerge"                   => "Unmerge",
     "close_and_lock"            => "Close & Lock",
-    "delete_and_block"          => "Delete & Block",
-
-    "block_warning"             => "The user's email will also be blocked and no longer able to open tickets.",
 
     "mass_reply"                => "Mass Reply",
-
-    "delete_warning"            => "Once these tickets have been deleted, they cannot be recovered.",
 
     "due_today"                 => "Due Today",
     "overdue"                   => "Overdue",
     "unassigned"                => "Unassigned",
 
     "pause_duetime_desc"        => "If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
-    "delete_follow_up"          => "Delete Follow Up",
 
     "add_cc"                    => "Add CC",
     "reply_above_line"          => "Please reply above this line",
 
-    "oauth2_token"              => "OAuth2 Token",
     "email_settings"            => "Email Settings",
     "web_settings"              => "Web Settings",
     "split_selected_replies"    => "Split Selected Replies",
@@ -364,9 +312,8 @@ return array(
      */
     "no_operator_groups"        => "No operator groups found. Click <a href=':route'>here</a> to create one.",
     "no_user_groups"            => "No user groups found. Click <a href=':route'>here</a> to create one.",
-    "opened_by"                 => "(Opened by :name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
-    "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
+
     /*
      * 2.0.3
      */
@@ -396,21 +343,17 @@ return array(
     "default_open_status_desc"  => "Select the default status that should be automatically set when a user opens a new ticket or replies to a ticket without an operator response yet.",
     "default_reply_status"      => "Default Reply Status",
     "default_reply_status_desc" => "Select the default status that should be automatically set when a user replies to a ticket, only applies after an operator has replied to the ticket.",
-    "drafting_reply"            => "<strong>:name</strong> started to draft a :type :time:",
     "ticket_reply_order_default" => "System default will use the value that is currently selected in the ticket general settings.",
     "select_a_parent"           => "Select a parent department...",
     "select_a_department"       => "Select a department...",
-    "not_assigned_brand"        => "Sorry, you're not permitted to view tickets in this brand. If you think this has been shown in error, please contact your administrator.",
     "department_operator_desc"  => "You may also assign individual operators to the department. These operators will be in addition to any groups assigned above.",
     "department_group"          => "Department Groups",
     "department_group_desc"     => "You may assign whole operator groups to the department, recommended if your list of operators is large and/or changes frequently.",
     "ticket_other_brands"       => "Tickets in Other Brands",
     "add_for_department"        => "Add for department...",
     "record_order"              => "Drag the rows to change the order of records.",
-    "ticket_token"              => "Ticket Token",
     "reply_all"                 => "Reply All",
     "reply_without_cc"          => "Reply (without CC)",
-    "open_new_for_user"         => "Open New Ticket For User",
     "email_accounts"            => "Email Accounts",
     "add_another_email"         => "Add Another Email Address",
     "follow_up_date"            => "Follow Up Date",
@@ -456,8 +399,6 @@ return array(
     "new_ticket_note"           => "New Ticket Note",
     "email_template_desc"       => "You may select an email template other than the default to be sent to the user or operators for any of the actions below. This template will become the default for this department only.",
     "create_new_user"           => "Create new user",
-    "create_new_user_desc"      => "Create a new user and set them as the user of this ticket.",
-    "convert_user_ticket_desc"  => "The ticket will be converted from an internal to a user ticket.",
     "user_reply_internal_ticket" => "Not an operator. Only operators can reply to internal tickets.",
     "enter_email_address"       => "Enter email address...",
     "email_user_frontend"       => "Email Users on Tickets Opened at Frontend",
@@ -468,7 +409,6 @@ return array(
     /*
      * 2.2.0
      */
-    "macro_order"               => "Automatic macros are processed in the order they appear. Drag the rows to change the order of the macros.",
     "user_ticket_existing_desc" => "Open new ticket on behalf of an existing user.",
     "canned_response_tag"       => "Canned Response Tag|Canned Response Tags",
     "response"                  => "Response|Responses",
@@ -478,5 +418,133 @@ return array(
     "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
     "run_macro"                 => "Run Macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
+
+    /*
+     * 2.3.0
+     */
+    "registered_users_desc"     => "Toggle to only import tickets from users with an account in the help desk.",
+    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here.",
+    "feedback_ratings"          => "Customer Satisfaction Ratings (affecting your Customer Satisfaction score)",
+    "email_and_other_accounts"  => "Email and other channel accounts",
+    "delete_message"            => "Delete message",
+    "linked_tickets"            => "Linked Tickets",
+    "add_linked_ticket"         => "Add Linked Ticket",
+    "create_linked_ticket"      => "Create linked ticket",
+    "copy_link"                 => "Copy link",
+    "forward_message"           => "Forward this message",
+    "forward_from_here"         => "Forward ticket from here",
+    "forward"                   => "Forward",
+    "forward_options"           => "Forward Options",
+    "forwarded_to"              => "Forwarded to",
+    "new_operator_reply"        => "New Operator Reply",
+    "new_user_reply"            => "New User Reply",
+    "add_bcc"                   => "Add BCC",
+    "at_least_one_recipient"    => "Please specify at least one recipient.",
+    "forwarded_message"         => "---------- Forwarded message ----------",
+
+    /*
+     * 2.3.1
+     */
+    "inactive_ticket_note"      => "Note: only affects tickets belonging to a status with 'Close Inactive Tickets' enabled.",
+    "close_inactive_status_desc" => "Automatically close tickets that have become inactive without a follow up from the user (defined by the number of days since the last reply by an operator in the ticket general settings).",
+    "from_header_missing"       => "From: header missing from email.",
+    "move_ticket"               => "Move Ticket",
+    "move_ticket_step1"         => "Step 1: Choose a new brand to move ticket to",
+    "move_ticket_step2"         => "Step 2: Choose a department from new brand",
+    "current_record"            => "Current :record",
+    "new_record"                => "New :record",
+    "department_email"          => "Department Email",
+    "select_a_department_email" => "Select a department email...",
+    "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
+    "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
+    "ticket_format_desc"        => "The following variables may be used:<br />%S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+
+    /*
+     * 2.4.0
+     */
+    "macro_enabled_desc"        => "Toggle to disable the macro and prevent it from running automatically or showing in the ticket interface.",
+    "macro_order_drag"          => "Drag the rows to change the order of the macros.",
+    "macro_order_processed"     => ":type macros are processed in the order they appear.",
+    "macro_type"                => "نوع ماکرو",
+    "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
+    "macro_run_at_most"         => "Run At Most",
+    "macro_run_times"           => "times", // As in '5 times'
+    "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
+    "macro_events_desc"         => "Select one or more events that the macro should run on. The conditions set below will be checked before the macro runs.",
+    "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
+    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets.",
+    "add_remove_headers"        => "Add/Remove Headers",
+    "webhook_merge_fields"      => "Merge fields can be used in the URL and content field, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
+    "webhook_ticket_required"   => "A ticket must exist for this functionality to work.",
+    "not_permitted"             => "Sorry, you're not permitted to view the requested ticket(s). If you think this has been shown in error, please contact your administrator.",
+    "watch"                     => "Watch",
+    "unwatch"                   => "Unwatch",
+    "watching"                  => "Watching",
+    "internal_ticket"           => "تیکت داخلی",
+
+    /*
+     * 2.4.1
+     */
+    "downloading"               => "Downloading...",
+    "downloading_desc"          => "If the download doesn't start automatically in a few seconds, please <a href=':href'>click here</a> to access the download URL directly.",
+
+    /*
+     * 2.5.0
+     */
+    "belonging_to"              => "(Belonging to :name)",
+    "block_user"                => "Block User",
+    "merge_tickets"             => "Merge Tickets",
+
+    /*
+     * 2.5.1
+     */
+    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
+
+    /*
+     * 2.6.0
+     */
+    "follow_ups"                => "Follow Ups",
+    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
+    "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
+    "status_after_running"      => "Status After Running",
+    "older_messages"            => ":count older messages",
+    "holiday_single_day"        => "Single Day",
+    "holiday_date_range"        => "Date Range",
+
+    /*
+     * 3.0.0
+     */
+    "merge_tickets_into"        => "Select ticket to merge into",
+    "search_number_or_subject"  => "Search by ticket number or subject",
+    "im_not_sure"               => "I'm not sure",
+    "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
+    "cc_desc"                   => "شما با وارد کردن cc می توانید افراد دیگری را برای دریافت ایمیل تیکت انتخاب کنید.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
 );

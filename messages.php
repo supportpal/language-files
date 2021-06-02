@@ -41,9 +41,6 @@ return array(
     "success_action"        => "عملیات مورد نظر با موفقیت انجام شد!",
     "error_action"          => "انجام عملیات مورد نظر با خطا مواجه شد!",
 
-    "success_sending"       => ":item با موفقیت ارسال شد!",
-    "error_sending"         => "ارسال :item با خطا مواجه شد",
-
     "error_embed_image"     => "آپلود عکس با خطا مواجه شد",
 
     "unauthorised"          => "غیر مجاز",
@@ -62,8 +59,6 @@ return array(
 
     "general_error"         => "خطایی رخ داده است. لطفا دوباره تلاش کنید.",
 
-    "mailer_error"          => "خطایی هنگام ارسال ایمیل با موضوع ':subject' بوجود آمد",
-
     "no_results"            => "نتیجه ای وجود ندارد",
 
     "assign_incomplete"     => "عملیات مورد نظر به طور کامل انجام نشد. تیکت نمی تواند به :names ارجاع داده شود",
@@ -73,19 +68,15 @@ return array(
     "invalid_captcha"       => "کد کپچای وارد شده صحیح نیست!",
     "blocked_as_spam"       => "درخواست شما به عنوان اسپم شناسایی شد! در صورتی که فکر می کنید اشتباهی رخ داده است لطفا با مدیر سیستم تماس بگیرید.",
     "account_exists"        => "اکانت فعالی با ایمیل وارد شده وجود دارد. لطفا وارد سیستم شده و یا از گزینه فراموشی رمز عبور برای به یاد آوردن پسورد استفاده کنید.",
-    "error_loading_comments"=> "مشکلی هنگام نمایش نظرات بوجود آمده است.",
+    "error_loading_comments" => "مشکلی هنگام نمایش نظرات بوجود آمده است.",
 
     "invalid_auth"          => "احراز هویت نامعتبر است.",
 
     "forbidden"             => "ممنوع",
 
-    "uncaught_exception"    => "<strong>مشکلی بوجود آمده است</strong><br />خطای ایجاد شده لاگ شد. لطفا به مدیریت سیستم اطلاع رسانی کنید.",
-
     "not_logged_exception"  => "<strong>مشکلی بوجود آمده است.</strong><br />لطفا به مدیر سیستم اطلاع رسانی کنید.",
 
     "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
-
-    "error_close_open"      => "خطا! لطفا یکبار بسته و مجددا باز کنید.",
 
     "not_operator"          => "Something went wrong. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
 
@@ -95,16 +86,15 @@ return array(
     "missing_extension"     => "افزونه یافت نشد",
     "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
     "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
-    
+
     /*
      * 2.0.3
      */
-    "warn_delete"           => "Once this record has been deleted, it cannot be recovered. Deleting this record may also affect other areas in the system where this record is currently being used.",
     "only_ssl_connections"  => "Only SSL connections are allowed, you should update your request to a secure connection.",
     "queued_emails"         => "Success - The emails will begin being queued and sent shortly.",
     "error_loading_message" => "An error occurred while loading the message. Please try again.",
     "please_refresh"        => "Please refresh the page.",
-    
+
     /*
      * 2.1.0
      */
@@ -113,8 +103,6 @@ return array(
     "warning"               => "Warning",
     "note"                  => "Note",
     "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
-    "template_subject_req"  => "The default email template subject field is required.",
-    "template_contents_req" => "The default email template contents field is required.",
 
     /*
      * 2.1.1
@@ -124,8 +112,46 @@ return array(
     "upload_wrong_type"     => "File type is not allowed",
 
     /*
-     * 2.1.2
+     * 2.3.0
      */
-    "field_required"        => "Field is required.",
+    "delete_record"         => "Delete :record?",
+    "cannot_be_undone"      => "This action cannot be undone.",
+    "warn_delete"           => "Once this record has been deleted, it cannot be recovered. Deleting this record may also affect other areas in the system where this record is currently being used.",
+    "delete_confirm"        => "Yes, Delete :record",
+    "keep_record"           => "No, Keep :record",
+    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
+    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
+    "failed_attachments"    => "Failed to attach some files.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Success - the email has been sent.",
+    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
+    "linked_account"        => "The social account has successfully been linked with your account.",
+    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Does this look correct?",
+    "no_revert"             => "No! Revert",
+    "attachment_not_found"  => "The attachment was not found.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
+    "leave_record"          => "Leave :record?",
+    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "success_trashed"       => "Successfully moved the :item to trash!",
+    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

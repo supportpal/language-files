@@ -8,7 +8,6 @@ return array(
     "account_active"                => "حساب فعال",
     "account_active_desc"           => "Toggle to enable and disable access to authenticated sections.",
 
-    "operator_settings"             => "تنظیمات اپراتور",
     "op_settings_dept_desc"         => "Select which departments the operator can view and reply to tickets in.",
 
     "organisation"                  => "سازمان | سازمان ها",
@@ -20,7 +19,6 @@ return array(
     "manage_organisation"           => "مدیریت سازمان",
     "leave_organisation"            => "ترک سازمان",
     "user_membership"               => "عضویت کاربر",
-    "organisation_no_longer"        => "این کاربر دیگر بخشی از این سازمان خواهد بود.",
     "transfer_ownership"            => "انتقال مالکیت",
     "transfer_ownership_desc"       => "As the current owner of the organisation, you cannot be removed as a manager and only you can delete the organisation. You may transfer the ownership of the organisation to someone else, be aware that this action cannot be reversed.",
     "transfer_ownership_operator"   => "Only the owner can delete the organisation and cannot be removed from it. Use this option to change the ownership to another user in the organisation.",
@@ -29,16 +27,9 @@ return array(
     "organisation_desc"             => "Each organisation can have <strong>managers</strong>, who can manage users and read and reply to other's tickets, and <strong>users</strong>, who can open tickets, but can't read or reply to other's tickets.",
     "organisation_operator_desc"    => "Add existing users to this organisation by clicking \"Add User\" and searching for their name, note that adding a user will remove any links they have with another organisation.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Can manage other users and view &amp; reply to other user's tickets.<br /><strong>User</strong> - Can only open tickets on behalf of organisation and reply to own tickets.",
-    "send_confirmation_email"       => "ارسال ایمیل تایید به کاربر",
     "send_password_reset"           => "ارسال لینک کلمه عبور",
 
     "profile"                       => "مشخصات",
-    "address"                       => "آدرس",
-    "city"                          => "شهر",
-    "state"                         => "محل سکونت",
-    "postcode"                      => "کدپستی",
-    "phone"                         => "شماره تلفن",
-    "website"                       => "آدرس وبسایت",
 
     "login"                         => "ورود",
     "remember_me"                   => "مرا به خاطر بسپار",
@@ -47,31 +38,16 @@ return array(
 
     "user_register_disabled"        => "با عرض پوزش، ثبت نام کاربر عمومی حال حاضر غیر فعال می باشد.",
     "success_register"              => "حساب با موفقیت ثبت شد!",
-    "success_register_desc"         => "Thank you for registering your account, you will just need to confirm your email address before you can login. We will shortly send you an email that contains a confirmation link to finish the process.",
     "register_now"                  => "اکنون ثبت نام کنید",
     "register"                      => "ثبت نام",
     "register_account"              => "ثبت نام حساب کاربری",
-    "register_confirm"              => "تائیدیه ثبت نام",
-    "register_confirm_desc"         => "Thank you for confirming your email, please enter a password for your account below to finish your account set up.",
-    "confirmation_success"          => "تایید موفقیت آمیز بود!",
-    "confirmation_unsuccessful"     => "تایید ناموفق بود.",
-    "thank_you_confirm"             => "با تشکر از شما برای تایید حساب شما. برای ادامه لطفا <a href=':route'>وارد شوید</a>.",
     "signed_up"                     => "ثبت نام",
     "last_active"                   => "آخرین فعالیت",
 
-    "reset_request"                 => "درخواست دریافت گذرواژه",
-    "reset_request_desc"            => "We will shortly send you an email that contains a confirmation link that will then let you reset the password.",
     "forgot_password"               => "رمز عبور خود را فراموش کرده اید?",
-    "password_reset"                => "بازیابی رمز عبور",
-    "password_reset_confirm"        => "تایید تنظیم مجدد",
     "reset_password"                => "تنظیم مجدد رمز عبور",
-    "password_reset_complete"       => "تنظیم مجدد با موفقیت انجام شد",
     "set_password"                  => "تنظیم رمز عبور",
-    "only_enter_to_change"          => "Only enter to change",
-    "success_pass_reset"            => "رمز عبور شما با موفقیت تنظیم مجدد شد.برای ادامه لطفا <a href=':route'>وارد شوید</a>.",
     "please_set_password"           => "لطفا رمز عبور جدید خود را تنظیم کنید.",
-    "emailed_pwd_reset_link"        => "لینک بازیابی رمز عبور به ایمیلتان ارسال گردید.",
-    "operator_email_not_found"      => "آدرس ایمیل اپراتور یافت نشد.",
     "missing_email_or_reset"        => "Missing email address or reset token.",
 
     "firstname"                     => "نام",
@@ -79,11 +55,9 @@ return array(
     "formatted_name"                => "نام فرمت",
     "country"                       => "کشور",
     "avatar"                        => "آواتار",
-    "generate_password"             => "تولید رمز عبور تصادفی",
     "confirm_password"              => "تکرار رمز عبور",
 
     "confirmed"                     => "تایید شده",
-    "confirmed_desc"                => "Toggle to enable and disable access to authenticated sections.",
     "unconfirmed"                   => "تایید نشده",
 
     "group"                         => "گروه کاربری | گروه های کاربری",
@@ -100,9 +74,9 @@ return array(
     "system_activity_log"           => "لاگ فعالیت سیستم",
     "activity_log"                  => "لاگ فعالیت",
 
-    "ban"                           => "مسدود|مسدودها",
-    "whitelist"                     => "لیست سفید",
-    "whitelisted"                   => "در لیست سفید",
+    "mass_email"                    => "Send Mass Email",
+    "send_email"                    => "Send Email",
+    "choose_template"               => "Choose template...",
 
     "ldap_account"                  => "اکانتLDAP|اکانت های LDAP",
     "ldap_operator_desc"            => "جستجو برای یک اپراتور موجود، و یا ایجاد یک اپراتور جدید.",
@@ -113,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN یا DN",
     "ldap_rdn_desc"                 => "نام برجسته برای نام کاربری LDAP, برای مثال: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP جزئیات",
-    "ldap_extension_missing"        => "اضافات php-ldap درحال حاظر تکمیل است و کاربران امکان ورود از طریق اکانت LDAP را ندارند.",
 
     "operator_details"              => "جزئیات اپراتور",
 
@@ -163,26 +136,17 @@ return array(
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "display_notifications"         => "نمایش اطلاعیه",
     "display_notifications_desc"    => "The system will poll for new tickets, replies and other operators logging in while you have the operator panel open. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
     "desktop_notifications"         => "اعلان های دسک تاپ",
     "browser_notifications"         => "اطلاعیه های مرورگر",
-    "operator_template"             => "قالب اپراتور",
 
     "search_for_user"               => "جستجو برای کاربر...",
     "select_operator"               => "انتخاب اپراتور...",
     "select_group"                  => "انتخاب گروه...",
 
     "your_ip_has_been_banned"       => "IP شما ممنوع شده.",
-    "password_reset_error"          => "User account or reset token not found, please verify details are correct or try to reset again.",
-    "password_reset_not_found"      => "کاربر یافت نشد و یا رمز عبور بازنشانی نمی شود.",
-    "password_reset_expired"        => "تاریخ رمز عبور منقضی شده است,لطفا برای تنظیم مجدد تلاش کنید.",
-    "password_reset_invalid"        => "توکن نامعتبر,لطفا بررسی کنید که جزئیات صحیح است و یا برای بازنشانی دوباره تلاش کنید.",
     "password_reset_success"        => "رمز عبور با موفقیت بازنشانی شد!",
-    "password_reset_already"        => "اکانت شما از قبلتایید شده است,اقدام به ورود کنید.",
-    "password_not_valid"            => "کلمه عبور معتبر نمی باشد.",
-    "invalid_reset_request"         => "درخواست تنظیم مجدد رمز عبور نامعتبر می باشد.",
 
     "simpleauth_token_expired"      => "دسترسی به توکن منقضی شده است.",
     "simpleauth_token_invalid"      => "نشانه دسترسی ارائه شده معتبر نیست.",
@@ -192,7 +156,7 @@ return array(
     /*
      * 2.0.2
      */
-    
+
     "email_history"                 => "Email History",
     "view_email"                    => "View Email",
 
@@ -202,7 +166,7 @@ return array(
     "ban_length"                    => "Length of IP Ban",
     "ban_length_desc"               => "The length of the IP ban when they reach the configured number of failed logins in a single day.",
     "n_failed_logins"               => ":count failed logins within 24 hours",
-    
+
     /*
      * 2.0.3
      */
@@ -224,7 +188,7 @@ return array(
     "manager_email_notifications_desc" => "If they should receive email notifications of updates to tickets opened by other users in the organisation.",
     "organisation_notifications_desc" => "If you'd like to receive email notifications of updates to tickets opened by other users in your organisation.",
     "select_operator_group_desc"    => "Please select at least one operator group for this operator.",
-    
+
     /*
      * 2.1.0
      */
@@ -264,19 +228,104 @@ return array(
     "current_password"              => "Current Password",
     "new_password"                  => "New Password",
     "personal_confirm_password"     => "Please confirm your current password to set a new password.",
-    "operator_confirm_password"     => "Please confirm your password to make changes to the operator account.",
-    "login_via_idp"                 => "Login via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Search for user/operator...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0
      */
     "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
     "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
+
+    /*
+     * 2.3.0
+     */
+    "remove_from"                   => "Remove From :record?",
+    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
+
+    /*
+     * 2.3.1
+     */
+    "social_login"                  => "Social Login",
+    "login_via"                     => "Log in via :provider",
+    "idp"                           => "IdP",
+    "social_linking_login"          => "Please log in to complete linking of your social account.",
+    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
+    "already_registered"            => "Already registered?",
+    "linked_accounts"               => "Linked Accounts",
+    "unlink_account"                => "Unlink :record Account",
+    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
+    "failed_login"                  => "Failed Login|Failed Logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+
+    /*
+     * 2.4.0
+     */
+    "must_have_permission"          => "must have \":permission\" permission",
+    "deleted_user"                  => "Deleted User",
+    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+
+    /*
+     * 2.4.1
+     */
+    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
+    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
+    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
+    "send_confirmation_email"       => "ارسال ایمیل تایید به کاربر",
+    "mark_as_confirmed"             => "Mark as Confirmed",
+    "password_reset_already"        => "اکانت شما از قبلتایید شده است,اقدام به ورود کنید.",
+    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
+    "success_register_desc"         => "Thank you for registering your account, you will just need to confirm your email address before you can login. We will shortly send you an email that contains a confirmation link to finish the process.",
+    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
+    "register_confirm_desc"         => "Thank you for confirming your email, please enter a password for your account below to finish your account set up.",
+    "thank_you_confirm"             => "با تشکر از شما برای تایید حساب شما. برای ادامه لطفا <a href=':route'>وارد شوید</a>.",
+    "use_gravatar"                  => "Use Gravatar",
+    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "confirmation"                  => "Confirmation",
+    "confirmation_email_in_use"     => "The email address is already in use by another account.",
+    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
+    "reset_request_desc"            => "We will shortly send you an email that contains a confirmation link that will then let you reset the password.",
+    "password_reset_error"          => "User account or reset token not found, please verify details are correct or try to reset again.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
+    "operator_message"              => "Operator Messages",
+    "force_two_fa"                  => "Force 2FA",
+    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
+    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
+    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );

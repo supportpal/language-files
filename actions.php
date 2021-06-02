@@ -26,8 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Delete ticket",
-    "delete_ticket_and_block"   => "Delete ticket and block user",
     "increase_due_time"         => "Increase due time",
     "close_and_lock_ticket"     => "Close and lock ticket",
     "pause_due_time"            => "Pause due time",
@@ -47,5 +45,37 @@ return array(
     "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
     "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
     "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
+
+    /*
+     * 2.3.0
+     */
+    "add_cc"                    => "Add CC email address",
+    "remove_cc"                 => "Remove CC email address",
+    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
+
+    /*
+     * 2.3.1
+     */
+    "exclude_cc"                => "Exclude CC email addresses",
+
+    /*
+     * 2.4.0
+     */
+    "trigger_webhook"           => "Trigger webhook",
+    "forward_ticket"            => "Forward ticket",
+    "watch_ticket"              => "Set operator to watch ticket",
+    "unwatch_ticket"            => "Unset operator watching ticket",
+    "all_watching_operators"    => "All watching operators",
+
+    /*
+     * 2.5.0
+     */
+    "move_to_trash"             => "Move ticket to trash",
+    "block_user"                => "Block user",
+
+    /*
+     * 2.6.0
+     */
+    "clear_due_time"            => "Clear due time",
 
 );
