@@ -33,16 +33,16 @@ jobs:
           ref: master
 
       - name: Sync translation files
-        run: |
-          language-tools sync ${{ matrix.path }} .
+        run: language-tools sync ${{ matrix.path }} .
 
       - name: Sync workflow files
-        run: |
-          cp -R ${{ matrix.path }}/.github/workflows/ .github/workflows/
+        run: cp -R ${{ matrix.path }}/.github/workflows/ .github/workflows/
 
       - name: Sync .gitignore
-        run: |
-          cp -R ${{ matrix.path }}/.gitignore .gitignore
+        run: cp ${{ matrix.path }}/.gitignore .gitignore
+
+      - name: Show changes
+        run: git status
 
       - name: Render template
         id: template
