@@ -73,8 +73,6 @@ return array(
     "url"                       => "The :attribute format is invalid.",
     "template_exists"           => "The selected :attribute is invalid.",
     "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_length"      => "The password must be equal to or longer than :user_password_length characters.",
-    "operator_password_length"  => "The password must be equal to or longer than :operator_password_length characters.",
     "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
     "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
 
@@ -115,7 +113,7 @@ return array(
     "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
     "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
     "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => 'The :attribute field has a duplicate value.',
+    "distinct"                  => "The :attribute field has a duplicate value.",
     "file"                      => "The :attribute must be a file.",
     "filled"                    => "The :attribute field must have a value.",
     "gt"                        => array(
@@ -165,6 +163,22 @@ return array(
     "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
 
     /*
+     * 3.0.0
+     */
+    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
+    "starts_with"               => "The :attribute must start with one of the following: :values.",
+
+    /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
+     * 3.5.0
+     */
+    'phone'                     => "The supplied phone number is invalid.",
+
+    /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
     |--------------------------------------------------------------------------
@@ -183,7 +197,7 @@ return array(
             "required" => "One or more self-service types must be selected.",
         ),
         "category.*.categories" => array(
-            'required' => "One or more categories are required when a self-service type has been selected.",
+            "required" => "One or more categories are required when a self-service type has been selected.",
             "exists"   => "One or more of the selected categories is invalid.",
         ),
         "brand.*" => array(

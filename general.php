@@ -18,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Son Çalışma",
     "unknown"                   => "Bilinmeyen",
-    "optional"                  => "isteğe bağlı",
-    "received"                  => "Alınan",
-    "unanswered"                => "Cevaplanmamış",
-    "in_queue"                  => "Sırada",
     "open"                      => "Açık",
     "pending"                   => "Bekliyor",
     "continue"                  => "Devam et",
@@ -79,7 +75,6 @@ return array(
     "disable"                   => "Devre Dışı",
     "home"                      => "Ana Sayfa",
     "navigation"                => "",
-    "column"                    => "Kolon | Sütunlar",
     "action"                    => "Aksiyon | Eylemler",
     "value"                     => "Değer",
     "when"                      => "Ne Zaman",
@@ -97,10 +92,7 @@ return array(
     "active"                    => "Aktif",
     "validate_auth"             => "Kimlik Doğrulaması ",
     "end"                       => "Son",
-    "current"                   => "Şimdiki",
     "loading"                   => "Yükleniyor",
-    "processing"                => "İşleme",
-    "code"                      => "Kod",
     "maintenance"               => "Bakım",
     "status"                    => "Durum | Durumları",
     "count"                     => "Miktar",
@@ -161,13 +153,10 @@ return array(
     "by"                        => "tarafından",
     "record"                    => "kayıt",
     "views"                     => "Görüntüleme",
-    "if_exists"                 => "if exists",
     "of"                        => "of",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "out of",
     "to"                        => "to",            // Used in a range e.g. 2 to 5
 
     // Languages
- //   "language"                  => "Language|Languages",
     "language"                  => "Dil",
     "default_language"          => "Default Language",
     "language_toggle"           => "Language Dropdown",
@@ -180,6 +169,7 @@ return array(
     "custom_hours"              => "Özel Saatler",
     "day"                       => "Gün | Günleri",
     "month"                     => "Yıl|Yıllar",
+    "year"                      => "Year|Years",
 
     "editor"                    => "Editor",
 
@@ -203,7 +193,6 @@ return array(
     "recently_used"             => "Son zamanlarda kullanılmış",
     "recently_created"          => "Son Oluşturulan",
     "load_more"                 => "Daha fazla yükle",
-    "clear_selected"            => "Seçilenleri temizle",
     "expand_all"                => "Hepsini Genişlet",
     "collapse_all"              => "Hepsini Daralt",
     "show_more"                 => "Daha fazla göster",
@@ -323,5 +312,77 @@ return array(
      * 2.6.0
      */
     "remove_all"                => "Hepsini kaldır",
+
+    /*
+     * 3.0.0
+     */
+    "previous"                  => "Previous",
+    "neutral"                   => "Neutral",
+    "and"                       => "and",            // Used in "A and B"
+    "optional"                  => "isteğe bağlı",
+    "january"                   => "January",
+    "february"                  => "February",
+    "march"                     => "March",
+    "april"                     => "April",
+    "may"                       => "May",
+    "june"                      => "June",
+    "july"                      => "July",
+    "august"                    => "August",
+    "september"                 => "September",
+    "october"                   => "October",
+    "november"                  => "November",
+    "december"                  => "December",
+    "jan"                       => "Jan",
+    "feb"                       => "Feb",
+    "mar"                       => "Mar",
+    "apr"                       => "Apr",
+    "jun"                       => "Jun",
+    "jul"                       => "Jul",
+    "aug"                       => "Aug",
+    "sep"                       => "Sep",
+    "oct"                       => "Oct",
+    "nov"                       => "Nov",
+    "dec"                       => "Dec",
+    "mon"                       => "Mon",
+    "tue"                       => "Tue",
+    "wed"                       => "Wed",
+    "thu"                       => "Thu",
+    "fri"                       => "Fri",
+    "sat"                       => "Sat",
+    "sun"                       => "Sun",
+    "ordinal_th"                => "th",
+    "ordinal_st"                => "st",
+    "ordinal_nd"                => "nd",
+    "ordinal_rd"                => "rd",
+    "range_separator"           => " to ",
+    "week_abbr"                 => "Wk",
+    "scroll_to_increment"       => "Scroll to increment",
+    "click_to_toggle"           => "Click to toggle",
+    "am"                        => "AM",
+    "pm"                        => "PM",
+    "viewing"                   => "Viewing",
+
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );

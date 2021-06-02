@@ -23,7 +23,6 @@ return array(
     "due_time"                  => "Teslim Süresi",
     "created_time"              => "Oluşturma Zamanı",
     "submitted"                 => "Gönderilen",
-    "add_reply"                 => "Cevap Ekle",
     "ticket_reply"              => "Talep Cevabı",
     "ticket_note"               => "Talep Notu",
     "ticket_type"               => "Talep Tipi",
@@ -60,7 +59,6 @@ return array(
     "department_applicable"     => "Uygulanabilir Departmanlar",
     "department_applicable_desc" => "Önceliğin kullanıcıların seçebileceği bölümler. Yalnızca kullanıcı arabirimi için geçerlidir, tüm öncelikler tüm departmanlar için operatörlere açık olacaktır.",
 
-    "due_to_be_sent"            => "Gönderilecek",
     "send_now"                  => "Şimdi gönder",
 
     "tag"                       => "Etiket | Etiketler",
@@ -70,10 +68,6 @@ return array(
 
     // Recent activity
     "recent_activity"           => "Son Etkinlik",
-    "no_recent_activity"        => "Yeni Aktivite yok",
-
-    // Active operators
-    "active_operators"          => "Aktif Operatörler",
 
     "ticket_number"             => "Talep Ref No",
     "ticket_format"             => "Talep Ref No Format",
@@ -90,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Departman için e-posta adresleri ayarlayın, bu e-posta adreslerine gelen tüm e-postalar bu departmanda bilet açar. İlk e-posta adresi, giden e-postalar için varsayılan gönderen e-posta adresi olarak kullanılır.",
-    "department_password"       => "Yalnızca mevcut kaydedilmiş şifreyi değiştirmek veya e-posta hesabı ayrıntılarını doğrulamak için bir şifre girin.",
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Bazı e-posta sağlayıcıları bağlanmak için SSL veya TLS şifrelemesine gereksinim duyarlar, bu ayarı Yok olarak bırakın.",
     "department_delete_mail"    => "If using IMAP, you can choose to not delete emails on the server after they've been imported as tickets.",
     "protocol"                  => "Protocol",
     "server"                    => "Mail Server",
     "port"                      => "Port",
-    "username"                  => "Username",
-    "password"                  => "Password",
     "encryption"                => "Encryption",
     "delete_downloaded"         => "Delete Downloaded Email",
     "consume_all"               => "Consume All Email",
@@ -115,7 +106,6 @@ return array(
     "email_operators_desc"      => "Select whether to forward operator replies to other operators. By default checks the \"email operators\" option in the operator panel, and will automatically send an email for email replies by operators.",
     // Department email templates
     "new_ticket_opened"         => "Yeni Talep Açıldı",
-    "reply_to_locked"           => "Kilitli Talebi Yanıtla",
     "waiting_for_response"      => "Yanıt Bekliyor",
     "ticket_auto_closed"        => "Talep Otomatik Kapatıldı",
     "closed_by_operator"        => "Operatör Tarafından Kapatıldı",
@@ -134,21 +124,14 @@ return array(
     "form_conditions"           => "Form Conditions",
     "form_conditions_desc"      => "Define the ticket conditions for which newly resolved tickets are checked to see if they fall under this form. If a resolved ticket fits multiple forms, it will be selected on the form priority, which can be modified by going to the list of forms and reordering.",
     "form_fields"               => "Form Fields",
-    "response_rate"             => "Response Rate",
-    "sent_forms"                => "Sent Feedback Forms",
     "rating"                    => "Rating",
-    "good_ratings"              => "Good Ratings",
-    "bad_ratings"               => "Bad Ratings",
-    "customer_satisfaction"     => "Customer Satisfaction",
     "feedback_desc"             => "Thank you for contacting us and we hope we have resolved your query. Please could you rate your experience below.",
     "good_satisfied"            => "Good, I'm satisfied",
     "bad_not_satisfied"         => "Bad, I'm unsatisfied",
     "feedback_not_found"        => "Your feedback could not be accepted, please open a ticket with us if you wish to share your feedback.",
     "feedback_malformed_token"  => "Your feedback could not be accepted due to a malformed token. Please open a ticket with us if you wish to share your feedback.",
-    "feedback_already_done"     => "You have already provided your feedback for this ticket, thank you.",
     "feedback_expired"          => "The ticket has been resolved for a while, and it can unfortunately no longer be rated.",
     "feedback_questions"        => "If you could spare a few moments, please answer the following questions to help us further improve the support that we offer.",
-    "feedback_thank_you"        => "Thank you for providing your feedback on this ticket.",
     "feedback_for_ticket"       => "Feedback for Ticket #:number",
     "feedback_rating_desc"      => "The support received on this ticket has been rated as <strong>:rating</strong> by the user.",
 
@@ -166,8 +149,6 @@ return array(
 
     // Macros
     "macro"                     => "Macro|Macros",
-    "macro_type"                => "Macro Type",
-    "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
     "macro_condition"           => "Macro Conditions",
     "macro_action"              => "Macro Actions",
     "macro_action_desc"         => "Define actions that are performed out when a macro is carried out. Please ensure actions are valid for the department the ticket is in or else they will be ignored.",
@@ -175,7 +156,6 @@ return array(
     "from"                      => "Kimden",
     "to"                        => "Kime",
     "cc"                        => "Bilgi",
-    "cc_desc"                   => "Yukarıdaki e-posta adreslerini girerek diğer kişileri bu talebe yönlendirebilirsiniz.",
 
     "allowed_files"             => "İzin Verilen Ek Dosya Türleri",
 
@@ -281,7 +261,6 @@ return array(
     "default_priority_desc"     => "Bu kanal üzerinden gelen tüm biletler için ayarlanan varsayılan öncelik.",
     "verbose_email_log"         => "Ayrıntılı E-posta Günlüğü",
 
-    "adjust_columns"            => "Sütunları Ayarla",
     "last_reply"                => "Yanıtlanan",
     "opened_at"                 => "Şurada açıldı",
 
@@ -302,8 +281,6 @@ return array(
     "unmerge"                   => "Unmerge",
     "close_and_lock"            => "Kapat ve Kilitle",
 
-    "block_warning"             => "Kullanıcının e-postası da engellenir ve artık talep açamaz.",
-
     "mass_reply"                => "Toplu Yanıt",
 
     "due_today"                 => "Bugün süresi doluyor",
@@ -311,10 +288,9 @@ return array(
     "unassigned"                => "Atanmayanlar",
 
     "pause_duetime_desc"        => "Bu talebin etkin bir SLA planı varsa, takip tarihinden sonra kalan kalan süreyi duraklatın. Teslim süresi ancak talebe bir cevap veya not eklendikten sonra tekrar başlayacaktır (takip dahil).",
-    "delete_follow_up"          => "İzlemeyi Sil",
 
     "add_cc"                    => "CC Ekle",
-//    "reply_above_line"          => "Lütfen bu satırın üstünde cevap verin",
+    "reply_above_line"          => "Please reply above this line",
 
     "email_settings"            => "E Posta Ayarları",
     "web_settings"              => "Web Ayarları",
@@ -367,7 +343,6 @@ return array(
     "default_open_status_desc"  => "Bir kullanıcı yeni bir talep açtığında veya henüz bir operatör yanıt vermeden bir talebe yanıt verdiğinde otomatik olarak ayarlanması gereken varsayılan durumu seçin.",
     "default_reply_status"      => "Varsayılan Yanıt Durumu",
     "default_reply_status_desc" => "Bir kullanıcı bir talebe yanıt verdiğinde otomatik olarak ayarlanması gereken varsayılan durumu seçin, ancak bir operatör talebe yanıt verdikten sonra uygulanır.",
-    "drafting_reply"            => "<strong>:name</strong> started to draft a :type :time:",
     "ticket_reply_order_default" => "Sistem varsayılanı, talep genel ayarlarında seçili olan değeri kullanır.",
     "select_a_parent"           => "Bir ana departman seçin...",
     "select_a_department"       => "Departmanı Seçin...",
@@ -377,10 +352,8 @@ return array(
     "ticket_other_brands"       => "Diğer Markalarda Talepler",
     "add_for_department"        => "Departman için ekle...",
     "record_order"              => "Kayıtların sırasını değiştirmek için satırları sürükleyin.",
-    "ticket_token"              => "Talep Simgesi",
     "reply_all"                 => "Hepsini Cevapla",
     "reply_without_cc"          => "Yanıtla (CC olmadan)",
-    "open_new_for_user"         => "Kullanıcı için Yeni Talep Aç",
     "email_accounts"            => "E-posta Hesapları",
     "add_another_email"         => "Başka Bir E mail Adresi Ekle",
     "follow_up_date"            => "Takip Tarihi",
@@ -456,7 +429,6 @@ return array(
     "delete_message"            => "Delete message",
     "linked_tickets"            => "Linked Tickets",
     "add_linked_ticket"         => "Add Linked Ticket",
-    "add_linked_ticket_desc"    => "Search by ticket number or subject:",
     "create_linked_ticket"      => "Create linked ticket",
     "copy_link"                 => "Copy link",
     "forward_message"           => "Forward this message",
@@ -522,7 +494,6 @@ return array(
     "belonging_to"              => "(Belonging to :name)",
     "block_user"                => "Block User",
     "merge_tickets"             => "Merge Tickets",
-    "merge_tickets_confirm"     => "Please confirm you'd like to merge the following tickets:",
 
     /*
      * 2.5.1
@@ -539,5 +510,41 @@ return array(
     "older_messages"            => ":count older messages",
     "holiday_single_day"        => "Single Day",
     "holiday_date_range"        => "Date Range",
+
+    /*
+     * 3.0.0
+     */
+    "merge_tickets_into"        => "Select ticket to merge into",
+    "search_number_or_subject"  => "Search by ticket number or subject",
+    "im_not_sure"               => "I'm not sure",
+    "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
+    "cc_desc"                   => "Yukarıdaki e-posta adreslerini girerek diğer kişileri bu talebe yönlendirebilirsiniz.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
 );
