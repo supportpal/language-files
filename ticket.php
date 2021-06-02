@@ -290,7 +290,7 @@ return array(
     "pause_duetime_desc"        => "Bu talebin etkin bir SLA planı varsa, takip tarihinden sonra kalan kalan süreyi duraklatın. Teslim süresi ancak talebe bir cevap veya not eklendikten sonra tekrar başlayacaktır (takip dahil).",
 
     "add_cc"                    => "CC Ekle",
-    "reply_above_line"          => "Please reply above this line",
+    "reply_above_line"          => "Lütfen bu satırın üstünde cevap verin",
 
     "email_settings"            => "E Posta Ayarları",
     "web_settings"              => "Web Ayarları",

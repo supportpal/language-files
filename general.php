@@ -157,7 +157,7 @@ return array(
     "to"                        => "to",            // Used in a range e.g. 2 to 5
 
     // Languages
-    "language"                  => "Dil",
+    "language"                  => "Dil|Diller",
     "default_language"          => "Default Language",
     "language_toggle"           => "Language Dropdown",
 
@@ -168,8 +168,8 @@ return array(
     "hour"                      => "Saat|Saatler",
     "custom_hours"              => "Özel Saatler",
     "day"                       => "Gün|Günleri",
-    "month"                     => "Yıl|Yıllar",
-    "year"                      => "Year|Years",
+    "month"                     => "Ay|Aylar",
+    "year"                      => "Yıl|Yıllar",
 
     "editor"                    => "Editor",
 
