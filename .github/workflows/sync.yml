@@ -1,4 +1,4 @@
-name: Sync Files
+name: Sync Branches
 
 on:
   push:
@@ -9,11 +9,57 @@ jobs:
   sync:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        branch: ['de', 'es', 'fa', 'fr', 'nl', 'pt_BR', 'ru', 'sv', 'tr']
+        path: ['614ed54b-7b88-4936-a3a2-e1a84669010a']
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Sync files
-        uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ secrets.GH_TOKEN }}
+          ref: ${{ matrix.branch }}
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0
+          tools: composer:v2, supportpal/language-tools
+
+      - name: Check out English branch
+        uses: actions/checkout@v2
+        with:
+          path: ${{ matrix.path }}
+          ref: master
+
+      - name: Sync translation files
+        run: |
+          php vendor/bin/language-tools sync ${{ matrix.path }} .
+
+      - name: Sync workflow files
+        run: |
+          cp -R ${{ matrix.path }}/.github/workflows/ .github/workflows/
+
+      - name: Sync .gitignore
+        run: |
+          cp -R ${{ matrix.path }}/.gitignore .gitignore
+
+      - name: Render template
+        id: template
+        uses: chuhlomin/render-template@v1.2
+        with:
+          template: .github/sync-template.md
+          vars: |
+            GITHUB_RUN_ID: ${{ env.GITHUB_RUN_ID }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          base: ${{ matrix.branch }}
+          delete-branch: true
+          title: '[${{ matrix.branch }}] 🔄 Synchronised with master'
+          body: ${{ steps.template.outputs.result }}
+          commit-message: '🔄 Synchronised with master'
+          labels: |
+            sync
