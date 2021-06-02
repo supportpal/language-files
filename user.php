@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Konto aktivt",
     "account_active_desc"           => "Växla för att aktivera eller avaktivera tillgång till autentiserade sektioner.",
 
-    "operator_settings"             => "Operatörinställningar",
     "op_settings_dept_desc"         => "Välj vilka avdelningar operatören kan titta och svara på ärenden i",
 
     "organisation"                  => "Organisation|Organisationer",
@@ -28,16 +27,9 @@ return array(
     "organisation_desc"             => "Varje organisation kan ha <strong>chefer</strong> som kan hantera användare och läsa och svara andras ärenden och <strong>användare</strong> som kan öppna ärenden men inte läsa eller svara på andra ärenden.",
     "organisation_operator_desc"    => "Lägg till existerande användare till denna organisation genomn att klicka på \"Lägg till användare\" och sök efter deras namn. Notera att skapandet av en användare tar bort kopplingar de kan ha med en annan organisation.",
     "organisation_user_desc"        => "<strong>Chef</strong> - kan hantera andra användare och läsa och svara andra användares ärenden.<br /><strong>Användare</strong> - kan bara öppna ärenden på uppdrag av organisationen och svara på egna ärenden.",
-    "send_confirmation_email"       => "Skicka konfirmeringse-post till användaren",
     "send_password_reset"           => "Skicka lösenordåterställningslänk",
 
     "profile"                       => "Profil",
-    "address"                       => "Adress",
-    "city"                          => "Stad",
-    "state"                         => "State",
-    "postcode"                      => "Postkod",
-    "phone"                         => "Telefonnummer",
-    "website"                       => "Hemsida",
 
     "login"                         => "Logga in",
     "remember_me"                   => "Kom ihåg mig",
@@ -46,31 +38,16 @@ return array(
 
     "user_register_disabled"        => "Publik användarregistrering är för närvarande avaktiverad.",
     "success_register"              => "Konto registrerat!",
-    "success_register_desc"         => "Tack för att har registrerat ett konto. Du måste bekräfta din e-postadress innan du kan logga in. Vi kommer snart att skicka ett e-postmeddelande med en bekräftelselänk.",
     "register_now"                  => "Registrera nu",
     "register"                      => "Registrera",
     "register_account"              => "Registrera konto",
-    "register_confirm"              => "Registreringsbekräftelse",
-    "register_confirm_desc"         => "Tack för att du bekräftade din e-postadress. Skriv in ett lösenord för ditt konto nedan för att slutföra processen.",
-    "confirmation_success"          => "Bekräftelse lyckades!",
-    "confirmation_unsuccessful"     => "Bekräftelse misslyckades.",
-    "thank_you_confirm"             => "Tack för att du bekräftade ditt konto. Fortsätt till <a href=':route'>inloggning</a>.",
     "signed_up"                     => "Anmäld",
     "last_active"                   => "Senast aktiv",
 
-    "reset_request"                 => "Lösenordåterställningsbegäran mottagen",
-    "reset_request_desc"            => "Vi kommer inom kort skicka ett e-postmeddelande som innehåller en bekräftelselänk som låter dig återställa ditt lösenord.",
     "forgot_password"               => "Glömt lösenord?",
-    "password_reset"                => "Lösenord återställt",
-    "password_reset_confirm"        => "Återställningsbekräftelse",
     "reset_password"                => "Återställ lösenord",
-    "password_reset_complete"       => "Återställning slutförd",
     "set_password"                  => "Sätt ett lösenord",
-    "only_enter_to_change"          => "Skriv bara in för att ändra",
-    "success_pass_reset"            => "Ditt lösenord har återställts. Fortsätt till <a href=':route'>logga in</a>.",
     "please_set_password"           => "Skriv in ditt nya lösenord här nedan.",
-    "emailed_pwd_reset_link"        => "Vi har skickat ett e-postmeddelande med en återställningslänk.",
-    "operator_email_not_found"      => "Operatörens e-postadress hittades inte.",
     "missing_email_or_reset"        => "E-postadressen saknas eller har ingen återställningstoken.",
 
     "firstname"                     => "Förnamn",
@@ -78,11 +55,9 @@ return array(
     "formatted_name"                => "Formaterat namn",
     "country"                       => "Land",
     "avatar"                        => "Avatar",
-    "generate_password"             => "Generera slumpmässigt lösenord",
     "confirm_password"              => "Bekräfta lösenord",
 
     "confirmed"                     => "Bekräftat",
-    "confirmed_desc"                => "Växla för att aktivera eller avaktivera tillgång till autentiserade sektioner.",
     "unconfirmed"                   => "Obekräftat",
 
     "group"                         => "Användargrupp|Användargrupper",
@@ -112,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN eller DN",
     "ldap_rdn_desc"                 => "Det distingerade för LDAP-användarnamnet, till exempel: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP-detaljer",
-    "ldap_extension_missing"        => "php-ldap-förlängningen är för närvarande inte laddad. Användare kommer inte att kunna logga in via LDAP.",
 
     "operator_details"              => "Operatördetaljer",
 
@@ -162,26 +136,17 @@ return array(
     "two_fa_code"                   => "2FA-kod",
     "two_fa_secret"                 => "2FA-hemlighet",
     "two_fa_secret_desc"            => "Förvara detta på en säker plats då du kommer att behöva detta för att lägga in autentiseringskontot igen om du skulle förlora åtkomst.",
-    "two_fa_verify_desc"            => "Ladda ner och installera en av följande applikationer och skanna QR-koden eller skriv in den hamliga nyckeln. Detta kommer att sätta upp ditt konto på din enhet. Sedan kommer du att kunna visa kontot och det kommer att genereras en en sexsiffrig kod som du måste skriva in ovan för att verifiera och slutföra uppsättandet. Säkerställ att du klickar verifiera innan innan koden löper ut.  Din servertid kommer behövas vara i synk med en NTP-server för att fungera korrekt.",
     "display_notifications"         => "Visa notifikationer",
     "display_notifications_desc"    => "Systemet kommer polla nya ärenden, svar och andra operatörer som loggar in medan du har operatörspanel öppen. Du kan välja mellan skrivbordsnotifieringar, webbläsarnotifieringar och att avaktivera det helt.",
     "desktop_notifications"         => "Skrivbordsnotifikationer",
     "browser_notifications"         => "Webbläsarnotifikationer",
-    "operator_template"             => "Operatörsmall",
 
     "search_for_user"               => "Sök efter användare...",
     "select_operator"               => "Välj en operatör...",
     "select_group"                  => "Välj en grupp...",
 
     "your_ip_has_been_banned"       => "Din IP har bannlysts.",
-    "password_reset_error"          => "Användarkontot eller återställningstoken hittades inte. Verifiera att detaljerna är korrekta eller försök att återställa igen.",
-    "password_reset_not_found"      => "Användaren hittades inte eller så kunde inte lösenordet återställas.",
-    "password_reset_expired"        => "Token har gått ut, försök igen.",
-    "password_reset_invalid"        => "Ogiltig token. Verifiera att detaljerna är korrekta eller försök igen.",
     "password_reset_success"        => "Lösenord återställt!",
-    "password_reset_already"        => "Du har redan bekräftat ditt konto och kan logga in.",
-    "password_not_valid"            => "Lösenorden är inte giltiga eller inte likadana.",
-    "invalid_reset_request"         => "Ogiltig lösenordåterställningsbegäran.",
 
     "simpleauth_token_expired"      => "Tillgångstoken har utgått.",
     "simpleauth_token_invalid"      => "Den tillhandahållna tillgångstoken är ogiltig.",
@@ -263,14 +228,11 @@ return array(
     "current_password"              => "Nuvarande lösenord",
     "new_password"                  => "Nytt lösenord",
     "personal_confirm_password"     => "Bekräfta nuvarande lösenord för att sätta ett nytt.",
-    "operator_confirm_password"     => "Bekräfta lösenord för att ändra operatörskontot.",
-    "login_via_idp"                 => "Logga in via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Sök efter användare/operatör...",
-    "two_fa_personal_settings"      => "Operatören kan aktivera 2FA i sina personliga inställningar.",
 
     /*
      * 2.2.0
@@ -283,5 +245,87 @@ return array(
      */
     "remove_from"                   => "Ta bort Från :record?",
     "remove_from_warn"              => "Detta kommer permanent ta bort <strong>:name</strong> användaren från :record.",
+
+    /*
+     * 2.3.1
+     */
+    "social_login"                  => "Social Login",
+    "login_via"                     => "Log in via :provider",
+    "idp"                           => "IdP",
+    "social_linking_login"          => "Please log in to complete linking of your social account.",
+    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
+    "already_registered"            => "Already registered?",
+    "linked_accounts"               => "Linked Accounts",
+    "unlink_account"                => "Unlink :record Account",
+    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
+    "failed_login"                  => "Failed Login|Failed Logins",
+    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+
+    /*
+     * 2.4.0
+     */
+    "must_have_permission"          => "must have \":permission\" permission",
+    "deleted_user"                  => "Deleted User",
+    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+
+    /*
+     * 2.4.1
+     */
+    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+
+    /*
+     * 2.5.0
+     */
+    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
+    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
+    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
+    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
+    "send_confirmation_email"       => "Skicka konfirmeringse-post till användaren",
+    "mark_as_confirmed"             => "Mark as Confirmed",
+    "password_reset_already"        => "Du har redan bekräftat ditt konto och kan logga in.",
+    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
+    "success_register_desc"         => "Tack för att har registrerat ett konto. Du måste bekräfta din e-postadress innan du kan logga in. Vi kommer snart att skicka ett e-postmeddelande med en bekräftelselänk.",
+    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
+    "register_confirm_desc"         => "Tack för att du bekräftade din e-postadress. Skriv in ett lösenord för ditt konto nedan för att slutföra processen.",
+    "thank_you_confirm"             => "Tack för att du bekräftade ditt konto. Fortsätt till <a href=':route'>inloggning</a>.",
+    "use_gravatar"                  => "Use Gravatar",
+    "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
+
+    /*
+     * 2.6.0
+     */
+    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "confirmation"                  => "Confirmation",
+    "confirmation_email_in_use"     => "The email address is already in use by another account.",
+    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
+    "reset_request_desc"            => "Vi kommer inom kort skicka ett e-postmeddelande som innehåller en bekräftelselänk som låter dig återställa ditt lösenord.",
+    "password_reset_error"          => "Användarkontot eller återställningstoken hittades inte. Verifiera att detaljerna är korrekta eller försök att återställa igen.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
+    "operator_message"              => "Operator Messages",
+    "force_two_fa"                  => "Force 2FA",
+    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
+    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
+    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Ladda ner och installera en av följande applikationer och skanna QR-koden eller skriv in den hamliga nyckeln. Detta kommer att sätta upp ditt konto på din enhet. Sedan kommer du att kunna visa kontot och det kommer att genereras en en sexsiffrig kod som du måste skriva in ovan för att verifiera och slutföra uppsättandet. Säkerställ att du klickar verifiera innan innan koden löper ut.  Din servertid kommer behövas vara i synk med en NTP-server för att fungera korrekt.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );

@@ -5,7 +5,6 @@ return array(
     "clear"                     => "Ta bort",
     "begin"                     => "Börja",
     "documentation"             => "Dokumentation",
-    "forums"                    => "Forum",
     "good"                      => "Bra",
     "bad"                       => "Dåligt",
     "expire"                    => "Upphöra",
@@ -19,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Senast körd",
     "unknown"                   => "Okänd",
-    "optional"                  => "frivillig",
-    "received"                  => "Mottagen",
-    "unanswered"                => "Obesvarad",
-    "in_queue"                  => "I kö",
     "open"                      => "Öppen",
     "pending"                   => "Inväntar",
     "continue"                  => "Fortsätt",
@@ -42,7 +37,6 @@ return array(
     "time"                      => "Tid",
     "id"                        => "ID",
     "log"                       => "Logga",
-    "event"                     => "Händelse",
     "filter"                    => "Filter",
     "ip_address"                => "IP-address",
     "ip"                        => "IP",
@@ -65,9 +59,6 @@ return array(
     "remove"                    => "Ta bort",
     "required"                  => "Nödvändig",
     "enabled"                   => "Aktiverad",
-    "modified"                  => "Modifierad",
-    "change"                    => "Änrad",
-    "no_change"                 => "Ingen ändring",
     "registered"                => "Registrerad",
     "username"                  => "Användarnamn",
     "password"                  => "Lösenord",
@@ -84,7 +75,6 @@ return array(
     "disable"                   => "Avaktivera",
     "home"                      => "Hem",
     "navigation"                => "Navigation",
-    "column"                    => "Kolumn|Kolumner",
     "action"                    => "Handling|Handlingar",
     "value"                     => "Värde",
     "when"                      => "När",
@@ -102,10 +92,7 @@ return array(
     "active"                    => "Aktiv",
     "validate_auth"             => "Validera autentisering",
     "end"                       => "Slut",
-    "current"                   => "Nuvarande",
     "loading"                   => "Laddar",
-    "processing"                => "Bearbetar",
-    "code"                      => "Kod",
     "maintenance"               => "Underhäll",
     "status"                    => "Status|Status",
     "count"                     => "Sammanräkning",
@@ -115,7 +102,6 @@ return array(
     "reply"                     => "Svara",
     "filter_results"            => "Filtrera resultat",
     "anyone"                    => "Någon",
-    "everyone"                  => "Alla",
     "text"                      => "Text",
     "attachment"                => "Bilaga|Bilagor",
     "add_attachment"            => "Lägg till bilaga",
@@ -132,7 +118,6 @@ return array(
     "content_sender"            => "Innehåll &amp; avsändare",
     "permissions"               => "Behörigheter",
     "no_permissions_found"      => "Inga behörigheter funna",
-    "check_uncheck_all"         => "Bocka i / avbocka alla",
     "first"                     => "Första",
     "second"                    => "Andra",
     "third"                     => "Tredje",
@@ -156,8 +141,6 @@ return array(
     "due"                       => "Förfaller",
     "overdue"                   => "Försenad",
     "hours_before_overdue"      => "Timmar innan försenad",
-    "add_rule"                  => "Lägg till regel",
-    "new"                       => "Ny",
     "transfer"                  => "Överför",
     "view_all"                  => "Visa alla",
     "manage"                    => "Hantera",
@@ -167,13 +150,10 @@ return array(
     "uninstall"                 => "Avinstallera",
     "version"                   => "Version",
 
-    "and"                       => "och",
     "by"                        => "av",
     "record"                    => "spela in",
     "views"                     => "visningar",
-    "if_exists"                 => "om existerar",
     "of"                        => "of",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "ut ur",
     "to"                        => "till",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -190,7 +170,6 @@ return array(
     "day"                       => "Dag|Dagar",
     "month"                     => "Månad|Månader",
     "year"                      => "År",
-    "ago"                       => "sedan",
 
     "editor"                    => "Redaktör",
 
@@ -198,7 +177,6 @@ return array(
      * 2.0.1
      */
     "download"                  => "Ladda ner",
-    "acknowledge"               => "Erkänn",
 
     /*
      * 2.0.2
@@ -215,7 +193,6 @@ return array(
     "recently_used"             => "Nyligen använda",
     "recently_created"          => "Nyligen skapade",
     "load_more"                 => "Ladda mer",
-    "clear_selected"            => "clear selected",
     "expand_all"                => "Expandera alla",
     "collapse_all"              => "Kollapsa alla",
     "show_more"                 => "Visa mer",
@@ -224,7 +201,6 @@ return array(
     /*
      * 2.1.0
      */
-    "recently_viewed"           => "Nyligen sedda ärenden",
     "na"                        => 'Inte tillgänglig',
     "total"                     => "Total",
     "disabled"                  => "Avaktiverat",
@@ -239,7 +215,6 @@ return array(
     "end_date"                  => "Slutdatum",
     "submitted_by"              => "Inskickad av",
     "every_minutes"             => "Varje :minutes",
-    "at_time"                   => "vid :time",
 
     /*
      * 2.1.1
@@ -298,5 +273,116 @@ return array(
     "add_link"                  => "Lägg till länk",
     "unlink"                    => "Avlänka",
     "link"                      => "Länka",
+
+    /*
+     * 2.3.1
+     */
+    "clone"                     => "Clone",
+    "created_date"              => "Created Date",
+    "alphabetical"              => "Alphabetical",
+    "random"                    => "Random",
+    "blocked"                   => "Blocked",
+    "private_to"                => "Private to",
+    "refresh"                   => "Refresh",
+    "provider"                  => "Provider|Providers",
+    "export"                    => "Export|Exports",
+    "generate"                  => "Generate",
+
+    /*
+     * 2.4.0
+     */
+    "show_count_more"           => "Show :count more...",
+    "manual"                    => "Manual",
+    "automatic"                 => "Automatic",
+    "hook"                      => "Hook",
+    "event"                     => "Händelse",
+    "test"                      => "Test",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Domain|Domains",
+    "move_to_trash"             => "Move to Trash",
+    "trash"                     => "Trash",
+    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
+    "restore"                   => "Restore",
+    "delete_forever"            => "Delete Forever",
+
+    /*
+     * 2.6.0
+     */
+    "remove_all"                => "Remove All",
+
+    /*
+     * 3.0.0
+     */
+    "previous"                  => "Previous",
+    "neutral"                   => "Neutral",
+    "and"                       => "och",            // Used in "A and B"
+    "optional"                  => "frivillig",
+    "january"                   => "January",
+    "february"                  => "February",
+    "march"                     => "March",
+    "april"                     => "April",
+    "may"                       => "May",
+    "june"                      => "June",
+    "july"                      => "July",
+    "august"                    => "August",
+    "september"                 => "September",
+    "october"                   => "October",
+    "november"                  => "November",
+    "december"                  => "December",
+    "jan"                       => "Jan",
+    "feb"                       => "Feb",
+    "mar"                       => "Mar",
+    "apr"                       => "Apr",
+    "jun"                       => "Jun",
+    "jul"                       => "Jul",
+    "aug"                       => "Aug",
+    "sep"                       => "Sep",
+    "oct"                       => "Oct",
+    "nov"                       => "Nov",
+    "dec"                       => "Dec",
+    "mon"                       => "Mon",
+    "tue"                       => "Tue",
+    "wed"                       => "Wed",
+    "thu"                       => "Thu",
+    "fri"                       => "Fri",
+    "sat"                       => "Sat",
+    "sun"                       => "Sun",
+    "ordinal_th"                => "th",
+    "ordinal_st"                => "st",
+    "ordinal_nd"                => "nd",
+    "ordinal_rd"                => "rd",
+    "range_separator"           => " to ",
+    "week_abbr"                 => "Wk",
+    "scroll_to_increment"       => "Scroll to increment",
+    "click_to_toggle"           => "Click to toggle",
+    "am"                        => "AM",
+    "pm"                        => "PM",
+    "viewing"                   => "Viewing",
+
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );
