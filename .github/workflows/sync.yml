@@ -35,8 +35,8 @@ jobs:
       - name: Sync translation files
         run: language-tools sync ${{ matrix.path }} .
 
-      - name: Sync workflow files
-        run: cp -R ${{ matrix.path }}/.github/workflows/ .github/workflows/
+      - name: Sync .github files
+        run: cp -R ${{ matrix.path }}/.github/ .github/
 
       - name: Sync .gitignore
         run: cp ${{ matrix.path }}/.gitignore .gitignore
