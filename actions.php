@@ -26,9 +26,7 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Ticket löschen",
-    "delete_ticket_and_block"   => "Ticket löschen und Benutzer sperren",
-	"increase_due_time"         => "Zeitlimit erhöhen",
+    "increase_due_time"         => "Zeitlimit erhöhen",
     "close_and_lock_ticket"     => "Schließen und sperren des Tickets",
     "pause_due_time"            => "Zeitlimit pausieren",
     "reduce_due_time"           => "Zeitlimit reduzieren",
@@ -79,4 +77,5 @@ return array(
      * 2.6.0
      */
     "clear_due_time"            => "Zeitlimit löschen",
+
 );

@@ -2,30 +2,30 @@
 
 return array(
 
-    "report"                => "Bericht|Bericht",
+    "report"                    => "Bericht|Bericht",
 
-    "dashboard"             => "Übersicht",
-    "tickets_opened"        => "offene Tickets",
-    "ticket_messages"       => "Tickets",
-    "confirmed_users"       => "registriete Benutzer",
-    "total_users"           => "Benutzer insgesamt",
-    "daily_stats"           => "tägliche Statistik",
+    "dashboard"                 => "Übersicht",
+    "tickets_opened"            => "offene Tickets",
+    "ticket_messages"           => "Tickets",
+    "confirmed_users"           => "registriete Benutzer",
+    "total_users"               => "Benutzer insgesamt",
+    "daily_stats"               => "tägliche Statistik",
 
-    "all_time"              => "gesamter Zeitraum",
-    "specific_range"        => "Zeitspanne",
-    "filtering"             => "Filtern",
+    "all_time"                  => "gesamter Zeitraum",
+    "specific_range"            => "Zeitspanne",
+    "filtering"                 => "Filtern",
 
-    "chart"                 => "Diagramm",
-    "table"                 => "Tabelle",
-    "pie"                   => "Tortendiagramm",
-    "bar"                   => "Balkendiagramm",
-    "column"                => "Spalte",
-    "histogram"             => "Histogramm",
-    "line"                  => "Linie",
-    "area"                  => "Fläche",
-    "stacked"               => "Gestapelt",
-    "stepped"               => "Abgestuft",
-    "geo"                   => "Geo",
+    "chart"                     => "Diagramm",
+    "table"                     => "Tabelle",
+    "pie"                       => "Tortendiagramm",
+    "bar"                       => "Balkendiagramm",
+    "column"                    => "Spalte",
+    "histogram"                 => "Histogramm",
+    "line"                      => "Linie",
+    "area"                      => "Fläche",
+    "stacked"                   => "Gestapelt",
+    "stepped"                   => "Abgestuft",
+    "geo"                       => "Geo",
 
     /*
      * 2.0.3
@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "Anzahl der Ticketanworten eines Opertors in der gewählten Zeitspanne.",
     "first_response_time"       => "Zeit bis zur ersten Antwort",
     "first_response_time_desc"  => "Zeitraum die von den Operateuren benötigt wurde um die erste Antwort zu erstellen.",
-    "first_reply_time"          => "First Reply Time",
     "ticket_count"              => "Ticket Anzahl",
     "lt_1_hour"                 => "<1 Stunde",
     "1-3_hour"                  => "1-3 Stunden",
@@ -57,9 +56,6 @@ return array(
     "2-4_day"                   => "2-4 Tage",
     "4-7_day"                   => "4-7 Tage",
     "7_plus_day"                => "7+ Tage",
-    "user_feedback"             => "User Feedback",
-    "user_feedback_desc"        => "The feedback provided by users about tickets in a given time period.",
-    "total_users_desc"          => "This report shows how many users there are in the system, split by how many are confirmed and how many aren't.",
     "user_by_country"           => "Benutzer nach Land",
     "user_by_country_desc"      => "Bericht zeiht die Anzahl der Benutzer pro Land an, beinhaltet nur Benutzer die ein Land ausgwählt haben in Ihren Profileinstellungen.",
     "user_count"                => "Benutzer",
@@ -75,9 +71,9 @@ return array(
     "ticket_by_user_desc"       => "Dieser Bericht zeigt die Gesamzahl der durch einen Benutzer eröffneten Tickets in einer gewählten Zeispanne, sortiert nach Ticketanzal.",
     "ticket_by_organisation"    => "Tickets pro Organisation",
     "ticket_by_organisation_desc" => "Dieser Bericht zeigt die Gesamtzahl der Tickets pro Organisation (Benutzer pro Organisation) die in einer gewählten Zeitspanne eröffnet wurden, sortiert nach Ticketanzahl.",
-	"ticket_by_tag"             => "Tickets pro Tag",
+    "ticket_by_tag"             => "Tickets pro Tag",
     "ticket_by_tag_desc"        => "Dieser Bericht zeigt die Gesamzahl der  Tickets pro Tag in der gewählten Zeispanne an, zeigt nur Tags an die mindestens ein Ticket in der gewählten Zeitspanne haben.",
-												
+
     /*
      * 2.3.1
      */
@@ -109,5 +105,11 @@ return array(
     "responses"                 => "Antworten",
     "answered"                  => "Beantwortet",
     "unanswered"                => "Unbeantwortet",
+
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
 
 );

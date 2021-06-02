@@ -41,9 +41,6 @@ return array(
     "success_action"        => "Aktion erfolgreich ausgeführt!",
     "error_action"          => "Aktion konnte nicht ausgeführt werden.",
 
-    "success_sending"       => ":item erfolgreich verschickt!",
-    "error_sending"         => ":item konnte nicht verschickt werden.",
-
     "error_embed_image"     => "Fehler beim Bildupload.",
 
     "unauthorised"          => "Unbefugt",
@@ -62,8 +59,6 @@ return array(
 
     "general_error"         => "Ein Fehler ist aufgetreten. Bitte versuchern Sie es erneut.",
 
-    "mailer_error"          => "Ein Fehler ist aufgetreten, währen die E-Mail mit dem Betreff ':subject' gesendet werden sollte.",
-
     "no_results"            => "Keine Ergbenisse.",
 
     "assign_incomplete"     => "Die Aktion konnte nicht komplett ausgeführt werden. :names konnte einigen Tickets nicht zugewiesen werden.",
@@ -73,19 +68,15 @@ return array(
     "invalid_captcha"       => "Der eingegebene Sicherheitscode ist falsch oder ungültig. Bitte versuchen Sie es noch einmal.",
     "blocked_as_spam"       => "Ihre Anfrage wurde als SPAM deklariert. Bitte melden Sie sich telefonisch, falsch Sie denken, dass es sich hierbei um einen Fehler handelt.",
     "account_exists"        => "Es existiert bereits ein aktives Konto mit dieser E-Mail.",
-    "error_loading_comments"=> "Es gab ein Problem beim Laden der Kommentare.",
+    "error_loading_comments" => "Es gab ein Problem beim Laden der Kommentare.",
 
     "invalid_auth"          => "Falsche Zugangsdaten.",
 
     "forbidden"             => "Verboten",
 
-    "uncaught_exception"    => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Der Fehler wurde protokolliert. Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
-
     "not_logged_exception"  => "<strong>Uuuups! Etwas ist schiefgelaufen.</strong><br />Bitte informieren Sie einen Administrator, falls der Fehler weiterhin besteht.",
 
     "too_many_ticket_reqs"  => "Zuviele Ticketanfragen von der Adresse :email. Es sind maximal :max Anfragen in :decay minutes erlaubt.",
-
-    "error_close_open"      => "Fehler. Bitte schließen und noch einmal probieren.",
 
     "not_operator"          => "Etwas ist schiefgelaufen. Der ausgewählte Mitarbeiter ist nicht gültig. Bitte stellen Sie sicher, dass der Mitarbeiter einer gruppe zugewiesen und der Gruppe eine Rolle zugewiesen wurde.",
 
@@ -99,7 +90,6 @@ return array(
     /*
      * 2.0.3
      */
-    "warn_delete"           => "Sobald der Datensatz einmal gelöscht wurede, kann dieser nicht wiederhergestellt werden. Das Löschen dieses Datensatzes kann weitere Bereiche des Systems betreffen, wo dieser Datensatz benutzt wird.",
     "only_ssl_connections"  => "Es sind ausschließlich SSL-Verbindung zugelassen.",
     "queued_emails"         => "Erfolgreich - Die E-Mails wurden in die Warteschlange übertragen und in Kürze verschickt.",
     "error_loading_message" => "Ein Fehler ist beim Laden der Nachricht aufgetreten. Bitte versuchen Sie es noch einmal.",
@@ -113,8 +103,6 @@ return array(
     "warning"               => "Warning",
     "note"                  => "Note",
     "brand_invalid_dept"    => "The action could not be completed in full. The department could not be updated on some tickets due to their brand.",
-    "template_subject_req"  => "The default email template subject field is required.",
-    "template_contents_req" => "The default email template contents field is required.",
 
     /*
      * 2.1.1
@@ -123,10 +111,6 @@ return array(
     "upload_max_size"       => "File must be smaller than :size",
     "upload_wrong_type"     => "File type is not allowed",
 
-    /*
-     * 2.1.2
-     */
-    "field_required"        => "Field is required.",
     /*
      * 2.3.0
      */
@@ -168,5 +152,6 @@ return array(
      * 3.0.0
      */
     "popup_blocked"         => "Den Browser blockiert Popups. Bitte erlauben sie Popups um das Vorschau Feature nutzen zu können.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

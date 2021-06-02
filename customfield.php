@@ -11,18 +11,14 @@ return array(
     "date"                      => "Datum",
     "multiple"                  => "Multiple Optionen",
     "options"                   => "Optionen",
-    "password"                  => "Passwort",
     "radio"                     => "Radio Buttons",
     "rating"                    => "Bewertung (1 bis 5)",
     "text"                      => "Text",
     "textarea"                  => "Textarea",
 
-    "required_desc"             => "Soll das Feld ein Pflichtfeld sein?.",
     "public"                    => "Öffentlich",
     "public_desc"               => "Soll jeder das Feld sehen können, oder nur die Mitarbeiter?",
     "encrypted"                 => "Verschlüsselt",
-    "encrypted_desc"            => "Soll das Feld verschlüsselt in der Datenbank gespeichert werden?",
-    "purge"                     => "Löschen",
     "purge_desc"                => "Soll das Ticket gelöscht werden, nachdem es als \"gelöst\" markiert wurde?",
     "locked"                    => "Gesperrt",
     "locked_desc"               => "Soll der Benutzer das Feld nur einmal setzen/bearbeiten können?",
@@ -42,7 +38,8 @@ return array(
      * 2.1.0
      */
     "brand_desc"                => "In welchen Marken soll das Feld zur Verfügung stehen.",
- /*
+
+    /*
      * 2.3.0
      */
     "option_warning"            => "Das löschen existierender Optionen wird alle gespeichert Felder die aktuell diese Option haben löschen",
@@ -60,6 +57,10 @@ return array(
     /*
      * 2.3.1
      */
-    "required_desc"             => "Muss das benutzerdefinierte Feld ausgfüllt sein. Für checkbox, checklist oder multile Option type, muss der Benutzer mindestens eine option ausgewählt haben.",	  
+    "required_desc"             => "Muss das benutzerdefinierte Feld ausgfüllt sein. Für checkbox, checklist oder multile Option type, muss der Benutzer mindestens eine option ausgewählt haben.",
 
+    /*
+     * 3.3.0
+     */
+    "encrypted_value"           => "** ENCRYPTED **",
 );
