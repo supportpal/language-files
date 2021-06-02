@@ -72,7 +72,7 @@ return array(
      */
     // User
     "operator"          => "Gerenciar operadores",
-    
+
     /*
      * 2.1.0
      */
@@ -109,5 +109,10 @@ return array(
      */
     "selfservicefeedbackform" => "Manage formulário de feedback",
     "ticketfeedbackform"      => "Manage formulário de feedback",
+
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
 
 );
