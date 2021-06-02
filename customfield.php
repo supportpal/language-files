@@ -2,7 +2,7 @@
 
 return array(
 
-    "customfield"               => "Özel Alan | Özel Alanlar",
+    "customfield"               => "Özel Alan|Özel Alanlar",
 
     // Options
     "boolean"                   => "Boolean",
@@ -11,7 +11,6 @@ return array(
     "date"                      => "Tarih",
     "multiple"                  => "Çoklu Seçenekler",
     "options"                   => "Seçenekler",
-    "password"                  => "Parola",
     "radio"                     => "Radyo Düğmeleri",
     "rating"                    => "Derecelendirme (1 ila 5)",
     "text"                      => "Metin",
@@ -39,7 +38,7 @@ return array(
      * 2.1.0
      */
     "brand_desc"                => "Alanın hangi markalarda bulunduğunu seçin.",
-    
+
     /*
      * 2.3.0
      */
@@ -60,4 +59,8 @@ return array(
      */
     "required_desc"             => "Özel alanın doldurulması gerekiyorsa. Onay kutusu, kontrol listesi veya birden fazla seçenek türü için kullanıcının en az bir seçenek seçmesi gerekir.",
 
+    /*
+     * 3.3.0
+     */
+    "encrypted_value"           => "** ENCRYPTED **",
 );

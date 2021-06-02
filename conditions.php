@@ -86,4 +86,20 @@ return array(
      */
     "user_email_confirmed"              => "Kullanıcı e-postası onaylandı",
 
+    /*
+     * 3.0.0
+     */
+    "user_2fa_enabled"                  => "User 2FA enabled",
+    "article_type"                      => "Article type",
+    "article_brand"                     => "Article brand",
+
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
+
+    /*
+     * 3.5.0
+     */
+    "user_phone_number"                 => "User phone number",
 );

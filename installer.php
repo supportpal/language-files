@@ -7,7 +7,6 @@ return array(
 
     // Index
     "supportpal_installer"      => "SupportPal Installer",
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
     "select_language"           => "Dil Seç:",
     "install_type"              => "Installation Type",
     "install"                   => "Fresh Install",
@@ -138,7 +137,6 @@ return array(
     "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
 
     "possible_permission_issue" => "[WARNING] It seems you are running this command as root or a different user to the owner of the files. The command must be ran by the right user so the web server can also read and write to the system afterwards.",
-    "wish_to_continue"          => "It is advised to change the user unless you are sure what you are doing. Do you wish to continue?",
     "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
     "login_with_details"        => "You can login using the details specified earlier.",
     "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
@@ -150,5 +148,21 @@ return array(
      * 2.6.0
      */
     "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+
+    /*
+     * 3.0.0
+     */
+    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
+
+    /*
+     * 3.4.0
+     */
+    "seeding"                   => "Seeding",
+    "seeded"                    => "Seeded",
+    "migrating"                 => "Migrating",
+    "migrated"                  => "Migrated",
+    "database_setup_complete"   => "Database setup complete.",
+    "created_repository"        => "Created ':name' repository successfully.",
+    "wish_to_continue"          => "It is advised to change the user unless you are sure what you are doing. Do you wish to continue?",
 
 );

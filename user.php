@@ -30,7 +30,6 @@ return array(
     "send_password_reset"           => "Parola Sıfırlama Bağlantısı Gönder",
 
     "profile"                       => "Profil",
-    "phone"                         => "Tel No",
 
     "login"                         => "Giriş",
     "remember_me"                   => "Beni Hatırla",
@@ -47,9 +46,7 @@ return array(
 
     "forgot_password"               => "Parolanızı mı unuttunuz?",
     "reset_password"                => "Şifreyi yenile",
-    "password_reset_complete"       => "Sıfırlama Tamamlandı",
     "set_password"                  => "Bir şifre belirleyin",
-    "only_enter_to_change"          => "Yalnızca değiştirmek için girin ",
     "please_set_password"           => "Lütfen yeni şifrenizi girin.",
     "missing_email_or_reset"        => "Missing email address or reset token.",
 
@@ -68,7 +65,7 @@ return array(
     "operator_group"                => "Operatör Grup|Operatör Grupları",
     "add_group"                     => "Gruba Ekle",
 
-    "customfield"                   => "Kullanıcı Özel Alanı | Kullanıcı Özel Alanları",
+    "customfield"                   => "Kullanıcı Özel Alanı|Kullanıcı Özel Alanları",
     "customfield_order"             => "Özel alanların kullanıcılara görünme sırasını değiştirmek için satırları sürükleyin.",
 
     "role"                          => "Rol|Roller",
@@ -90,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP RDN or DN",
     "ldap_rdn_desc"                 => "The distinguished name for the LDAP username, for example: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP Details",
-    "ldap_extension_missing"        => "The php-ldap extension is not currently loaded. Users will not be able to login via LDAP.",
 
     "operator_details"              => "Operatör Detayları",
 
@@ -140,12 +136,10 @@ return array(
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Secret",
     "two_fa_secret_desc"            => "Please store this somewhere safe as you will need this to re-add the authenticator account to your phone should you lose access.",
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "display_notifications"         => "Display Notifications",
     "display_notifications_desc"    => "The system will notify you when new tickets or replies are created, or when other operators login. You can choose between desktop notifications or in-browser notifications, or disabling it completely.",
     "desktop_notifications"         => "Desktop Notifications",
     "browser_notifications"         => "Browser Notifications",
-    "operator_template"             => "Operator Template",
 
     "search_for_user"               => "Search for user...",
     "select_operator"               => "Select an operator...",
@@ -217,7 +211,7 @@ return array(
     "operator_signature_desc"       => "Further signatures for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Signatures</a> section.",
     "view_organisation"             => "Kullanıcıları Görüntüle",
     "new_owner"                     => "Yeni sahibi",
-    "operator_role"                 => "Operatör Rolü | Operatör Rolleri",
+    "operator_role"                 => "Operatör Rolü|Operatör Rolleri",
     "manage_users"                  => "Kullanıcıları Yönet",
     "manage_organisations"          => "Organizasyonu Yönet",
     "manage_operators"              => "Operatörleri Yönet",
@@ -239,7 +233,6 @@ return array(
      * 2.1.2
      */
     "search_for_user_operator"      => "Kullanıcı / operatör ara ...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0
@@ -257,20 +250,7 @@ return array(
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "social_login_provider_desc"    => "Allow users to register and log in using their :provider account.",
-    "social_login_provider_docs"    => "Please check over our documentation for setting up <a href=':link'>:provider Login</a>.",
-    "facebook_app_id"               => "App ID",
-    "facebook_app_secret"           => "App Secret",
-    "facebook_redirect_url"         => "The following URL <strong>must</strong> be entered for the Facebook Login 'Valid OAuth redirect URIs':",
-    "google_client_id"              => "Client ID",
-    "google_client_secret"          => "Client Secret",
-    "google_redirect_url"           => "The following URL <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
-    "steam_api_key"                 => "API Key",
-    "twitter_consumer_key"          => "Consumer Key",
-    "twitter_consumer_secret"       => "Consumer Secret",
-    "twitter_redirect_url"          => "The following URL <strong>must</strong> be entered for the Twitter Application 'Callback URL':",
     "login_via"                     => "Log in via :provider",
-    "register_with"                 => "Register with :provider",
     "idp"                           => "IdP",
     "social_linking_login"          => "Please log in to complete linking of your social account.",
     "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
@@ -305,7 +285,6 @@ return array(
     "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
     "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
     "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "reset_request_desc"            => "Please check your email to complete the password reset process.",
     "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
     "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
     "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
@@ -321,5 +300,32 @@ return array(
     "continue_to_login"             => "Lütfen devam edin <a href=':route'>login</a>.",
     "reset_request_desc"            => "Eşleşen bir hesap bulunursa, kısa süre içinde şifrenizi sıfırlamanıza izin veren bir e-posta gönderilecektir.",
     "password_reset_error"          => "Bağlantının süresi dolmuş olabilir. Bağlantınız herhangi bir nedenle çalışmıyorsa, lütfen yeni bir bağlantı isteyin.",
+
+    /*
+     * 3.0.0
+     */
+    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
+    "operator_message"              => "Operator Messages",
+    "force_two_fa"                  => "Force 2FA",
+    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
+    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
+    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );
