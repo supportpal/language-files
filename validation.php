@@ -71,20 +71,14 @@ return array(
     ),
     "unique"                    => ":attribute wurde schon benutzt.",
     "url"                       => ":attribute hast ein ungültiges Format.",
-    "timezone"                  => ":attribute muss eine gültige Zone sein.",
     "template_exists"           => ":attribute ist kein gültiges Template.",
     "is_valid_captcha"          => "Der eingegebene Captcha ist ungültig oder Sie haben sich vertippt. Bitte probieren Sie es noch einmal.",
-    "user_password_length"      => "Das Passwort muss mindestens :user_password_length Zeichen enthalten.",
-    "operator_password_length"  => "Das Passwort muss mindestens :operator_password_length Zeichen enthalten.",
-    "json"                      => ":attribute muss gültiges JSON sein.",
     "user_password_strength"    => ":attribute muss beinhalten: :user_password_strength.",
-    "operator_password_strength"=> ":attribute muss beinhalten: :operator_password_strength.",
-    "twig_lint"                 => "The :attribute must be valid twig syntax, please check http://twig.sensiolabs.org/doc/templates.html",
+    "operator_password_strength" => ":attribute muss beinhalten: :operator_password_strength.",
 
     /*
      * 2.1.0
      */
-    "in_array"                  => "The :attribute field does not exist in :other.",
     "logo"                      => "Das Logo muss zu einer gültigen Bilddatei zeigen (Vollständige URL oder relative URL zum Basis Verzeichnis).",
 
     /*
@@ -172,6 +166,17 @@ return array(
      * 3.0.0
      */
     "embed_image"               => "Die Datei :attribute muss vom Typ: jpeg, png, or gif sein.",
+    "starts_with"               => "The :attribute must start with one of the following: :values.",
+
+    /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
+     * 3.5.0
+     */
+    'phone'                     => "The supplied phone number is invalid.",
 
     /*
     |--------------------------------------------------------------------------

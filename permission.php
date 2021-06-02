@@ -6,7 +6,6 @@ return array(
 
     // Core
     "apitoken"          => "API-Tokens verwalten",
-    "company"           => "Firmen verwalten",
     "emailtemplate"     => "E-Mail Vorlagen verwalten",
     "ipban"             => "IP-Sperren verwalten",
     "ipwhitelist"       => "IP-Whitelist verwalten",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "vorgefertigte Antworten verwalten",
     "channel"           => "Kanäle verwalten",
     "department"        => "Abteilungen verwalten",
-    "feedback"          => "Feedbacks verwalten",
-    "feedbackform"      => "Feedbackformulare verwalten",
     "filter"            => "Filter verwalten",
     "holiday"           => "Feiertage verwalten",
     "macro"             => "Makros verwalten",
@@ -49,7 +46,6 @@ return array(
     "ticket_view"       => "Tickets anzeigen",
     "ticket_add"        => "Tickets öffnen",
     "ticket_edit"       => "Tickets aktualisieren",
-    "ticket_delete"     => "Tickets löschen",
     "ticketcustomfield" => "Benutzerdefinierte Felder verwalten",
 
     // Self-service
@@ -113,5 +109,10 @@ return array(
      */
     "selfservicefeedbackform" => "Verwalte Frontend Feedback Forumlare",
     "ticketfeedbackform"      => "Verwalte Ticket Feedback Forulare",
+
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
 
 );

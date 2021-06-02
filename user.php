@@ -8,7 +8,6 @@ return array(
     "account_active"                => "Account aktiv",
     "account_active_desc"           => "Toggle to enable and disable access to authenticated sections.",
 
-    "operator_settings"             => "Mitarbeiter Settings",
     "op_settings_dept_desc"         => "Abteilung, die ein Mitarbeiter bearbeiten kann.",
 
     "organisation"                  => "Firma|Firmen",
@@ -20,7 +19,6 @@ return array(
     "manage_organisation"           => "Bearbeite Firma",
     "leave_organisation"            => "Firma verlassen",
     "user_membership"               => "Mitgliedschaft",
-    "organisation_no_longer"        => "Dieser Benutzer ist ab sofort kein Mitglieder dieser Firma mehr.",
     "transfer_ownership"            => "Inhaberschaft übertragen",
     "transfer_ownership_desc"       => "As the current owner of the organisation, you cannot be removed as a manager and only you can delete the organisation. You may transfer the ownership of the organisation to someone else, be aware that this action cannot be reversed.",
     "transfer_ownership_operator"   => "Only the owner can delete the organisation and cannot be removed from it. Use this option to change the ownership to another user in the organisation.",
@@ -29,16 +27,9 @@ return array(
     "organisation_desc"             => "Each organisation can have <strong>managers</strong>, who can manage users and read and reply to other's tickets, and <strong>users</strong>, who can open tickets, but can't read or reply to other's tickets.",
     "organisation_operator_desc"    => "Add existing users to this organisation by clicking \"Add User\" and searching for their name, note that adding a user will remove any links they have with another organisation.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Can manage other users and view &amp; reply to other user's tickets.<br /><strong>User</strong> - Can only open tickets on behalf of organisation and reply to own tickets.",
-    "send_confirmation_email"       => "Send confirmation email to user",
     "send_password_reset"           => "Send Password Reset Link",
 
     "profile"                       => "Profil",
-    "address"                       => "Adresse",
-    "city"                          => "Stadt",
-    "state"                         => "Bundesland",
-    "postcode"                      => "Postleitzahl",
-    "phone"                         => "Telefon",
-    "website"                       => "Website",
 
     "login"                         => "Anmelden",
     "remember_me"                   => "Login merken",
@@ -47,31 +38,16 @@ return array(
 
     "user_register_disabled"        => "Derzeit ist die öffentliche Registrierung deaktiviert.",
     "success_register"              => "Konto erfolgreich registriert!",
-    "success_register_desc"         => "Vielen Dank, dass Sie sich für ein Benutzerkonto registiert haben. In Kürze erhalten Sie eine E-Mail zur Verifikation Ihrer Anmeldung. Danach können Sie sich direkt anmelden..",
     "register_now"                  => "Jetzt anmelden",
     "register"                      => "Anmelden",
     "register_account"              => "Benutzerkonto anlegen",
-    "register_confirm"              => "Bestätigung Ihrer Registrierung",
-    "register_confirm_desc"         => "Vielen Dank, dass Sie Ihre E-Mail bestätigt haben. Bitte geben Sie Ihr Passwort ein, um die Einrichtung abzuschließen.",
-    "confirmation_success"          => "Bestätigung erfolgreich!",
-    "confirmation_unsuccessful"     => "Bestätigung nicht erfolgreich.",
-    "thank_you_confirm"             => "Vielen Danke, dass Sie Ihr Benuterkonto bestätigt haben. Sie können Sie nun <a href=':route'>anmelden</a>.",
     "signed_up"                     => "Registriert",
     "last_active"                   => "Zuletzt aktiv",
 
-    "reset_request"                 => "Anfrage erhalten",
-    "reset_request_desc"            => "In Kürze senden wir Ihnen eine E-Mail mit einem Link über den Sie Ihr Passwort zurücksetzen können.",
     "forgot_password"               => "Passswort vergessen?",
-    "password_reset"                => "Passwort zurücksetzen",
-    "password_reset_confirm"        => "Passwort zurücksetzen",
     "reset_password"                => "Passwort zurücksetzen",
-    "password_reset_complete"       => "Passwort zurücksetzen erfolgreich",
     "set_password"                  => "Neues Passwort setzen",
-    "only_enter_to_change"          => "Only enter to change",
-    "success_pass_reset"            => "Ihr Passwort wurde erfolgreich zurückgesetzt. Sie können Sie nun <a href=':route'>anmelden</a>.",
     "please_set_password"           => "Please set your new password below.",
-    "emailed_pwd_reset_link"        => "Ihnen wurde ein Link zum Zurücksetzen Ihres Passworts zugeschickt.",
-    "operator_email_not_found"      => "Mitarbeiter E-Mail nicht gefunden.",
     "missing_email_or_reset"        => "Fehlende E-Mail oder fehlerhafter Sicherheitsschlüsseö.",
 
     "firstname"                     => "Vorname",
@@ -79,11 +55,9 @@ return array(
     "formatted_name"                => "Formatted Name",
     "country"                       => "Land",
     "avatar"                        => "Profilbild",
-    "generate_password"             => "zufälliges Passwort generieren",
     "confirm_password"              => "Passwort bestätigen",
 
     "confirmed"                     => "Bestätigt",
-    "confirmed_desc"                => "Zugriff für geschützte Bereiche aktivieren/deaktvieren.",
     "unconfirmed"                   => "Nicht bestätigt",
 
     "group"                         => "Benutzergruppe|Benutzergruppen",
@@ -113,7 +87,6 @@ return array(
     "ldap_rdn"                      => "LDAP, RDN oder DN",
     "ldap_rdn_desc"                 => "The distinguished name for the LDAP username, for example: cn=Sample User,ou=people,dc=example,dc=com",
     "ldap_details"                  => "LDAP Details",
-	"ldap_extension_missing"        => "The php-ldap extension is not currently loaded. Users will not be able to login via LDAP.",
 
     "operator_details"              => "Mitarbeiter-Details",
 
@@ -163,26 +136,17 @@ return array(
     "two_fa_code"                   => "2FA Code",
     "two_fa_secret"                 => "2FA Geheimnis",
     "two_fa_secret_desc"            => "Pbitte speichern sie das 'Geheimins' an einem sicheren Ort, um bei einem Verlust den 2FA wiederherstellen zu können.",
-    "two_fa_verify_desc"            => "Installieren sie eine der folgenden Applikationen und scannen sie den QR code mit der Applikation ein.Danach zeigt Ihnen die Applikation einen 6 stelligen Code an, den müssen sie oben eingeben um das erfolgreiche ausrollen zu verifizieren. Clicken sie auf Verify bevor der Code in der Applikation abläuft. Damit das Verfahren funktioniert müssen der Server und der Client über dieselbe Uhrzeit verfügen.",
     "display_notifications"         => "Benachrichtigungen deaktivieren",
     "display_notifications_desc"    => "Das System benachtigt sie bei neuen Tickets, Antworten oder wenn sich andere Operateure anmelden während sie das Operator Panel offen haben. Sie können sich zwischen Desktop oder in Browser Notifications entscheiden oder ganz deaktivieren.",
     "desktop_notifications"         => "Desktop Benachrichtigungen",
     "browser_notifications"         => "Browser Benachrichtigungen",
-    "operator_template"             => "Mitarbeiter Vorlage",
 
     "search_for_user"               => "Benutzer suchen...",
     "select_operator"               => "Mitarbeiter auswählen...",
     "select_group"                  => "Gruppe auswählen...",
 
     "your_ip_has_been_banned"       => "Ihre IP wurde gesperrt.",
-    "password_reset_error"          => "Benutzerkonto oder Token nicht gefunden. ",
-    "password_reset_not_found"      => "Benutzer nicht gefunden oder das Passwort kann nicht zurückgesetzt werden.",
-    "password_reset_expired"        => "Token has expired, please try to reset again.",
-    "password_reset_invalid"        => "Der Zugriffstoken ist ungültig.",
     "password_reset_success"        => "Passwort erfolgreich zurückgesetzt!",
-    "password_reset_already"        => "Ihr Benutzerkonto wurde bereits aktiviert.",
-    "password_not_valid"            => "Das Passwort ist ungültig oder stimmt nicht überein.",
-    "invalid_reset_request"         => "Fehlerhafte Anfrage.",
 
     "simpleauth_token_expired"      => "Der Zugriffstoken ist abgelaufen.",
     "simpleauth_token_invalid"      => "Der Zugriffstoken ist nicht gültig.",
@@ -264,14 +228,11 @@ return array(
     "current_password"              => "Aktuelles Passwort",
     "new_password"                  => "Neues Passwort",
     "personal_confirm_password"     => "Bitte geben sie das Passwort erneut ein, um es zu bestätigen. Dadurch sinkt auch die Wahrscheinlichkeit für Tippfehler",
-	"operator_confirm_password"     => "Please confirm your password to make changes to the operator account.",
-    "login_via_idp"                 => "Login via IdP",
 
     /*
      * 2.1.2
      */
     "search_for_user_operator"      => "Suche nach Benutzern oder Operatoren...",
-    "two_fa_personal_settings"      => "The operator can enable 2FA in their personal settings.",
 
     /*
      * 2.2.0
@@ -279,7 +240,7 @@ return array(
     "user_name_format_desc"         => "Das Format für die Anzeige der Benutzername im System.",
     "operator_name_format_desc"     => "Das Format für die Anzeige der Operatornamen im System.",
 
- /*
+    /*
      * 2.3.0
      */
     "remove_from"                   => "Entfernen von :record?",
@@ -289,18 +250,6 @@ return array(
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "social_login_provider_desc"    => "Erlaubt den Benutzern sich zu registrieren und anzumelden mit hrem :provider Konto.",
-    "social_login_provider_docs"    => "Bitte konsultieren sie die Dokumentation um den  <a href=':link'>:provider Login</a> einzurichten.",
-    "facebook_app_id"               => "App ID",
-    "facebook_app_secret"           => "App Secret",
-    "facebook_redirect_url"         => "Die folgende URL <strong>muss</strong> muss bei Facebook Login eingegeben werden 'Valid OAuth redirect URIs':",
-    "google_client_id"              => "Client ID",
-    "google_client_secret"          => "Client Secret",
-    "google_redirect_url"           => "The following URL <strong>must</strong> be entered for the Google 'Authorized redirect URIs':",
-    "steam_api_key"                 => "API Key",
-    "twitter_consumer_key"          => "Consumer Key",
-    "twitter_consumer_secret"       => "Consumer Secret",
-    "twitter_redirect_url"          => "The following URL <strong>must</strong> be entered for the Twitter Application 'Callback URL':",
     "login_via"                     => "Log in via :provider",
     "idp"                           => "IdP",
     "social_linking_login"          => "Bitte melden sie sich an um die Verbindung mit 'Social Login' zu bestätigen.",
@@ -336,7 +285,6 @@ return array(
     "password_reset_already"        => "Sie haben bereits den Besitz dieser Email Adresse bestätigt, fahren sie mit dem Login fort.",
     "unconfirmed_account"           => "Bitte überprüfen sie Ihren Posteingang und den Spam Ordner um Ihre Emailadrese zu bestätigen",
     "success_register_desc"         => "Vielen Dank für das registrieren ihres Kontos. Bitte überpüfen sie Ihren Posteingang oder Spam Ordner um das Konto fertigzustellen.",
-    "reset_request_desc"            => "Bitte prüfen sie ihren Posteingang um das Passwort zurückzusetzen.",
     "resend_confirmation_sent"      => "Ein neues Bestätigungsmail wurde geschickt, und sollte in wenigen Minuten ankommen.",
     "register_confirm_desc"         => "Vielen Dank für das bestätigen Ihrer Mail Adresse, bitte geben sie unten ihr Passwort ein um Ihr Konto fertigzustellen.",
     "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
@@ -361,7 +309,23 @@ return array(
     "force_two_fa"                  => "Erwzinge 2FA",
     "force_two_fa_desc"             => "Erwzinge Zwei Faktor Authentisierung auf allen Konten. Jedes Konto ohne ausgerollten  zweiten Faktor durchläuft automatisch beim nächsten Login den Prozess.",
     "two_fa_required"               => "Zwei Faktor Autthentisierung (2FA) ist nötig. Bitte folgen sie den Anweisungen unten um fortzufahren.",
-    "two_fa_successfully_enabled"   => "Zwei Faktor Autthentisierung (2FA) wurde erfolgreich eingerichtet, Bitte melden sie sich erneut an.",
     "two_fa_user_enable"            => "Die Benutzer können 2FA in ihren Profileinstellungen aktivieren.",
+
+    /*
+     * 3.3.0
+     */
+    "social_login_desc"             => "Allow users to register and log in using their social account.",
+    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "two_fa_verify_desc"            => "Installieren sie eine der folgenden Applikationen und scannen sie den QR code mit der Applikation ein.Danach zeigt Ihnen die Applikation einen 6 stelligen Code an, den müssen sie oben eingeben um das erfolgreiche ausrollen zu verifizieren. Clicken sie auf Verify bevor der Code in der Applikation abläuft. Damit das Verfahren funktioniert müssen der Server und der Client über dieselbe Uhrzeit verfügen.",
+    "two_fa_successfully_enabled"   => "Zwei Faktor Autthentisierung (2FA) wurde erfolgreich eingerichtet, Bitte melden sie sich erneut an.",
+
+    /*
+     * 3.5.0
+     */
+    "phone_number"                  => "Phone Number|Phone Numbers",
 
 );

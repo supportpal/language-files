@@ -14,7 +14,7 @@ return array(
     "invalid_user"              => "Stellen sie sich dass die eingegeben Benutzer korrekt sind.",
 
     "registered_users"          => "Nur registrierte Benutzer",
-    "registered_users_desc"     => "Toggle to only import tickets from users with an account in the help desk.",
+
     "tickets"                   => "Ticket(s)",
     "ticket"                    => "Ticket|Tickets",
     "subject"                   => "Betreff",
@@ -23,7 +23,6 @@ return array(
     "due_time"                  => "Fertigstellung",
     "created_time"              => "Erstellungsdatum",
     "submitted"                 => "Übertragen",
-    "add_reply"                 => "Antwort hinzufügen",
     "ticket_reply"              => "Ticketanwort",
     "ticket_note"               => "Ticketnotiz",
     "ticket_type"               => "Ticketart",
@@ -33,7 +32,6 @@ return array(
     "existing_user"             => "Bestehender Benutzer",
     "new_user"                  => "Neuer Benutzer",
     "internal"                  => "Intern",
-    "internal_ticket"           => "Internes Ticket",
     "internal_ticket_desc"      => "Erstellt ein Ticket für den internen Gebrauch. Das Ticket wird Ihnen zugewiesen.",
     "ticket_opened"             => "Ihr Ticket wurde erfolgreich erstellt.",
     "enter_user_details"        => "Bitte geben Sie Ihre Informationen ein, oder melden sich mit Ihrem bestehenden Konto an.",
@@ -58,11 +56,9 @@ return array(
 
     "department"                => "Abeiltung|Abteilungen",
     "change_department_order"   => "Sortieren sie die Abteilungen mit ziehen um die Anzeige für die Benutzer zu beinflussen.",
-    "department_order"          => "Reihenfolge der Abteilungen",
     "department_applicable"     => "auswählbare Abteilungen",
     "department_applicable_desc" => "Abteilungen die den Benutzern ermöglichen die Priorität der Tickets festzulegen. Gilt nur für den Frontend, alle Prioritäten in allen Abteilungen stehen dem Operator zur Verfügung.",
 
-    "due_to_be_sent"            => "Due to be sent",
     "send_now"                  => "Jetzt senden",
 
     "tag"                       => "Stichwort|Stichwörter",
@@ -72,14 +68,9 @@ return array(
 
     // Recent activity
     "recent_activity"           => "Kürzliche Aktivität",
-    "no_recent_activity"        => "No recent activity",
-
-    // Active operators
-    "active_operators"          => "Active Operators",
 
     "ticket_number"             => "Ticket Nummer",
     "ticket_format"             => "Ticket Nummer Format",
-    "ticket_format_desc"        => "The following variables may be used:<br />%S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     // Departments
     "department_public_desc"    => "Ist die Abteilung im Frontend sichtbar.",
@@ -93,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Konfiguriere Email Adressen für die ABteilung, alle eingehende Mails werden Tickets in der Abteilung eröffnen. Die erste Adresse ist die Standard Absenderadresse der Abteilung.",
-    "department_password"       => "Geben sie das Passwort nur ein um das bestehende zu ersetzen oder um die Einstellungen zu überpüfen.",
     "department_port"           => "Default values are: 110 for POP3, 995 for secure POP3, 143 for IMAP, and 993 for secure IMAP. Leave blank to use the default value.",
     "department_encryption"     => "Mance Email Anbieter benötigen SSL oder TLS, um sich zu verbinden. Bei unklarheit leerlassen.",
     "department_delete_mail"    => "IMAP ermöglicht es die Emails am Server nicht zu löschen.",
     "protocol"                  => "Protokoll",
     "server"                    => "Mail Server",
     "port"                      => "Port",
-    "username"                  => "Benutzername",
-    "password"                  => "Passwort",
     "encryption"                => "Verschlüsselung",
     "delete_downloaded"         => "abgeholte Mails löschen",
     "consume_all"               => "Alle Mails abholen",
@@ -112,18 +100,12 @@ return array(
 
     // Department email options
     "email_options"             => "Email Optionen",
-    "email_auto_close"          => "Email Users on Ticket Auto-Close",
-    "email_auto_close_desc"     => "Select whether users should be emailed when tickets belonging to them are automatically closed by the system.",
-    "email_closed_by_operator"  => "Email Users when Ticket Closed by Operator",
-    "email_closed_by_op_desc"   => "Select whether users should be emailed when tickets belonging to them are closed by an operator.",
-	"email_user_on_email"       => "Bestätige per Mail Tickets die per Mail eröffnet wurden",
+    "email_user_on_email"       => "Bestätige per Mail Tickets die per Mail eröffnet wurden",
     "email_user_on_email_desc"  => "Wähle diese Optionen wenn Benutzer per mail informiert werden solle dass ihr Mail ein Ticket eröffnet hat.",
     "email_operators"           => "Benachrichtige Operators",
     "email_operators_desc"      => "Sollen die Operatoren per Mail benachrichtigt werden. Standardmäßig entscheidt die  \"email operators\" Option im Operator Panel, und sendet automatisch eine Mail für alle Operator Antworten.",
     // Department email templates
-    "new_ticket_reply"          => "New Ticket Reply",
     "new_ticket_opened"         => "Neues Ticket eröffnet",
-    "reply_to_locked"           => "Antworten auf gesperrtes Ticket",
     "waiting_for_response"      => "Warten auf Antwort",
     "ticket_auto_closed"        => "Ticket wurde automatisch geschlossen",
     "closed_by_operator"        => "geschlossen durch einen Operator",
@@ -132,7 +114,6 @@ return array(
     "feedback"                  => "Feedback",
     "feedback_form"             => "Feedback Formular|Feedback Formulare",
     "feedback_form_desc"        => "Feedback Formulare werden in der dargestellten Reihenfolge abgearbeiten, ziehen sie um die Reihenfolge zu ändern.",
-    "view_feedback_report"      => "View Feedback Report",
     "view_feedback"             => "Betrachte Feedback",
     "ticket_feedback"           => "Ticket Feedback",
     "feedback_fields_error"     => "Es gab ein Problem die Ticketfeedback Felder zu lesen.",
@@ -143,22 +124,14 @@ return array(
     "form_conditions"           => "Formular Kriterien",
     "form_conditions_desc"      => "Welche Kriterien muss das gelöste Tiket erfüllen damit dieses Formular zum Einsatz kommt. Wenn mehrere Formulare gültig sind, wird das oberste aus der Liste gewählt. Die Liste kann durch ziehen der Formulare an eine neue Position geändert werden.",
     "form_fields"               => "Formularfelder",
-    "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here.",
-    "response_rate"             => "Response Rate",
-    "sent_forms"                => "Sent Feedback Forms",
     "rating"                    => "Bewertung",
-    "good_ratings"              => "Good Ratings",
-    "bad_ratings"               => "Bad Ratings",
-    "customer_satisfaction"     => "Customer Satisfaction",
     "feedback_desc"             => "Vielen Dank für Ihre Anfrage, wir hoffen sie zur ihrer Zufriedenheit gelöst zu haben. Bitte bewerten sie unsere Antwort unten.",
     "good_satisfied"            => "Gut, Ich bin Zufriedengestellt.",
     "bad_not_satisfied"         => "Schlecht, ich bin unzufrieden",
     "feedback_not_found"        => "Ihr Feedback konnte nicht aktzeptiert werden, bitte senden sie uns Ihr feedback in einem Ticket.",
     "feedback_malformed_token"  => "Ihr Feedback konnte aufgrund technischer Probleme nicht verarbeitet werden. Bitte sendens sie uns ihr Feedback in einem Ticket",
-    "feedback_already_done"     => "Das Feedback wurde bereits für dieses Ticket übermittelt, Vielen Dank.",
     "feedback_expired"          => "Das Ticket wurde bereits vor längerer Zeit gelöst, dadurch kann es nicht mehr bewertet werden.",
     "feedback_questions"        => "Bitte beantworten sie folgende Fragen, um uns die Möglichkeit zu geben den Support zu verbessern.",
-    "feedback_thank_you"        => "Vielen Dank für Ihr Feedback.",
     "feedback_for_ticket"       => "Feedback für das Ticket #:number",
     "feedback_rating_desc"      => "Die im Ticket geleistete Unterstützung wurde als  <strong>:rating</strong> durch den Benutzer bewertet.",
 
@@ -168,34 +141,22 @@ return array(
 
     // Canned responses
     "cannedresponse"            => "Textbaustein|Textbausteine",
-    "canned_response_category"  => "Canned Response Category|Canned Response Categories",
-    "response"                  => "Response",
-    "canned_public_desc"        => "Toggle to only let the canned response be accessible by yourself.",
-    "canned_group_desc"         => "If you wish to make the canned response visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Filters
     "filter"                    => "Filter",
     "filter_condition"          => "Filter Kriterien",
     "filter_condition_desc"     => "Definiere die Kriterien nach denen die Tickets angezigt werden.",
-   "filter_public_desc"        => "Toggle to only let the filter be accessible by yourself.",
-   "filter_group_desc"         => "If you wish to make the filter visible to only certain operator groups, leave blank to make visible to all operators.",
 
     // Macros
     "macro"                     => "Macro|Macros",
-    "macro_type"                => "Macro Typ",
-   "macro_type_desc"           => "By default the macro has to be manually called in the ticket view. It can be set to be an automatic macro that is checked and actioned when new tickets come in or on all tickets via a scheduled task, in either case the conditions will be checked and if true then the actions will be performed automatically. A macro can only run once on a ticket automatically, there is no limit for running it manually.",
-   "manual"                    => "Manual",
-   "macro_type_auto1"          => "Automatic - On new tickets only",
-   "macro_type_auto2"          => "Automatic - All tickets (scheduled task)",
     "macro_condition"           => "Macro Kriterien",
-	"macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets.",
     "macro_action"              => "Macro Aktionen",
     "macro_action_desc"         => "Definiere Aktioinen die das macro ausführt. Bitte stellen sie sicher das die Aktioinen für die Abteilung des Tickets gültig sind, ansonsten werden sie ignoriert.",
 
     "from"                      => "Von",
     "to"                        => "An",
     "cc"                        => "Blindkopie / CC",
-    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses above.",
+
     "allowed_files"             => "Erlaubte Dateitypen als Anhang",
 
     // Drafts
@@ -220,8 +181,6 @@ return array(
 
     // Holidays
     "holiday"                   => "Ferien",
-    "all_holidays"              => "All Holidays",
-    "specific_holidays"         => "Specific Holidays",
     "holiday_or_on_the"         => "or, on the",
     "holiday_month_year_desc"   => "Das Jahr ist bei wiederkehrenden Ferien leer zu lassen. Wähle das Jahr nur aus wenn sich das Datum jedes Jahr ändert.",
 
@@ -259,7 +218,6 @@ return array(
     "set_status"                => "Setze den Status",
     "add_selfservice_link"      => "Hinzufügen des Self-Service Links",
     "search_selfservice"        => "Suche nach Artikeln im Self-Service",
-    "add_canned_response"       => "Add Canned Response",
     "search_canned"             => "Suche nach Textbausteinen",
 
     "mark_resolved"             => "markieren als gelöst",
@@ -269,20 +227,19 @@ return array(
     "default_open_status"       => "Standard Status nach eröffnen des Tickets",
 
     "default_resolve_status"    => "Standard Status nach lösen des Tickets",
-    "default_resolve_status_desc"=> "Wähle den Standardstatus für gelöste Tickets aus.",
+    "default_resolve_status_desc" => "Wähle den Standardstatus für gelöste Tickets aus.",
 
-    "waiting_response_time"     => "Zeitraum wie lange auf eine Antwort des Benutzers geantwortet wird.",
-    "waiting_response_time_desc"=> "Nach Ablauf bekommt der Benutzer einen Erinnerung über das inaktive Ticket, und wird gefragt ob das Ticket gelöst ist. Mit 0 wird kein Mail geschickt.",
+    "waiting_response_time"      => "Zeitraum wie lange auf eine Antwort des Benutzers geantwortet wird.",
+    "waiting_response_time_desc" => "Nach Ablauf bekommt der Benutzer einen Erinnerung über das inaktive Ticket, und wird gefragt ob das Ticket gelöst ist. Mit 0 wird kein Mail geschickt.",
 
     "close_inactive_tickets"    => "Schließe inaktive Tickets",
-    "close_inactive_tickets_desc"=> "Nach Abalauf der Zeit werden inaktive Tickets geschlossen. Setze den Wert auf 0 dann werden die Tickets nicht automatisch geschlossen.",
-    "close_inactive_status_desc"=> "Automatically close tickets that have become inactive without a follow up from the user (defined by the number of days since the last reply by an operator in the ticket general settings).",
+    "close_inactive_tickets_desc" => "Nach Abalauf der Zeit werden inaktive Tickets geschlossen. Setze den Wert auf 0 dann werden die Tickets nicht automatisch geschlossen.",
 
     "ticket_reply_order"        => "Reihenfolge der Nachrichten im Ticket",
     "ticket_reply_order_desc"   => "Wächle die Reihenfolge der Nachrichten in der Ticketanzeige, Aufsteigend die neueste Nachricht oben oder absteigend mit der ältesten Nachricht oben.",
 
     "ticket_notes_position"     => "Ticket Notiz Position",
-    "ticket_notes_position_desc"=> "Wähle aus wo in der Ticketanzeige die Notizen angezeigt werden sollen.",
+    "ticket_notes_position_desc" => "Wähle aus wo in der Ticketanzeige die Notizen angezeigt werden sollen.",
     "ticket_notes_top_messages" => "Oben und in den Nachrichten",
     "ticket_notes_top"          => "Nur oben",
     "ticket_notes_messages"     => "Nur in den Nachrichten",
@@ -304,7 +261,6 @@ return array(
     "default_priority_desc"     => "Priorität die allen Tickets über diesen Kanal zugewiesen wird.",
     "verbose_email_log"         => "Ausführliches Email Log",
 
-    "adjust_columns"            => "Adjust Columns",
     "last_reply"                => "Letzte Antwort",
     "opened_at"                 => "geöffnet am",
 
@@ -324,26 +280,18 @@ return array(
     "merged"                    => "Zusammengeführt",
     "unmerge"                   => "Trennen",
     "close_and_lock"            => "Schließen und Sperren",
-    "delete_and_block"          => "Delete & Block",
-
-    "block_warning"             => "The user's email will also be blocked and no longer able to open tickets.",
 
     "mass_reply"                => "Massen Antwort",
-    "delete_warning"            => "Once these tickets have been deleted, they cannot be recovered.",
 
     "due_today"                 => "Läuft Heute ab",
     "overdue"                   => "Abgelaufen",
     "unassigned"                => "Nicht zugewiesen",
 
     "pause_duetime_desc"        => "Falls das Ticket einem aktiven SLA Plan zugewiesen ist, pausiere die Ablaufzeit bis zur ersten Nachverfolgung. Die Ablaufzeit startet mit der nächsten Notiz oder Antwort zum Ticket (Inklusive der Nachverfolgung).",
-    "delete_follow_up"          => "Delete Follow Up",
-
 
     "add_cc"                    => "Füge Blindempfänger hinzu (CC)",
     "reply_above_line"          => "Bitte antworten sie oberhalb dieser Linie/ Please reply above this line",
 
-
-    "oauth2_token"              => "OAuth2 Token",
     "email_settings"            => "Email Einstellungen",
     "web_settings"              => "Web Einstellungen",
     "split_selected_replies"    => "Trenne ausgewählte Antworten",
@@ -364,15 +312,14 @@ return array(
      */
     "no_operator_groups"        => "Keine Operator Gruppen gefunden. Click <a href=':route'>here</a> um eine zu erstellen.",
     "no_user_groups"            => "Keine Benutzergruppen gefunden. Click <a href=':route'>here</a> um eine zu erstellen.",
-    "opened_by"                 => "(Opened by :name)",
     "remote_email_piping_desc"  => "Download the <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>remote email piping script</a> and follow the <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>documentation</a> on configuring it on your mail server.",
-    "not_assigned_department"   => "Sorry, you're not permitted to view tickets in the :department department. If you think this has been shown in error, please contact your administrator.",
+
     /*
      * 2.0.3
      */
     "department_consume_all"    => "Supportpal kann anhand der Mailadresse entscheiden an welches Department das Ticket geleitet wird. Mit dieser Einstellung bekommt diese Department alle Tickets mit unbekannten AN Adressen im Mail",
     "default_reply_options"     => "Standard Antwort Optionen",
-    "default_reply_options_desc"=> "Wähle die Standard Antwort option beim öffnen oder beantworten eines Tickets. Die  ':reply_option' Option wird Ticketbasiert auf grund der Abteilungs Option  ':department_option' gesetzt.",
+    "default_reply_options_desc" => "Wähle die Standard Antwort option beim öffnen oder beantworten eines Tickets. Die  ':reply_option' Option wird Ticketbasiert auf grund der Abteilungs Option  ':department_option' gesetzt.",
     "associate_response_tag"    => "Textbaustein einem Tag zuweisen...",
     "canned_response_tags_desc" => "Füge Tags hinzu um einen Textbaustein als Antwort finden zu können.",
     "loading_tags"              => "Lade Tags",
@@ -396,22 +343,17 @@ return array(
     "default_open_status_desc"  => "Setze den Standardstatus wenn der Benutzer ein Ticket eröffnet oder auf Ticket antwortet bevor ein Operator eine Antwort geschrieben hat.",
     "default_reply_status"      => "Standard Antwort Status",
     "default_reply_status_desc" => "Wähle den Standardstatus der gesetzt werden wenn ein Benutzer auf einen Operator Nachricht antwortet.",
-    "drafting_reply"            => "<strong>:name</strong> startete mit :type um :time:",
     "ticket_reply_order_default" => "System benutzt den Wert der unter Ticketeinstellungen gesetzt ist..",
     "select_a_parent"           => "Wähle einen Mutterabteilung...",
     "select_a_department"       => "Wähle eine Abteilung...",
-
-    "not_assigned_brand"        => "Sorry, you're not permitted to view tickets in this brand. If you think this has been shown in error, please contact your administrator.",
     "department_operator_desc"  => "Sie können auch einzelne Operateure einer Abteilung zuweisen. Diese Operateure sind Zusätzlich zu den zugewiesenen Gruppen.",
     "department_group"          => "Abteilungsgruppen",
     "department_group_desc"     => "Sie können auch Gruppen der Abteilung zuweisen, empfohlen bei vielen Operateuren oder häufig wechselnden.",
     "ticket_other_brands"       => "Tickets in anderen Marken",
     "add_for_department"        => "Füge der Abteilung hinzu...",
     "record_order"              => "Ziehe die Zeile um die Reihenfolge der Datensätze zu ändern.",
-    "ticket_token"              => "Ticket Token",
     "reply_all"                 => "Antworten an Alle",
     "reply_without_cc"          => "Antworten (nur AN, Keine Blindkopie)",
-    "open_new_for_user"         => "Open New Ticket For User",
     "email_accounts"            => "Email Konten",
     "add_another_email"         => "Füge eine zustäzliche Mail Adresse hinzu",
     "follow_up_date"            => "Nachverfolgungsdatum",
@@ -457,8 +399,6 @@ return array(
     "new_ticket_note"           => "Neue Ticket Notiz",
     "email_template_desc"       => "Sie können eine andere Email Vorlage als die Standard auswählen für Nachrichten an Benutzer und Operateure. Diese Vorlage ist dann der Standard für diese Abteilung.",
     "create_new_user"           => "Erstelle einen neuen Benutzer",
-    "create_new_user_desc"      => "Create a new user and set them as the user of this ticket.",
-    "convert_user_ticket_desc"  => "The ticket will be converted from an internal to a user ticket.",
     "user_reply_internal_ticket" => "Kein Operator. Nur Operator dürfen interne Tickets ansehen.",
     "enter_email_address"       => "Gib Email Adresse an...",
     "email_user_frontend"       => "Schicke ein Email an Benutzer wenn das Ticket über den Frontend eröffnet wurde",
@@ -469,7 +409,6 @@ return array(
     /*
      * 2.2.0
      */
-    "macro_order"               => "Automatic macros are processed in the order they appear. Drag the rows to change the order of the macros.",
     "user_ticket_existing_desc" => "Öffne ein neues Ticket im Namen eines existierenden Benutzers.",
     "canned_response_tag"       => "Textbaustein Tag|Textbaustein Tags",
     "response"                  => "Antwort|Antworten",
@@ -580,5 +519,32 @@ return array(
     "im_not_sure"               => "Ich bin nicht sicher",
     "auto_reply_detected"       => "Automatische Antwort wurde erkannt - Es werden keinen Informationen an den/die Benutzer gesendet.",
     "cc_desc"                   => "Sie können einen Blindempfänger hinzufügen durch Eingabe der Mail Adresse.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
 );

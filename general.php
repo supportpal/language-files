@@ -5,7 +5,6 @@ return array(
     "clear"                     => "Löschen",
     "begin"                     => "Begin",
     "documentation"             => "Dokumentation",
-    "forums"                    => "Foren",
     "good"                      => "Gut",
     "bad"                       => "Schlecht",
     "expire"                    => "Enden",
@@ -19,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Letzte Ausführung",
     "unknown"                   => "Unbekannt",
-    "optional"                  => "optional",
-    "received"                  => "Erhalten",
-    "unanswered"                => "Unbeantwortet",
-    "in_queue"                  => "In Warteschlange",
     "open"                      => "Offen",
     "pending"                   => "Wartend",
     "continue"                  => "Fortfahren",
@@ -42,7 +37,6 @@ return array(
     "time"                      => "Uhrzeit",
     "id"                        => "ID",
     "log"                       => "Log",
-    "event"                     => "Ereignis",
     "filter"                    => "Filter",
     "ip_address"                => "IP-Addresse",
     "ip"                        => "IP",
@@ -65,9 +59,6 @@ return array(
     "remove"                    => "Entfernen",
     "required"                  => "Erforderlich",
     "enabled"                   => "Aktiviert",
-    "modified"                  => "Geändert",
-    "change"                    => "Ändern",
-    "no_change"                 => "Keine Änderung",
     "registered"                => "Registriert",
     "username"                  => "Benutzername",
     "password"                  => "Passwort",
@@ -84,7 +75,6 @@ return array(
     "disable"                   => "Deaktivieren",
     "home"                      => "Home",
     "navigation"                => "Navigation",
-    "column"                    => "Spalte|Spalten",
     "action"                    => "Aktion|Aktionen",
     "value"                     => "Wert",
     "when"                      => "Wenn",
@@ -102,10 +92,7 @@ return array(
     "active"                    => "Aktiv",
     "validate_auth"             => "Authentifizierung validieren",
     "end"                       => "Ende",
-    "current"                   => "Aktuell",
     "loading"                   => "Lade",
-    "processing"                => "Verarbeitung",
-    "code"                      => "Code",
     "maintenance"               => "Wartung",
     "status"                    => "Status|Status",
     "count"                     => "Anzahl",
@@ -115,7 +102,6 @@ return array(
     "reply"                     => "Antworten",
     "filter_results"            => "Ergebnisse filtern",
     "anyone"                    => "Jeder",
-    "everyone"                  => "Jeder",
     "text"                      => "Text",
     "attachment"                => "Anhang|Anhänge",
     "add_attachment"            => "Anhang hinzufügen",
@@ -132,7 +118,6 @@ return array(
     "content_sender"            => "Inhalt &amp; Absender",
     "permissions"               => "Berechtigungen",
     "no_permissions_found"      => "Keine Berechtigungen gefunden",
-    "check_uncheck_all"         => "Alle auswählen / abwählen",
     "first"                     => "Erste",
     "second"                    => "Zweite",
     "third"                     => "Dritte",
@@ -156,8 +141,6 @@ return array(
     "due"                       => "Fällig",
     "overdue"                   => "Überfällig",
     "hours_before_overdue"      => "Stunden bis zur Überfälligkeit",
-    "add_rule"                  => "Regel hinzufügen",
-    "new"                       => "Neu",
     "transfer"                  => "Übertragen",
     "view_all"                  => "Alle anzeigen",
     "manage"                    => "verwalten",
@@ -166,13 +149,11 @@ return array(
     "deactivate"                => "Deaktivieren",
     "uninstall"                 => "Deinstallieren",
     "version"                   => "Version",
-    "and"                       => "und",
+
     "by"                        => "von",
     "record"                    => "eintrag",
     "views"                     => "aufruf",
-    "if_exists"                 => "falls es existiert",
     "of"                        => "im",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "von",
     "to"                        => "bis",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -189,7 +170,6 @@ return array(
     "day"                       => "Tag|Tage",
     "month"                     => "Monat|Monate",
     "year"                      => "Jahr|Jahre",
-    "ago"                       => "vorher",
 
     "editor"                    => "Editor",
 
@@ -197,7 +177,6 @@ return array(
      * 2.0.1
      */
     "download"                  => "herunterladen",
-    "acknowledge"               => "zustimmen",
 
     /*
      * 2.0.2
@@ -214,7 +193,6 @@ return array(
     "recently_used"             => "Kürzlich benutzt",
     "recently_created"          => "Kürzlich erstellt",
     "load_more"                 => "Weitere laden",
-    "clear_selected"            => "Auswahl löschen",
     "expand_all"                => "Alle erweitern",
     "collapse_all"              => "Alle einklappen",
     "show_more"                 => "Weitere laden",
@@ -223,7 +201,6 @@ return array(
     /*
      * 2.1.0
      */
-    "recently_viewed"           => "Recently Viewed Tickets",
     "na"                        => 'N/A',
     "total"                     => "Total",
     "disabled"                  => "deaktiviert",
@@ -238,7 +215,6 @@ return array(
     "end_date"                  => "Ende Datum",
     "submitted_by"              => "gesendet von",
     "every_minutes"             => "Alle :minutes",
-    "at_time"                   => "at :time",
 
     /*
      * 2.1.1
@@ -287,7 +263,7 @@ return array(
     "inactive"                  => "Inaktiv",
     "run"                       => "läuft",
 
-/*
+    /*
      * 2.3.0
      */
     "regex"                     => "Regex Validation",
@@ -384,5 +360,29 @@ return array(
     "click_to_toggle"           => "Clicken um umzuschalten",
     "am"                        => "AM",
     "pm"                        => "PM",
+    "viewing"                   => "Viewing",
+
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );

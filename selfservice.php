@@ -3,9 +3,7 @@
 return array(
 
     "popular_items"             => "beliebte Artikel",
-    "type_popular_items"        => ":type: Popullar",
     "latest_items"              => "aktuellste Artikel",
-    "type_latest_items"         => ":type: Latest",
 
     "selfservice"               => "Self-Service",
     "article"                   => "Artikel|Artikel",
@@ -14,12 +12,7 @@ return array(
     "tag"                       => "Stichwort|Stichwörter",
     "type"                      => "Typ|Typen",
 
-    "type_enabled_desc"         => "Wir der Typ deaktiviert, wird es nicht mehr im Frontend angezeigt.",
-    "type_order"                => "You can change the order that the self-service types are displayed to users on the frontend by dragging and dropping the rows.",
-
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view.",
     "frontend_icon"             => "Frontend Icon",
-    "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
 
     "no_categories"             => ":type hat momentan keinen Kategorien. Bitte erstellen sie eine Kategorie, bevor sie einen Arikel erstellen.",
     "no_categories_frontend"    => "Es gibt keinen Kategorien anzuzeigen.",
@@ -27,8 +20,6 @@ return array(
     "awaiting_moderation"       => "wartet auf Moderation",
     "published"                 => "Veröffentlicht",
     "spam"                      => "Spam",
-    "show_text"                 => "Show Text",
-    "hide_text"                 => "Hide Text",
 
     "hierarchical"              => "Hierarchisch",
     "list"                      => "Liste",
@@ -52,7 +43,6 @@ return array(
     "login_comment"             => "Sie müssen angemeldet sein um kommentieren zu können",
     "incorrect_captcha"         => "Das captcha war nicht korrekt gelöst.",
     "comment_blocked"           => "Der Kommentar wurde als Spam blockiert.",
-    "comment_error"             => "Could not post comment.",
     "comment_success"           => "Ihr Kommentar würde übermittelt!",
     "comment_success_moderated" => "Ihr Kommentar wurde zur Moderation durch unser Team übermittelt.",
 
@@ -60,7 +50,6 @@ return array(
     "comment_rated_error"       => "Ihr Kommentar konnte nicht bewertet werden",
 
     "article_find_useful"       => "Fanden sie diesen Artikel hilfreich?",
-    "article_found_useful"      => "people found this article useful.",
     "article_rated_success"     => "Der Artikel wurde erfolgreich bewertet.",
     "article_rated_error"       => "Der Artikel konnte nicht bewertet werden.",
 
@@ -100,14 +89,10 @@ return array(
     "enable_ratings_desc"       => "Ermögliche Benutzern das bewerten von Artikeln.",
     "post_rating"               => "Bewerte Artikel",
     "post_rating_desc"          => "Bewertung durch anonyme oder nur durch registrierte Benutzer.",
-    "show_rating"               => "Show Ratings",
-    "show_rating_desc"          => "Show article rating to everyone (public) or registered users only.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Bitte melden sie sich an oder registrieren sie sich um die Artikel anzuzeigen.",
-    "download_auth_required"    => "Please login or register an account to download the article attachment",
     "auth_required"             => "Please login or register an account to view the article.",
 
     /*
@@ -129,7 +114,7 @@ return array(
     "article_desc"              => "Der Artikel kann in mehreren Sprachen geschrieben werden. Es wird automatisch die Übersetzung angezeigt anhand der vom Benutzer ausgewählten Sprache.",
     "no_author"                 => "Kein Autor",
 
-   /*
+    /*
      * 2.3.1
      */
     "slug"                      => "Slug",
@@ -166,5 +151,6 @@ return array(
     "type_protected_desc"       => "aktivieren um den Inhalt nur angemeldeten Benutzern dazurstellen.",
     "article_feedback"          => "Artikel Feedback",
     "thank_you_for_feedback"    => "Vielen Dank für ihr Feedback zu diesem Artikel.",
+    "frontend_icon_desc"        => "Standard Icon für den Frontend. alternativ können sie ihr eigenes Icon zur Verfügung stellen:",
 
 );
