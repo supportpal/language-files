@@ -481,8 +481,8 @@ return array(
     /*
      * 3.4.0
      */
-    "brand_name"                => "Markenname",
-    "brand_name_desc"           => "Markenname wie ihn die Kunden sehen.",
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
     "supportpal_announcements"  => "SupportPal Announcements",
     "add_selectize"             => "Add <strong>:item</strong>...",
     "plugin_author_uri_short"   => "Author URI",
