@@ -394,7 +394,7 @@ return array(
     /*
      * 3.0.0
      */
-    "upload_unknown_error"      => "\":File\" dosyası, sunucu hatası nedeniyle yüklenmedi.",
+    "upload_unknown_error"      => "The file(s) could not uploaded due to a server-side error.",
     "insert_image"              => "Insert Image",
     "quote"                     => "Quote",
     "code"                      => "Code",
@@ -451,7 +451,7 @@ return array(
     "back_to_website"           => "Back to website",
     "template"                  => "Template",
     "how_can_we_help"           => "How can we help you today?",
-    "ticket_desc2"              => "Talep listesi, filtrelenebilir ve sütun düzeni tercihinize göre ayarlanabilir..",
+    "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
     "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
     "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
     "plugin_basic_info"         => "Please provide some basic information about your plugin.",
@@ -481,8 +481,8 @@ return array(
     /*
      * 3.4.0
      */
-    "brand_name"                => "Marka Adı",
-    "brand_name_desc"           => "Son kullanıcılar tarafından görülen markanın adı.",
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
     "supportpal_announcements"  => "SupportPal Announcements",
     "add_selectize"             => "Add <strong>:item</strong>...",
     "plugin_author_uri_short"   => "Author URI",

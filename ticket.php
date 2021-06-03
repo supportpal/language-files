@@ -518,7 +518,7 @@ return array(
     "search_number_or_subject"  => "Search by ticket number or subject",
     "im_not_sure"               => "I'm not sure",
     "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
-    "cc_desc"                   => "Yukarıdaki e-posta adreslerini girerek diğer kişileri bu talebe yönlendirebilirsiniz.",
+    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
 
     /*
      * 3.2.0

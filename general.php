@@ -319,7 +319,7 @@ return array(
     "previous"                  => "Previous",
     "neutral"                   => "Neutral",
     "and"                       => "and",            // Used in "A and B"
-    "optional"                  => "isteğe bağlı",
+    "optional"                  => "Optional",
     "january"                   => "January",
     "february"                  => "February",
     "march"                     => "March",
