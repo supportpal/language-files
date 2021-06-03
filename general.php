@@ -295,7 +295,7 @@ return array(
     "manual"                    => "Manual",
     "automatic"                 => "Automatic",
     "hook"                      => "Hook",
-    "event"                     => "Event",
+    "event"                     => "Event|Events",
     "test"                      => "Test",
 
     /*
@@ -319,7 +319,7 @@ return array(
     "previous"                  => "Previous",
     "neutral"                   => "Neutral",
     "and"                       => "and",            // Used in "A and B"
-    "optional"                  => "optional",
+    "optional"                  => "Optional",
     "january"                   => "January",
     "february"                  => "February",
     "march"                     => "March",

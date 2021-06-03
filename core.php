@@ -364,7 +364,7 @@ return array(
      */
     "enable_ssl_warning"        => "If you enable this setting when the page doesn't load correctly, you may be locked out of SupportPal!",
     "verify_frontend_loads"     => "Please verify that the frontend loads correctly below.",
-    "twig_operator_signature"   => "The {{ operator.signature }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_signature"   => "The {{ operator.signature|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
 
     /*
      * 2.4.1
@@ -380,7 +380,7 @@ return array(
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors are otherwise stored in the logs at /storage/logs.",
+    "debug_mode_desc"           => "Enable debug mode to display errors, only use for debugging or if instructed by support. Errors and other useful logging messages are otherwise stored in the application logs, which can be downloaded by going to Utilities -> Logs -> Log File Manager.",
     "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
     "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
     "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
@@ -388,13 +388,13 @@ return array(
     /*
      * 2.6.0
      */
-    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insenstive. <br />The string can also take advantage of <a href='http://www.regular-expressions.info/'>regular expressions</a>, an example of this would be: 's.{1,}p.{1,}a.{1,}m'. You do not need to worry about delimiters.",
+    "containing_text_desc"      => "Please enter a string (particular word to ban or email address), all strings are case-insensitive.",
     "spam_is_regex_desc"        => "Rules can take advantage of regular expressions; if you intend to do so please enable this setting. You do not need to include delimiters.",
 
     /*
      * 3.0.0
      */
-    "upload_unknown_error"      => "The file \":file\" was not uploaded due to a server-side error.",
+    "upload_unknown_error"      => "The file(s) could not uploaded due to a server-side error.",
     "insert_image"              => "Insert Image",
     "quote"                     => "Quote",
     "code"                      => "Code",
@@ -451,7 +451,7 @@ return array(
     "back_to_website"           => "Back to website",
     "template"                  => "Template",
     "how_can_we_help"           => "How can we help you today?",
-    "ticket_desc2"              => "The ticket grid can be ordered, filtered and its column layout adjusted to your preference.",
+    "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
     "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
     "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
     "plugin_basic_info"         => "Please provide some basic information about your plugin.",
@@ -482,7 +482,7 @@ return array(
      * 3.4.0
      */
     "brand_name"                => "Brand Name",
-    "brand_name_desc"           => "The name of the brand as seen by end-users.",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
     "supportpal_announcements"  => "SupportPal Announcements",
     "add_selectize"             => "Add <strong>:item</strong>...",
     "plugin_author_uri_short"   => "Author URI",

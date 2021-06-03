@@ -116,7 +116,7 @@ return array(
      */
     "delete_record"         => "Delete :record?",
     "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "Once this record has been deleted, it cannot be recovered. Deleting this record may also affect other areas in the system where this record is currently being used.",
+    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
     "delete_confirm"        => "Yes, Delete :record",
     "keep_record"           => "No, Keep :record",
     "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",

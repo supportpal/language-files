@@ -163,14 +163,14 @@ return array(
     "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
     "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
     "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Error: Failed to send email in queue 5 times, removing from queue.",
+    "email_send_failed"                 => "Failed to send email.",
     "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
     "export_scheduled"                  => "An export of user :rel has been scheduled.",
     "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
     "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
     "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
     "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Sent ':extra_rel1' email to user group ':new_value' for ticket #:rel.",
+    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
 
     /*
      * 2.4.0
@@ -186,7 +186,7 @@ return array(
     "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
     "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
     "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Deleted ticket ':old_value' (#:rel).",
+    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
     "ticket_trashed"                    => "Moved ticket #:rel to trash.",
     "ticket_restored"                   => "Restored ticket #:rel from trash.",
     "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
@@ -194,9 +194,9 @@ return array(
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "A follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "The follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "The follow up on ticket #:rel has been deleted.",
+    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
+    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
+    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
 
     /*
      * 3.0.0

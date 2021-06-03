@@ -63,7 +63,7 @@ return array(
     "ticket_custom_field"               => "Ticket custom field",
     "user_custom_field"                 => "User custom field",
     "user_organisation_custom_field"    => "User organisation custom field",
-    "user_organisation"                 => "User organisation",
+    "user_organisation"                 => "User organisation name",
     "user_organisation_brand"           => "User organisation brand",
     "user_organisation_country"         => "User organisation country",
     "user_organisation_language"        => "User organisation language",

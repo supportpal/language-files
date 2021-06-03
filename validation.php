@@ -131,7 +131,7 @@ return array(
     "in_array"                  => "The :attribute field does not exist in :other.",
     "ipv4"                      => "The :attribute must be a valid IPv4 address.",
     "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be valid JSON.",
+    "json"                      => "The :attribute must be a valid JSON string.",
     "lt"                        => array(
         "numeric" => "The :attribute must be less than :value.",
         "file"    => "The :attribute must be less than :value kilobytes.",
@@ -149,7 +149,7 @@ return array(
     "present"                   => "The :attribute field must be present.",
     "required_unless"           => "The :attribute field is required unless :other is in :values.",
     "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "از: ویژگی باید یک منطقه معتبر باشد.",
+    "timezone"                  => "The :attribute must be a valid zone.",
     "uploaded"                  => "The :attribute failed to upload.",
 
     /*

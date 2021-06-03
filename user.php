@@ -280,14 +280,14 @@ return array(
     "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
     "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
     "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
-    "send_confirmation_email"       => "ارسال ایمیل تایید به کاربر",
+    "send_confirmation_email"       => "Send Confirmation Email",
     "mark_as_confirmed"             => "Mark as Confirmed",
-    "password_reset_already"        => "اکانت شما از قبلتایید شده است,اقدام به ورود کنید.",
+    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
     "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
-    "success_register_desc"         => "Thank you for registering your account, you will just need to confirm your email address before you can login. We will shortly send you an email that contains a confirmation link to finish the process.",
+    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
     "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
-    "register_confirm_desc"         => "Thank you for confirming your email, please enter a password for your account below to finish your account set up.",
-    "thank_you_confirm"             => "با تشکر از شما برای تایید حساب شما. برای ادامه لطفا <a href=':route'>وارد شوید</a>.",
+    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
+    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
     "use_gravatar"                  => "Use Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
 
@@ -298,8 +298,8 @@ return array(
     "confirmation"                  => "Confirmation",
     "confirmation_email_in_use"     => "The email address is already in use by another account.",
     "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
-    "reset_request_desc"            => "We will shortly send you an email that contains a confirmation link that will then let you reset the password.",
-    "password_reset_error"          => "User account or reset token not found, please verify details are correct or try to reset again.",
+    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
+    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
 
     /*
      * 3.0.0
@@ -320,7 +320,7 @@ return array(
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter above to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
     "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
 
     /*

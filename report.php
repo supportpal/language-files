@@ -91,13 +91,13 @@ return array(
     /*
      * 2.5.0
      */
-    "total_users_desc"          => "This report shows how many users there are in the system, split by how many are confirmed and how many aren't.",
+    "total_users_desc"          => "This report shows how many users there are in the system, split by how many have confirmed ownership of their email address.",
 
     /*
      * 3.0.0
      */
-    "user_feedback"             => "User Feedback",
-    "user_feedback_desc"        => "The feedback provided by users about tickets in a given time period.",
+    "user_feedback"             => "Feedback",
+    "user_feedback_desc"        => "The written feedback provided by users when answering feedback forms.",
     "user_feedback_ratings"     => "Feedback Ratings",
     "user_feedback_ratings_desc" => "The total number of times each feedback rating has been given.",
     "user_feedback_response_rate" => "Feedback Response Rate",

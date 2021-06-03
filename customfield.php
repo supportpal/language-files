@@ -51,13 +51,13 @@ return array(
     "depends_on"                => "Depends On",
     "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
     "select_option"             => "Select an option...",
-    "purge"                     => "Purge On Close",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted.",
+    "purge"                     => "Purge",
+    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "If the custom field must be filled out.",
+    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
 
     /*
      * 3.3.0
