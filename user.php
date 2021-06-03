@@ -320,8 +320,8 @@ return array(
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Baixe e instale um dos seguintes aplicativos e escaneie o código QR ou insira a chave secreta. Isso irá configurar sua conta em seu dispositivo, você poderá então visualizar a conta e irá gerar um código de 6 dígitos que você deve inserir acima para verificar e concluir a configuração. Certifique-se de clicar em verificar antes que o código expire. O horário do seu servidor precisará estar sincronizado com um servidor NTP para funcionar corretamente.",
-    "two_fa_successfully_enabled"   => "A autenticação de dois fatores (2FA) foi habilitada com sucesso, conclua seu login novamente.",
+    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
+    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
 
     /*
      * 3.5.0

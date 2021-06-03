@@ -364,7 +364,7 @@ return array(
      */
     "enable_ssl_warning"        => "Se você habilitar essa configuração quando a página não carregar corretamente, você poderá ficar bloqueado no SupportPal!",
     "verify_frontend_loads"     => "Por favor, verifique se o frontend carrega corretamente abaixo.",
-    "twig_operator_signature"   => "O campo de mesclagem {{operator.signature | raw}} será processado em tempo de execução; portanto, a visualização pode estar incorreta.",
+    "twig_operator_signature"   => "O campo de mesclagem {{ operator.signature|raw }} será processado em tempo de execução; portanto, a visualização pode estar incorreta.",
 
     /*
      * 2.4.1
@@ -481,8 +481,8 @@ return array(
     /*
      * 3.4.0
      */
-    "brand_name"                => "Nome da marca",
-    "brand_name_desc"           => "O nome da marca como visto pelos usuários finais.",
+    "brand_name"                => "Brand Name",
+    "brand_name_desc"           => "Your brand name is used for all correspondence with users.",
     "supportpal_announcements"  => "SupportPal Announcements",
     "add_selectize"             => "Add <strong>:item</strong>...",
     "plugin_author_uri_short"   => "Author URI",
@@ -503,5 +503,4 @@ return array(
     "update_available"          => "The latest available version is :version.",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
-
 );

@@ -163,6 +163,6 @@ return array(
     "migrated"                  => "Migrated",
     "database_setup_complete"   => "Database setup complete.",
     "created_repository"        => "Created ':name' repository successfully.",
-    "wish_to_continue"          => "É recomendável alterar o usuário, a menos que você tenha certeza do que está fazendo. Você deseja continuar?",
+    "wish_to_continue"          => "Cancel now if you don't understand the implications! The command will continue automatically otherwise...",
 
 );
