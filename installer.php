@@ -116,10 +116,10 @@ return array(
     /*
      * 2.4.0
      */
-    "mysql_server_version"      => "Server Version >= 5.5.3",
-    "mysql_server_version_desc" => "MySQL 5.5.3 or greater is required to run SupportPal. Found: ':version'.",
-    "mysql_client_version"      => "Client Version >= 5.5.3 (5.0.9 for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client version 5.5.3 or greater (5.0.9 for MySQLnd) is required to run SupportPal. Found: ':version'.",
+    "mysql_server_version"      => "Server Version >= :min",
+    "mysql_server_version_desc" => "MySQL :min or greater is required to run SupportPal. Found: ':version'.",
+    "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
+    "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
 
     "upgrade_step"              => "Step :num of :total: ",
     "accept_eula"               => "Accept EULA",
@@ -152,7 +152,7 @@ return array(
     /*
      * 3.0.0
      */
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then continue.",
+    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
 
     /*
      * 3.4.0

@@ -113,7 +113,7 @@ return array(
     "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
     "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
     "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => ":attribute fältets värde finns redan.",
+    "distinct"                  => "The :attribute field has a duplicate value.",
     "file"                      => "The :attribute must be a file.",
     "filled"                    => "The :attribute field must have a value.",
     "gt"                        => array(
@@ -128,10 +128,10 @@ return array(
         "string"  => "The :attribute must be greater than or equal :value characters.",
         "array"   => "The :attribute must have :value items or more.",
     ),
-    "in_array"                  => ":attributefältet existerar inte i :other.",
+    "in_array"                  => "The :attribute field does not exist in :other.",
     "ipv4"                      => "The :attribute must be a valid IPv4 address.",
     "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => ":attribute måste vara giltig JSON.",
+    "json"                      => "The :attribute must be a valid JSON string.",
     "lt"                        => array(
         "numeric" => "The :attribute must be less than :value.",
         "file"    => "The :attribute must be less than :value kilobytes.",
@@ -149,7 +149,7 @@ return array(
     "present"                   => "The :attribute field must be present.",
     "required_unless"           => "The :attribute field is required unless :other is in :values.",
     "string"                    => "The :attribute must be a string.",
-    "timezone"                  => ":attribute måste vara en tillåten zon.",
+    "timezone"                  => "The :attribute must be a valid zone.",
     "uploaded"                  => "The :attribute failed to upload.",
 
     /*

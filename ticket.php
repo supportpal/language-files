@@ -446,7 +446,7 @@ return array(
      * 2.3.1
      */
     "inactive_ticket_note"      => "Note: only affects tickets belonging to a status with 'Close Inactive Tickets' enabled.",
-    "close_inactive_status_desc" => "Stäng ärenden automatiskt som är inaktiva utan en uppföljning av användaren (definierat av nummer av dagar sedan senaste svaret av en operatör i de allmänna inställningarna).",
+    "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
     "from_header_missing"       => "From: header missing from email.",
     "move_ticket"               => "Move Ticket",
     "move_ticket_step1"         => "Step 1: Choose a new brand to move ticket to",
@@ -457,7 +457,7 @@ return array(
     "select_a_department_email" => "Select a department email...",
     "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
     "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
-    "ticket_format_desc"        => "Följande variabler kan användas:<br />%S för ett sekventiellt nummer | %N för ett slumpmässigt nummer | %L för en slumpmässig bokstav<br />Använd {number} för att upprepa <strong>bara</strong> efter %N eller %L, t.ex. %N{4} är samma som 4 slumpmässiga nummer, %L{3} är samma som 3 slumpmässiga bokstäver<br />Följande <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP-datumparametrar</a> med prefix % Y,y,m,d,j,g,G,h,H,i,s",
+    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -465,14 +465,14 @@ return array(
     "macro_enabled_desc"        => "Toggle to disable the macro and prevent it from running automatically or showing in the ticket interface.",
     "macro_order_drag"          => "Drag the rows to change the order of the macros.",
     "macro_order_processed"     => ":type macros are processed in the order they appear.",
-    "macro_type"                => "Makrotyp",
-    "macro_type_desc"           => "Som standard måste makrot kallas på manuellt i ärendevyn. Det kan anges vara ett automatiskt makro som kollas och utförs när nya ärenden kommer in eller på alla ärenden via en schemalagd aktivitet. Oavsett kollas villkoren och om sanna utförs handlingen automatiskt. Ett makro kan bara köras en gång på ett ärende automatiskt medan det inte finns någon gräns när man kör det manuellt.",
+    "macro_type"                => "Macro Type",
+    "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on unresolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
     "macro_run_at_most"         => "Run At Most",
     "macro_run_times"           => "times", // As in '5 times'
     "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
     "macro_events_desc"         => "Select one or more events that the macro should run on. The conditions set below will be checked before the macro runs.",
     "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
-    "macro_condition_desc"      => "Definiera villkoren för vilka ärenden detta makro är tillgänglig för. Som standard, utan villkor, tillämpas det på alla ärenden.",
+    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets. At least one condition must be defined for automatic macros.",
     "add_remove_headers"        => "Add/Remove Headers",
     "webhook_merge_fields"      => "Merge fields can be used in the URL and content field, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
     "webhook_ticket_required"   => "A ticket must exist for this functionality to work.",
@@ -480,7 +480,7 @@ return array(
     "watch"                     => "Watch",
     "unwatch"                   => "Unwatch",
     "watching"                  => "Watching",
-    "internal_ticket"           => "Internt ärende",
+    "internal_ticket"           => "Internal Ticket|Internal Tickets",
 
     /*
      * 2.4.1
@@ -518,7 +518,7 @@ return array(
     "search_number_or_subject"  => "Search by ticket number or subject",
     "im_not_sure"               => "I'm not sure",
     "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
-    "cc_desc"                   => "Du kan CC andra människor på detta ärende genom att skriva in e-postadresser ovan.",
+    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
 
     /*
      * 3.2.0
