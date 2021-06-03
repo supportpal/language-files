@@ -5,7 +5,6 @@ return array(
     "clear"                     => "Clear",
     "begin"                     => "Begin",
     "documentation"             => "Documentation",
-    "forums"                    => "Community Forums",
     "good"                      => "Good",
     "bad"                       => "Bad",
     "expire"                    => "Expire",
@@ -19,10 +18,6 @@ return array(
     "url"                       => "URL",
     "last_run"                  => "Last Run",
     "unknown"                   => "Unknown",
-    "optional"                  => "optional",
-    "received"                  => "Received",
-    "unanswered"                => "Unanswered",
-    "in_queue"                  => "In Queue",
     "open"                      => "Open",
     "pending"                   => "Pending",
     "continue"                  => "Continue",
@@ -42,7 +37,6 @@ return array(
     "time"                      => "Time",
     "id"                        => "ID",
     "log"                       => "Log",
-    "event"                     => "Event",
     "filter"                    => "Filter",
     "ip_address"                => "IP Address",
     "ip"                        => "IP",
@@ -65,9 +59,6 @@ return array(
     "remove"                    => "Remove",
     "required"                  => "Required",
     "enabled"                   => "Enabled",
-    "modified"                  => "Modified",
-    "change"                    => "Change",
-    "no_change"                 => "No Change",
     "registered"                => "Registered",
     "username"                  => "Username",
     "password"                  => "Password",
@@ -84,7 +75,6 @@ return array(
     "disable"                   => "Disable",
     "home"                      => "Home",
     "navigation"                => "Navigation",
-    "column"                    => "Column|Columns",
     "action"                    => "Action|Actions",
     "value"                     => "Value",
     "when"                      => "When",
@@ -102,10 +92,7 @@ return array(
     "active"                    => "Active",
     "validate_auth"             => "Validate Authentication",
     "end"                       => "End",
-    "current"                   => "Current",
     "loading"                   => "Loading",
-    "processing"                => "Processing",
-    "code"                      => "Code",
     "maintenance"               => "Maintenance",
     "status"                    => "Status|Statuses",
     "count"                     => "Count",
@@ -115,7 +102,6 @@ return array(
     "reply"                     => "Reply",
     "filter_results"            => "Filter Results",
     "anyone"                    => "Anyone",
-    "everyone"                  => "Everyone",
     "text"                      => "Text",
     "attachment"                => "Attachment|Attachments",
     "add_attachment"            => "Add Attachment",
@@ -132,7 +118,6 @@ return array(
     "content_sender"            => "Content &amp; Sender",
     "permissions"               => "Permissions",
     "no_permissions_found"      => "No permissions found",
-    "check_uncheck_all"         => "Check / Uncheck All",
     "first"                     => "First",
     "second"                    => "Second",
     "third"                     => "Third",
@@ -156,8 +141,6 @@ return array(
     "due"                       => "Due",
     "overdue"                   => "Overdue",
     "hours_before_overdue"      => "Hours before overdue",
-    "add_rule"                  => "Add Rule",
-    "new"                       => "New",
     "transfer"                  => "Transfer",
     "view_all"                  => "View All",
     "manage"                    => "Manage",
@@ -167,13 +150,10 @@ return array(
     "uninstall"                 => "Uninstall",
     "version"                   => "Version",
 
-    "and"                       => "and",
     "by"                        => "by",
     "record"                    => "record",
     "views"                     => "views",
-    "if_exists"                 => "if exists",
     "of"                        => "of",            // Used in group e.g. Last Thursday of November
-    "out_of"                    => "out of",
     "to"                        => "to",            // Used in a range e.g. 2 to 5
 
     // Languages
@@ -190,15 +170,13 @@ return array(
     "day"                       => "Day|Days",
     "month"                     => "Month|Months",
     "year"                      => "Year|Years",
-    "ago"                       => "ago",
-    
+
     "editor"                    => "Editor",
 
     /*
      * 2.0.1
      */
     "download"                  => "Download",
-    "acknowledge"               => "Acknowledge",
 
     /*
      * 2.0.2
@@ -206,7 +184,7 @@ return array(
     "show_details"              => "Show details",
     "hide_details"              => "Hide details",
     "welcome"                   => "Welcome",
-    
+
     /*
      * 2.0.3
      */
@@ -215,7 +193,6 @@ return array(
     "recently_used"             => "Recently Used",
     "recently_created"          => "Recently Created",
     "load_more"                 => "Load more",
-    "clear_selected"            => "clear selected",
     "expand_all"                => "Expand All",
     "collapse_all"              => "Collapse All",
     "show_more"                 => "Show More",
@@ -224,7 +201,6 @@ return array(
     /*
      * 2.1.0
      */
-    "recently_viewed"           => "Recently Viewed Tickets",
     "na"                        => 'N/A',
     "total"                     => "Total",
     "disabled"                  => "Disabled",
@@ -239,7 +215,6 @@ return array(
     "end_date"                  => "End Date",
     "submitted_by"              => "Submitted by",
     "every_minutes"             => "Every :minutes",
-    "at_time"                   => "at :time",
 
     /*
      * 2.1.1
@@ -249,7 +224,7 @@ return array(
     "edited"                    => "edited",
     "scheduled_for"             => "Scheduled For",
     "drag_and_drop"             => "Drag and drop your attachments here.",
-    
+
     /*
      * 2.1.2
      */
@@ -274,7 +249,7 @@ return array(
     "posted"                    => "Posted",
     "locked"                    => "Locked",
     "draft"                     => "Draft",
-    
+
     /*
      * 2.2.0
      */
@@ -287,5 +262,127 @@ return array(
     "sunday"                    => "Sunday",
     "inactive"                  => "Inactive",
     "run"                       => "Run",
+
+    /*
+     * 2.3.0
+     */
+    "regex"                     => "Regex Validation",
+    "check_all"                 => "Check All",
+    "uncheck_all"               => "Uncheck All",
+    "after_and_including"       => "After (and including)",
+    "add_link"                  => "Add Link",
+    "unlink"                    => "Unlink",
+    "link"                      => "Link",
+
+    /*
+     * 2.3.1
+     */
+    "clone"                     => "Clone",
+    "created_date"              => "Created Date",
+    "alphabetical"              => "Alphabetical",
+    "random"                    => "Random",
+    "blocked"                   => "Blocked",
+    "private_to"                => "Private to",
+    "refresh"                   => "Refresh",
+    "provider"                  => "Provider|Providers",
+    "export"                    => "Export|Exports",
+    "generate"                  => "Generate",
+
+    /*
+     * 2.4.0
+     */
+    "show_count_more"           => "Show :count more...",
+    "manual"                    => "Manual",
+    "automatic"                 => "Automatic",
+    "hook"                      => "Hook",
+    "event"                     => "Event|Events",
+    "test"                      => "Test",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "Domain|Domains",
+    "move_to_trash"             => "Move to Trash",
+    "trash"                     => "Trash",
+    "trash_desc"                => "Records that have been in the trash for more than :number days will be deleted automatically.",
+    "restore"                   => "Restore",
+    "delete_forever"            => "Delete Forever",
+
+    /*
+     * 2.6.0
+     */
+    "remove_all"                => "Remove All",
+
+    /*
+     * 3.0.0
+     */
+    "previous"                  => "Previous",
+    "neutral"                   => "Neutral",
+    "and"                       => "and",            // Used in "A and B"
+    "optional"                  => "Optional",
+    "january"                   => "January",
+    "february"                  => "February",
+    "march"                     => "March",
+    "april"                     => "April",
+    "may"                       => "May",
+    "june"                      => "June",
+    "july"                      => "July",
+    "august"                    => "August",
+    "september"                 => "September",
+    "october"                   => "October",
+    "november"                  => "November",
+    "december"                  => "December",
+    "jan"                       => "Jan",
+    "feb"                       => "Feb",
+    "mar"                       => "Mar",
+    "apr"                       => "Apr",
+    "jun"                       => "Jun",
+    "jul"                       => "Jul",
+    "aug"                       => "Aug",
+    "sep"                       => "Sep",
+    "oct"                       => "Oct",
+    "nov"                       => "Nov",
+    "dec"                       => "Dec",
+    "mon"                       => "Mon",
+    "tue"                       => "Tue",
+    "wed"                       => "Wed",
+    "thu"                       => "Thu",
+    "fri"                       => "Fri",
+    "sat"                       => "Sat",
+    "sun"                       => "Sun",
+    "ordinal_th"                => "th",
+    "ordinal_st"                => "st",
+    "ordinal_nd"                => "nd",
+    "ordinal_rd"                => "rd",
+    "range_separator"           => " to ",
+    "week_abbr"                 => "Wk",
+    "scroll_to_increment"       => "Scroll to increment",
+    "click_to_toggle"           => "Click to toggle",
+    "am"                        => "AM",
+    "pm"                        => "PM",
+    "viewing"                   => "Viewing",
+
+    /*
+     * 3.3.0
+     */
+    "authentication"            => "Authentication",
+    "manage_credentials"        => "Manage Credentials",
+
+    /*
+     * 3.4.0
+     */
+    "select_a_date"             => "Select a date",
+    "select_values"             => "Select values",
+    "file"                      => "File",
+
+    /*
+     * 3.5.0
+     */
+    "today"                     => "Today",
+    "yesterday"                 => "Yesterday",
+    "last_7_days"               => "Last 7 Days",
+    "last_30_days"              => "Last 30 Days",
+    "this_month"                => "This Month",
+    "last_month"                => "Last Month",
 
 );
