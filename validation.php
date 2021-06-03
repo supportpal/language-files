@@ -73,8 +73,6 @@ return array(
     "url"                       => "O formato de :attribute inválido.",
     "template_exists"           => "O :attribute selecionado é inválido.",
     "is_valid_captcha"          => "O captcha informado foi inválido. Tente novamente, por favor.",
-    "user_password_length"      => "A senha deve ser igual ou maior a :user_password_length caracteres.",
-    "operator_password_length"  => "O campo senha deve ser igual ou maior a :operator_password_length caracteres.",
     "user_password_strength"    => "O campo :attribute deve content_url :user_password_strength.",
     "operator_password_strength" => "O campo :attribute deve conter :operator_password_strength.",
 
@@ -169,6 +167,16 @@ return array(
      */
     "embed_image"               => "O campo :attribute deve ser um tipo de arquivo: jpeg, png, or gif.",
     "starts_with"               => "O campo :attribute deve iniciar com um dos seguintes: :values.",
+
+    /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
+     * 3.5.0
+     */
+    'phone'                     => "The supplied phone number is invalid.",
 
     /*
     |--------------------------------------------------------------------------
