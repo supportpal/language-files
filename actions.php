@@ -26,8 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "delete_ticket"             => "Radera ärende",
-    "delete_ticket_and_block"   => "Radera ärende och blockera användaren",
     "increase_due_time"         => "Förläng förfallotiden",
     "close_and_lock_ticket"     => "Stäng och lås ärendet",
     "pause_due_time"            => "Pausa förfallotiden",
@@ -54,5 +52,30 @@ return array(
     "add_cc"                    => "Lägg till CC mottagare",
     "remove_cc"                 => "Ändra CC mottagare",
     "remove_cc_desc"            => "Lämna denna tom för att ta bort alla CC mottagare.",
+
+    /*
+     * 2.3.1
+     */
+    "exclude_cc"                => "Exclude CC email addresses",
+
+    /*
+     * 2.4.0
+     */
+    "trigger_webhook"           => "Trigger webhook",
+    "forward_ticket"            => "Forward ticket",
+    "watch_ticket"              => "Set operator to watch ticket",
+    "unwatch_ticket"            => "Unset operator watching ticket",
+    "all_watching_operators"    => "All watching operators",
+
+    /*
+     * 2.5.0
+     */
+    "move_to_trash"             => "Move ticket to trash",
+    "block_user"                => "Block user",
+
+    /*
+     * 2.6.0
+     */
+    "clear_due_time"            => "Clear due time",
 
 );

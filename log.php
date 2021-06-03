@@ -40,12 +40,9 @@ return array(
     "organisation_profile_updated"      => "Uppdaterade profilen för organisationen :rel.",
     "organisation_owner_updated"        => "Flyttade organisationens :rel ägarskap till :new_value.",
 
-    "user_emailed"                      => "Skickade ett mail till :rel.",
-
     "mass_email_queued"                 => "Köade :new_value e-post för att skicka i satser.",
     "mass_email_sent"                   => "Skickade :new_value e-post i kö.",
 
-    "email_send_failed"                 => "Fel: misslyckades med att skicka e-post i kö 5 gånger, tar bort från kö.",
     "email_queue_deleted"               => "Tog bort köat e-post till :rel.",
 
     "scheduled_task_run"                => "Schemalagda uppgiften :rel har körts manuellt.",
@@ -59,15 +56,9 @@ return array(
     "ticket_opened"                     => "Öppnade nytt ärende #:rel.",
     "ticket_opened_on_behalf"           => "Öppnade nytt ärende #:rel på uppdrag av :new_value.",
     "ticket_opened_email"               => "Importade e-post som ett nytt ärende #:rel.",
-    "ticket_deleted"                    => "Tog bort ärende ':old_value' (#:rel).",
-
-    "ticket_followup_set"               => "En uppföljning har satts upp på ärendet #:rel.",
-    "ticket_followup_updated"           => "Uppföljningen på ärendet #:rel har uppdaterats.",
-    "ticket_followup_deleted"           => "Uppföljningen på ärendet #:rel har tagits bort.",
 
     "ticket_message_reply"              => "Postade ett nytt svar till ärendet #:rel.",
     "ticket_message_note"               => "Postade en ny notering till ärendet #:rel.",
-    "ticket_message_updated"            => "Uppdaterade ett meddelande i ärendet #:rel.",
     "ticket_message_deleted"            => "Tog bort ett meddelande i ärendet #:rel.",
 
     "ticket_user_updated"               => "Uppdaterade användaren på ärendet #:rel från :old_value till :new_value.",
@@ -106,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Meddelande delade från gamla ärendet #:rel till nya ärendet #:new_value.",
     "ticket_split_to"                   => "Meddelande delade från gamla ärendet #:old_value till nya ärendet #:rel.",
 
-    "ticket_email_user"                 => "Skickade e-post till användare.",
-    "ticket_email_operators"            => "Skicakde e-post till operatörer.",
-
-    "ticket_feedback_dequeued"          => "Tog bort feedback från formulärbegäran för ärendet #:rel från kö.",
-    "ticket_feedback_form_sent"         => "Skickade feedbackformulärbegäran för ärendet #:rel.",
-
     "ticket_attachment_saved"           => "La till bilaga till ärendet #:rel.",
     "ticket_attachment_deleted"         => "Tog bort bilaga från ärendet #:rel.",
 
     "ticket_throttled"                  => "Avvisade nytt ärende från :rel p.g.a. throttling.",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Skickade e-post till operatörgruppen :new_value.",
-    "ticket_email_user_group"           => "Skickade e-post till användargruppen :new_value.",
 
     /*
      * 2.0.3
@@ -142,11 +121,6 @@ return array(
     "invalid_department_brand"          => "Misslyckades med att sätta avdelningen till ':new_value' på ärendet #:rel, avdelningen tillhör inte ärendevarumärket.",
 
     /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Uppdaterade meddelandet :message_id i ärendet #:rel.",
-
-    /*
      * 2.1.2
      */
     "sent_email_to"                     => "Skickade ett e-post med ämnet ':extra_rel1' till :rel.",
@@ -155,7 +129,6 @@ return array(
     "sent_email_to_operators"           => "Skickade ':extra_rel1' e-post till operatörer.",
     "sent_ticket_email_to_operators"    => "Skickade ':extra_rel1' e-post till operatörerna för ärendet #:rel.",
     "sent_email_to_operator_group"      => "Skickade ':extra_rel1' e-post till operatörgruppen ':new_value' för ärendet #:rel.",
-    "sent_email_to_user_group"          => "Skickade ':extra_rel1' e-post till användargruppen ':new_value' för ärendet #:rel.",
     "ticket_macro_applied"              => "Makrot ':new_value' kördes på ärendet #:rel.",
     "ticket_macro_automatic"            => "Makrot ':new_value' kördes automatiskt på ärendet #:rel.",
     "email_template_not_found"          => "E-postmallen med ID ':new_value' hittades inte, avbröt e-postutskicket.",
@@ -181,5 +154,53 @@ return array(
     "unlinked_ticket"                   => "Avlänkat ärende #:rel från ärende :extra_rel1.",
     "email_queue_attachment_deleted"    => "Raderat bilaga ':old_value' från köat epost ':rel'.",
     "forward_ticket_email"              => "Vidatebefodrat ärende #:rel till extern part, visa ':extra_rel1' epost.",
+
+    /*
+     * 2.3.1
+     */
+    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
+    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
+    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
+    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
+    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
+    "email_send_failed"                 => "Failed to send email.",
+    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
+    "export_scheduled"                  => "An export of user :rel has been scheduled.",
+    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
+    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
+    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
+    "deleted_old_records"               => "Automatically deleted old :rel records.",
+    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+
+    /*
+     * 2.4.0
+     */
+    "ticket_watching"                   => "Watching ticket #:rel.",
+    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
+    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
+    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+
+    /*
+     * 2.5.0
+     */
+    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
+    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
+    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
+    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
+    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
+    "ticket_restored"                   => "Restored ticket #:rel from trash.",
+    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+
+    /*
+     * 2.6.0
+     */
+    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
+    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
+    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+
+    /*
+     * 3.0.0
+     */
+    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
 
 );

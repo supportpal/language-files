@@ -3,9 +3,7 @@
 return array(
 
     "popular_items"             => "Populära objekt",
-    "type_popular_items"        => ":type: Populära",
     "latest_items"              => "Senaste objekt",
-    "type_latest_items"         => ":type: Senaste",
 
     "selfservice"               => "Självbetjäning",
     "article"                   => "Artikel|Artiklar",
@@ -14,12 +12,7 @@ return array(
     "tag"                       => "Etikett|Etiketter",
     "type"                      => "Typ",
 
-    "type_enabled_desc"         => "Avaktivera typen stoppar den från att visas på framsidan.",
-    "type_order"                => "Du kan ändra ordningen på de självbetjäningstyper som visas för användare på framsidan genom att dra och släppa de rader du vill flytta.",
-
-    "type_view_desc"            => "Om ditt innehåll kommer innehålla många kategorier och vara informativ som en kunskapsdatabas rekommenderar vi en hierarkisk vy men om innehållet är tidsrelaterat som meddelanden eller en blog rekommenderar vi en listvy.",
     "frontend_icon"             => "Framsidans ikon",
-    "frontend_icon_desc"        => "Välj en standardikon att visa på framsidan. Du kan också ladda upp en egen:",
 
     "no_categories"             => ":type har för närvarande ingen kategori. Välj en innan du lägger in artikeln.",
     "no_categories_frontend"    => "Det finns inga kategorier att visa.",
@@ -27,9 +20,6 @@ return array(
     "awaiting_moderation"       => "Inväntar moderering",
     "published"                 => "Publicerad",
     "spam"                      => "Spam",
-
-    "show_text"                 => "Visa text",
-    "hide_text"                 => "Göm text",
 
     "hierarchical"              => "Hierarkisk",
     "list"                      => "Lista",
@@ -53,7 +43,6 @@ return array(
     "login_comment"             => "Du måste logga in för att skicka in en kommentar.",
     "incorrect_captcha"         => "Captchan är inkorrekt.",
     "comment_blocked"           => "Kommentaren blev blockerad p.g.a. spam.",
-    "comment_error"             => "Kunde inte skicka in kommentaren.",
     "comment_success"           => "Din kommentar har skickats in!",
     "comment_success_moderated" => "Din kommentar har skickats in för moderering av oss.",
 
@@ -61,7 +50,6 @@ return array(
     "comment_rated_error"       => "Kommentaren kunde inte betygsättas.",
 
     "article_find_useful"       => "Tyckte du att artikeln hjälpte dig?",
-    "article_found_useful"      => "personer fann denna artikel hjälpsam.",
     "article_rated_success"     => "Artiklen betygsattes.",
     "article_rated_error"       => "Artikeln kunde inte betygsättas.",
 
@@ -101,14 +89,10 @@ return array(
     "enable_ratings_desc"       => "Tillåt användare att betygsätta artiklar.",
     "post_rating"               => "Betygsätt artiklar",
     "post_rating_desc"          => "Om artiklar kan bli betygsatta av vem som helst eller bara registrerade användare.",
-    "show_rating"               => "Visa betyg",
-    "show_rating_desc"          => "Visa artikelbetyg för alla (publikt) eller enbart registrerade användare.",
 
     /*
      * 2.0.3
      */
-    "auth_required"             => "Logga in eller registrerar ett konto för att titta på artikeln.",
-    "download_auth_required"    => "Logga in eller registrerar ett konto för att ladda ner artikelbilagan",
     "auth_required"             => "Logga in eller registrerar ett konto för att titta på artikeln.",
 
     /*
@@ -129,5 +113,44 @@ return array(
      */
     "article_desc"              => "Artiklen kan skrivas i flera språk. Språket den visas i bestämms av användarens inställningar.",
     "no_author"                 => "Ingen författare",
+
+    /*
+     * 2.3.1
+     */
+    "slug"                      => "Slug",
+    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+    "change_slug"               => "Change Slug",
+    "published_date"            => "Published Date",
+    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
+    "content_options"           => "Content Options",
+    "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
+    "external_link"             => "External Link",
+    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
+    "pinned"                    => "Pinned",
+    "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
+    "article_ordering"          => "Article Ordering",
+    "article_ordering_desc"     => "The ordering of articles when viewing the type on the frontend.",
+    "most_popular"              => "Most Popular",
+    "most_recent"               => "Most Recent",
+    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
+    "type_enabled_desc"         => "Disabling the type will stop it displaying.",
+    "internal"                  => "Internal",
+    "internal_desc"             => "Toggle to set the type to only be visible internally to operators in the operator panel.",
+    "login_to_comment"          => "Please login to post a comment.",
+    "article_rating"            => "Article Rating|Article Ratings",
+    "comment_rating"            => "Comment Rating|Comment Ratings",
+
+    /*
+     * 2.5.0
+     */
+    "revision_history"          => "Revision History",
+
+    /*
+     * 3.0.0
+     */
+    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
+    "article_feedback"          => "Article Feedback",
+    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
+    "frontend_icon_desc"        => "Select a <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regular icon to display on the frontend for your type, you can also search for a custom icon not included in the list (starting with 'fa-').",
 
 );

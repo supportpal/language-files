@@ -11,13 +11,11 @@ return array(
     "date"                      => "Datum",
     "multiple"                  => "Multipla inställningar",
     "options"                   => "Inställningar",
-    "password"                  => "Lösenord",
     "radio"                     => "Radioknappar",
     "rating"                    => "Betygsättning (1 till 5)",
     "text"                      => "Text",
     "textarea"                  => "Textområde",
 
-    "required_desc"             => "Om det skräddarsydda fältet måste fyllas i.",
     "public"                    => "Publik",
     "public_desc"               => "Om det skräddarsydda fältet visas publikt på framsidan eller är enbart för personal.",
     "encrypted"                 => "Krypterad",
@@ -56,4 +54,13 @@ return array(
     "purge"                     => "Rensa",
     "encrypted_desc"            => "Värdet på fältet innehåller känsliga uppgifter och ska krypteras innan det sparas. Detta kan inte ändras efter att fältet har skapats.",
 
+    /*
+     * 2.3.1
+     */
+    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+
+    /*
+     * 3.3.0
+     */
+    "encrypted_value"           => "** ENCRYPTED **",
 );

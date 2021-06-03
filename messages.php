@@ -41,9 +41,6 @@ return array(
     "success_action"        => "Handling utförd!",
     "error_action"          => "Misslyckades med att utföra handlingen.",
 
-    "success_sending"       => ":item skickad!",
-    "error_sending"         => "Misslyckades med att skicka :item.",
-
     "error_embed_image"     => "Misslyckades med att ladda upp bilden.",
 
     "unauthorised"          => "Obehörig",
@@ -62,8 +59,6 @@ return array(
 
     "general_error"         => "Ett fel uppstod. Försök igen.",
 
-    "mailer_error"          => "Det uppstod ett fel när e-posten med ämnet ':subject' skulle skickas.",
-
     "no_results"            => "Inga resultat.",
 
     "assign_incomplete"     => "Handlingen kunde inte utföras fullt ut. :names kunde inte tilldelas ett par ärenden.",
@@ -79,13 +74,9 @@ return array(
 
     "forbidden"             => "Förbjuden",
 
-    "uncaught_exception"    => "<strong>Whoops! Något gick fel.</strong><br />Felet har loggats. Kontakta systemadministratören om felet kvarstår.",
-
     "not_logged_exception"  => "<strong>Whoops! Något gick fel.</strong><br />Kontakta systemadministratören om felet kvarstår.",
 
     "too_many_ticket_reqs"  => "Too many ticket requests made for :email. The limit is :max in :decay minutes.",
-
-    "error_close_open"      => "Error, please close and open again.",
 
     "not_operator"          => "Något gick fel. The selected operator is not valid, please ensure they belong to an operator group and the group has an associated role.",
 
@@ -112,8 +103,6 @@ return array(
     "warning"               => "Varning",
     "note"                  => "Notering",
     "brand_invalid_dept"    => "Handlingen kunde inte slutföras fullt ut. Avdelningen kunde inte bli uppdaterad på ett antal ärenden på grund av deras varumärke.",
-    "template_subject_req"  => "Standard e-postmallens ämnesfält krävs.",
-    "template_contents_req" => "Standard e-postmallens innehållsfält krävs.",
 
     /*
      * 2.1.1
@@ -121,11 +110,6 @@ return array(
     "upload_error"          => "Misslyckades med att ladda upp bilagan \":filename\", anledning: \":reason\"",
     "upload_max_size"       => "Filen måste vara mindre än :size",
     "upload_wrong_type"     => "Filtypen tillåts inte",
-
-    /*
-     * 2.1.2
-     */
-    "field_required"        => "Fält krävs.",
 
     /*
      * 2.3.0
@@ -138,5 +122,36 @@ return array(
     "delete_relations"      => "Vid radering av <strong>:name</strong> :record kommer även följande data raderas permanent:",
     "please_check"          => "Du måste bocka i fältet ovan för att verifiera att du förstått att denna ändring inte går att ångra",
     "failed_attachments"    => "Misslyckades att lägg till några filer.",
+
+    /*
+     * 2.3.1
+     */
+    "sent_email"            => "Success - the email has been sent.",
+    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
+    "linked_account"        => "The social account has successfully been linked with your account.",
+    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+
+    /*
+     * 2.4.0
+     */
+    "does_look_correct"     => "Does this look correct?",
+    "no_revert"             => "No! Revert",
+    "attachment_not_found"  => "The attachment was not found.",
+
+    /*
+     * 2.5.0
+     */
+    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
+    "leave_record"          => "Leave :record?",
+    "leave_record_warn"     => "This will permanently remove you from the :record.",
+    "success_trashed"       => "Successfully moved the :item to trash!",
+    "error_trashed"         => "Failed trying to move the :item to trash.",
+    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+
+    /*
+     * 3.0.0
+     */
+    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
+    "error_editing_message" => "There was an error while trying to edit this message.",
 
 );

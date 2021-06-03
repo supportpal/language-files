@@ -71,20 +71,14 @@ return array(
     ),
     "unique"                    => ":attribute har redan tagits.",
     "url"                       => ":attributeformatet är ogiltigt.",
-    "timezone"                  => ":attribute måste vara en tillåten zon.",
     "template_exists"           => "det valda :attribute är ogiltig.",
     "is_valid_captcha"          => "den inskrivna captcha-koden är ogiltig, försök igen.",
-    "user_password_length"      => "lösenord måste vara lika lång som eller längre än :user_password_length tecken.",
-    "operator_password_length"  => "lösenord måste vara lika lång som eller längre än :operator_password_length tecken.",
-    "json"                      => ":attribute måste vara giltig JSON.",
     "user_password_strength"    => ":attribute måste innehålla: :user_password_strength.",
     "operator_password_strength" => ":attribute måste innehålla: :operator_password_strength.",
-    "twig_lint"                 => ":attribute måste vara giltig twig-syntax http://twig.sensiolabs.org/doc/templates.html",
 
     /*
      * 2.1.0
      */
-    "in_array"                  => ":attributefältet existerar inte i :other.",
     "logo"                      => "Loggan måste peka mot en giltig bildfil (URL eller relativ filsökväg utifrån basmappen).",
 
     /*
@@ -104,7 +98,85 @@ return array(
      */
     "required_translation"      => ":translation översättningen av :attribute fältet krävs.",
     "customfield_not_cyclic"    => "Fältet kan inte bero på sitt eget under fält.",
-    "distinct"                  => ":attribute fältets värde finns redan.",
+
+    /*
+     * 2.3.1
+     */
+    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
+    "article_slug_unique"       => "The slug has already been taken.",
+    "captcha_required"          => "The captcha is required.",
+    "ticket_number_format"      => "The ticket number format is invalid.",
+
+    /*
+     * 2.4.0
+     */
+    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
+    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
+    "dimensions"                => "The :attribute has invalid image dimensions.",
+    "distinct"                  => "The :attribute field has a duplicate value.",
+    "file"                      => "The :attribute must be a file.",
+    "filled"                    => "The :attribute field must have a value.",
+    "gt"                        => array(
+        "numeric" => "The :attribute must be greater than :value.",
+        "file"    => "The :attribute must be greater than :value kilobytes.",
+        "string"  => "The :attribute must be greater than :value characters.",
+        "array"   => "The :attribute must have more than :value items.",
+    ),
+    "gte"                       => array(
+        "numeric" => "The :attribute must be greater than or equal :value.",
+        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
+        "string"  => "The :attribute must be greater than or equal :value characters.",
+        "array"   => "The :attribute must have :value items or more.",
+    ),
+    "in_array"                  => "The :attribute field does not exist in :other.",
+    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
+    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
+    "json"                      => "The :attribute must be a valid JSON string.",
+    "lt"                        => array(
+        "numeric" => "The :attribute must be less than :value.",
+        "file"    => "The :attribute must be less than :value kilobytes.",
+        "string"  => "The :attribute must be less than :value characters.",
+        "array"   => "The :attribute must have less than :value items.",
+    ),
+    "lte"                       => array(
+        "numeric" => "The :attribute must be less than or equal :value.",
+        "file"    => "The :attribute must be less than or equal :value kilobytes.",
+        "string"  => "The :attribute must be less than or equal :value characters.",
+        "array"   => "The :attribute must not have more than :value items.",
+    ),
+    "mimetypes"                 => "The :attribute must be a file of type: :values.",
+    "not_regex"                 => "The :attribute format is invalid.",
+    "present"                   => "The :attribute field must be present.",
+    "required_unless"           => "The :attribute field is required unless :other is in :values.",
+    "string"                    => "The :attribute must be a string.",
+    "timezone"                  => "The :attribute must be a valid zone.",
+    "uploaded"                  => "The :attribute failed to upload.",
+
+    /*
+     * 2.5.0
+     */
+    "domain"                    => "One or more of the domain names are not valid.",
+
+    /*
+     * 2.5.1
+     */
+    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+
+    /*
+     * 3.0.0
+     */
+    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
+    "starts_with"               => "The :attribute must start with one of the following: :values.",
+
+    /*
+     * 3.4.0
+     */
+    "password"                  => "The password is incorrect.",
+
+    /*
+     * 3.5.0
+     */
+    'phone'                     => "The supplied phone number is invalid.",
 
     /*
     |--------------------------------------------------------------------------
@@ -118,43 +190,18 @@ return array(
     */
 
     "custom" => array(
-        "data.*.subject" => array(
-            "required" => "Ett ämne krävs för varje e-post."
-        ),
-        "data.*.contents" => array(
-            "required"  => "Innehållsfältet krävs för varje e-post.",
-            "twig_lint" => "Varje e-post måste vara giltig twig-syntax http://twig.sensiolabs.org/doc/templates.html",
-        ),
         "roles.*" => array(
             "exists" => "Den valda rollen är ogiltig.",
         ),
         "category.*.type" => array(
-            "required" => "En eller fler självbetjäningstyper måste väljas.",
+            "required" => "Ett ämne krävs för varje e-post.",
         ),
         "category.*.categories" => array(
-            'required' => "En eller flera kategorier krävs när en självbetjäningstyp har valts.",
+            "required" => "Innehållsfältet krävs för varje e-post.",
             "exists"   => "En eller flera av de valda kategorierna är ogiltga.",
         ),
         "brand.*" => array(
             "exists" => "Det valda varumärket är ogiltigt.",
-        ),
-        "signature.Default.*.department" => array(
-            "exists" => "Varje signatur must tillhöra en tillåten avdelning.",
-        ),
-        "signature.Default.*.contents" => array(
-            "twig_lint" => "Varje signatur måste vara en giltig twig-syntax http://twig.sensiolabs.org/doc/templates.html"
-        ),
-        "template.Default.*.language" => array(
-            "exists" => "Varje mall måste tillhöra ett giltigt språk.",
-        ),
-        "template.Default.*.subject" => array(
-            "min" => "Varje e-postmalls ämne måste vara längre än 1 tecken.",
-            "max" => "Varje e-postmalls ämne måste vara kortare än 255 tecken.",
-        ),
-        "template.Default.*.contents" => array(
-            "required_with" => "Varje e-postmall kräver innehåll när ett ämne finns.",
-            "min" => "Varje e-postmall måste vara längre än 1 tecken.",
-            "twig_lint" => "Varje e-postmall måste vara giltig twig-syntax http://twig.sensiolabs.org/doc/templates.html"
         ),
     ),
 

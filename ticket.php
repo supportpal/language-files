@@ -23,7 +23,6 @@ return array(
     "due_time"                  => "Förfallotid",
     "created_time"              => "Tid skapad",
     "submitted"                 => "Inskickad",
-    "add_reply"                 => "Svara",
     "ticket_reply"              => "Ärendesvar",
     "ticket_note"               => "Ärendenotering",
     "ticket_type"               => "Ärendetyp",
@@ -33,7 +32,6 @@ return array(
     "existing_user"             => "Existerande användare",
     "new_user"                  => "Ny användare",
     "internal"                  => "Intern",
-    "internal_ticket"           => "Internt ärende",
     "internal_ticket_desc"      => "Öppna ett ärende för enbart intern användning. Detta ärende associeras med dig istället för en användare.",
     "ticket_opened"             => "Ärendet har öppnats.",
     "enter_user_details"        => "Skriv in dina detaljer här nedanför eller logga in med ditt konto om du har ett.",
@@ -58,11 +56,9 @@ return array(
 
     "department"                => "Avdelning|Avdelningar",
     "change_department_order"   => "Dra raderna för att ändra ordningen som avdelningarna visas för användare som öppnar nya ärenden.",
-    "department_order"          => "Avdelningsordning",
     "department_applicable"     => "Tillämpliga avdelningar",
     "department_applicable_desc" => "Avdelningarna i vilka prioriteringen kommer att vara valbar för användare. Tillämpas enbart för framsidan. Alla prioriteringar är tillgängliga för operatörerna i alla avdelningar.",
 
-    "due_to_be_sent"            => "Kommer skickas",
     "send_now"                  => "Skicka nu",
 
     "tag"                       => "Etikett|Etiketter",
@@ -72,14 +68,9 @@ return array(
 
     // Recent activity
     "recent_activity"           => "Ny aktivitet",
-    "no_recent_activity"        => "Ingen ny aktivitet",
-
-    // Active operators
-    "active_operators"          => "Aktiva operatörer",
 
     "ticket_number"             => "Ärendenummer",
     "ticket_format"             => "Ärendenummerformat",
-    "ticket_format_desc"        => "Följande variabler kan användas:<br />%S för ett sekventiellt nummer | %N för ett slumpmässigt nummer | %L för en slumpmässig bokstav<br />Använd {number} för att upprepa <strong>bara</strong> efter %N eller %L, t.ex. %N{4} är samma som 4 slumpmässiga nummer, %L{3} är samma som 3 slumpmässiga bokstäver<br />Följande <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP-datumparametrar</a> med prefix % Y,y,m,d,j,g,G,h,H,i,s",
 
     // Departments
     "department_public_desc"    => "Om avdelningen är synlig för användare.",
@@ -93,15 +84,12 @@ return array(
 
     // Department emails
     "email_accounts_desc"       => "Sätt upp e-postadresser för denna avdelning. Inkommande e-post till dessa e-postadresser kommer att öppna ärenden i denna avdelning. Den första e-postadressen används som standard avsändare för utgående e-post.",
-    "department_password"       => "Skriv bara in ett lösenord för att skriva över det redan sparade lösenordet eller för att validera e-postkontodetaljerna.",
     "department_port"           => "Standardvärden är: 110 för POP3, 995 för secure POP3, 143 för IMAP och 993 för säker IMAP. Lämna tom för standardvärde.",
     "department_encryption"     => "Vissa e-postleverantörer kräver SSL- eller TLS-kryptering för att ansluta. Är du osaäker lämna denna inställning some Ingen.",
     "department_delete_mail"    => "Om IMAP används kan du välja att inte ta bort e-post från servern efter att de blivit importerade som ärenden.",
     "protocol"                  => "Protokoll",
     "server"                    => "E-postserver",
     "port"                      => "Port",
-    "username"                  => "Användarnamn",
-    "password"                  => "Lösenord",
     "encryption"                => "Kryptering",
     "delete_downloaded"         => "Ta bort nerladdad e-post",
     "consume_all"               => "Konsumera all e-post",
@@ -112,17 +100,12 @@ return array(
 
     // Department email options
     "email_options"             => "E-postinställningar",
-    "email_auto_close"          => "E-posta användare när ärende autostängs",
-    "email_auto_close_desc"     => "Välj om användare ska bli e-postade när ärenden som tillhör dem blir automatiskt stängda av systemet.",
-    "email_closed_by_operator"  => "E-posta användare när ärende stängs av operatör",
-    "email_closed_by_op_desc"   => "Välj om användare ska bli e-postade när när ärenden som tillhör dem blir stängda av operatör.",
     "email_user_on_email"       => "E-posta användare vid ärende öppnat via e-post",
     "email_user_on_email_desc"  => "Välj om användare ska bli notifierade via e-post när ett e-postmeddelande de skickar resulterar i att ett nytt ärende öppnas.",
     "email_operators"           => "Notifiera operatörer",
     "email_operators_desc"      => "Välj om operatörssvar ska vidarebefordras till andra operatörer. Som standard kollas \"e-postoperatörer\"-inställningen i operatörspanelen och kommer automatiskt skicka ett e-postmeddelande för operatörse-postsvar.",
     // Department email templates
     "new_ticket_opened"         => "Nytt ärende öppnat",
-    "reply_to_locked"           => "Svara låst ärende",
     "waiting_for_response"      => "Vänta på svar",
     "ticket_auto_closed"        => "Ärende autostängt",
     "closed_by_operator"        => "Stängt av operatör",
@@ -131,7 +114,6 @@ return array(
     "feedback"                  => "Feedback",
     "feedback_form"             => "Feedbackformulär",
     "feedback_form_desc"        => "Feedbackformulär blir processade i den ordning de kommer in. Dra raderna för att ordna om och justera prioriteringen av feedbackformulären.",
-    "view_feedback_report"      => "Visa feedbackrapport",
     "view_feedback"             => "Visa feedback",
     "ticket_feedback"           => "Ärendefeedback",
     "feedback_fields_error"     => "Det blev ett fel vid hämtning av feedbackfält.",
@@ -142,21 +124,14 @@ return array(
     "form_conditions"           => "Formulärvillkor",
     "form_conditions_desc"      => "Definiera ärendevillkoren för vilka nyligen lösta ärenden kontrolleras för att se om de tillhör detta formulär. Om ett löst ärende uppfyller kraven för fler än ett formulär väljs rätt formulär utifrån prioritering vilken kan ändras genom att gå till formulärlistan och ändra ordningen.",
     "form_fields"               => "Formulärfält",
-    "response_rate"             => "Svarsfrekvens",
-    "sent_forms"                => "Skickat feedbackformulär",
     "rating"                    => "Betyg",
-    "good_ratings"              => "Bra betyg",
-    "bad_ratings"               => "Dåliga betyg",
-    "customer_satisfaction"     => "Kundnöjdhet",
     "feedback_desc"             => "Tack för att du kontaktade oss och vi hoppas att vi löste din fråga. Betygsätt gärna din upplevelse här nedanför.",
     "good_satisfied"            => "Bra, jag är nöjd",
     "bad_not_satisfied"         => "Dåligt, jag är inte nöjd",
     "feedback_not_found"        => "Din feedback kunde inte skickas. Öppna gärna ett nytt ärende om du vill dela med dig av din feedback.",
     "feedback_malformed_token"  => "Din feedback kunde inte skickas p.g.a. en felaktig token. Öppna gärna ett nytt ärende om du vill dela med dig av din feedback.",
-    "feedback_already_done"     => "Du har redan delat med dig av din feedback gällande detta ärende.",
     "feedback_expired"          => "Ärendet har varit löst ett tag och kan tyvärr inte längre betygsättas.",
     "feedback_questions"        => "Svara gärna på följande frågor för att förbätta vårat supportarbete.",
-    "feedback_thank_you"        => "Tack för att du gav us feedback på detta ärende.",
     "feedback_for_ticket"       => "Feedback för ärende #:number",
     "feedback_rating_desc"      => "Supporten som gavs på detta ärende har betygsatts <strong>:rating</strong> av användaren.",
 
@@ -166,33 +141,21 @@ return array(
 
     // Canned responses
     "cannedresponse"            => "Snabbsvar|Snabbsvar",
-    "canned_response_category"  => "Snabbsvarskategori|Snabbsvarskategorier",
-    "canned_public_desc"        => "Aktivera för att låta snabbsvaret bara vara tillgängliga för dig själv.",
-    "canned_group_desc"         => "Om du vill att snabbsvaret ska vara synligt för enbart vissa operatörsgrupper. Lämna tomt för synligt av alla operatörsgrupper.",
 
     // Filters
     "filter"                    => "Filter|Filter",
     "filter_condition"          => "Filtervillkor",
     "filter_condition_desc"     => "Definiera ärendevillkoren för vilken ärenden listas under detta filter.",
-    "filter_public_desc"        => "Växla för att låta filtret enbart bli åtkomligt av dig själv.",
-    "filter_group_desc"         => "om du vill att filtret ska vara synligt för vissa operatörsgrupper. Lämna tomt för synligt av alla operatörsgrupper.",
 
     // Macros
     "macro"                     => "Makro|Makros",
-    "macro_type"                => "Makrotyp",
-    "macro_type_desc"           => "Som standard måste makrot kallas på manuellt i ärendevyn. Det kan anges vara ett automatiskt makro som kollas och utförs när nya ärenden kommer in eller på alla ärenden via en schemalagd aktivitet. Oavsett kollas villkoren och om sanna utförs handlingen automatiskt. Ett makro kan bara köras en gång på ett ärende automatiskt medan det inte finns någon gräns när man kör det manuellt.",
-    "manual"                    => "Manuellt",
-    "macro_type_auto1"          => "Automatiskt - på nya ärenden enbart",
-    "macro_type_auto2"          => "Automatiskt - alla ärenden (schemalagd aktivitet)",
     "macro_condition"           => "Makrovillkor",
-    "macro_condition_desc"      => "Definiera villkoren för vilka ärenden detta makro är tillgänglig för. Som standard, utan villkor, tillämpas det på alla ärenden.",
     "macro_action"              => "Makrohandlingar",
     "macro_action_desc"         => "Definiera handlingar som utförs när ett makro körs. Se till att handlingarna är giltiga för den avdelning ärendet är i annars ignoreras de.",
 
     "from"                      => "Från",
     "to"                        => "Till",
     "cc"                        => "CC",
-    "cc_desc"                   => "Du kan CC andra människor på detta ärende genom att skriva in e-postadresser ovan.",
 
     "allowed_files"             => "Tillåtna bilagsfiltyper",
 
@@ -218,8 +181,6 @@ return array(
 
     // Holidays
     "holiday"                   => "Helgdag|Helgdagar",
-    "all_holidays"              => "Alla helgdagar",
-    "specific_holidays"         => "Specifika helgdagar",
     "holiday_or_on_the"         => "eller, på",
     "holiday_month_year_desc"   => "År är frivilligt om helgdagen är återkommande. VÄlj ett år enbart om helgdagen uppkommer detta datum ett visst år.",
 
@@ -257,7 +218,6 @@ return array(
     "set_status"                => "Sätt status",
     "add_selfservice_link"      => "Lägg till självbetjäningslänk",
     "search_selfservice"        => "Sök efter självbetjäningsartikel",
-    "add_canned_response"       => "Lägg till ett snabbsvar",
     "search_canned"             => "Sök efter ett snabbsvar",
 
     "mark_resolved"             => "Märk som löst",
@@ -274,7 +234,6 @@ return array(
 
     "close_inactive_tickets"    => "Stäng inaktiva ärenden",
     "close_inactive_tickets_desc" => "Tiden efter vilken inaktiva ärenden stängs automatiskt. Sätt till 0 för att aldrig stänga ärenden automatiskt.",
-    "close_inactive_status_desc" => "Stäng ärenden automatiskt som är inaktiva utan en uppföljning av användaren (definierat av nummer av dagar sedan senaste svaret av en operatör i de allmänna inställningarna).",
 
     "ticket_reply_order"        => "Ärendesvarsordning",
     "ticket_reply_order_desc"   => "Välj i vilken ordning ärendemeddelanden visas, stigande där det senaste meddelandet är sist eller fallande där det senaste meddelandet är först.",
@@ -302,7 +261,6 @@ return array(
     "default_priority_desc"     => "Standardprioriteringen satt på alla inkommande ärenden via denna kanal.",
     "verbose_email_log"         => "Mångordige-postlog",
 
-    "adjust_columns"            => "Justera kolumner",
     "last_reply"                => "Senast svaret",
     "opened_at"                 => "Öppnad den",
 
@@ -322,9 +280,6 @@ return array(
     "merged"                    => "Sammanfogade",
     "unmerge"                   => "Separera",
     "close_and_lock"            => "Stäng & lås",
-    "delete_and_block"          => "Ta bort & blockera",
-
-    "block_warning"             => "Användarens e-post kommer också att blockeras och inte kunna öppna ärenden.",
 
     "mass_reply"                => "Massvar",
 
@@ -333,12 +288,10 @@ return array(
     "unassigned"                => "Ej tilldelad",
 
     "pause_duetime_desc"        => "Om det finns en aktiv SLA-plan på detta ärende, pausa den återstående förfallotiden till efter uppföljningsdatumet. Förfallotiden kommer endast starta när ett svar eller notering har lagts till på ärendet (inklusive från uppföljningen).",
-    "delete_follow_up"          => "Ta bort uppföljning",
 
     "add_cc"                    => "Lägg till CC",
     "reply_above_line"          => "Svara ovanför denna linje",
 
-    "oauth2_token"              => "OAuth2-token",
     "email_settings"            => "E-postinställningar",
     "web_settings"              => "Webbinställningar",
     "split_selected_replies"    => "Dela valda svar",
@@ -359,9 +312,7 @@ return array(
      */
     "no_operator_groups"        => "Inga operatörsgrupper funna. Klicka <a href=':route'>här</a> för att skapa en.",
     "no_user_groups"            => "Inga användargrupper funna. Klicka <a href=':route'>här</a> för att skapa en.",
-    "opened_by"                 => "(Öppnat av :name)",
     "remote_email_piping_desc"  => "Ladda ner <a href='http://www.supportpal.com/manage/dl.php?type=d&id=8' target='_blank'>fjärre-postpipingskriptet</a> och följ <a href='http://docs.supportpal.com/display/DOCS/Remote+Email+Piping' target='_blank'>dokumentationen</a> för att konfigurera det på din e-postserver.",
-    "not_assigned_department"   => "Du har inte behörighet att titta på ärenden i :department-avdelningen. Om du tror att du felaktigt har fått detta felmeddelande, kontakta din administratör.",
 
     /*
      * 2.0.3
@@ -392,21 +343,17 @@ return array(
     "default_open_status_desc"  => "Välj standardstatus som ska bli automatiskt satt när en användare öppnar ett nytt ärende eller svarar ett ärende när ett operatörsvar inte ännu är satt.",
     "default_reply_status"      => "Standardsvarstatus",
     "default_reply_status_desc" => "Välj standardstatusen som ska bli automatiskt satt när en användare svarar på ett ärende. Verkställs bara efter att en operatör har svarat på ärendet.",
-    "drafting_reply"            => "<strong>:name</strong> började på utkast :type :time:",
     "ticket_reply_order_default" => "Systemets standard är värdet som för närvarande är valt i allmänna ärendeinställningar.",
     "select_a_parent"           => "Välj en förälderavdelning...",
     "select_a_department"       => "Välj en avdelning...",
-    "not_assigned_brand"        => "Du har inte tillåtelse att titta på varumärkets ärenden. Om du anser att du ska ha tillåtelse kan du kontakta din administratör.",
     "department_operator_desc"  => "Du kan också tilldela individuella operatörer till avdelningen. Dessa operatörer läggs in tillsammans med de grupper som tilldelats ovan.",
     "department_group"          => "Avdelningsgrupper",
     "department_group_desc"     => "Du kan tilldela hela operatörsgrupper till avdelningen, rekommenderas om din operatörslista är stor och/eller ändras ofta.",
     "ticket_other_brands"       => "Ärenden i andra varumärken",
     "add_for_department"        => "Lägg till för avdelning...",
     "record_order"              => "Dra raderna för att ändra posternas ordning.",
-    "ticket_token"              => "Ärendetoken",
     "reply_all"                 => "Svara alla",
     "reply_without_cc"          => "Svara (utan CC)",
-    "open_new_for_user"         => "Öppna nytt ärende för användare",
     "email_accounts"            => "E-postkonton",
     "add_another_email"         => "Lägg till en annan e-post",
     "follow_up_date"            => "Uppföljningsdatum",
@@ -452,8 +399,6 @@ return array(
     "new_ticket_note"           => "Ny ärendenotering",
     "email_template_desc"       => "Du kan välja en e-postmall som inte är standard som ska skickas till användarna eller operatörerna för något av handlingarna nedanför. Denna mall blir standard för enbart denna avdelning.",
     "create_new_user"           => "Skapa ny användare",
-    "create_new_user_desc"      => "Skapa en ny användare och set den som detta ärendets användare.",
-    "convert_user_ticket_desc"  => "Ärendet konverteras från ett internt ärende till ett användarärende.",
     "user_reply_internal_ticket" => "Inte en operatör. Enbart operatörer can besvara interna ärenden.",
     "enter_email_address"       => "Skriv in e-postadress...",
     "email_user_frontend"       => "E-posta användare när ärenden öppnas på framsidan",
@@ -464,7 +409,6 @@ return array(
     /*
      * 2.2.0
      */
-    "macro_order"               => "Automatiska macron körs i en ordning de listas. Dra raderna för att ändra ordningen de körs.",
     "user_ticket_existing_desc" => "Öppna ett nytt ärende på uppdrag av en befintlig användare.",
     "canned_response_tag"       => "Snabbsvars tagg|Snabbsvars taggar",
     "response"                  => "Svar|Svar",
@@ -485,7 +429,6 @@ return array(
     "delete_message"            => "Radera meddelande",
     "linked_tickets"            => "Länkade Ärenden",
     "add_linked_ticket"         => "Lägg till Länkat Ärende",
-    "add_linked_ticket_desc"    => "Sök efter ärende nummer elle ämne:",
     "create_linked_ticket"      => "Skapa länkat ärende",
     "copy_link"                 => "Kopiera länk",
     "forward_message"           => "Vidarebefodra detta meddelande",
@@ -498,5 +441,110 @@ return array(
     "add_bcc"                   => "Lägg till BCC",
     "at_least_one_recipient"    => "Ange minst en mottagare.",
     "forwarded_message"         => "---------- Vidarebefodrat meddelande ---------",
+
+    /*
+     * 2.3.1
+     */
+    "inactive_ticket_note"      => "Note: only affects tickets belonging to a status with 'Close Inactive Tickets' enabled.",
+    "close_inactive_status_desc" => "Toggle to enable/disable automatic closure of inactive tickets and inactivity email reminders ('Waiting For Response' and 'Ticket Auto Closed' templates). If enabled, the time before reminders are sent can be configured via the ticket general settings.",
+    "from_header_missing"       => "From: header missing from email.",
+    "move_ticket"               => "Move Ticket",
+    "move_ticket_step1"         => "Step 1: Choose a new brand to move ticket to",
+    "move_ticket_step2"         => "Step 2: Choose a department from new brand",
+    "current_record"            => "Current :record",
+    "new_record"                => "New :record",
+    "department_email"          => "Department Email",
+    "select_a_department_email" => "Select a department email...",
+    "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
+    "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
+    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+
+    /*
+     * 2.4.0
+     */
+    "macro_enabled_desc"        => "Toggle to disable the macro and prevent it from running automatically or showing in the ticket interface.",
+    "macro_order_drag"          => "Drag the rows to change the order of the macros.",
+    "macro_order_processed"     => ":type macros are processed in the order they appear.",
+    "macro_type"                => "Macro Type",
+    "macro_type_desc"           => "There are three types of macros available. Manual macros can only be ran from the ticket view or grid, automatic macros run on unresolved tickets every hour, and hook macros run on specified ticket events. Automatic and hook macros can also be set to only run within specific schedules. Any hook macro actions won't trigger other hook macros to avoid the risk of loops.",
+    "macro_run_at_most"         => "Run At Most",
+    "macro_run_times"           => "times", // As in '5 times'
+    "macro_run_at_most_desc"    => "Limit how many times an automatic macro can run on a single ticket, leave blank to let it run an unlimited number of times.",
+    "macro_events_desc"         => "Select one or more events that the macro should run on. The conditions set below will be checked before the macro runs.",
+    "macro_schedules_desc"      => "By default the macro will run 24/7, but you can select one or more help desk schedules so the macro is only active during those times.",
+    "macro_condition_desc"      => "Define the conditions for which tickets this macro will be available to. By default, with no conditions, it will apply to all tickets. At least one condition must be defined for automatic macros.",
+    "add_remove_headers"        => "Add/Remove Headers",
+    "webhook_merge_fields"      => "Merge fields can be used in the URL and content field, <a href=\"https://docs.supportpal.com/current/Merge+Fields\">learn more</a>.",
+    "webhook_ticket_required"   => "A ticket must exist for this functionality to work.",
+    "not_permitted"             => "Sorry, you're not permitted to view the requested ticket(s). If you think this has been shown in error, please contact your administrator.",
+    "watch"                     => "Watch",
+    "unwatch"                   => "Unwatch",
+    "watching"                  => "Watching",
+    "internal_ticket"           => "Internal Ticket|Internal Tickets",
+
+    /*
+     * 2.4.1
+     */
+    "downloading"               => "Downloading...",
+    "downloading_desc"          => "If the download doesn't start automatically in a few seconds, please <a href=':href'>click here</a> to access the download URL directly.",
+
+    /*
+     * 2.5.0
+     */
+    "belonging_to"              => "(Belonging to :name)",
+    "block_user"                => "Block User",
+    "merge_tickets"             => "Merge Tickets",
+
+    /*
+     * 2.5.1
+     */
+    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
+
+    /*
+     * 2.6.0
+     */
+    "follow_ups"                => "Follow Ups",
+    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
+    "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
+    "status_after_running"      => "Status After Running",
+    "older_messages"            => ":count older messages",
+    "holiday_single_day"        => "Single Day",
+    "holiday_date_range"        => "Date Range",
+
+    /*
+     * 3.0.0
+     */
+    "merge_tickets_into"        => "Select ticket to merge into",
+    "search_number_or_subject"  => "Search by ticket number or subject",
+    "im_not_sure"               => "I'm not sure",
+    "auto_reply_detected"       => "Auto-reply detected - no notification will be sent to the user(s).",
+    "cc_desc"                   => "You can CC other people on to this ticket by entering email addresses here.",
+
+    /*
+     * 3.2.0
+     */
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+
+    /*
+     * 3.3.0
+     */
+    "email_setup_manually"      => "Set Up Manually",
+    "unresolved"                => "Unresolved",
+    "resolved"                  => "Resolved",
+    "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
 
 );

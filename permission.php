@@ -6,7 +6,6 @@ return array(
 
     // Core
     "apitoken"          => "Hantera API-tokens",
-    "company"           => "Hantera företag",
     "emailtemplate"     => "Hantera e-postmallar",
     "ipban"             => "Hantera IP-bannlysningar",
     "ipwhitelist"       => "Hantera IP-vitlistningar",
@@ -37,8 +36,6 @@ return array(
     "cannedresponse"    => "Hantera konserverade svar",
     "channel"           => "Hantera kanaler",
     "department"        => "Hantera avdelningar",
-    "feedback"          => "Hantera feedback",
-    "feedbackform"      => "Hantera Feedbackformulär",
     "filter"            => "Hantera filter",
     "holiday"           => "Hantera semestrar",
     "macro"             => "Hantera makron",
@@ -49,7 +46,6 @@ return array(
     "ticket_view"       => "Visa ärenden",
     "ticket_add"        => "Öppna ärenden",
     "ticket_edit"       => "Uppdatera ärenden",
-    "ticket_delete"     => "Ta bort äreneden",
     "ticketcustomfield" => "Hantera skräddarsydda fält",
 
     // Self-service
@@ -94,5 +90,29 @@ return array(
      */
     // Core
     "logfiles"          => "Hantera logfiler",
+
+    /*
+     * 2.4.0
+     */
+    // User
+    "sociallogin"       => "Manage Social Login",
+
+    /*
+     * 2.5.0
+     */
+    // Ticket
+    "ticket_delete"     => "Delete Tickets Permanently",
+    "ticket_trash"      => "Move Tickets to Trash",
+
+    /*
+     * 3.0.0
+     */
+    "selfservicefeedbackform" => "Manage Feedback Forms",
+    "ticketfeedbackform"      => "Manage Feedback Forms",
+
+    /*
+     * 3.3.0
+     */
+    "integration"       => "Manage Third-Party Integrations",
 
 );

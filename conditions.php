@@ -70,4 +70,36 @@ return array(
     "user_organisation_notes"           => "Användarorganisation anteckningar",
     "user_organisation_timezone"        => "Användarorganisation tidzon",
 
+    /*
+     * 2.4.0
+     */
+    "watching_operator"                 => "Watching operator",
+    "exact_search_quotes"               => "To do an exact search for the phrase, wrap it in quotes like \"my phrase\".",
+
+    /*
+     * 2.4.1
+     */
+    "last_message_content"              => "Last message content",
+
+    /*
+     * 2.5.0
+     */
+    "user_email_confirmed"              => "User email confirmed",
+
+    /*
+     * 3.0.0
+     */
+    "user_2fa_enabled"                  => "User 2FA enabled",
+    "article_type"                      => "Article type",
+    "article_brand"                     => "Article brand",
+
+    /*
+     * 3.3.0
+     */
+    "user_has_organisation"             => "User has organisation",
+
+    /*
+     * 3.5.0
+     */
+    "user_phone_number"                 => "User phone number",
 );
