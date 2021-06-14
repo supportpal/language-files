@@ -2,41 +2,41 @@
 
 return array(
 
-    "license"           => "License",
-    "license_key"       => "License Key",
-    "error"             => "Error!",
-    "submit"            => "Submit",
-    "update"            => "Update",
+    "license"           => "Licenca",
+    "license_key"       => "Licencni ključ",
+    "error"             => "Greška!",
+    "submit"            => "Podnesi",
+    "update"            => "Ažuriraj",
 
-    "reasons"           => "Possible Reasons",
-    "new_key"           => "New License Key",
-    "enter_key"         => "If you have a new license key, please enter it below and press Submit to continue.",
-    "assistance"        => "Still Need Assistance?",
+    "reasons"           => "Mogući razlozi",
+    "new_key"           => "Novi licencni ključ",
+    "enter_key"         => "Ukoliko imaš novi licencni ključ, unesi ga ispod i klikni na Podnesi za nastavak.",
+    "assistance"        => "Treba vam pomoć?",
 
-    "no_license"        => "No license found.",
-    "license_invalid"   => "License Invalid",
-    "invalid"           => "Invalid",
+    "no_license"        => "Licenca nije pronađena.",
+    "license_invalid"   => "Licenca nije validna",
+    "invalid"           => "Nevažeće",
 
-    "incorrect_license" => "An incorrect license key has been used.",
-    "ip_changed"        => "The IP address your system is using has changed.",
-    "domain_changed"    => "The domain you are using has changed.",
-    "reason_1_desc"     => "If your license key is correct please try re-issuing it from the client area before contacting support.",
+    "incorrect_license" => "Pogrešan licencni ključ.",
+    "ip_changed"        => "Promenjena IP adresa.",
+    "domain_changed"    => "Promenjen domen.",
+    "reason_1_desc"     => "Ako je vaš licencni ključ ispravan, pokušajte da ga ponovo izdate iz klijentske zone pre nego što kontaktirate podršku.",
 
     /*
      * 2.1.0
      */
-    "server_response"   => "Server Response",
-    "need_to_reissue"   => "You may need to <strong>reissue</strong> the license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a>.",
+    "server_response"   => "Odgovor servera",
+    "need_to_reissue"   => "Moraćete da <strong>ponovo izdate</strong> licencu u okviru <a href='http://www.supportpal.com/manage/' target='_blank'>klijentske zone</a>.",
 
     /*
      * 2.2.0
      */
-    "enter_new_key"     => "Enter New License Key",
+    "enter_new_key"     => "Unesi novi licencni ključ",
 
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Licenca je važeća!",
 
     /*
      * 2.4.1

@@ -2,65 +2,65 @@
 
 return array(
 
-    "customfield"               => "Custom Field|Custom Fields",
+    "customfield"               => "Namensko polje|Namenska polja",
 
     // Options
     "boolean"                   => "Boolean",
-    "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
-    "text"                      => "Text",
-    "textarea"                  => "Textarea",
+    "checkbox"                  => "Polje za potvrdu",
+    "checklist"                 => "Lista",
+    "date"                      => "Datum",
+    "multiple"                  => "Više opcija",
+    "options"                   => "Opcije",
+    "radio"                     => "Radio dugme",
+    "rating"                    => "Ocena (1 do 5)",
+    "text"                      => "Tekst",
+    "textarea"                  => "Polje za tekst",
 
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
+    "public"                    => "Javno",
+    "public_desc"               => "Namensko polje je javno prikazano na frontend-u ili je namenjeno samo osoblju.",
+    "encrypted"                 => "Enkriptovano",
+    "purge_desc"                => "Vrednost namenskog polja treba automatski očistiti kada se tiket reši.",
+    "locked"                    => "Zaključano",
+    "locked_desc"               => "Vrednost namenskog polja se ne može promeniti nakon što je podešeno.",
+    "department_desc"           => "Izaberite u kojim odeljenjima je polje dostupno.",
 
     /*
      * 2.0.2
      */
-    "please_select"             => "Please select...",
+    "please_select"             => "Molimo izaberite...",
 
     /*
      * 2.0.3
      */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
+    "description_desc"          => "Tekst za pomoć koji će se pojaviti ispod namenskog polja i po želji može da ostane prazan.",
 
     /*
      * 2.1.0
      */
-    "brand_desc"                => "Choose which brands the field is available in.",
+    "brand_desc"                => "Izaberite za koje brendove je polje dostupno.",
 
     /*
      * 2.3.0
      */
-    "option_warning"            => "Deleting existing options will clear any saved fields that currently have those values selected.",
-    "regex_basic_desc"          => "Optionally specify a regular expression to validate the custom field value.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
-    "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
+    "option_warning"            => "Brisanje postojećih opcija će ukloniti već sačuvana polja sa podešenim vrednostima.",
+    "regex_basic_desc"          => "Opciono dodajte regularni izraz za validaciju vrednosti namenskog polja.",
+    "regex_desc"                => "Regularni izraz razlikuje velika i mala slova, nema potrebe za određivanjem graničnika regularnih izraza, a upotreba kose crte unapred biće automatski izbegnuta. Primer: ^ [a-z0-9 _-] {6,18} $ bi značio da vrednost ima 6-18 znakova i da sadrži samo kombinaciju alfanumeričkih znakova, donjih crta i crtica.",
+    "regex_error_message"       => "Poruka o grešci",
+    "regex_error_message_desc"  => "Po želji navedite prilagođenu poruku o grešci koja će biti prikazana ako se vrednost ne podudara sa proverom regularnog izraza, u suprotnom će biti prikazana generička poruka. Poruka će biti prikazana tačno onako kako ste je uneli, pa preporučujemo da uključite namensko ime polja kako bi poruka o grešci bila očiglednija.",
+    "custom_field_values"       => "Vrednosti namenskog polja",
+    "depends_on"                => "zavise od",
+    "depends_on_desc"           => "Ako je izabrano, ovo polje će se prikazati korisniku samo kada je izabrana navedena vrednost polja. Vidljivost brend i odeljenja automatski će se naslediti sa polja od kojeg zavisi.",
+    "select_option"             => "Molimo izaberite...",
+    "purge"                     => "Očisti",
+    "encrypted_desc"            => "Vrednost namenskog polja osetljiva i treba je sačuvati u šifrovanoj bazi podataka. Ovo se ne može promeniti nakon što se kreira namensko polje.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+    "required_desc"             => "Namensko polje mora biti popuneno. Birajući između polja, liste ili više opcija, korisnik će morati da izabere makar jednu opciju.",
 
     /*
      * 3.3.0
      */
-    "encrypted_value"           => "** ENCRYPTED **",
+    "encrypted_value"           => "** ENKRIPTOVANO **",
 );

@@ -13,170 +13,165 @@ return array(
     |
     */
 
-    "accepted"                  => "The :attribute must be accepted.",
-    "active_url"                => "The :attribute is not a valid URL.",
-    "after"                     => "The :attribute must be a date after :date.",
-    "alpha"                     => "The :attribute may only contain letters.",
-    "alpha_dash"                => "The :attribute may only contain letters, numbers, dashes and underscores.",
-    "alpha_num"                 => "The :attribute may only contain letters and numbers.",
-    "array"                     => "The :attribute must be an array.",
-    "before"                    => "The :attribute must be a date before :date.",
+    "accepted"                  => ":attribute mora biti prihvaćen.",
+    "active_url"                => ":attribute nije validan URL.",
+    "after"                     => ":attribute mora biti datum nakon :date.",
+    "alpha"                     => ":attribute može sadržati samo slova.",
+    "alpha_dash"                => ":attribute može sadržati samo slova, brojeve, crtice i donje crte.",
+    "alpha_num"                 => ":attribute može sadržati samo slova i brojeve.",
+    "array"                     => ":attribute mora biti niz.",
+    "before"                    => ":attribute mora biti datum pre :date.",
     "between"                   => array(
-        "numeric" => "The :attribute must be between :min and :max.",
-        "file"    => "The :attribute must be between :min and :max kilobytes.",
-        "string"  => "The :attribute must be between :min and :max characters.",
-        "array"   => "The :attribute must have between :min and :max items.",
+        "numeric" => ":attribute mora biti između :min i :max.",
+        "file"    => ":attribute mora biti između :min i :max kilobajta.",
+        "string"  => ":attribute mora biti između :min i :max karaktera.",
+        "array"   => ":attribute mora imati između :min i :max predmeta.",
     ),
-    "boolean"                   => "The :attribute field must be true or false.",
-    "confirmed"                 => "The :attribute confirmation does not match.",
-    "date"                      => "The :attribute is not a valid date.",
-    "date_format"               => "The :attribute does not match the format :format.",
-    "different"                 => "The :attribute and :other must be different.",
-    "digits"                    => "The :attribute must be :digits digits.",
-    "digits_between"            => "The :attribute must be between :min and :max digits.",
-    "email"                     => "The :attribute must be a valid email address.",
-    "exists"                    => "The selected :attribute is invalid.",
-    "image"                     => "The :attribute must be an image.",
-    "in"                        => "The selected :attribute is invalid.",
-    "integer"                   => "The :attribute must be an integer.",
-    "ip"                        => "The :attribute must be a valid IP address.",
+    "boolean"                   => ":attribute mora biti tačno ili netačno.",
+    "confirmed"                 => ":attribute potvrda se ne podudara.",
+    "date"                      => ":attribute nije validan datum.",
+    "date_format"               => ":attribute ne odgovara formatu :format.",
+    "different"                 => ":attribute i :other se moraju razlikovati.",
+    "digits"                    => ":attribute mora imati :digits cifre.",
+    "digits_between"            => ":attribute mora biti između :min i :max cifara.",
+    "email"                     => ":attribute mora biti validna email adresa.",
+    "exists"                    => "Označeni :attribute nije validan.",
+    "image"                     => ":attribute mora biti slika.",
+    "in"                        => "Označeni :attribute je nevažeći.",
+    "integer"                   => ":attribute mora biti ceo broj.",
+    "ip"                        => ":attribute mora biti važeća IP adresa.",
     "max"                       => array(
-        "numeric" => "The :attribute may not be greater than :max.",
-        "file"    => "The :attribute may not be greater than :max kilobytes.",
-        "string"  => "The :attribute may not be greater than :max characters.",
-        "array"   => "The :attribute may not have more than :max items.",
+        "numeric" => ":attribute ne može biti veći od :max.",
+        "file"    => ":attribute ne može biti veći od :max kilobajta.",
+        "string"  => ":attribute ne može biti veći od :max karaktera.",
+        "array"   => ":attribute ne može imati više od :max stavki.",
     ),
-    "mimes"                     => "The :attribute must be a file of type: :values.",
+    "mimes"                     => ":attribute mora biti fajl tipa: :values.",
     "min"                       => array(
-        "numeric" => "The :attribute must be at least :min.",
-        "file"    => "The :attribute must be at least :min kilobytes.",
-        "string"  => "The :attribute must be at least :min characters.",
-        "array"   => "The :attribute must have at least :min items.",
+        "numeric" => ":attribute treba da bude najmanje :min.",
+        "file"    => ":attribute treba da ima manje od :min kilobajta.",
+        "string"  => ":attribute treba da ima manje od :min karaktera.",
+        "array"   => ":attribute treba da ima najmanje :min stavki.",
     ),
-    "not_in"                    => "The selected :attribute is invalid.",
-    "numeric"                   => "The :attribute must be a number.",
-    "regex"                     => "The :attribute format is invalid.",
-    "required"                  => "The :attribute field is required.",
-    "required_if"               => "The :attribute field is required when :other is :value.",
-    "required_with"             => "The :attribute field is required when :values is present.",
-    "required_with_all"         => "The :attribute field is required when :values is present.",
-    "required_without"          => "The :attribute field is required when :values is not present.",
-    "required_without_all"      => "The :attribute field is required when none of :values are present.",
-    "same"                      => "The :attribute and :other must match.",
+    "not_in"                    => "Označeni :attribute je nevažeći.",
+    "numeric"                   => ":attribute mora biti broj.",
+    "regex"                     => ":attribute format je nevažeći.",
+    "required"                  => ":attribute polje je obavezno.",
+    "required_if"               => ":attribute polje je obavezno kada :other je :value.",
+    "required_with"             => ":attribute polje je obavezno kada :values je present.",
+    "required_with_all"         => ":attribute polje je obavezno kada :values je present.",
+    "required_without"          => ":attribute polje je obavezno kada :values je not present.",
+    "required_without_all"      => ":attribute polje je obavezno kada kada nije prisutna nijedna od :values.",
+    "same"                      => ":attribute i :other se moraju podudarati.",
     "size"                      => array(
-        "numeric" => "The :attribute must be :size.",
-        "file"    => "The :attribute must be :size kilobytes.",
-        "string"  => "The :attribute must be :size characters.",
-        "array"   => "The :attribute must contain :size items.",
+        "numeric" => ":attribute mora biti :size.",
+        "file"    => ":attribute mora biti :size kilobajta.",
+        "string"  => ":attribute mora imati :size karaktera.",
+        "array"   => ":attribute mora sadržati :size stavki.",
     ),
-    "unique"                    => "The :attribute has already been taken.",
-    "url"                       => "The :attribute format is invalid.",
-    "template_exists"           => "The selected :attribute is invalid.",
-    "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "unique"                    => ":attribute je već zauzet.",
+    "url"                       => ":attribute format nije važeći.",
+    "template_exists"           => "Označeni :attribute nije važeći.",
+    "is_valid_captcha"          => "Uneti captcha kod je nevažeći ili netačan, pokušajte ponovo.",
+    "user_password_strength"    => ":attribute mora sadržati: :user_password_strength.",
+    "operator_password_strength" => ":attribute mora sadržati: :operator_password_strength.",
 
     /*
      * 2.1.0
      */
-    "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
+    "logo"                      => "Logotip mora da usmerava na važeću fajl slike (direktni URL ili relativni put do osnovnog direktorijuma).",
 
     /*
      * 2.1.1
      */
-    "old_password"              => "The :attribute field is invalid.",
+    "old_password"              => ":attribute polje nije važeće.",
 
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => ":translation prevod za :attribute polje je obavezno kada su :values prisutne.",
+    "max_translation"           => ":translation prevod za :attribute polje ne može biti veće od :max karaktera.",
+    "unique_translation"        => ":translation prevod za :attribute polje je već zauzeto.",
 
     /*
      * 2.3.0
      */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
-    "customfield_not_cyclic"    => "The field cannot depend on one of its children.",
+    "required_translation"      => ":translation prevod za :attribute polje je obavezno.",
+    "customfield_not_cyclic"    => "Polje ne može zavisiti od jednog od subpolja.",
 
     /*
      * 2.3.1
      */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
+    "is_slug"                   => "Slug polje može sadržati samo alfanumeričke karaktere.",
+    "article_slug_unique"       => "Slug je već zauzet.",
+    "captcha_required"          => "Captcha kod je obavezan.",
+    "ticket_number_format"      => "Format broja tiketa nije nevažeći.",
 
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
+    "after_or_equal"            => ":attribute mora biti datum posle ili jednak :date.",
+    "before_or_equal"           => ":attribute mora biti datum pre ili jednak :date.",
+    "dimensions"                => ":attribute ima nevažeću dimenziju slike.",
+    "distinct"                  => ":attribute polje ima dupliranu vrednost.",
+    "file"                      => ":attribute mora biti fajl.",
+    "filled"                    => ":attribute polje mora imati vrednost.",
     "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
+        "numeric" => ":attribute mora biti veći od :value.",
+        "file"    => ":attribute mora biti veći od :value kilobajta.",
+        "string"  => ":attribute mora imati više od :value karaktera.",
+        "array"   => ":attribute mora imati više od :value stavki.",
     ),
     "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
+        "numeric" => ":attribute mora biti veći ili jednak od :value.",
+        "file"    => ":attribute mora biti veći ili jednak od :value kilobajta.",
+        "string"  => ":attribute mora imat i više ili jednako :value karaktera.",
+        "array"   => ":attribute mora imati :value stavki ili više.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => ":attribute polje ne postoji u :other.",
+    "ipv4"                      => ":attribute mora biti validna IPv4 adresa.",
+    "ipv6"                      => ":attribute mora biti validna IPv6 adresa.",
+    "json"                      => ":attribute mora biti validan JSON string.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
+        "numeric" => ":attribute mora biti manji :value.",
+        "file"    => ":attribute mora biti manji :value kilobajta.",
+        "string"  => ":attribute mora imati manje od :value karaktera.",
+        "array"   => ":attribute mora imati manje od :value stavki.",
     ),
     "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
+        "numeric" => ":attribute mora biti manji ili jednak od :value.",
+        "file"    => ":attribute mora biti manji ili jednak od :value kilobajta.",
+        "string"  => ":attribute mora imati manje ili jednako :value karaktera.",
+        "array"   => ":attribute mora imati manje ili jednako :value stavki.",
     ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
+    "mimetypes"                 => ":attribute mora biti tip fajla: :values.",
+    "not_regex"                 => ":attribute format nije važeći.",
+    "present"                   => ":attribute polje mora postojati.",
+    "required_unless"           => ":attribute polje je obavezno osim ako je :other  :values.",
+    "string"                    => ":attribute mora biti string.",
+    "timezone"                  => ":attribute mora biti validna zona.",
+    "uploaded"                  => ":attribute otpremanje nije uspelo.",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Jedan ili više imena domena nisu važeći.",
 
     /*
      * 2.5.1
      */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+    "valid_twig"                => ":attribute nije validan. Molimo koristite 'Preview' dugme za više detalja.",
 
     /*
      * 3.0.0
      */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
-    "starts_with"               => "The :attribute must start with one of the following: :values.",
+    "embed_image"               => ":attribute mora biti fajl tipa: jpeg, png ili gif.",
+    "starts_with"               => ":attribute mora početi sa nekom od sledećih vrednosti: :values.",
 
     /*
      * 3.4.0
      */
-    "password"                  => "The password is incorrect.",
-
-    /*
-     * 3.5.0
-     */
-    'phone'                     => "The supplied phone number is invalid.",
+    "password"                  => "Lozinka je netačna.",
 
     /*
     |--------------------------------------------------------------------------
@@ -191,17 +186,17 @@ return array(
 
     "custom" => array(
         "roles.*" => array(
-            "exists" => "The selected role is invalid.",
+            "exists" => "Označena uloga nije validna.",
         ),
         "category.*.type" => array(
-            "required" => "One or more self-service types must be selected.",
+            "required" => "Mora se odabrati jedan ili više tipova samoposluživanja.",
         ),
         "category.*.categories" => array(
-            "required" => "One or more categories are required when a self-service type has been selected.",
-            "exists"   => "One or more of the selected categories is invalid.",
+            "required" => "Kada je izabrana vrsta samoposluživanja, potrebna je jedna ili više kategorija.",
+            "exists"   => "Jedna ili više izabranih kategorija su nevažeće.",
         ),
         "brand.*" => array(
-            "exists" => "The selected brand is invalid.",
+            "exists" => "Označeni brend nije validan.",
         ),
     ),
 

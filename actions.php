@@ -4,19 +4,19 @@ return array(
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
-    "email_operators"           => "Send email to operators",
-    "email_operator_group"      => "Send email to an operator group",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
-    "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
+    "add_ticket_note"           => "Dodaj belešku",
+    "add_ticket_reply"          => "Odgovori na tiket",
+    "add_tag"                   => "Dodaj tag",
+    "assign_operator"           => "Dodeli tiket agentu",
+    "remove_tag"                => "Ukloni tag",
+    "email_operators"           => "Pošalji email agentima",
+    "email_operator_group"      => "Pošalji email grupi agenata",
+    "email_user"                => "Pošalji email korisniku",
+    "email_user_group"          => "Pošalji email grupi korisnika",
+    "unassign_operator"         => "Ukloni agenta",
+    "update_department"         => "Ažuriraj odeljenje",
+    "update_priority"           => "Promeni prioritet",
+    "update_status"             => "Ažuriraj status",
 
     /*
      * 2.0.3
@@ -26,56 +26,56 @@ return array(
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Increase due time",
-    "close_and_lock_ticket"     => "Close and lock ticket",
-    "pause_due_time"            => "Pause due time",
-    "reduce_due_time"           => "Reduce due time",
-    "set_due_time"              => "Set due time",
-    "unlock_ticket"             => "Unlock ticket",
-    "update_sla_plan"           => "Update SLA plan",
-    "update_subject"            => "Update subject",
-    "add_user_to_group"         => "Add user to user group",
-    "remove_user_from_group"    => "Remove user from user group",
-    "authenticated_operator"    => "Authenticated operator",
-    "all_assigned_operators"    => "All assigned operators",
-    "all_tags"                  => "All tags",
-    "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
-    "hours_to_be_added"         => "hours to be added to the current due time.",
-    "hours_to_be_removed"       => "hours to be removed from the current due time.",
-    "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
-    "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
-    "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
+    "increase_due_time"         => "Povećaj vreme",
+    "close_and_lock_ticket"     => "Zatvori i zaključaj tiket",
+    "pause_due_time"            => "Pauziraj vreme",
+    "reduce_due_time"           => "Smanji vreme",
+    "set_due_time"              => "Postavi vreme",
+    "unlock_ticket"             => "Otključaj tiket",
+    "update_sla_plan"           => "Ažuriraj SLA plan",
+    "update_subject"            => "Ažuriraj naslov",
+    "add_user_to_group"         => "Dodaj korisnika u korisničku grupu",
+    "remove_user_from_group"    => "Ukloni korisnika iz korisničke grupe",
+    "authenticated_operator"    => "Ovlašćeni agent",
+    "all_assigned_operators"    => "Svi dodeljeni agenti",
+    "all_tags"                  => "Svi tagovi",
+    "subject_placeholder"       => "{{ ticket.subject }} je rezervisano mesto za postojeći naslov tiketa.",
+    "hours_to_be_added"         => "sati dodati postojećem vremenskom roku za dobijanje odgovora.",
+    "hours_to_be_removed"       => "sati uklonjeni od postojećeg vremenskog roka.",
+    "hours_to_be_set"           => "sati dodati postojećem vremenskom roku i postavljeni kao novi vremenski rok tiketa.",
+    "only_with_due_time"        => "Važi samo za tikete sa već postavljenim vremenskim rokom.",
+    "set_due_time_desc"         => "Obriši trenutni vremenski rok ostavljajući polje prazno. Takođe, podesi vremenski rok u prošlosti negativnog broja.",
 
     /*
      * 2.3.0
      */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
+    "add_cc"                    => "Dodaj CC email adresu",
+    "remove_cc"                 => "Ukloni CC email adresu",
+    "remove_cc_desc"            => "Za uklanjanje svih CC email adresa na tiketu ostavi prazno.",
 
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Exclude CC email addresses",
+    "exclude_cc"                => "Izuzmi CC email adrese",
 
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
+    "trigger_webhook"           => "Okini webhook",
+    "forward_ticket"            => "Prosledi ticket",
+    "watch_ticket"              => "Postavi agenta da gleda tiket",
+    "unwatch_ticket"            => "Ukloni agenta",
+    "all_watching_operators"    => "Svi agenti koji gledaju tiket",
 
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
+    "move_to_trash"             => "Izbriši tiket",
+    "block_user"                => "Blokiraj korisnika",
 
     /*
      * 2.6.0
      */
-    "clear_due_time"            => "Clear due time",
+    "clear_due_time"            => "Ukloni vremenski rok",
 
 );
