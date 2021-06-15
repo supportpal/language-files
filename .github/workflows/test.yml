@@ -20,6 +20,12 @@ jobs:
           tools: composer:v2
           coverage: xdebug
 
+      - name: PHP Syntax Check
+        uses: overtrue/phplint@8.0
+        with:
+          path: .
+          options: --exclude=vendor
+
       - name: Check out English branch
         uses: actions/checkout@v2
         with:
