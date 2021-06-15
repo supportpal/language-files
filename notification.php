@@ -2,26 +2,26 @@
 
 return array(
 
-    "new_ticket"            => "New Ticket Opened",
-    "new_ticket_text"       => "A new ticket #:item has been opened by :name.",
+    "new_ticket"            => "Novi tiket",
+    "new_ticket_text"       => "Otvoren je novi tiket #:item od strane :name.",
 
-    "new_reply"             => "New Ticket Reply",
-    "new_reply_text"        => "A new reply has been posted by :name in ticket #:item.",
+    "new_reply"             => "Novi odgovor",
+    "new_reply_text"        => "Novi odgovor na tiket #:item od strane :name.",
 
-    "operator_login"        => "Operator Logged In",
-    "operator_login_text"   => ":name has logged in to the operator panel.",
+    "operator_login"        => "Prijavljen agent",
+    "operator_login_text"   => ":name se prijavio na kanal podrške.",
 
-    "failed_logins"         => "Failed Operator Logins",
-    "new_comments"          => "New Comments",
+    "failed_logins"         => "Neuspeli pokušaji prijave",
+    "new_comments"          => "Novi komentari",
 
     /*
      * 2.0.2
      */
-    "private_message"       => "New Private Message",
+    "private_message"       => "Nove poruke",
 
     /*
      * 2.1.1
      */
-    "private_message_text"  => ":name has sent you a new <a href=':route'>private message</a>.",
+    "private_message_text"  => ":name je poslao <a href=':route'>poruku</a>.",
 
 );
