@@ -26,7 +26,6 @@ jobs:
           repository: supportpal/language-files
           path: en/
           ref: master
-          token: ${{ secrets.GH_TOKEN }}
 
       - name: Install dependencies
         run: composer require --dev supportpal/language-tools
