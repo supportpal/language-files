@@ -503,4 +503,5 @@ return array(
     "update_available"          => "The latest available version is :version.",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
+
 );
