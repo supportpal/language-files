@@ -148,59 +148,59 @@ return array(
     /*
      * 2.3.0
      */
-    "registered_users_only"             => "Sent ':extra_rel1' email to :new_value, department does not accept emails from unregistered users.",
-    "deleted_user"                      => "Deleted :item ':rel' with email ':email_address' (ID :user_id).",
-    "linked_ticket"                     => "Linked ticket #:rel with ticket :extra_rel1.",
-    "unlinked_ticket"                   => "Unlinked ticket #:rel from ticket :extra_rel1.",
-    "email_queue_attachment_deleted"    => "Deleted attachment ':old_value' from queued email ':rel'.",
-    "forward_ticket_email"              => "Forwarded ticket #:rel to third-party, view ':extra_rel1' email.",
+    "registered_users_only"             => "Verzonden ':extra_rel1' e-mail naar :new_value, afdeling accepteert geen e-mails van niet-geregistreerde gebruikers. ",
+    "deleted_user"                      => ":item ':rel' met e-mail ':email_address' (ID :user_id) is verwijderd.",
+    "linked_ticket"                     => "Ticket #:rel is gelinkt aan ticket :extra_rel1.",
+    "unlinked_ticket"                   => "Link tussen ticket #:rel met ticket :extra_rel1 verwijderd.",
+    "email_queue_attachment_deleted"    => "Bijlage verwijderd ':old_value' van in de wachtrij geplaatste e-mail ':rel'.",
+    "forward_ticket_email"              => "Ticket #:rel doorgestuurd naar derde-partij, bekijk ':extra_rel1' e-mail.",
 
     /*
      * 2.3.1
      */
-    "selfservice_comment_updated"       => "Updated :rel by :extra_rel1.",
-    "selfservice_comment_status"        => "Changed status of :rel by :extra_rel1 from :old_value to :new_value.",
-    "selfservice_comment_deleted"       => "Deleted comment by :extra_rel1.",
-    "ticket_message_posted"             => "Posted a new :extra_rel1 to ticket #:rel.",
-    "ticket_message_edited"             => "Edited a :extra_rel1 in ticket #:rel.",
-    "email_send_failed"                 => "Failed to send email.",
-    "ticket_brand_updated"              => "Updated the brand on ticket #:rel from :old_value to :new_value.",
-    "export_scheduled"                  => "An export of user :rel has been scheduled.",
-    "export_generated"                  => "Export :new_value of user :rel has been generated and stored on the system.",
-    "export_deleted"                    => "Export :old_value of user :rel has been deleted from the system.",
-    "deleted_inactive_records"          => "Automatically deleted :old_value inactive :rel.",
-    "deleted_old_records"               => "Automatically deleted old :rel records.",
-    "sent_email_to_user_group"          => "Queued email to user group ':new_value' for ticket #:rel.",
+    "selfservice_comment_updated"       => "Bijgewerkt :rel door :extra_rel1.",
+    "selfservice_comment_status"        => "Gewijzigde status van :rel door :extra_rel1 van :old_value naar :new_value.",
+    "selfservice_comment_deleted"       => "Reactie verwijderd door :extra_rel1.",
+    "ticket_message_posted"             => "Een nieuwe :extra_rel1 gepost op ticket #:rel.",
+    "ticket_message_edited"             => "Heeft een :extra_rel1 in ticket #:rel.",
+    "email_send_failed"                 => "Kan e-mail niet verzenden .",
+    "ticket_brand_updated"              => "Het merk op van ticket #:rel is bijgewerkt van :old_value naar :new_value.",
+    "export_scheduled"                  => "Een export van gebruiker :rel is gepland.",
+    "export_generated"                  => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
+    "export_deleted"                    => "Export :old_value van gebruiker :rel is uit het systeem verwijderd.",
+    "deleted_inactive_records"          => "Automatisch verwijderd :old_value inactief :rel.",
+    "deleted_old_records"               => "Oude :rel records zijn automatisch verwijderd.",
+    "sent_email_to_user_group"          => "E-mail in wachtrij geplaatst naar gebruikersgroep ':new_value' voor ticket #:rel.",
 
     /*
      * 2.4.0
      */
-    "ticket_watching"                   => "Watching ticket #:rel.",
-    "ticket_unwatching"                 => "No longer watching ticket #:rel.",
-    "ticket_watch_operator"             => "Set :new_value to watch ticket #:rel.",
-    "ticket_unwatch_operator"           => "Unset :new_value from watching ticket #:rel.",
+    "ticket_watching"                   => "Monitort ticket #:rel.",
+    "ticket_unwatching"                 => "Monitort ticket #:rel niet meer.",
+    "ticket_watch_operator"             => "Laat :new_value ticket #:rel monitoren.",
+    "ticket_unwatch_operator"           => "Laat :new_value ticket #:rel niet meer monitoren.",
 
     /*
      * 2.5.0
      */
-    "marked_user_as_confirmed"          => "Confirmed ownership of email address on behalf of user :rel.",
-    "ticket_department_email_updated"   => "Updated the department email on ticket #:rel from :old_value to :new_value.",
-    "ticket_watching_updated"           => "Updated watching operators on ticket #:rel.",
-    "ticket_deleted"                    => "Permanently deleted ticket ':old_value' (#:rel).",
-    "ticket_trashed"                    => "Moved ticket #:rel to trash.",
-    "ticket_restored"                   => "Restored ticket #:rel from trash.",
-    "emptied_ticket_trash"              => "Automatically cleaned the ticket trash of ':old_value' records.",
+    "marked_user_as_confirmed"          => "Bevestig eigendom van e-mailadres namens gebruiker :rel.",
+    "ticket_department_email_updated"   => "De afdelings-e-mail op ticket #:rel bijgewerkt van :old_value naar :new_value.",
+    "ticket_watching_updated"           => "Monitorende operators op ticket #:rel bijgewerkt.",
+    "ticket_deleted"                    => "Ticket ':old_value' (#:rel) permanent verwijderd.",
+    "ticket_trashed"                    => "Ticket #:rel verplaatst naar de prullenbak.",
+    "ticket_restored"                   => "Ticket #:rel herstelt vanuit de prullenbak.",
+    "emptied_ticket_trash"              => "Automatisch de ticketprullenbak van ':old_value' records opgeschoond.",
 
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "A new follow up has been set up on ticket #:rel.",
-    "ticket_followup_updated"           => "A follow up on ticket #:rel has been updated.",
-    "ticket_followup_deleted"           => "A follow up on ticket #:rel has been deleted.",
+    "ticket_followup_set"               => "Er is een nieuwe follow-up ingesteld op ticket  #:rel.",
+    "ticket_followup_updated"           => "Een follow-up op ticket #:rel is bijgewerkt.",
+    "ticket_followup_deleted"           => "Een follow-up op ticket #:rel is verwijderd.",
 
     /*
      * 3.0.0
      */
-    "selfservice_article_neutral"       => "Neutrally rated article :rel.",
+    "selfservice_article_neutral"       => "Neutraal beoordeeld artikel :rel.",
 
 );

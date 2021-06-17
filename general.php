@@ -378,11 +378,11 @@ return array(
     /*
      * 3.5.0
      */
-    "today"                     => "Today",
-    "yesterday"                 => "Yesterday",
-    "last_7_days"               => "Last 7 Days",
-    "last_30_days"              => "Last 30 Days",
-    "this_month"                => "This Month",
-    "last_month"                => "Last Month",
+    "today"                     => "Vandaag",
+    "yesterday"                 => "Gisteren",
+    "last_7_days"               => "Laatste 7 Dagen",
+    "last_30_days"              => "Laatste 30 Dagen",
+    "this_month"                => "Deze Maand",
+    "last_month"                => "Laatste Maand",
 
 );

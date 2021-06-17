@@ -63,7 +63,7 @@ return array(
 
     "tag"                       => "Tag|Tags",
 
-    "track_ticket"              => "Track Ticket",
+    "track_ticket"              => "Ticketstatus",
     "view_ticket"               => "Bekijk Ticket",
 
     // Recent activity
