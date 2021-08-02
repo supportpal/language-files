@@ -2,11 +2,11 @@
 
 return array(
 
-    "new_ticket"            => "Nouvelle question créée",
-    "new_ticket_text"       => "Une nouvelle question #:item a été créée par :name.",
+    "new_ticket"            => "Nouveau ticket créé",
+    "new_ticket_text"       => "Un nouveau ticket #:item a été créé par :name.",
 
-    "new_reply"             => "Réponse à une nouvelle question",
-    "new_reply_text"        => "Une nouvelle réponse a été postée par :name sous la question #:item.",
+    "new_reply"             => "Réponse à un nouveau ticket",
+    "new_reply_text"        => "Une nouvelle réponse a été postée par :name sous le ticket #:item.",
 
     "operator_login"        => "Opérateur connecté",
     "operator_login_text"   => ":name s'est connecté au panneau opérateur.",

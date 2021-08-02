@@ -5,19 +5,19 @@ return array(
     /*
      * 2.4.0
      */
-    "new_ticket"            => "New ticket opened",
-    "user_reply"            => "User reply posted",
-    "operator_reply"        => "Operator reply posted",
-    "operator_note"         => "Operator note posted",
-    "operator_forward"      => "Operator forward posted",
-    "update_department"     => "Department updated",
-    "update_status"         => "Status updated",
-    "update_priority"       => "Priority updated",
-    "update_tags"           => "Tags updated",
-    "update_assigned"       => "Assigned operators updated",
-    "update_user"           => "User updated",
-    "update_brand"          => "Brand updated",
-    "update_subject"        => "Subject updated",
-    "update_watching"       => "Watching operators updated",
+    "new_ticket"            => "Nouveau ticket ouvert",
+    "user_reply"            => "Réponse de l'utilisateur",
+    "operator_reply"        => "Réponse de l'opérateur",
+    "operator_note"         => "Note de lopérateur",
+    "operator_forward"      => "Transfert de l'opérateur",
+    "update_department"     => "Département mis à jour",
+    "update_status"         => "Statut mis à jour",
+    "update_priority"       => "Priorité mise à jour",
+    "update_tags"           => "Libellés mis à jour",
+    "update_assigned"       => "Opérateurs mis à jour",
+    "update_user"           => "Utilisateur mis à jour",
+    "update_brand"          => "Marque mis à jour",
+    "update_subject"        => "Sujet mis à jour",
+    "update_watching"       => "Opérateurs assignés mis à jour",
 
 );

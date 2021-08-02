@@ -6,7 +6,7 @@ return array(
 
     // Core
     "apitoken"          => "Gérer les jetons API",
-    "emailtemplate"     => "Gérer gabarits courriel",
+    "emailtemplate"     => "Gérer templates d'e-mail",
     "ipban"             => "Gérer blocages IP",
     "ipwhitelist"       => "Gérer IP Whitelist",
     "language"          => "Gérer langages",
@@ -22,18 +22,18 @@ return array(
     "operatorgroup"     => "Gérer groupes d'opérateurs",
     "organisation"      => "Gérer organisations",
     "role"              => "Gérer rôles opérateurs",
-    "user_view"         => "Voir usagers",
-    "user_add"          => "Ajouter usagers",
-    "user_edit"         => "Éditer usagers",
-    "user_delete"       => "Effacer usagers",
-    "usergroup"         => "Gérer groupes d'usagers",
-    "massemail"         => "Envoyer campagne de courriels",
+    "user_view"         => "Voir utilisateur",
+    "user_add"          => "Ajouter utilisateur",
+    "user_edit"         => "Éditer utilisateur",
+    "user_delete"       => "Effacer utilisateur",
+    "usergroup"         => "Gérer groupes d'utilisateurs",
+    "massemail"         => "Envoyer campagne d'e-mail",
     "ldapaccount"       => "Gérer comptes LDAP",
     "activitylog"       => "Voir log des activités du système",
     "operatorlog"       => "Afficher log des accès d'opérateurs",
 
     // Ticket
-    "cannedresponse"    => "Gérer réposnes pré-enregistrées",
+    "cannedresponse"    => "Gérer réponses pré-enregistrées",
     "channel"           => "Gérer canaux",
     "department"        => "Gérer départements",
     "filter"            => "Gérer filtres",
@@ -43,9 +43,9 @@ return array(
     "schedule"          => "Gérer horaires",
     "slaplan"           => "Gérer plans de service",
     "status"            => "Gérer statuts",
-    "ticket_view"       => "Voir billets",
-    "ticket_add"        => "Ouvrir billets",
-    "ticket_edit"       => "Mettre à jour billets",
+    "ticket_view"       => "Voir ticket",
+    "ticket_add"        => "Ouvrir ticket",
+    "ticket_edit"       => "Mettre à jour le ticket",
     "ticketcustomfield" => "Gérer champs sur mesure",
 
     // Self-service
@@ -101,8 +101,8 @@ return array(
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
+    "ticket_delete"     => "Supprimer définitivement le ticket",
+    "ticket_trash"      => "Déplacer le ticket à la corbeille",
 
     /*
      * 3.0.0
