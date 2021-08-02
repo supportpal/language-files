@@ -265,7 +265,6 @@ return array(
     "brand_limit_exceeded"      => "Votre licence vous permet un nombre de :allowed marque(s) maximum. Pour pouvoir créer plus de marques, veuillez visiter notre espace client.",
     "additional_brands"         => "Marques additionnelles",
     "purchase_more"             => "Acheter autre",
-    "brand_limit_allowed"       => "Your license is currently permitted to use :allowed brand simultaneously.|Your license is currently permitted to use :allowed brands simultaneously.",
     "brand_limit_allowed"       => "Votre licence vous permet d'avoir :allowed marque maximum.|Votre licence vous permet d'avoir :allowed marques maximum.",
     "brand_limit_purchase"      => "If this is incorrect, please <strong>reissue</strong> your license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a> and visit the <a href=':route'>License Information</a> page to synchronise your help desk with our license server.<br />To purchase additional brands, please <a href='https://www.supportpal.com/manage/upgrade.php?type=configoptions&id=:id' target='_blank'>upgrade your license</a>.",
     "support_expiry"            => "Your support and updates subscription is valid until :date.",
@@ -288,7 +287,6 @@ return array(
     "app_logs_desc"             => "Tous les warnings et erreurs en général sont stockés ici. Si vous avez besoin d'utiliser notre support, vous devrez peut-être utiliser ces logs.",
     "email_logs"                => "Logs des e-mails.",
     "email_logs_desc"           => "Les détails des e-mails entrants sont stockés dans ces fichiers lorsqu'ils sont analysés et importés en tant que tickets.",
-    "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
 
     /*
      * 2.1.2
@@ -352,7 +350,7 @@ return array(
     "database_desc"             => "Les objets suivants sont stockés dans la base de données.",
     "prune_users"               => "Les utilisateurs inactifs peuvent être automatiquement supprimés. Un utilisateur est considéré inactif s'il ne s'est pas connecté sur une période donnée.",
     "prune_tickets"             => "Les tickets inactifs peuvent être automatiquement supprimés. Un ticket est considéré inactif s'il a été résolu et n'a eu aucune activité sur une période donnée.",
-    "prune_tickets"             => "Les organisations inactives peuvent être automatiquement supprimées. Une organisation est considérée inactive si aucun utilisateur n'y est lié, ou n'a eu d'activité sur une période donnée.",
+    "prune_organisations"       => "Les organisations inactives peuvent être automatiquement supprimées. Une organisation est considérée inactive si aucun utilisateur n'y est lié, ou n'a eu d'activité sur une période donnée.",
     "prune_export"              => "Les exports de données des utilisateurs sont stockés sur le système mais peuvent prendre une place conséquente. Vous pouvez supprimer ces exports avant une date spécifique.",
     "automatically_prune"       => "Supprimer automatiquement",
     "days_after_saved"          => "Enregistrements après",
