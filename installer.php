@@ -3,11 +3,11 @@
 return array(
 
     // Pre installation check
-    "requirements_failed"       => "Exigences de système pas accompli",
+    "requirements_failed"       => "Exigences de système non valides",
 
     // Index
     "supportpal_installer"      => "SupportPal Installation",
-    "select_language"           => "Choisir la langue:",
+    "select_language"           => "Choisir la langue :",
     "install_type"              => "Type d'installation",
     "install"                   => "Nouvelle Installation",
     "upgrade"                   => "Mise à niveau l'installation existante",

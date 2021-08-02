@@ -35,7 +35,7 @@ return array(
 
     "please_correct"        => "Veuillez corriger les erreurs ci-dessous et essayer à nouveau.",
 
-    "success_settings"      => "Pramètres mis à jour !",
+    "success_settings"      => "Paramètres mis à jour !",
     "error_settings"        => "Erreur lors de la mise à jour des paramètres.",
 
     "success_action"        => "Succès !",
@@ -81,11 +81,11 @@ return array(
     "not_operator"          => "Une erreur s'est produite. L'opérateur sélectionné est invalide, veuillez vous assurer qu'ils appartiennent à un groupe d'opérateurs et que ce groupe est associé à un rôle.",
 
     // The error message is appended using JavaScript...
-    "datatable_error"       => "<strong>Whoops! Something went wrong.</strong><br />An error occurred while loading table data. Please notify your system administrator if the error persists.",
+    "datatable_error"       => "<strong>Oops! Une erreur s'est produite.</strong><br />Une erreur s'est produite lors du chargement de la base de données. Veuillez prévenir l'administrateur système si l'erreur persiste.",
 
     "missing_extension"     => "Extension manquante",
-    "php_ldap_missing"      => "The php-ldap extension is required to use LDAP authentication. Please enable it and refresh the page.",
-    "php_imap_missing"      => "The php-imap extension is required to use Email Download. If you wish to use Email Download, please enable the extension and refresh the page.",
+    "php_ldap_missing"      => "L'extension php-ldap est requis pour utiliser l'authentification LDAP. Veuillez l'activer et rafraîchir la page.",
+    "php_imap_missing"      => "L'extension php-imap est requis pour utiliser 'Email Download'. Veuillez l'activer et rafraîchir la page.",
 
     /*
      * 2.0.3
@@ -102,7 +102,7 @@ return array(
     "category_required"     => "Cet article doit appartenir à une ou plusieurs catégories.",
     "warning"               => "Avertissement",
     "note"                  => "Note",
-    "brand_invalid_dept"    => "Cette action n'a pas pu être complétée. The department could not be updated on some tickets due to their brand.",
+    "brand_invalid_dept"    => "Cette action n'a pas pu être complétée. Le départmeent n'a pas pu être mis à jour sur certains tickets à cause de sa marque.",
 
     /*
      * 2.1.1
@@ -114,44 +114,44 @@ return array(
     /*
      * 2.3.0
      */
-    "delete_record"         => "Delete :record?",
-    "cannot_be_undone"      => "This action cannot be undone.",
-    "warn_delete"           => "This will permanently delete the <strong>:name</strong> :record from the system.",
-    "delete_confirm"        => "Yes, Delete :record",
-    "keep_record"           => "No, Keep :record",
-    "delete_relations"      => "Deleting the <strong>:name</strong> :record will also permanently delete all of the following related data:",
-    "please_check"          => "You must check all of the boxes above to confirm you understand the result of this irreversible action.",
-    "failed_attachments"    => "Failed to attach some files.",
+    "delete_record"         => "Supprimer :record?",
+    "cannot_be_undone"      => "Cette action ne peut être annulée.",
+    "warn_delete"           => "<strong>:name</strong> :record sera définitivement supprimé du système.",
+    "delete_confirm"        => "Oui, supprimer :record",
+    "keep_record"           => "Non, conserver :record",
+    "delete_relations"      => "Supprimer <strong>:name</strong> :record impactera aussi les autres données liées:",
+    "please_check"          => "Vérifiez toutes les informations ci-dessus pour confirmer que vous comprenez que ces actions sont irréversibles.",
+    "failed_attachments"    => "Ajout des pièces jointes échoué.",
 
     /*
      * 2.3.1
      */
-    "sent_email"            => "Success - the email has been sent.",
-    "task_already_running"  => "Scheduled task is running automatically currently, please try again shortly.",
-    "linked_account"        => "The social account has successfully been linked with your account.",
-    "already_linked"        => "The social account is already linked with another account. Please login to the other account and unlink it.",
+    "sent_email"            => "Succès - l'e-mail a été envoyé.",
+    "task_already_running"  => "La tâche planifiée est actuellement en cours, veuillez réessayez sous peu.",
+    "linked_account"        => "Le compte social a bien été lié à votre compte.",
+    "already_linked"        => "Ce compte social est déjà lié à un autre compte. Veuillez vous connecter à cet autre compte pour le dé-lier.",
 
     /*
      * 2.4.0
      */
-    "does_look_correct"     => "Does this look correct?",
-    "no_revert"             => "No! Revert",
-    "attachment_not_found"  => "The attachment was not found.",
+    "does_look_correct"     => "Le résultat est-il correct ?",
+    "no_revert"             => "Non ! J'annule",
+    "attachment_not_found"  => "La pièce jointe n'a pas été trouvée.",
 
     /*
      * 2.5.0
      */
-    "account_closed"        => "Your account has been closed. Please contact us if you think this has been done in error.",
-    "leave_record"          => "Leave :record?",
-    "leave_record_warn"     => "This will permanently remove you from the :record.",
-    "success_trashed"       => "Successfully moved the :item to trash!",
-    "error_trashed"         => "Failed trying to move the :item to trash.",
-    "blocked_by_rule"       => "The request was blocked by spam rule ':text'.",
+    "account_closed"        => "Votre compte a été fermé. Veuillez nous contacter si vous pensez que c'est une erreur.",
+    "leave_record"          => "Quitter :record?",
+    "leave_record_warn"     => "Vous allez définitivement quitter :record.",
+    "success_trashed"       => ":item déplacé à la corbeille avec succès !",
+    "error_trashed"         => "Echec du déplacement de :item à la corbeille.",
+    "blocked_by_rule"       => "La requête a été bloquée par la règle de spam : ':text'.",
 
     /*
      * 3.0.0
      */
-    "popup_blocked"         => "Your browser is blocking popup windows. Please enable popups and redirects on this website in order to use the preview feature.",
-    "error_editing_message" => "There was an error while trying to edit this message.",
+    "popup_blocked"         => "Votre navigateur bloque les pop-up. Veuillez les pop-ups et actualiser cette page pour que les fonctionnalités soient actives.",
+    "error_editing_message" => "Une erreur s'est produite lors de l'édition du message.",
 
 );

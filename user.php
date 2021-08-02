@@ -2,13 +2,13 @@
 
 return array(
 
-    "user"                          => "Usager|Usagers",
-    "user_details"                  => "Détails de l'usager",
-    "add_user"                      => "Ajouter usager",
+    "user"                          => "Utilisateur|Utilisateurs",
+    "user_details"                  => "Détails de l'utilisateur",
+    "add_user"                      => "Ajouter un utilisateur",
     "account_active"                => "Compte inactif",
     "account_active_desc"           => "Activer pour autoriser/empêcher l'accès aux sections qui nécessitent une authentification.",
 
-    "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des questions.",
+    "op_settings_dept_desc"         => "Départements où l'opérateur peut voir et répondre à des tickets.",
 
     "organisation"                  => "Organisation|Organisations",
     "members"                       => "Membre|Membres",
@@ -18,15 +18,15 @@ return array(
     "access_level_desc"             => "Définir le niveau d'accès pour le Client dans les Projets: <br /><strong>Manager</strong> - Peut afficher des tickets ouverts par tous les Clients dans le Projet et la gestion des Clients dans le Projet <br /><strong>Client</strong> - Peut afficher des tickets uniquement ouverts par soi-même",
     "manage_organisation"           => "Gérer organisation",
     "leave_organisation"            => "Quitter organisation",
-    "user_membership"               => "Membership de l'usager",
+    "user_membership"               => "Membership de l'utilisateur",
     "transfer_ownership"            => "Transférer propriété",
-    "transfer_ownership_desc"       => "Comme le propriétaire actuel du Projet, vous ne pouvez pas être supprimé en tant que gestionnaire et vous seul pouvez supprimer le Projet. Vous pouvez transférer la propriété du Projet à quelqu'un d'autre, sachez que cette action ne peut pas être inversée.",
-    "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer le Projet et ne peut pas être retiré de celui-ci. Utilisez cette option pour modifier la propriété à un autre Client dans le Projet.",
+    "transfer_ownership_desc"       => "Etant le propriétaire actuel de l'organisation, vous ne pouvez pas être supprimé en tant que gestionnaire et vous seul pouvez supprimer l'organisation. Vous pouvez transférer la propriété de l'organisation à quelqu'un d'autre, sachez que cette action ne peut pas être inversée.",
+    "transfer_ownership_operator"   => "Seul le propriétaire peut supprimer l'organisation et ne peut pas être retiré de celle-ci. Utilisez cette option pour modifier la propriété à un autre Client dans l'organisation.",
     "start_typing_name"             => "Commencez à taper un nom...",
-    "organisation_add_user"         => "Ajouter usager à organisation",
-    "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux tickets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des tickets, mais ne peut pas lire ou répondre à des tickets d'autres.",
+    "organisation_add_user"         => "Ajouter utilisateur à l'organisation",
+    "organisation_desc"             => "Chaque organisation peut avoir des <strong>Managers</strong>, qui peuvent gérer les clients et lire et répondre aux tickets des autres, et <strong>utilisateurs</strong>, qui peuvent ouvrir des tickets, mais ne peuvent pas lire ou répondre à des tickets d'autres utilisateurs.",
     "organisation_operator_desc"    => "Ajouter les utilisateurs existants à cette organisation en cliquant sur - Ajouter clients - et la recherche de leur nom, noter que l'ajout d'un Clients supprime tous les liens qu'ils ont avec une autre Projet.",
-    "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres Clients et répondre aux tickets d'un autre Clients <br /><strong>Clients</strong> - Puis tickets seulement ouverts au nom du Projet et de réponse à posséder des tickets",
+    "organisation_user_desc"        => "<strong>Manager</strong> - Peut gérer d'autres clients et répondre aux tickets d'un autre client <br /><strong>Clients</strong> - Peuvent uniquement ouvrir des tickets au sein de cette organisation, et ne peuvent répondre qu'à leurs tickets.",
     "send_password_reset"           => "Envoyer lien de réinitialisation du mot de passe",
 
     "profile"                       => "Profil",
@@ -36,7 +36,7 @@ return array(
     "logout"                        => "Déconnexion",
     "return_to_login"               => "Retourner au login",
 
-    "user_register_disabled"        => "Nous sommes désolés, l'enregistrement public des usagers est désactivé.",
+    "user_register_disabled"        => "Nous sommes désolés, l'enregistrement public des utilisateurs est désactivé.",
     "success_register"              => "Compte enregistré avec succès !",
     "register_now"                  => "M'enregistrer",
     "register"                      => "M'enregistrer",
@@ -48,11 +48,11 @@ return array(
     "reset_password"                => "Réinitialiser mot de passe",
     "set_password"                  => "Définir un mot de passe",
     "please_set_password"           => "Veuillez entrer votre nouveau mot de passe ci-dessous.",
-    "missing_email_or_reset"        => "Courriel ou jeton de réinitialisation manquants.",
+    "missing_email_or_reset"        => "E-mail ou jeton de réinitialisation manquants.",
 
     "firstname"                     => "Prénom",
     "lastname"                      => "Nom de famille",
-    "formatted_name"                => "Formatted Name",
+    "formatted_name"                => "Nom mis en forme",
     "country"                       => "Pays",
     "avatar"                        => "Avatar",
     "confirm_password"              => "Confirmer mot de passe",
@@ -60,13 +60,13 @@ return array(
     "confirmed"                     => "Confirmé",
     "unconfirmed"                   => "Non confirmé",
 
-    "group"                         => "Groupe d'usager|Groupes d'usagers",
+    "group"                         => "Groupe d'utilisateur|Groupes d'utilisateurs",
     "group_members"                 => "Membres du groupe",
-    "operator_group"                => "Group opérateur|Groupes opérateurs",
+    "operator_group"                => "Groupe opérateur|Groupes opérateurs",
     "add_group"                     => "Ajouter au groupe",
 
-    "customfield"                   => "Champ usager sur mesure|Champs usagers sur mesure",
-    "customfield_order"             => "Drag the rows to change the order custom fields appear to users.",
+    "customfield"                   => "Champ utilisateur sur mesure|Champs utilisateurs sur mesure",
+    "customfield_order"             => "Faites glisser les blocs pour changer l'ordre des champs personnalisés.",
 
     "role"                          => "Rôle|Rôles",
 
@@ -74,58 +74,58 @@ return array(
     "system_activity_log"           => "Journal des activités système",
     "activity_log"                  => "Journal des activités",
 
-    "mass_email"                    => "Envoyer courriel de groupe",
-    "send_email"                    => "Envoyer courriel",
-    "choose_template"               => "Choisir gabarit...",
+    "mass_email"                    => "Envoyer e-mail de groupe",
+    "send_email"                    => "Envoyer e-mail",
+    "choose_template"               => "Choisir un template...",
 
     "ldap_account"                  => "Compte LDAP|Comptes LDAP ",
-    "ldap_operator_desc"            => "Recherche d'un Collaborateur existant, ou en créer un nouveau.",
+    "ldap_operator_desc"            => "Recherche d'un opérateur existant, ou en créer un nouveau.",
     "ldap_server"                   => "Serveur LDAP",
     "ldap_server_desc"              => "Le nom d'hôte du serveur. Alternativement, vous pouvez spécifier la pleine LDAP URI. Par exemple: ldaps: //ldap.server: 1234 / se connecter via SSL au port 1234",
-    "ldap_username"                 => "LDAP Nom d'Client",
-    "ldap_username_desc"            => "Le nom d'Client que le Collaborateur va utiliser pour accéder au service d'assistance (leur nom d'Client LDAP.)",
+    "ldap_username"                 => "Nom utilisateur LDAP",
+    "ldap_username_desc"            => "Le nom d'utilisateur que l'opérateur va utiliser pour accéder au service d'assistance.",
     "ldap_rdn"                      => "LDAP RDN ou DN",
-    "ldap_rdn_desc"                 => "Le nom unique pour le nom d'Client LDAP, par exemple: cn=Sample Client,ou=personnes,dc=example,dc=com",
+    "ldap_rdn_desc"                 => "Le nom unique pour le nom d'utilisateur LDAP, par exemple: cn=Sample Client,ou=personnes,dc=example,dc=com",
     "ldap_details"                  => "LDAP Détails",
 
     "operator_details"              => "Détails opérateur",
 
-    "email_notifications"           => "Notifications courriel",
-    "email_notifications_desc"      => "Les notifications par courrier électronique qui seront reçus à partir du système.",
+    "email_notifications"           => "Notifications par e-mail",
+    "email_notifications_desc"      => "Les notifications par e-mail qui seront reçues à partir du système.",
 
     "enable_ldap"                   => "Activer LDAP Connexion",
-    "enable_ldap_desc"              => "Si vous utilisez LDAP, vous pouvez l'activer pour le Collaborateur login. Après l'activation, accédez à la page des paramètres de comptes LDAP pour le configurer.",
-    "user_reg_enabled"              => "Enregistrement du Client Enabled",
-    "user_reg_enabled_desc"         => "Permettre aux nouveaux Clients d'enregistrer un compte dans le frontend.",
-    "user_reg_captcha"              => "Enregistrement Client Captcha",
-    "user_reg_captcha_desc"         => "Si le captcha devrait être montré aux nouveaux Clients enregistrement.",
-    "user_name_format"              => "Format Nom",
-    "first_last"                    => "Premier Dernier",
-    "last_first"                    => "Dernier Premier",
-    "first_l"                       => "Premier D.",
-    "f_last"                        => "P. Dernier",
+    "enable_ldap_desc"              => "Si vous utilisez LDAP, vous pouvez l'activer pour le login de l'opérateur. Après l'activation, accédez à la page des paramètres de comptes LDAP pour le configurer.",
+    "user_reg_enabled"              => "Inscription d'utilisateurs activé",
+    "user_reg_enabled_desc"         => "Permettre aux nouveaux utilisateurs d'enregistrer un compte dans le frontend.",
+    "user_reg_captcha"              => "Captcha d'inscription utilisateur",
+    "user_reg_captcha_desc"         => "Si le captcha doit être montré aux nouveaux utilisateurs inscrits.",
+    "user_name_format"              => "Format du nom",
+    "first_last"                    => "Prénom Nom",
+    "last_first"                    => "Nom Prénom",
+    "first_l"                       => "Prénom N.",
+    "f_last"                        => "P. Nom",
     "password_length"               => "Longueur du mot de passe",
     "password_length_desc"          => "La longueur minimale de caractères pour le mot de passe lors de l'enregistrement ou la mise à jour d'un compte.",
     "password_strength"             => "Force du mot de passe",
-    "password_strength_desc"        => "Sélectionnez les caractères sont requis lors de l'enregistrement d'un mot de passe du Client.",
+    "password_strength_desc"        => "Sélectionnez les caractères qui seront requis lors de l'enregistrement d'un mot de passe de l'utilisateur.",
     "password_str_must_contain"     => "Doit contenir:",
     "password_str_letters"          => "Au moins un caractère alphabétique.",
     "password_str_digits"           => "Au moins un chiffre.",
     "password_str_case"             => "Majuscule et minuscules.",
-    "password_str_symbols"          => "Au moins un symbole.",
+    "password_str_symbols"          => "Au moins un caractère spécial.",
 
-    "load_template"                 => "Charger gabarit",
-    "load_template_desc"            => "Le choix d'un modèle remplacera l'actuel sujet de courrier électronique et un message.",
-    "clear_template"                => "Effacer gabarit",
+    "load_template"                 => "Importer un template",
+    "load_template_desc"            => "Le choix d'un template remplacera l'actuel sujet de l'email et le message.",
+    "clear_template"                => "Effacer template",
 
     "personal_settings"             => "Paramètres personnels",
-    "personal_settings_desc"        => "Mettre à jour votre propre profil et modifier les paramètres qui se rapportent uniquement à votre compte du Collaborateur",
+    "personal_settings_desc"        => "Mettre à jour votre propre profil et modifier les paramètres qui se rapportent uniquement à votre compte opérateur",
     "two_fa"                        => "Authentification à deux facteurs",
     "notifications"                 => "Notifications",
     "two_fa_success_disabled"       => "L'authentification à deux facteurs a bien été désactivé.",
     "two_fa_success_enabled"        => "L'authentification à deux facteurs a bien été activé.",
     "two_fa_incorrect"              => "Le code est incorrect, vérifiez que le code saisi est correct et que l'heure du serveur est synchronisé.",
-    "two_fa_enabled"                => "2FA activé",
+    "two_fa_enabled"                => "2FA activée",
     "two_fa_disable"                => "Pour désactiver 2FA, s'il vous plaît vérifier ci-dessous.",
     "two_fa_enable"                 => "Pour activer 2FA, s'il vous plaît configurer le compte sur votre téléphone en utilisant les détails ci-dessous et de vérifier.",
     "verify_code"                   => "Vérifier le code",
@@ -135,13 +135,13 @@ return array(
     "qr_code"                       => "QR Code",
     "two_fa_code"                   => "Code de 2FA",
     "two_fa_secret"                 => "2FA Secret",
-    "two_fa_secret_desc"            => "S'il vous plaît stocker ce un endroit sûr que vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone devrait vous perdre l'accès.",
-    "display_notifications"         => "Afficher Notifications",
-    "display_notifications_desc"    => "Le système interroge pour les nouveaux tickets, les réponses et les autres Collaborateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur notifications, ou le désactiver complètement.",
-    "desktop_notifications"         => "Desktop Notifications",
-    "browser_notifications"         => "Navigateur Notifications",
+    "two_fa_secret_desc"            => "Veuillez stocker ceci dans un endroit sûr car vous en aurez besoin pour ajouter de nouveau le compte authentificateur sur votre téléphone, auquel cas, l'accès sera perdu.",
+    "display_notifications"         => "Afficher les notifications",
+    "display_notifications_desc"    => "Le système enverra une notification pour les nouveaux tickets, les réponses et les autres opérateurs se connectant alors que vous avez le panneau de commande ouvert. Vous pouvez choisir entre les notifications de bureau ou dans le navigateur, ou les désactiver complètement.",
+    "desktop_notifications"         => "Notifications sur le bureau",
+    "browser_notifications"         => "Notifications sur le navigateur",
 
-    "search_for_user"               => "Rechercher usager...",
+    "search_for_user"               => "Rechercher utilisateur...",
     "select_operator"               => "Sélectionner un opérateur...",
     "select_group"                  => "Sélectionner un groupe...",
 
@@ -150,22 +150,22 @@ return array(
 
     "simpleauth_token_expired"      => "Le jeton d'accès a expiré.",
     "simpleauth_token_invalid"      => "Le jeton d'accès fourni est invalide.",
-    "simpleauth_invalid_guard"      => "Impossible de se connecter, usager invalide.",
-    "simpleauth_not_allowed"        => "Les Collaborateurs ne peuvent pas se connecter actuellement avec SimpleAuth.",
+    "simpleauth_invalid_guard"      => "Impossible de se connecter, utilisateur invalide.",
+    "simpleauth_not_allowed"        => "Les opérateurs ne peuvent pas se connecter actuellement avec SimpleAuth.",
 
     /*
      * 2.0.2
      */
 
-    "email_history"                 => "Historique courriels",
-    "view_email"                    => "Afficher courriel",
+    "email_history"                 => "Historique des e-mails",
+    "view_email"                    => "Afficher l'e-mail",
 
-    "ban_after_count"               => "Bloquer IP après tentatives infructueuses de se connecter",
-    "ban_after_count_user"          => "Le nombre de connexions qui ont échoué après que le Client IP est interdit, et ils ne sont plus en mesure de se connecter au frontend pour la quantité de temps configuré. Réglage 0 désactive IP interdit complètement.",
-    "ban_after_count_operator"      => "Le nombre de connexions qui ont échoué après que le Client IP est interdit, et ils ne sont plus en mesure de se connecter au panneau de commande ou API pour la quantité de temps configuré. Réglage 0 désactive IP interdit complètement.",
-    "ban_length"                    => "Durée du blocage IP",
-    "ban_length_desc"               => "La durée de l'interdiction IP quand ils atteignent le nombre configuré de tentatives de connexion en une seule journée.",
-    "n_failed_logins"               => ":count tenatives infructueuses de connexion dans les dernier 24 heures",
+    "ban_after_count"               => "Bloquer l'IP après plusieurs tentatives infructueuses de se connecter",
+    "ban_after_count_user"          => "Le nombre de connexions échouées après que l'IP du client soit bannie, et le client ne sera plus en mesure de se connecter au frontend pour la quantité de temps configuré. Un réglage 0 désactive le bannisement d'IP.",
+    "ban_after_count_operator"      => "Le nombre de connexions échouées après que l'IP du client soit bannie, et le client ne sera plus en mesure de se connecter au panneau de commande ou API pour la quantité de temps configuré. Un réglage 0 désactive le bannisement d'IP.",
+    "ban_length"                    => "Durée du bannissement d'IP",
+    "ban_length_desc"               => "La durée du bannisement d'IP quand ils atteignent le nombre configuré de tentatives de connexion en une seule journée.",
+    "n_failed_logins"               => ":count tenatives infructueuses de connexion dans les dernières 24 heures",
 
     /*
      * 2.0.3
@@ -173,53 +173,53 @@ return array(
     "taking_a_break"                => "En pause...",
     "operator_session_expired"      => "Vous avez été inactif pour un moment ou vous vous êtes connecté à partir d'un autre système donc j'ai fait une sieste. Réveillez-moi en vous reconnectant.",
     "log_back_in"                   => "Se reconnecter",
-    "all_users"                     => "Tous les usagesr",
+    "all_users"                     => "Tous les utilisateurs",
     "all_operators"                 => "Tous les opérateurs",
-    "email_per_batch"               => "Les e-mails par batch",
+    "email_per_batch"               => "Les e-mails groupés",
     "email_per_batch_desc"          => "Le nombre d'e-mails qui sont envoyés ensemble à la fois.",
     "batch_interval"                => "Batch Interval",
     "batch_interval_desc"           => "L'écart entre les batch de Email en quelques minutes, 1 minute est le minimum.",
-    "select_user_groups"            => "Sélectionnez les groupes de Client/Collaborateurs ou entrez les adresses e-mail...",
-    "mass_email_sending_time"       => "Il faudra environ :time d'envoyer tous les emails",
-    "organisations_enabled"         => "Projets activés",
-    "organisations_enabled_desc"    => "Par défaut, les Clients peuvent ajouter une Projet à leur profil et ajouter d'autres Clients à cette Projet. Si vous ne traitez avec les consommateurs, vous pouvez désactiver l'option d'Projet et de cacher à l'interface.",
-    "manager_notifications"         => "Notifications du Manager d'un Projet",
-    "manager_notifications_desc"    => "Si les managers des Projets devraient recevoir des mises à jour des tickets ouverts par d'autres Clients dans le Projet par défaut. Chaque manager aura son propre choix personnel pour cela dans son profil et peut remplacer ce paramètre.",
-    "manager_email_notifications_desc" => "Si il elle devrait recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres Clients du Projet.",
-    "organisation_notifications_desc" => "Si vous souhaitez recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres Clients de votre Projet.",
-    "select_operator_group_desc"    => "S'il vous plaît sélectionner au moins un groupe des Collaborateurs pour ce Collaborateur.",
+    "select_user_groups"            => "Sélectionnez les groupes d'utilisateurs / opérateurs ou entrez les adresses e-mail...",
+    "mass_email_sending_time"       => "Il faudra environ :time pour envoyer tous les emails",
+    "organisations_enabled"         => "Organisations activées",
+    "organisations_enabled_desc"    => "Par défaut, les utilisateurs peuvent ajouter une organisation à leur profil et ajouter d'autres utilisateurs à cette orgnaisation. Si vous ne traitez avec les consommateurs, vous pouvez désactiver l'option d'organisation.",
+    "manager_notifications"         => "Notifications du manager d'une organisation",
+    "manager_notifications_desc"    => "Si les managers des organisations doivent recevoir des mises à jour des tickets ouverts par d'autres utilisateurs dans l'organisation par défaut. Chaque manager aura son propre choix personnel pour cela dans son profil et peut remplacer ce paramètre.",
+    "manager_email_notifications_desc" => "Si les managers doivent recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres utilisateurs de l'organisation.",
+    "organisation_notifications_desc" => "Si vous souhaitez recevoir des notifications par e-mail des mises à jour de tickets ouverts par d'autres utilisateurs de votre organisation.",
+    "select_operator_group_desc"    => "Veuillez sélectionner au moins un groupe d'opérateurs pour cet opérateur.",
 
     /*
      * 2.1.0
      */
     "organisation_customfield"      => "Champ sur mesure organisation|Champs sur mesure organisation",
-    "recent_users"                  => "Usagers récents",
+    "recent_users"                  => "Utilisateurs récents",
     "recent_organisations"          => "Organisations récentes",
-    "group_brand_desc"              => "Select which brands the operators in this group will be able to view, create and delete (depending on permissions) tickets and other content.",
+    "group_brand_desc"              => "Veuillez sélectionner de quelle marque les opérateurs de ce groupe seront capables de visionner, créer et supprimer (dépendamment des droits) des tickets, et autres contenus.",
     "select_operators"              => "Sélectionner opérateur(s)...",
     "select_groups"                 => "Sélectionner groupe(s)...",
-    "group_department_desc"         => "Assign all members of this group to departments, operators can also be assigned individually in the department settings.",
+    "group_department_desc"         => "Affecte tous les membres de ce groupe à ce département. Les opérateurs peuvent aussi être affectés individuellement dans les paramètres des départements.",
     "op_settings_group_dept"        => "Assigné via groupes d'opérateurs:",
-    "op_settings_group_dept_desc"   => "These departments are inherited automatically from the operator groups selected above. To assign via an operator group, edit the operator group or department settings.",
+    "op_settings_group_dept_desc"   => "Ces département héritent automatiquement des groupes d'opérateurs sélectionnés au desssus. Pour d'autres informations, veuillez éditer le groupe d'opérateur, ou visiter les paramètres des départements.",
     "op_settings_individual_dept"   => "Assigné individuellement:",
-    "op_settings_individual_dept_desc" => "These departments are in addition to any departments the operator is assigned to via their groups above.",
-    "also_registered_other_brand"   => "This user is also registered in the :brands brand.|This user is also registered in the :brands brands.",
+    "op_settings_individual_dept_desc" => "Ces départements sont en plus des départements pré-assignés à l'opérateur au travers des groupes ci-dessus.",
+    "also_registered_other_brand"   => "Cet utilisateur est aussi enregistré dans la marque suivante : :brands.|Cet utilisateur est aussi enregistré dans les marques suivantes : :brands.",
     "signature"                     => "Signature|Signatures",
-    "signature_desc"                => "Create personal ticket signatures, with the option to customise based on the brand/department of the ticket. The default signature is used when a signature for a specific department and/or brand cannot be found.",
+    "signature_desc"                => "Permet de créer une signature personnelle pour les tickets, avec la possibilité de customiser selon la marque et le département du ticket. La signature par défaut est utilisée lorsqu'un département et/ou une marque ne peut être trouvé.",
     "operator_signature"            => "Signature opérateur|Signatures opérateurs",
-    "ticket_signature_desc"         => "Set the operator's default ticket signature.",
-    "operator_signature_desc"       => "Further signatures for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Signatures</a> section.",
+    "ticket_signature_desc"         => "La signature par défault d'un ticket par l'opérateur.",
+    "operator_signature_desc"       => "D'autres signatures, pour des départements et marques spécifiques peuvent être paramétrés dans la section <a href=':route' target='_blank'>Signatures opérateurs</a>",
     "view_organisation"             => "Afficher organisation",
     "new_owner"                     => "Nouveau propriétaire",
     "operator_role"                 => "Rôle opérateur|Rôles opérateurs",
-    "manage_users"                  => "Gérer usagers",
+    "manage_users"                  => "Gérer utilisateurs",
     "manage_organisations"          => "Gérer organisations",
     "manage_operators"              => "Gérer opérateurs",
-    "user_profile"                  => "Profil usager",
+    "user_profile"                  => "Profil utilisateur",
     "organisation_access_level"     => "Niveau d'accès de l'organisation",
     "organisation_notifications"    => "Notifications de l'organisation",
-    "organisation_users"            => "Usagers de l'organisation",
-    "organisation_users_ticket"     => "Above is a list of your organisation's managers that will be also emailed updates about this ticket.",
+    "organisation_users"            => "Utilisateurs de l'organisation",
+    "organisation_users_ticket"     => "Ci-dessus est présente une liste des managers de l'organisation qui seront aussi contactés par e-mail lorsque ce ticket sera mis à jour.",
 
     /*
      * 2.1.1
@@ -232,100 +232,100 @@ return array(
     /*
      * 2.1.2
      */
-    "search_for_user_operator"      => "Search for user/operator...",
+    "search_for_user_operator"      => "Rechercher un utilisateur/opérateur...",
 
     /*
      * 2.2.0
      */
-    "user_name_format_desc"         => "The format that is used to display user names throughout the system.",
-    "operator_name_format_desc"     => "The format that is used to display operator names throughout the system.",
+    "user_name_format_desc"         => "Le format utilisé pour afficher les noms d'utilisateurs dans le système.",
+    "operator_name_format_desc"     => "Le format utilisé pour afficher les noms d'opérateurs dans le système.",
 
     /*
      * 2.3.0
      */
-    "remove_from"                   => "Remove From :record?",
-    "remove_from_warn"              => "This will permanently remove the <strong>:name</strong> user from the :record.",
+    "remove_from"                   => "Supprimer de :record?",
+    "remove_from_warn"              => "L'utilisateur <strong>:name</strong> sera définitivement supprimé de :record.",
 
     /*
      * 2.3.1
      */
     "social_login"                  => "Social Login",
-    "login_via"                     => "Log in via :provider",
+    "login_via"                     => "Se connecter via :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Please log in to complete linking of your social account.",
-    "social_linking_register"       => "Please fill in the details below to complete registration of your account. Your social account will be automatically linked.",
-    "already_registered"            => "Already registered?",
-    "linked_accounts"               => "Linked Accounts",
-    "unlink_account"                => "Unlink :record Account",
-    "unlink_account_warning"        => "Unlinking the social account will mean it can no longer be used to log in directly to the account.",
-    "failed_login"                  => "Failed Login|Failed Logins",
-    "resend_confirmation"           => "<strong><a href=':link'>Click here</a></strong> to be sent a new confirmation email.",
+    "social_linking_login"          => "Veuillez vous connecter afin de compléter la liaison avec votre social account.",
+    "social_linking_register"       => "Veuillez remplir les détails ci-dessous pour compléter l'inscription de votre compte. Votre social account sera lié automatiquement.",
+    "already_registered"            => "Déjà inscrit ?",
+    "linked_accounts"               => "Comptes liés",
+    "unlink_account"                => "Délier le compte :record",
+    "unlink_account_warning"        => "Délier ce compte signifie que vous ne pourrez plus utiliser ce média pour vous connecter directement à votre compte.",
+    "failed_login"                  => "Login échoué|Logins échoués",
+    "resend_confirmation"           => "<strong><a href=':link'>Cliquez ici</a></strong> pour obtenir un nouvel e-mail de confirmation.",
 
     /*
      * 2.4.0
      */
-    "must_have_permission"          => "must have \":permission\" permission",
-    "deleted_user"                  => "Deleted User",
-    "access_level_not_owner"        => "It is not possible to change the access level of organisation owners. Transfer organisation ownership to another user first by viewing the organisation and clicking the 'Users' tab.",
+    "must_have_permission"          => "doit posséder la permission \":permission\"",
+    "deleted_user"                  => "Utilisateur supprimé",
+    "access_level_not_owner"        => "Il est impossible de modifier le niveau d'accès des propriétaires d'organisation. Il faut d'abord transférer le droit de propriété de l'organisation à un autre utilisateur en cliquant sur l'onglet 'Utilisateurs'",
 
     /*
      * 2.4.1
      */
-    "select_or_new_organisation"    => "Select an existing or enter a new organisation...",
+    "select_or_new_organisation"    => "Selectionnez une organisation existante ou créez en une nouvelle...",
 
     /*
      * 2.5.0
      */
-    "organisation_domain_desc"      => "Enter each domain owned by the organisation. Users who register with an email address which belongs to one of those domains will be automatically added to the organisation. We recommend to verify the user is genuinely part of the organisation if they have not confirmed ownership of their email address.",
-    "changing_email_desc"           => "Changing the email address will require the user to confirm ownership of their email address when they next login.",
-    "unconfirmed_user_desc"         => "User has not confirmed ownership of this email address.",
-    "unregistered_user_desc"        => "This account was created automatically without a password. You can send a confirmation email to let them set up their own account or set a password for them below.",
-    "send_confirmation_email"       => "Send Confirmation Email",
-    "mark_as_confirmed"             => "Mark as Confirmed",
-    "password_reset_already"        => "You have already confirmed ownership of this email address, you may proceed to login.",
-    "unconfirmed_account"           => "Please check your email to confirm ownership of this email address.",
-    "success_register_desc"         => "Thank you for registering an account. Please check your email to complete the account setup.",
-    "resend_confirmation_sent"      => "A new confirmation email has been sent and should arrive in a few minutes.",
-    "register_confirm_desc"         => "Thank you for confirming ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_confirm"             => "Thank you for confirming ownership of your email address.",
-    "use_gravatar"                  => "Use Gravatar",
+    "organisation_domain_desc"      => "Veuillez entrer chaque domaine possédé par l'organisation. Les utilisateurs s'inscrivant avec une adresse e-mail correspondant à un des ces domaines seront automatiquement ajoutés à cette organisation. Nous recommendons toutefois de vérifier que l'utilisateur fait bien partie de l'organisation s'il n'a pas confirmé son adresse e-mail.",
+    "changing_email_desc"           => "Pour changer l'adresse e-mail, une vérification sera envoyée à la prochaine connexion.",
+    "unconfirmed_user_desc"         => "L'utilisateur n'a pas confirmé son adresse e-mail.",
+    "unregistered_user_desc"        => "Ce compte a été créé automatiquement sans mot de passe. Vous pouvez envoyer un e-mail de confirmation pour les laisser le paramétrer, ou le paramétrer vous-même ci-dessous.",
+    "send_confirmation_email"       => "Envoyer un e-mail de confirmation.",
+    "mark_as_confirmed"             => "Marquer comme validé.",
+    "password_reset_already"        => "Vous avez déjà validé votre adresse e-mail, vous pouvez désormais vous connecter.",
+    "unconfirmed_account"           => "Veuillez vérifier votre adresse e-mail.",
+    "success_register_desc"         => "Merci de votre inscription. Veuillez confirmer votre adresse e-mail pour compléter le paramétrage du compte.",
+    "resend_confirmation_sent"      => "Un nouvel e-mail de confirmation vous a été envoyé, et arrivera d'ici quelques instants.",
+    "register_confirm_desc"         => "Merci d'avoir confirmé votre adresse e-mail, veuillez entrer un mot de passe ci-dessous pour finir le paramétrage de votre compte.",
+    "thank_you_confirm"             => "Merci d'avoir confirmé votre adresse e-mail.",
+    "use_gravatar"                  => "Utiliser Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to its registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
 
     /*
      * 2.6.0
      */
-    "updating_email_address"        => "To complete the update of your email address, please click on the link sent to :email to confirm ownership of the new email address.",
+    "updating_email_address"        => "Pour compléter la modification de votre adresse e-mail, veuillez cliquer sur le lien envoyé à :email pour confirmer qu'il s'agit bien de la votre.",
     "confirmation"                  => "Confirmation",
-    "confirmation_email_in_use"     => "The email address is already in use by another account.",
-    "continue_to_login"             => "Please continue to <a href=':route'>login</a>.",
-    "reset_request_desc"            => "If a matching account was found, an email will be sent to you shortly to allow you to reset your password.",
-    "password_reset_error"          => "The link may have expired. If your link isn't working for any reason, please request a new one.",
+    "confirmation_email_in_use"     => "Cette adresse e-mail est déjà utilisée.",
+    "continue_to_login"             => "Veuillez continuer à vous <a href=':route'>connecter</a>.",
+    "reset_request_desc"            => "Si le compte a bien été trouvé, un e-mail va vous être envoyé pour réinitialiser votre mot de passe.",
+    "password_reset_error"          => "Le lien a peut-être expiré. Si ce lien ne fonctionne pas, veuillez en demander un nouveau.",
 
     /*
      * 3.0.0
      */
-    "ldap_linked_error"             => "Account is linked to an LDAP service. Please log in using your LDAP username and password.",
-    "operator_message"              => "Operator Messages",
-    "force_two_fa"                  => "Force 2FA",
-    "force_two_fa_desc"             => "Force two-factor authentication (2FA) on all accounts. Any account without 2FA enabled will be taken through the steps to set it up when they next login.",
-    "two_fa_required"               => "Two-factor authentication (2FA) is required. Please follow the information below to proceed.",
-    "two_fa_user_enable"            => "The user can enable 2FA on their account in their settings.",
+    "ldap_linked_error"             => "Ce compte est lié à un service LDAP. Veuillez vous connecter en utilisant vos identifiants LDAP.",
+    "operator_message"              => "Messages opérateur",
+    "force_two_fa"                  => "Forcer l'authentification à deux facteurs",
+    "force_two_fa_desc"             => "Forcer l'authentification à deux facteurs (2FA) sur tous les comptes. Un compte sans 2FA activée sera guidé vers les étapes de l'activation à sa prochaine connexion.",
+    "two_fa_required"               => "L'authentification à deux facteurs (2FA) est requise. Veuillez suivre les informations ci-dessous.",
+    "two_fa_user_enable"            => "L'utilisateur peut activer la 2FA sur son compte via les paramètres.",
 
     /*
      * 3.3.0
      */
-    "social_login_desc"             => "Allow users to register and log in using their social account.",
-    "manage_social_login_options"   => "To add or manage social login options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+    "social_login_desc"             => "Autorise les utilisateurs à s'inscrire et se connecter via leurs comptes de réseaux sociaux.",
+    "manage_social_login_options"   => "Pour ajouter ou gérer les options de connexions via les réseaux sociaux, veuillez visiter la page <a href=\":route\">Third-Party Integrations</a>.",
 
     /*
      * 3.4.0
      */
-    "two_fa_verify_desc"            => "Download and install one of the following applications and scan the QR code or enter the secret key. This will set up your account on your device, you will then be able to view the account and it will generate a 6 digit code that you must enter to verify and complete the set up. Please ensure to click verify before the code expires. Your server time will need to be in sync with an NTP server to function properly.",
-    "two_fa_successfully_enabled"   => "Two-factor authentication (2FA) has been successfully enabled.",
+    "two_fa_verify_desc"            => "Veuillez télécharger et installer une des applications suivantes, et scannez le QR code pour entrer la clé secrète. Cela paramétrera votre compte sur votre appareil. Vous pourrez ensuite voir votre compte, et un code à 6 chiffre sera généré. Vous devrez l'entrer pour compléter le paramétrage. Veuilez entrer votre code avant son expiration.",
+    "two_fa_successfully_enabled"   => "L'authentification à deux facteurs (2FA) a bien été activée.",
 
     /*
      * 3.5.0
      */
-    "phone_number"                  => "Phone Number|Phone Numbers",
+    "phone_number"                  => "Numéro de téléphone|Numéros de téléphone",
 
 );

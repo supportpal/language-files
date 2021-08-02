@@ -2,10 +2,10 @@
 
 return array(
 
-    "popular_items"             => "Items populaires",
-    "latest_items"              => "Derniers items",
+    "popular_items"             => "Objets populaires",
+    "latest_items"              => "Derniers Objets",
 
-    "selfservice"               => "Libre-service",
+    "selfservice"               => "Self-service",
     "article"                   => "Article|Articles",
     "category"                  => "Catégorie|Catégories",
     "comment"                   => "Commentaire|Commentaires",
@@ -14,8 +14,8 @@ return array(
 
     "frontend_icon"             => "Frontend Icône",
 
-    "no_categories"             => ":type currently has no categories. Please create one before adding an article.",
-    "no_categories_frontend"    => "There are no categories to display.",
+    "no_categories"             => ":type n'a pas de catégories. Veuillez en créer une avant de créer un article.",
+    "no_categories_frontend"    => "Aucune catégorie à afficher.",
 
     "awaiting_moderation"       => "En attente de modération",
     "published"                 => "Publié",
@@ -29,12 +29,12 @@ return array(
 
     "title"                     => "Titre",
     "author"                    => "Auteur",
-    "keyword"                   => "Mot-clé|Mot-clés",
+    "keyword"                   => "Mot-clé|Mots-clés",
     "excerpt"                   => "Extrait",
     "associate_tag"             => "Associer article avec un libellé...",
     "associate_category"        => "Associer article avec un libellé...",
-    "published_desc"            => "Si l'article peut être consulté publiquement. Si elle n'a pas publié, il peut encore être vu par URL directe fourni une des catégories est public.",
-    "registered_users_desc"     => "Activer pour afficher article seulement aux usagers authentifiés.",
+    "published_desc"            => "Si l'article peut être consulté publiquement. Si il n'est pas publié, il peut encore être vu par l'URL directe si la catégorie est publique.",
+    "registered_users_desc"     => "Activer pour afficher l'article seulement aux utilisateurs authentifiés.",
 
     "comment_by"                => "Commentaire par",
     "replying_to"               => "Répondre à",
@@ -69,20 +69,20 @@ return array(
     "rssfeed"                   => "Fil RSS",
 
     // General settings
-    "settings"                  => "Paramètres libre-service",
+    "settings"                  => "Paramètres self-service",
     "enable_comments"           => "Activer commentaires",
-    "enable_comments_desc"      => "Autoriser usagers à commenter les articles.",
+    "enable_comments_desc"      => "Autoriser les utilisateurs à commenter les articles.",
     "write_comments"            => "Ajouter commentaire",
-    "write_comments_desc"       => "Si les commentaires peuvent être écrits par quelqu'un ou utilisateurs enregistrés seulement.",
-    "registered_users"          => "Usagers enregistrés uniquement",
-    "unregistered_users"        => "Usagers non enregsitrés uniquement",
+    "write_comments_desc"       => "Si les commentaires peuvent être écrits les visiteurs ou seulement par les utilisateurs enregistrés.",
+    "registered_users"          => "Utilisateurs enregistrés uniquement",
+    "unregistered_users"        => "Utilisateurs non enregsitrés uniquement",
     "show_captcha"              => "Afficher Captcha",
-    "show_captcha_desc"         => "Lorsque le captcha devrait être affiché aux utilisateurs d'écriture des commentaires.",
+    "show_captcha_desc"         => "Lorsque le captcha doit être affiché aux utilisateurs écrivant des commentaires.",
     "comment_moderation"        => "Modération des commentaires",
-    "comment_moderation_desc"   => "Si les commentaires doivent être modérés quand ils sont soumis avant qu'ils ne soient affichés publiquement, ou si elles sont automatiquement affichées publiquement.",
+    "comment_moderation_desc"   => "Si les commentaires doivent être modérés quand ils sont soumis avant qu'ils ne soient affichés publiquement, ou si ils sont automatiquement affichés publiquement.",
     "moderated"                 => "Modéré",
     "unmoderated"               => "Non modéré",
-    "comment_threshold"         => "Seuil de Commentaire",
+    "comment_threshold"         => "Seuil de commentaire",
     "comment_threshold_desc"    => "Évaluations des Commentaires qui sont inférieures (et non égal à) cette valeur aura la visibilité réduite et doivent être cliqué pour être vu.",
 
     "enable_ratings"            => "Activer évaluation des articles",
@@ -93,7 +93,7 @@ return array(
     /*
      * 2.0.3
      */
-    "auth_required"             => "S'il vous plaît vous connecter ou vous inscrire pour afficher l'article.",
+    "auth_required"             => "Veuillez vous connecter ou vous inscrire pour afficher l'article.",
 
     /*
      * 2.1.0
@@ -104,53 +104,53 @@ return array(
     "select_type"               => "Choisir type...",
     "visibility"                => "Visibilité",
     "reply_to_comment"          => "Répondre aux commentaires",
-    "article_brand_warning"     => "This article exists in a brand that you are not assigned to, any changes you make will also be visible under that brand.",
+    "article_brand_warning"     => "Cet article existe pour une marque à laquelle vous n'êtes pas assigné. Chaque modifications que vous faites seront visibles pour cette marque.",
     "viewing_article"           => "Visionnement article",
     "article_count"             => "Décompte des articles",
 
     /*
      * 2.2.0
      */
-    "article_desc"              => "The article can be written in several languages. The appropriate article will be shown automatically based on the user's language preference.",
-    "no_author"                 => "No Author",
+    "article_desc"              => "L'article peut être écrit dans différentes langues. L'article sera affiché automatiquement dans la langue de l'utilisateur.",
+    "no_author"                 => "Pas d'auteur",
 
     /*
      * 2.3.1
      */
     "slug"                      => "Slug",
-    "slug_desc"                 => "The URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
-    "change_slug"               => "Change Slug",
-    "published_date"            => "Published Date",
-    "published_date_desc"       => "The date and time that the article was published as shown to users on the frontend.",
+    "slug_desc"                 => "La version URL-friendly du nom. Il est généralement constitué de minuscules, et contient uniquement des chiffres, nombres, et des tirets.",
+    "change_slug"               => "Changer le slug",
+    "published_date"            => "Date de publication",
+    "published_date_desc"       => "La date et et l'heure à laquelle les utilisateurs verront que l'article a été publié. ",
     "content_options"           => "Content Options",
-    "content_desc"              => "The content that will be served with this type.<br /><strong>Articles</strong> - A collection of posts that can be grouped together (such as a knowledgebase) or kept individually (such as announcements).<br /><strong>External Link</strong> - Provide a link to an external site, such as a documentation portal.",
-    "external_link"             => "External Link",
-    "type_view_desc"            => "If your content will contain many categories and be informative like a knowledgebase, we recommend the hierarchical view, whereas if your content is time-related such as announcements or a blog, we recommend the list view. The external link option can be used if you need to add a link to a section outside of the help desk.",
-    "pinned"                    => "Pinned",
-    "pinned_desc"               => "Pin record so it shows at the top on the frontend. Only applies to list view types.",
-    "article_ordering"          => "Article Ordering",
-    "article_ordering_desc"     => "The ordering of articles when viewing the type on the frontend.",
-    "most_popular"              => "Most Popular",
-    "most_recent"               => "Most Recent",
-    "type_order"                => "You can change the order that the self-service types are displayed to users by dragging and dropping the rows.",
-    "type_enabled_desc"         => "Disabling the type will stop it displaying.",
-    "internal"                  => "Internal",
-    "internal_desc"             => "Toggle to set the type to only be visible internally to operators in the operator panel.",
-    "login_to_comment"          => "Please login to post a comment.",
-    "article_rating"            => "Article Rating|Article Ratings",
-    "comment_rating"            => "Comment Rating|Comment Ratings",
+    "content_desc"              => "Le contenu qui sera servi avec ce type.<br /><strong>Articles</strong> - Une collection de posts qui peuvent être regroupés (comme une base de connaissances) ou conservés individuellement (comme les annonces).<br /><strong>Lien externe</strong> - Fournir un lien vers un site externe, comme un portail de documentation.",
+    "external_link"             => "Lien externe",
+    "type_view_desc"            => "Si votre contenu contient de nombreuses catégories et est informatif comme une base de connaissances, nous recommandons la vue hiérarchique, tandis que si votre contenu est lié au temps comme les annonces ou un blog, nous recommandons la vue en liste. L'option de lien externe peut être utilisée si vous devez ajouter un lien vers une section extérieure au service d'assistance.",
+    "pinned"                    => "Epinglé",
+    "pinned_desc"               => "Epingler l'article pour qu'il soit visible tout en haut de la liste sur le front-end.",
+    "article_ordering"          => "Tri des articles",
+    "article_ordering_desc"     => "L'ordre dans lequel les articles sont visibles dans le front-end.",
+    "most_popular"              => "Plus populaire",
+    "most_recent"               => "Plus récent",
+    "type_order"                => "Vous pouvez changer le tri des types de self-service en faisant un glisser déposer sur les enregistrements.",
+    "type_enabled_desc"         => "Désactiver les types feront qu'ils ne sont plus activés.",
+    "internal"                  => "Interne",
+    "internal_desc"             => "Activer pour que ce soit uniquement visible par les opérateurs.",
+    "login_to_comment"          => "Veuillez vous connecter pour laisser un commentaire.",
+    "article_rating"            => "Note de l'article|Notes de l'article",
+    "comment_rating"            => "Note du commentaire|Notes du commentaire",
 
     /*
      * 2.5.0
      */
-    "revision_history"          => "Revision History",
+    "revision_history"          => "Historique de révision",
 
     /*
      * 3.0.0
      */
-    "type_protected_desc"       => "Toggle to only show content in this type to logged in users.",
-    "article_feedback"          => "Article Feedback",
-    "thank_you_for_feedback"    => "Thank you for your feedback on this article.",
-    "frontend_icon_desc"        => "Select a <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> regular icon to display on the frontend for your type, you can also search for a custom icon not included in the list (starting with 'fa-').",
+    "type_protected_desc"       => "Activer pour montrer ce type de contenus à des utilisateurs authentifiés uniquement",
+    "article_feedback"          => "Retour de l'article",
+    "thank_you_for_feedback"    => "Merci pour votre retour sur cet article.",
+    "frontend_icon_desc"        => "Sélectionnez une icône <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> à afficher sur le frontend pour votre type, vous pouvez également rechercher une icône personnalisée non incluse dans la liste (commençant par 'fa-').",
 
 );

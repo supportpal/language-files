@@ -12,13 +12,13 @@ return array(
     /*
      * 2.1.0
      */
-    "merge_fields_desc"         => "Most commonly used email and response merge fields are found below. For more details on how to utilise the merge fields, please refer to the <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentation</a>.",
+    "merge_fields_desc"         => "Les champs fusionnés et e-mail les plus courant se trouvent ci-dessous. Pour plus de détails sur comment utiliser les champs fusionnés, veuillez visiter la <a target='_blank' href='http://docs.supportpal.com/display/DOCS/Merge+Fields'>documentation</a>",
 
     /*
      * 2.4.0
      */
-    "merge_field"               => "Merge Field",
-    "merge_field_canned_desc"   => "The unique merge field to use can be found when editing a canned response (Settings -> Tickets -> Canned Responses).",
-    "response_merge_field"      => "Copy the above to use this canned response as a merge field.",
+    "merge_field"               => "Champs fusionnés",
+    "merge_field_canned_desc"   => "Les champs fusionnés peuvent être trouvés lorsque l'on édite une réponse pré-enregistrées (Paramètres -> Tickets -> Réponses pré-enregistrées).",
+    "response_merge_field"      => "Copiez la valeur ci-dessus pour utiliser la réponse pré-enregistrées en tant que champs fusionnés.",
 
 );

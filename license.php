@@ -25,22 +25,22 @@ return array(
     /*
      * 2.1.0
      */
-    "server_response"   => "Server Response",
+    "server_response"   => "Réponse du serveur",
     "need_to_reissue"   => "Vous devrez peut-être <strong>réfaire</strong> la licence à notre <a href='http://www.supportpal.com/manage/' target='_blank'>espace client</a>.",
 
     /*
      * 2.2.0
      */
-    "enter_new_key"     => "Enter New License Key",
+    "enter_new_key"     => "Entrer un enouvelle clé de licence",
 
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Licence valide !",
 
     /*
      * 2.4.1
      */
-    "multi_ip_support"  => "Consider enabling <a href=':href' target='_blank'>Multi-IP support</a> in the client area to define additional IP addresses.",
+    "multi_ip_support"  => "Pensez à activer le <a href=':href' target='_blank'>Multi-IP support</a> dans la zone du client pour définir des adresses IP additionnelles.",
 
 );
