@@ -385,4 +385,13 @@ return array(
     "this_month"                => "This Month",
     "last_month"                => "Last Month",
 
+    /*
+     * 3.6.0
+     */
+    "appearance"                => "Appearance",
+    "faster"                    => "Faster",
+    "slower"                    => "Slower",
+    "revoke"                    => "Revoke",
+    "configure"                 => "Configure",
+
 );
