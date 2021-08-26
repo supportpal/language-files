@@ -115,4 +115,9 @@ return array(
      */
     "integration"       => "Manage Third-Party Integrations",
 
+    /*
+     * 3.6.0
+     */
+    "systemupdate"      => "Perform System Update",
+
 );
