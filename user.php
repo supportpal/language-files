@@ -328,4 +328,15 @@ return array(
      */
     "phone_number"                  => "Numéro de téléphone|Numéros de téléphone",
 
+    /*
+     * 3.6.0
+     */
+    "security_settings"             => "Security Settings",
+    "security_settings_desc"        => "Update your password, enable 2FA and manage other security related settings for your account.",
+    "active_sessions"               => "Active Sessions",
+    "active_sessions_desc"          => "This is a list of devices that have logged into your account, you may revoke any sessions that you do not recognise.",
+    "current_session"               => "Current Session",
+    "logged_in"                     => "Logged In",
+    "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
+
 );
