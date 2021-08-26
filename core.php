@@ -225,7 +225,6 @@ return array(
     /*
      * 2.0.2
      */
-    "cron_makesure"             => "Voor hulp met instellen van de cron job, zie <a target='_blank' href='http://docs.supportpal.com/display/DOCS/New+Installation#NewInstallation-CronJob'>Cron Job Help</a>.",
     "widget"                    => "Widget|Widgets",
 
     /*
@@ -302,7 +301,6 @@ return array(
     "attachment_size"           => "Bestandsgroottelimiet van alle bijlages bij elkaar.",
     "attachment_size_desc"      => "De bestandsgroottelimiet van alle bijlages bij elkaar die worden verzonden in een enkele e-mail. Beschikbare opties zijn K (voor Kilobytes) en M (voor Megabytes), alle andere opgaves worden als bytes aangenomen. Voorbeeld: 5M voor 5 Megabyte. Stel op 0 t om geen bijlages toe te staan en verplicht gebruikers de bijlages via de servicedesk",
     "attachment_limit_reached"  => "Bestandsgroottelimiet van alle bijlages bij elkaar bereikt (:size). Overweeg om bestanden via een ander medium te verzenden (zoals Wetransfer of Google Drive).",
-    "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Vernieuwen</a>",
     "no_existing_translations"  => "Geen bestaande vertalingen.",
     "add_translation"           => "Vertaling toevoegen",
     "todo_list"                 => "To Do Lijst",
@@ -500,8 +498,29 @@ return array(
     "new_version_desc"          => "Er is een nieuwe versie van SupportPal uitgebracht, we raden altijd aan om uw installatie up-to-date te houden. <div class='description'>Als u deze melding negeert, wordt deze verborgen totdat er een nieuwere versie wordt uitgebracht.</div>",
     "download"                  => "Download",
     "acknowledge"               => "Negeren",
-    "update_available"          => "De laatste beschikbare versie is :version.",
     "running_latest_version"    => "U gebruikt de nieuwste versie.",
     "running_prerelease"        => "U gebruikt een voorlopige versie.",
+
+    /*
+     * 3.6.0
+     */
+    "results_per_page"          => "Results Per Page",
+    "class_name"                => "Class Name",
+    "possible_permission_issue" => "You are running the command as \":cli_user\", while \":path\" is owned by \":path_user\", this can lead to file permission issues.",
+    "system_update"             => "System Update",
+    "system_update_desc"        => "Update SupportPal to the latest version available.",
+    "update_available"          => "Update Available",
+    "up_to_date"                => "Up to Date",
+    "release_notes"             => "Release Notes",
+    "about_to_update_to"        => "You are about to update to version <strong>:version</strong>. A full system backup will be taken automatically prior to the update.",
+    "waiting_for_update_start"  => "Waiting for the update to start... This may take a few minutes.",
+    "binary_paths"              => "Binary Paths",
+    "binary_paths_desc"         => "The PATH environment variable is used to find required binaries. If one or more binary cannot be found, you can specify the full path for each binary file.",
+    "cron_makesure"             => "Voor hulp met instellen van de cron job, zie <a target='_blank' href='https://docs.supportpal.com/current/Configuring+the+Cron'>Cron Job Help</a>.",
+    "cron_must_run_for_update"  => "The cron job must be running to use this function.",
+    "support_expired"           => "The support and updates on your license have expired.",
+    "update_permitted_version"  => "The license only permits updating to :version.",
+    "update_renew_support"      => "To update to the latest version of SupportPal, please renew your support and updates.",
+    "renew"                     => "Renew",
 
 );

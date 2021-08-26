@@ -115,4 +115,9 @@ return array(
      */
     "integration"       => "Beheer integraties van derden",
 
+    /*
+     * 3.6.0
+     */
+    "systemupdate"      => "Perform System Update",
+
 );
