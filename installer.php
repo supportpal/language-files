@@ -136,7 +136,6 @@ return array(
     "locked"                    => "Install/Upgrade In-Progress",
     "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
 
-    "possible_permission_issue" => "[WARNING] It seems you are running this command as root or a different user to the owner of the files. The command must be ran by the right user so the web server can also read and write to the system afterwards.",
     "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
     "login_with_details"        => "You can login using the details specified earlier.",
     "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
@@ -163,6 +162,25 @@ return array(
     "migrated"                  => "Migrated",
     "database_setup_complete"   => "Database setup complete.",
     "created_repository"        => "Created ':name' repository successfully.",
-    "wish_to_continue"          => "Cancel now if you don't understand the implications! The command will continue automatically otherwise...",
 
+    /*
+     * 3.6.0
+     */
+    "suggest_run_update"        => "Command unavailable. Please run app:update to download and upgrade to the latest available version: %s.",
+    "suggest_run_upgrade"       => "An upgrade is already in progress. Please run app:upgrade instead.",
+    "failed_to_download"        => "Failed to download file: :message",
+    "backup_failed_abort"       => "Backup failed. Aborting update.",
+    "update_failed"             => "System update failed: :message.",
+    "command_failed"            => "Command :command, failed with output: :message.",
+    "already_latest_version"    => "You are already running the latest version (:version).",
+    "update_not_supported"      => "Automatic update to latest version (:version) is not supported.",
+    "current_and_new_version"   => "You have version :current_version. Latest version available is :new_version.",
+    "update_to_version"         => "You have version :current_version. Would you like to update to :new_version?",
+    "downloading_version"       => "Downloading version :version to :path...",
+    "checksum_not_matched"      => "The downloaded file failed checksum verification.",
+
+    "check_readiness"           => "Checking if the application is able to upgrade...",
+    "read_only"                 => "The filesystem at \":path\" is read only. Updates cannot be applied against a read only file system.",
+    "file_ownership"            => "File \":path\" is owned by \":owner\" but PHP is running as \":actual\". The file owner and PHP user must be the same during an update for all application files.",
+    "minimum_disk_space"        => "Directory \":path\" has insufficient space. There must be at least :space megabytes free.",
 );
