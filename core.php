@@ -225,7 +225,6 @@ return array(
     /*
      * 2.0.2
      */
-    "cron_makesure"             => "För vägledning vid registrering av cronjobb, titta på <a target='_blank' href='http://docs.supportpal.com/display/DOCS/New+Installation#NewInstallation-CronJob'>cronjobbhjälpen</a>.",
     "widget"                    => "Widget|Widgetar",
 
     /*
@@ -302,7 +301,6 @@ return array(
     "attachment_size"           => "Begränsning av sammanlagd storlek på bifogade filer",
     "attachment_size_desc"      => "The maximum cumulative size of all attachments that are sent in a single email. Available options are K (for Kilobytes) and M (for Megabytes), anything else assumes bytes. Example value: 5M for 5 Megabytes. Set to 0 to not send any attachments by email and require users to download attachments via the help desk.",
     "attachment_limit_reached"  => "Cumulative file limit reached (:size). Please consider sending files via another medium (such as a download URL).",
-    "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
     "no_existing_translations"  => "Översättning saknas.",
     "add_translation"           => "Lägg till översättning",
     "todo_list"                 => "Att göra lista",
@@ -500,8 +498,29 @@ return array(
     "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
     "download"                  => "Download",
     "acknowledge"               => "Acknowledge",
-    "update_available"          => "The latest available version is :version.",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
+
+    /*
+     * 3.6.0
+     */
+    "results_per_page"          => "Results Per Page",
+    "class_name"                => "Class Name",
+    "possible_permission_issue" => "You are running the command as \":cli_user\", while \":path\" is owned by \":path_user\", this can lead to file permission issues.",
+    "system_update"             => "System Update",
+    "system_update_desc"        => "Update SupportPal to the latest version available.",
+    "update_available"          => "Update Available",
+    "up_to_date"                => "Up to Date",
+    "release_notes"             => "Release Notes",
+    "about_to_update_to"        => "You are about to update to version <strong>:version</strong>. A full system backup will be taken automatically prior to the update.",
+    "waiting_for_update_start"  => "Waiting for the update to start... This may take a few minutes.",
+    "binary_paths"              => "Binary Paths",
+    "binary_paths_desc"         => "The PATH environment variable is used to find required binaries. If one or more binary cannot be found, you can specify the full path for each binary file.",
+    "cron_makesure"             => "För vägledning vid registrering av cronjobb, titta på <a target='_blank' href='https://docs.supportpal.com/current/Configuring+the+Cron'>cronjobbhjälpen</a>.",
+    "cron_must_run_for_update"  => "The cron job must be running to use this function.",
+    "support_expired"           => "The support and updates on your license have expired.",
+    "update_permitted_version"  => "The license only permits updating to :version.",
+    "update_renew_support"      => "To update to the latest version of SupportPal, please renew your support and updates.",
+    "renew"                     => "Renew",
 
 );
