@@ -328,4 +328,15 @@ return array(
      */
     "phone_number"                  => "Número de teléfono|Números de teléfono",
 
+    /*
+     * 3.6.0
+     */
+    "security_settings"             => "Ajustes de seguridad",
+    "security_settings_desc"        => "Actualiza tu contraseña, activa el 2FA y gestiona otros ajustes relacionados con la seguridad de tu cuenta.",
+    "active_sessions"               => "Sesiones activas",
+    "active_sessions_desc"          => "Esta es una lista de dispositivos que han iniciado sesión en tu cuenta. Puedes finalizar cualquier sesión que no reconozcas.",
+    "current_session"               => "Sesión actual",
+    "logged_in"                     => "Inició sesión",
+    "revoke_session_desc"           => "Al finalizar una sesión, el dispositivo saldrá automáticamente del panel del operador. También finalizarán todos los tokens de recordatorio en otros dispositivos.",
+
 );

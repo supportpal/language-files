@@ -115,4 +115,9 @@ return array(
      */
     "integration"       => "Gestionar las integraciones de terceros",
 
+    /*
+     * 3.6.0
+     */
+    "systemupdate"      => "Realizar la actualización del sistema",
+
 );

@@ -136,7 +136,6 @@ return array(
     "locked"                    => "Instalación/Actualización en curso",
     "locked_desc"               => "Detectado un archivo de bloqueo (:path).\nPor favor, comprueba que el instalador no se esté ejecutando todavía..\n\nPuedes eliminar este archivo cuando estés seguro de que no hay otra instalación o actualización en curso.",
 
-    "possible_permission_issue" => "[ADVERTENCIA] Parece que estás ejecutando este comando como raíz o como un usuario diferente al propietario de los archivos. El comando debe ser ejecutado por el usuario correcto para que el servidor de web también pueda leer y escribir al sistema posteriormente.",
     "error_and_empty_database"  => "Ha habido un error. Puede que necesites vaciar la base de datos antes de volver a comenzar.",
     "login_with_details"        => "Puedes iniciar sesión utilizando los detalles especificados previamente.",
     "command_not_available"     => "Comando no disponible. Si consideras que esto es un error, por favor, ejecuta 'php artisan cache:clear' y luego vuelve a ejecutar este comando.",
@@ -163,6 +162,25 @@ return array(
     "migrated"                  => "Migrado",
     "database_setup_complete"   => "Configuración de la base de datos completa.",
     "created_repository"        => "Se ha creado el repositorio ':name' con éxito.",
-    "wish_to_continue"          => "¡Cancela ahora si no comprendes las implicaciones! De lo contrario, el comando continuará automáticamente...",
 
+    /*
+     * 3.6.0
+     */
+    "suggest_run_update"        => "Comando no disponible. Por favor, ejecuta app:update para descargar y poder actualizar a la última versión disponible: %s.",
+    "suggest_run_upgrade"       => "Ya hay una actualización en progreso. Por favor, ejecuta app:upgrade en su lugar.",
+    "failed_to_download"        => "Error al descargar el archivo: :message",
+    "backup_failed_abort"       => "La copia de seguridad ha fallado. Cancelando actualización.",
+    "update_failed"             => "Error en la actualización del sistema: :message.",
+    "command_failed"            => "El comando :command, ha fallado con el siguiente resultado: :message.",
+    "already_latest_version"    => "Ya estás ejecutando la última versión (:version).",
+    "update_not_supported"      => "No se admite la actualización automática a la última versión (:version).",
+    "current_and_new_version"   => "Actualmente tienes la versión :current_version. La última versión disponible es :new_version.",
+    "update_to_version"         => "Actualmente tienes la versión :current_version. ¿Te gustaría actualizar a la versión :new_version?",
+    "downloading_version"       => "Descargando la versión :version en :path...",
+    "checksum_not_matched"      => "El archivo descargado ha fallado la verificación de la suma de comprobación.",
+
+    "check_readiness"           => "Comprobando si es posible que la aplicación se pueda actualizar...",
+    "read_only"                 => "El sistema de archivos en \":path\" es de sólo lectura. Las actualizaciones no pueden aplicarse a un sistema de archivos de sólo lectura.",
+    "file_ownership"            => "El archivo \":path\" es propiedad de \":owner\" pero PHP se está ejecutando como \":actual\". El propietario del archivo y el usuario de PHP deben ser los mismos durante una actualización para todos los archivos de la aplicación.",
+    "minimum_disk_space"        => "El directorio \":path\" no tiene espacio suficiente. Debe haber al menos :space megabytes de espacio disponibles.",
 );
