@@ -516,7 +516,7 @@ return array(
     "waiting_for_update_start"  => "Waiting for the update to start... This may take a few minutes.",
     "binary_paths"              => "Binary Paths",
     "binary_paths_desc"         => "The PATH environment variable is used to find required binaries. If one or more binary cannot be found, you can specify the full path for each binary file.",
-    "cron_makesure"             => "Para obter ajuda para registrar o cron job, consulte a <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'>Ajuda Cron Job</a>.",
+    "cron_makesure"             => "Para obter ajuda para registrar o cron job, consulte a <a target='_blank' href='https://docs.supportpal.com/current/Configuring+the+Cron'>Ajuda Cron Job</a>.",
     "cron_must_run_for_update"  => "The cron job must be running to use this function.",
     "support_expired"           => "The support and updates on your license have expired.",
     "update_permitted_version"  => "The license only permits updating to :version.",
