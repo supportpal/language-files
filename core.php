@@ -509,7 +509,7 @@ return array(
     "possible_permission_issue" => "You are running the command as \":cli_user\", while \":path\" is owned by \":path_user\", this can lead to file permission issues.",
     "system_update"             => "System Update",
     "system_update_desc"        => "Update SupportPal to the latest version available.",
-    "update_available"          => "La dernière version disponible est : :version.",
+    "update_available"          => "Update Available",
     "up_to_date"                => "Up to Date",
     "release_notes"             => "Release Notes",
     "about_to_update_to"        => "You are about to update to version <strong>:version</strong>. A full system backup will be taken automatically prior to the update.",
