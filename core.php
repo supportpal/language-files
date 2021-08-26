@@ -225,7 +225,6 @@ return array(
     /*
      * 2.0.2
      */
-    "cron_makesure"             => "Cron işini kaydetme konusunda yardım için lütfen <a target='_blank' href='https://docs.supportpal.com/current/New+Installation#CronJob'> Cron İş Yardımı </a> 'na bakın.",
     "widget"                    => "Widget|Widgets",
 
     /*
@@ -302,7 +301,6 @@ return array(
     "attachment_size"           => "Ek Dosya Boyutu Sınırı",
     "attachment_size_desc"      => "Tek bir e-posta ile gönderilen tüm eklerin maksimum kümülatif boyutu. Kullanılabilir seçenekler K (Kilobayt için) ve M (Megabayt için), başka her şey bayt olduğunu varsayar. Örnek değer: 5 Megabayt için 5M. Herhangi bir eki e-postayla göndermemek için 0 olarak ayarlayın ve kullanıcıların ekleri yardım masası aracılığıyla indirmelerini isteyin.",
     "attachment_limit_reached"  => "Birikimli dosya sınırına ulaşıldı (: boyut). Lütfen dosyaları başka bir araçla (indirme URL'si gibi) göndermeyi düşünün.",
-    "renew_support"             => "<a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>Renew</a>",
     "no_existing_translations"  => "Mevcut çeviri yok.",
     "add_translation"           => "Çeviri Ekle",
     "todo_list"                 => "Yapılacaklar listesi",
@@ -500,8 +498,29 @@ return array(
     "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
     "download"                  => "Download",
     "acknowledge"               => "Acknowledge",
-    "update_available"          => "The latest available version is :version.",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
+
+    /*
+     * 3.6.0
+     */
+    "results_per_page"          => "Results Per Page",
+    "class_name"                => "Class Name",
+    "possible_permission_issue" => "You are running the command as \":cli_user\", while \":path\" is owned by \":path_user\", this can lead to file permission issues.",
+    "system_update"             => "System Update",
+    "system_update_desc"        => "Update SupportPal to the latest version available.",
+    "update_available"          => "Update Available",
+    "up_to_date"                => "Up to Date",
+    "release_notes"             => "Release Notes",
+    "about_to_update_to"        => "You are about to update to version <strong>:version</strong>. A full system backup will be taken automatically prior to the update.",
+    "waiting_for_update_start"  => "Waiting for the update to start... This may take a few minutes.",
+    "binary_paths"              => "Binary Paths",
+    "binary_paths_desc"         => "The PATH environment variable is used to find required binaries. If one or more binary cannot be found, you can specify the full path for each binary file.",
+    "cron_makesure"             => "Cron işini kaydetme konusunda yardım için lütfen <a target='_blank' href='https://docs.supportpal.com/current/Configuring+the+Cron'> Cron İş Yardımı </a> 'na bakın.",
+    "cron_must_run_for_update"  => "The cron job must be running to use this function.",
+    "support_expired"           => "The support and updates on your license have expired.",
+    "update_permitted_version"  => "The license only permits updating to :version.",
+    "update_renew_support"      => "To update to the latest version of SupportPal, please renew your support and updates.",
+    "renew"                     => "Renew",
 
 );
