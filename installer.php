@@ -183,4 +183,9 @@ return array(
     "read_only"                 => "The filesystem at \":path\" is read only. Updates cannot be applied against a read only file system.",
     "file_ownership"            => "File \":path\" is owned by \":owner\" but PHP is running as \":actual\". The file owner and PHP user must be the same during an update for all application files.",
     "minimum_disk_space"        => "Directory \":path\" has insufficient space. There must be at least :space megabytes free.",
+
+    /*
+     * 3.6.1
+     */
+    "upgrade_via_docker"        => "Docker deployment detected. To upgrade, follow https://docs.supportpal.com/current/Upgrade+Guide#docker",
 );
