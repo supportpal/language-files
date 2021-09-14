@@ -183,4 +183,9 @@ return array(
     "read_only"                 => "El sistema de archivos en \":path\" es de sólo lectura. Las actualizaciones no pueden aplicarse a un sistema de archivos de sólo lectura.",
     "file_ownership"            => "El archivo \":path\" es propiedad de \":owner\" pero PHP se está ejecutando como \":actual\". El propietario del archivo y el usuario de PHP deben ser los mismos durante una actualización para todos los archivos de la aplicación.",
     "minimum_disk_space"        => "El directorio \":path\" no tiene espacio suficiente. Debe haber al menos :space megabytes de espacio disponibles.",
+
+    /*
+     * 3.6.1
+     */
+    "upgrade_via_docker"        => "Implementación de Docker detectada. Para actualizar, siga https://docs.supportpal.com/current/Upgrade+Guide#docker",
 );
