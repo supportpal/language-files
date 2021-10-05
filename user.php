@@ -331,12 +331,12 @@ return array(
     /*
      * 3.6.0
      */
-    "security_settings"             => "Security Settings",
-    "security_settings_desc"        => "Update your password, enable 2FA and manage other security related settings for your account.",
-    "active_sessions"               => "Active Sessions",
-    "active_sessions_desc"          => "This is a list of devices that have logged into your account, you may revoke any sessions that you do not recognise.",
-    "current_session"               => "Current Session",
-    "logged_in"                     => "Logged In",
-    "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
+    "security_settings"             => "Veiligheidsinstellingen",
+    "security_settings_desc"        => "Werk uw wachtwoord bij, schakel 2FA in en beheer andere beveiligingsgerelateerde instellingen voor uw account. ",
+    "active_sessions"               => "Actieve Sessies",
+    "active_sessions_desc"          => "Dit is een lijst met apparaten die zijn ingelogd op uw account, u kunt sessies die u niet herkent intrekken. ",
+    "current_session"               => "huidige Sessie",
+    "logged_in"                     => "Ingelogd",
+    "revoke_session_desc"           => "Als u een sessie intrekt, wordt het apparaat afgemeld bij het bedieningspaneel. Het zal ook alle Remember Me-tokens voor andere apparaten intrekken.",
 
 );
