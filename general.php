@@ -388,10 +388,10 @@ return array(
     /*
      * 3.6.0
      */
-    "appearance"                => "Appearance",
-    "faster"                    => "Faster",
-    "slower"                    => "Slower",
-    "revoke"                    => "Revoke",
-    "configure"                 => "Configure",
+    "appearance"                => "Uiterlijk",
+    "faster"                    => "Sneller",
+    "slower"                    => "Langzamer",
+    "revoke"                    => "Intrekken",
+    "configure"                 => "Configureren",
 
 );

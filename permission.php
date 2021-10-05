@@ -118,6 +118,6 @@ return array(
     /*
      * 3.6.0
      */
-    "systemupdate"      => "Perform System Update",
+    "systemupdate"      => "Systeemupdate uitvoeren",
 
 );

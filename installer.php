@@ -166,26 +166,26 @@ return array(
     /*
      * 3.6.0
      */
-    "suggest_run_update"        => "Command unavailable. Please run app:update to download and upgrade to the latest available version: %s.",
-    "suggest_run_upgrade"       => "An upgrade is already in progress. Please run app:upgrade instead.",
-    "failed_to_download"        => "Failed to download file: :message",
-    "backup_failed_abort"       => "Backup failed. Aborting update.",
-    "update_failed"             => "System update failed: :message.",
-    "command_failed"            => "Command :command, failed with output: :message.",
-    "already_latest_version"    => "You are already running the latest version (:version).",
-    "update_not_supported"      => "Automatic update to latest version (:version) is not supported.",
-    "current_and_new_version"   => "You have version :current_version. Latest version available is :new_version.",
-    "update_to_version"         => "You have version :current_version. Would you like to update to :new_version?",
-    "downloading_version"       => "Downloading version :version to :path...",
-    "checksum_not_matched"      => "The downloaded file failed checksum verification.",
+    "suggest_run_update"        => "Commando niet beschikbaar. Voer alsjeblieft app:update eom te downloaden en te upgraden naar de nieuwste beschikbare versie : %s.",
+    "suggest_run_upgrade"       => "Er wordt al een upgrade uitgevoerd. Voer alsjeblieft app:upgrade.",
+    "failed_to_download"        => "Kan bestand niet downloaden :message",
+    "backup_failed_abort"       => "Back-up mislukt. Update wordt afbreken.",
+    "update_failed"             => "Systeemupdate mislukt: :message.",
+    "command_failed"            => "Commando :command, mislukt met output: :message.",
+    "already_latest_version"    => "U gebruikt al de nieuwste versie (:version).",
+    "update_not_supported"      => "Automatische update naar de nieuwste versie (:version) wordt niet ondersteund.",
+    "current_and_new_version"   => "Je hebt versie :current_version. De nieuwste beschikbare versie is  :new_version.",
+    "update_to_version"         => "Je hebt versie :current_version. Wil je updaten naar :new_version?",
+    "downloading_version"       => "Versie :version wordt gedownload naar :path...",
+    "checksum_not_matched"      => "Het gedownloade bestand is mislukt voor controlesomverificatie .",
 
-    "check_readiness"           => "Checking if the application is able to upgrade...",
-    "read_only"                 => "The filesystem at \":path\" is read only. Updates cannot be applied against a read only file system.",
-    "file_ownership"            => "File \":path\" is owned by \":owner\" but PHP is running as \":actual\". The file owner and PHP user must be the same during an update for all application files.",
-    "minimum_disk_space"        => "Directory \":path\" has insufficient space. There must be at least :space megabytes free.",
+    "check_readiness"           => "Controleren of de toepassing kan upgraden... ",
+    "read_only"                 => "Het bestandssysteem \":path\" is alleen-lezen. Updates kunnen niet worden toegepast op een alleen-lezen bestandssysteem. ",
+    "file_ownership"            => "Bestand \":path\" is eigendom van \":owner\" maar PHP draait als  \":actual\". De bestandseigenaar en PHP-gebruiker moeten dezelfde zijn tijdens een update voor alle applicatiebestanden. ",
+    "minimum_disk_space"        => "Map \":path\" heeft te weinig vrije ruimte. Er moet op zijn minst :space megabytes vrij zijn.",
 
     /*
      * 3.6.1
      */
-    "upgrade_via_docker"        => "Docker deployment detected. To upgrade, follow https://docs.supportpal.com/current/Upgrade+Guide#docker",
+    "upgrade_via_docker"        => "Docker installatie gedetecteerd. Om te upgraden, volg  https://docs.supportpal.com/current/Upgrade+Guide#docker",
 );
