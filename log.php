@@ -8,16 +8,16 @@ return array(
     "item_deleted"                      => ":item :rel. verwijderd",
 
     // Custom messages
-    "ip_ban_created"                    => "Nieuwe ban ingesteld voor ip :rel.",
-    "ip_ban_updated"                    => "Ban bijgewerkt voor ip :rel.",
-    "ip_ban_deleted"                    => "Ban verwijderd voor ip :rel.",
-    "banned_ip_on_login"                => "IP :rel voor 15 minutes gebanned.",
+    "ip_ban_created"                    => "Nieuwe blokkade actief voor ip :rel.",
+    "ip_ban_updated"                    => "Blokkade bijgewerkt voor ip :rel.",
+    "ip_ban_deleted"                    => "Blokkade verwijderd voor ip :rel.",
+    "banned_ip_on_login"                => "IP :rel voor 15 minuten geblokkeerd.",
 
     "ip_whitelist_created"              => "IP :rel toegevoegd aan whitelist.",
-    "ip_whitelist_updated"              => "Updated IP :rel on whitelist.",
-    "ip_whitelist_deleted"              => "Deleted IP :rel from whitelist.",
+    "ip_whitelist_updated"              => "IP whitelist bijgewerkt voor IP :rel.",
+    "ip_whitelist_deleted"              => "IP whitelist verwijderd voor IP :rel.",
 
-    "system_cleanup"                    => "System cleanup uitgevoerd op :rel.",
+    "system_cleanup"                    => "Systeem opschoning uitgevoerd op :rel.",
 
     "api_failed_login"                  => "IP :rel liet na te autenticeren voor API.",
 
@@ -25,27 +25,27 @@ return array(
     "user_failed_login"                 => "Autenticatie mislukt.",
     "user_successful_logout"            => "Uitgelogd uit servicedesk.",
 
-    "user_registered"                   => "Een account geregistreerd.",
+    "user_registered"                   => "Nieuwe gebruiker geregistreerd.",
     "user_confirmed"                    => "Account bevestigd.",
     "user_password_set"                 => "Stel een wachtwoord in voor het account.",
     "user_password_reset"               => "Reset het wachtwoord voor het account.",
 
     "user_added_to_organisation"        => "Gebruiker :rel toegevoegd aan organisatie :new_value.",
     "user_removed_from_organisation"    => "Gebruiker :rel verwijder uit organisatie :old_value.",
-    "user_profile_updated"              => "Accountprofiel bijgewerkt.",
+    "user_profile_updated"              => "Gebruikersprofiel bijgewerkt.",
     "user_left_organisation"            => ":rel. heeft de organisatie verlaten",
     "user_organisation_emptied"         => "Alle gebruikers zijn verwijderd uit organisatie :rel.",
     "user_organisation_updated"         => ":rel's organisatietoegangniveau is veranderd van :old_value in :new_value.",
     "organisation_membership_updated"   => "Gebruikerslidmaatschap bijgewerkt voor organisatie :rel.",
-    "organisation_profile_updated"      => "Bijgewerkt profiel voor organisatie :rel.",
-    "organisation_owner_updated"        => "Eigendom organisatie :rel overgezet naar :new_value.",
+    "organisation_profile_updated"      => "Organisatieprofiel bijgewerkt voor :rel.",
+    "organisation_owner_updated"        => "Organisatie eigendom gewijzigd van :rel naar :new_value.",
 
     "mass_email_queued"                 => ":new_value e-mails in wachtrij.",
     "mass_email_sent"                   => ":new_value e-mails verstuurd.",
 
     "email_queue_deleted"               => "Mail voor :rel. verwijderd",
 
-    "scheduled_task_run"                => "Geplande taak :rel is handmatig uitgevoerd.",
+    "scheduled_task_run"                => "Cron :rel is handmatig uitgevoerd.",
 
     "selfservice_article_upvoted"       => "Positieve reactie op artikel :rel.",
     "selfservice_article_downvoted"     => "Negatieve reactie op artikel :rel.",
@@ -58,7 +58,7 @@ return array(
     "ticket_opened_email"               => "E-mail geïmporteerd als nieuw ticket #:rel.",
 
     "ticket_message_reply"              => "Nieuw antwoord op ticket #:rel.",
-    "ticket_message_note"               => "Nieuwe aantekening op ticket #:rel.",
+    "ticket_message_note"               => "Nieuwe notitie op ticket #:rel.",
     "ticket_message_deleted"            => "Verwijderd bericht in ticket #:rel.",
 
     "ticket_user_updated"               => "Gebruiker bijgewerkte op ticket #:rel van :old_value naar :new_value.",
@@ -70,8 +70,8 @@ return array(
     "ticket_tag_updated"                => "Tags vanticket #:rel. zijn bijgewerkt",
     "ticket_tag_removed"                => "Tag :new_value verwijder van ticket #:rel.",
     "ticket_slaplan_updated"            => "SLA op ticket #:rel bijgewerkt van :old_value naar :new_value.",
-    "ticket_duetime_updated"            => "deadline op ticket #:rel bijgesteld naar :new_value.",
-    "ticket_duetime_paused"             => "deadline op ticket #:rel gepauzeerd tot nieuw antwoord van gebruiker.",
+    "ticket_duetime_updated"            => "Deadline op ticket #:rel bijgesteld naar :new_value.",
+    "ticket_duetime_paused"             => "Deadline op ticket #:rel gepauzeerd tot nieuw antwoord van gebruiker.",
     "ticket_customfield_updated"        => "Aangepast velden op ticket #:rel. bijgewerkt",
     "ticket_converted_user"             => "Intern ticket #:rel omgezet naar gebruikerticket.",
     "ticket_converted_internal"         => "Gebruiker ticket #:rel omgezet naar intern ticket.",
@@ -90,7 +90,7 @@ return array(
 
     "ticket_user_blocked"               => "Geblokkeerde e-mail :new_value (van gebruiker op ticket #:rel).",
 
-    "ticket_closed"                     => "Ticket #:rel is afgesloten.",
+    "ticket_closed"                     => "Ticket #:rel is gesloten.",
     "ticket_inactive_closed"            => "Inactief inactive ticket #:rel geslotenn van status :old_value.",
     "ticket_awaiting_response"          => "Wacht-nog-op-antwoord e-mail verstuurd naar gebruiker van ticket #:rel.",
 
@@ -100,7 +100,7 @@ return array(
     "ticket_attachment_saved"           => "Bijlage toegevoegd aan ticket #:rel.",
     "ticket_attachment_deleted"         => "bijlage verwijderd van ticket #:rel.",
 
-    "ticket_throttled"                  => "Nieuw ticket van :rel gewijgerd ivm throttling.",
+    "ticket_throttled"                  => "Nieuw ticket van :rel geweigerd i.v.m throttling.",
 
     /*
      * 2.0.3
@@ -158,7 +158,7 @@ return array(
     /*
      * 2.3.1
      */
-    "selfservice_comment_updated"       => "Bijgewerkt :rel door :extra_rel1.",
+    "selfservice_comment_updated"       => ":rel bijgewerkt door :extra_rel1.",
     "selfservice_comment_status"        => "Gewijzigde status van :rel door :extra_rel1 van :old_value naar :new_value.",
     "selfservice_comment_deleted"       => "Reactie verwijderd door :extra_rel1.",
     "ticket_message_posted"             => "Een nieuwe :extra_rel1 gepost op ticket #:rel.",
@@ -194,13 +194,13 @@ return array(
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "Er is een nieuwe follow-up ingesteld op ticket  #:rel.",
-    "ticket_followup_updated"           => "Een follow-up op ticket #:rel is bijgewerkt.",
-    "ticket_followup_deleted"           => "Een follow-up op ticket #:rel is verwijderd.",
+    "ticket_followup_set"               => "Nieuwe follow-up ingesteld op ticket  #:rel.",
+    "ticket_followup_updated"           => "Follow-up bijgewerkt op ticket #:rel.",
+    "ticket_followup_deleted"           => "follow-up verwijderd op ticket #:rel.",
 
     /*
      * 3.0.0
      */
-    "selfservice_article_neutral"       => "Neutraal beoordeeld artikel :rel.",
+    "selfservice_article_neutral"       => "Artikel :rel is neutraal beoordeeld.",
 
 );

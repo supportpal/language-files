@@ -4,24 +4,24 @@ return array(
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Voeg aantekening toe",
-    "add_ticket_reply"          => "Beantwoord ticket",
-    "add_tag"                   => "Voeg een tag toe",
-    "assign_operator"           => "Wijs ticket toe aan operator",
-    "remove_tag"                => "Verwijder tag",
+    "add_ticket_note"           => "Notitie toevoegen",
+    "add_ticket_reply"          => "Ticket beantwoorden",
+    "add_tag"                   => "Tag toevoegen",
+    "assign_operator"           => "Ticket toewijzen aan operator",
+    "remove_tag"                => "Tag verwijderen",
     "email_operators"           => "Stuur e-mail aan operators",
     "email_operator_group"      => "Stuur e-mail aan operatorgroep",
     "email_user"                => "Stuur e-mail aan gebruiker",
     "email_user_group"          => "Stuur e-mail aan gebruikersgroep",
-    "unassign_operator"         => "Verwijder operator van ticket",
-    "update_department"         => "Update afdeling",
-    "update_priority"           => "Update prioriteit",
-    "update_status"             => "Update status",
+    "unassign_operator"         => "Operator verwijderen van ticket",
+    "update_department"         => "Afdeling wijzigingen",
+    "update_priority"           => "Prioriteit aanpassen",
+    "update_status"             => "Status aanpassem",
 
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Update aangepast veld van ticket",
+    "update_custom_field"       => "Eigen veld van ticket bijwerken",
 
     /*
      * 2.2.0
@@ -30,12 +30,12 @@ return array(
     "close_and_lock_ticket"     => "Sluit en lock ticket",
     "pause_due_time"            => "Pauzeer deadline",
     "reduce_due_time"           => "Verlaag deadline",
-    "set_due_time"              => "Set deadline",
+    "set_due_time"              => "Deadline instellen",
     "unlock_ticket"             => "Unlock ticket",
-    "update_sla_plan"           => "Update SLA",
-    "update_subject"            => "Update onderwerp",
-    "add_user_to_group"         => "Voeg gebruiker toe aan gebruikersgroep",
-    "remove_user_from_group"    => "Verwijder gebruiker uit gebruikersgroep",
+    "update_sla_plan"           => "SLA bijwerken",
+    "update_subject"            => "Onderwerp bijwerken",
+    "add_user_to_group"         => "Gebruiker toevoegen aan gebruikersgroep",
+    "remove_user_from_group"    => "Gebruiker verwijderen gebruikersgroep",
     "authenticated_operator"    => "Ingelogde operator",
     "all_assigned_operators"    => "Alle toegewezen operators",
     "all_tags"                  => "Alle tags",
@@ -49,19 +49,19 @@ return array(
     /*
      * 2.3.0
      */
-    "add_cc"                    => "E-mail adres toevoegen aan CC",
-    "remove_cc"                 => "Verwijder E-mail adres uit CC",
-    "remove_cc_desc"            => "Laat dit veld leeg om alle CC-e-mailadressen ui het ticket te verwijderen.",
+    "add_cc"                    => "Voeg e-mail adres toe aan CC",
+    "remove_cc"                 => "Verwijder e-mail adres uit CC",
+    "remove_cc_desc"            => "Laat dit veld leeg om alle CC-e-mailadressen uit het ticket te verwijderen.",
 
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Sluit CC-e-mailadressen uit",
+    "exclude_cc"                => "CC e-mailadressen uitsluiten",
 
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
+    "trigger_webhook"           => "Webhook triggeren",
     "forward_ticket"            => "Ticket doorsturen",
     "watch_ticket"              => "Laat operator ticket monitoren ",
     "unwatch_ticket"            => "Laat operator ticket niet meer monitoren",
@@ -70,8 +70,8 @@ return array(
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Verplaats ticket naar Prullenbak",
-    "block_user"                => "Blokkeer gebruiker",
+    "move_to_trash"             => "Ticket verplaatsen naar prullenbak",
+    "block_user"                => "Gebruiker blokkeren",
 
     /*
      * 2.6.0

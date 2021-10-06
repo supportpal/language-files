@@ -13,7 +13,7 @@ return array(
 
     "all_time"                  => "Altijd",
     "specific_range"            => "Specifieke periode",
-    "filtering"                 => "Filtrering",
+    "filtering"                 => "Filtering",
 
     "chart"                     => "Chart",
     "table"                     => "Table",
@@ -41,7 +41,7 @@ return array(
     "6-12_hour"                 => "6-12 uren",
     "12-24_hour"                => "12-24 uren",
     "24_plus_hour"              => "24+ uren",
-    "support_channels"          => "Support Channels",
+    "support_channels"          => "Supportkanalen",
     "support_channels_desc"     => "Dit rapport toont het aantal tickets geopend per support channel over een opgegeven tijdspanne.",
     "ticket_by_department"      => "Tickets per afdeling",
     "ticket_by_department_desc" => "De afdeling waarbinnen tickets zijn geopend gedurende een bepaalde periode.",
@@ -49,7 +49,7 @@ return array(
     "ticket_by_priority_desc"   => "De prioriteit van geopende tickets binnen een bepaalde periode.",
     "ticket_by_status"          => "Tickets op status",
     "ticket_by_status_desc"     => "De huidige status van geopende tickets gedurende een bepaalde periode.",
-    "time_to_resolution"        => "Tijd top oplossing",
+    "time_to_resolution"        => "Tijd tot oplossing",
     "time_to_resolution_desc"   => "De hoeveelheid tijd die nodig was om het ticket te sluiten sinds opening, bevat alleen tickets die momenteel gesloten zijn.",
     "lt_1_day"                  => "<1 dag",
     "1-2_day"                   => "1-2 dagen",

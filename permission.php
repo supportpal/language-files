@@ -2,7 +2,7 @@
 
 return array(
 
-    "generalsetting"    => "Bijwerken algemene instellingen",
+    "generalsetting"    => "Algemene instellingen bijwerken",
 
     // Core
     "apitoken"          => "Beheer API tokens",
@@ -14,8 +14,8 @@ return array(
     "module"            => "Beheer Modules",
     "scheduledtask"     => "Beheer geplande taken",
     "spamrule"          => "Beheer spamregels",
-    "emaillog"          => "Bekijk e-maillog",
-    "emailqueue"        => "Bekijk e-mailwachtrij",
+    "emaillog"          => "E-maillog bekijken",
+    "emailqueue"        => "E-mailwachtrij bekijken",
     "systemcleanup"     => "Systeem opschonen",
 
     // User
@@ -33,87 +33,87 @@ return array(
     "operatorlog"       => "Bekijk operator login log",
 
     // Ticket
-    "cannedresponse"    => "Beheer standaard antwoorden",
-    "channel"           => "Beheer channels",
-    "department"        => "Beheer afdelingen",
-    "filter"            => "Beheer filters",
-    "holiday"           => "Beheer vakantiedagen",
-    "macro"             => "Beheer macros",
-    "priority"          => "Beheer prioriteiten",
-    "schedule"          => "Beheer schemas",
-    "slaplan"           => "Beheer SLAs",
-    "status"            => "Beheer statussen",
+    "cannedresponse"    => "Standaardantwoorden beheren",
+    "channel"           => "Kanalen beheren",
+    "department"        => "Afdeling(en) beheren",
+    "filter"            => "Filters beheren",
+    "holiday"           => "Vakantiedagen beheren",
+    "macro"             => "Macros beheren",
+    "priority"          => "Prioriteit(en) beheren",
+    "schedule"          => "Schemas beheren",
+    "slaplan"           => "SLAs beheren",
+    "status"            => "Statussen beheren",
     "ticket_view"       => "Tickets bekijken",
     "ticket_add"        => "Tickets openen",
     "ticket_edit"       => "Tickets bijwerken",
-    "ticketcustomfield" => "Beheer aangepaste velden",
+    "ticketcustomfield" => "Eigen velden beheren",
 
     // Self-service
     "article"           => "Beheer artikelen",
-    "category"          => "Beheer Categorieën",
+    "category"          => "Beheer categorieën",
     "comment"           => "Beheer reacties",
     "selfservicetype"   => "Beheer typen",
 
     // Report
-    "report"            => "Bekijk rapporten",
-    "reportdashboard"   => "Bekijk dashboard",
+    "report"            => "Rapporten bekijken",
+    "reportdashboard"   => "Dashboard bekijken",
 
     // General
-    "tag"               => "Beheer tags",
+    "tag"               => "Tags beheren",
 
     /*
      * 2.0.2
      */
     // Core
-    "plugin"            => "Bekijk plugins",
+    "plugin"            => "Plugins beheren",
 
     /*
      * 2.0.3
      */
     // User
-    "operator"          => "Beheer Operators",
+    "operator"          => "Operators beheren",
 
     /*
      * 2.1.0
      */
     // Core
-    "brand"             => "Beheer merken",
-    "phpinfo"           => "Bekijk PHP Informatie",
+    "brand"             => "Merken beheren",
+    "phpinfo"           => "PHP Informatie bekijken",
 
     // User
-    "usercustomfield"   => "Beheer aangepaste velden van gebruikers",
-    "organisationcustomfield" => "Beheer aangepaste velden van organisaties",
-    "operatorsignature" => "Beheer ondertekeningen van operators",
+    "usercustomfield"   => "Eigen velden van gebruikers beheren",
+    "organisationcustomfield" => "Eigen velden van organisaties beheren",
+    "operatorsignature" => "Handtekeningen van operators beheren",
 
     /*
      * 2.1.1
      */
     // Core
-    "logfiles"          => "Beheer logbestanden",
+    "logfiles"          => "Logbestanden beheren",
 
     /*
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Beheer Sociale Login",
+    "sociallogin"       => "Sociale Login(s) beheren",
 
     /*
      * 2.5.0
      */
     // Ticket
-    "ticket_delete"     => "Verwijder Tickets Definitief",
-    "ticket_trash"      => "Verplaats Tickets naar Prullenbak ",
+    "ticket_delete"     => "Ticket(s) definitief verwijderen",
+    "ticket_trash"      => "Ticket(s) naar prullenbak verplaatsen",
 
     /*
      * 3.0.0
      */
-    "selfservicefeedbackform" => "Beheer Feedback Formulieren",
-    "ticketfeedbackform"      => "Beheer Feedback Formulieren",
+    "selfservicefeedbackform" => "Feedbackformulieren beheren",
+    "ticketfeedbackform"      => "Feedbackformulieren beheren",
 
     /*
      * 3.3.0
      */
-    "integration"       => "Beheer integraties van derden",
+    "integration"       => "Integraties van derden beheren",
 
     /*
      * 3.6.0
