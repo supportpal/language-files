@@ -119,7 +119,7 @@ return array(
     "warn_delete"           => "Hiermee wordt het <strong>:name</strong> :record permanent verwijderd.",
     "delete_confirm"        => "Ja, :record verwijderen",
     "keep_record"           => "Nee, :record behouden",
-    "delete_relations"      => "Als het <strong>:name</strong> :record verwijderd wordt worden ook alle volgende gerelateerde gegevens ook definitief verwijderd:",
+    "delete_relations"      => "Als het <strong>:name</strong> :record verwijderd wordt, worden ook alle volgende gerelateerde gegevens definitief verwijderd:",
     "please_check"          => "Je moet alle bovenstaande vakjes aanvinken om te bevestigen dat je het resultaat van deze onomkeerbare actie begrijpt.",
     "failed_attachments"    => "Bijvoegen van sommige bestanden is mislukt.",
 
@@ -128,8 +128,8 @@ return array(
      */
     "sent_email"            => "Succes - e-mail verzonden....",
     "task_already_running"  => "Deze cron wordt momenteel al uitgevoerd. Probeer het binnenkort opnieuw.",
-    "linked_account"        => "Sociale account is succesvol gekoppeld aan je account.",
-    "already_linked"        => "Sociale account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
+    "linked_account"        => "Social media account is succesvol gekoppeld aan je account.",
+    "already_linked"        => "Social media account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
 
     /*
      * 2.4.0
@@ -141,7 +141,7 @@ return array(
     /*
      * 2.5.0
      */
-    "account_closed"        => "Deze account is afgesloten. Neem contact met ons op als dit ten onrechte is gebeurd.",
+    "account_closed"        => "Het account is afgesloten. Neem contact met ons op als dit ten onrechte is gebeurd.",
     "leave_record"          => ":record behouden?",
     "leave_record_warn"     => "Hiermee wordt je definitief verwijderd uit het :record.",
     "success_trashed"       => "Het :item is verplaatst naar de prullenbak!",

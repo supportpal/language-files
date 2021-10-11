@@ -252,12 +252,12 @@ return array(
     "social_login"                  => "Sociale Login",
     "login_via"                     => "Log in via :provider",
     "idp"                           => "IdP",
-    "social_linking_login"          => "Log in om het koppelen van je sociale account te voltooien. ",
+    "social_linking_login"          => "Log in om het koppelen van je social media account te voltooien. ",
     "social_linking_register"       => "Vul de onderstaande gegevens in om de registratie van je account te voltooien. De sociale account wordt automatisch gekoppeld .",
     "already_registered"            => "Al geregistreerd?",
     "linked_accounts"               => "Gelinkte Accounts",
     "unlink_account"                => ":record account loskoppelen ",
-    "unlink_account_warning"        => "Als je sociale account loskoppelt, kan deze niet langer worden gebruikt om rechtstreeks op het account in te loggen .",
+    "unlink_account_warning"        => "Als je social media account loskoppelt, kan deze niet langer worden gebruikt om rechtstreeks op het account in te loggen .",
     "failed_login"                  => "Misluke Login|Misluke Logins",
     "resend_confirmation"           => "<strong><a href=':link'>Klik hier</a></strong> om een nieuwe bevestigingsmail te sturen.",
 
@@ -314,7 +314,7 @@ return array(
     /*
      * 3.3.0
      */
-    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale account(s).",
+    "social_login_desc"             => "Sta gebruikers toe zich te registreren en in te loggen met hun sociale media account(s).",
     "manage_social_login_options"   => "Ga naar de pagina <a href=\":route\"> Integraties van derden </a> om opties voor sociaal inloggen toe te voegen of te beheren.",
 
     /*
