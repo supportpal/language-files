@@ -93,7 +93,7 @@ return array(
     "only_ssl_connections"  => "Alleen SSL verbindingen zijn toegestaan..",
     "queued_emails"         => "Succes - De e-mails zijn in de wachtrij geplaatst en zullen spoeding worden verzonden.",
     "error_loading_message" => "Er is een fout opgetreden bij het laden van het bericht. Probeer het opnieuw",
-    "please_refresh"        => "Ververs de pagina.",
+    "please_refresh"        => "Pagina vernieuwen.",
 
     /*
      * 2.1.0
@@ -101,7 +101,7 @@ return array(
     "unable_to_connect_db"  => "<strong>Service momenteel niet beschikbaar.</strong><br />Er is geen verbinding met de database.",
     "category_required"     => "Het artikel moet tot een of meedere Categorieën behoren..",
     "warning"               => "Waarschuwing",
-    "note"                  => "Let op",
+    "note"                  => "LET OP! ",
     "brand_invalid_dept"    => "De actie kon niet volledig worden uitgevoerd. In sommige tickets kon de afdeling niet worden bijgewerkt vanwege hun merk.",
 
     /*
@@ -128,8 +128,8 @@ return array(
      */
     "sent_email"            => "Succes - e-mail verzonden....",
     "task_already_running"  => "Deze cron wordt momenteel al uitgevoerd. Probeer het binnenkort opnieuw.",
-    "linked_account"        => "Het sociale account is succesvol gekoppeld aan je account.",
-    "already_linked"        => "Het sociale account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
+    "linked_account"        => "Sociale account is succesvol gekoppeld aan je account.",
+    "already_linked"        => "Sociale account is al gekoppeld aan een andere account. Log in op het andere account en ontkoppel het.",
 
     /*
      * 2.4.0
@@ -141,7 +141,7 @@ return array(
     /*
      * 2.5.0
      */
-    "account_closed"        => "Je account is afgesloten. Neem contact met ons op als dit ten onrechte is gebeurd.",
+    "account_closed"        => "Deze account is afgesloten. Neem contact met ons op als dit ten onrechte is gebeurd.",
     "leave_record"          => ":record behouden?",
     "leave_record_warn"     => "Hiermee wordt je definitief verwijderd uit het :record.",
     "success_trashed"       => "Het :item is verplaatst naar de prullenbak!",

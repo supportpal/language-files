@@ -109,9 +109,9 @@ return array(
     "scheduled_task"            => "Cron|Crons",
     "interval_desc"             => "Stel in hoe vaak deze cron wordt gestart, bijvoorbeeld instellen op 5 minuten betekent dat de cron elke 5 minuten wordt uitgevoerd.",
     "cron_settings"             => "Cron instellingen",
-    "cron_running"              => "CronActief",
+    "cron_running"              => "Cron actief",
     "cron_not_running"          => "Cron inactief",
-    "task_ran"                  => "De cron handmatig uitgevoerd.",
+    "task_ran"                  => "Cron handmatig uitgevoerd.",
     "task_failed"               => "Het is mislukt om de cron handmatig uit te voeren.",
 
     // Plugins

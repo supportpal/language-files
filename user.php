@@ -279,8 +279,8 @@ return array(
     "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
     "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
     "unconfirmed_user_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet bevestigd. ",
-    "unregistered_user_desc"        => "Dit account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om hen een eigen account te laten aanmaken of hieronder een wachtwoord voor hen instellen.",
-    "send_confirmation_email"       => "Stuur bevestigingsmail ",
+    "unregistered_user_desc"        => "Deze account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account te laten aanmaken of hieronder een wachtwoord voor in te stellen.",
+    "send_confirmation_email"       => "Bevestigingsmail sturen",
     "mark_as_confirmed"             => "Markeer als bevestigd",
     "password_reset_already"        => "Je heeft al bevestigd dat je eigenaar bent van dit e-mailadres inloggen is nu mogelijk.",
     "unconfirmed_account"           => "Controleer je e-mail om te bevestigen dat je eigenaar bent van dit e-mailadres.",
@@ -288,7 +288,7 @@ return array(
     "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
     "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van je e-mail. Voer hieronder een wachtwoord in om het instellen van je account te voltooien .",
     "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van je e-mailadres. ",
-    "use_gravatar"                  => "Gebruik Gravatar",
+    "use_gravatar"                  => "Gravatar gebruiken",
     "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als je deze functie inschakelt.",
 
     /*
@@ -332,8 +332,8 @@ return array(
      * 3.6.0
      */
     "security_settings"             => "Veiligheidsinstellingen",
-    "security_settings_desc"        => "Werk Je wachtwoord bij, schakel tweefactorauthenticatie (2FA) in en beheer andere beveiligingsgerelateerde instellingen voor je account. ",
-    "active_sessions"               => "Actieve Sessies",
+    "security_settings_desc"        => "Werk je wachtwoord bij, schakel tweefactorauthenticatie (2FA) in en beheer andere beveiligingsgerelateerde instellingen voor je account. ",
+    "active_sessions"               => "Actieve sessies",
     "active_sessions_desc"          => "Dit is een lijst met apparaten die zijn ingelogd op je account, de sessies die je niet herkend kunnen ingetrokken worden. ",
     "current_session"               => "huidige sessie",
     "logged_in"                     => "Ingelogd",
