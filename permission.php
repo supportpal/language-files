@@ -5,32 +5,32 @@ return array(
     "generalsetting"    => "Algemene instellingen bijwerken",
 
     // Core
-    "apitoken"          => "Beheer API tokens",
-    "emailtemplate"     => "Beheer e-mailtemplates",
-    "ipban"             => "Beheer IP blokkades",
-    "ipwhitelist"       => "Beheer IP whitelist",
-    "language"          => "Beheer talen",
-    "license"           => "Bekijk licentieinformatie",
-    "module"            => "Beheer Modules",
-    "scheduledtask"     => "Beheer geplande taken",
-    "spamrule"          => "Beheer spamregels",
+    "apitoken"          => "API tokens beheren",
+    "emailtemplate"     => "E-mailtemplates beheren",
+    "ipban"             => "IP blokkades beheren",
+    "ipwhitelist"       => "IP whitelist beheren",
+    "language"          => "Talen beheren",
+    "license"           => "Licentieinformatie bekijken",
+    "module"            => "Modules beheren",
+    "scheduledtask"     => "Crons beheren ",
+    "spamrule"          => "Spamregels beheren",
     "emaillog"          => "E-maillog bekijken",
     "emailqueue"        => "E-mailwachtrij bekijken",
     "systemcleanup"     => "Systeem opschonen",
 
     // User
-    "operatorgroup"     => "Beheer operatorgroepen",
-    "organisation"      => "Beheer organisaties",
-    "role"              => "Beheer operatorrollen",
+    "operatorgroup"     => "Operatorgroepen beheren",
+    "organisation"      => "Organisaties beheren",
+    "role"              => "Operatorrollen beheren",
     "user_view"         => "Gebruikers bekijken",
     "user_add"          => "Gebruikers toevoegen",
     "user_edit"         => "Gebruikers bewerken",
     "user_delete"       => "Gebruikers verwijderen",
-    "usergroup"         => "Beheer gebruikersgroepen",
-    "massemail"         => "Verstuur bulk e-mail",
-    "ldapaccount"       => "Beheer LDAP accounts",
-    "activitylog"       => "Bekijk systeemlog",
-    "operatorlog"       => "Bekijk operator login log",
+    "usergroup"         => "Gebruikersgroepen beheren",
+    "massemail"         => "Bulk e-mail versturen",
+    "ldapaccount"       => "LDAP accounts beheren",
+    "activitylog"       => "Systeemlog bekijken",
+    "operatorlog"       => "Operator logins bekijken",
 
     // Ticket
     "cannedresponse"    => "Standaardantwoorden beheren",
@@ -49,10 +49,10 @@ return array(
     "ticketcustomfield" => "Eigen velden beheren",
 
     // Self-service
-    "article"           => "Beheer artikelen",
-    "category"          => "Beheer categorieën",
-    "comment"           => "Beheer reacties",
-    "selfservicetype"   => "Beheer typen",
+    "article"           => "Artikelen beheren",
+    "category"          => "Categorieën beheren",
+    "comment"           => "Reacties beheren",
+    "selfservicetype"   => "Typen beheren",
 
     // Report
     "report"            => "Rapporten bekijken",
@@ -95,7 +95,7 @@ return array(
      * 2.4.0
      */
     // User
-    "sociallogin"       => "Sociale Login(s) beheren",
+    "sociallogin"       => "Social media login(s) beheren",
 
     /*
      * 2.5.0

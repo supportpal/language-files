@@ -2,8 +2,8 @@
 
 return array(
 
-    "popular_items"             => "Populaire items",
-    "latest_items"              => "Laatste Items",
+    "popular_items"             => "Populaire artikelen",
+    "latest_items"              => "Laatste artikelen",
 
     "selfservice"               => "Self-Service",
     "article"                   => "Artikel|Artikelen",
@@ -15,17 +15,17 @@ return array(
     "frontend_icon"             => "Frontend Icoon",
 
     "no_categories"             => ":type heeft momenteel geen Categorieën. Maak er eentje voor een artikel te plaatsen.",
-    "no_categories_frontend"    => "Er zijn geen Categorieën om te tonen.",
+    "no_categories_frontend"    => "Er zijn geen categorieën om te tonen.",
 
     "awaiting_moderation"       => "Wacht op goedkeuring",
-    "published"                 => "Gepubliceert op:",
+    "published"                 => "Publicatiedatum:",
     "spam"                      => "Spam",
 
     "hierarchical"              => "Hierarchisch",
     "list"                      => "Lijst",
 
-    "show_on_dashboard"         => "Toon artikelen op frontend",
-    "show_on_dashboard_desc"    => "Toont sommige artikelen op de frontend dashboard. Indien get overzicht <strong>hierarchisch</strong> is, worden de 5 meest getoonde artikelen getoond. Indien <strong>list</strong> gekozen is worden de 5 laatste artikelen getoond.",
+    "show_on_dashboard"         => "Arikelen tonen op Frontend",
+    "show_on_dashboard_desc"    => "Toont sommige artikelen op de frontend dashboard. Indien Het overzicht <strong>hierarchisch</strong> is, worden de 5 meest getoonde artikelen getoond. Indien <strong>list</strong> gekozen is worden de 5 laatste artikelen getoond.",
 
     "title"                     => "Titel",
     "author"                    => "Auteur",
@@ -41,10 +41,10 @@ return array(
     "receive_notifications"     => "Ontvang melding bij toekomstige antwoorden",
 
     "login_comment"             => "Je moet ingelogd zijn om een reactie achter te laten.",
-    "incorrect_captcha"         => "De captcha was niet correct",
+    "incorrect_captcha"         => "Captcha was niet correct",
     "comment_blocked"           => "Reactie is geblocked omdat deze als spam is aangemerkt.",
     "comment_success"           => "Reactie is verstuuurd!",
-    "comment_success_moderated" => "Reactie is verstuurd en wacht op goedkeuring van een operator.",
+    "comment_success_moderated" => "Reactie is verstuurd en wacht op goedkeuring van een medewerker.",
 
     "comment_rated_success"     => "Reactie is voorzien van een waardering.",
     "comment_rated_error"       => "Reactie kon niet worden voorzien van een waardering.",
@@ -54,8 +54,8 @@ return array(
     "article_rated_error"       => "Artikel kon niet worden voorzien van een waardering.",
 
     "comment_below_threshold"   => "(Reactie heeft te lage reactie om direct te tonen, klik om toch te tonen)",
-    "view_all_replies"          => "Toon alle antwoorden",
-    "show_more_comments"        => "Toon meer reacties",
+    "view_all_replies"          => "Alle antwoorden tonen",
+    "show_more_comments"        => "Meer reacties tonen",
     "highest_rated"             => "Hoogt gewaardeerd",
     "newest"                    => "Nieuwste",
     "oldest"                    => "Oudste",
@@ -125,7 +125,7 @@ return array(
     "content_options"           => "Content Opties",
     "content_desc"              => "De inhoud die met dit type wordt geserveerd. <br /><strong>Artikelen</strong> - Een verzameling berichten die kunnen worden gegroepeerd (zoals een kennisbank) of afzonderlijk kunnen worden bewaard (zoals aankondigingen).<br /><strong>Externe Link</strong> - Geef een link naar een externe site, zoals een documentatieportaal.",
     "external_link"             => "Externe Link",
-    "type_view_desc"            => "Indien de content uit meerdere categorieën bestaat en bedoeld is als een knowledgebase, raden we aan de hierarchische indeling te gebruiken. Wanneer de contect meer tijd gebaseerd is zoals aankondigingen of een blog dan raden we een lijstoverzicht aan.",
+    "type_view_desc"            => "Indien de content uit meerdere categorieën bestaat en informatief is, zoals een kennisbank, raden we aan om de hiërarchische indeling te gebruiken. Wanneer de content op tijd gebaseerd is, zoals aankondigingen of een blog, dan raden we een lijstoverzicht aan.",
     "pinned"                    => "Vastgezet",
     "pinned_desc"               => "Zet het record vast zodat het bovenaan op de voorkant wordt weergegeven. Alleen van toepassing op typen lijstweergaven.",
     "article_ordering"          => "Artikel Ordering",
@@ -149,7 +149,7 @@ return array(
      * 3.0.0
      */
     "type_protected_desc"       => "Toggle om alleen te laten zien aan ingelogde gebruikers.",
-    "article_feedback"          => "Artikel Feedback",
+    "article_feedback"          => "Artikel feedback",
     "thank_you_for_feedback"    => "Bedankt voor je feedback op dit artikel.",
     "frontend_icon_desc"        => "Selecteer een <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> icoon om op de frontend voor dit type weer te geven, je kunt ook zoeken naar een aangepast pictogram dat niet in de lijst staat (beginnend met 'fa-').",
 

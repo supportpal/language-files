@@ -3,7 +3,7 @@
 return array(
 
     "feedback_question"         => "Vraag die aan de gebruiker wordt getoond.",
-    "open_new"                  => "Nieuw ticket openen",
+    "open_new"                  => "Ticket aanmaken",
     "select_department"         => "Afdeling selecteren",
     "select_department_desc"    => "Klik onderstaand op de relevante afdeling.",
     "no_departments"            => "Geen afdelingen gevonden.",

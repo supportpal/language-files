@@ -9,14 +9,14 @@ return array(
     "add_tag"                   => "Tag toevoegen",
     "assign_operator"           => "Ticket toewijzen aan operator",
     "remove_tag"                => "Tag verwijderen",
-    "email_operators"           => "Stuur e-mail aan operators",
-    "email_operator_group"      => "Stuur e-mail aan operatorgroep",
-    "email_user"                => "Stuur e-mail aan gebruiker",
-    "email_user_group"          => "Stuur e-mail aan gebruikersgroep",
+    "email_operators"           => "E-mail sturen aan operators",
+    "email_operator_group"      => "E-mail sturen aan operatorgroep",
+    "email_user"                => "E-mail sturen aan gebruiker",
+    "email_user_group"          => "E-mail sturen aan gebruikersgroep",
     "unassign_operator"         => "Operator verwijderen van ticket",
     "update_department"         => "Afdeling wijzigingen",
     "update_priority"           => "Prioriteit aanpassen",
-    "update_status"             => "Status aanpassem",
+    "update_status"             => "Status aanpassen",
 
     /*
      * 2.0.3
@@ -26,12 +26,12 @@ return array(
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Verhoog deadline",
+    "increase_due_time"         => "Deadline verhogen",
     "close_and_lock_ticket"     => "Sluit en lock ticket",
-    "pause_due_time"            => "Pauzeer deadline",
-    "reduce_due_time"           => "Verlaag deadline",
+    "pause_due_time"            => "Deadline pauzeren",
+    "reduce_due_time"           => "Deadline verlangen",
     "set_due_time"              => "Deadline instellen",
-    "unlock_ticket"             => "Unlock ticket",
+    "unlock_ticket"             => "Ticket unlocken",
     "update_sla_plan"           => "SLA bijwerken",
     "update_subject"            => "Onderwerp bijwerken",
     "add_user_to_group"         => "Gebruiker toevoegen aan gebruikersgroep",
@@ -39,7 +39,7 @@ return array(
     "authenticated_operator"    => "Ingelogde operator",
     "all_assigned_operators"    => "Alle toegewezen operators",
     "all_tags"                  => "Alle tags",
-    "subject_placeholder"       => "{{ ticket.subject }} is de placeholder voor het onderwerp van het bestaande ticket wanneer je er aan wilt toevoegen",
+    "subject_placeholder"       => "{{ ticket.subject }} is een placeholder voor het onderwerp van het bestaande ticket wanneer je er aan wilt toevoegen",
     "hours_to_be_added"         => "uren om aan de deadline toe te voegen.",
     "hours_to_be_removed"       => "uren om van de deadline af te halen.",
     "hours_to_be_set"           => "uren om toe te voegen aan de huidige tijd en de nieuwe deadline van het ticket in te stellen.",

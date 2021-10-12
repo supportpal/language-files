@@ -422,7 +422,7 @@ return array(
     "indent"                    => "inspringing vergroten",
     "lists"                     => "Lijsten",
     "edit_html"                 => "HTML bewerken",
-    "sEmptyTable"               => "Geen data beschikbaar in de tabel",
+    "sEmptyTable"               => "geen data gevonden",
     "sInfo"                     => "Toont _START_ - _END_ van de _TOTAL_ resultaten",
     "sInfoEmpty"                => "Toont 0 tot 0 van de 0 resultaten",
     "sInfoFiltered"             => "(gefilterd van _MAX_ totale resultaten)",

@@ -16,14 +16,14 @@ return array(
     "manager"                       => "Manager",
     "access_level"                  => "Toegangsniveau",
     "access_level_desc"             => "Definieer het toegangsniveau van de gebruiker in de organisatie gebaseerd op het volgende schema:<br /><strong>Manager</strong> - Kan tickets opened van alle gebruikers in de oranisatie inzien en gebruikers beheren<br /><strong>Gebruiker</strong> - Kan alleen eigen tickets inzien",
-    "manage_organisation"           => "Beheer organisatie",
-    "leave_organisation"            => "Verlaat organisatie",
+    "manage_organisation"           => "Organisatie beheren",
+    "leave_organisation"            => "Organisatie verlaten",
     "user_membership"               => "Gebruikerlidmaatschap",
-    "transfer_ownership"            => "Draag ownership over",
+    "transfer_ownership"            => "Eigendom overdragen",
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kun je niet worden verwijderd als manager en alleen jij kunt de organisatie verwijderen. je kunt eigendom van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
     "start_typing_name"             => "Start met tikken van een naam...",
-    "organisation_add_user"         => "Voeg een gebruiker toe aan de organisatie",
+    "organisation_add_user"         => "Gebruiker toevoegen aan organisatie",
     "organisation_desc"             => "Elke organisatie kan <strong>managers</strong>hebben welke gebruikers kunnen beheren en andermans tickets kunnen beheren en <strong>gebruikers</strong>, elke tickets kunnen openen maar geen toegang tot andermans tickets hebben.",
     "organisation_operator_desc"    => "Voeg bestaande gebruikers toe aan deze organisatie door op \"Voeg gebruiker toe\" te klikken en te zoeken op hun naam. Let wel op dat het toevoegen van een gebruiker hun link naar een andere organisatie zal verwijderen.",
     "organisation_user_desc"        => "<strong>Manager</strong> - Kan andere gebruikersbeheren en andermans tickets inzien.<br /><strong>Gebruiker</strong> - Kan alleen tickets voor de organisatie inzien en op eigen tickets antwoorden",
@@ -31,24 +31,24 @@ return array(
 
     "profile"                       => "Profiel",
 
-    "login"                         => "Login",
-    "remember_me"                   => "Onthoud mij",
-    "logout"                        => "Logout",
-    "return_to_login"               => "Terug naar login",
+    "login"                         => "Inloggen",
+    "remember_me"                   => "Onthouden",
+    "logout"                        => "Uitloggen",
+    "return_to_login"               => "Terug naar inlogpagina",
 
-    "user_register_disabled"        => "Er kunnen momenteel geen nieuwe registraties plaatsvinden.",
+    "user_register_disabled"        => "Registeren is op dit moment niet mogelijk.",
     "success_register"              => "Je account is aangemaakt!",
     "register_now"                  => "Registreer nu",
     "register"                      => "Registreer",
-    "register_account"              => "Registreer Account",
-    "signed_up"                     => "Account gemaakt",
+    "register_account"              => "Registreer account",
+    "signed_up"                     => "Account aangemaakt",
     "last_active"                   => "Laatst actief",
 
     "forgot_password"               => "Wachtwoord vergeten?",
-    "reset_password"                => "Reset wachtwoord",
+    "reset_password"                => "Wachtwoord resetten",
     "set_password"                  => "Stel wachtwoord in",
     "please_set_password"           => "Stel hier je wachtwoord opnieuw in.",
-    "missing_email_or_reset"        => "Ontbrekend e-mailadres of reset-token.",
+    "missing_email_or_reset"        => "E-mailadres of reset-token mist.",
 
     "firstname"                     => "Voornaam",
     "lastname"                      => "Achternaam",
@@ -74,9 +74,9 @@ return array(
     "system_activity_log"           => "Systeem logboek",
     "activity_log"                  => "Activiteiten logboek",
 
-    "mass_email"                    => "Stuur bulk e-mail",
-    "send_email"                    => "Stuur E-mail",
-    "choose_template"               => "Kies template...",
+    "mass_email"                    => "Bulk e-mail versturen",
+    "send_email"                    => "E-mail versturen",
+    "choose_template"               => "Template kiezen...",
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
     "ldap_operator_desc"            => "Zoek naar een bestaande operator, of maak een nieuwe.",
@@ -114,29 +114,29 @@ return array(
     "password_str_case"             => "Zowel hoofd- als kleine letters.",
     "password_str_symbols"          => "Een teken.",
 
-    "load_template"                 => "Laad template",
+    "load_template"                 => "Template laden",
     "load_template_desc"            => "Kies een template welke de huige onderwerp en bericht zal vervangen.",
-    "clear_template"                => "Schoon template",
+    "clear_template"                => "Lege template",
 
     "personal_settings"             => "Persoonlijke instellingen",
     "personal_settings_desc"        => "Werk je profiel bij en wijzig instellingen die alleen van toepassing zijn op je eigen operatoraccount.",
-    "two_fa"                        => "tweefactorauthenticatie",
+    "two_fa"                        => "Tweefactorauthenticatie (2FA)",
     "notifications"                 => "Meldingen",
-    "two_fa_success_disabled"       => "tweefactorauthenticatie is uitgeschakeld.",
-    "two_fa_success_enabled"        => "tweefactorauthenticatie is ingeschakeld.",
+    "two_fa_success_disabled"       => "Tweefactorauthenticatie (2FA) is uitgeschakeld.",
+    "two_fa_success_enabled"        => "Tweefactorauthenticatie (2FA) is ingeschakeld.",
     "two_fa_incorrect"              => "De code was niet correct, controleer of de ingevulde code correct is en of de servertijd klopt.",
-    "two_fa_enabled"                => "tweefactorauthenticatie ",
-    "two_fa_disable"                => "Om tweefactorauthenticatie  uit te schakelen, bevestig hieronder.",
-    "two_fa_enable"                 => "Om tweefactorauthenticatie  in te schakelen, zorg dat je account op je telefoon onderstaande details gebruikt en bevestig.",
-    "verify_code"                   => "Bevestig code",
-    "verify_and_disable"            => "Bevestig en schakel uit",
-    "verify_and_enable"             => "Bevestig en schakel in",
-    "verify_code_desc"              => "Vul een geldige code in voor je tweefactorauthenticatie om uit te schakelen.",
+    "two_fa_enabled"                => "Tweefactorauthenticatie (2FA)",
+    "two_fa_disable"                => "Om tweefactorauthenticatie (2FA) uit te schakelen, vul je hieronder een tweefactorauthenticatie (2FA) code in.",
+    "two_fa_enable"                 => "Om tweefactorauthenticatie (2FA) in te schakelen, zorg dat je account op je telefoon onderstaande details gebruikt en bevestig.",
+    "verify_code"                   => "tweefactorauthenticatie (2FA) code",
+    "verify_and_disable"            => "tweefactorauthenticatie (2FA) uitschakelen",
+    "verify_and_enable"             => "tweefactorauthenticatie (2FA inschakelen)",
+    "verify_code_desc"              => "Vul een geldige tweefactorauthenticatie (2FA) code in om deze uit te schakelen.",
     "qr_code"                       => "QR Code",
-    "two_fa_code"                   => "tweefactorauthenticatie code",
-    "two_fa_secret"                 => "tweefactorauthenticatie  secret",
+    "two_fa_code"                   => "tweefactorauthenticatie (2FA) code",
+    "two_fa_secret"                 => "tweefactorauthenticatie (2FA) secret",
     "two_fa_secret_desc"            => "Bewaar dit op een veilige plaats, want je hebt dit nodig om het authenticator-account opnieuw aan je telefoon toe te voegen als je de toegang verliest.",
-    "display_notifications"         => "Toon meldingen",
+    "display_notifications"         => "Meldingen tonen",
     "display_notifications_desc"    => "Het systeem zal waarschuwen wanneer er nieuwe tickets of antwoorden worden aangemaakt, of wanneer andere operators inloggen. Je kunt kiezen tussen bureaubladmeldingen of meldingen in de browser, of deze volledig uitschakelen.",
     "desktop_notifications"         => "Desktopmeldingen",
     "browser_notifications"         => "Browsermeldingen",
@@ -224,7 +224,7 @@ return array(
     /*
      * 2.1.1
      */
-    "change_password"               => "Verander wachtwoord",
+    "change_password"               => "Wachtwoord veranderen",
     "current_password"              => "Huidig wachtwoord",
     "new_password"                  => "Nieuw wachtwoord",
     "personal_confirm_password"     => "Bevestig je nieuwe wachtwoord middels het oude wachtwoord.",
@@ -243,14 +243,14 @@ return array(
     /*
      * 2.3.0
      */
-    "remove_from"                   => "Verwijderen Van :record?",
+    "remove_from"                   => "Verwijderen van :record?",
     "remove_from_warn"              => "<Hiermee wordt de gebruiker strong>:name</strong>  definitief verwijderd uit :record.",
 
     /*
      * 2.3.1
      */
-    "social_login"                  => "Sociale Login",
-    "login_via"                     => "Log in via :provider",
+    "social_login"                  => "Social media Login",
+    "login_via"                     => "Inloggen via :provider",
     "idp"                           => "IdP",
     "social_linking_login"          => "Log in om het koppelen van je social media account te voltooien. ",
     "social_linking_register"       => "Vul de onderstaande gegevens in om de registratie van je account te voltooien. De sociale account wordt automatisch gekoppeld .",
@@ -258,7 +258,7 @@ return array(
     "linked_accounts"               => "Gelinkte Accounts",
     "unlink_account"                => ":record account loskoppelen ",
     "unlink_account_warning"        => "Als je social media account loskoppelt, kan deze niet langer worden gebruikt om rechtstreeks op het account in te loggen .",
-    "failed_login"                  => "Misluke Login|Misluke Logins",
+    "failed_login"                  => "Misluke login|Misluke logins",
     "resend_confirmation"           => "<strong><a href=':link'>Klik hier</a></strong> om een nieuwe bevestigingsmail te sturen.",
 
     /*
@@ -305,11 +305,11 @@ return array(
      * 3.0.0
      */
     "ldap_linked_error"             => "Account is gekoppeld aan een LDAP-service. Log in met je LDAP-gebruikersnaam en wachtwoord.",
-    "operator_message"              => "Operator Berichten",
+    "operator_message"              => "Operatorberichten",
     "force_two_fa"                  => "Tweefactorauthenticatie (2FA) forceren",
     "force_two_fa_desc"             => "Forceer tweefactorauthenticatie (2FA) voor alle accounts. Elk account zonder 2FA ingeschakeld, wordt door de stappen geleid om het in te stellen wanneer ze de volgende keer inloggen. ",
     "two_fa_required"               => "Tweefactorauthenticatie (2FA) is vereist. Volg de onderstaande informatie om door te gaan.",
-    "two_fa_user_enable"            => "De gebruiker kan tweefactorauthenticatie inschakelen op zijn account in zijn instellingen.",
+    "two_fa_user_enable"            => "De gebruiker kan tweefactorauthenticatie (2FA) inschakelen op zijn account in zijn instellingen.",
 
     /*
      * 3.3.0
