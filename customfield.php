@@ -2,7 +2,7 @@
 
 return array(
 
-    "customfield"               => "Aangepast veld|Aangepaste velden",
+    "customfield"               => "Eigen veld|Eigen Velden velden",
 
     // Options
     "boolean"                   => "Boolean",
@@ -42,7 +42,7 @@ return array(
     /*
      * 2.3.0
      */
-    "option_warning"            => "Als u bestaande opties verwijdert, worden alle opgeslagen velden gewist waarin die waarden momenteel zijn geselecteerd.",
+    "option_warning"            => "Als je bestaande opties verwijdert, worden alle opgeslagen velden gewist waarin die waarden momenteel zijn geselecteerd.",
     "regex_basic_desc"          => "Geef optioneel een reguliere expressie op om de aangepaste veldwaarde te valideren.",
     "regex_desc"                => "De regex is hoofdlettergevoelig, het is niet nodig om regex-scheidingstekens op te geven, en het gebruik van schuine strepen wordt automatisch overgeslagen. Voorbeeld: ^[a-z0-9_-]{6,18}$ zou afdwingen dat de waarde 6-18 tekens lang is en alleen een combinatie van alfanumerieke tekens, onderstrepingstekens en streepjes bevat.",
     "regex_error_message"       => "Validatiefoutbericht",

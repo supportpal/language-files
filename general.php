@@ -2,7 +2,7 @@
 
 return array(
 
-    "clear"                     => "Schoon",
+    "clear"                     => "Leegnaken",
     "begin"                     => "Begin",
     "documentation"             => "Documentatie",
     "good"                      => "Goed",
@@ -16,8 +16,8 @@ return array(
     "back"                      => "Terug",
     "custom"                    => "Aangepast",
     "url"                       => "URL",
-    "last_run"                  => "Laatste uitvoer",
-    "unknown"                   => "Ongekend",
+    "last_run"                  => "Laatst uitgevoerd",
+    "unknown"                   => "Onbekend",
     "open"                      => "Open",
     "pending"                   => "Wachtend",
     "continue"                  => "Doorgaan",
@@ -38,7 +38,7 @@ return array(
     "id"                        => "ID",
     "log"                       => "Log",
     "filter"                    => "Filter",
-    "ip_address"                => "IPadres",
+    "ip_address"                => "IP adres",
     "ip"                        => "IP",
     "permanent"                 => "Permanent",
     "reason"                    => "Reden",
@@ -46,7 +46,7 @@ return array(
     "detail"                    => "Detail|Details",
     "only_enter_to_change"      => "Alleen invullen om aan te passen",
     "operator"                  => "Operator|Operators",
-    "staff"                     => "Staf",
+    "staff"                     => "Medewerker",
     "frontend"                  => "Frontend",
     "message"                   => "Bericht|Berichten",
     "post"                      => "Post|Posts",
@@ -63,9 +63,9 @@ return array(
     "username"                  => "Gebruikersnaam",
     "password"                  => "Wachtwoord",
     "general"                   => "Algemeen",
-    "generalsetting"            => "Algemene instelling",
+    "generalsetting"            => "Algemene instellingen",
     "setting"                   => "Instelling|Instellingen",
-    "note"                      => "Aantekening|Aantekeningen",
+    "note"                      => "Notitie|Notities",
     "show"                      => "Toon",
     "hide"                      => "Verberg",
     "category"                  => "Categorie|Categorieën",
@@ -88,9 +88,9 @@ return array(
     "ascending"                 => "Oplopend",
     "descending"                => "Aflopend",
     "number"                    => "Nummer",
-    "order_by"                  => "Sorteer op",
+    "order_by"                  => "Sorteren op",
     "active"                    => "Actief",
-    "validate_auth"             => "Valideer Autenticatie",
+    "validate_auth"             => "Autenticatie valideren",
     "end"                       => "Einde",
     "loading"                   => "Laden",
     "maintenance"               => "Onderhoud",
@@ -100,7 +100,7 @@ return array(
     "share_via"                 => "Deel via",
     "print"                     => "Printen",
     "reply"                     => "Beantwoord",
-    "filter_results"            => "Filterresultaten",
+    "filter_results"            => "Filteren",
     "anyone"                    => "Wie dan ook",
     "text"                      => "Tekst",
     "attachment"                => "Bijlage|Bijlages",
@@ -114,8 +114,8 @@ return array(
     "reset"                     => "Reset",
     "interval"                  => "Interval",
     "content"                   => "Inhoud",
-    "sender"                    => "Zender",
-    "content_sender"            => "Content &amp; zender",
+    "sender"                    => "Afzender",
+    "content_sender"            => "Content &amp; afzender",
     "permissions"               => "Permissies",
     "no_permissions_found"      => "Geen permissies gevonden",
     "first"                     => "Eerste",
@@ -137,10 +137,10 @@ return array(
     "greater_than"              => "Groter dan",
     "less_than"                 => "Kleiner dan",
     "does_not_contain"          => "Bevat niet",
-    "viewing_operator"          => "Bekijk Operator",
-    "due"                       => "Klaar op",
-    "overdue"                   => "Over tijd",
-    "hours_before_overdue"      => "Uren tot over tijd",
+    "viewing_operator"          => "Bekijkende operator",
+    "due"                       => "Deadline",
+    "overdue"                   => "Deadline is overschreden",
+    "hours_before_overdue"      => "Uren tot deadline",
     "transfer"                  => "Transfer",
     "view_all"                  => "Bekijk Alle",
     "manage"                    => "Beheer",
@@ -158,15 +158,15 @@ return array(
 
     // Languages
     "language"                  => "Taal|Talen",
-    "default_language"          => "Standaard taal",
-    "language_toggle"           => "Taal dropdown",
+    "default_language"          => "Standaardtaal",
+    "language_toggle"           => "Talen dropdown",
 
     // Date/Time
     "never"                     => "Nooit",
     "always"                    => "Altijd",
-    "minute"                    => "Min|Mins",
+    "minute"                    => "Min|Minuten",
     "hour"                      => "Uur|Uren",
-    "custom_hours"              => "Aangepaste uren",
+    "custom_hours"              => "Aangepaste tijden",
     "day"                       => "Dag|Dagen",
     "month"                     => "Maand|Maanden",
     "year"                      => "Jaar|Jaren",
@@ -181,14 +181,14 @@ return array(
     /*
      * 2.0.2
      */
-    "show_details"              => "Toon details",
-    "hide_details"              => "Verberg details",
+    "show_details"              => "Details tonen",
+    "hide_details"              => "Details verbergen",
     "welcome"                   => "Welkom",
 
     /*
      * 2.0.3
      */
-    "sort_by"                   => "Sorteer op",
+    "sort_by"                   => "Sorteren op",
     "frequently_used"           => "Veel gebruikt",
     "recently_used"             => "Recentelijk gebruikt",
     "recently_created"          => "Recentelijk aangemaakt",
@@ -196,7 +196,7 @@ return array(
     "expand_all"                => "Alles uitklappen",
     "collapse_all"              => "Alles inklappen",
     "show_more"                 => "Toon meer",
-    "custom_fields"             => "Aangepast velden",
+    "custom_fields"             => "Eigen velden",
 
     /*
      * 2.1.0
@@ -204,15 +204,15 @@ return array(
     "na"                        => 'n.v.t.',
     "total"                     => "Totaal",
     "disabled"                  => "Uitgeschakeld",
-    "not_set"                   => "niet ingesteld",
+    "not_set"                   => "Niet ingesteld",
     "add_item"                  => "Toevoegen :item",
     "edit_item"                 => "Bewerk :item",
     "any"                       => "Elke",
-    "module_generalsetting"     => ":module Algemene instellingen",
+    "module_generalsetting"     => "Algemene :module instellingen",
     "field"                     => "Veld",
     "rule"                      => "Regel",
-    "start_date"                => "Start Datum",
-    "end_date"                  => "Eind Date",
+    "start_date"                => "Startdatum",
+    "end_date"                  => "Einddatum",
     "submitted_by"              => "Ingediend door",
     "every_minutes"             => "Elke :minutes",
 
@@ -223,7 +223,7 @@ return array(
     "size"                      => "grootte",
     "edited"                    => "bewerkt",
     "scheduled_for"             => "Gepland voor",
-    "drag_and_drop"             => "Drag en drop uw bijlagen hier.",
+    "drag_and_drop"             => "Drag en drop de bijlagen hier.",
 
     /*
      * 2.1.2
@@ -306,12 +306,12 @@ return array(
     "trash"                     => "Prullenbak",
     "trash_desc"                => "Records die langer dan :number dagen in de prullenbak staan worden automatisch verwijderd.",
     "restore"                   => "Herstellen",
-    "delete_forever"            => "Definitief verwijderen",
+    "delete_forever"            => "Verwijder definitief",
 
     /*
      * 2.6.0
      */
-    "remove_all"                => "Alles verwijderen",
+    "remove_all"                => "Verwijder alles",
 
     /*
      * 3.0.0
@@ -327,7 +327,7 @@ return array(
     "may"                       => "Mei",
     "june"                      => "Juni",
     "july"                      => "Juli",
-    "august"                    => "August",
+    "august"                    => "Augustus",
     "september"                 => "September",
     "october"                   => "Oktober",
     "november"                  => "November",
@@ -366,7 +366,7 @@ return array(
      * 3.3.0
      */
     "authentication"            => "Authenticatie",
-    "manage_credentials"        => "Beheer inloggegevens",
+    "manage_credentials"        => "Inloggegevens beheren",
 
     /*
      * 3.4.0

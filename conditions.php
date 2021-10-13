@@ -25,7 +25,7 @@ return array(
     "ticket_tag"                        => "Ticket tag",
     "ticket_updated"                    => "Ticket bijgewerkt",
     "user_email"                        => "E-mail adres gebruiker",
-    "user_full_name"                    => "Volledige naam gebruikers",
+    "user_full_name"                    => "Volledige naam gebruiker",
     "user_group"                        => "Gebruikersgroep",
 
     /*
@@ -38,23 +38,23 @@ return array(
      * 2.2.0
      */
     "hours_since_last_reply"            => "Uren sinds laatste antwoord",
-    "hours_since_last_reply_exc_notes"  => "Uren sinds laatste antwoord (exclusief aantekeningen)",
+    "hours_since_last_reply_exc_notes"  => "Uren sinds laatste antwoord (exclusief notities)",
     "hours_until_due"                   => "Uren nog over",
-    "last_ticket_replier_exc_notes"     => "Laatste beantwoorden (exclusief aantekeningen)",
+    "last_ticket_replier_exc_notes"     => "Laatste beantwoorder (exclusief notities)",
     "ticket_department_email"           => "Ticket afdeling E-mail",
-    "ticket_has_attachments"            => "Ticket heeft bijlagen",
+    "ticket_has_attachments"            => "Ticket heeft bijlages",
     "ticket_has_drafts"                 => "Ticket heeft concepten",
     "ticket_locked"                     => "Ticket gelocked",
     "ticket_merged"                     => "Ticket samengevoegd",
-    "ticket_message_count_exc_notes"    => "Ticket berichtenaantal (exclusief aantekeningen)",
-    "ticket_note_count"                 => "Ticket aantekenignen aantal",
+    "ticket_message_count_exc_notes"    => "Ticket berichtenaantal (exclusief notities)",
+    "ticket_note_count"                 => "Aantal ticket notities",
     "ticket_number"                     => "Ticket nummer",
     "ticket_reopened_time"              => "Ticket heropend op",
     "ticket_resolved_time"              => "Ticket opgelost",
     "user_account_active"               => "Gebruikersaccount actief",
-    "user_country"                      => "Gebruiker land",
-    "user_language"                     => "Gebruiker taal",
-    "user_timezone"                     => "Gebruiker tijdzone",
+    "user_country"                      => "Gebruikersland",
+    "user_language"                     => "Gebruikerstaal",
+    "user_timezone"                     => "Gebruikerstijdzone",
 
     /*
      * 2.3.0
@@ -74,7 +74,7 @@ return array(
      * 2.4.0
      */
     "watching_operator"                 => "Kijkende operator",
-    "exact_search_quotes"               => "Om een exacte zoekopdracht naar de zin uit te voeren, plaatst u deze tussen aanhalingstekens, zoals \"my phrase\".",
+    "exact_search_quotes"               => "Om een exacte zoekopdracht naar de zin uit te voeren, plaats je deze tussen aanhalingstekens, zoals \"my phrase\".",
 
     /*
      * 2.4.1
@@ -89,7 +89,7 @@ return array(
     /*
      * 3.0.0
      */
-    "user_2fa_enabled"                  => "Gebruiker heeft 2FA ingeschakeld ",
+    "user_2fa_enabled"                  => "Gebruiker heeft tweefactorauthenticatie ingeschakeld ",
     "article_type"                      => "Artikel type",
     "article_brand"                     => "Artikel merk",
 
