@@ -102,4 +102,9 @@ return array(
      * 3.5.0
      */
     "user_phone_number"                 => "Numéro de téléphone de l'utilisateur",
+
+    /*
+     * 3.7.0
+     */
+    "user_organisation_access_level"    => "User organisation access level",
 );
