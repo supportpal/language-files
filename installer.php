@@ -170,7 +170,6 @@ return array(
     "suggest_run_upgrade"       => "Er wordt al een upgrade uitgevoerd. Voer alsjeblieft app:upgrade uit.",
     "failed_to_download"        => "Kon bestand niet downloaden :message",
     "backup_failed_abort"       => "Back-up mislukt. Update wordt afgebroken.",
-    "update_failed"             => "Systeemupdate mislukt: :message.",
     "command_failed"            => "Commando :command, mislukt met output: :message.",
     "already_latest_version"    => "Je gebruikt al de nieuwste versie (:version).",
     "update_not_supported"      => "Automatische update naar de nieuwste versie (:version) wordt niet ondersteund.",
@@ -188,4 +187,9 @@ return array(
      * 3.6.1
      */
     "upgrade_via_docker"        => "Docker installatie gedetecteerd. Om te upgraden, volg  https://docs.supportpal.com/current/Upgrade+Guide#docker",
+
+    /*
+     * 3.7.0
+     */
+    "troubleshooting_tips"      => "Get troubleshooting tips",
 );

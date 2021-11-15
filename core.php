@@ -496,7 +496,6 @@ return array(
     "reply_ticket"              => "Reageren op ticket",
     "new_version_available"     => "Nieuwe versie beschikbaar",
     "new_version_desc"          => "Er is een nieuwe versie van SupportPal uitgebracht, we raden altijd aan om de installatie up-to-date te houden. <div class='description'>Als je deze melding negeert, wordt deze verborgen totdat er een nieuwere versie wordt uitgebracht.</div>",
-    "download"                  => "Download",
     "acknowledge"               => "Negeren",
     "running_latest_version"    => "Je gebruikt de nieuwste versie.",
     "running_prerelease"        => "Je gebruikt een pre-release versie.",
@@ -522,5 +521,11 @@ return array(
     "update_permitted_version"  => "De licentie staat alleen updaten toe naar :version.",
     "update_renew_support"      => "Verleng de ondersteuning en updates om bij te werken naar de nieuwste versie van SupportPal.",
     "renew"                     => "verlengen",
+
+    /*
+     * 3.7.0
+     */
+    "background_jobs"           => "Background Jobs",
+    "background_jobs_not_processing" => "Background jobs are not currently being processed, view <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>troubleshooting steps</a>.",
 
 );
