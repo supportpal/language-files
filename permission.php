@@ -120,4 +120,9 @@ return array(
      */
     "systemupdate"      => "Perform System Update",
 
+    /*
+     * 3.7.0
+     */
+    "background_jobs"   => "View Background Jobs",
+
 );

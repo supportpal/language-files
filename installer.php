@@ -170,7 +170,6 @@ return array(
     "suggest_run_upgrade"       => "An upgrade is already in progress. Please run app:upgrade instead.",
     "failed_to_download"        => "Failed to download file: :message",
     "backup_failed_abort"       => "Backup failed. Aborting update.",
-    "update_failed"             => "System update failed: :message.",
     "command_failed"            => "Command :command, failed with output: :message.",
     "already_latest_version"    => "You are already running the latest version (:version).",
     "update_not_supported"      => "Automatic update to latest version (:version) is not supported.",
@@ -188,4 +187,9 @@ return array(
      * 3.6.1
      */
     "upgrade_via_docker"        => "Docker deployment detected. To upgrade, follow https://docs.supportpal.com/current/Upgrade+Guide#docker",
+
+    /*
+     * 3.7.0
+     */
+    "troubleshooting_tips"      => "Get troubleshooting tips",
 );

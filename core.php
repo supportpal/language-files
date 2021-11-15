@@ -496,7 +496,6 @@ return array(
     "reply_ticket"              => "Reply to ticket",
     "new_version_available"     => "New Version Available",
     "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
-    "download"                  => "Download",
     "acknowledge"               => "Acknowledge",
     "running_latest_version"    => "You are running the latest version.",
     "running_prerelease"        => "You are running a prerelease version.",
@@ -522,5 +521,11 @@ return array(
     "update_permitted_version"  => "The license only permits updating to :version.",
     "update_renew_support"      => "To update to the latest version of SupportPal, please renew your support and updates.",
     "renew"                     => "Renew",
+
+    /*
+     * 3.7.0
+     */
+    "background_jobs"           => "Background Jobs",
+    "background_jobs_not_processing" => "Background jobs are not currently being processed, view <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>troubleshooting steps</a>.",
 
 );
