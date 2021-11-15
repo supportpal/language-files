@@ -394,4 +394,9 @@ return array(
     "revoke"                    => "Revoke",
     "configure"                 => "Configure",
 
+    /*
+     * 3.7.0
+     */
+    "download_all"              => "Download All",
+
 );
