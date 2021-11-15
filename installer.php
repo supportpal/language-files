@@ -170,7 +170,6 @@ return array(
     "suggest_run_upgrade"       => "Ya hay una actualización en progreso. Por favor, ejecuta app:upgrade en su lugar.",
     "failed_to_download"        => "Error al descargar el archivo: :message",
     "backup_failed_abort"       => "La copia de seguridad ha fallado. Cancelando actualización.",
-    "update_failed"             => "Error en la actualización del sistema: :message.",
     "command_failed"            => "El comando :command, ha fallado con el siguiente resultado: :message.",
     "already_latest_version"    => "Ya estás ejecutando la última versión (:version).",
     "update_not_supported"      => "No se admite la actualización automática a la última versión (:version).",
@@ -188,4 +187,9 @@ return array(
      * 3.6.1
      */
     "upgrade_via_docker"        => "Implementación de Docker detectada. Para actualizar, siga https://docs.supportpal.com/current/Upgrade+Guide#docker",
+
+    /*
+     * 3.7.0
+     */
+    "troubleshooting_tips"      => "Obtén sugerencias para solucionar problemas",
 );

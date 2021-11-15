@@ -120,4 +120,9 @@ return array(
      */
     "systemupdate"      => "Realizar la actualización del sistema",
 
+    /*
+     * 3.7.0
+     */
+    "background_jobs"   => "Ver trabajos en segundo plano",
+
 );
