@@ -191,5 +191,5 @@ return array(
     /*
      * 3.7.0
      */
-    "troubleshooting_tips"      => "Get troubleshooting tips",
+    "troubleshooting_tips"      => "Tips voor het oplossen van problemen ",
 );

@@ -525,7 +525,7 @@ return array(
     /*
      * 3.7.0
      */
-    "background_jobs"           => "Background Jobs",
-    "background_jobs_not_processing" => "Background jobs are not currently being processed, view <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>troubleshooting steps</a>.",
+    "background_jobs"           => "Cronjobs",
+    "background_jobs_not_processing" => "Crons worden momenteel niet verwerkt, bekijk de <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>stappen voor probleemoplossing</a>.",
 
 );

@@ -106,5 +106,5 @@ return array(
     /*
      * 3.7.0
      */
-    "user_organisation_access_level"    => "User organisation access level",
+    "user_organisation_access_level"    => "Toegangsniveau gebruikersorganisatie ",
 );
