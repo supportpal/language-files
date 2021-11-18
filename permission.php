@@ -123,6 +123,6 @@ return array(
     /*
      * 3.7.0
      */
-    "background_jobs"   => "View Background Jobs",
+    "background_jobs"   => "Crons bekijken",
 
 );
