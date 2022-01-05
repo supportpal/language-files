@@ -46,7 +46,7 @@ jobs:
 
       - name: Render template
         id: template
-        uses: chuhlomin/render-template@v1.3
+        uses: chuhlomin/render-template@v1.4
         with:
           template: .github/sync-template.md
           vars: |
