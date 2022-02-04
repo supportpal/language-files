@@ -392,7 +392,7 @@ return array(
     /*
      * 3.0.0
      */
-    "upload_unknown_error"      => "The file(s) could not uploaded due to a server-side error.",
+    "upload_unknown_error"      => "Filen/filerna kunde inte laddas upp på grund av ett okänt fel.",
     "insert_image"              => "Insert Image",
     "quote"                     => "Quote",
     "code"                      => "Code",
@@ -404,8 +404,8 @@ return array(
     "heading4"                  => "Heading 4",
     "heading5"                  => "Heading 5",
     "heading6"                  => "Heading 6",
-    "upload"                    => "Upload",
-    "upload_label"              => "Drop files here or click to upload",
+    "upload"                    => "Ladda upp",
+    "upload_label"              => "Dra och släpp filer här eller klicka på Ladda upp",
     "more_formatting"           => "More Formatting",
     "clearformat"               => "Clear Formatting",
     "bold"                      => "Bold",
@@ -421,7 +421,7 @@ return array(
     "outdent"                   => "Outdent",
     "indent"                    => "Indent",
     "lists"                     => "Lists",
-    "edit_html"                 => "Edit HTML",
+    "edit_html"                 => "Redigera HTML",
     "sEmptyTable"               => "No data available in table",
     "sInfo"                     => "Showing _START_ to _END_ of _TOTAL_ entries",
     "sInfoEmpty"                => "Showing 0 to 0 of 0 entries",
@@ -448,7 +448,7 @@ return array(
     "website_url_desc"          => "Add a link back to your main website in the support portal header.",
     "back_to_website"           => "Back to website",
     "template"                  => "Template",
-    "how_can_we_help"           => "How can we help you today?",
+    "how_can_we_help"           => "Hur kan vi hjälpa dig?",
     "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
     "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
     "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
