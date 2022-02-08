@@ -153,15 +153,15 @@ return array(
     "by"                        => "przez",
     "record"                    => "zapisz",
     "views"                     => "widoki",
-    "of"                        => "z",           
-    "to"                        => "do",           
+    "of"                        => "z",            // Used in group e.g. Last Thursday of November
+    "to"                        => "do",            // Used in a range e.g. 2 to 5
 
-   
+    // Languages
     "language"                  => "Język|Języki",
     "default_language"          => "Język domyślny",
     "language_toggle"           => "Rozwijane menu językowe",
 
-   
+    // Date/Time
     "never"                     => "Nigdy",
     "always"                    => "Zawsze",
     "minute"                    => "Minuta|Minuty",
@@ -318,7 +318,7 @@ return array(
      */
     "previous"                  => "Poprzedni",
     "neutral"                   => "Neutralny",
-    "and"                       => "i",           
+    "and"                       => "i",            // Used in "A and B"
     "optional"                  => "Opcjonalne",
     "january"                   => "Styczeń",
     "february"                  => "Luty",

@@ -68,7 +68,7 @@ return array(
 
     "rssfeed"                   => "Kanał RSS",
 
-   
+    // General settings
     "settings"                  => "Ustawienia samoobsługi",
     "enable_comments"           => "Włącz komentarze",
     "enable_comments_desc"      => "Zezwalaj użytkownikom na komentowanie artykułów.",

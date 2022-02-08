@@ -80,7 +80,7 @@ return array(
 
     "not_operator"          => "Coś poszło nie tak. Wybrany operator jest nieprawidłowy. Upewnij się, że należy on do grupy operatorów, a grupa ma powiązaną rolę.",
 
-   
+    // The error message is appended using JavaScript...
     "datatable_error"       => "<strong>Ups! Coś poszło nie tak.</strong><br />Wystąpił błąd podczas ładowania danych tabeli. Powiadom administratora systemu, jeśli błąd będzie się powtarzał.",
 
     "missing_extension"     => "Brakujące rozszerzenie",

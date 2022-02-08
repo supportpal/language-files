@@ -4,7 +4,7 @@ return array(
 
     "generalsetting"    => "Aktualizuj ustawienia ogólne",
 
-   
+    // Core
     "apitoken"          => "Zarządzaj tokenami API",
     "emailtemplate"     => "Zarządzaj szablonami wiadomości e-mail",
     "ipban"             => "Zarządzaj banami IP",
@@ -18,7 +18,7 @@ return array(
     "emailqueue"        => "Wyświetl kolejkę e-mail",
     "systemcleanup"     => "Wykonaj czyszczenie systemu",
 
-   
+    // User
     "operatorgroup"     => "Zarządzaj grupami operatorów",
     "organisation"      => "Zarządzaj organizacjami",
     "role"              => "Zarządzaj rolami operatorów",
@@ -32,7 +32,7 @@ return array(
     "activitylog"       => "Wyświetl logi aktywności systemu",
     "operatorlog"       => "Wyświetl logi logowania operatora",
 
-   
+    // Ticket
     "cannedresponse"    => "Zarządzaj gotowymi odpowiedziami",
     "channel"           => "Zarządzaj kanałami",
     "department"        => "Zarządzaj działami",
@@ -48,39 +48,39 @@ return array(
     "ticket_edit"       => "Zaktualizuj zgłoszenia",
     "ticketcustomfield" => "Zarządzaj polami niestandardowymi",
 
-   
+    // Self-service
     "article"           => "Zarządzaj artykułami",
     "category"          => "Zarządzaj kategoriami",
     "comment"           => "Zarządzaj komentarzami",
     "selfservicetype"   => "Zarządzaj typami",
 
-   
+    // Report
     "report"            => "Zobacz raporty",
     "reportdashboard"   => "Wyświetl pulpit nawigacyjny",
 
-   
+    // General
     "tag"               => "Zarządzaj etykietami",
 
     /*
      * 2.0.2
      */
-   
+    // Core
     "plugin"            => "Zobacz wtyczki",
 
     /*
      * 2.0.3
      */
-   
+    // User
     "operator"          => "Zarządzaj operatorami",
 
     /*
      * 2.1.0
      */
-   
+    // Core
     "brand"             => "Zarządzaj markami",
     "phpinfo"           => "Wyświetl informacje o PHP",
 
-   
+    // User
     "usercustomfield"   => "Zarządzaj niestandardowymi polami użytkownika",
     "organisationcustomfield" => "Zarządzaj niestandardowymi polami organizacji",
     "operatorsignature" => "Zarządzaj podpisami operatorów",
@@ -88,19 +88,19 @@ return array(
     /*
      * 2.1.1
      */
-   
+    // Core
     "logfiles"          => "Zarządzaj logami",
 
     /*
      * 2.4.0
      */
-   
+    // User
     "sociallogin"       => "Zarządzaj logowaniem społecznościowym",
 
     /*
      * 2.5.0
      */
-   
+    // Ticket
     "ticket_delete"     => "Usuń zgłoszenia na stałe",
     "ticket_trash"      => "Przenieś zgłoszenia do kosza",
 

@@ -2,12 +2,12 @@
 
 return array(
 
-   
+    // Standard messages
     "item_created"                      => "Utworzono nowy :item :rel.",
     "item_updated"                      => "Zaktualizowano :item :rel.",
     "item_deleted"                      => "Usunięto :item :rel.",
 
-   
+    // Custom messages
     "ip_ban_created"                    => "Utworzono nowy zakaz na IP :rel.",
     "ip_ban_updated"                    => "Zaktualizowano zakaz na IP :rel.",
     "ip_ban_deleted"                    => "Usunięto zakaz na IP :rel.",
