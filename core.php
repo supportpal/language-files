@@ -2,13 +2,13 @@
 
 return array(
 
-   
+    // SupportPal
     "product_name"              => "SupportPal",
     "operator_panel"            => "Panel operatora",
     "welcome"                   => "Witaj w SupportPal",
     "welcome_desc"              => "Dokonałeś mądrego wyboru. Kliknij Start, aby rozpocząć krótką prezentację naszych ustawień i funkcji.",
 
-   
+    // Dashboard
     "submit_ticket"             => "Złóż zgłoszenie",
     "submit_ticket_desc"        => "Użyj tego formularza, aby przesłać zgłoszenie do naszego wysoko wyszkolonego personelu.",
     "track_ticket"              => "Śledź zgłoszenie",
@@ -19,12 +19,12 @@ return array(
     "search_results"            => "Wyniki Wyszukiwania",
     "found_results"             => "Znaleziono :total rekordów dla wyszukiwanego terminu",
 
-   
+    // Maintenance
     "maintenance"               => "Obecnie przeprowadzamy konserwację",
     "maintenance_desc"          => "Nasze biuro pomocy jest chwilowo niedostępne, ponieważ prowadzimy prace konserwacyjne. Dziękujemy za cierpliwość podczas wprowadzania zmian, wkrótce wrócimy.",
     "maintenance_active"        => "Tryb konserwacji jest aktywny.",
 
-   
+    // About
     "license_status"            => "Status Licencji",
     "license_code"              => "Kod licencyjny",
     "change_license"            => "Zmień Licencję",
@@ -42,7 +42,7 @@ return array(
     "available_version"         => "Dostępna wersja",
     "monthly_product"           => "* Twoja data wygaśnięcia będzie automatycznie dostosowywana co miesiąc po zapłaceniu wszelkich zaległych faktur.",
 
-   
+    // API Tokens
     "api_token"                 => "Token API|Tokeny API",
     "token"                     => "Token",
     "regenerate_token"          => "Regeneruj token",
@@ -50,7 +50,7 @@ return array(
     "read_write"                => "Odczyt i Zapis",
     "read_only"                 => "Tylko Odczyt",
 
-   
+    // Spam Rules & Filtering
     "spam_rule"                 => "Reguła dotycząca spamu | Reguły dotyczące spamu",
     "containing_text"           => "Zawiera Tekst",
     "filter_new_message"        => "Wiadomość nowego zgłoszenia (od Użytkownika)",
@@ -62,10 +62,10 @@ return array(
     "sender"                    => "Nadawca",
     "content_sender"            => "Treść i Nadawca",
 
-   
+    // Company
     "company"                   => "Firma|Firmy",
 
-   
+    // Email
     "default_email_addr"        => "Domyślny adres e-mail",
     "default_email_addr_desc"   => "E-mail, który będzie używany w polu nadawcy w większości e-maili wysyłanych przez system.",
     "include_operator_name"     => "Dołącz Nazwę Operatora",
@@ -100,12 +100,12 @@ return array(
     "email_subject"             => "Temat e-maila",
     "twig_html_warning"         => "Twig nie jest dozwolony wewnątrz tagów/atrybutów HTML i zostanie automatycznie usunięty przy zapisie.",
 
-   
+    // Modules
     "modules"                   => "Moduł|Moduły",
     "modules_desc"              => "Poniżej znajduje się lista wszystkich dostępnych modułów, kliknij ikonę edycji, aby zaktualizować ustawienia dla tego modułu.",
     "module_disable"            => "Wyłączone moduły zostaną usunięte z frontendu i interfejsu operatora.",
 
-   
+    // Scheduled tasks
     "scheduled_task"            => "Zaplanowane zadanie|Zaplanowane zadania",
     "interval_desc"             => "Ustaw jak często to zadanie będzie uruchamiane, na przykład ustawienie 5 minut będzie oznaczało, że zadanie będzie uruchamiane co 5 minut, jeśli cron jest aktywny i uruchomiony.",
     "cron_settings"             => "Ustawienia Crona",
@@ -114,21 +114,21 @@ return array(
     "task_ran"                  => "Pomyślnie uruchomiono zaplanowane zadanie ręcznie.",
     "task_failed"               => "Nieudana próba ręcznego uruchomienia zaplanowanego zadania.",
 
-   
+    // Plugins
     "plugins"                   => "Wtyczka|Wtyczki",
     "installed_plugins"         => "Zainstalowane wtyczki",
     "visit_plugin"              => "Odwiedź Stronę Wtyczki",
 
-   
+    // Messages
     "last_activity"             => "Ostatnia aktywność",
     "send_to"                   => "Wysłać do",
     "inbox"                     => "Skrzynka odbiorcza",
     "compose"                   => "Skomponuj",
 
-   
+    // Utilities
     "utilities"                 => "Narzędzia",
 
-   
+    // System Cleanup
     "system_cleanup"            => "Oczyszczanie systemu",
     "system_cleanup_desc"       => "Skorzystaj z dostępnych opcji, aby usunąć dane, które mogą już nie być potrzebne lub potrzebne.",
     "files"                     => "Pliki",
@@ -147,16 +147,16 @@ return array(
     "email_log_desc"            => "Przechowuje wszystkie przychodzące i wychodzące wiadomości e-mail, możesz przycinać rekordy przed określoną datą.",
     "operator_login_log_desc"   => "Przechowuje za każdym razem, gdy operator się loguje, możesz przycinać rekordy przed określoną datą.",
 
-   
+    // Captcha
     "captcha"                   => "Captcha",
     "show_captcha"              => "Pokaż Captcha",
 
-   
+    // Widgets
     "dashboard"                 => "Panel",
     "add_remove_widget"         => "Dodaj/Usuń Widgety",
     "enable_tour"               => "Włącz Prezentację Produktu",
 
-   
+    // Product Tour
     "dashboard_desc"            => "Twój osobisty pulpit nawigacyjny. Widżety można usuwać, minimalizować i przenosić!",
     "private_messages"          => "Prywatne wiadomości",
     "messages_desc"             => "Prywatne wiadomości służą jako użyteczny sposób na rozmowy 1:1 z innymi operatorami help desk.",
@@ -185,7 +185,7 @@ return array(
     "tour_complete"             => "Wycieczka zakończona!",
     "tour_complete_desc"        => "Dziękujemy za korzystanie z SupportPal.<br /><br />Teraz zalecamy skorzystanie z poniższego przewodnika wprowadzającego, aby skonfigurować swoje biuro pomocy.",
 
-   
+    // IP Ban
     "ip_ban_time_desc"          => "Jeśli zakaz jest stały lub czasowy.",
     "expiry"                    => "Wygaśnięcie",
     "expired"                   => "Wygasły",
@@ -193,10 +193,10 @@ return array(
     "expiry_time_desc"          => "Czas wygaśnięcia zakazu, jeśli data nie jest ustalona lub jest w przeszłości, zostanie automatycznie ustawiona na 24 godziny od teraz.",
     "permanent"                 => "Stały",
 
-   
+    // Languages
     "no_enabled_languages"      => "Nieudana próba aktualizacji :item. Co najmniej jeden język musi być włączony przez cały czas.",
 
-   
+    // General Settings
     "locale"                    => "Lokalny",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Folder Administratora",

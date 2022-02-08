@@ -4,7 +4,7 @@ return array(
 
     "customfield"               => "Pole niestandardowe|Pola niestandardowe",
 
-   
+    // Options
     "boolean"                   => "Prawda/fałsz",
     "checkbox"                  => "Checkbox",
     "checklist"                 => "Check lista",

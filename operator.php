@@ -2,7 +2,7 @@
 
 return array(
 
-   
+    // Merge fields
     "merge_fields"              => "Połącz pola",
     "strings"                   => "Pola tekstowe",
     "collections"               => "Kolekcje",

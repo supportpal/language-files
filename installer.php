@@ -2,10 +2,10 @@
 
 return array(
 
-   
+    // Pre installation check
     "requirements_failed"       => "Wymagania systemowe nie powiodły się",
 
-   
+    // Index
     "supportpal_installer"      => "SupportPal Instalator",
     "select_language"           => "Wybierz język",
     "install_type"              => "Typ instalacji",
@@ -13,16 +13,16 @@ return array(
     "upgrade"                   => "Uaktualnij istniejącą instalację",
     "support"                   => "Kod licencyjny użyty do tej instalacji nie ma prawidłowego wsparcia &amp; uaktualnia subskrypcję i jako taka nie kwalifikuje się do zainstalowania tej wersji SupportPal. <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>odnów</a> wsparcie &amp; subskrypcja aktualizacji lub przywróć pliki instalacyjne.",
 
-   
+    // Upgrade
     "successfully_updated"      => "Gratulacje, SupportPal został pomyślnie uaktualniony.",
 
-   
-   
+    // Install
+    // Step 1
     "step_1"                    => "Krok 1 z 7: Zaakceptuj umowę EULA",
     "step_1_desc"               => "Przeczytaj naszą umowę licencyjną na oprogramowanie poniżej. Kontynuując, zgadzasz się na licencję.",
     "i_accept_and_continue"     => "Akceptuję i kontynuuję",
 
-   
+    // Step 2
     "step_2"                    => "Krok 2 z 7: Wymagania systemowe",
     "not_available"             => "Niedostępne",
     "php_version"               => "Wersja PHP",
@@ -31,7 +31,7 @@ return array(
     "file_writeable"            => "Uprawnienia do plików",
     "file_writeable_desc"       => "Wszystkie poniższe elementy powinny być dostępne do zapisu przez serwer WWW. Zalecamy korzystanie z uprawnień do plików 755, chociaż niektóre systemy mogą wymagać uprawnień 777, jeśli pliki nie są własnością użytkownika serwera WWW. Katalogi powinny być możliwe do zapisania rekurencyjnie.",
 
-   
+    // Step 3
     "step_3"                    => "Krok 3 z 7: Baza danych",
     "step_3_desc"               => "Wprowadź szczegóły bazy danych skonfigurowanej dla SupportPal.",
     "hostname"                  => "Nazwa hosta",
@@ -40,24 +40,24 @@ return array(
     "database"                  => "Baza danych",
     "database_not_empty"        => "Baza danych nie może zawierać żadnych tabel.",
 
-   
+    // Step 4
     "step_4"                    => "Krok 4 z 7: Twórz tabele",
     "step_4_desc"               => "Migracja zostanie wykonana w tle, a szczegółowy dziennik zostanie zapisany poniżej, może to potrwać kilka minut. Po zakończeniu kliknij przycisk Kontynuuj, który się pojawi.",
 
-   
+    // Step 5
     "step_5"                    => "Krok 5 z 7: Konto operatora",
     "step_5_desc"               => "SupportPal wymaga ważnej licencji do działania, wprowadź ją poniżej.",
     "license_desc"              => "Twój klucz licencyjny SupportPal ma 23 znaki i zaczyna się od SP-",
     "operator_desc"             => "Utwórz konto administratora dla panelu operatora, wprowadzając wszystkie poniższe dane.",
     "validating_license"        => "Weryfikuję licencję...",
 
-   
+    // Step 6
     "step_6"                    => "Krok 6 z 7: Szybka konfiguracja",
     "step_6_desc"               => "Wpisz poniżej dane swojej firmy i witryny.",
     "locale_desc"               => "Ustaw ustawienia regionalne dla swojego systemu.",
     "operator_success"          => "Twoje konto administratora zostało utworzone.",
 
-   
+    // Step 7
     "step_7"                    => "Krok 7 z 7: Zainstalowano!",
     "successfully_installed"    => "Gratulacje, SupportPal został pomyślnie zainstalowany.",
     "operator_panel"            => "Panel operatora",

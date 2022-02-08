@@ -66,13 +66,13 @@ return array(
     "track_ticket"              => "Śledź zgłoszenie",
     "view_ticket"               => "Zobacz zgłoszenie",
 
-   
+    // Recent activity
     "recent_activity"           => "Ostatnia aktywność",
 
     "ticket_number"             => "Numer zgłoszenia",
     "ticket_format"             => "Format numeru zgłoszenia",
 
-   
+    // Departments
     "department_public_desc"    => "Jeśli dział jest widoczny dla użytkowników w internetowej pomocy technicznej.",
     "department_parent_desc"    => "Jeśli oddział jest pododdziałem, proszę wybrać rodzica. Poddziały są przeznaczone do wewnętrznej eskalacji i zarządzania, dlatego ustawienie tego spowoduje usunięcie niektórych z poniższych opcji.",
     "department_priority"       => "Priorytety działów",
@@ -82,7 +82,7 @@ return array(
     "department_default_assign" => "Domyślnie przypisany do",
     "dept_default_assign_desc"  => "Użyj tego, jeśli chcesz, aby zgłoszenia otwierane w tym dziale były automatycznie przypisywane do jednego lub większej liczby operatorów.",
 
-   
+    // Department emails
     "email_accounts_desc"       => "Skonfiguruj adresy e-mail dla działu, każda przychodząca wiadomość e-mail na te adresy e-mail spowoduje otwarcie zgłoszeń w tym dziale. Pierwszy adres e-mail jest używany jako domyślny adres e-mail nadawcy poczty wychodzącej.",
     "department_port"           => "Wartości domyślne to: 110 dla POP3, 995 dla bezpiecznego POP3, 143 dla IMAP i 993 dla bezpiecznego IMAP. Pozostaw puste, aby użyć wartości domyślnej.",
     "department_encryption"     => "Niektórzy dostawcy poczty e-mail wymagają szyfrowania SSL lub TLS w celu połączenia, jeśli nie masz pewności, pozostaw to ustawienie jako Brak.",
@@ -98,19 +98,19 @@ return array(
     "email_piping_desc"         => "Skonfiguruj forwarder poczty e-mail w sposób przedstawiony poniżej. Ścieżka do pliku wykonywalnego PHP może być inna na Twoim serwerze.",
     "remote_email_piping"       => "Zdalne przesyłanie wiadomości e-mail",
 
-   
+    // Department email options
     "email_options"             => "Opcje e-mail",
     "email_user_on_email"       => "Wyślij e-mailem do użytkowników zgłoszeń otwieranych przez e-mail",
     "email_user_on_email_desc"  => "Wybierz, czy użytkownicy powinni być powiadamiani e-mailem, gdy wysłana wiadomość e-mail spowoduje otwarcie nowego zgłoszenia.",
     "email_operators"           => "Powiadom operatorów",
     "email_operators_desc"      => "Wybierz, czy chcesz przekazywać odpowiedzi operatora do innych operatorów. Domyślnie zaznacza opcję \"operatorzy poczty e-mail\" w panelu operatora i automatycznie wysyła wiadomość e-mail z odpowiedziami e-mail od operatorów.",
-   
+    // Department email templates
     "new_ticket_opened"         => "Otwarto nowe zgłoszenie",
     "waiting_for_response"      => "Czekanie na odpowiedź",
     "ticket_auto_closed"        => "Automat zgłoszeniowy zamknięty",
     "closed_by_operator"        => "Zamknięte przez operatora",
 
-   
+    // Feedback
     "feedback"                  => "Opinie",
     "feedback_form"             => "Formularz opinii|Formularze opinii",
     "feedback_form_desc"        => "Formularze opinii są przetwarzane w kolejności, w jakiej się pojawiają. Przeciągnij wiersze, aby zmienić kolejność i dostosować priorytet formularzy opinii.",
@@ -135,19 +135,19 @@ return array(
     "feedback_for_ticket"       => "Opinie dotyczące zgłoszenia #:number",
     "feedback_rating_desc"      => "Wsparcie otrzymane w ramach tego zgłoszenia zostało ocenione przez użytkownika jako <strong>:rating</strong>.",
 
-   
+    // Custom fields
     "customfield"               => "Pole niestandardowe zgłoszenia|Pola niestandardowe zgłoszenia",
     "customfield_order"         => "Przeciągnij wiersze, aby zmienić kolejność wyświetlania pól niestandardowych użytkownikom podczas otwierania zgłoszeń przez Internet.",
 
-   
+    // Canned responses
     "cannedresponse"            => "Gotowa odpowiedź|Gotowe odpowiedzi",
 
-   
+    // Filters
     "filter"                    => "Filtruj|Filtry",
     "filter_condition"          => "Warunki filtrowania",
     "filter_condition_desc"     => "Zdefiniuj warunki, dla których zgłoszenia są wyświetlane w tym filtrze.",
 
-   
+    // Macros
     "macro"                     => "Makro|Makra",
     "macro_condition"           => "Warunki makr",
     "macro_action"              => "Akcje makr",
@@ -159,32 +159,32 @@ return array(
 
     "allowed_files"             => "Dozwolone typy plików załączników",
 
-   
+    // Drafts
     "also_viewing"              => "<strong>:name</strong> również wyświetla zgłoszenie.",
     "draft_saved"               => "Wersja robocza zapisana o :time",
     "save_draft"                => "Zapisz wersję roboczą",
     "discard_draft"             => "Odrzuć wersję roboczą",
 
-   
+    // Locked
     "error_ticket_locked"       => "To zgłoszenie zostało zablokowane i nie można go ponownie zaktualizować. Otwórz nowe zgłoszenie, jeśli potrzebujesz dalszej pomocy.",
 
-   
+    // Ticket Followups
     "follow_up"                 => "Śledź",
     "follow_up_status_desc"     => "Ustaw zgłoszenie na inny status do następnego terminu.",
     "exact_date_time"           => "Dokładna data i godzina",
     "time_from_now"             => "Czas od teraz",
 
-   
+    // Schedule
     "schedule"                  => "Harmonogram|Harmonogramy",
     "business_hour"             => "Godziny pracy",
     "business_hour_desc"        => "Godziny pracy wskazują godziny, w których pracownicy są dostępni, aby odpowiedzieć na pytania dotyczące harmonogramu. Godziny są brane pod uwagę przy obliczaniu terminów płatności zgłoszeń.",
 
-   
+    // Holidays
     "holiday"                   => "Wakacje|Wakacje",
     "holiday_or_on_the"         => "lub, na",
     "holiday_month_year_desc"   => "Rok jest opcjonalny, jeśli wakacje się powtarzają. Wybierz rok tylko wtedy, gdy wakacje przypadają w tym dniu w danym roku.",
 
-   
+    // SLA Plans
     "sla_plan"                  => "Plan SLA|Plany SLA",
     "specific_schedule"         => "Szczegółowe harmonogramy",
     "calendar_hours_24"         => "Godziny kalendarzowe (24 godziny)",
@@ -205,7 +205,7 @@ return array(
     "any_condition"             => "DOWOLNY warunek w grupie może być prawdziwy",
     "sla_plan_desc"             => "Plany SLA są przetwarzane w kolejności, w jakiej się pojawiają. Przeciągnij wiersze, aby zmienić kolejność i dostosować priorytet planów SLA.",
 
-   
+    // Reply options
     "reply_options"             => "Opcje odpowiedzi",
     "send_email_to_users"       => "Wyślij e-mail do użytkownika(ów)",
     "send_email_to_operators"   => "Wyślij e-mail do operatora(ów)",
@@ -256,7 +256,7 @@ return array(
     "show_related_articles"     => "Pokaż powiązane artykuły",
     "show_related_articles_desc" => "Gdy użytkownik wpisuje temat, mogą zostać mu pokazane powiązane artykuły na podstawie tego, co wpisał. Wymaga włączenia modułu samoobsługi i MySQL 5.6+.",
 
-   
+    // Email Channel Settings
     "default_priority"          => "Domyślny priorytet",
     "default_priority_desc"     => "Domyślny priorytet ustawiony dla wszystkich zgłoszeń przychodzących za pośrednictwem tego kanału.",
     "verbose_email_log"         => "Pełny log poczty e-mail",
@@ -468,7 +468,7 @@ return array(
     "macro_type"                => "Typ makra",
     "macro_type_desc"           => "Dostępne są trzy rodzaje makr. Makra ręczne mogą być uruchamiane tylko z widoku lub siatki zgłoszenia, makra automatyczne uruchamiane na nierozwiązanych zgłoszeniach co godzinę, a makra przechwytujące uruchamiane na określonych zdarzeniach zgłoszenia. Makra automatyczne i przechwytujące można również ustawić tak, aby działały tylko w określonych harmonogramach. Wszelkie akcje makr przechwytujących nie będą wyzwalać innych makr przechwytujących, aby uniknąć ryzyka wystąpienia pętli.",
     "macro_run_at_most"         => "Uruchom najwyżej",
-    "macro_run_times"           => "razy",
+    "macro_run_times"           => "razy", // As in '5 times'
     "macro_run_at_most_desc"    => "Ogranicz, ile razy automatyczne makro może zostać uruchomione na jednym bilecie, pozostaw puste, aby umożliwić mu uruchamianie nieograniczoną liczbę razy.",
     "macro_events_desc"         => "Wybierz co najmniej jedno zdarzenie, dla którego ma być uruchamiane makro. Poniższe warunki zostaną sprawdzone przed uruchomieniem makra.",
     "macro_schedules_desc"      => "Domyślnie makro będzie działać 24 godziny na dobę, 7 dni w tygodniu, ale możesz wybrać jeden lub więcej harmonogramów pomocy technicznej, aby makro było aktywne tylko w tych godzinach.",
