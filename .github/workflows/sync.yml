@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        branch: ['de', 'es', 'fa', 'fr', 'nl', 'pt_BR', 'rs', 'ru', 'sv', 'tr']
+        branch: ['de', 'es', 'fa', 'fr', 'nl', 'pl', 'pt_BR', 'rs', 'ru', 'sv', 'tr']
         path: ['614ed54b-7b88-4936-a3a2-e1a84669010a']
 
     steps:
