@@ -4,78 +4,78 @@ return array(
     /*
      * 2.0.2
      */
-    "add_ticket_note"           => "Add ticket note",
-    "add_ticket_reply"          => "Add ticket reply",
-    "add_tag"                   => "Add tag",
-    "assign_operator"           => "Assign operator to ticket",
-    "remove_tag"                => "Remove tag",
-    "email_operators"           => "Send email to operators",
-    "email_operator_group"      => "Send email to an operator group",
-    "email_user"                => "Send email to user",
-    "email_user_group"          => "Send email to a user group",
-    "unassign_operator"         => "Unassign operator from ticket",
-    "update_department"         => "Update department",
-    "update_priority"           => "Update priority",
-    "update_status"             => "Update status",
+    "add_ticket_note"           => "Dodaj notatkę do zgłoszenia",
+    "add_ticket_reply"          => "Dodaj odpowiedź do zgłoszenia",
+    "add_tag"                   => "Dodaj etykietę",
+    "assign_operator"           => "Przypisz operatora do zgłoszenia",
+    "remove_tag"                => "Usuń etykietę",
+    "email_operators"           => "Wyślij wiadomość e-mail do operatorów",
+    "email_operator_group"      => "Wyślij wiadomość e-mail do grupy operatorów",
+    "email_user"                => "Wyślij wiadomość e-mail do użytkownika",
+    "email_user_group"          => "Wyślij wiadomość e-mail do grupy użytkowników",
+    "unassign_operator"         => "Anuluj przypisanie operatora do zgłoszenia",
+    "update_department"         => "Zaktualizuj dział",
+    "update_priority"           => "Zaktualizuj priorytet",
+    "update_status"             => "Zaktualizuj status",
 
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Update ticket custom field value",
+    "update_custom_field"       => "Zaktualizuj wartość pola zgłoszenia klienta",
 
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Increase due time",
-    "close_and_lock_ticket"     => "Close and lock ticket",
-    "pause_due_time"            => "Pause due time",
-    "reduce_due_time"           => "Reduce due time",
-    "set_due_time"              => "Set due time",
-    "unlock_ticket"             => "Unlock ticket",
-    "update_sla_plan"           => "Update SLA plan",
-    "update_subject"            => "Update subject",
-    "add_user_to_group"         => "Add user to user group",
-    "remove_user_from_group"    => "Remove user from user group",
-    "authenticated_operator"    => "Authenticated operator",
-    "all_assigned_operators"    => "All assigned operators",
-    "all_tags"                  => "All tags",
-    "subject_placeholder"       => "{{ ticket.subject }} is the placeholder for the existing ticket subject if you wish to simply prepend or append to it.",
-    "hours_to_be_added"         => "hours to be added to the current due time.",
-    "hours_to_be_removed"       => "hours to be removed from the current due time.",
-    "hours_to_be_set"           => "hours to be added to the current time and set as the ticket's new due time.",
-    "only_with_due_time"        => "Only applies to tickets with a due time currently set.",
-    "set_due_time_desc"         => "Clear the current due time by leaving the field blank. Can also set a due time in the past by using a negative number.",
+    "increase_due_time"         => "Wydłuż termin wykonania",
+    "close_and_lock_ticket"     => "Zamknij i zablokuj zgłoszenie",
+    "pause_due_time"            => "Wstrzymaj termin wykonania",
+    "reduce_due_time"           => "Skróć termin wykonania",
+    "set_due_time"              => "Ustaw termin wykonania",
+    "unlock_ticket"             => "Odblokuj zgłoszenie",
+    "update_sla_plan"           => "Zaktualizuj plan SLA (plan układu poziomu usług)",
+    "update_subject"            => "Zaktualizuj temat",
+    "add_user_to_group"         => "Dodaj użytkownika do grupy",
+    "remove_user_from_group"    => "Usuń użytkownika z grupy",
+    "authenticated_operator"    => "Uwierzytelniony operator",
+    "all_assigned_operators"    => "Wszyscy przypisani operatorzy",
+    "all_tags"                  => "Wszystkie etykiety",
+    "subject_placeholder"       => "{{ ticket.subject }} jest zamiennikiem dla istniejącego tematu zgłoszenia, jeśli chcesz coś do niego dodać.",
+    "hours_to_be_added"         => "Godziny, które zostaną dodane do aktualnego terminu.",
+    "hours_to_be_removed"       => "Godziny, które zostaną usunięte z aktualnego terminu.",
+    "hours_to_be_set"           => "Godziny, które należy dodać do aktualnego czasu i ustawić jako nowy termin wykonania zgłoszenia.",
+    "only_with_due_time"        => "Tylko z zgłoszeniami z ustalonym terminem wykonania.",
+    "set_due_time_desc"         => "Wyczyść aktualny termin wykonania zgłoszenia, pozostawiając to pole puste. Możesz również ustawić przeszły termin wykonania, używając liczby ujemnej.",
 
     /*
      * 2.3.0
      */
-    "add_cc"                    => "Add CC email address",
-    "remove_cc"                 => "Remove CC email address",
-    "remove_cc_desc"            => "Leave blank to remove all CC email addresses on ticket.",
+    "add_cc"                    => "Dodaj adres e-mail CC",
+    "remove_cc"                 => "Usuń adres e-mail z CC",
+    "remove_cc_desc"            => "Pozostaw puste, aby usunąć wszystkie adresy e-mail CC w zgłoszeniu.",
 
     /*
      * 2.3.1
      */
-    "exclude_cc"                => "Exclude CC email addresses",
+    "exclude_cc"                => "Wyklucz adresy e-mail z CC",
 
     /*
      * 2.4.0
      */
-    "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
-    "watch_ticket"              => "Set operator to watch ticket",
-    "unwatch_ticket"            => "Unset operator watching ticket",
-    "all_watching_operators"    => "All watching operators",
+    "trigger_webhook"           => "Uruchom webhook",
+    "forward_ticket"            => "Prześlij zgłoszenie",
+    "watch_ticket"              => "Przypisz operatora, aby monitorował zgłoszenie",
+    "unwatch_ticket"            => "Odepnij operatora monitorującego zgłoszenie",
+    "all_watching_operators"    => "Wszyscy monitorujący operatorzy",
 
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Move ticket to trash",
-    "block_user"                => "Block user",
+    "move_to_trash"             => "Przenieś zgłoszenie do kosza",
+    "block_user"                => "Zablokuj użytkownika",
 
     /*
      * 2.6.0
      */
-    "clear_due_time"            => "Clear due time",
+    "clear_due_time"            => "Wyczyść termin wykonania zgłoszenia",
 
 );

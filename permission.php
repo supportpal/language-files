@@ -2,127 +2,127 @@
 
 return array(
 
-    "generalsetting"    => "Update General Settings",
+    "generalsetting"    => "Aktualizuj ustawienia ogólne",
 
-    // Core
-    "apitoken"          => "Manage API Tokens",
-    "emailtemplate"     => "Manage Email Templates",
-    "ipban"             => "Manage IP Bans",
-    "ipwhitelist"       => "Manage IP Whitelist",
-    "language"          => "Manage Languages",
-    "license"           => "View License Information",
-    "module"            => "Manage Modules",
-    "scheduledtask"     => "Manage Scheduled Tasks",
-    "spamrule"          => "Manage Spam Rules",
-    "emaillog"          => "View Email Log",
-    "emailqueue"        => "View Email Queue",
-    "systemcleanup"     => "Perform System Cleanup",
+   
+    "apitoken"          => "Zarządzaj tokenami API",
+    "emailtemplate"     => "Zarządzaj szablonami wiadomości e-mail",
+    "ipban"             => "Zarządzaj banami IP",
+    "ipwhitelist"       => "Zarządzaj białą listą adresów IP",
+    "language"          => "Zarządzaj językami",
+    "license"           => "Wyświetl informacje o licencji",
+    "module"            => "Zarządzaj modułami",
+    "scheduledtask"     => "Zarządzaj zaplanowanymi zadaniami",
+    "spamrule"          => "Zarządzaj regułami spamu",
+    "emaillog"          => "Wyświetl logi poczty e-mail",
+    "emailqueue"        => "Wyświetl kolejkę e-mail",
+    "systemcleanup"     => "Wykonaj czyszczenie systemu",
 
-    // User
-    "operatorgroup"     => "Manage Operator Groups",
-    "organisation"      => "Manage Organisations",
-    "role"              => "Manage Operator Roles",
-    "user_view"         => "View Users",
-    "user_add"          => "Add Users",
-    "user_edit"         => "Edit Users",
-    "user_delete"       => "Delete Users",
-    "usergroup"         => "Manage User Groups",
-    "massemail"         => "Send Mass Email",
-    "ldapaccount"       => "Manage LDAP Accounts",
-    "activitylog"       => "View System Activity Log",
-    "operatorlog"       => "View Operator Login Log",
+   
+    "operatorgroup"     => "Zarządzaj grupami operatorów",
+    "organisation"      => "Zarządzaj organizacjami",
+    "role"              => "Zarządzaj rolami operatorów",
+    "user_view"         => "Zobacz użytkowników",
+    "user_add"          => "Dodaj użytkowników",
+    "user_edit"         => "Edytuj użytkowników",
+    "user_delete"       => "Usuń użytkowników",
+    "usergroup"         => "Zarządzaj grupami użytkowników",
+    "massemail"         => "Wyślij masową wiadomość e-mail",
+    "ldapaccount"       => "Zarządzaj kontami LDAP",
+    "activitylog"       => "Wyświetl logi aktywności systemu",
+    "operatorlog"       => "Wyświetl logi logowania operatora",
 
-    // Ticket
-    "cannedresponse"    => "Manage Canned Responses",
-    "channel"           => "Manage Channels",
-    "department"        => "Manage Departments",
-    "filter"            => "Manage Filters",
-    "holiday"           => "Manage Holidays",
-    "macro"             => "Manage Macros",
-    "priority"          => "Manage Priorities",
-    "schedule"          => "Manage Schedules",
-    "slaplan"           => "Manage SLA Plans",
-    "status"            => "Manage Statuses",
-    "ticket_view"       => "View Tickets",
-    "ticket_add"        => "Open Tickets",
-    "ticket_edit"       => "Update Tickets",
-    "ticketcustomfield" => "Manage Custom Fields",
+   
+    "cannedresponse"    => "Zarządzaj gotowymi odpowiedziami",
+    "channel"           => "Zarządzaj kanałami",
+    "department"        => "Zarządzaj działami",
+    "filter"            => "Zarządzaj filtrami",
+    "holiday"           => "Zarządzaj świętami",
+    "macro"             => "Zarządzaj makrami",
+    "priority"          => "Zarządzaj priorytetami",
+    "schedule"          => "Zarządzaj harmonogramami",
+    "slaplan"           => "Zarządzaj planami SLA",
+    "status"            => "Zarządzaj statusami",
+    "ticket_view"       => "Zobacz zgłoszenia",
+    "ticket_add"        => "Otwórz zgłoszenia",
+    "ticket_edit"       => "Zaktualizuj zgłoszenia",
+    "ticketcustomfield" => "Zarządzaj polami niestandardowymi",
 
-    // Self-service
-    "article"           => "Manage Articles",
-    "category"          => "Manage Categories",
-    "comment"           => "Manage Comments",
-    "selfservicetype"   => "Manage Types",
+   
+    "article"           => "Zarządzaj artykułami",
+    "category"          => "Zarządzaj kategoriami",
+    "comment"           => "Zarządzaj komentarzami",
+    "selfservicetype"   => "Zarządzaj typami",
 
-    // Report
-    "report"            => "View Reports",
-    "reportdashboard"   => "View Dashboard",
+   
+    "report"            => "Zobacz raporty",
+    "reportdashboard"   => "Wyświetl pulpit nawigacyjny",
 
-    // General
-    "tag"               => "Manage Tags",
+   
+    "tag"               => "Zarządzaj etykietami",
 
     /*
      * 2.0.2
      */
-    // Core
-    "plugin"            => "View Plugins",
+   
+    "plugin"            => "Zobacz wtyczki",
 
     /*
      * 2.0.3
      */
-    // User
-    "operator"          => "Manage Operators",
+   
+    "operator"          => "Zarządzaj operatorami",
 
     /*
      * 2.1.0
      */
-    // Core
-    "brand"             => "Manage Brands",
-    "phpinfo"           => "View PHP Information",
+   
+    "brand"             => "Zarządzaj markami",
+    "phpinfo"           => "Wyświetl informacje o PHP",
 
-    // User
-    "usercustomfield"   => "Manage User Custom Fields",
-    "organisationcustomfield" => "Manage Organisation Custom Fields",
-    "operatorsignature" => "Manage Operator Signatures",
+   
+    "usercustomfield"   => "Zarządzaj niestandardowymi polami użytkownika",
+    "organisationcustomfield" => "Zarządzaj niestandardowymi polami organizacji",
+    "operatorsignature" => "Zarządzaj podpisami operatorów",
 
     /*
      * 2.1.1
      */
-    // Core
-    "logfiles"          => "Manage Log Files",
+   
+    "logfiles"          => "Zarządzaj logami",
 
     /*
      * 2.4.0
      */
-    // User
-    "sociallogin"       => "Manage Social Login",
+   
+    "sociallogin"       => "Zarządzaj logowaniem społecznościowym",
 
     /*
      * 2.5.0
      */
-    // Ticket
-    "ticket_delete"     => "Delete Tickets Permanently",
-    "ticket_trash"      => "Move Tickets to Trash",
+   
+    "ticket_delete"     => "Usuń zgłoszenia na stałe",
+    "ticket_trash"      => "Przenieś zgłoszenia do kosza",
 
     /*
      * 3.0.0
      */
-    "selfservicefeedbackform" => "Manage Feedback Forms",
-    "ticketfeedbackform"      => "Manage Feedback Forms",
+    "selfservicefeedbackform" => "Zarządzaj formularzami opinii",
+    "ticketfeedbackform"      => "Zarządzaj formularzami opinii",
 
     /*
      * 3.3.0
      */
-    "integration"       => "Manage Third-Party Integrations",
+    "integration"       => "Zarządzaj integracjami innych firm",
 
     /*
      * 3.6.0
      */
-    "systemupdate"      => "Perform System Update",
+    "systemupdate"      => "Wykonaj aktualizację systemu",
 
     /*
      * 3.7.0
      */
-    "background_jobs"   => "View Background Jobs",
+    "background_jobs"   => "Wyświetl prace w tle",
 
 );

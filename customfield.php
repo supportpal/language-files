@@ -2,65 +2,65 @@
 
 return array(
 
-    "customfield"               => "Custom Field|Custom Fields",
+    "customfield"               => "Pole niestandardowe|Pola niestandardowe",
 
-    // Options
-    "boolean"                   => "Boolean",
+   
+    "boolean"                   => "Prawda/fałsz",
     "checkbox"                  => "Checkbox",
-    "checklist"                 => "Checklist",
-    "date"                      => "Date",
-    "multiple"                  => "Multiple Options",
-    "options"                   => "Options",
-    "radio"                     => "Radio Buttons",
-    "rating"                    => "Rating (1 to 5)",
-    "text"                      => "Text",
-    "textarea"                  => "Textarea",
+    "checklist"                 => "Check lista",
+    "date"                      => "Dane",
+    "multiple"                  => "Wielokrotny wybór",
+    "options"                   => "Opcje",
+    "radio"                     => "Jednokrotny wybór",
+    "rating"                    => "Ocena (1 do 5)",
+    "text"                      => "Tekst",
+    "textarea"                  => "Pole tekstowe",
 
-    "public"                    => "Public",
-    "public_desc"               => "If the custom field is shown publicly on the frontend or is for staff only.",
-    "encrypted"                 => "Encrypted",
-    "purge_desc"                => "If the custom field value should be purged automatically when the ticket is resolved.",
-    "locked"                    => "Locked",
-    "locked_desc"               => "If the custom field value cannot be changed by the user once set.",
-    "department_desc"           => "Choose which departments the field is available in.",
+    "public"                    => "Publiczne",
+    "public_desc"               => "Jeśli pole niestandardowe jest pokazywane publicznie w interfejsie lub jest przeznaczone tylko dla personelu.",
+    "encrypted"                 => "Zaszyfrowane",
+    "purge_desc"                => "Jeśli wartość pola niestandardowego powinna zostać automatycznie wyczyszczona po rozwiązaniu zgłoszenia.",
+    "locked"                    => "Zablokowany",
+    "locked_desc"               => "Jeżeli użytkownik nie może zmienić raz ustawionej wartości pola niestandardowego.",
+    "department_desc"           => "Wybierz, w których działach pole jest dostępne.",
 
     /*
      * 2.0.2
      */
-    "please_select"             => "Please select...",
+    "please_select"             => "Proszę wybrać...",
 
     /*
      * 2.0.3
      */
-    "description_desc"          => "The help text that will appear below the custom field and can optionally be left blank.",
+    "description_desc"          => "Tekst pomocy, który pojawi się pod niestandardowym polem i opcjonalnie może pozostać pusty.",
 
     /*
      * 2.1.0
      */
-    "brand_desc"                => "Choose which brands the field is available in.",
+    "brand_desc"                => "Wybierz marki, w których dostępne jest pole.",
 
     /*
      * 2.3.0
      */
-    "option_warning"            => "Deleting existing options will clear any saved fields that currently have those values selected.",
-    "regex_basic_desc"          => "Optionally specify a regular expression to validate the custom field value.",
-    "regex_desc"                => "The regex is case-sensitive, there's no need to specify regex delimiters, and use of forward slashes will be automatically escaped. Example: ^[a-z0-9_-]{6,18}$ would enforce that the value is 6-18 characters long and contains only a mix of alphanumeric characters, underscores and dashes.",
-    "regex_error_message"       => "Validation Error Message",
-    "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
-    "custom_field_values"       => "Custom Field Values",
-    "depends_on"                => "Depends On",
-    "depends_on_desc"           => "If selected, this field will only be shown to the user when the specified field value is selected. The brand and department visibility will be automatically inherited from the field it depends on.",
-    "select_option"             => "Select an option...",
-    "purge"                     => "Purge",
-    "encrypted_desc"            => "If the custom field value is sensitive and should be saved in the database encrypted. This cannot be changed once the custom field has been created.",
+    "option_warning"            => "Usunięcie istniejących opcji wyczyści wszystkie zapisane pola, które mają aktualnie wybrane te wartości.",
+    "regex_basic_desc"          => "Opcjonalnie określ wyrażenie regularne, aby zweryfikować wartość pola niestandardowego.",
+    "regex_desc"                => "W wyrażeniu regularnym rozróżniana jest wielkość liter, nie ma potrzeby określania ograniczników wyrażeń regularnych, a ukośniki zostaną automatycznie zmienione. Przykład: ^[a-z0-9_-]{6,18}$ wymusiłoby że wartość ma długość 6-18 znaków i zawiera tylko mieszankę znaków alfanumerycznych, podkreśleń i myślników.",
+    "regex_error_message"       => "Komunikat o błędzie walidacji",
+    "regex_error_message_desc"  => "Opcjonalnie określ niestandardowy komunikat o błędzie, który będzie wyświetlany, jeśli wartość nie pasuje do walidacji wyrażenia regularnego, w przeciwnym razie zostanie wyświetlony ogólny komunikat. Komunikat zostanie wyświetlony dokładnie tak, jak został wprowadzony, dlatego zalecamy dodanie niestandardowego nazwa pola, aby komunikat o błędzie był bardziej oczywisty.",
+    "custom_field_values"       => "Wartości pól niestandardowych",
+    "depends_on"                => "Zależy od",
+    "depends_on_desc"           => "Jeśli zaznaczone, to pole będzie widoczne dla użytkownika tylko po wybraniu określonej wartości pola. Widoczność marki i działu zostanie automatycznie odziedziczona z pola, od którego zależy.",
+    "select_option"             => "Wybierz opcję...",
+    "purge"                     => "Usuń",
+    "encrypted_desc"            => "Jeśli wartość pola niestandardowego jest poufna i powinna zostać zapisana w zaszyfrowanej bazie danych. Nie można tego zmienić po utworzeniu pola niestandardowego.",
 
     /*
      * 2.3.1
      */
-    "required_desc"             => "If the custom field must be filled out. For the checkbox, checklist or multiple options types, it will require the user to select at least one option.",
+    "required_desc"             => "Jeśli pole niestandardowe musi zostać wypełnione. W przypadku pola wyboru, listy kontrolnej lub wielu typów opcji, użytkownik będzie musiał wybrać co najmniej jedną opcję.",
 
     /*
      * 3.3.0
      */
-    "encrypted_value"           => "** ENCRYPTED **",
+    "encrypted_value"           => "** ZASZYFROWANE **",
 );

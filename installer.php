@@ -2,194 +2,194 @@
 
 return array(
 
-    // Pre installation check
-    "requirements_failed"       => "System Requirements Failed",
+   
+    "requirements_failed"       => "Wymagania systemowe nie powiodły się",
 
-    // Index
-    "supportpal_installer"      => "SupportPal Installer",
-    "select_language"           => "Select Language",
-    "install_type"              => "Installation Type",
-    "install"                   => "Fresh Install",
-    "upgrade"                   => "Upgrade Existing Installation",
-    "support"                   => "The license code used for this installation does not have a valid support &amp; upgrades subscription, and as such, it is not eligible to install this version of SupportPal. Please <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>renew</a> your support &amp; updates subscription or revert your installation files.",
+   
+    "supportpal_installer"      => "SupportPal Instalator",
+    "select_language"           => "Wybierz język",
+    "install_type"              => "Typ instalacji",
+    "install"                   => "Świeża instalacja",
+    "upgrade"                   => "Uaktualnij istniejącą instalację",
+    "support"                   => "Kod licencyjny użyty do tej instalacji nie ma prawidłowego wsparcia &amp; uaktualnia subskrypcję i jako taka nie kwalifikuje się do zainstalowania tej wersji SupportPal. <a href='https://www.supportpal.com/manage/cart.php?gid=addons' target='_blank'>odnów</a> wsparcie &amp; subskrypcja aktualizacji lub przywróć pliki instalacyjne.",
 
-    // Upgrade
-    "successfully_updated"      => "Congratulations, SupportPal has been successfully upgraded.",
+   
+    "successfully_updated"      => "Gratulacje, SupportPal został pomyślnie uaktualniony.",
 
-    // Install
-    // Step 1
-    "step_1"                    => "Step 1 of 7: Accept EULA",
-    "step_1_desc"               => "Please read our software license agreement below. By continuing, you are agreeing to the license.",
-    "i_accept_and_continue"     => "I Accept and Continue",
+   
+   
+    "step_1"                    => "Krok 1 z 7: Zaakceptuj umowę EULA",
+    "step_1_desc"               => "Przeczytaj naszą umowę licencyjną na oprogramowanie poniżej. Kontynuując, zgadzasz się na licencję.",
+    "i_accept_and_continue"     => "Akceptuję i kontynuuję",
 
-    // Step 2
-    "step_2"                    => "Step 2 of 7: System Requirements",
-    "not_available"             => "Not available",
-    "php_version"               => "PHP Version",
-    "php_version_not_found"     => "Not available, found PHP version: :version",
-    "php_extensions"            => "PHP Extensions",
-    "file_writeable"            => "File Permissions",
-    "file_writeable_desc"       => "All of the below should be writable by the web server. We recommend using 755 file permissions, though some systems may require 777 if the files are not owned by the web server user. Directories should be recursively writable.",
+   
+    "step_2"                    => "Krok 2 z 7: Wymagania systemowe",
+    "not_available"             => "Niedostępne",
+    "php_version"               => "Wersja PHP",
+    "php_version_not_found"     => "Niedostępne, znaleziono wersję PHP: :version",
+    "php_extensions"            => "Rozszerzenia PHP",
+    "file_writeable"            => "Uprawnienia do plików",
+    "file_writeable_desc"       => "Wszystkie poniższe elementy powinny być dostępne do zapisu przez serwer WWW. Zalecamy korzystanie z uprawnień do plików 755, chociaż niektóre systemy mogą wymagać uprawnień 777, jeśli pliki nie są własnością użytkownika serwera WWW. Katalogi powinny być możliwe do zapisania rekurencyjnie.",
 
-    // Step 3
-    "step_3"                    => "Step 3 of 7: Database",
-    "step_3_desc"               => "Please enter the details of the database that you have set up for SupportPal.",
-    "hostname"                  => "Hostname",
+   
+    "step_3"                    => "Krok 3 z 7: Baza danych",
+    "step_3_desc"               => "Wprowadź szczegóły bazy danych skonfigurowanej dla SupportPal.",
+    "hostname"                  => "Nazwa hosta",
     "port"                      => "Port",
-    "port_desc"                 => "(Only change if not default port 3306)",
-    "database"                  => "Database",
-    "database_not_empty"        => "The database must not contain any tables.",
+    "port_desc"                 => "(Zmień tylko, jeśli nie jest to domyślny port 3306)",
+    "database"                  => "Baza danych",
+    "database_not_empty"        => "Baza danych nie może zawierać żadnych tabel.",
 
-    // Step 4
-    "step_4"                    => "Step 4 of 7: Create Tables",
-    "step_4_desc"               => "The migration will be performed in the background and a verbose log written below, this may take several minutes. Once complete, please click the continue button that will appear.",
+   
+    "step_4"                    => "Krok 4 z 7: Twórz tabele",
+    "step_4_desc"               => "Migracja zostanie wykonana w tle, a szczegółowy dziennik zostanie zapisany poniżej, może to potrwać kilka minut. Po zakończeniu kliknij przycisk Kontynuuj, który się pojawi.",
 
-    // Step 5
-    "step_5"                    => "Step 5 of 7: Operator Account",
-    "step_5_desc"               => "SupportPal requires a valid license to function, please enter one below.",
-    "license_desc"              => "Your SupportPal license key is 23 characters long and begins with SP-",
-    "operator_desc"             => "Please create an administrator account for the operator panel by entering all of the details below.",
-    "validating_license"        => "Validating License...",
+   
+    "step_5"                    => "Krok 5 z 7: Konto operatora",
+    "step_5_desc"               => "SupportPal wymaga ważnej licencji do działania, wprowadź ją poniżej.",
+    "license_desc"              => "Twój klucz licencyjny SupportPal ma 23 znaki i zaczyna się od SP-",
+    "operator_desc"             => "Utwórz konto administratora dla panelu operatora, wprowadzając wszystkie poniższe dane.",
+    "validating_license"        => "Weryfikuję licencję...",
 
-    // Step 6
-    "step_6"                    => "Step 6 of 7: Quick Set-Up",
-    "step_6_desc"               => "Enter your company and website details below.",
-    "locale_desc"               => "Set the locale settings for your system.",
-    "operator_success"          => "Your administrator account has been created.",
+   
+    "step_6"                    => "Krok 6 z 7: Szybka konfiguracja",
+    "step_6_desc"               => "Wpisz poniżej dane swojej firmy i witryny.",
+    "locale_desc"               => "Ustaw ustawienia regionalne dla swojego systemu.",
+    "operator_success"          => "Twoje konto administratora zostało utworzone.",
 
-    // Step 7
-    "step_7"                    => "Step 7 of 7: Installed!",
-    "successfully_installed"    => "Congratulations, SupportPal has been successfully installed.",
-    "operator_panel"            => "Operator Panel",
-    "help_desc"                 => "Should you need any help in configuring or using SupportPal, we have two main sources of information:",
-    "submit_a_ticket"           => "Submit a Ticket",
+   
+    "step_7"                    => "Krok 7 z 7: Zainstalowano!",
+    "successfully_installed"    => "Gratulacje, SupportPal został pomyślnie zainstalowany.",
+    "operator_panel"            => "Panel operatora",
+    "help_desc"                 => "Jeśli potrzebujesz pomocy w konfiguracji lub korzystaniu z SupportPal, mamy dwa główne źródła informacji:",
+    "submit_a_ticket"           => "Prześlij zgłoszenie",
 
     /*
      * 2.0.1
      */
 
-    "post_install"              => "For the system to function properly, a cron job must be set-up. Please read our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post installation steps</a> for details on this and other recommend actions to improve functionality and security.",
+    "post_install"              => "Aby system działał poprawnie, należy skonfigurować zadanie cron. Przeczytaj nasze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>kroki po instalacji</a>, aby uzyskać szczegółowe informacje na temat tego i innych zalecanych działań mających na celu poprawę funkcjonalności i bezpieczeństwa.",
 
     /*
      * 2.0.2
      */
-    "required_requirements"     => "You meet :required of :total required requirements.",
-    "optional_requirements"     => "You meet :optional of :total optional requirements.",
-    "both_requirements"         => "You meet :required of :total_required required requirements and :optional of :total_optional optional requirements.",
-    "php_version_is"            => "Your PHP Version is :version.",
-    "enabled"                   => "Enabled",
-    "disabled"                  => "Disabled",
-    "php_settings"              => "PHP Settings",
-    "ipv6_support"              => "IPv6 Support",
-    "memory_limit"              => ">= 128MB Memory",
-    "memory_limit_error"        => "Your memory limit is ':limit'.",
-    "permission_denied"         => "Permission Denied",
-    "writable"                  => "Writable",
-    "help_php_version"          => "For assistance installing a new version of PHP please contact your hosting provider or server administrator.",
-    "help_php_extensions"       => "PHP extensions differ depending on your server, your host and other system variable. For assistance installing missing extensions, please contact your hosting provider or server administrator.",
-    "help_php_settings"         => "For additional assistance, please read <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">PHP Settings Help</a>.",
-    "disabled_functions"        => "Disabled Functions",
-    "help_mysql_version"        => "For assistance installing a new version of MySQL please contact your hosting provider or server administrator.",
-    "mysql_version"             => "MySQL Version",
-    "mysql_version_not_found"   => "Not available, found MySQL version: :version",
+    "required_requirements"     => "Spełniasz :required :całkowite wymagane wymagania.",
+    "optional_requirements"     => "Spełniasz :optional z :total opcjonalnych wymagań.",
+    "both_requirements"         => "Spełniasz :required z :total_required wymagane wymagania i :optional z :total_optional wymagań.",
+    "php_version_is"            => "Twoja wersja PHP to :version.",
+    "enabled"                   => "Włączony",
+    "disabled"                  => "Wyłączony",
+    "php_settings"              => "Ustawienia PHP",
+    "ipv6_support"              => "Obsługa IPv6",
+    "memory_limit"              => ">= 128 MB pamięci",
+    "memory_limit_error"        => "Twój limit pamięci to „:limit”.",
+    "permission_denied"         => "Odmowa dostępu",
+    "writable"                  => "Możliwy do zapisania",
+    "help_php_version"          => "Aby uzyskać pomoc dotyczącą instalacji nowej wersji PHP, skontaktuj się z dostawcą usług hostingowych lub administratorem serwera.",
+    "help_php_extensions"       => "Rozszerzenia PHP różnią się w zależności od serwera, hosta i innych zmiennych systemowych. Aby uzyskać pomoc dotyczącą instalacji brakujących rozszerzeń, skontaktuj się z dostawcą usług hostingowych lub administratorem serwera.",
+    "help_php_settings"         => "Aby uzyskać dodatkową pomoc, przeczytaj <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Pomoc dotycząca ustawień PHP</a>.",
+    "disabled_functions"        => "Funkcje wyłączone",
+    "help_mysql_version"        => "Aby uzyskać pomoc w instalacji nowej wersji MySQL, skontaktuj się z dostawcą usług hostingowych lub administratorem serwera.",
+    "mysql_version"             => "Wersja MySQL",
+    "mysql_version_not_found"   => "Niedostępne, znaleziono wersję MySQL: :version",
 
     /*
      * 2.1.0
      */
-    "ipv6_failure"              => "If your server has IPv6 networking support, please install the php-sockets extension.",
-    "email_address_desc"        => "Enter your main company email address, this will be set up as the default sending email address and the email address on your first department. You will be able to add other email addresses later.",
+    "ipv6_failure"              => "Jeśli twój serwer obsługuje sieć IPv6, zainstaluj rozszerzenie php-sockets.",
+    "email_address_desc"        => "Wprowadź swój główny firmowy adres e-mail, zostanie on ustawiony jako domyślny adres e-mail do wysyłania i adres e-mail w pierwszym dziale. Później będziesz mógł dodać inne adresy e-mail.",
 
     /*
      * 2.2.0
      */
-    "ioncube_version"           => "ionCube Loaders version :required or greater required. Found: ':version'.",
+    "ioncube_version"           => "Wersja Loadera ionCube :required lub wyższa. Znaleziono: ':version'.",
 
     /*
      * 2.3.0
      */
-    "png_jpg_support"           => "PNG & JPEG Support",
-    "allow_url_fopen"           => "'allow_url_fopen' Enabled",
-    "allow_url_fopen_failure"   => "Enable 'allow_url_fopen' in your php.ini file to use Gravatar and other features.",
-    "allowed_methods"           => "HTTP Allowed Methods",
-    "help_allowed_methods"      => "Your web server must permit all of the below HTTP methods. Please check our <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>New Installation</a> documentation for more information.",
+    "png_jpg_support"           => "Obsługa formatu PNG i JPEG",
+    "allow_url_fopen"           => "„allow_url_fopen” włączone",
+    "allow_url_fopen_failure"   => "Włącz opcję „allow_url_fopen” w pliku php.ini, aby korzystać z Gravatara i innych funkcji.",
+    "allowed_methods"           => "Dozwolone metody HTTP",
+    "help_allowed_methods"      => "Twój serwer sieciowy musi zezwalać na wszystkie poniższe metody HTTP. Więcej informacji znajdziesz w naszej <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>dokumentacji nowej instalacji</a>.",
 
     /*
      * 2.4.0
      */
-    "mysql_server_version"      => "Server Version >= :min",
-    "mysql_server_version_desc" => "MySQL :min or greater is required to run SupportPal. Found: ':version'.",
-    "mysql_client_version"      => "Client Version >= :min (:mysqlnd_min for MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client version :min or greater (:mysqlnd_min for MySQLnd) is required to run SupportPal. Found: ':version'.",
+    "mysql_server_version"      => "Wersja serwera >= :min",
+    "mysql_server_version_desc" => "Do uruchomienia SupportPal wymagany jest MySQL :min lub nowszy. Znaleziono: ':version'.",
+    "mysql_client_version"      => "Wersja klienta >= :min (:mysqlnd_min dla MySQLnd)",
+    "mysql_client_version_desc" => "Do uruchomienia SupportPal wymagana jest wersja klienta MySQL :min lub nowsza (:mysqlnd_min dla MySQLnd). Znaleziono: ':version'.",
 
-    "upgrade_step"              => "Step :num of :total: ",
-    "accept_eula"               => "Accept EULA",
-    "system_requirements"       => "System Requirements",
-    "update_database"           => "Update Database",
-    "upgrade_complete"          => "Upgrade Complete",
+    "upgrade_step"              => "Krok :num z :total: ",
+    "accept_eula"               => "Zaakceptuj umowę EULA",
+    "system_requirements"       => "Wymagania systemowe",
+    "update_database"           => "Zaktualizuj bazę danych",
+    "upgrade_complete"          => "Uaktualnienie zakończone",
 
-    "upgrade_support"           => "Should you find any problems or need any help using the new features in SupportPal, please read our documentation or open a ticket with us.",
+    "upgrade_support"           => "Jeśli znajdziesz jakieś problemy lub potrzebujesz pomocy przy korzystaniu z nowych funkcji w SupportPal, przeczytaj naszą dokumentację lub otwórz zgłoszenie z nami.",
 
     /*
      * 2.5.0
      */
-    "press_to_begin"            => "Please press the button below to start.",
-    "locked"                    => "Install/Upgrade In-Progress",
-    "locked_desc"               => "Detected a lock file (:path).\nPlease check that the installer is not already running.\n\nYou can delete this file when you're certain that another installation or upgrade is not in progress.",
+    "press_to_begin"            => "Aby rozpocząć, naciśnij poniższy przycisk.",
+    "locked"                    => "Instalacja/aktualizacja w toku",
+    "locked_desc"               => "Wykryto plik blokady (:path).\nSprawdź, czy instalator nie jest już uruchomiony.\n\nMożesz usunąć ten plik, jeśli masz pewność, że inna instalacja lub aktualizacja nie jest w toku.",
 
-    "error_and_empty_database"  => "There was an error. You may need to empty the database before starting again.",
-    "login_with_details"        => "You can login using the details specified earlier.",
-    "command_not_available"     => "Command unavailable. If you think this has been shown in error, please run 'php artisan cache:clear' and then rerun this command.",
-    "read_upgrade_guide"        => "Our Upgrade Guide contains useful information regarding breaking changes and best practices for upgrading:\nhttps://docs.supportpal.com/current/Upgrade+Guide",
-    "confirm_backup_taken"      => "[WARNING] Ensure you have taken a backup of your SupportPal database and application files before proceeding any further.\nPlease confirm you have taken a backup, verified it's not corrupt and are ready to proceed.",
-    "error_and_revert_database" => "There was an error. Please revert the database to your backup before starting again.",
+    "error_and_empty_database"  => "Wystąpił błąd. Może być konieczne opróżnienie bazy danych przed ponownym rozpoczęciem.",
+    "login_with_details"        => "Możesz się zalogować, korzystając z podanych wcześniej danych.",
+    "command_not_available"     => "Polecenie niedostępne. Jeśli uważasz, że zostało to pokazane błędnie, uruchom 'php artisan cache:clear', a następnie ponownie uruchom to polecenie.",
+    "read_upgrade_guide"        => "Nasz przewodnik po uaktualnieniu zawiera przydatne informacje dotyczące wprowadzania zmian i najlepszych praktyk dotyczących uaktualniania:\nhttps://docs.supportpal.com/current/Upgrade+Guide://docs.supportpal.com/current/Upgrade+Guide",
+    "confirm_backup_taken"      => "[OSTRZEŻENIE] Przed kontynuowaniem upewnij się, że wykonałeś kopię zapasową bazy danych SupportPal i plików aplikacji.\nPotwierdź wykonanie kopii zapasowej, sprawdzenie, czy nie jest uszkodzona i jesteś gotowy do kontynuowania.",
+    "error_and_revert_database" => "Wystąpił błąd. Przywróć bazę danych do kopii zapasowej przed ponownym rozpoczęciem.",
 
     /*
      * 2.6.0
      */
-    "database_config_exists"    => "The database configuration file already exists. If you are sure the application is not already installed, please delete /config/:environment/database.php and start again.",
+    "database_config_exists"    => "Plik konfiguracyjny bazy danych już istnieje. Jeśli jesteś pewien, że aplikacja nie jest jeszcze zainstalowana, usuń /config/:environment/database.php i zacznij od nowa./config/:environment/database.php and start again.",
 
     /*
      * 3.0.0
      */
-    "index_desc"                => "Thank you for choosing SupportPal. Please verify the installation type below is correct and then click continue.",
+    "index_desc"                => "Dziękujemy za wybranie SupportPal. Sprawdź, czy poniższy typ instalacji jest poprawny, a następnie kliknij przycisk Kontynuuj.",
 
     /*
      * 3.4.0
      */
     "seeding"                   => "Seeding",
     "seeded"                    => "Seeded",
-    "migrating"                 => "Migrating",
-    "migrated"                  => "Migrated",
-    "database_setup_complete"   => "Database setup complete.",
-    "created_repository"        => "Created ':name' repository successfully.",
+    "migrating"                 => "Migrowanie",
+    "migrated"                  => "Zmigrowano",
+    "database_setup_complete"   => "Konfiguracja bazy danych zakończona.",
+    "created_repository"        => "Utworzono repozytorium ':name' pomyślnie.",
 
     /*
      * 3.6.0
      */
-    "suggest_run_update"        => "Command unavailable. Please run app:update to download and upgrade to the latest available version: %s.",
-    "suggest_run_upgrade"       => "An upgrade is already in progress. Please run app:upgrade instead.",
-    "failed_to_download"        => "Failed to download file: :message",
-    "backup_failed_abort"       => "Backup failed. Aborting update.",
-    "command_failed"            => "Command :command, failed with output: :message.",
-    "already_latest_version"    => "You are already running the latest version (:version).",
-    "update_not_supported"      => "Automatic update to latest version (:version) is not supported.",
-    "current_and_new_version"   => "You have version :current_version. Latest version available is :new_version.",
-    "update_to_version"         => "You have version :current_version. Would you like to update to :new_version?",
-    "downloading_version"       => "Downloading version :version to :path...",
-    "checksum_not_matched"      => "The downloaded file failed checksum verification.",
+    "suggest_run_update"        => "Polecenie niedostępne. Uruchom app:update, aby pobrać i zaktualizować do najnowszej dostępnej wersji: %s.",
+    "suggest_run_upgrade"       => "Aktualizacja jest już w toku. Zamiast tego uruchom app:upgrade.",
+    "failed_to_download"        => "Nie udało się pobrać pliku: :message",
+    "backup_failed_abort"       => "Tworzenie kopii zapasowej nie powiodło się. Przerywam aktualizację.",
+    "command_failed"            => "Polecenie :command, nie powiodło się z wynikiem: :message.",
+    "already_latest_version"    => "Korzystasz już z najnowszej wersji (:version).",
+    "update_not_supported"      => "Automatyczna aktualizacja do najnowszej wersji (:version) nie jest obsługiwana.",
+    "current_and_new_version"   => "Masz wersję :current_version. Najnowsza dostępna wersja to :new_version.",
+    "update_to_version"         => "Masz wersję :current_version. Czy chcesz zaktualizować do :new_version?",
+    "downloading_version"       => "Pobieranie wersji :version do :path...",
+    "checksum_not_matched"      => "Pobrany plik nie przeszedł weryfikacji sumy kontrolnej.",
 
-    "check_readiness"           => "Checking if the application is able to upgrade...",
-    "read_only"                 => "The filesystem at \":path\" is read only. Updates cannot be applied against a read only file system.",
-    "file_ownership"            => "File \":path\" is owned by \":owner\" but PHP is running as \":actual\". The file owner and PHP user must be the same during an update for all application files.",
-    "minimum_disk_space"        => "Directory \":path\" has insufficient space. There must be at least :space megabytes free.",
+    "check_readiness"           => "Sprawdzam, czy aplikacja jest w stanie zaktualizować...",
+    "read_only"                 => "System plików w \":path\" jest tylko do odczytu. Aktualizacje nie mogą być stosowane w systemie plików tylko do odczytu.",
+    "file_ownership"            => "Plik \":path\" należy do \":owner\", ale PHP działa jako \":actual\". Właściciel pliku i użytkownik PHP muszą być tacy sami podczas aktualizacji wszystkich plików aplikacji.",
+    "minimum_disk_space"        => "Katalog \":path\" ma niewystarczającą ilość miejsca. Musi być co najmniej :space w megabajtach.",
 
     /*
      * 3.6.1
      */
-    "upgrade_via_docker"        => "Docker deployment detected. To upgrade, follow https://docs.supportpal.com/current/Upgrade+Guide#docker",
+    "upgrade_via_docker"        => "Wykryto wdrożenie platformy Docker. Aby dokonać aktualizacji, śledź https://docs.supportpal.com/current/Upgrade+Guide#docker",
 
     /*
      * 3.7.0
      */
-    "troubleshooting_tips"      => "Get troubleshooting tips",
+    "troubleshooting_tips"      => "Uzyskaj wskazówki dotyczące rozwiązywania problemów",
 );

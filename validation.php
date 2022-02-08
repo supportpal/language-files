@@ -13,170 +13,170 @@ return array(
     |
     */
 
-    "accepted"                  => "The :attribute must be accepted.",
-    "active_url"                => "The :attribute is not a valid URL.",
-    "after"                     => "The :attribute must be a date after :date.",
-    "alpha"                     => "The :attribute may only contain letters.",
-    "alpha_dash"                => "The :attribute may only contain letters, numbers, dashes and underscores.",
-    "alpha_num"                 => "The :attribute may only contain letters and numbers.",
-    "array"                     => "The :attribute must be an array.",
-    "before"                    => "The :attribute must be a date before :date.",
+    "accepted"                  => ":attribute musi być zaakceptowany.",
+    "active_url"                => ":attribute nie jest prawidłowym adresem URL.",
+    "after"                     => "Wpis :attribute musi być datą po :date.",
+    "alpha"                     => "Pole :attribute może zawierać tylko litery.",
+    "alpha_dash"                => "Pole :attribute może zawierać tylko litery, cyfry, myślniki i podkreślenia.",
+    "alpha_num"                 => ":attribute może zawierać tylko litery i cyfry.",
+    "array"                     => ":attribute musi być tablicą.",
+    "before"                    => "Wpis :attribute musi być datą przed :date.",
     "between"                   => array(
-        "numeric" => "The :attribute must be between :min and :max.",
-        "file"    => "The :attribute must be between :min and :max kilobytes.",
-        "string"  => "The :attribute must be between :min and :max characters.",
-        "array"   => "The :attribute must have between :min and :max items.",
+        "numeric" => "Pole :attribute musi być między :min a :max.",
+        "file"    => "Wartość :attribute musi zawierać się w przedziale od :min do :max kilobajtów.",
+        "string"  => "Element :attribute musi zawierać się między :min a :max znakami.",
+        "array"   => "Element :attribute musi zawierać elementy od :min do :max.",
     ),
-    "boolean"                   => "The :attribute field must be true or false.",
-    "confirmed"                 => "The :attribute confirmation does not match.",
-    "date"                      => "The :attribute is not a valid date.",
-    "date_format"               => "The :attribute does not match the format :format.",
-    "different"                 => "The :attribute and :other must be different.",
-    "digits"                    => "The :attribute must be :digits digits.",
-    "digits_between"            => "The :attribute must be between :min and :max digits.",
-    "email"                     => "The :attribute must be a valid email address.",
-    "exists"                    => "The selected :attribute is invalid.",
-    "image"                     => "The :attribute must be an image.",
-    "in"                        => "The selected :attribute is invalid.",
-    "integer"                   => "The :attribute must be an integer.",
-    "ip"                        => "The :attribute must be a valid IP address.",
+    "boolean"                   => "Pole :attribute musi być prawdą lub fałszem.",
+    "confirmed"                 => "Potwierdzenie :attribute nie pasuje.",
+    "date"                      => ":attribute nie jest poprawną datą.",
+    "date_format"               => ":attribute nie pasuje do formatu :format.",
+    "different"                 => ":attribute i :other muszą być różne.",
+    "digits"                    => ":attribute musi składać się z :digits cyfr.",
+    "digits_between"            => ":attribute musi zawierać się między cyframi :min i :max.",
+    "email"                     => ":attribute musi być poprawnym adresem e-mail.",
+    "exists"                    => "Wybrany :attribute jest nieprawidłowy.",
+    "image"                     => ":attribute musi być obrazem.",
+    "in"                        => "Wybrany :attribute jest nieprawidłowy.",
+    "integer"                   => ":attribute musi być liczbą całkowitą.",
+    "ip"                        => ":attribute musi być poprawnym adresem IP.",
     "max"                       => array(
-        "numeric" => "The :attribute may not be greater than :max.",
-        "file"    => "The :attribute may not be greater than :max kilobytes.",
-        "string"  => "The :attribute may not be greater than :max characters.",
-        "array"   => "The :attribute may not have more than :max items.",
+        "numeric" => "Pole :attribute nie może być większe niż :max.",
+        "file"    => "Wartość :attribute nie może być większa niż :max kilobajtów.",
+        "string"  => "Ilość :attribute nie może być większa niż :max znaków.",
+        "array"   => "W :attribute nie może być więcej niż :max elementów.",
     ),
-    "mimes"                     => "The :attribute must be a file of type: :values.",
+    "mimes"                     => "Plik :attribute musi być plikiem typu: :values.",
     "min"                       => array(
-        "numeric" => "The :attribute must be at least :min.",
-        "file"    => "The :attribute must be at least :min kilobytes.",
-        "string"  => "The :attribute must be at least :min characters.",
-        "array"   => "The :attribute must have at least :min items.",
+        "numeric" => "Pole :attribute musi mieć co najmniej :min.",
+        "file"    => ":attribute musi mieć co najmniej :min kilobajtów.",
+        "string"  => "Element :attribute musi mieć co najmniej :min znaków.",
+        "array"   => "Pole :attribute musi zawierać co najmniej :min elementów.",
     ),
-    "not_in"                    => "The selected :attribute is invalid.",
-    "numeric"                   => "The :attribute must be a number.",
-    "regex"                     => "The :attribute format is invalid.",
-    "required"                  => "The :attribute field is required.",
-    "required_if"               => "The :attribute field is required when :other is :value.",
-    "required_with"             => "The :attribute field is required when :values is present.",
-    "required_with_all"         => "The :attribute field is required when :values is present.",
-    "required_without"          => "The :attribute field is required when :values is not present.",
-    "required_without_all"      => "The :attribute field is required when none of :values are present.",
-    "same"                      => "The :attribute and :other must match.",
+    "not_in"                    => "Wybrany :attribute jest nieprawidłowy.",
+    "numeric"                   => ":attribute musi być liczbą.",
+    "regex"                     => "Format :attribute jest nieprawidłowy.",
+    "required"                  => "Pole :attribute jest wymagane.",
+    "required_if"               => "Pole :attribute jest wymagane, gdy :other ma wartość :value.",
+    "required_with"             => "Pole :attribute jest wymagane, gdy występuje :values.",
+    "required_with_all"         => "Pole :attribute jest wymagane, gdy występuje :values.",
+    "required_without"          => "Pole :attribute jest wymagane, gdy nie ma :values.",
+    "required_without_all"      => "Pole :attribute jest wymagane, gdy nie ma żadnego z :values.",
+    "same"                      => ":attribute i :other muszą pasować.",
     "size"                      => array(
-        "numeric" => "The :attribute must be :size.",
-        "file"    => "The :attribute must be :size kilobytes.",
-        "string"  => "The :attribute must be :size characters.",
-        "array"   => "The :attribute must contain :size items.",
+        "numeric" => "Pole :attribute musi być :size.",
+        "file"    => "Wartość :attribute musi mieć :size kilobajtów.",
+        "string"  => "Element :attribute musi składać się ze :size znaków.",
+        "array"   => "Pole :attribute musi zawierać :size elementy.",
     ),
-    "unique"                    => "The :attribute has already been taken.",
-    "url"                       => "The :attribute format is invalid.",
-    "template_exists"           => "The selected :attribute is invalid.",
-    "is_valid_captcha"          => "The captcha code entered was invalid or incorrect, please try again.",
-    "user_password_strength"    => "The :attribute must contain: :user_password_strength.",
-    "operator_password_strength" => "The :attribute must contain: :operator_password_strength.",
+    "unique"                    => ":attribute został już zajęty.",
+    "url"                       => "Format :attribute jest nieprawidłowy.",
+    "template_exists"           => "Wybrany :attribute jest nieprawidłowy.",
+    "is_valid_captcha"          => "Wprowadzony kod captcha jest nieprawidłowy lub niepoprawny, spróbuj ponownie.",
+    "user_password_strength"    => "Pole :attribute musi zawierać: :user_password_strength.",
+    "operator_password_strength" => "Pole :attribute musi zawierać: :operator_password_strength.",
 
     /*
      * 2.1.0
      */
-    "logo"                      => "The logo must point to a valid image file (direct URL or relative file path to base directory).",
+    "logo"                      => "Logo musi wskazywać na prawidłowy plik obrazu (bezpośredni adres URL lub względna ścieżka pliku do katalogu podstawowego).",
 
     /*
      * 2.1.1
      */
-    "old_password"              => "The :attribute field is invalid.",
+    "old_password"              => "Pole :attribute jest nieprawidłowe.",
 
     /*
      * 2.2.0
      */
-    "required_with_translation" => "The :translation translation for the :attribute field is required when :values is present.",
-    "max_translation"           => "The :translation translation for the :attribute field may not be greater than :max characters.",
-    "unique_translation"        => "The :translation translation for the :attribute field has already been taken.",
+    "required_with_translation" => "Tłumaczenie :translation pola :attribute jest wymagane, gdy występuje :values.",
+    "max_translation"           => "Tłumaczenie :translation dla pola :attribute nie może być większe niż :max znaków.",
+    "unique_translation"        => "Tłumaczenie :translation pola :attribute zostało już zajęte.",
 
     /*
      * 2.3.0
      */
-    "required_translation"      => "The :translation translation for the :attribute field is required.",
-    "customfield_not_cyclic"    => "The field cannot depend on one of its children.",
+    "required_translation"      => "Tłumaczenie :translation dla pola :attribute jest wymagane.",
+    "customfield_not_cyclic"    => "Pole nie może zależeć od jednego ze swoich dzieci.",
 
     /*
      * 2.3.1
      */
-    "is_slug"                   => "The slug field can only contain alphanumeric characters, please percent encode any special characters.",
-    "article_slug_unique"       => "The slug has already been taken.",
-    "captcha_required"          => "The captcha is required.",
-    "ticket_number_format"      => "The ticket number format is invalid.",
+    "is_slug"                   => "Pole Slug może zawierać tylko znaki alfanumeryczne, proszę zakodować procentowo wszelkie znaki specjalne.",
+    "article_slug_unique"       => "Slug jest już używany",
+    "captcha_required"          => "Captcha jest wymagana.",
+    "ticket_number_format"      => "Format numeru zgłoszenia jest nieprawidłowy.",
 
     /*
      * 2.4.0
      */
-    "after_or_equal"            => "The :attribute must be a date after or equal to :date.",
-    "before_or_equal"           => "The :attribute must be a date before or equal to :date.",
-    "dimensions"                => "The :attribute has invalid image dimensions.",
-    "distinct"                  => "The :attribute field has a duplicate value.",
-    "file"                      => "The :attribute must be a file.",
-    "filled"                    => "The :attribute field must have a value.",
+    "after_or_equal"            => ":attribute musi być datą po lub równą :date.",
+    "before_or_equal"           => "Wartość :attribute musi być datą wcześniejszą lub równą :date.",
+    "dimensions"                => ":attribute ma nieprawidłowe wymiary obrazu.",
+    "distinct"                  => "Pole :attribute ma zduplikowaną wartość.",
+    "file"                      => ":attribute musi być plikiem.",
+    "filled"                    => "Pole :attribute musi mieć wartość.",
     "gt"                        => array(
-        "numeric" => "The :attribute must be greater than :value.",
-        "file"    => "The :attribute must be greater than :value kilobytes.",
-        "string"  => "The :attribute must be greater than :value characters.",
-        "array"   => "The :attribute must have more than :value items.",
+        "numeric" => "Ilość :attribute musi być większa niż :value.",
+        "file"    => "Wartość :attribute musi być większa niż :value kilobajtów.",
+        "string"  => "Element :attribute musi mieć więcej niż :value znaków.",
+        "array"   => "Element :attribute musi mieć więcej niż :value pozycji.",
     ),
     "gte"                       => array(
-        "numeric" => "The :attribute must be greater than or equal :value.",
-        "file"    => "The :attribute must be greater than or equal :value kilobytes.",
-        "string"  => "The :attribute must be greater than or equal :value characters.",
-        "array"   => "The :attribute must have :value items or more.",
+        "numeric" => "Wartość :attribute musi być większa lub równa :value.",
+        "file"    => "Wartość :attribute musi być większa lub równa :value kilobajtów.",
+        "string"  => "Element :attribute musi być większy lub równy :value znaków.",
+        "array"   => "Element :attribute musi mieć elementy :value lub więcej.",
     ),
-    "in_array"                  => "The :attribute field does not exist in :other.",
-    "ipv4"                      => "The :attribute must be a valid IPv4 address.",
-    "ipv6"                      => "The :attribute must be a valid IPv6 address.",
-    "json"                      => "The :attribute must be a valid JSON string.",
+    "in_array"                  => "Pole :attribute nie istnieje w :other.",
+    "ipv4"                      => ":attribute musi być poprawnym adresem IPv4.",
+    "ipv6"                      => ":attribute musi być poprawnym adresem IPv6.",
+    "json"                      => ":attribute musi być prawidłowym formatem JSON.",
     "lt"                        => array(
-        "numeric" => "The :attribute must be less than :value.",
-        "file"    => "The :attribute must be less than :value kilobytes.",
-        "string"  => "The :attribute must be less than :value characters.",
-        "array"   => "The :attribute must have less than :value items.",
+        "numeric" => "Pole :attribute musi być mniejsze niż :value.",
+        "file"    => "Element :attribute musi być mniejszy niż :value kilobajtów.",
+        "string"  => "Element :attribute musi być mniejszy niż :value znaków.",
+        "array"   => "Element :attribute musi mieć mniej niż :value pozycji.",
     ),
     "lte"                       => array(
-        "numeric" => "The :attribute must be less than or equal :value.",
-        "file"    => "The :attribute must be less than or equal :value kilobytes.",
-        "string"  => "The :attribute must be less than or equal :value characters.",
-        "array"   => "The :attribute must not have more than :value items.",
+        "numeric" => "Wartość :attribute musi być mniejsza lub równa :value.",
+        "file"    => "Element :attribute musi być mniejszy lub równy :value kilobajtów.",
+        "string"  => "Element :attribute musi być mniejszy lub równy :value znaków.",
+        "array"   => "W :attribute nie może być więcej niż :value elementów.",
     ),
-    "mimetypes"                 => "The :attribute must be a file of type: :values.",
-    "not_regex"                 => "The :attribute format is invalid.",
-    "present"                   => "The :attribute field must be present.",
-    "required_unless"           => "The :attribute field is required unless :other is in :values.",
-    "string"                    => "The :attribute must be a string.",
-    "timezone"                  => "The :attribute must be a valid zone.",
-    "uploaded"                  => "The :attribute failed to upload.",
+    "mimetypes"                 => ":attribute musi być plikiem typu: :values.",
+    "not_regex"                 => "Format :attribute jest nieprawidłowy.",
+    "present"                   => "Pole :attribute musi być teraźniejsze.",
+    "required_unless"           => "Pole :attribute jest wymagane, chyba że :other jest w :values.",
+    "string"                    => ":attribute musi być ciągiem znaków.",
+    "timezone"                  => ":attribute musi być prawidłową strefą.",
+    "uploaded"                  => "Przesłanie :attribute nie powiodło się.",
 
     /*
      * 2.5.0
      */
-    "domain"                    => "One or more of the domain names are not valid.",
+    "domain"                    => "Co najmniej jedna nazwa domeny jest nieprawidłowa.",
 
     /*
      * 2.5.1
      */
-    "valid_twig"                => "The :attribute is invalid. Please use the 'Preview' button for error details.",
+    "valid_twig"                => "Pole :attribute jest nieprawidłowe. Użyj przycisku 'Podgląd' w celu uzyskania szczegółów błędu.",
 
     /*
      * 3.0.0
      */
-    "embed_image"               => "The :attribute must be a file of type: jpeg, png, or gif.",
-    "starts_with"               => "The :attribute must start with one of the following: :values.",
+    "embed_image"               => "Plik :attribute musi być plikiem typu: jpeg, png lub gif.",
+    "starts_with"               => "Pole :attribute musi zaczynać się jednym z następujących: :values.",
 
     /*
      * 3.4.0
      */
-    "password"                  => "The password is incorrect.",
+    "password"                  => "Hasło jest nieprawidłowe.",
 
     /*
      * 3.5.0
      */
-    'phone'                     => "The supplied phone number is invalid.",
+    'phone'                     => "Podany numer telefonu jest nieprawidłowy.",
 
     /*
     |--------------------------------------------------------------------------
@@ -191,17 +191,17 @@ return array(
 
     "custom" => array(
         "roles.*" => array(
-            "exists" => "The selected role is invalid.",
+            "exists" => "Wybrana rola jest nieprawidłowa.",
         ),
         "category.*.type" => array(
-            "required" => "One or more self-service types must be selected.",
+            "required" => "Należy wybrać co najmniej jeden typ samoobsługi.",
         ),
         "category.*.categories" => array(
-            "required" => "One or more categories are required when a self-service type has been selected.",
-            "exists"   => "One or more of the selected categories is invalid.",
+            "required" => "Po wybraniu typu samoobsługi wymagana jest co najmniej jedna kategoria.",
+            "exists"   => "Co najmniej jedna z wybranych kategorii jest nieprawidłowa.",
         ),
         "brand.*" => array(
-            "exists" => "The selected brand is invalid.",
+            "exists" => "Wybrana marka jest nieprawidłowa.",
         ),
     ),
 
