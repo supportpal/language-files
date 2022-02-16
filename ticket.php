@@ -105,7 +105,7 @@ return array(
     "email_operators"           => "Notifier opérateurs",
     "email_operators_desc"      => "Indiquez si vous souhaitez transmettre les réponses de l'opérateur à d'autres opérateurs. Vérifie par défaut les opérateurs de messagerie option dans le panneau de commande, et enverra automatiquement un e-mail pour les réponses par courriel par les opérateurs.",
     // Department email templates
-    "new_ticket_opened"         => "Nouveau ticket oiuvert",
+    "new_ticket_opened"         => "Nouveau ticket ouvert",
     "waiting_for_response"      => "En attente d'une réponse",
     "ticket_auto_closed"        => "Tickets fermés automatiquement",
     "closed_by_operator"        => "Fermé par l'opérateur",
