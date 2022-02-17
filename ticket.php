@@ -416,7 +416,7 @@ return array(
     "no_slaplans"               => "Pas de plans SLA trouvés. Cliquez <a href=':route'>ici</a> pour en créer un.",
     "filter_performance"        => "Considérations sur les performances et recommandations",
     "filter_performance_desc"   => "<li>Les filtres qui correspondent à un plus grand nombre de tickets seront plus lents, dans la plupart des cas, essayez d'exclure les tickets résolus.</li><li>Les filtres utilisant des conditions 'is not' seront généralement plus lents que ceux utilisant des conditions 'is'.</li><li>Les filtres vérifiant les valeurs NULL (par exemple, le tag Ticket est None) seront plus lents. </li><li>Évitez les conditions multiples qui impliquent la vérification de chaînes de caractères/mots, car elles introduisent plus de complexité.</li><li>Les filtres utilisant des conditions 'begins with' ou 'contains' seront généralement plus lents que ceux utilisant des conditions 'equals' ou 'ends with'.</li><li>Les tickets résolus sont exclus des décomptes affichés dans la barre latérale.</li>",
-    "run_macro"                 => "LAncer la macro",
+    "run_macro"                 => "Exécuter la macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
 
     /*
