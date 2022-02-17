@@ -539,7 +539,7 @@ return array(
     "feedback_saved"            => "Votre retour a été sauvegardé.",
     "how_was_the_help"          => "Comment avez-vous trouvé notre aide ?",
     "update_feedback"           => "Mettre à jour le retour",
-    "verify_user"               => "Veuillez vérifier l'authenticité d el'utilisateur.",
+    "verify_user"               => "Veuillez vérifier l'authenticité de l'utilisateur.",
     "web_channel_name"          => "Web",
     "web_channel_desc"          => "Les tickets ouverts sur l'interface front-end pour les utilisateurs, ou le panneau opérateurs pour les opérateurs.",
     "email_channel_name"        => "E-mail",
