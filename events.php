@@ -8,7 +8,7 @@ return array(
     "new_ticket"            => "Nouveau ticket ouvert",
     "user_reply"            => "Réponse de l'utilisateur",
     "operator_reply"        => "Réponse de l'opérateur",
-    "operator_note"         => "Note de lopérateur",
+    "operator_note"         => "Note de l'opérateur",
     "operator_forward"      => "Transfert de l'opérateur",
     "update_department"     => "Département mis à jour",
     "update_status"         => "Statut mis à jour",
