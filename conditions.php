@@ -7,7 +7,7 @@ return array(
     "assigned_operator"                 => "Opérateur assigné",
     "assigned_operator_group"           => "Groupe d'opérateurs assigné",
     "hours_since_created"               => "Heures depuis la création",
-    "hours_since_updated"               => "Heures depuis dernière mise à jour",
+    "hours_since_updated"               => "Heures depuis la dernière mise à jour",
     "internal_ticket"                   => "Ticket interne",
     "involved_operator"                 => "Opérateur impliqué",
     "last_ticket_replier"               => "Dernier à avoir répondu au ticket",
@@ -19,20 +19,20 @@ return array(
     "ticket_message_content"            => "Contenu du ticket",
     "ticket_message_count"              => "Compteur",
     "ticket_priority"                   => "Priorité du ticket",
-    "ticket_sla_plan"                   => "Plan de service du ticket",
+    "ticket_sla_plan"                   => "SLA du ticket",
     "ticket_status"                     => "Statut du ticket",
     "ticket_subject"                    => "Sujet du ticket",
     "ticket_tag"                        => "Libellé du ticket",
     "ticket_updated"                    => "Ticket mis à jour",
     "user_email"                        => "Email de l'utilisateur",
-    "user_full_name"                    => "Nom complet utilisateur",
+    "user_full_name"                    => "Nom complet de l'utilisateur",
     "user_group"                        => "Groupe de l'utilisateur",
 
     /*
      * 2.1.0
      */
-    "ticket_brand"                      => "Compagnie associée au ticket",
-    "user_brand"                        => "Compagnie de l'utilisateur",
+    "ticket_brand"                      => "Entreprise associée au ticket",
+    "user_brand"                        => "Entreprise de l'utilisateur",
 
     /*
      * 2.2.0
@@ -60,9 +60,9 @@ return array(
      * 2.3.0
      */
     "ticket_cc"                         => "Ticket CC",
-    "ticket_custom_field"               => "Champ spécifique du ticket",
-    "user_custom_field"                 => "Champ spécifique de l'utilisateur",
-    "user_organisation_custom_field"    => "Champ spécifique de l'organisation de l'utilisateur",
+    "ticket_custom_field"               => "Champ personnalisés du ticket",
+    "user_custom_field"                 => "Champ personnalisés de l'utilisateur",
+    "user_organisation_custom_field"    => "Champ personnalisés de l'organisation de l'utilisateur",
     "user_organisation"                 => "Nom de l'organisation de l'utilisateur",
     "user_organisation_brand"           => "Marque de l'organisation de l'utilisateur",
     "user_organisation_country"         => "Pays de l'organisation de l'utilisateur",
@@ -106,5 +106,5 @@ return array(
     /*
      * 3.7.0
      */
-    "user_organisation_access_level"    => "User organisation access level",
+    "user_organisation_access_level"    => "Niveau d'accès de l'organisation",
 );
