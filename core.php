@@ -5,16 +5,16 @@ return array(
     // SupportPal
     "product_name"              => "SupportPal",
     "operator_panel"            => "Panneau de contrôle de l'opérateur",
-    "welcome"                   => "Bienvenue à l'Accès Client Webaxys",
+    "welcome"                   => "Bienvenue à l'Accès Client",
     "welcome_desc"              => "Cliquez pour démarrer un tour guidé des fonctionnalités du système.",
 
     // Dashboard
     "submit_ticket"             => "Soumettre un ticket",
-    "submit_ticket_desc"        => "Utilisez ce formulaire pour soumettre un ticket.",
-    "track_ticket"              => "Faire le suivi d'un ticket",
-    "track_ticket_desc"         => "Utilisez votre e-mail et le numéro de votre ticket pour faire le suivi de son statut.",
+    "submit_ticket_desc"        => "Utilisez ce formulaire pour ouvrir un ticket.",
+    "track_ticket"              => "Suivre un ticket",
+    "track_ticket_desc"         => "Utilisez votre e-mail et le numéro de votre ticket pour faire le suivi du ticket.",
     "my_tickets"                => "Mes tickets",
-    "my_tickets_desc"           => "Faites le suivi de vos tickets. Vous trouverez vos tickets actuellement ouverts, mais aussi des anciens déjà résolus.",
+    "my_tickets_desc"           => "Faites le suivi de vos tickets. Vous trouverez vos tickets actuellement ouverts, mais aussi des anciens tickets déjà résolus.",
     "no_modules"                => "Aucun module n'est activé.",
     "search_results"            => "Résultats de la recherche",
     "found_results"             => "Trouvé :total résultats pour le(s) mots-clé(s) recherché(s)",
@@ -59,15 +59,15 @@ return array(
     "filter_operator_login"     => "Login opérateur",
     "filter_api_access"         => "Accès API",
     "content"                   => "Contenu",
-    "sender"                    => "Envoyeur",
-    "content_sender"            => "Contenu & Envoyeur",
+    "sender"                    => "Expéditeur",
+    "content_sender"            => "Contenu & Expéditeur",
 
     // Company
     "company"                   => "Compagnie|Compagnies",
 
     // Email
     "default_email_addr"        => "Adresse em-ail par défaut",
-    "default_email_addr_desc"   => "Cet e-mail sera utilisé en tant qu'envoyeur dans la plupart des e-mails envoyés par le système.",
+    "default_email_addr_desc"   => "Cet e-mail sera utilisé en tant qu'expéditeur dans la plupart des e-mails envoyés par le système.",
     "include_operator_name"     => "Inclure nom de l'opérateur",
     "include_operator_name_desc" => "Inclure nom de l'opérateur dans le champ 'De' pour les e-mails de réponse aux tickets. Exemple: De: Me Isabelle Tremblay (Le Droit Chemin)",
     "include_dept_name"         => "Inclure nom du département",
@@ -79,15 +79,15 @@ return array(
     "email_template"            => "Template e-mail|Templates e-mails",
     "email_log"                 => "Logs e-mails",
     "email_queue"               => "File d'attente e-mails",
-    "email_queue_desc"          => "Voici les e-mails qui sont en attente d'être envoyés prochainement par le cron.",
+    "email_queue_desc"          => "Voici les e-mails qui sont en attente d'envoi par le cron.",
     "email_method"              => "Méthode courriels",
     "php_mail_function"         => "PHP mail() function",
     "smtp"                      => "SMTP",
     "smtp_host"                 => "Hôte SMTP",
     "smtp_port"                 => "Port SMTP",
-    "smtp_encryption"           => "Encryptage SMTP",
-    "smtp_requires_auth"        => "Requiert authentification",
-    "smtp_username"             => "Usager SMTP",
+    "smtp_encryption"           => "Chiffrement SMTP",
+    "smtp_requires_auth"        => "Authentification requise",
+    "smtp_username"             => "Nom d'utilisateur SMTP",
     "smtp_password"             => "Mot de passe SMTP",
     "ssl"                       => "SSL",
     "tls"                       => "TLS",
@@ -130,7 +130,7 @@ return array(
 
     // System Cleanup
     "system_cleanup"            => "Nettoyage système",
-    "system_cleanup_desc"       => "Utilisez les options disponibles pour supprimer les données qui ne sont plus nécessaires ou voulaient.",
+    "system_cleanup_desc"       => "Utilisez les options disponibles pour supprimer les données qui ne sont plus nécessaires ou que vous ne voulez plus.",
     "files"                     => "Fichiers",
     "files_desc"                => "Les éléments suivants sont stockés sous forme de fichiers sur le système de fichiers.",
     "logs"                      => "Journaux",
@@ -149,7 +149,7 @@ return array(
 
     // Captcha
     "captcha"                   => "Captcha",
-    "show_captcha"              => "Afficher Captcha",
+    "show_captcha"              => "Afficher le Captcha",
 
     // Widgets
     "dashboard"                 => "Panneau de contrôle",
@@ -200,12 +200,12 @@ return array(
     "locale"                    => "Langue",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Dossier Admin",
-    "admin_folder_desc"         => "Définissez le nom du dossier à visiter pour le panneau de commande. Il est recommandé de changer la valeur par défaut \admin\ d'un point de vue de la sécurité. ",
+    "admin_folder_desc"         => "Définissez le nom du dossier utilisé pour le panneau opérateur. Il est recommandé de changer la valeur par défaut \admin\ d'un point de vue sécurité. ",
     "enable_ssl"                => "Activer SSL",
     "maintenance_mode"          => "Mode de Maintenance",
     "maintenance_mode_desc"     => "Désactive la fonctionnalité du help desk publique et montre un message de maintenance. Modifier les ressources / templates / frontend / [modèle] /core/maintenance.twig changer le message qui est affiché aux utilisateurs.",
     "default_user_country"      => "Pays par défaut du client",
-    "default_user_country_desc" => "Le pays qui sera sélectionné par défaut lorsque les client enregistrent.",
+    "default_user_country_desc" => "Le pays qui sera sélectionné par défaut lorsque les client s'inscrivent.",
     "system_timezone"           => "Fuseau horaire du Système",
     "system_timezone_desc"      => "Le fuseau horaire qui est appliqué dans tout le système par défaut. Les opérateurs peuvent changer leur fuseau horaire dans leurs paramètres personnels.",
     "date_format"               => "Format de date",
@@ -215,7 +215,7 @@ return array(
     "simpleauth_key"            => "SimpleAuth Key",
     "simpleauth_key_desc"       => "La clé pour notre authentification (single sign on option), minimum de 16 caractères.",
     "simpleauth_operators"      => "Autoriser pour les opérateurs",
-    "base_url"                  => "Système URL",
+    "base_url"                  => "URL du Système",
     "base_url_desc"             => "Entrez l'adresse Web complète de votre installation, utilisé pour générer les URL qui sont envoyés aux utilisateurs.",
     "debug"                     => "Déboguer",
     "debug_mode"                => "Mode débogage",

@@ -1,12 +1,12 @@
 # SupportPal Language Files - French (fr)
 
-The language files for the [SupportPal](https://www.supportpal.com) system, found at `/resources/lang` in a SupportPal installation. This repository will be used to track changes made to the language files between releases.
+Ces ficheirs langues sont pour la solution [SupportPal](https://www.supportpal.com), localisé dans `/resources/lang` sur votre installation SupportPal. The repo sera utilisé pour suivre les changement fait aux fichiers entre les pulications des differentes versions. 
 
-To choose another language, change the branch. Contributions are very welcome.
+Pour choisir une autre langue, changez la branche. Les contributions sont les bienvenues.
 
-SupportPal is a [self-hosted, on-premise help desk software](https://www.supportpal.com).
+SupportPal est une  [solution auto hébergée de HelpDesk](https://www.supportpal.com).
 
-## Related Repositories
+## Repositories liés
 
 - [Frontend Template](https://github.com/supportpal/frontend-template)
 - [Operator Panel Template](https://github.com/supportpal/operator-template)

@@ -44,7 +44,7 @@ return array(
     "reason"                    => "Raison",
     "colour"                    => "Couleur",
     "detail"                    => "Détail|Détails",
-    "only_enter_to_change"      => "Seulement entrer pour modifier",
+    "only_enter_to_change"      => "Entre uniquement pour modifier",
     "operator"                  => "Opérateur|Opérateurs",
     "staff"                     => "Staff",
     "frontend"                  => "Frontend",
@@ -388,15 +388,15 @@ return array(
     /*
      * 3.6.0
      */
-    "appearance"                => "Appearance",
-    "faster"                    => "Faster",
-    "slower"                    => "Slower",
-    "revoke"                    => "Revoke",
-    "configure"                 => "Configure",
+    "appearance"                => "Apparance",
+    "faster"                    => "Plus vite",
+    "slower"                    => "Plus douvement",
+    "revoke"                    => "Revoquer",
+    "configure"                 => "Configurer",
 
     /*
      * 3.7.0
      */
-    "download_all"              => "Download All",
+    "download_all"              => "Télécharger tout",
 
 );

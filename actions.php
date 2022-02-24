@@ -7,8 +7,8 @@ return array(
     "add_ticket_note"           => "Ajouter une note",
     "add_ticket_reply"          => "Ajouter une réponse",
     "add_tag"                   => "Ajouter un libellé",
-    "assign_operator"           => "Assigner un opérateur",
-    "remove_tag"                => "Retirer libellé",
+    "assign_operator"           => "Assigner à un opérateur",
+    "remove_tag"                => "Retirer un libellé",
     "email_operators"           => "Envoyer e-mail aux opérateurs",
     "email_operator_group"      => "Envoyer e-mail au groupe d'opérateurs",
     "email_user"                => "Envoyer e-mail à l'utilisateur",
@@ -21,15 +21,15 @@ return array(
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Mettre à jour le champ sur mesure",
+    "update_custom_field"       => "Mettre à jour le champ personnalisé",
 
     /*
      * 2.2.0
      */
     "increase_due_time"         => "Allonger l'échéance",
     "close_and_lock_ticket"     => "Fermer et verrouiller le ticket",
-    "pause_due_time"            => "Mettre en pause le temps",
-    "reduce_due_time"           => "Raccourcir l'échance",
+    "pause_due_time"            => "Mettre en pause le'échéance",
+    "reduce_due_time"           => "Raccourcir l'échéance",
     "set_due_time"              => "Mettre une échéance",
     "unlock_ticket"             => "Dévérouiller le ticket",
     "update_sla_plan"           => "Mettre à jour le plan SLA",
@@ -44,7 +44,7 @@ return array(
     "hours_to_be_removed"       => "heures à retirer à l'échéance actuelle.",
     "hours_to_be_set"           => "heures à ajouter à l'échéance actuelle, et à mettre en place pour l'échéance du ticket.",
     "only_with_due_time"        => "Ne s'applique uniquement aux tickets avec une échéancé paramétrée.",
-    "set_due_time_desc"         => "Supprimez l'échéance en laissant le champ vide. Avec un nombre négatif, on peut aussi mettre un date dans le passé.",
+    "set_due_time_desc"         => "Supprimez l'échéance en laissant le champ vide. Avec un nombre négatif, il est également possible de mettre un date dans le passé.",
 
     /*
      * 2.3.0
@@ -62,7 +62,7 @@ return array(
      * 2.4.0
      */
     "trigger_webhook"           => "Trigger webhook",
-    "forward_ticket"            => "Forward ticket",
+    "forward_ticket"            => "Transférer le ticket",
     "watch_ticket"              => "Assigner un opérateur sur le ticket",
     "unwatch_ticket"            => "Ne plus assigner un opérateur sur le ticket",
     "all_watching_operators"    => "Tous les opérateurs assignés",

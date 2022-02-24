@@ -105,7 +105,7 @@ return array(
     "email_operators"           => "Notifier opérateurs",
     "email_operators_desc"      => "Indiquez si vous souhaitez transmettre les réponses de l'opérateur à d'autres opérateurs. Vérifie par défaut les opérateurs de messagerie option dans le panneau de commande, et enverra automatiquement un e-mail pour les réponses par courriel par les opérateurs.",
     // Department email templates
-    "new_ticket_opened"         => "Nouveau ticket oiuvert",
+    "new_ticket_opened"         => "Nouveau ticket ouvert",
     "waiting_for_response"      => "En attente d'une réponse",
     "ticket_auto_closed"        => "Tickets fermés automatiquement",
     "closed_by_operator"        => "Fermé par l'opérateur",
@@ -416,7 +416,7 @@ return array(
     "no_slaplans"               => "Pas de plans SLA trouvés. Cliquez <a href=':route'>ici</a> pour en créer un.",
     "filter_performance"        => "Considérations sur les performances et recommandations",
     "filter_performance_desc"   => "<li>Les filtres qui correspondent à un plus grand nombre de tickets seront plus lents, dans la plupart des cas, essayez d'exclure les tickets résolus.</li><li>Les filtres utilisant des conditions 'is not' seront généralement plus lents que ceux utilisant des conditions 'is'.</li><li>Les filtres vérifiant les valeurs NULL (par exemple, le tag Ticket est None) seront plus lents. </li><li>Évitez les conditions multiples qui impliquent la vérification de chaînes de caractères/mots, car elles introduisent plus de complexité.</li><li>Les filtres utilisant des conditions 'begins with' ou 'contains' seront généralement plus lents que ceux utilisant des conditions 'equals' ou 'ends with'.</li><li>Les tickets résolus sont exclus des décomptes affichés dans la barre latérale.</li>",
-    "run_macro"                 => "LAncer la macro",
+    "run_macro"                 => "Exécuter la macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
 
     /*
@@ -539,7 +539,7 @@ return array(
     "feedback_saved"            => "Votre retour a été sauvegardé.",
     "how_was_the_help"          => "Comment avez-vous trouvé notre aide ?",
     "update_feedback"           => "Mettre à jour le retour",
-    "verify_user"               => "Veuillez vérifier l'authenticité d el'utilisateur.",
+    "verify_user"               => "Veuillez vérifier l'authenticité de l'utilisateur.",
     "web_channel_name"          => "Web",
     "web_channel_desc"          => "Les tickets ouverts sur l'interface front-end pour les utilisateurs, ou le panneau opérateurs pour les opérateurs.",
     "email_channel_name"        => "E-mail",

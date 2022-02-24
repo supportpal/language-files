@@ -7,14 +7,14 @@ return array(
     // Options
     "boolean"                   => "Booléen",
     "checkbox"                  => "Checkbox",
-    "checklist"                 => "Liste de contrôle",
+    "checklist"                 => "Cases à cocher",
     "date"                      => "Date",
-    "multiple"                  => "Options multiples",
+    "multiple"                  => "Selection multiple",
     "options"                   => "Options",
     "radio"                     => "Boutons radio",
-    "rating"                    => "Évaluation (1 to 5)",
+    "rating"                    => "Évaluation (1 à 5)",
     "text"                      => "Texte",
-    "textarea"                  => "Zone texte",
+    "textarea"                  => "Zone de texte",
 
     "public"                    => "Public",
     "public_desc"               => "Si le champ sur mesure est visible au public ou si c'est seulement pour le staff.",
@@ -22,7 +22,7 @@ return array(
     "purge_desc"                => "Si le champ sur mesure doit être supprimé dès que le ticket est résolu.",
     "locked"                    => "Verrouillé",
     "locked_desc"               => "Si le champ sur mesure ne peut pas être modifié par un utilisateur une fois enregistré.",
-    "department_desc"           => "Sélectionner le département où ce champ doit être disponible.",
+    "department_desc"           => "Sélectionnez le département où ce champ doit être disponible.",
 
     /*
      * 2.0.2
@@ -32,7 +32,7 @@ return array(
     /*
      * 2.0.3
      */
-    "description_desc"          => "Le texte d'aide apparaissant sous le champ sur mesure. C'est possible de ne rien indiquer.",
+    "description_desc"          => "Le texte d'aide apparaissant sous le champ sur mesure. Ce champ peut rester vide.",
 
     /*
      * 2.1.0
