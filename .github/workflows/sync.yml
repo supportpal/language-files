@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ matrix.branch }}
 
@@ -27,7 +27,7 @@ jobs:
           tools: composer:v2, supportpal/language-tools
 
       - name: Check out English branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: ${{ matrix.path }}
           ref: master
