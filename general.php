@@ -390,7 +390,7 @@ return array(
      */
     "appearance"                => "Apparance",
     "faster"                    => "Plus vite",
-    "slower"                    => "Plus douvement",
+    "slower"                    => "Plus lent",
     "revoke"                    => "Revoquer",
     "configure"                 => "Configurer",
 
