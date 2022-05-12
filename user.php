@@ -339,4 +339,14 @@ return array(
     "logged_in"                     => "Logged In",
     "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
 
+    /**
+     * 4.0.0
+     */
+    "verify_phone_number"           => "Verify Phone Number",
+    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
+    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
+    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
+    "verify_phone_code_error"       => "Code could not be verified.",
+    "logged_in_as"                  => "Logged in as :name",
+
 );

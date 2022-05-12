@@ -43,4 +43,9 @@ return array(
      */
     "multi_ip_support"  => "Considere habilitar o <a href=':href' target='_blank'>o suporte Multi-IP</a> na área do cliente pra definir endereços de IP adicionais.",
 
+    /*
+     * 4.0.0
+     */
+    "unlicensed"        => "Unlicensed",
+
 );
