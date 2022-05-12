@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "No se ha podido encontrar el ticket con ese número y dirección de correo electrónico.",
 
-    "channel_deactivated"       => "El canal del ticket está actualmente desactivado. No se ha podido publicar la respuesta.",
-
     "type_in_tags"              => "Escribir en etiquetas",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Selecciona las opciones de respuesta por defecto que se establezcan cuando se abra o se responda a un ticket. La opción ':reply_option' se basará en el ticket en los ajustes de departamento ':department_option'.",
     "associate_response_tag"    => "Asociar respuesta predefinida con una etiqueta...",
     "canned_response_tags_desc" => "Añadir etiquetas que puedan ayudar a encontrar una respuesta predefinida cuando se conteste a un ticket.",
-    "loading_tags"              => "Cargando etiquetas",
     "append_ip_address"         => "Anexar dirección IP",
     "append_ip_address_desc"    => "Anexar la dirección IP de los usuarios a sus mensajes cuando estén abriendo y respondiendo a tickets del frontend.",
     "unassign_operator"         => "Desasignar operador",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Combinar tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "La cuenta del canal del ticket ha sido desactivada o eliminada, por lo que no se puede publicar una respuesta.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Seguimientos",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets abiertos desde correo entrante.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets y respuestas publicadas a través de API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Creado en nombre de",
+    "reply_canned_be_posted"    => "En este momento no es posible responder a este ticket; el canal o la cuenta del canal pueden estar desactivados.",
 
 );

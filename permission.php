@@ -62,12 +62,6 @@ return array(
     "tag"               => "Administrar etiquetas",
 
     /*
-     * 2.0.2
-     */
-    // Core
-    "plugin"            => "Ver Plugins",
-
-    /*
      * 2.0.3
      */
     // User
@@ -124,5 +118,11 @@ return array(
      * 3.7.0
      */
     "background_jobs"   => "Ver trabajos en segundo plano",
+
+    /*
+     * 4.0.0
+     */
+    "addon"             => "Ver y gestionar complementos",
+    "system_health"     => "Ver el mantenimiento del sistema",
 
 );

@@ -339,4 +339,14 @@ return array(
     "logged_in"                     => "Inició sesión",
     "revoke_session_desc"           => "Al finalizar una sesión, el dispositivo saldrá automáticamente del panel del operador. También finalizarán todos los tokens de recordatorio en otros dispositivos.",
 
+    /**
+     * 4.0.0
+     */
+    "verify_phone_number"           => "Verificar el número de teléfono",
+    "verify_phone_method"           => "Selecciona el método que te gustaría utilizar para verificar tu número de teléfono.",
+    "verify_phone_code_sent"        => "Se ha enviado un código de verificación a tu número de teléfono. Por favor, introduce este código a continuación.",
+    "verify_phone_code_send_error"  => "Se ha producido un error al enviar el código de verificación. Por favor, inténtalo de nuevo más tarde.",
+    "verify_phone_code_error"       => "No se ha podido verificar el código.",
+    "logged_in_as"                  => "Sesión iniciada como :name",
+
 );

@@ -107,4 +107,9 @@ return array(
      * 3.7.0
      */
     "user_organisation_access_level"    => "Nivel de acceso del usuario de la organización",
+
+    /*
+     * 4.0.0
+     */
+    "last_message_content_exc_notes"    => "Contenido del último mensaje (excluyendo notas)",
 );
