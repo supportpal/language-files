@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Impossible de trouver ticket avec numéro de ticket et adresse e-mail du client indiquée.",
 
-    "channel_deactivated"       => "Le canal de tickets est actuellement désactivée, une réponse ne peut pas être affichée.",
-
     "type_in_tags"              => "Entrer libellés",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Sélectionnez les options de réponse par défaut lors de l'ouverture ou réponse à un ticket. Le ':reply_option' option sera cochée sur la base du ':department_option'. paramètre département",
     "associate_response_tag"    => "Réponse pré-enregistrée associée à un tag ...",
     "canned_response_tags_desc" => "Ajouter des tags qui peuvent aider à trouver une réponse pré-enregistrée lors de la réponse à un ticket.",
-    "loading_tags"              => "Activer tags",
     "append_ip_address"         => "Ajouter adresse IP",
     "append_ip_address_desc"    => "Ajoutez l'adresse IP des utilisateurs à leurs messages quand ils ouvrent et répondent aux tickets à partir du frontend.",
     "unassign_operator"         => "Détacher opérateur",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Fusionner les tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "Ce canal de tickets a été désactivé supprimé, il est donc impossible d'y répondre.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Suivis",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Les tickets ouverts par e-mail.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Les tickets et réponses postés depuis l'API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
