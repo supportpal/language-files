@@ -62,12 +62,6 @@ return array(
     "tag"               => "Hantera etiketter",
 
     /*
-     * 2.0.2
-     */
-    // Core
-    "plugin"            => "Visa plugins",
-
-    /*
      * 2.0.3
      */
     // User
@@ -124,5 +118,11 @@ return array(
      * 3.7.0
      */
     "background_jobs"   => "View Background Jobs",
+
+    /*
+     * 4.0.0
+     */
+    "addon"             => "View and Manage Add-ons",
+    "system_health"     => "View System Health",
 
 );
