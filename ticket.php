@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Kon het ticket met ticketnummer en e-mailadres van de gebruiker niet vinden",
 
-    "channel_deactivated"       => "Dit ticketkanaal is momenteel gesloten, een antwoord kan niet gestuurd worden.",
-
     "type_in_tags"              => "Type in tags",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Selecteer de standaardantwoordopties die moeten worden ingesteld bij het openen of beantwoorden van een ticket. De optie ': reply_option' wordt aangevinkt op basis van de instelling ': department_option'.",
     "associate_response_tag"    => "Voeg tags toe aan het standaardantwoord...",
     "canned_response_tags_desc" => "Het toevoegen van tags kunnen helpen bij het vinden van een standaardantwoord bij het beantwoorden van een ticket.",
-    "loading_tags"              => "Tags worden geladen",
     "append_ip_address"         => "IP-adres toevoegen",
     "append_ip_address_desc"    => "Voeg het IP-adres van gebruikers toe aan hun berichten wanneer ze openen en antwoord geven op tickets van de frontend.",
     "unassign_operator"         => "Operator ongedaan maken",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Tickets Samenvoegen",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "Het ticketkanaalaccount is gedeactiveerd of verwijderd, er kan geen reactie worden geplaatst.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Follow-ups",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets geopend na het verwerken van inkomende e-mail.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets en antwoorden gepost via de API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );

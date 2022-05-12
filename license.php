@@ -43,4 +43,9 @@ return array(
      */
     "multi_ip_support"  => "Overweeg om <a href=':href' target='_blank'>Multi-IP ondersteuning</a> in het klantpaneel in te schakelen om extra IP-adressen te definiëren.",
 
+    /*
+     * 4.0.0
+     */
+    "unlicensed"        => "Unlicensed",
+
 );
