@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Talep numarası ve kullanıcı e-posta adresi girilmiş talep bulunamadı.",
 
-    "channel_deactivated"       => "Talep kanalı şu anda devre dışı, yanıt gönderilemiyor.",
-
     "type_in_tags"              => "Etiketleri Yazın",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Bir talebi açarken veya yanıtlarken ayarlanacak varsayılan cevap seçeneklerini seçin. The ':reply_option' option will be ticked based on the ':department_option' department setting.",
     "associate_response_tag"    => "Associate canned response with a tag...",
     "canned_response_tags_desc" => "Add tags which may help finding a canned response when replying to a ticket.",
-    "loading_tags"              => "Loading tags",
     "append_ip_address"         => "Append IP Address",
     "append_ip_address_desc"    => "Append the IP address of users to their messages when they are opening and replying to tickets from the frontend.",
     "unassign_operator"         => "Unassign Operator",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Merge Tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Follow Ups",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets opened from processing incoming email.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets and replies posted through the API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
