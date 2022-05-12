@@ -43,4 +43,9 @@ return array(
      */
     "multi_ip_support"  => "Рассмотреть возможность <a href=':href' target='_blank'>Поддержки нескольких IP</a> , в клиентской области определить дополнительные IP-адреса.",
 
+    /*
+     * 4.0.0
+     */
+    "unlicensed"        => "Unlicensed",
+
 );

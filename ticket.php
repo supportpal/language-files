@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Не удалось найти тикет с указанным номером и адресом электронной почты пользователя.",
 
-    "channel_deactivated"       => "Канал тикета в настоящее время деактивирован, ответ не может быть опубликован.",
-
     "type_in_tags"              => "Введите теги",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Выберите параметры ответа по умолчанию, которые будут установлены при открытии или ответе на заявку. Опция ': reply_option' будет отмечена галочкой в зависимости от настройки отдела:: Department_option.",
     "associate_response_tag"    => "Связать готовый ответ с тегом ...",
     "canned_response_tags_desc" => "Добавьте теги, которые могут помочь найти постоянный ответ при ответе на заявку.",
-    "loading_tags"              => "Загрузка тегов",
     "append_ip_address"         => "Добавить IP-адрес ",
     "append_ip_address_desc"    => "Добавлять IP-адрес пользователей к их сообщениям, когда они открывают и отвечают на заявки из внешнего интерфейса.",
     "unassign_operator"         => "Исключить оператора",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Объединить тикеты",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "Аккаунт канала тикетов был деактивирован или удален, ответ не может быть опубликован.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Последующие действия ",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets opened from processing incoming email.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets and replies posted through the API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
