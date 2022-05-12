@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Não foi possível encontrar o ticket com o número do tíquete e o endereço de e-mail do usuário inseridos.",
 
-    "channel_deactivated"       => "O canal do ticket está desativado no momento, uma resposta não pode ser postada.",
-
     "type_in_tags"              => "Digite as tags",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Selecione as opções de resposta padrão a serem definidas ao abrir ou responder a um ticket. A opção ':reply_option' será marcada com base na configuração do departamento ':department_option'.",
     "associate_response_tag"    => "Associar resposta pronta a uma tag ...",
     "canned_response_tags_desc" => "Adicione tags que possam ajudar a encontrar uma resposta pronta ao responder a um ticket.",
-    "loading_tags"              => "Carregando tags",
     "append_ip_address"         => "Anexar endereço IP",
     "append_ip_address_desc"    => "Anexe o endereço IP dos usuários às suas mensagens quando eles estiverem abrindo e respondendo aos tickets do frontend.",
     "unassign_operator"         => "Unassign Operator",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Mesclar tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "A conta do canal do ticket foi desativada ou removida. Não é possível postar uma resposta.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Follow Ups",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets opened from processing incoming email.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets and replies posted through the API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
