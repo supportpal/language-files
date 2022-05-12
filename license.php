@@ -43,4 +43,9 @@ return array(
      */
     "multi_ip_support"  => "Rozważ włączenie <a href=':href' target='_blank'>obsługi wielu adresów IP</a> w obszarze klienta, aby zdefiniować dodatkowe adresy IP.",
 
+    /*
+     * 4.0.0
+     */
+    "unlicensed"        => "Unlicensed",
+
 );

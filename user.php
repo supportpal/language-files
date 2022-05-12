@@ -339,4 +339,14 @@ return array(
     "logged_in"                     => "Zalogowany",
     "revoke_session_desc"           => "Odwołanie sesji spowoduje wylogowanie urządzenia z panelu operatora. Unieważni również wszystkie tokeny „zapamiętaj mnie” dla innych urządzeń.",
 
+    /**
+     * 4.0.0
+     */
+    "verify_phone_number"           => "Verify Phone Number",
+    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
+    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
+    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
+    "verify_phone_code_error"       => "Code could not be verified.",
+    "logged_in_as"                  => "Logged in as :name",
+
 );

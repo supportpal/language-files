@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Nie można znaleźć zgłoszenia z wprowadzonym numerem zgłoszenia i adresem e-mail użytkownika.",
 
-    "channel_deactivated"       => "Kanał zgłoszeniowy jest obecnie dezaktywowany, nie można opublikować odpowiedzi.",
-
     "type_in_tags"              => "Wpisz etykiety",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Wybierz domyślne opcje odpowiedzi, które mają być ustawione podczas otwierania lub odpowiadania na zgłoszenie. Opcja ':reply_option' zostanie zaznaczona na podstawie ustawienia działu ':department_option'.",
     "associate_response_tag"    => "Powiąż gotową odpowiedź z etykietą...",
     "canned_response_tags_desc" => "Dodaj etykiety, które mogą pomóc w znalezieniu gotowej odpowiedzi podczas odpowiadania na zgłoszenie.",
-    "loading_tags"              => "Ładowanie etykiet",
     "append_ip_address"         => "Dołącz adres IP",
     "append_ip_address_desc"    => "Dołącz adres IP użytkowników do ich wiadomości, gdy otwierają i odpowiadają na zgłoszenia z frontendu.",
     "unassign_operator"         => "Anuluj przypisanie operatora",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Połącz zgłoszenia",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "Konto kanału zgłoszeniowego zostało dezaktywowane lub usunięte, nie można wysłać odpowiedzi.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Kontynuacje",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Zgłoszenia otwarte z przetwarzania przychodzącej poczty e-mail.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Zgłoszenia i odpowiedzi publikowane przez API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
