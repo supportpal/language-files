@@ -298,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Kunde inte hitta ärendet med det inskrivna ärendenumret och användare-postadressen.",
 
-    "channel_deactivated"       => "Ärendekanalen är för närvarande avaktiverad så ett svar kan inte postas.",
-
     "type_in_tags"              => "Skriv in taggar",
 
     /*
@@ -322,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Välj standardsvarsalternativ som sätts när ett ärende öppnas eller besvaras. ':reply_option'-inställningen blir ikryssad baserad på ':department_option'-avdelningsinställningar.",
     "associate_response_tag"    => "Associera konserverat svar med en etikett...",
     "canned_response_tags_desc" => "Lägg till etiketter som kan hjälpa dig att hitta ett snabbsvar när ett ärende besvaras.",
-    "loading_tags"              => "Laddar etiketter",
     "append_ip_address"         => "Bifoga IP-adress",
     "append_ip_address_desc"    => "Bifoga användarnas IP-adresser till deras meddelande när de öppnar eller svarar på ärenden från framsidan.",
     "unassign_operator"         => "Ta bort tilldelad operatör",
@@ -496,11 +493,6 @@ return array(
     "merge_tickets"             => "Merge Tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Follow Ups",
@@ -546,5 +538,11 @@ return array(
     "email_channel_desc"        => "Tickets opened from processing incoming email.",
     "api_channel_name"          => "API",
     "api_channel_desc"          => "Tickets and replies posted through the API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );
